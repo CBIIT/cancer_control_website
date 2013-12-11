@@ -1,0 +1,48 @@
+.left-nav {
+	background-color: #EAEAEA;
+	border: 1px solid #BDBDBD;
+}
+
+.left-nav-selected {
+	background-color: #FFFFFF;
+	border-left: 1px solid #BDBDBD;
+}
+
+.left-nav-other {
+	background-color: #DCDCDC;
+	border: 1px solid #BDBDBD;
+}
+a.ref_link{
+	color: #339 !important;
+	text-decoration: none !important;
+	/*border-bottom: 1px dashed #333 !important;
+	cursor: help*/;
+}
+.biblio_pop{
+	text-align: left;
+	background-color: #fff;
+	border: 1px solid #999;
+	width: 200px;
+	vertical-align: middle;
+	position: absolute;
+	margin-top: 4px;
+	padding: 3px;
+	z-index: 1;
+	margin-left: -20px;
+	left: 583px;
+	top: 622px;
+}
+
+.close_butt{
+	font-weight: bold;
+	text-decoration: none;
+	text-align: right;
+	color: #000;
+	text-transform: uppercase;
+	font-size: 14px;
+	float: right;
+}
+
+.block{
+	font-family : courier, Trebuchet MS, garamond, serif;
+}

@@ -1,0 +1,696 @@
+@charset "utf-8";
+/* CSS Document */
+body {
+	margin: 0 auto;
+	background-color: #FFFFFF;
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	text-align: center; /*this will center main wrapper within body tags*/
+	color: #333333;
+	font-size: .8em;
+}
+img {
+	border: none;
+}
+h1, h2, h3, h4, h5, h6 {
+	margin: 0 0 10px 0;
+	padding: 0 0 0 0;
+}
+h3 {
+	font-size: 110%;
+}
+h2 {
+	font-size: 120%;
+}
+h1 {
+	font-size: 130%;
+}
+
+h4  {
+	font-size: 100%;
+}
+
+a {
+	color: #700007;
+}
+
+a.intext, a.intext:hover, a.intext:visited {
+	color: #000066;
+}
+
+#wrapper {/*this is the main div that holds the entire page*/
+	width: 1000px;
+	text-align: left;
+	margin: 0 auto;
+}
+.noDecoration{
+text-decoration:none;
+color: #000066;
+}
+#printer /*this is for text only pages*/ {
+	width: 1000px;
+	padding-top: 20px;
+}
+
+#head-row1 {/*top section of the header*/
+	height: 40px;
+	background: #a90101 url(images/head-row1.gif) repeat-x;
+	border-bottom: 1px solid #ffffff;
+}
+#head-row1 #left {/*the top left section of the header*/
+	width: 300px;
+	height: 40px;
+	float: left;
+}
+#head-row1 #right {/*the top right section of the header*/
+	width: 700px;
+	height: 40px;
+	line-height: 40px;
+	vertical-align: middle;
+	text-align: right;
+	color: #FFFFFF;
+	font-size: 80%;
+	float: left;
+}
+#head-row1 #right span {/*twitter links, etc in the search box area*/
+	margin-right: 20px;
+}
+#head-row2 {/*bottom section of the header*/
+	height: 70px;
+	background: #710007 url(images/head-row2.gif);
+}
+#head-row2 #left2 {/*bottom left section of the header: dccps banner*/
+	width: 730px;
+	height: 70px;
+	float: left;
+}
+#head-row2 #right2 {/*div for bottom right section of header: search box and twitter link*/
+	width: 270px;
+	height: 70px;
+	float: left;
+	background: url(images/header-right.gif) no-repeat top left;
+}
+#head-row2 #right2 #north {/*the div for twitter, rss & multimedia links*/
+	height: 20px;
+	line-height: 20px;
+	color: #FFFFFF;
+	font-size: 80%;
+	text-align: right;
+	margin: 0 0 5px 0;
+	padding: 0 10px 0 0;
+	vertical-align: middle;
+}
+#head-row2 #right2 #north img {
+	vertical-align: text-bottom;
+}
+#head-row2 #right2 #north a {
+	color: #ffffff;
+	text-decoration: none;
+}
+#head-row2 #right2 #north a:hover {
+	color: #cccccc;
+}
+#head-row2 #right2 form {
+	background: #dad9d9;
+	height: 32px;
+	width: auto;
+	margin: 0 10px 0 10px;
+	padding: 0px;
+}
+#head-row2 #right2 .htextf {/*the textfield styling in the search bar*/
+	background: url(images/htextf.gif) no-repeat left top;
+	border: 1px solid #dad9d9;
+	height: 20px !important;
+	line-height: 20px;
+	vertical-align: middle;
+	color: #999999;
+	font-size: 100%;
+	padding: 0 0 0 10px;
+	float: left;
+	margin: 5px 0 0 5px;
+	width: 180px;
+	
+}
+#head-row2 #right2 .hbutton {/*the search button styling in the header*/
+	border: 1px solid #dad9d9;
+	float: left;
+	margin: 5px 0 0 5px;
+}
+#mainarea {
+	height: inherit;
+}
+#foot-row1 {/*top section of the footer*/
+	border-top: 10px solid #710007;
+	font-size: 80%;
+	color: #999999;
+	padding: 10px 0 20px 0;
+	text-align: center;
+}
+#foot-row2 {/*bottom section of the footer*/
+	height: 90px;
+	text-align: center;
+}
+/*there are 4 blocks of code starting with #column position the main columns of the page.*/
+#column-left1 {/*left column for all layouts*/
+	float: left;
+	width: 200px;
+	margin: 20px 20px 20px 0;
+	font-size: 90%;
+}
+
+#column-right1 {/*the right column for 3 column layouts*/
+	float: left;
+	width: 200px;
+	margin: 20px 0 20px 0;
+	font-size: 90%;
+}
+#column-mid1 {/*the mid column for the 3 column layout*/
+	float: left;
+	width: 560px;
+	margin: 20px 20px 20px 0;
+}
+#column-mid2 {/*the right column for 2 column layout*/
+	float: left;
+	width: 780px;
+	margin: 20px 0 20px 0;
+}
+.update {
+	font-size: 80%;
+	font-weight: bold;
+	color: #999999;
+	padding: 10px 0 10px 0;
+	text-align: center;
+}
+.clearfloat {/*hack to enable floating divs stay within their containers*/
+	clear: both;
+	height: 0;
+	line-height: 0;
+	font-size: 0;
+}
+.content {
+	font-size: 90%;
+}
+.image1 {/*class assigned to tiles in the columns*/
+	margin: 0 0 20px 0;
+	border: none;
+}
+
+.video1 {
+	width: 560px;
+	height: auto;
+	margin: 0;
+	font-size: 80%;
+	text-align: center;
+}
+.priority {
+	color: #CC0000 !important;
+}
+ul.mlist1 {/*nested lists in the content section - with a left float*/
+	font-size: 100%;
+	margin: 20px 0 0 0;
+	padding: 0;
+}
+ul.mlist1 li {
+	width: 280px;
+	float: left;
+	list-style: none;
+	margin: 0 0 0 0;
+	padding: 0;
+	display: block;
+	background: url(images/mlist1.gif) no-repeat left top;
+}
+ul.mlist1 li ul {
+	padding: 0 10px 20px 30px;
+	margin: 3px 20px 0 0;
+}
+ul.mlist1 li ul li {
+	background: none;
+	float: none;
+	height: auto;
+	width: auto;
+	list-style-image: url(images/mlist3.gif);
+	padding: 0;
+	margin: 0 0 5px 10px;
+	color: #666666;
+}
+ul.mlist1 li ul li a {
+	color: #666666;
+}
+ul.mlist1 li ul li.mlink1 {/*top level red link*/
+	font-size: 120%;
+	font-weight: bold;
+	background: transparent;
+	list-style-image: none;
+	list-style-type: none;
+	margin: 0 0 5px 0;
+	color: #a90101;
+}
+ul.mlist1 li ul li.mlink1 a {
+	text-decoration: none;
+	color: #a90101;
+}
+ul.mlist1 li ul li.mlink1 a:hover {
+	text-decoration: underline;
+	color: #a90101;
+}
+ul.mlist2 {/*style for the lists in the content section - without a left float and a width restriction*/
+	font-size: 90%;
+	margin: 20px 0 0 0;
+	padding: 0;
+}
+ul.mlist2 li {
+	/*width: 290px;
+	float: left;*/
+	list-style: none;
+	margin: 0;
+	padding: 0;
+	background: url(images/mlist1.gif) no-repeat left top;
+}
+ul.mlist2 li ul {
+	padding: 2px 10px 20px 30px;
+	margin: 0 20px 0 0;/*because IE is a brat, we are gonna have to sweet talk it! :) */
+}
+/*another adjustment because IE 7 is a prodigal child*/
+* html ul.mlist2 li ul {
+	margin: -14px 20px 0 0;
+}
+ul.mlist2 li ul li {
+	background: none;
+	float: none;
+	height: auto;
+	width: auto;
+	list-style-image: url(images/mlist3.gif);
+	list-style-type: disc;
+	padding: 0;
+	margin: 0 0 2px 10px;
+	color: #666666;
+	font-size: 100%;
+}
+ul.mlist2 li ul li a {
+	color: #666666;
+}
+ul.mlist2 li ul li.mlink1 {
+	font-size: 110%;
+	font-weight: bold;
+	background: transparent;
+	list-style-image: none;
+	list-style-type: none;
+	margin: 0 0 5px 0;
+	color: #a90101;
+}
+ul.mlist2 li ul li.mlink1 a {
+	text-decoration: underline;
+	color: #a90101;
+}
+ul.mlist2 li ul li.mlink1 a:hover {
+	color: #999999;
+}
+ul.mlist3 {
+	font-size: 11px;
+	margin: 0 0 20px 20px;
+	padding: 0 0 0 0;
+}
+ul.mlist3 li {
+	/*list-style: disc;*/
+	list-style-image: url(images/mlist3.gif);
+	padding: 2px 0 0 0;
+	margin: 0 0 5px 0;
+}
+/*styling for independent columns in the middle of the homepage*/
+ul.mlist4 {/*style for the lists in the content section - with a left float*/
+	font-size: 100%;
+	margin: 20px 0 0 0;
+	padding: 0;
+	width: 280px;
+	float: left;
+}
+ul.mlist4 li {
+	/*float: left;*/
+	list-style: none;
+	margin: 0 0 0 0;
+	padding: 0;
+	display: block;
+	background: url(images/mlist1.gif) no-repeat left top;
+}
+ul.mlist4 li ul {
+	padding: 0 10px 20px 30px;
+	margin: -12px 20px 0 0;
+}
+ul.mlist4 li ul li {
+	background: none;
+	float: none;
+	height: auto;
+	width: auto;
+	list-style: url(images/mlist3.gif);
+	padding: 0;
+	margin: 0 0 5px 10px;
+	color: #666666;
+}
+ul.mlist4 li ul li a {
+	color: #666666;
+}
+ul.mlist4 li ul li.mlink1 {
+	font-size: 110%;
+	font-weight: bold;
+	background: transparent;
+	list-style: none;
+	margin: 0 0 5px 0;
+	color: #a90101;
+}
+ul.mlist4 li ul li.mlink1 a {
+	text-decoration: underline;
+	color: #a90101;
+}
+ul.mlist4 li ul li.mlink1 a:hover {
+	color: #999999;
+}
+/*end homepage columns*/
+
+ul.slist1 {
+	font-weight: bold;
+	margin: 0;
+	padding: 0;
+}
+ul.slist1 li {
+	list-style: none;
+	/*background: url(images/slist1.gif)  no-repeat;*/
+	padding: 0 0 0 20px;
+	margin: 0 0 5px 0;
+}
+ul.slist1 li a {
+	color: #666666;
+}
+ul.slist2 {
+	margin: 0;
+	padding: 0;
+}
+ul.slist2 li {
+	list-style: none;
+	margin: 0 0 5px 0;
+}
+ul.slist2 li a {
+	color: #666666;
+}
+ul.slist3 {
+	margin: 0;
+	padding: 0;
+}
+ul.slist3 li {
+	margin: 0 0 5px 20px;
+	padding: 0;
+	list-style: url(images/mlist3.gif);
+}
+ul.slist3 li a {
+	color: #666666;
+}
+ul.flist1 {
+	margin: auto;
+	padding: 0;
+	width: 100%;
+	text-align: center;
+}
+ul.flist1 li {
+	list-style: none;
+	display: inline;
+}
+ul.flist1 li img {
+	border: none;
+}
+ul.flist2 {
+	margin: auto;
+	padding: 0;
+	width: 100%;
+	text-align: center;
+}
+ul.flist2 li {
+	list-style: none;
+	display: inline;
+	margin: 0 10px 0 10px;
+}
+ul.flist2 li a {
+	color: #666666;
+}
+
+/* style used on d4d/d&ir right column items - adding more space to bottom of the list items */
+ul.itemsList { margin:0; padding:0; }
+ul.itemsList li { list-style: none; margin: 0 0 15px 0;}
+ul.slist2 li a { color: #666666; }
+
+/*if you decide to go the CSS3 route with the rounded corners*/
+#dccps-link {
+	border: 1px solid #bdbdbd;
+	background: #ffffff url(images/dccps-logo1.gif) no-repeat center left;
+	padding: 10px 10px 10px 40px;
+	/*height: auto;*/
+	font-weight: bold;
+	font-size: 95%;
+	border-radius: 8px;
+	-moz-border-radius: 8px;
+	-webkit-border-radius: 8px;
+	/*behavior: url(http://mmg-wdev.matthewsgroup.com/dccps-redesign/pie.htc);*/ /* Use this line locally */
+	 behavior: url(/pie.htc); /* -- use this line on dev and prod servers*/
+	margin: 0 0 20px 0;
+}
+
+#dccps-link a {
+	color: #666666;
+}
+
+#is-link {
+	border: 1px solid #bdbdbd;
+	background: #ffffff url(IS/images/is_icon.gif) no-repeat center left;
+	padding: 10px 10px 10px 40px;
+	/*height: auto;*/
+	font-weight: bold;
+	font-size: 95%;
+	border-radius: 8px;
+	-moz-border-radius: 8px;
+	-webkit-border-radius: 8px;
+	/*behavior: url(http://mmg-wdev.matthewsgroup.com/dccps-redesign/pie.htc);*/ /* Use this line locally */
+	 behavior: url(/pie.htc);  /*-- use this line on dev and prod servers*/
+	margin: 0 0 20px 0;
+}
+
+#is-link a {
+	color: #666666;
+}
+
+#reaim-link {
+	border: 1px solid #bdbdbd;
+	background: #ffffff url(IS/images/reaim_icon.gif) no-repeat center left;
+	padding: 10px 10px 10px 40px;
+	/*height: auto;*/
+	font-weight: bold;
+	font-size: 95%;
+	border-radius: 8px;
+	-moz-border-radius: 8px;
+	-webkit-border-radius: 8px;
+	/*behavior: url(http://mmg-wdev.matthewsgroup.com/dccps-redesign/pie.htc);*/ /* Use this line locally */
+	 behavior: url(/pie.htc);  /*-- use this line on dev and prod servers*/
+	margin: 0 0 20px 0;
+}
+
+#reaim-link a {
+	color: #666666;
+}
+
+.d-case1 {
+	border: 1px solid #bdbdbd;
+	background: #ffffff url(images/dccps-logo1.gif) no-repeat center left;
+	padding: 10px 10px 10px 40px;
+	/*height: auto;*/
+	font-weight: bold;
+	font-size: 95%;
+	border-radius: 8px;
+	-moz-border-radius: 8px;
+	-webkit-border-radius: 8px;
+	/*behavior: url(http://mmg-wdev.matthewsgroup.com/dccps-redesign/pie.htc);*/ /* Use this line locally */
+	 behavior: url(/pie.htc); /* -- use this line on dev and prod servers*/
+	margin: 0 0 20px 0;
+}
+
+.d-case1 a {
+	color: #666666;
+}
+
+.d-case2 {/*main div container for left & right boxes containing */
+	border-left: 1px solid #bdbdbd;
+	border-right: 1px solid #bdbdbd;
+	border-bottom: 1px solid #bdbdbd;
+	background: #ffffff;
+	padding: 10px;
+	height: auto;
+	border-radius: 0px 0px 8px 8px;
+	-moz-border-radius: 0px 0px 8px 8px;
+	-webkit-border-bottom-right-radius: 8px;
+	-webkit-border-bottom-left-radius: 8px;
+	/*behavior: url(http://mmg-wdev.matthewsgroup.com/dccps-redesign/pie.htc);*/ /* Use this line locally */
+	 behavior: url(/pie.htc); /* -- use this line on dev and prod servers*/
+	margin: 0 0 20px 0;
+}
+.d-case2 a {
+	color: #666666;
+}
+.d-case2 .c-link {/*top level link for toggle menu*/
+	float: left;
+	text-align: left;
+	width: 150px;
+	font-weight: bold;
+	height: auto;
+	margin: 0 0 5px 0;
+}
+
+.d-case2 .c-link a {
+	color: #666666;
+}
+
+.d-case2 .itoggle {/*plus & minus image container for toggle menu*/
+	float: left;
+	width: 20px !important;
+	display: block;
+	vertical-align: top;
+	margin: -3px 0 0 0;
+}
+
+.d-case2 ul.plist1 {/*sublink list for toggle menu*/
+	margin: 0 20px 10px 20px;
+	padding: 0;
+}
+
+.d-case2 ul.plist1 a {
+	color: #666666;
+}
+
+.d-case2 ul.plist1 li {
+	list-style-image: url(images/mlist3.gif);
+	margin: 0 0 5px 0;
+}
+
+.d-head {/*div for left & right column box titles*/
+	border: 1px solid #bdbdbd;
+	background: #e6e6e2 url(images/c-head.gif);
+	font-weight: bold;
+	padding: 10px;
+	font-family: Arial, Helvetica, Verdana, sans-serif;
+	font-size: 120%;
+	border-radius: 8px 8px 0px 0px;
+	-moz-border-radius: 8px 8px 0px 0px;
+	-webkit-border-bottom-right-radius: 0px;
+	-webkit-border-bottom-left-radius: 0px;
+	/*behavior: url(http://mmg-wdev.matthewsgroup.com/dccps-redesign/pie.htc);*/ /* Use this line locally */
+	 behavior: url(/pie.htc); /* -- use this line on dev and prod servers*/
+}
+
+.d-case3 {/*main div container for left & right boxes containing */
+	border: 1px solid #bdbdbd;
+	background: #ffffff;
+	padding: 10px;
+	height: auto;
+	border-radius: 8px;
+	-moz-border-radius: 8px;
+	-webkit-border-radius: 8px;
+	/*behavior: url(http://mmg-wdev.matthewsgroup.com/dccps-redesign/pie.htc);*/ /* Use this line locally */
+	 behavior: url(/pie.htc); /* -- use this line on dev and prod servers*/
+	margin: 0 0 20px 0;
+}
+
+.d-case4 {/*main box for main home dccps link*/
+	border: 1px solid #bdbdbd;
+	background: #ffffff;
+	padding: 10px;
+	height: auto;
+	font-weight: normal;
+	margin: 0 0 20px 0;
+	border-radius: 8px;
+	-moz-border-radius: 8px;
+	-webkit-border-radius: 8px;
+	/*behavior: url(http://mmg-wdev.matthewsgroup.com/dccps-redesign/pie.htc);*/ /* Use this line locally */
+	 behavior: url(/pie.htc); /* -- use this line on dev and prod servers*/
+}
+
+.d-case3 a {
+	color: #666666;
+}
+.d-case3 .c-link {/*top level link for toggle menu*/
+	float: left;
+	text-align: left;
+	width: 150px;
+	font-weight: bold;
+	height: auto;
+	margin: 0 0 5px 0;
+}
+
+.d-case3 .c-link a {
+	color: #666666;
+}
+
+.d-case3 .itoggle {/*plus & minus image container for toggle menu*/
+	float: left;
+	width: 20px !important;
+	display: block;
+	vertical-align: top;
+	margin: -3px 0 0 0;
+}
+
+.d-case3 ul.plist1 {/*sublink list for toggle menu*/
+	margin: 0 20px 10px 20px;
+	padding: 0;
+}
+
+.d-case3 ul.plist1 a {
+	color: #666666;
+}
+
+.d-case3 ul.plist1 li {
+	list-style-image: url(images/mlist3.gif);
+	margin: 0 0 5px 0;
+}
+
+.rounded-border {
+	border: 1px solid #bdbdbd;
+	background: #ffffff;
+	padding: 10px;
+	/*height: auto;*/
+	border-radius: 8px;
+	-moz-border-radius: 8px;
+	-webkit-border-radius: 8px;
+	/*behavior: url(http://mmg-wdev.matthewsgroup.com/dccps-redesign/pie.htc);*/ /* Use this line locally */
+	 behavior: url(/pie.htc); /* -- use this line on dev and prod servers*/
+}
+
+/*General styles*/
+
+.hr {
+  	color: 000;
+	border:thin;
+}
+
+.background-ncicb {
+	background-color : #E5E4E4;
+	text-align: left;
+}
+
+.caption {
+	font-size:11px;
+	color:#4d4d4d;
+	font-family: Arial, Verdana, Trebuchet MS, Tahoma, sans-serif;
+}
+
+.odtimeline {
+	font-weight:bold;
+	color:#fff;
+}
+
+td.continuum {
+	background-image:url(images/continuum_white_red_arrow.jpg);
+	height:12px;
+}
+
+/* d4d/d&i */
+.color-red { color: #f00; font-weight:bold; }
+.DDICtable { width: 785px; height: 363px; }
+.DDICtable td { padding: 5px; width: 225px; border: 1px solid #999999; } 
+.DDICtable p { margin: 0px 3px 15px 3px; }
+.backToTop { text-align:right; margin-bottom: 3em; }
+
+/* use this class instead of 2 <br /> to give lists breathing room */
+.padListItems li { margin-bottom: 15px; }

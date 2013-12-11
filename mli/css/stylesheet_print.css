@@ -1,0 +1,231 @@
+﻿body, html
+{
+	margin: 0;	
+	padding: 0;
+	FONT-FAMILY: Arial, Helvetica, sans-serif;
+	FONT-SIZE: 13px;
+	BACKGROUND-COLOR: white;
+}
+
+#container
+{
+	margin-left: auto;
+	margin-right: auto;
+	/*border: 2px solid #CEC55E;	*/
+	background-color: white;
+}
+
+
+
+#banner
+{
+	margin: 0;
+	padding: 0;
+	background-color: #DEEDC8;
+	
+}
+
+#banner img
+{
+display:none;
+visibility:hidden;
+}
+
+#navbar
+{
+	font-weight: bold;
+	text-align: center;
+	margin:0;
+	padding:0;
+	/*border-left: 1px solid #999999;
+	border-right: 1px solid #999999;*/
+	color: red;
+	width:150px;
+	margin-top:0px;
+	float:left;
+	vertical-align:top;
+}
+
+#navbar a
+{
+	color: #5C246B;
+	/*padding-left: 5px;*/
+	text-decoration: none;
+	/*border-left: 1px solid #999999*/;
+}
+
+#navbar div
+{
+	/*padding-left: 5px;*/
+	/*background-color: #EAEAEA;*/
+	text-decoration: none;
+	/*border-top: 1px solid #999999;
+	border-bottom: 1px solid #999999;*/
+	width:150px;
+	padding-top:10px;
+	padding-bottom:10px;
+}
+
+#Glow
+{
+background-color: #EAE8BF;
+}
+
+#noGlow
+{
+background-color: #EAEAEA;
+}
+
+#navbar a:hover
+{
+	color: blue;
+
+	text-decoration: underline;
+}
+
+#content, #content-index
+{
+	background-color: white;
+	/*padding-top: 10px;
+	padding-left: 10px;
+	padding-right: 35px;
+	padding-bottom: 50px;*/
+	width:650px;
+	vertical-align:top;		
+	float:right;	
+}
+
+ul
+{
+	margin-top: 5px;
+}
+
+ol
+{
+	margin-top: 5px;
+}
+
+ol li
+{
+	margin-bottom: 5px;
+}
+
+.closePara
+{
+	margin-top: 5px;
+}
+
+.subSection p
+{
+	margin-bottom: 7px;
+	margin-top: 0px;
+}
+
+#backToTop
+{
+	font-size: 12px;
+	margin-left: 10px;
+	margin-bottom: 5px;
+	border-top: 1px solid #CCCCCC;
+	border-bottom: 1px solid #CCCCCC;
+	width: 120px;
+	padding-left: 10px;
+	padding-top: 10px;
+	padding-bottom: 10px;
+	margin-top: 20px;
+	/*float: right;*/
+}
+
+#footer
+{
+	padding-bottom: 10px;
+	text-align:center;
+	margin-top: 20px;
+	
+}
+
+#footer img
+{
+	vertical-align:middle;
+	margin-left: 10px;
+	margin-right: 10px;
+}
+
+H1
+{
+	FONT-FAMILY: Arial, Helvetica, sans-serif;
+	FONT-SIZE: 26px;
+	color: #5C246B;
+}
+
+H2
+{
+	FONT-FAMILY: Arial, Helvetica, sans-serif;
+	FONT-SIZE: 20px;
+	color: #5C246B;
+	margin-bottom: 0;
+	margin-top: 0;
+}
+
+
+
+H3
+{
+	FONT-FAMILY: Arial, Helvetica, sans-serif;
+	FONT-SIZE: 18px;
+	color: black;
+	margin-bottom: 3px;
+	margin-top: 10px;
+}
+
+H4
+{
+	FONT-FAMILY: Verdana, Arial, Helvetica,sans-serif;
+	FONT-SIZE: 14px;
+	margin-bottom: 0em;
+	margin-top: 0em;
+}
+
+H5
+{
+	FONT-FAMILY: Verdana, Arial, Helvetica,sans-serif;
+	FONT-WEIGHT: bold;
+	FONT-SIZE: 12px;
+}
+
+.drafttext
+{
+	color: red;
+	font-size: 16px;
+	
+}
+
+.dtWidth
+{
+width:350px;
+
+
+}
+
+.dtWidth1
+{
+width:150px;
+
+
+}
+
+.dtWidth2
+{
+width:150px;
+
+
+}
+
+.subSection
+{
+	margin-top: 20px;
+}
+.spacer
+{
+	margin-top:20px;
+}

@@ -1,0 +1,379 @@
+html, body, div, span, applet, object, iframe, h1, h2, h3, h4, h5, h6, p, blockquote, pre, a, abbr, acronym, address, big, cite, code ,del, dfn, em, img, ins, kbd, q, s, samp, small, strike, strong, tt, var, b, u, i, center, dl, dt, dd, ol, ul, li, fieldset, form, label, legend, table, caption, tbody, tfoot, thead, tr, th, td, article, aside, canvas, details, embed, figure, figcaption, footer, header, hgroup, menu, nav, output, ruby, section, summary, time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+
+footer {
+  background-color: #ecf5fb;
+  margin:-20px;
+  padding:10px;
+}
+
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, footer, header, hgroup, menu, nav, section { display: block; }
+body { line-height: 1; }
+ol, ul { list-style: none; }
+blockquote, q { quotes: none; }
+blockquote:before, blockquote:after, q:before, q:after { content: ''; content: none; }
+table { border-collapse: collapse; border-spacing: 0; }
+
+p, td, blockquote, sub, sup, a {
+	font:Verdana, Geneva, sans-serif;
+	font-size:14px;	
+}
+
+.non-visual { position: absolute; height: 1px; width: 1px;overflow: hidden;text-indent: -9999px;}
+
+.center { text-align:center; }
+
+ /* CUSTOMIZE THE NAVBAR
+    -------------------------------------------------- */
+
+    /* Special class on .container surrounding .navbar, used for positioning it into place. */
+    .navbar-wrapper {
+      position: absolute;
+      top: 0;
+      left: 0;
+      right: 0;
+      z-index: 10;
+      margin-top: 20px;
+      margin-bottom: -90px; /* Negative margin to pull up carousel. 90px is roughly margins and height of navbar. */
+    }
+    .navbar-wrapper .navbar {
+
+    }
+
+    /* Remove border and change up box shadow for more contrast */
+    .navbar .navbar-inner {
+      border: 0;
+      -webkit-box-shadow: 0 2px 10px rgba(0,0,0,.25);
+         -moz-box-shadow: 0 2px 10px rgba(0,0,0,.25);
+              box-shadow: 0 2px 10px rgba(0,0,0,.25);
+    }
+
+    /* Downsize the brand/project name a bit */
+    .navbar .brand {
+      padding: 14px 20px 16px; /* Increase vertical padding to match navbar links */
+      font-size: 16px;
+      font-weight: bold;
+      text-shadow: 0 -1px 0 rgba(0,0,0,.5);
+    }
+	
+    /* Offset the responsive button for proper vertical alignment */
+    .navbar .btn-navbar {
+      margin-top: 10px;
+    }
+	
+	#header, .navbar {
+      margin: 0px -20px;
+    }
+
+    .main-content {
+      margin-top:40px;
+    }
+
+    .main-content h2 {
+      font-weight: normal;
+    }
+
+/* Site Resources */
+#main-container {
+    background-color: #FFFFFF;
+	max-width: 1024px;
+    margin: 0 auto;
+	position:relative;
+}
+
+#content {
+	padding:20px;
+}
+
+#content-column {
+	width:30%;
+	padding:10px;	
+}
+
+.last-updated { float:right; font-size:14px; font-weight:bold; }
+
+#main-container #header-search {
+	position: absolute;
+	top: 75px;
+	right: 15px;
+	width: 200px;
+	padding: 0px;
+	display: block;
+}
+
+@media (min-width: 768px) {
+  #main-container #header-search input[type=text] {
+  	-webkit-border-radius: 0px;
+  	-webkit-appearance: none;
+  	float: left;
+  	padding: 10px;
+  	padding-left: 1.488095238095238%;
+  	border: 0px;
+  	height: 16px;
+  	text-indent: 6px;
+  	display: block;
+  	color: #666666;
+  	background-color: #ffffff;
+  	width: 90%;
+  }
+  #main-container {
+    box-shadow: 0 0 48px 1px black;
+	padding: 0 20px;
+}
+}
+@media (max-width: 767px) {
+  #main-container #header-search {
+    top: 130px;
+  }
+    #main-container #header-search input[type=text] {
+    top: 130px;
+    -webkit-border-radius: 0px;
+    -webkit-appearance: none;
+    float: left;
+    padding: 0px;
+    padding-left: 1.488095238095238%;
+    border: 0px;
+    height: 30px;
+    text-indent: 6px;
+    display: block;
+    color: #666666;
+    background-color: #ffffff;
+    width: 90%;
+    margin-top:4px;
+    border: solid #cccccc 1px;
+  }
+
+}
+
+#main-container #header-search input[type=button], input[type=submit] {
+	-webkit-border-radius: 0px;	
+	float: right;
+	height: 28px;
+	width: 9.6551724137931034482758620689655%;
+	/*background: #ffffff url('../img/magnify_glass.png') no-repeat center 4px;*/
+	padding: 0px;
+	margin: 0px;
+	border: 0px;
+	outline: 0px;
+	-webkit-border-radius:0px;
+}
+
+#main-container #header-search input[type=image] {
+  margin-left:-24px;
+  margin-top:8px;
+}
+
+      .sidebar-nav {
+        padding: 9px 0;
+      }
+
+/* Header */
+#header {
+	height:135px;
+}
+#header #nci-banner {
+	background: url("/images/banner-nci.jpg") no-repeat scroll center top #A90101;	
+	height:61px;
+}
+#header #cancercontrol-banner {
+	background: url("/images/banner-cancercontrol.jpg") no-repeat scroll center top #096598;	
+	height:74px;
+}
+
+@media (max-width: 767px) {
+  #header #nci-banner {
+    background: url("/images/banner-nci-sml.png") no-repeat #A90101;  
+    height:61px;
+  }
+  #header #cancercontrol-banner {
+    background: url("/images/banner-cancercontrol-sml.png") no-repeat #096598;  
+    height:62px;
+  }
+}
+
+@media (max-width: 979px) {
+  #header #nci-banner {
+    background: url("/images/banner-nci-sml.png") no-repeat #A90101;  
+    height:61px;
+  }
+  #header #cancercontrol-banner {
+    background: url("/images/banner-cancercontrol-sml.png") no-repeat #096598;  
+    height:74px;
+  }
+}
+
+
+#header #nci-banner a {
+	display: block;
+	height:61px;
+	width: 100%;
+}
+#header #cancercontrol-banner a {
+	display: block;
+	height:74px;
+	width: 100%;
+}
+
+#header #nci-banner a > span {
+	display: none;
+}
+#header #cancercontrol-banner a > span {
+	display: none;
+}
+
+/* footer */
+
+.footer-box { background-color:#6ba3c3; color:#fff; padding-top:10px; }
+
+.footer-box > ul li {
+    display: inline;
+    list-style: none outside none;
+    margin: 0 5px;
+}
+
+.footer-box > ul li a {
+    color:#fff;
+}
+
+.footer-box > ul li a:hover, .footer-box > ul li a:visited {
+    color:#fff;
+}
+
+.footer-header { font-weight:bold; }
+
+footer a { color:#696559; }
+
+footer a:hover { color:#696559; }
+
+.footer-box a { font-size:0.9em; }
+
+    .bottom-border {
+      border-bottom: solid #cccccc 1px;
+      margin-bottom: 10px;
+    }
+	
+    .bottom-margin {
+      margin-bottom:20px;
+    }
+
+    a.footer-twitter {
+      color:#696559;
+      background-image:url(/images/footer-twitter.png);
+      background-repeat: no-repeat;
+      padding-left:30px;
+      padding-top:5px;
+      padding-bottom:5px;
+      height:40px;
+    }
+
+ /* Skip Navigation */
+#skip {
+    text-align: left;
+}
+#skip a {
+    height: 1px;
+    left: -10000px;
+    overflow: hidden;
+    position: absolute;
+    width: 1px;
+}
+#skip a:focus, #skip a:active {
+    height: auto;
+    left: 0;
+    overflow: visible;
+    position: static;
+    text-decoration: underline;
+    width: auto;
+}
+div#skipmenu {
+    position: relative;
+}
+div#skipmenu a.skippy {
+    height: 1px;
+    left: -1000px;
+    overflow: hidden;
+    position: absolute;
+    top: -1000px;
+    width: 1px;
+}
+div#skipmenu a.skippy:active, div#skipmenu a.skippy:focus, div#skipmenu a.skippy:hover {
+    color: black;
+    font-size: 1em;
+    font-weight: bold;
+    height: 1em;
+    left: auto;
+    margin-bottom: 25px;
+    padding-bottom: 15px;
+    position: absolute;
+    text-align: right;
+    top: auto;
+    width: 100%;
+    z-index: 100;
+}
+
+@media (min-width: 768px) and (max-width: 979px) {
+	#main-container { max-width: 768px; }
+}
+
+@media (min-width: 768px) {
+	.help-info p{
+		font-size:0.9em;
+        margin-left:-30px;
+      }
+}
+
+@media (max-width: 980px) {
+    /* Enable use of floated navbar text */
+    .navbar-text.pull-right {
+    	float: none;
+        padding-left: 5px;
+        padding-right: 5px;
+    }
+}
+
+@media (min-width: 1200px) {
+	#main-container {
+		max-width: 1200px;
+		padding: 0 20px;
+	}
+}
+
+
+
+
+    .footer-logos {
+      margin-top: 20px;
+    }
+
+    .footer-help {
+      width: 91px;
+      height: 50px;
+    }
+	
+	.content-greybox {
+      background-color: #ececec;
+      border: 1px #cccccc solid;
+      margin-bottom:1em;
+      padding:10px;
+    }
+	
+	.content-greybox.inline {
+		float:left;
+		margin:10px;
+	}
+	
+	.content-greybox .active {
+      color: #096598;
+	  font-weight:bold;
+    }
+	
+	.content-greybox a {
+      color: #A90101;
+	}

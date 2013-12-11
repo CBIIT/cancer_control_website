@@ -1,0 +1,369 @@
+
+    /* GLOBAL STYLES
+    -------------------------------------------------- */
+    /* Padding below the footer and lighter body text */
+
+    body {
+      padding-bottom: 40px;
+      color: #5a5a5a;
+    }
+
+    /* CUSTOMIZE THE CAROUSEL
+    -------------------------------------------------- */
+
+    /* Carousel base class */
+    .carousel {
+      margin-bottom: 60px;
+    }
+
+    .carousel-caption {
+      width:50%;
+      margin-left:auto;
+      margin-right:auto;
+      padding-top:25px;
+      padding-bottom:25px;
+      background: rgba(0, 0, 0, 0.40)
+    }
+
+    .carousel-caption p {
+      line-height: 30px;
+      padding-left:20px;
+    }
+
+    .carousel-control {
+      height: 80px;
+      margin-top: 0;
+      font-size: 120px;
+      text-shadow: 0 1px 1px rgba(0,0,0,.4);
+      background-color: transparent;
+      border: 0;
+      z-index: 10;
+    }
+
+    .carousel .item {
+      height: 350px;
+    }
+    .carousel img.splash{
+      position: absolute;
+      top: 0;
+      left: 0;
+      min-width: 100%;
+      height: 350px;
+    }
+
+	.navbar {
+	  margin-bottom:0;
+	}
+
+    /* MAIN CONTENT
+    -------------------------------------------------- */
+
+    #myCarousel {
+      margin: 0px -20px;
+    }
+
+    /* Featurettes
+    ------------------------- */
+
+    .featurette-divider {
+      /* margin: 80px 0;  Space out the Bootstrap <hr> more */
+    }
+    .featurette {
+      padding-top: 120px; /* Vertically center images part 1: add padding above and below text. */
+      overflow: hidden; /* Vertically center images part 2: clear their floats. */
+    }
+    .featurette-image {
+      margin-top: -120px; /* Vertically center images part 3: negative margin up the image the same amount of the padding to center it. */
+    }
+
+    /* Give some space on the sides of the floated elements so text doesn't run right into it. */
+    .featurette-image.pull-left {
+      margin-right: 40px;
+    }
+    .featurette-image.pull-right {
+      margin-left: 40px;
+    }
+
+    /* Thin out the main content headings */
+    .featurette-heading {
+      font-size: 50px;
+      font-weight: 300;
+      line-height: 1;
+      letter-spacing: -1px;
+    }
+
+
+
+    /* RESPONSIVE CSS
+    -------------------------------------------------- */
+
+    @media (max-width: 979px) {
+
+      .container.navbar-wrapper {
+        margin-bottom: 0;
+        width: auto;
+      }
+      .navbar-inner {
+        border-radius: 0;
+      }
+
+      .carousel .item {
+        height: 260px;
+      }
+      .carousel img.splash {
+        width: auto;
+        height: 260px;
+      }
+      .carousel-caption {
+        width:70%;
+      }
+
+      .featurette {
+        height: auto;
+        padding: 0;
+      }
+      .featurette-image.pull-left,
+      .featurette-image.pull-right {
+        display: block;
+        float: none;
+        max-width: 40%;
+        margin: 0 auto 20px;
+      }
+    }
+
+
+    @media (max-width: 767px) {
+		
+      .carousel {
+        
+      }
+      .carousel .container {
+
+      }
+      .carousel .item {
+        height: 200px;
+      }
+      .carousel img.splash {
+        height: 200px;
+      }
+      .carousel-caption {
+        width: 100%;
+        padding: 0 70px;
+        margin-top: 25px;
+      }
+      .carousel-caption p {
+        padding-left:0px;
+        padding-right:100px;
+      }
+      .carousel-caption h1 {
+        font-size: 30px;
+      }
+      .carousel-caption .lead,
+      .carousel-caption .btn {
+        font-size: 18px;
+      }
+      .carousel-control {
+        height: 80px;
+        padding-bottom:70px;
+        margin-top: -70px;
+        font-size: 120px;
+        text-shadow: 0 1px 1px rgba(0,0,0,.4);
+        background-color: transparent;
+        border: 0;
+        z-index: -10;
+      }
+      .carousel .btn {
+        margin-bottom:10px;
+      }
+
+      .featurette-heading {
+        font-size: 30px;
+      }
+      .featurette .lead {
+        font-size: 18px;
+        line-height: 1.5;
+      }
+    }
+
+    .research-header,
+    .funding-header,
+    .reports-header,
+    .program-areas-header,
+    .research-emphasis-header,
+    .about-dccps-header {
+      background-repeat: no-repeat;
+      padding-top:10px;
+      color: #a90101;
+      font-size:1.3em;
+      font-family: Helvetica, Arial, "Lucida Grande", sans-serif;
+    }
+
+    .research-header {
+      background-image:url(/images/research-header.png);
+      padding-left:74px;
+      height:62px;
+    }
+
+    .funding-header {
+      background-image:url(/images/funding-header.png);
+      padding-left:74px;
+      height:62px;
+    }
+
+    .reports-header {
+      background-image:url(/images/reports-header.png);
+      padding-left:74px;
+      height:62px;
+    }
+
+    .program-areas-header {
+      background-image:url(/images/program-areas-header.png);
+      background-position: 0px 7px;
+      padding-left:25px;
+      padding-bottom:10px;
+    }
+
+    .research-emphasis-header {
+      background-image:url(/images/research-emphasis-header.png);
+      background-position: 0px 7px;
+      padding-left:25px;
+      padding-bottom:10px;
+    }
+
+    .about-dccps-header {
+      background-image:url(/images/about-dccps-header.png);
+      background-position: 0px 7px;
+      padding-left:25px;
+      padding-bottom:10px;
+    }
+
+    .featured-items ul {
+      margin-left:0px;
+    }
+
+    .featured-items ul li {
+      border-top: solid 1px #cccccc;
+      padding: 10px 0px;
+    }
+
+    a.document {
+      color:#696559;
+      background-image:url(/images/featured-icon.png);
+      background-repeat: no-repeat;
+      padding-left:20px;
+    }
+
+    .popular-now {
+      border: 1px #cccccc solid;
+      padding: 0px 10px;
+    }
+
+    .popular-now h2 {
+      background-color: #096598;
+      color:#ffffff;
+      padding:0px 15px;
+      font-size:1.4em;
+      font-family: Helvetica, Arial, "Lucida Grande", sans-serif;
+      font-weight: 600;
+    }
+
+    .popular-now h3 {
+      color: #a90101;
+      font-size:1.3em;
+      font-family: Helvetica, Arial, "Lucida Grande", sans-serif;
+      font-weight: normal; }
+
+    .content-bottom {
+      background-color: #ececec;
+      border: 1px #cccccc solid;
+      margin-top:60px;
+      padding:10px;
+    }
+
+    .content-bottom .subsection {
+      background-color: #ffffff;
+      border: 1px #cccccc solid;
+      padding:15px;
+    }
+
+    .margin-bottom {
+      margin-bottom:10px;
+    }
+    .content-bottom .subsection a {
+      background-image:url(/images/link-arrow.png);
+      background-repeat:no-repeat;
+      padding-left:14px;
+      color:#696559;
+    }
+
+    @media (max-width: 767px) {
+      .twitter {
+        width:251px;
+        height:260px;
+        background-image:url(/images/twitter-bk.png);
+      }
+      .homepage-youtube-sml,
+      .homepage-youtube-med {
+        display:none;
+      }
+    }
+
+    @media (min-width: 768px) and (max-width: 979px) {
+      .twitter {
+        width:146px;
+        height:151px;
+        background-image:url(/images/twitter-bk-sml.png);
+        background-repeat:no-repeat;
+      }
+      .homepage-youtube-lrg,
+      .homepage-youtube-med {
+        display:none;
+      }
+      .follow-us a {
+        display:none;
+      }
+    }
+
+    @media (min-width: 980px) and (max-width: 1199px) {
+      .twitter {
+        width:200px;
+        height:207px;
+        background-image:url(/images/twitter-bk-med.png);
+        background-repeat:no-repeat;
+      }
+      .homepage-youtube-sml,
+      .homepage-youtube-lrg {
+        display:none;
+      }
+    }
+
+    @media (min-width: 1200px) {
+      .twitter {
+        width:251px;
+        height:260px;
+        background-image:url(/images/twitter-bk.png);
+      }
+      .homepage-youtube-sml,
+      .homepage-youtube-med {
+        display:none;
+      }
+    }
+
+    .homepage-youtube-sml,
+    .homepage-youtube-med,
+    .homepage-youtube-lrg {
+      margin-bottom:10px;
+    }
+
+    #twitter-feed {
+      padding:10px;
+      font-size: 0.9em;
+    }
+
+    .follow-us a {
+      padding:10px;
+      font-size: 0.7em;
+      font-weight:bold;
+      color: #a90101;
+      font-style:italic;
+    }

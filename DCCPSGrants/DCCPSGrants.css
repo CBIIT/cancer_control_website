@@ -1,0 +1,438 @@
+/* Default font and content links that need to be gray */
+BODY, TD, TABLE, P, .text, .gray, A.gray, A.gray:active, A.gray:visited, A.gray-link,A.gray-link:visited, A.gray-link:active, A.gray-text, A.gray-text:visited, A.gray-text:active {
+	COLOR : #4d4d4d;
+	FONT-FAMILY : Arial, Verdana, Trebuchet MS, Tahoma, sans-serif;
+	FONT-SIZE : 12px;
+}
+
+TABLE {
+	font-size : 8px;
+}
+
+UL.tight {
+	margin-top : -.1em;
+	margin-bottom: -.1em;
+}
+
+.small {
+	FONT-FAMILY : Arial, Verdana, Trebuchet MS, Tahoma, sans-serif;
+	COLOR : #4d4d4d;
+	FONT-SIZE : 11px;
+}
+
+A.gray-link:hover, A.gray-text:hover, A.gray:hover
+{COLOR:#000000; FONT-FAMILY : Arial, Verdana, Trebuchet MS, Tahoma, sans-serif; TEXT-DECORATION: underline; FONT-SIZE : 12px;}
+
+
+/* Default text, bolded */
+.text-b, .gray-text-b
+{FONT-WEIGHT : bold; FONT-SIZE : 12px; FONT-FAMILY : Arial, Verdana, Trebuchet MS, Tahoma, sans-serif;}
+
+/* Portal page titles, not currently being used (images instead) */
+.section-title {
+	COLOR : #6E6C4F;
+	FONT-SIZE : 24px;
+	FONT-WEIGHT : normal;
+	FONT-FAMILY : Arial, Verdana, Trebuchet MS, Tahoma, sans-serif;
+}
+
+/* Title in gray bar at top of page right below red header */
+.document-title {
+	COLOR : #000000;
+	FONT-SIZE : 19px;
+	FONT-WEIGHT : normal;
+	FONT-FAMILY : Arial, Verdana, Trebuchet MS, Tahoma, sans-serif;
+}
+
+/* Page header at beginning of main content area, replaces H2 */
+.page-title, H2  {
+	COLOR : #000000;
+	FONT-SIZE : 17px;
+	FONT-WEIGHT : bold;
+	FONT-FAMILY : Arial, Verdana, Trebuchet MS, Tahoma, sans-serif;
+}
+
+/* replaces H3 */
+.header-A, H3 {
+	COLOR : #000000;
+	FONT-SIZE : 14px;
+	FONT-WEIGHT : bold;
+	FONT-FAMILY : Arial, Verdana, Trebuchet MS, Tahoma, sans-serif;
+}
+
+.header-E {
+	COLOR : #666;
+	FONT-SIZE : 14px;
+	FONT-WEIGHT : bold;
+	FONT-FAMILY : Arial, Verdana, Trebuchet MS, Tahoma, sans-serif;
+}
+
+.header-F {
+	COLOR : #900;
+	FONT-SIZE : 14px;
+	FONT-WEIGHT : bold;
+	FONT-FAMILY : Arial, Verdana, Trebuchet MS, Tahoma, sans-serif;
+}
+
+/* replaces H4 */
+.header-B, H4  {
+	COLOR : #000000;
+	FONT-SIZE : 12px;
+	FONT-WEIGHT : bold;
+	FONT-FAMILY : Arial, Verdana, Trebuchet MS, Tahoma, sans-serif;
+}
+
+.header-C
+{ FONT-WEIGHT : bold; FONT-SIZE : 12px;FONT-FAMILY : Arial, Verdana, Trebuchet MS, Tahoma, sans-serif;}
+
+.header-D
+{ FONT-WEIGHT : bold; FONT-STYLE : italic; FONT-SIZE : 12px;FONT-FAMILY : Arial, Verdana, Trebuchet MS, Tahoma, sans-serif;}
+
+/* deafault links */
+A, A:active, A:visited, .red-text
+{ COLOR : #9C3303; FONT-SIZE : 12px;FONT-FAMILY : Arial, Verdana, Trebuchet MS, Tahoma, sans-serif;}
+
+A:hover  {
+	COLOR : #990000;
+	TEXT-DECORATION : underline;
+	FONT-SIZE : 12px;
+	FONT-FAMILY : Arial, Verdana, Trebuchet MS, Tahoma, sans-serif;
+}
+
+A.document-title-link, A.document-title-link:active, A.document-title-link:visited {
+	COLOR : #666;
+	FONT-SIZE : 19px;
+	TEXT-DECORATION : underline;
+	FONT-WEIGHT : normal;
+	FONT-FAMILY : Arial, Verdana, Trebuchet MS, Tahoma, sans-serif;
+}
+
+A.document-title-link:hover {
+	COLOR : #333;
+	FONT-SIZE : 19px;
+	TEXT-DECORATION : underline;
+	FONT-WEIGHT : normal;
+	FONT-FAMILY : Arial, Verdana, Trebuchet MS, Tahoma, sans-serif;
+}
+
+/* Back to Top style */
+A.backtotop-link, A.backtotop-link:visited, A.backtotop-link:active
+{FONT-SIZE : 11px; COLOR:#4d4d4d; TEXT-DECORATION: underline;FONT-FAMILY : Arial, Verdana, Trebuchet MS, Tahoma, sans-serif;}
+
+A.backtotop-link:hover
+{COLOR:#000000; TEXT-DECORATION: underline;FONT-FAMILY : Arial, Verdana, Trebuchet MS, Tahoma, sans-serif;}
+
+/* Gray lines around boxes and tables */
+.gray-border
+{BACKGROUND-COLOR:#BDBDBD;}
+
+/* Director's Update Background Color */
+.directors-corner-contentarea
+{BACKGROUND-COLOR:#F7F7F5;FONT-FAMILY : Arial, Verdana, Trebuchet MS, Tahoma, sans-serif;}
+
+/* Footer area style */
+A.footer-link, A.footer-link:visited, A.footer-link:active, .footer-text
+{COLOR:#666666; FONT-SIZE:11px;FONT-FAMILY : Arial, Verdana, Trebuchet MS, Tahoma, sans-serif;}
+
+A.footer-link:hover
+{COLOR:#333333; FONT-SIZE:11px;FONT-FAMILY : Arial, Verdana, Trebuchet MS, Tahoma, sans-serif;}
+
+/* Style for input box for Searches */
+.search-field
+{COLOR:#000000; HEIGHT:22px; WIDTH:120px;FONT-FAMILY : Arial, Verdana, Trebuchet MS, Tahoma, sans-serif;}
+
+/* Default font for left navigation items */
+.leftnav
+{FONT-SIZE:11px;FONT-FAMILY : Arial, Verdana, Trebuchet MS, Tahoma, sans-serif;}
+
+/* Titles for boxes, gives bold, black title with gray background color, mostly used in left navigation boxes */
+.box-title, A.box-title, A.box-title:link, A.box-title:active, A.box-title:visited {
+	COLOR : #000000;
+	BACKGROUND-COLOR: #E6E6E2;
+	FONT-WEIGHT : bold;
+	TEXT-DECORATION : none;
+	FONT-FAMILY : Arial, Verdana, Trebuchet MS, Tahoma, sans-serif;
+}
+
+A.box-title:hover {
+	TEXT-DECORATION : underline;
+	FONT-FAMILY : Arial, Verdana, Trebuchet MS, Tahoma, sans-serif;
+}
+
+/* Left navigation gray text and gray links */
+.navigation-gray, A.navigation-gray, A.navigation-gray:visited, A.navigation-gray:active, A.navigation-gray-link, A.navigation-gray-link:visited, A.navigation-gray-link:active
+{FONT-SIZE:11px; COLOR:#4d4d4d;FONT-FAMILY : Arial, Verdana, Trebuchet MS, Tahoma, sans-serif;}
+
+A.navigation-gray-link:hover, A.navigation-gray:hover
+{FONT-SIZE:11px; COLOR:#000000;FONT-FAMILY : Arial, Verdana, Trebuchet MS, Tahoma, sans-serif;}
+
+/* Left navigation, selected item in the anchor link sections */
+.navigation-selected
+{FONT-SIZE:11px; COLOR:#999999;FONT-FAMILY : Arial, Verdana, Trebuchet MS, Tahoma, sans-serif;}
+
+/* Left navigation, non-selected item in the anchor link sections */
+.navigation-dark-gray, A.navigation-dark-gray-link, A.navigation-dark-gray-link:visited, A.navigation-dark-gray-link:active
+{FONT-SIZE:11px; COLOR:#333333;FONT-FAMILY : Arial, Verdana, Trebuchet MS, Tahoma, sans-serif;}
+
+/* Looks same as Left navigation, non-selected item in the anchor link sections */
+.navigation-black, A.navigation-black-link, A.navigation-black-link:visited, A.navigation-black-link:active
+{font-size: 11px; COLOR:#000000; FONT-FAMILY : Arial, Verdana, Trebuchet MS, Tahoma, sans-serif;}
+
+A.navigation-black-link:hover
+{FONT-SIZE:11px; COLOR:#333333;FONT-FAMILY : Arial, Verdana, Trebuchet MS, Tahoma, sans-serif;}
+
+A.navigation-dark-gray-link:hover
+{FONT-SIZE:11px; COLOR:#000000;FONT-FAMILY : Arial, Verdana, Trebuchet MS, Tahoma, sans-serif;}
+
+/* Left navigation, dark red links and text */
+.navigation-dark-red, A.navigation-dark-red, A.navigation-dark-red:link, A.navigation-dark-red:active, A.navigation-dark-red:visited, A.navigation-dark-red-link, A.navigation-dark-red-link:visited, A.navigation-dark-red-link:active
+{FONT-SIZE:11px; COLOR:#993300;FONT-FAMILY : Arial, Verdana, Trebuchet MS, Tahoma, sans-serif;}
+
+A.navigation-dark-red-link:hover, A.navigation-dark-red:hover
+{FONT-SIZE:11px; COLOR:#990000;FONT-FAMILY : Arial, Verdana, Trebuchet MS, Tahoma, sans-serif;}
+
+/* Red Header on Portal Pages Indexes */
+.red-header,A.red-header, A.red-header:visited, A.red-header:active
+{FONT-SIZE:13px; COLOR:#CC0000; FONT-WEIGHT:bold;FONT-FAMILY : Arial, Verdana, Trebuchet MS, Tahoma, sans-serif;}
+
+/* DCCPS Blue Header on Portal Pages Indexes */
+.dccps-header,A.dccps-header, A.dccps-header:visited, A.dccps-header:active
+{FONT-SIZE:13px; COLOR:#339; FONT-WEIGHT:bold;FONT-FAMILY : Arial, Verdana, Trebuchet MS, Tahoma, sans-serif;}
+
+A.dccps-header:hover
+{FONT-SIZE:13px; COLOR:#cc0000; FONT-WEIGHT:bold;FONT-FAMILY : Arial, Verdana, Trebuchet MS, Tahoma, sans-serif;}
+
+/* ACSRB Blue Header on Portal Pages Indexes */
+.acsrb-header,A.acsrb-header, A.acsrb-header:visited, A.acsrb-header:active
+{FONT-SIZE:13px; COLOR:#339; FONT-WEIGHT:bold;FONT-FAMILY : Arial, Verdana, Trebuchet MS, Tahoma, sans-serif;}
+
+A.acsrb-header:hover
+{FONT-SIZE:13px; COLOR:#096; FONT-WEIGHT:bold;FONT-FAMILY : Arial, Verdana, Trebuchet MS, Tahoma, sans-serif;}
+
+/* BBRB Blue Header on Portal Pages Indexes */
+.bbrb-header,A.bbrb-header, A.bbrb-header:visited, A.bbrb-header:active
+{FONT-SIZE:13px; COLOR:#339; FONT-WEIGHT:bold;FONT-FAMILY : Arial, Verdana, Trebuchet MS, Tahoma, sans-serif;}
+
+A.bbrb-header:hover
+{FONT-SIZE:13px; COLOR:#06F; FONT-WEIGHT:bold;FONT-FAMILY : Arial, Verdana, Trebuchet MS, Tahoma, sans-serif;}
+
+/* HCIRB Blue Header on Portal Pages Indexes */
+.hcirb-header,A.hcirb-header, A.hcirb-header:visited, A.hcirb-header:active
+{FONT-SIZE:13px; COLOR:#339; FONT-WEIGHT:bold;FONT-FAMILY : Arial, Verdana, Trebuchet MS, Tahoma, sans-serif;}
+
+A.hcirb-header:hover
+{FONT-SIZE:13px; COLOR:#9C6; FONT-WEIGHT:bold;FONT-FAMILY : Arial, Verdana, Trebuchet MS, Tahoma, sans-serif;}
+
+/* HPRB Blue Header on Portal Pages Indexes */
+.hprb-header,A.hprb-header, A.hprb-header:visited, A.hprb-header:active
+{FONT-SIZE:13px; COLOR:#339; FONT-WEIGHT:bold;FONT-FAMILY : Arial, Verdana, Trebuchet MS, Tahoma, sans-serif;}
+
+A.hprb-header:hover
+{FONT-SIZE:13px; COLOR:#F93; FONT-WEIGHT:bold;FONT-FAMILY : Arial, Verdana, Trebuchet MS, Tahoma, sans-serif;}
+
+/* TCRB Blue Header on Portal Pages Indexes */
+.tcrb-header,A.tcrb-header, A.tcrb-header:visited, A.tcrb-header:active
+{FONT-SIZE:13px; COLOR:#339; FONT-WEIGHT:bold;FONT-FAMILY : Arial, Verdana, Trebuchet MS, Tahoma, sans-serif;}
+
+A.tcrb-header:hover
+{FONT-SIZE:13px; COLOR:#939; FONT-WEIGHT:bold;FONT-FAMILY : Arial, Verdana, Trebuchet MS, Tahoma, sans-serif;}
+
+/* OCS Blue Header on Portal Pages Indexes */
+.ocs-header,A.ocs-header, A.ocs-header:visited, A.ocs-header:active
+{FONT-SIZE:13px; COLOR:#339; FONT-WEIGHT:bold;FONT-FAMILY : Arial, Verdana, Trebuchet MS, Tahoma, sans-serif;}
+
+A.ocs-header:hover
+{FONT-SIZE:13px; COLOR:#906; FONT-WEIGHT:bold;FONT-FAMILY : Arial, Verdana, Trebuchet MS, Tahoma, sans-serif;}
+
+/* DCCPS Home link */
+.dccps-home,A.dccps-home, A.dccps-home:visited, A.dccps-home:active
+{FONT-SIZE:12px; COLOR:#339; FONT-WEIGHT:bold;FONT-FAMILY : Arial, Verdana, Trebuchet MS, Tahoma, sans-serif;}
+
+A.dccps-home:hover
+{FONT-SIZE:12px; COLOR:#cc0000; FONT-WEIGHT:bold;FONT-FAMILY : Arial, Verdana, Trebuchet MS, Tahoma, sans-serif;}
+
+/* Do we need link, looks almost same as default link color.  Only used on clinical trials page, bottom content */
+.dark-red,A.dark-red-link, A.dark-red-link:visited, A.dark-red-link:active
+{COLOR:#993300;FONT-FAMILY : Arial, Verdana, Trebuchet MS, Tahoma, sans-serif;}
+
+A.dark-red-link:hover
+{FONT-SIZE:11px; COLOR:#990000;FONT-FAMILY : Arial, Verdana, Trebuchet MS, Tahoma, sans-serif;}
+
+.black-text, A.black-text, A.black-text:visited, A.black-text:active
+{COLOR:#000000;FONT-SIZE : 12px;FONT-FAMILY : Arial, Verdana, Trebuchet MS, Tahoma, sans-serif;}
+
+.black-text-b
+{COLOR:#000000; font-weight: bold;FONT-SIZE : 12px;FONT-FAMILY : Arial, Verdana, Trebuchet MS, Tahoma, sans-serif;}
+
+A.black-text:hover
+{COLOR:#333333;FONT-SIZE : 12px;FONT-FAMILY : Arial, Verdana, Trebuchet MS, Tahoma, sans-serif;}
+
+.quote
+{COLOR : #996666; FONT-WEIGHT: bold;FONT-SIZE : 14px;FONT-FAMILY : Arial, Verdana, Trebuchet MS, Tahoma, sans-serif;}
+
+.caption
+{FONT-SIZE:11px; COLOR:#4d4d4d;FONT-FAMILY : Arial, Verdana, Trebuchet MS, Tahoma, sans-serif;}
+
+/* for gray line between image and caption */
+.caption-image {
+border-top-width: 0px;border-right-width: 0px;border-bottom-width: 1px;border-left-width: 0px;border-top-style: solid;border-right-style: solid;border-bottom-style: solid;border-left-style: solid; border-bottom-color: #BDBDBD; border-top-color: #BDBDBD; border-right-color: #BDBDBD; border-left-color: #BDBDBD; border-color: #BDBDBD;
+}
+
+.dates
+{FONT-SIZE : 11px;FONT-FAMILY : Arial, Verdana, Trebuchet MS, Tahoma, sans-serif;}
+
+.protocol-date-label
+{FONT-SIZE : 11px; FONT-WEIGHT: bold;FONT-FAMILY : Arial, Verdana, Trebuchet MS, Tahoma, sans-serif;}
+
+.protocol-dates
+{FONT-SIZE : 11px;FONT-FAMILY : Arial, Verdana, Trebuchet MS, Tahoma, sans-serif;}
+
+SUP.header
+{font-size: 13px; FONT-FAMILY : Arial, Verdana, Trebuchet MS, Tahoma, sans-serif;}
+
+/* Alpha list text in Dictionary of Cancer Terms section */
+.dictionary-alpha-list, A.dictionary-alpha-list, A.dictionary-alpha-list:link, A.dictionary-alpha-list:active, A.dictionary-alpha-list:visited {
+	COLOR : #A90101;
+	FONT-SIZE:11px;
+	padding:  6px 4px;
+	FONT-FAMILY : Arial, Verdana, Trebuchet MS, Tahoma, sans-serif;
+	vertical-align: middle;
+	height: 16px;
+}
+
+A.dictionary-alpha-list:hover {
+	COLOR :  #A90101;
+	FONT-SIZE:11px;
+	padding: 6px 4px;
+	background-color: #FFFFFF;
+	FONT-FAMILY : Arial, Verdana, Trebuchet MS, Tahoma, sans-serif;
+	vertical-align: middle;
+	height: 16px;
+}
+
+A.red, A.red:hover, A.red:active  {
+    text-decoration: underline;
+    color: #c00;}
+
+A.gray, A.gray:hover, A.gray:active  {
+    text-decoration: underline;
+    color: #4d4d4d;}
+
+
+A.definition, A.definition:active, A.definition:visited {
+  color: #000;
+  }
+
+A.definition:hover {
+  color: #930;
+  }
+
+.right {
+  text-align : right;
+  }
+
+table#graph {
+  border: 1px solid #bdbdbd;
+  }
+
+table#data {
+  border: 1px solid #bdbdbd;
+  }
+
+table#data td {
+  text-align : right;
+  border-top: 1px solid #bdbdbd;
+  }
+
+tr#titles th {
+  font-weight : bold;
+  border-bottom: 1px solid #bdbdbd;
+	}
+
+td.shaded, th.shaded {
+  background-color : #fffbe2;
+  }
+
+.selected {
+  	COLOR : #996666;
+	FONT-SIZE : 14px;
+	FONT-WEIGHT : bold;
+	FONT-FAMILY : Arial, Verdana, Trebuchet MS, Tahoma, sans-serif;
+  }
+
+.footer {
+  color : #666;
+	font-size : 11px;
+  }
+
+/* Gray lines around boxes and tables */
+.gray-border
+{BACKGROUND-COLOR:#BDBDBD;}
+
+/* Default font for left navigation items */
+.leftnav
+{
+	FONT-SIZE:11px;
+	FONT-FAMILY : Arial, Verdana, Trebuchet MS, Tahoma, sans-serif;
+}
+
+/* Titles for boxes, gives bold, black title with gray background color, mostly used in left navigation boxes */
+.box-title, A.box-title, A.box-title:link, A.box-title:active, A.box-title:visited {
+	COLOR : #000000;
+	BACKGROUND-COLOR: #E6E6E2;
+	FONT-WEIGHT : bold;
+	TEXT-DECORATION : none;
+	FONT-FAMILY : Arial, Verdana, Trebuchet MS, Tahoma, sans-serif;
+}
+
+A.box-title:hover {
+	TEXT-DECORATION : underline;
+	FONT-FAMILY : Arial, Verdana, Trebuchet MS, Tahoma, sans-serif;
+}
+
+/* Left navigation gray text and gray links */
+.navigation-gray, A.navigation-gray, A.navigation-gray:visited, A.navigation-gray:active, A.navigation-gray-link, A.navigation-gray-link:visited, A.navigation-gray-link:active
+{FONT-SIZE:11px; COLOR:#4d4d4d;FONT-FAMILY : Arial, Verdana, Trebuchet MS, Tahoma, sans-serif;}
+
+A.navigation-gray-link:hover, A.navigation-gray:hover
+{FONT-SIZE:11px; COLOR:#000000;FONT-FAMILY : Arial, Verdana, Trebuchet MS, Tahoma, sans-serif;}
+
+/* Left navigation, selected item in the anchor link sections */
+.navigation-selected
+{FONT-SIZE:11px; COLOR:#999999;FONT-FAMILY : Arial, Verdana, Trebuchet MS, Tahoma, sans-serif;}
+
+/* Left navigation, non-selected item in the anchor link sections */
+.navigation-dark-gray, A.navigation-dark-gray-link, A.navigation-dark-gray-link:visited, A.navigation-dark-gray-link:active
+{FONT-SIZE:11px; COLOR:#333333;FONT-FAMILY : Arial, Verdana, Trebuchet MS, Tahoma, sans-serif;}
+
+/* Looks same as Left navigation, non-selected item in the anchor link sections */
+.navigation-black, A.navigation-black-link, A.navigation-black-link:visited, A.navigation-black-link:active
+{font-size: 11px; COLOR:#000000; FONT-FAMILY : Arial, Verdana, Trebuchet MS, Tahoma, sans-serif;}
+
+A.navigation-black-link:hover
+{FONT-SIZE:11px; COLOR:#333333;FONT-FAMILY : Arial, Verdana, Trebuchet MS, Tahoma, sans-serif;}
+
+A.navigation-dark-gray-link:hover
+{FONT-SIZE:11px; COLOR:#000000;FONT-FAMILY : Arial, Verdana, Trebuchet MS, Tahoma, sans-serif;}
+
+/* Left navigation, dark red links and text */
+.navigation-dark-red, A.navigation-dark-red, A.navigation-dark-red:link, A.navigation-dark-red:active, A.navigation-dark-red:visited, A.navigation-dark-red-link, A.navigation-dark-red-link:visited, A.navigation-dark-red-link:active
+{FONT-SIZE:11px; COLOR:#993300;FONT-FAMILY : Arial, Verdana, Trebuchet MS, Tahoma, sans-serif;}
+
+A.navigation-dark-red-link:hover, A.navigation-dark-red:hover
+{FONT-SIZE:11px; COLOR:#990000;FONT-FAMILY : Arial, Verdana, Trebuchet MS, Tahoma, sans-serif;}
+
+/* table#data td {border-bottom: 1px dashed #069;} */
+
+div.responseset {
+	padding-top:4px;
+	padding-bottom:4px;
+	padding-right:4px;
+	padding-left:4px;
+	border:#cccccc solid  1px;
+
+}.alert {
+	color: red;
+	font-weight:bold;
+	font-size:larger
+}
