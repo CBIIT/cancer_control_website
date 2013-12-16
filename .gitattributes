@@ -255,10 +255,12 @@ Scripts/random_images_right.js -text
 Scripts/swfobject_modified.js -text
 bb/2004.pdf -text
 bb/2005_bb.pdf -text
-bb/2006_bb.pdf -text
+bb/2006_bb.pdf -text svneol=unset#unset
 bb/Briefing_Book_2011_acc.pdf -text
+bb/NCI-DCCPS-Overview-and-Highlights-2013.pdf -text svneol=unset#unset
 bb/briefing_book_2007.pdf -text svneol=unset#unset
-bb/briefing_book_accessible.pdf -text
+bb/briefing_book_accessible.pdf -text svneol=unset#unset
+bb/images/Thumbs.db -text
 bb/images/cover-2005.jpg -text
 bb/images/cover.jpg -text
 bb/images/echcrr.jpg -text
@@ -1706,6 +1708,7 @@ brp/tcrb/tob_prod_funding.asp -text
 brp/tcrb/tob_prod_literature.html -text
 brp/tcrb/tob_prod_other.html -text
 brp/tcrb/tob_prod_potential.html -text
+brp/tcrb/tob_regulatory_science.html -text
 brp/tcrb/tobacco_motives.html -text
 brp/tcrb/tobacco_networks.html -text
 brp/tcrb/trend/Participant[!!-~]Listmeeting41808.pdf -text
