@@ -1,6 +1,6 @@
 <%
 ' Setting DisplayCountDiff = Y enables data validation for Mark
-Const DisplayCountDiff = "Y"
+Const DisplayCountDiff = "N"
 
 '***********************************************************************
 ' Name:     DisplayGrantsByPI
