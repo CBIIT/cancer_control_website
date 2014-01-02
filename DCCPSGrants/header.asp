@@ -46,8 +46,8 @@ End Function
 	' From: http://classicasp.aspfaq.com/general/how-do-i-read-the-contents-of-a-remote-web-page.html
 	Dim url
 	Dim xmlhttp
-'    url = "http://parsley.cit.nih.gov/overview/header.jsp" 		' <=== DEVELOPMENT
-    url = "http://maps.cancer.gov/overview/header.jsp"
+    url = "http://parsley.cit.nih.gov/overview/header.jsp" 		' <=== DEVELOPMENT
+'    url = "http://maps.cancer.gov/overview/header.jsp"
 		' <=== PRODUCTION
     set xmlhttp = CreateObject("MSXML2.ServerXMLHTTP") 
     xmlhttp.open "GET", url, false 
@@ -63,8 +63,8 @@ End Function
 <!--- #include file=pi_closehead.html --->
 
 <%
-'    url = "http://parsley.cit.nih.gov/overview/header.jsp" 		' <=== DEVELOPMENT
-    url = "http://maps.cancer.gov/overview/header.jsp" 			' <=== PRODUCTION
+    url = "http://parsley.cit.nih.gov/overview/header.jsp" 		' <=== DEVELOPMENT
+'    url = "http://maps.cancer.gov/overview/header.jsp" 			' <=== PRODUCTION
     set xmlhttp = CreateObject("MSXML2.ServerXMLHTTP") 
     xmlhttp.open "GET", url, false 
     xmlhttp.send "" 
