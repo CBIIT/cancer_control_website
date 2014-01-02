@@ -43,6 +43,7 @@ DECC/riskcommbib/riskcom_feedback.html -text
 DECC/riskcommbib/riskcombib.doc -text
 DECC/riskcommbib/riskcombib_update_june03.doc -text
 /DI-PAR-Orientation-Web-Posting-082806.pdf -text svneol=unset#unset
+/Desktop.ini -text
 /FLVPlayer_Progressive.swf -text
 /Halo_Skin_3.swf -text
 IS/DandI_funding_webinars.html -text
@@ -246,6 +247,7 @@ IS/slideshow_home.html -text
 IS/staff.html -text
 IS/word-ball.jpg -text
 /OppNet_v2_org_cap.flv -text
+/README.txt -text
 Scripts/AC_RunActiveContent.js -text
 Scripts/expressInstall.swf -text
 Scripts/random_images_dccps.js -text
@@ -1946,6 +1948,10 @@ cgi-bin/riskcom_mail.asp -text
 cgi-bin/total.asp -text
 cgn/index.html -text
 communicationcenters/index.html -text
+conf/authz -text
+conf/hooks-env.tmpl -text
+conf/passwd -text
+conf/svnserve.conf -text
 constructs/index.htm -text
 /contact.html -text
 /cr-cancer-risk.html -text
@@ -1986,6 +1992,17 @@ css/style.css -text
 /current_research-results.html -text
 /current_research.html -text
 d4d/index.html -text
+db/current -text
+db/format -text
+db/fs-type -text
+db/fsfs.conf -text
+db/min-unpacked-rev -text
+db/revprops/0/0 -text
+db/revs/0/0 -text
+db/txn-current -text
+db/txn-current-lock -text
+db/uuid -text
+db/write-lock -text
 /dd_instruct.html -text
 /dd_instructions-2007.html -text
 /dd_instructions-2008.html -text
@@ -2032,6 +2049,7 @@ energy_balance/reports.html -text
 energy_balance/resources.html -text
 energy_balance/training_resources.html -text
 /exit_disclaimer.html -text
+/format -text
 /funding.html -text
 /funding_06-019_qna.html -text
 /funding_apply.html -text
@@ -2157,6 +2175,15 @@ hcg/theory_intervention.ppt -text
 hd/index.html -text
 /help-2590.html -text
 /help.html -text
+hooks/post-commit.tmpl -text
+hooks/post-lock.tmpl -text
+hooks/post-revprop-change.tmpl -text
+hooks/post-unlock.tmpl -text
+hooks/pre-commit.tmpl -text
+hooks/pre-lock.tmpl -text
+hooks/pre-revprop-change.tmpl -text
+hooks/pre-unlock.tmpl -text
+hooks/start-commit.tmpl -text
 images/10yearlogo-tilted.gif -text
 images/1800cancer.jpg -text
 images/2.jpg -text
@@ -2350,6 +2377,8 @@ js/holder.js -text
 js/jquery-1.10.1.min.js -text
 js/jquery.cycle.all.latest.js -text
 js/jquery.js -text
+locks/db-logs.lock -text
+locks/db.lock -text
 messagetailoring/12-Month_Survey.pdf -text svneol=unset#unset
 messagetailoring/24-Month_Survey.pdf -text svneol=unset#unset
 messagetailoring/Baseline_Survey.pdf -text svneol=unset#unset
@@ -3441,6 +3470,7 @@ screenshots/volume-outcome-relationship.gif -text
 /style.css -text
 /style2.css -text
 /styles.css -text
+/svn.ico -text
 /toggle.css -text
 /toggle.js -text
 use_what_works/Accessibility.pdf -text
