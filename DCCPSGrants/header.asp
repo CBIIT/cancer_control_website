@@ -3,7 +3,6 @@
 <a href="#skip" class="skippy">Skip Navigation</a>
 <a name="top"></a>
 </div></div> <!-- end skipmenu -->
-<link href="styles_new.css" rel="stylesheet" type="text/css">
 <!-- #include virtual="/grants/utility.asp" -->
 <!-- #include file="acknowledgements.asp" -->
 <%
