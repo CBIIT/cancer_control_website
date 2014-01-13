@@ -982,6 +982,43 @@ ul.cerSiteNav li a.active { font-weight: bold;}
 }
 /*end bbpsb*/
 
+/*PCRB*/
+.kt-table tr:nth-child(even) {
+  background-color: #DBEAF9;
+}
+.kt-table tr:nth-child(odd) {
+  background-color: #FFFFFF;
+}
+.kt-table tr td {
+  padding: 5px 0 10px 5px;
+  border-bottom: 1px solid #000000;
+}
+.kt-table tr th {
+  padding: 5px 0 10px 5px;
+  border-bottom: 1px solid #000000;
+  border-top: 1px solid #000000;
+}
+.kt-table {
+  border-spacing: 0;
+}
+.kt-table tr td:first-child, .kt-table tr th:first-child {
+  font-weight: bold;	
+  border-left: 1px solid #000000;
+}
+.kt-table tr td:first-child + td, .kt-table tr th:first-child + th {
+  border-right: 1px solid #000000;
+}
+
+.ki-table tr td:first-child + td {
+  border-left: 1px solid #000000;
+}
+.table-top td {
+  border-top: 1px solid #000000;
+}
+.ki-table tr td:first-child {
+  font-weight: 500;	
+}
+
 /*nih-tagline*/
 .nih-tagline {
 	margin: 10px 0 0 0;

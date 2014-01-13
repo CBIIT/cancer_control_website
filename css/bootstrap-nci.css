@@ -82,14 +82,18 @@ max-width: 1008px;
   color: #ffffff;
 }
 
-.navbar-inverse .nav li.dropdown > .dropdown-toggle .caret {
+.navbar-inverse .nav li.dropdown > .hover-link .caret {
   border-top-color: #096598;
   border-bottom-color: #096598;
 }
 
 .navbar .nav > li > a {
     padding: 12px 25px;
-	background:url(/images/header-divider.png) right no-repeat;
+	background:url(../images/header-divider.png) right no-repeat;
+}
+
+.navbar .nav > li.twitter-header > a {
+	background:none;
 }
 
 .navbar .nav li.dropdown.open > .dropdown-toggle .caret,
@@ -97,6 +101,7 @@ max-width: 1008px;
 .navbar .nav li.dropdown.open.active > .dropdown-toggle .caret {
   border-top-color: #fff;
   border-bottom-color: #fff;
+  display: none;
 }
 
 .navbar-inverse .nav li.dropdown > a:hover .caret,
@@ -162,7 +167,7 @@ max-width: 1008px;
 	
 	.twitter-header {
       color:#696559;
-      background:url("/images/footer-twitter.png") no-repeat 5px 9px;
+      background:url("../images/footer-twitter.png") no-repeat 5px 9px;
     }
 	
 	.twitter-header a > span {
@@ -228,7 +233,7 @@ width: 290px;
 	color:#096598;	
 }
 
-.span9 .breadcrumb li {
+.span9 .breadcrumb li, .span12 .breadcrumb li {
 	background:none;
 	background-color:#bed6e4;
 	color:#FFF;
@@ -245,7 +250,6 @@ width: 290px;
     background-repeat: no-repeat;
     color: #096598;
     font-family: Helvetica,Arial,"Lucida Grande",sans-serif;
-    padding-top: 10px;
 }
 
 h1,h2,h3,h4,h5 {
@@ -260,6 +264,19 @@ h2 {
     font-size: 22.5px;
 }
 
+.container-fluid {
+    padding-left: 10px;
+    padding-right: 10px;
+}
+
+.breadcrumb {
+    padding: 8px 15px 0;
+}
+
+.navbar {
+    margin-bottom: 10px;
+}
+
 .nav-header {
     color: #096598;
     font-family: Helvetica,Arial,"Lucida Grande",sans-serif;
@@ -268,9 +285,9 @@ h2 {
     font-size: 14px;
     line-height: 20px;
     padding: 3px 15px;
-    text-transform: uppercase;
     background-repeat: no-repeat;
     padding-left: 24px;
+	text-transform: none;
 }
 
 .nav-list > li > a {
@@ -287,10 +304,6 @@ h2 {
 	border:none;
 	box-shadow:none;
 	border-top:1px solid #E3E3E3;
-}
-
-.table a {
-	color: #A90101;
 }
 
 .nav-list li.nav-header {

@@ -1,65 +1,192 @@
-﻿<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
-<html xmlns="http://www.w3.org/1999/xhtml">
-<head>
-  <!-- meta tags--><meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
-  
-  <!--external style sheets--><link href="style.css" type="text/css" rel="stylesheet" />
+<!DOCTYPE html>
+<html lang="en"><!-- InstanceBegin template="/Templates/inner-fund.dwt" codeOutsideHTMLIsLocked="false" -->
+  <head>
+<meta http-equiv="content-type" content="text/html; charset=UTF-8">
+    <meta charset="utf-8">
+    <!-- InstanceBeginEditable name="doctitle" -->
+    <title>Archive of Funding Opportunities</title>
+    <!-- InstanceEndEditable -->
+            <link rel="icon" 
+      type="image/jpeg" 
+      href="/images/favicon.ico">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="nci, dccps, Cancer Control and Population Sciences, cancer">
+    <meta name="author" content="">
+	<script>
+// This adds 'placeholder' to the items listed in the jQuery .support object. 
+jQuery(function() {
+   jQuery.support.placeholder = false;
+   test = document.createElement('input');
+   if('placeholder' in test) jQuery.support.placeholder = true;
+});
+// This adds placeholder support to browsers that wouldn't otherwise support it. 
+$(function() {
+   if(!$.support.placeholder) { 
+      var active = document.activeElement;
+      $(':text').focus(function () {
+         if ($(this).attr('placeholder') != '' && $(this).val() == $(this).attr('placeholder')) {
+            $(this).val('').removeClass('hasPlaceholder');
+         }
+      }).blur(function () {
+         if ($(this).attr('placeholder') != '' && ($(this).val() == '' || $(this).val() == $(this).attr('placeholder'))) {
+            $(this).val($(this).attr('placeholder')).addClass('hasPlaceholder');
+         }
+      });
+      $(':text').blur();
+      $(active).focus();
+      $('form:eq(0)').submit(function () {
+         $(':text.hasPlaceholder').val('');
+      });
+   }
+});
+</script>
+    <!-- Le styles -->
+    <link href="css/style.css" rel="stylesheet">
+    <link href="css/bootstrap.css" rel="stylesheet">
+    <link href="css/bootstrap-responsive.css" rel="stylesheet">
+    <link href="css/bootstrap-nci.css" rel="stylesheet">
 
-  <title>DCCPS: Funding Archive</title>
-</head>
 
-<body>
-<div id="skipmenu">
-<a href="#skip" class="skippy">Skip Navigation</a>
-<a name="top"></a>
-</div> <!-- end skipmenu -->
-<div id="wrapper">
-<!-- NCI Banner -->
-  <div id="head-row1"><img src="images/dccps-banner2.gif" alt="National Cancer Institute" width="1000" height="40" usemap="#Map" /> <a name="top" id="top"></a></div>
-<!-- end of NCI Banner -->
+    <!-- HTML5 shim, for IE6-8 support of HTML5 elements -->
+    <!--[if lt IE 9]>
+      <script>document.createElement('footer');</script>
+      <script src="js/html5shiv.js"></script>
+    <![endif]-->
 
-<!-- DCCPS Banner / Search Field -->
-<div id="head-row2">
-  <div id="left2"><a href="index.html"><img src="images/dccps-banner.gif" alt="Cancer Control &amp; Population Sciences Home - NCI's Bridge to Public Health Research, Practice and Policy" width="730" height="68" /></a></div>
-  
-  <div id="right2">
-	<div id="north">
-	<a href="http://twitter.com/NCICancerCtrl">Twitter<img src="images/twitter-icon.png" alt="Twitter" width="20" height="20" /></a><a href="exit_disclaimer.html"><img src="images/Icon_External_Link.png" width="12" height="12" alt="exit disclaimer" /></a> <a href="cr-communication-videos.html">Multimedia<img src="images/media-icon.gif" alt="Multimedia" width="20" height="20" /></a></div>
-    <form method="get" action="http://search2.google.cit.nih.gov/search" name="search">
-	  <input type="hidden" name="site" value="DCCPS" />
-	  <input type="hidden" name="client" value="DCCPS_frontend" />
-	  <input type="hidden" name="proxystylesheet" value="DCCPS_frontend" />
-	  <input type="hidden" name="output" value="xml_no_dtd" />
-      <input type="hidden" name="filter" value="0" />
-	  <input type="hidden" name="getfields" value="*" />
-	  <label for="searchbox"><input id="searchbox" type="text" name="q" size="15" maxlength="255" class="htextf" value="Search" /></label>
-	  <input type="image" src="images/hbutton.gif"  class="hbutton" name="btnG" id="btnG" alt="Search" />
-	</form><br class="clearfloat" />
-    </div><br class="clearfloat" />
+    <!-- Fav and touch icons -->
+    <link rel="apple-touch-icon-precomposed" sizes="144x144" href="http://twitter.github.io/bootstrap/assets/ico/apple-touch-icon-144-precomposed.png">
+    <link rel="apple-touch-icon-precomposed" sizes="114x114" href="http://twitter.github.io/bootstrap/assets/ico/apple-touch-icon-114-precomposed.png">
+      <link rel="apple-touch-icon-precomposed" sizes="72x72" href="http://twitter.github.io/bootstrap/assets/ico/apple-touch-icon-72-precomposed.png">
+                    <link rel="apple-touch-icon-precomposed" href="http://twitter.github.io/bootstrap/assets/ico/apple-touch-icon-57-precomposed.png">
+                                   <link rel="shortcut icon" href="http://twitter.github.io/bootstrap/assets/ico/favicon.png">
+  <style type="text/css" id="holderjs-style">.holderjs-fluid {font-size:16px;font-weight:bold;text-align:center;font-family:sans-serif;margin:0}</style>
+  <!-- InstanceBeginEditable name="head" -->
+  <!-- InstanceEndEditable -->
+  </head>
+
+  <body>
+  	<div id="skipmenu">
+	<a href="#skip" class="skippy">Skip Navigation</a>
+	<a id="top"></a>
+	</div> <!-- end skipmenu -->
+	<div id="main-container">
+    <div id="header">
+    <div id="nci-banner">
+		<a href="http://www.cancer.gov/"><span>National Cancer Institute</span></a>
+    </div>
+    <div id="cancercontrol-banner">
+    	<a href="http://cancercontrol.cancer.gov/"><span>Cancer Control and Population Sciences: NCI's Bridge to Public Health Research, Practice, and Policy</span></a>
+    </div>
   </div>
-<!-- End of DCCPS Banner / Search Field -->
-	
-<!-- Main Content -->
-  <div id="mainarea">
-  <!-- Left Column // DCCPS Link / Need Help Banner -->
-    <div id="column-left1">
-      <div id="dccps-link"><a href="index.html">Cancer Control &amp; Population Sciences Home</a></div>
-      
-      <div class="rounded-border">
-      <ul class="slist2">
-        <li><a href="funding.html" style="font-weight:bold;">Funding Opportunities</a></li>
-      </ul></div><br /><br />
-    
-      <a href="http://www.cancer.gov/help"><img src="images/help-tile.jpg" alt="Need Help? Contact us by phone (1-800-422-6237), Web, or e-mail" /></a></div>
-  <!-- End of Left Column // DCCPS Link / Need Help Banner -->
-    
-  <!-- Right Column // Page Content -->
-    <div id="column-mid2">
-      <a name="skip"></a>
-      <h2>Funding Archive</h2>
+  <div id="header-search">
+		<form method="get" action="http://search2.google.cit.nih.gov/search" name="search">
+  	  <input type="hidden" name="site" value="DCCPS" />
+  	  <input type="hidden" name="client" value="DCCPS_frontend" />
+  	  <input type="hidden" name="proxystylesheet" value="DCCPS_frontend" />
+  	  <input type="hidden" name="output" value="xml_no_dtd" />
+      <input type="hidden" name="filter" value="0" />
+  	  <input type="hidden" name="getfields" value="*" />
+  	  <label for="searchbox">
+        <input id="searchbox" type="text" name="q" size="15" maxlength="255" class="htextf" placeholder="Search" />
+      </label>
+  	  <input type="image" src="images/hbutton-new.gif"  class="hbutton" name="btnG" id="btnG" alt="Search" />
+  	</form>
+	</div>
+      <!-- NAVBAR
+    ================================================== -->
+
+
+        <div class="navbar navbar-inverse">
+          <div class="navbar-inner">
+            <!-- Responsive Navbar Part 1: Button for triggering responsive navbar (not covered in tutorial). Include responsive CSS to utilize. -->
+            <button type="button" class="btn btn-navbar" data-toggle="collapse" data-target=".nav-collapse">
+              <span class="icon-bar"></span>
+              <span class="icon-bar"></span>
+              <span class="icon-bar"></span>
+            </button>
+            <div class="nav-collapse collapse">
+              <ul class="nav">
+                <li><a href="/index.html">Home</a></li>
+                <li class="dropdown">
+                  <a href="/current_research.html" class="hover-link">Research Portfolio <b class="caret"></b></a>
+                  <ul class="dropdown-menu">
+                  <li><a href="http://maps.cancer.gov/overview/DCCPSGrants/grantlist.jsp?method=dynamic&division=dccps&menu=division">Active Grants</a></li>
+                  <li><a href="http://maps.cancer.gov/overview/map/index.jsp">Maps of Awarded Grants</a></li>
+                  <li><a href="/research_initiative.html">Research Initiatives</a></li>
+                  <li><a href="http://maps.cancer.gov/overview/index.jsp">Funding History + Trends</a></li>
+                </ul>
+                </li>
+                <li class="dropdown active">
+                  <a href="/funding.html" class="hover-link">Funding Opportunities <b class="caret"></b></a>
+                  <ul class="dropdown-menu">
+                  <li><a href="/funding_apply.html">Apply for Cancer Control Grants</a></li>
+                  <li><a href="/funding_career.html">Training and Career Development</a></li>
+                  <li><a href="/funding_info.html">Application Submission &amp; Review</a></li>
+                  <li><a href="/policy_info.html">Grant Policies</a></li>
+                  <li><a href="/new_grantees/index.html">Resources and Opportunities for New Grantees</a></li>
+                  <li><a href="/funding_archive.html">Archive of Funding Opportunities</a></li>
+                </ul>
+                </li>
+                <li class="dropdown">
+                  <a href="/cancer_resources.html" class="hover-link">Reports + Data <b class="caret"></b></a>
+                  <ul class="dropdown-menu">
+                  <li><a href="/cr-reports.html">Reports and Reviews</a></li>
+                  <li><a href="/cr-dataset.html">DCCPS Public Data Sets and Analyses</a></li>
+                </ul>
+                </li>
+                 <li class="dropdown">
+                  <a href="/research-emphasis/index.html" class="hover-link">Research Emphasis<b class="caret"></b></a>
+                  <ul class="dropdown-menu">
+                  <li><a href="/research-emphasis/energy_balance/index.html">Energy Balance</a></li>
+                  <li><a href="/research-emphasis/healthdisp.html">Health Disparities</a></li>
+                  <li><a href="/research-emphasis/global_health/index.html">International + Global Health</a></li>
+                  <li><a href="/research-emphasis/phg/index.html">Public Health Genomics</a></li>
+                  </ul>
+                </li>
+                <li class="dropdown">
+                  <a href="/od/index.html" class="hover-link">About DCCPS<b class="caret"></b></a>
+                  <ul class="dropdown-menu">
+                  <li><a href="/od/aboutcc.html">About Cancer Control</a></li>
+                  <li><a href="/od/aboutdiv.html">About the Division</a></li>
+                  </ul>
+                </li>
+                <li class="twitter-header"><a href="https://twitter.com/NCICancerCtrl"><span>Twitter</span></a></li>
+              </ul>
+            </div><!--/.nav-collapse -->
+          </div><!-- /.navbar-inner -->
+          <div id="topbanner"><!-- InstanceBeginEditable name="Top Banner" --><!-- InstanceEndEditable --></div>
+        </div><!-- /.navbar -->
+		        <div class="container-fluid">
+          <div class="row-fluid">		
+            <div id="content" class="span9">
+            	<a id="skip"></a>
+            		<!-- InstanceBeginEditable name="Main Content" -->
+              <div class="row">
+                <div class="span12">
+                  <ul class="breadcrumb">
+                    <li class="home-breadcrumb"> <a href="/index.html">Home</a> </li>
+                    <li class="parent">
+    <div class="heading"><a href="/funding.html">Funding Opportunities</a></div>       <div class="divider"><span>></span></div>
+  </li>
+                    <li class="active">
+                      <div class="heading">Archive of Funding Opportunities</div>
+                      <div class="divider"><span>></span></div>
+                    </li>
+                  </ul>
+                </div>
+              </div>
+              <div class="row-fluid">
+                <!--/span-->
+                <!--/span-->
+                <div class="span12 listimage">
+                  <h1>Archive of Funding Opportunities</h1>
+                  <p>View closed Requests for Applications and closed Program Announcements from the years 1995 - present.</p>
       <div class="content">
-      
-      <ul class="mlist3" style="float:left;">
+      <div class="bottom-border"></div>
+      <div class="row-fluid bottom-border">
+      <div class="span11">
+      <div class="span6">
+      <ul class="mlist3">
       <li><a href="#brp">Behavioral Research</a></li>
 	  <li><a href="#bbpsb">Basic Biobehavioral and Psychological<br />
       Sciences</a></li>
@@ -67,68 +194,73 @@
 	  <li><a href="#hcirb">Health Communication and Informatics Research</a></li>
 	  <li><a href="#pcrb">Process of Care Research</a></li>
 	  <li><a href="#tcrb">Tobacco Control Research</a></li>
-	  <li><a href="#is">Implementation Science</a></li>
-    </ul>   
-    <ul class="mlist3" style="float:right;">
+    </ul>  
+	</div>
+                <div class="span6"> 
+    <ul class="mlist3">
+      <li><a href="#is">Implementation Science</a></li>
 	  <li><a href="#ocs">Cancer Survivorship</a></li>
 	  <li><a href="#arp">Applied Research</a></li>
 	  <li><a href="#srp">Surveillance Research</a></li>
 	  <li><a href="#egrp">Epidemiology and Genomics Research</a></li>
 	  <li><a href="#wh">Women's Health</a></li>
       <li><a href="#hd">Health Disparities</a></li>
-      <!--<li><a href="#cer">Comparative Effectiveness Research</a></li> -->
-    </ul><br class="clearfloat" />
+    </ul>
+    </div>
+    </div></div>
+    
+    <br class="clearfloat" />
       
       <div align="right"><p><a href="funding_archive_print.html" target="_blank">Printable View</a></p></div>
       
       <p><strong><a name="dccps"></a>DCCPS</strong></p>
 		
 	  <p><strong><a name="brp"></a>Behavioral Research</strong></p>
-        <table width="100%" cellpadding="3" border="1" cellspacing="0">
-          <tr valign="top">
-            <th align="left" width="50%">Title</th>
-            <th align="left" width="25%">Announcement #</th>
-            <th align="left" width="25%">Expiration Date</th>
+        <table class="table table-striped table-bordered table-condensed">
+          <tr>
+            <th style="width:50%;">Title</th>
+            <th style="width:25%;">Announcement #</th>
+            <th style="width:25%;">Expiration Date</th>
           </tr>
-          <tr valign="top">
+          <tr>
             <td>Small Grants Program for Behavioral Research in Cancer Control (Reissued PA)</td>
             <td><a href="http://grants.nih.gov/grants/guide/pa-files/PAR-12-035.html">PAR-12-035</a> (R03)</td>
             <td>October 19, 2012</td>
           </tr>
-          <tr valign="top">
+          <tr>
             <td>Community Participation Research Targeting the Medically Underserved</td>
             <td><a href="http://grants.nih.gov/grants/guide/pa-files/PAR-08-075.html">PAR-08-075</a> (R01)<br />
             <a href="http://grants.nih.gov/grants/guide/pa-files/PAR-08-076.html">PAR-08-076</a> (R21)</td>
             <td>May 15, 2010 </td>
           </tr>
-          <tr valign="top">
+          <tr>
             <td>NIH-Supported Centers for Population Health and Health Disparities (CPHHD)</td>
             <td><a href="http://grants.nih.gov/grants/guide/rfa-files/RFA-CA-09-001.html">RFA-CA-09-001</a> (P50)</td>
             <td>May 29, 2009</td>
           </tr>
-          <tr valign="top">
+          <tr>
             <td>Research on Social Work Practice and Concepts in Health - Trans-NIH Program Announcements</td>
             <td><a href="http://grants.nih.gov/grants/guide/pa-files/PA-07-292.html">PA-07-292</a> (R01s)<br />
             <a href="http://grants.nih.gov/grants/guide/pa-files/PA-06-233.html">PA-06-233</a> (R03s)<br />
             <a href="http://grants.nih.gov/grants/guide/pa-files/PA-06-234.html">PA-06-234</a> (R21s)</td>
             <td>May 8, 2009</td>
           </tr>
-          <tr valign="top">
+          <tr>
             <td>RFA - Facilitating Interdisciplinary Research via Methodological and Technological Innovation in the Behavioral and Social Sciences</td>
             <td><a href="http://grants.nih.gov/grants/guide/rfa-files/RFA-RM-07-004.html">RFA-RM-07-004</a> (R21)</td>
             <td>February 23, 2007</td>
           </tr>
-          <tr valign="top">
+          <tr>
             <td>Centers for Population Health and Health Disparities</td>
             <td><a href="populationhealthcenters/">RFA-ES-02-009</a></td>
             <td>August 29, 2002</td>
           </tr>
-          <tr valign="top">
+          <tr>
             <td><a href="/brp/hcirb/ceccr/ceccr-index.html">Centers of Excellence in Cancer Communications Research</a></td>
             <td>&nbsp;</td>
             <td>August 15, 2002</td>
           </tr>
-         <tr valign="top">
+         <tr>
             <td>Exploratory Grants for Behavioral Research in Cancer Control</td>
             <td><a href="http://grants.nih.gov/grants/guide/pa-files/PA-09-130.html">PA-09-130</a> (R21)</td>
             <td>May 8, 2012</td>
@@ -137,116 +269,116 @@
 		<p align="right">[<a href="#top">Return to Top</a>]</p>		
         
 		<p><strong><a name="bbpsb"></a>Basic Biobehavioral and Psychological Sciences</strong></p> 
-        <table width="100%" cellpadding="3" border="1" cellspacing="0">
-          <tr valign="top">
-            <th align="left" width="50%">Title</th>
-            <th align="left" width="25%">Announcement #</th>
-            <th align="left" width="25%">Expiration Date</th>
+        <table class="table table-striped table-bordered table-condensed">
+          <tr>
+            <th style="width:50%;">Title</th>
+            <th style="width:25%;">Announcement #</th>
+            <th style="width:25%;">Expiration Date</th>
           </tr>
-          <tr valign="top">
+          <tr>
             <td>Limited Competition:    Revision Applications for Basic Social and Behavioral Research on the Social,    Cultural, Biological, and Psychological Mechanisms of Stigma (R01)</td>
             <td><a href="http://grants.nih.gov/grants/guide/rfa-files/RFA-MD-13-005.html">RFA-MD-13-005</a></td>
             <td>August 3, 2013</td>
           </tr>
-          <tr valign="top">
+          <tr>
             <td>Basic Behavioral Research on Multisensory Processing</td>
             <td><a href="http://grants.nih.gov/grants/guide/rfa-files/RFA-EY-13-001.html" target="_blank">RFA-EY-13-001</a> (R21)</td>
             <td>November 1, 2012</td>
           </tr>
-          <tr valign="top">
+          <tr>
             <td>Small Grants Program for Behavioral Research in Cancer Control (Reissued PA)</td>
             <td><a href="http://grants.nih.gov/grants/guide/pa-files/PAR-12-035.html">PAR-12-035</a> (R03)</td>
             <td>October 19, 2012</td>
           </tr>
-          <tr valign="top">
+          <tr>
             <td>Mechanisms Underlying the Links between Psychosocial Stress, Aging, the Brain and the Body</td>
             <td><a href="http://grants.nih.gov/grants/guide/pa-files/PA-09-216.html">PA-09-216</a> (R01)</td>
             <td>September 8, 2012</td>
           </tr>
-		  <tr valign="top">
+		  <tr>
             <td>Decision Making in Cancer: Single-Event Decisions</td>
             <td><a href="http://grants.nih.gov/grants/guide/pa-files/PA-08-063.html">PA-08-063</a> (R01s)<br />
             <a href="http://grants.nih.gov/grants/guide/pa-files/PA-08-064.html">PA-08-064</a> (R21s)</td>
             <td>January 8, 2011</td>
           </tr>
-          <tr valign="top">
+          <tr>
             <td>Outcomes, Cost-Effectiveness and the Decision Making Process to Use Complementary and Alternative Medicine</td>
             <td><a href="http://grants.nih.gov/grants/guide/pa-files/PAR-08-045.html">PAR-08-045</a> (R01)</td>
             <td>May 20, 2010</td>
           </tr>
-          <tr valign="top">
+          <tr>
             <td>NIH Basic Behavioral and Social Science Opportunity Network (OppNet) Short-term Mentored Career Development Awards in the Basic Behavioral and Social Sciences for Mid-career and Senior Investigators</td>
             <td><a href="http://grants.nih.gov/grants/guide/rfa-files/RFA-OD-10-003.html">RFA-OD-10-003</a> (K18)</td>
             <td>Februrary 18, 2010</td>
           </tr>
-          <tr valign="top">
+          <tr>
             <td>Research on Mind-Body Interactions and Health, The program announcement on Mind-Body Interactions and Health Trans-NIH</td>
             <td><a href="http://grants.nih.gov/grants/guide/pa-files/PA-07-046.html">PA-07-046</a></td>
             <td>January 8, 2010</td>
           </tr>
-          <tr valign="top">
+          <tr>
             <td>Decision Making in Health: Behavior Maintenance</td>
             <td><a href="http://grants.nih.gov/grants/guide/pa-files/PA-05-016.html">PA-05-016</a><br />
             <a href="http://grants.nih.gov/grants/guide/pa-files/PA-06-337.html">PA-06-337</a> (R21s) </td>
             <td>January 3, 2008</td>
           </tr>
-          <tr valign="top">
+          <tr>
             <td>RFA - Field-Deployable Tools for Quantifying Exposures to Psychosocial Stress and to Addictive Substances for Studies of Health and Disease</td>
             <td><a href="http://grants.nih.gov/grants/guide/rfa-files/RFA-DA-07-005.html ">DA-07-005</a></td>
             <td>December 22, 2006</td>
           </tr>
-          <tr valign="top">
+          <tr>
             <td>Biobehavioral Pain Research</td>
             <td><a href="http://grants1.nih.gov/grants/guide/pa-files/PA-03-152.html">Trans-NIH PA-03-152</a></td>
             <td>July 30, 2006</td>
           </tr>
-          <tr valign="top">
+          <tr>
             <td>Basic and Translational Research on Emotion - Small Grants</td>
             <td><a href="http://grants2.nih.gov/grants/guide/pa-files/PA-03-169.html">PA-03-169</a></td>
             <td>&nbsp;</td>
           </tr>
-          <tr valign="top">
+          <tr>
             <td>Strengthening Behavioral and Social Science in Medical Schools. Trans-NIH</td>
             <td><a href="http://grants.nih.gov/grants/guide/rfa-files/RFA-OD-05-001.html">RFA-OD-05-001</a></td>
             <td>January 19, 2005</td>
           </tr>
-          <tr valign="top">
+          <tr>
             <td>Research on Mind-Body Interactions and Health</td>
             <td><a href="http://grants.nih.gov/grants/guide/rfa-files/RFA-OD-03-008.html">Trans-NIH RFA
 OD-03-008</a></td>
             <td>December 17, 2003</td>
           </tr>
-          <tr valign="top">
+          <tr>
             <td>Mind-Body Interactions and Health: Research Infrastructure Program</td>
             <td><a href="http://grants.nih.gov/grants/guide/rfa-files/RFA-OB-03-004.html">RFA OB-03-004</a> (R24)</td>
             <td>July 16, 2003</td>
           </tr>
-          <tr valign="top">
+          <tr>
             <td>Mind-Body Interactions and Health: Exploratory/Developmental Research Program</td>
             <td><a href="http://grants.nih.gov/grants/guide/rfa-files/RFA-OB-03-005.html">RFA-OB-03-005</a> (R21)</td>
             <td>July 16, 2003</td>
           </tr>
-          <tr valign="top">
+          <tr>
             <td>The Placebo Effect in Clinical Practice, Trans-NIH</td>
             <td><a href="http://grants.nih.gov/grants/guide/rfa-files/RFA-AT-02-001.html">RFA-AT-02-001</a></td>
             <td>April 11, 2002</td>
           </tr>
-          <tr valign="top">
+          <tr>
             <td>Management of Symptoms at the End of Life</td>
             <td><a href="http://grants.nih.gov/grants/guide/pa-files/PA-98-019.html">PA-98-019</a> (R01)</td>
             <td>&nbsp;</td>
           </tr>
-          <tr valign="top">
+          <tr>
             <td>Basic and Biobehavioral Research On Cancer-Related Behaviors</td>
             <td><a href="http://grants2.nih.gov/grants/guide/rfa-files/RFA-CA-99-014.html">RFA CA-99-014</a></td>
             <td>November 18, 1999</td>
           </tr>
-          <tr valign="top">
+          <tr>
             <td>Basic and Biobehavioral Research On Cancer-Related Behaviors</td>
             <td><a href="http://grants2.nih.gov/grants/guide/rfa-files/RFA-CA-98-015.html">RFA CA-98-015</a></td>
             <td>November 11, 1998</td>
           </tr>
-         <tr valign="top">
+         <tr>
             <td>Exploratory Grants for Behavioral Research in Cancer Control</td>
             <td><a href="http://grants.nih.gov/grants/guide/pa-files/PA-09-130.html">PA-09-130</a> (R21)</td>
             <td>May 8, 2012</td>
@@ -256,7 +388,7 @@ OD-03-008</a></td>
             <td><a href="http://grants.nih.gov/grants/guide/pa-files/PA-09-121.html">PA-09-121</a> (R21)</td>
             <td>May 8, 2012</td>
           </tr>
-          <tr valign="top">
+          <tr>
             <td>Biobehavioral Methods to Improve Outcomes Research</td>
             <td><a href="http://grants.nih.gov/grants/guide/pa-files/PA-09-125.html">PA-09-125</a> (R01)<br />
             <a href="http://grants.nih.gov/grants/guide/pa-files/PA-09-126.html">PA-09-126</a> (R21)</td>
@@ -266,29 +398,29 @@ OD-03-008</a></td>
 		<p align="right">[<a href="#top">Return to Top</a>]</p>
         
         <p><strong><a name="hbrb" id="hbrb"></a>Health Behaviors Research</strong></p>
-        <table width="100%" cellpadding="3" border="1" cellspacing="0">
-          <tr valign="top">
-            <th align="left" width="50%">Title</th>
-            <th align="left" width="25%">Announcement #</th>
-            <th align="left" width="25%">Expiration Date</th>
+        <table class="table table-striped table-bordered table-condensed">
+          <tr>
+            <th style="width:50%;">Title</th>
+            <th style="width:25%;">Announcement #</th>
+            <th style="width:25%;">Expiration Date</th>
           </tr>
-          <tr valign="top">
+          <tr>
             <td>Small Grants Program for Behavioral Research in Cancer Control (Reissued PA)</td>
             <td><a href="http://grants.nih.gov/grants/guide/pa-files/PAR-12-035.html">PAR-12-035</a> (R03)</td>
             <td>October 19, 2012</td>
           </tr>
-          <tr valign="top">
+          <tr>
             <td>Impact of Health Communication Strategies on Dietary Behaviors</td>
             <td><a href="http://grants.nih.gov/grants/guide/pa-files/PA-08-239.html">PA-08-239</a> (R01)<br />
          	<a href="http://grants.nih.gov/grants/guide/pa-files/PA-08-240.html">PA-08-240</a> (R21)</td>
             <td>September 8, 2011</td>
           </tr>
-          <tr valign="top">
+          <tr>
             <td>Reducing Risk Behaviors by Promoting Positive Youth Development</td>
             <td><a href="http://grants.nih.gov/grants/guide/pa-files/PA-08-242.html">PA-08-242</a> (R03)</td>
             <td>September 8, 2011</td>
           </tr>
-          <tr valign="top">
+          <tr>
             <td>Transdisciplinary Research in Energetics and Cancer (TREC)<br /><br />
             TREC Coordinating Center</td>
             <td><a href="http://grants.nih.gov/grants/guide/rfa-files/RFA-CA-10-006.html">RFA-CA-10-006</a> (U54)<br /><br />
@@ -296,58 +428,58 @@ OD-03-008</a></td>
            (Limited Competition).</td>
             <td>February 27, 2010</td>
           </tr>
-          <tr valign="top">
+          <tr>
             <td>Information Technologies and the Internet in Health Services and Intervention Delivery &#8211; Trans-NIH program announcements</td>
             <td><p><a href="http://grants1.nih.gov/grants/guide/pa-files/PA-07-295.html">PA-07-295</a> (R01)</p></td>
             <td>January 3, 2010</td>
           </tr>
-          <tr valign="top">
+          <tr>
             <td>Information Technologies and the Internet in Health Services and Intervention Delivery &#8211; Trans-NIH program announcements</td>
             <td><p><a href="http://grants2.nih.gov/grants/guide/pa-files/PA-06-224.html">PA-06-224</a>  (R21)<br/>
             <a href="http://grants.nih.gov/grants/guide/pa-files/PA-06-225.html">PA-06-225</a> (R03)</p></td>
             <td>May 8, 2009</td>
           </tr>
-          <tr valign="top">
+          <tr>
             <td>Translating Basic Behavioral and Social Science Discoveries into Interventions to Reduce Obesity:&nbsp; Centers for Behavioral Intervention Development <br/></td>
             <td> <br/>
               <a href="http://grants.nih.gov/grants/guide/rfa-files/RFA-HL-08-013.html">RFA-HL-08-013</a> (U01)&nbsp;&nbsp;</td>
             <td>January 13, 2009</td>
           </tr>
-          <tr valign="top">
+          <tr>
             <td>NIH Revision Awards for Studying Interactions Among Social, Behavioral, and Genetic Factors in Health</td>
             <td><a href="http://grants.nih.gov/grants/guide/pa-files/PAR-08-065.html">PAR-08-065</a> (R01)<br />
             <a href="http://grants.nih.gov/grants/guide/pa-files/PAR-08-066.html">PAR-08-066</a> (R21)<br />
             <a href="http://grants.nih.gov/grants/guide/pa-files/PAR-08-067.html">PAR-08-067</a> (P01, P20, P50, P60, U01, U10, U54)</td>
             <td>May 14, 2008</td>
           </tr>
-          <tr valign="top">
+          <tr>
             <td>Bioengineering Approaches to Energy Balance and Obesity - Trans-NIH</td>
             <td><a href="http://grants2.nih.gov/grants/guide/pa-files/PA-04-156.html">PA-04-156</a></td>
             <td>August, 2, 2007</td>
           </tr>
-          <tr valign="top">
+          <tr>
             <td>NIH and AHRQ PA Health Promotion Among Racial and Ethnic Minority Males</td>
             <td><a href="http://grants2.nih.gov/grants/guide/pa-files/PA-03-170.html">PA-03-170 </a></td>
             <td>August 31, 2006</td>
           </tr>
-          <tr valign="top">
+          <tr>
             <td>Obesity and the Built Environment - Trans-HHS RFA</td>
             <td><a href="http://grants2.nih.gov/grants/guide/rfa-files/RFA-ES-04-003.html">ES-04-003</a></td>
             <td>December 18, 2004</td>
           </tr>
-          <tr valign="top">
+          <tr>
             <td>New RFA on Transdisciplinary Research on Energetics and Cancer</td>
             <td><a href="http://grants.nih.gov/grants/guide/rfa-files/RFA-CA-05-010.html">RFA-CA-05-010</a><br />
             <a href="http://grants.nih.gov/grants/guide/rfa-files/RFA-CA-05-011.html">RFA-CA-05-011</a><br />
             <a href="http://grants.nih.gov/grants/guide/notice-files/NOT-CA-04-010.html">Pre-Application Meeting Information</a></td>
             <td>November 16, 2004</td>
           </tr>
-          <tr valign="top">
+          <tr>
             <td>Mechanisms of Physical Activity Behavior Change</td>
             <td><a href="http://grants.nih.gov/grants/guide/rfa-files/rfa-ca-04-009.html">RFA CA-04-009 </a></td>
             <td>November 14, 2003</td>
           </tr>
-          <tr valign="top">
+          <tr>
             <td>Maintenance of Long Term Behavioral Change, Trans-NIH RFA</td>
             <td><a href="http://grants1.nih.gov/grants/guide/rfa-files/RFA-OB-03-003.html">OB-03-003</a></td>
             <td>April 11, 2003</td>
@@ -357,66 +489,66 @@ OD-03-008</a></td>
 		<p align="right">[<a href="#top">Return to Top</a>]</p>		
 		
 		<p><strong><a name="hcirb"></a>Health Communication and Informatics Research</strong></p>
-        <table width="100%" cellpadding="3" border="1" cellspacing="0">
-          <tr valign="top">
-            <th width="50%" align="left">Title</th>
-            <th width="25%" align="left">Announcement #</th>
-            <th width="25%" align="left">Expiration Date</th>
+        <table class="table table-striped table-bordered table-condensed">
+          <tr>
+            <th style="width:50%;">Title</th>
+            <th style="width:25%;">Announcement #</th>
+            <th style="width:25%;">Expiration Date</th>
           </tr>
-          <tr valign="top">
+          <tr>
             <td>Small Grants Program for Behavioral Research in Cancer Control (Reissued PA)</td>
             <td><a href="http://grants.nih.gov/grants/guide/pa-files/PAR-12-035.html">PAR-12-035</a> (R03)</td>
             <td>October 19, 2012</td>
           </tr>
-          <tr valign="top">
+          <tr>
             <td>Understanding and Promoting Health Literacy, Trans-NIH Program Announcements</td>
             <td><a href="http://grants.nih.gov/grants/guide/pa-files/PAR-07-020.html">PAR-07-020</a> (R01s)<br />
             <a href="http://grants1.nih.gov/grants/guide/pa-files/PAR-04-117.html">PAR-04-117</a> (R03s)</td>
             <td>January 26, 2010</td>
           </tr>
-          <tr valign="top">
+          <tr>
             <td>Information Technologies and the Internet in Health Services and Intervention Delivery &#8211; Trans-NIH program announcements</td>
             <td><p><a href="http://grants1.nih.gov/grants/guide/pa-files/PA-07-295.html">PA-07-295</a> (R01)</p></td>
             <td>January 3, 2010</td>
           </tr>
-          <tr valign="top">
+          <tr>
             <td>Information Technologies and the Internet in Health Services and Intervention Delivery – Trans-NIH program announcements</td>
             <td><a href="http://grants2.nih.gov/grants/guide/pa-files/PA-06-224.html">PA-06-224</a> (R21)<br />
             <a href="http://grants.nih.gov/grants/guide/pa-files/PA-06-225.html">PA-06-225</a> (R03)<br />
 		  	<a href="http://grants.nih.gov/grants/guide/pa-files/PA-06-226.html">PA-06-226</a> (R01)</td>
             <td>May 8, 2009</td>
           </tr>
-          <tr valign="top">
+          <tr>
             <td>Centers of Excellence in Cancer Communication Research II (P50)</td>
             <td><a href="http://grants.nih.gov/grants/guide/rfa-files/RFA-CA-08-004.html">RFA-CA-08-004</a></td>
             <td>February 23, 2008</td>
           </tr>
-          <tr valign="top">
+          <tr>
             <td>Exploratory Grants for Increasing the Utilization and Impact of the National Cancer Institute’s Cancer Information Service</td>
             <td><a href="http://grants1.nih.gov/grants/guide/rfa-files/RFA-CA-06-015.html">RFA-CA-06-015</a> (R21)</td>
             <td>April 19, 2006</td>
           </tr>
-          <tr valign="top">
+          <tr>
             <td>Centers of Excellence in Cancer Communications Research</td>
             <td><a href="brp/hcirb/ceccr/">RFA-CA-03-007</a></td>
             <td>August 15, 2002</td>
           </tr>
-          <tr valign="top">
+          <tr>
             <td>Centers of Excellence in Cancer Communications Research</td>
             <td><a href="brp/hcirb/ceccr/">CA-01-019</a></td>
             <td>July 11, 2001</td>
           </tr>
-          <tr valign="top">
+          <tr>
             <td>Cancer Communication and Interactive Media Technology</td>
             <td><a href="http://grants.nih.gov/grants/guide/pa-files/PAR-00-137.html">PAR-00-137</a></td>
             <td>&nbsp;</td>
           </tr>
-          <tr valign="top">
+          <tr>
             <td>Health Communications in Cancer Control</td>
             <td><a href="http://grants2.nih.gov/grants/guide/rfa-files/RFA-CA-98-014.html">RFA CA-98-014</a></td>
             <td>August 26, 1998</td>
           </tr>
-          <tr valign="top">
+          <tr>
            <td>Exploratory Grants for Behavioral Research in Cancer Control</td>
             <td><a href="http://grants.nih.gov/grants/guide/pa-files/PA-09-130.html">PA-09-130</a> (R21)</td>
             <td>May 8, 2012</td>
@@ -425,49 +557,55 @@ OD-03-008</a></td>
 		<p align="right">[<a href="#top">Return to Top</a>]</p>
         
         <p><strong><!--Applied Cancer Screening Research --><a name="pcrb" id="pcrb"></a>Process of Care Research</strong></p>
-		<table width="100%" cellpadding="3" border="1" cellspacing="0">
-          <tr valign="top">
-            <th align="left" width="50%">Title</th>
-            <th align="left" width="25%">Announcement #</th>
-            <th align="left" width="25%">Expiration Date</th>
+		<table class="table table-striped table-bordered table-condensed">
+          <tr>
+            <th style="width:50%;">Title</th>
+            <th style="width:25%;">Announcement #</th>
+            <th style="width:25%;">Expiration Date</th>
           </tr>
-          <tr valign="top">
+          <tr style="vertical-align:top;">
+      <td>NIH   Health Care Systems Research Collaboratory - Demonstration Projects      for Pragmatic Clinical Trials Focusing on Multiple Chronic Conditions<br />
+        <a href="http://grants.nih.gov/grants/guide/notice-files/NOT-RM-13-024.html">Technical    Assistance Videocast</a></td>
+      <td><a href="http://grants.nih.gov/grants/guide/rfa-files/RFA-RM-13-012.html">RFA-RM-13-012</a> (UH2/UH3)</td>
+      <td>December 3, 2013</td>
+    </tr>
+          <tr>
             <td>Small Grants Program for Behavioral Research in Cancer Control (Reissued PA)</td>
             <td><a href="http://grants.nih.gov/grants/guide/pa-files/PAR-12-035.html">PAR-12-035</a> (R03)</td>
             <td>October 19, 2012</td>
           </tr>
-          <tr valign="top">
+          <tr>
             <td>Pathways Linking Education to Health</td>
             <td><a href="http://grants.nih.gov/grants/guide/rfa-files/RFA-OB-03-001.html">Trans-NIH RFA OB-03-001</a></td>
             <td>March 26, 2003</td>
           </tr>
-          <tr valign="top">
+          <tr>
             <td>Colorectal Cancer Screening in Primary Care Practice</td>
             <td><a href="http://grants1.nih.gov/grants/guide/pa-files/PAR-04-036.html">PAR-04-036</a></td>
             <td>June 24, 2005</td>
           </tr>
-          <tr valign="top">
+          <tr>
             <td>NCI Transition Career Development Award (K22)</td>
             <td><a href="http://grants1.nih.gov/grants/guide/pa-files/PAR-04-040.html">PAR-04-040</a></td>
             <td>October 2, 2005</td>
           </tr>
-          <tr valign="top">
+          <tr>
             <td>Cancer Prevention, Control, Behavioral, and Population Sciences Career Development Award</td>
             <td><a href="http://grants.nih.gov/grants/guide/pa-files/PAR-04-055.html">PAR-04-055</a></td>
             <td>June 1, 2006</td>
           </tr>
-            <tr valign="top">
+            <tr>
            <td>Social Network Analysis and Health</td>
             <td><a href="http://grants.nih.gov/grants/guide/pa-files/PAR-10-145.html">PAR-10-145</a> (R01)<br />
             <a href="http://grants.nih.gov/grants/guide/pa-files/PAR-10-146.html">PAR-10-146</a> (R21)</td>
             <td>May 12, 2012</td>
           </tr>
-          <tr valign="top">
+          <tr>
             <td>Cancer Surveillance Using Health Claims-Based Data System</td>
             <td><a href="http://grants.nih.gov/grants/guide/pa-files/PA-09-144.html">PA-09-144</a> (R21)</td>
             <td>May 8, 2012</td>
           </tr>
-          <tr valign="top">
+          <tr>
            <td>Exploratory Grants for Behavioral Research in Cancer Control</td>
             <td><a href="http://grants.nih.gov/grants/guide/pa-files/PA-09-130.html">PA-09-130</a> (R21)</td>
             <td>May 8, 2012</td>
@@ -477,23 +615,28 @@ OD-03-008</a></td>
 		
 		
 		<p><strong><a name="tcrb"></a> Tobacco Control Research</strong></p>        
-        <table width="100%" cellpadding="3" border="1" cellspacing="0">
-          <tr valign="top">
-            <th align="left" width="50%">Title</th>
-            <th align="left" width="25%">Announcement #</th>
-            <th align="left" width="25%">Expiration Date</th>
+        <table class="table table-striped table-bordered table-condensed">
+          <tr>
+            <th style="width:50%;">Title</th>
+            <th style="width:25%;">Announcement #</th>
+            <th style="width:25%;">Expiration Date</th>
           </tr>
           <tr>
-		    <td valign="top"><p>Revision  Applications to Promote Collaborative Research on Addiction at NIH (CRAN):  Comorbidity-Related Research (R01)</p></td>
-		    <td valign="top"><a href="http://grants.nih.gov/grants/guide/rfa-files/RFA-DA-14-014.html">RFA-DA-14-014</a> (R01)</td>
-		    <td valign="top"><p>September 25, 2013</p></td>
+		    <td>Center for Evaluation and Coordination of Training and Research in    Tobacco Regulatory Science</td>
+		    <td><a href="http://grants.nih.gov/grants/guide/rfa-files/RFA-OD-13-117.html">RFA-OD-13-117</a> (U54) </td>
+		    <td>December 11, 2013</td>
+    </tr>
+          <tr>
+		    <td><p>Revision  Applications to Promote Collaborative Research on Addiction at NIH (CRAN):  Comorbidity-Related Research (R01)</p></td>
+		    <td><a href="http://grants.nih.gov/grants/guide/rfa-files/RFA-DA-14-014.html">RFA-DA-14-014</a> (R01)</td>
+		    <td><p>September 25, 2013</p></td>
 	      </tr>
 		  <tr>
-		    <td valign="top"><p>Administrative Supplements to Promote Collaborative  Research on Addiction at NIH (CRAN): Comorbidity-Related Research (Admin  Supp)</p></td>
-		    <td valign="top"><a href="http://grants.nih.gov/grants/guide/pa-files/PA-13-275.html">PA-13-275</a></td>
-		    <td valign="top">September 25, 2013</td>
+		    <td><p>Administrative Supplements to Promote Collaborative  Research on Addiction at NIH (CRAN): Comorbidity-Related Research (Admin  Supp)</p></td>
+		    <td><a href="http://grants.nih.gov/grants/guide/pa-files/PA-13-275.html">PA-13-275</a></td>
+		    <td>September 25, 2013</td>
 	      </tr>
-          <tr valign="top">
+          <tr>
 		    <td><p>NIH Revision    Applications for Research Relevant to the Family Smoking Prevention and Tobacco    Control Act (P30)<br />
 		      <br />
 		      <a href="http://prevention.nih.gov/tobacco/docs/FAQs%20for%20P30.pdf">Frequently Asked Questions</a> (PDF, updated 2/22/13)<br />
@@ -502,7 +645,7 @@ OD-03-008</a></td>
 		    <td><p><a href="http://grants.nih.gov/grants/guide/rfa-files/RFA-OD-12-007.html" title="RFA-OD-12-007">RFA-OD-12-007</a></p></td>
 		    <td><p>March 26, 2013</p></td>
 	      </tr>
-          <tr valign="top">
+          <tr>
             <td>Small Grants Program for Behavioral Research in Cancer Control (Reissued PA)</td>
             <td><a href="http://grants.nih.gov/grants/guide/pa-files/PAR-12-035.html">PAR-12-035</a> (R03)</td>
             <td>October 19, 2012</td>
@@ -518,113 +661,113 @@ OD-03-008</a></td>
 			<td><a href="http://grants.nih.gov/grants/guide/rfa-files/RFA-TW-11-003.html">RFA-TW-11-003</a> (R01)</td>
 			<td>September 15, 2011</td>
 		  </tr>
-          <tr valign="top">
+          <tr>
             <td>Administrative Supplements for Special Research Priority on U.S. Food and Drug Administration (FDA) Tobacco Product Regulation<br /><br />
             
             <a href="brp/tcrb/documents/App_Procedure_FDA_Admin_Supplements.pdf">Application Procedure</a></td>
             <td><a href="http://grants.nih.gov/grants/guide/notice-files/NOT-CA-10-007.html">NOT-CA-10-007</a></td>
             <td>February 26, 2010</td>
           </tr>
-          <tr valign="top">
+          <tr>
             <td>State and Community Tobacco Control Policy and Media Research</td>
             <td><a href="http://grants.nih.gov/grants/guide/rfa-files/RFA-CA-10-008.html">RFA-CA-10-008</a> (U01)</td>
             <td>January 23, 2010</td>
           </tr>
-          <tr valign="top">
+          <tr>
             <td>Effectiveness Research on Smoking Cessation in Hospitalized Patients</td>
             <td><a href="http://grants.nih.gov/grants/guide/rfa-files/RFA-HL-10-020.html">RFA-HL-10-020</a> (U01)</td>
             <td>January 19, 2010</td>
           </tr>
-          <tr valign="top">
+          <tr>
             <td>Accelerating the Pace of Drug Abuse Research Using Existing Epidemiology, Prevention, and Treatment Research Data</td>
             <td><a href="http://grants.nih.gov/grants/guide/pa-files/PAR-10-018.html">PAR-10-018 </a>(R01)</td>
             <td>January 8, 2013</td>
           </tr>
-          <tr valign="top">
+          <tr>
             <td>Substance Use and Abuse among U.S. Military Personnel, Veterans and their Families </td>
-            <td><a href="http://grants.nih.gov/grants/guide/rfa-files/RFA-DA-10-001.html">RFA DA-10-001</a> (RO1)<br />
+            <td><a href="http://grants.nih.gov/grants/guide/rfa-files/RFA-DA-10-001.html">RFA DA-10-001</a> (R01)<br />
             <a href="http://grants.nih.gov/grants/guide/rfa-files/RFA-DA-10-002.html">RFA DA-10-002</a> (R21)</td>
             <td>December 23, 2009</td>
           </tr>
-          <tr valign="top">
+          <tr>
             <td>Improving Effectiveness of Smoking Cessation Interventions and Programs in Low Income Adult Populations</td>
             <td><a href="http://grants.nih.gov/grants/guide/rfa-files/RFA-CA-08-023.html">RFA-CA-08-023</a> (R21)<br />
             <a href="http://grants.nih.gov/grants/guide/rfa-files/RFA-CA-08-022.html">RFA-CA-08-022</a> (R01)</td>
             <td>November 25, 2008</td>
           </tr>
-          <tr valign="top">
+          <tr>
             <td>Measures and Determinants of Smokeless Tobacco Use, Prevention, and Cessation</td>
             <td><a href="http://grants.nih.gov/grants/guide/rfa-files/RFA-CA-08-025.html">RFA-CA-08-025</a> (R21)<br />
             <a href="http://grants.nih.gov/grants/guide/rfa-files/RFA-CA-08-024.html">RFA-CA-08-024</a> (R01)</td>
             <td>November 25, 2008</td>
           </tr>
-          <tr valign="top">
+          <tr>
             <td>Fogarty International Center RFA - Framework Programs for Global Health</td>
             <td><a href="http://grants.nih.gov/grants/guide/rfa-files/RFA-TW-08-001.html">RFA-TW-08-001</a> (R25)</td>
             <td>September 21, 2007</td>
           </tr>
-          <tr valign="top">
+          <tr>
             <td>Transdisciplinary Tobacco Use Research Centers. Trans-NIH Collaborative</td>
             <td><a href="http://tobaccocontrol.cancer.gov/tturc/">RFA-CA-04-012</a></td>
             <td>January 23, 2004</td>
           </tr>
-          <tr valign="top">
+          <tr>
             <td>Review and Analysis of Tobacco Industry Documents Program Announcement</td>
             <td><a href="http://grants.nih.gov/grants/guide/pa-files/PAR-01-063.html">PAR-01-063</a></td>
             <td>February 12, 2002</td>
           </tr>
-          <tr valign="top">
+          <tr>
             <td>The International Tobacco and Health Research and Capacity Building Program<br />
 		  <a href="http://www.nih.gov/news/pr/jun2001/fic-27.htm">Press Release, June 2001</a></td>
             <td><a href="http://grants.nih.gov/grants/guide/rfa-files/RFA-TW-02-005.html">RFA-TW-02-005</a></td>
             <td>October 26, 2001</td>
           </tr>
-          <tr valign="top">
+          <tr>
             <td>NIDA RFA - The Next Generation of Drug Abuse Prevention Research</td>
             <td><a href="http://grants.nih.gov/grants/guide/rfa-files/RFA-DA-01-009.html">DA-01-009</a></td>
             <td>April 16, 2001</td>
           </tr>
-          <tr valign="top">
+          <tr>
             <td>Research in State and Community Tobacco Control Interventions</td>
             <td><a href="http://grants.nih.gov/grants/guide/rfa-files/RFA-CA-01-017.html">RFA-CA-01-017</a></td>
             <td>&nbsp;</td>
           </tr>
-          <tr valign="top">
+          <tr>
             <td>Global Network for Women's and Children's Health Research</td>
             <td><a href="http://grants.nih.gov/grants/guide/rfa-files/RFA-HD-00-007.html">RFA-HD-00-007</a></td>
             <td>&nbsp;</td>
           </tr>
-          <tr valign="top">
+          <tr>
             <td>State Models For Oral Cancer Prevention and Early Detection</td>
             <td><a href="http://grants.nih.gov/grants/guide/rfa-files/RFA-DE-00-005.html">RFA DE-00-005</a></td>
             <td>&nbsp;</td>
           </tr>
-          <tr valign="top">
+          <tr>
             <td>Transdisciplinary Tobacco Use Research Centers</td>
             <td><a href="http://www.nida.nih.gov/ttuc/tturchome.html">RFA-CA-98-029</a></td>
             <td>&nbsp;</td>
           </tr>
-          <tr valign="top">
+          <tr>
             <td>Prevention and Cessation of Tobacco Use by Children and Youth in the U.S.</td>
             <td><a href="http://grants2.nih.gov/grants/guide/rfa-files/RFA-CA-98-002.html">RFA CA-98-002</a></td>
             <td>March 27, 1998</td>
           </tr>
-          <tr valign="top">
+          <tr>
             <td>Prevention and Cessation of Tobacco Use By Children and Youth In the U.S.</td>
             <td><a href="http://grants2.nih.gov/grants/guide/rfa-files/RFA-CA-97-010.html">RFA CA-97-010</a></td>
             <td>May 8, 1997</td>
           </tr>
-          <tr valign="top">
+          <tr>
             <td><a href="http://rcb.cancer.gov/rcb-internet/appl/rfp/published_rfps.jsp">Request for Proposals on Laboratory Assessment of Tobacco Use Behavior and Exposure to Toxins Among Users of New Tobacco Products Promoted to Reduce Harm</a></td>
             <td>&nbsp;</td>
             <td>June 3, 2005</td>
           </tr>
-          <tr valign="top">
+          <tr>
         <td>Testing Tobacco Products Promoted to Reduce Harm</td>
             <td><a href="http://grants.nih.gov/grants/guide/pa-files/PA-09-046.html">PA-09-046</a> (R01)</td>
             <td>May 8, 2012</td>
           </tr>
-          <tr valign="top">
+          <tr>
             <td>Exploratory Grants for Behavioral Research in Cancer Control</td>
             <td><a href="http://grants.nih.gov/grants/guide/pa-files/PA-09-130.html">PA-09-130</a> (R21)</td>
             <td>May 8, 2012</td>
@@ -634,19 +777,18 @@ OD-03-008</a></td>
 		<p align="right">[<a href="#top">Return to Top</a>]</p>
 		
 		<p><strong><a name="is"></a>Implementation Science</strong></p>
-        <table width="100%" cellpadding="3" border="1" cellspacing="0">
-          <tr valign="top">
-            <th align="left" width="50%">Title</th>
-            <th align="left" width="25%">Announcement #</th>
-            <th align="left" width="25%">Expiration Date</th>
+        <table class="table table-striped table-bordered table-condensed">
+          <tr>
+            <th style="width:50%;">Title</th>
+            <th style="width:25%;">Announcement #</th>
+            <th style="width:25%;">Expiration Date</th>
           </tr>
-          <tr valign="top">
-            <td>Administrative Supplements for Disseminating Evidence-based Computer-tailored Cancer Control Interventions <br /><br />
-            <a href="dd_instructions-2009.html">Instructions</a></td>
+          <tr>
+            <td>Administrative Supplements for Disseminating Evidence-based Computer-tailored Cancer Control Interventions</td>
             <td><a href="http://grants.nih.gov/grants/guide/notice-files/NOT-CA-10-003.html">NOT-CA-10-003</a></td>
             <td>January 15, 2010</td>
           </tr>
-          <tr valign="top">
+          <tr>
             <td>Dissemination and Implementation Research in Health <br /><br />
 			PowerPoint Presentation:<br />
             <a href="IS/pdfs/DIPAROrientWebPosting082806.pdf">Closing the Gap Between Discovery and Delivery</a>
@@ -656,10 +798,8 @@ OD-03-008</a></td>
             <a href="http://grants1.nih.gov/grants/guide/pa-files/PAR-06-521.html">PAR-06-521</a> (R21)</td>
             <td>September 2, 2009</td>
           </tr>
-          <tr valign="top">
+          <tr>
             <td>Administrative Supplements for Dissemination of Surveillance Research <span class="international">(Domestic Funding Opportunity Only)</span><br /><br />
-            
-            <a href="dd_instructions-2008.html">Instructions</a><br /><br />
             
 		    Frequently Asked Questions:<br />
             <a href="funding_dd_qnanot.html">Administrative Supplements for Dissemination of Surveillance Research</a><br /><br />
@@ -669,10 +809,8 @@ OD-03-008</a></td>
             <td><a href="http://grants.nih.gov/grants/guide/notice-files/NOT-CA-08-008.html">NOT-CA-08-008</a></td>
             <td>April 1, 2008</td>
           </tr>
-          <tr valign="top">
+          <tr>
             <td>Administrative Supplements for Dissemination of Surveillance Research <span class="international">(Domestic Funding Opportunity Only)</span><br /><br />
-            
-            <a href="dd_instructions-2007.html">Instructions</a><br /><br />
             
 		    Frequently Asked Questions:<br />
             <a href="funding_dd_qnanot004.html">Administrative Supplements for Dissemination of Surveillance Research</a><br /><br />
@@ -682,7 +820,7 @@ OD-03-008</a></td>
             <td><a href="http://grants.nih.gov/grants/guide/notice-files/NOT-CA-07-004.html">NOT-CA-07-004</a></td>
             <td>May 1, 2007</td>
           </tr>
-          <tr valign="top">
+          <tr>
             <td><a name="dd019"></a>Administrative Supplements for Dissemination of Surveillance Research<br /><br />
             
             <a href="IS/pdfs/Instructions_DCCPS_Admin_Suppls_3-2-06.pdf">Instructions</a><br /><br />
@@ -694,47 +832,41 @@ OD-03-008</a></td>
             <td><a href="http://grants2.nih.gov/grants/guide/notice-files/NOT-CA-06-019.html">NOT-CA-06-019</a></td>
             <td>May 30, 2006</td>
           </tr>
-          <tr valign="top">
+          <tr>
             <td>Administrative Supplements for Disseminating Evidence-Based Intervention Research Products<br /><br />
-            
-            <a href="dd_instruct.html">Instructions for Applying for Supplement</a><br /><br />
             
 		    Questions and Answers:<br />
             <a href="funding_dd_qna.html">Applying for Dissemination and Diffusion Supplements</a></td>
             <td>NOT-CA-05-016</td>
             <td>May 30, 2005</td>
           </tr>
-          <tr valign="top">
+          <tr>
             <td>Practice-based Research Networks (PBRNs) and the Translation of Research Into Practice</td>
             <td><a href="http://grants1.nih.gov/grants/guide/pa-files/PAR-04-041.html">PAR-04-041</a></td>
             <td>January 11, 2005</td>
           </tr>
-          <tr valign="top">
+          <tr>
             <td>Administrative Supplements for Disseminating Evidence-Based Intervention Research Products<br /><br />
-            
-            <a href="dd_instruct.html">Instructions for Applying for Supplement</a><br /><br />
             
 			Questions and Answers:<br />
             <a href="funding_dd_qna.html">Applying for Dissemination and Diffusion Supplements</a></td>
             <td><a href="http://grants.nih.gov/grants/guide/notice-files/NOT-CA-04-011.html">NOT-CA-04-011</a></td>
             <td>June 30, 2004</td>
           </tr>
-          <tr valign="top">
+          <tr>
             <td>Notice of Availability of Administrative Supplements for Disseminating Evidence-based Intervention Research Products<br /><br />
-            
-            <a href="funding_inst_sup.html">Instructions for Applying for Supplement</a><br /><br />
             
 			Questions and Answers:<br />
             <a href="funding_dd_qna.html">Applying for Dissemination and Diffusion Supplements</a></td>
             <td><a href="http://grants1.nih.gov/grants/guide/notice-files/NOT-CA-03-031.html">NOT-CA-03-031</a></td>
             <td>June 30, 2003</td>
           </tr>
-          <tr valign="top">
+          <tr>
             <td>Disseminating Evidence-based Intervention Research Products (Letter RFA)</td>
             <td><a href="http://grants.nih.gov/grants/guide/notice-files/NOT-CA-02-007.html">CA-02-506</a></td>
             <td>&nbsp;</td>
           </tr>
-          <tr valign="top">
+          <tr>
             <td>Dissemination of Promising Cancer Control Interventions Tested in Effective Research Projects (Letter RFA)</td>
             <td><a href="http://grants.nih.gov/grants/guide/notice-files/NOT-CA-01-010.html">CA-02-502</a></td>
             <td>&nbsp;</td>
@@ -744,78 +876,75 @@ OD-03-008</a></td>
 		<p align="right">[<a href="#top">Return to Top</a>]</p>		
 		
 		<p><strong><a name="ocs"></a>Cancer Survivorship</strong></p>
-        <table width="100%" cellpadding="3" border="1" cellspacing="0">
-          <tr valign="top">
-            <th width="50%" align="left">Title</th>
-            <th width="25%" align="left">Announcement #</th>
-            <th width="25%" align="left">Expiration Date</th>
+        <table class="table table-striped table-bordered table-condensed">
+          <tr>
+            <th style="width:50%;">Title</th>
+            <th style="width:25%;">Announcement #</th>
+            <th style="width:25%;">Expiration Date</th>
           </tr>
-          <tr valign="top">
+          <tr>
             <td>Small Grants Program for Behavioral Research in Cancer Control</td>
             <td><a href="http://grants.nih.gov/grants/guide/pa-files/PAR-12-035.html">PAR-12-035</a> (R03)</td>
             <td>October 19, 2012</td>
           </tr>
-          <tr valign="top">
+          <tr>
             <td>Mechanisms Underlying the Links between Psychosocial Stress, Aging, the Brain and the Body</td>
             <td><a href="http://grants.nih.gov/grants/guide/pa-files/PA-09-216.html">PA-09-216</a> (R01)</td>
             <td>September 8, 2012</td>
           </tr>
-          <tr valign="top">
+          <tr>
             <td>Studies of Energy Balance and Cancer in Humans</td>
             <td><a href="http://grants.nih.gov/grants/guide/pa-files/PA-09-148.html">PA-09-148</a> (R01)<br />
             <a href="http://grants.nih.gov/grants/guide/pa-files/PA-09-149.html">PA-09-149</a>  (R21)</td>
             <td>May 8, 2012</td>
           </tr>
-          <tr valign="top">
+          <tr>
             <td>Exploratory Grants for Behavioral Research in Cancer Control</td>
             <td><a href="http://grants.nih.gov/grants/guide/pa-files/PA-09-130.html">PA-09-130</a> (R21)</td>
             <td>May 8, 2012</td>
           </tr>
-          <tr valign="top">
+          <tr>
             <td>Small Grants Program for Behavioral Research in Cancer Control</td>
             <td><a href="http://grants.nih.gov/grants/guide/pa-files/PAR-09-003.html">PAR-09-003</a> (RO3)</td>
             <td>December 21, 2011</td>
           </tr>
-          <tr valign="top">
+          <tr>
             <td>Community Participation Research Targeting the Medically Underserved</td>
             <td><a href="http://grants.nih.gov/grants/guide/pa-files/PAR-08-075.html">PAR-08-075</a> (R01)<br />
             <a href="http://grants.nih.gov/grants/guide/pa-files/PAR-08-076.html">PAR-08-076</a> (R21)</td>
             <td>May 15, 2010 </td>
           </tr>
-          <tr valign="top">
-            <td>Administrative Supplements to Study Economic Impact of Interventions Targeting Cancer Survivors and/or their Families<br /><br />
-            <a href="funding_notca09023_inst.html">Instructions</a></td>
+          <tr>
+            <td>Administrative Supplements to Study Economic Impact of Interventions Targeting Cancer Survivors and/or their Families</td>
             <td><a href="http://grants.nih.gov/grants/guide/notice-files/NOT-CA-09-023.html ">NOT-CA-09-023</a></td>
             <td>June 15, 2009</td>
           </tr>
-          <tr valign="top">
-            <td>Administrative Supplements to Study Economic Impact of Interventions Targeting Cancer Survivors and/or their Families<br /><br />
-            
-            <a href="eco_impact_instructions.html">Instructions</a></td>
+          <tr>
+            <td>Administrative Supplements to Study Economic Impact of Interventions Targeting Cancer Survivors and/or their Families</td>
             <td><a href="http://grants.nih.gov/grants/guide/notice-files/NOT-CA-08-013.html">NOT-CA-08-013</a></td>
             <td>June 9, 2008</td>
           </tr>
-          <tr valign="top">
+          <tr>
             <td>Research Partnerships For Improving Functional Outcomes</td>
             <td><a href="http://grants.nih.gov/grants/guide/pa-files/PAR-04-077.html">PAR 04-077</a></td>
             <td>October 13, 2006</td>
           </tr>
-          <tr valign="top">
+          <tr>
             <td>Basic and Translational Research in Emotion: Small Grants: </td>
             <td><a href="http://grants2.nih.gov/grants/guide/pa-files/PA-03-169.html">PA-03-169</a></td>
             <td>&nbsp;</td>
           </tr>
-          <tr valign="top">
+          <tr>
             <td>Reducing Barriers to Symptom Management and Palliative Care</td>
             <td><a href="http://grants.nih.gov/grants/guide/rfa-files/RFA-CA-05-013.html">CA-05-013</a></td>
             <td>September 27, 2004</td>
           </tr>
-          <tr valign="top">
+          <tr>
             <td>Long Term Cancer Survivors: Research Initiatives</td>
             <td><a href="http://grants1.nih.gov/grants/guide/rfa-files/RFA-CA-04-003.html">RFA-CA-04-003</a></td>
             <td>June 16, 2003</td>
           </tr>
-          <tr valign="top">
+          <tr>
             <td>Long-Term Cancer Survivors: Research Initiatives</td>
             <td><a href="http://grants2.nih.gov/grants/guide/rfa-files/RFA-CA-97-018.html">RFA CA-97-018</a></td>
             <td>November 25, 1997</td>
@@ -825,120 +954,120 @@ OD-03-008</a></td>
 		<p align="right">[<a href="#top">Return to Top</a>]</p>		
 		
 		<p><strong><a name="arp"></a>Applied Research</strong></p> 
-        <table width="100%" cellpadding="3" border="1" cellspacing="0">
-          <tr valign="top">
-            <th align="left" width="50%">Title</th>
-            <th align="left" width="25%">Announcement #</th>
-            <th align="left" width="25%">Expiration Date</th>
+        <table class="table table-striped table-bordered table-condensed">
+          <tr>
+            <th style="width:50%;">Title</th>
+            <th style="width:25%;">Announcement #</th>
+            <th style="width:25%;">Expiration Date</th>
           </tr>
-          <tr valign="top">
+          <tr>
           	<td>Person-Centered Outcomes Research Resource (U2C)</td>
             <td><a href="http://grants.nih.gov/grants/guide/rfa-files/RFA-CA-13-008.html">RFA-CA-13-008</a></td>
             <td>September 27, 2013</td>
           </tr>
-          <tr valign="top">
+          <tr>
             <td>Diet &#38; Physical Activity Assessment</td>
             <td><a href="http://grants.nih.gov/grants/guide/pa-files/PAR-09-224.html">PAR-09-224</a> (R01)<br />
             <a href="http://grants.nih.gov/grants/guide/pa-files/PAR-09-225.html">PAR-09-225</a> (R21)</td>
             <td>July 6, 2012<br />
             July 17, 2012</td>
           </tr>
-		  <tr valign="top">
+		  <tr>
 		   <td>Diet &#38; Physical Activity Assessment</td>
 		    <td><a href="http://grants.nih.gov/grants/guide/pa-files/PAR-09-224.html">PAR-09-224</a> (R01)<br />
 		      <a href="http://grants.nih.gov/grants/guide/pa-files/PAR-09-225.html">PAR-09-225</a> (R21)</td>
 		    <td>July 6, 2012<br />
 		      July 17, 2012</td>
 	      </tr>
-          <tr valign="top">
+          <tr>
             <td>Understanding the Effects of Emerging Cellular, Molecular, and Genomic Technologies on Cancer Health Care Delivery</td>
             <td><a href="http://grants.nih.gov/grants/guide/pa-files/PA-09-004.html">PA-09-004</a> (R01)<br />
             <a href="http://grants.nih.gov/grants/guide/pa-files/PA-09-005.html">PA-09-005</a> (R21)</td>
             <td>January 8, 2012</td>
           </tr>
-          <tr valign="top">
+          <tr>
             <td>Cancer Research Network: a Research Resource within Health Care Delivery System</td>
             <td><a href="http://grants.nih.gov/grants/guide/rfa-files/RFA-CA-11-502.html">RFA-CA-11-502</a><br />
             (Limited Competition U24)</td>
             <td>December 15, 2011</td>
           </tr>
-          <tr valign="top">
+          <tr>
             <td>Research on the Economics of Diet, Activity, and Energy Balance</td>
             <td><!--<a href="http://grants.nih.gov/grants/guide/pa-files/PA-08-078.html">PA-08-078</a> (R01)<br /> -->
             <a href="http://grants.nih.gov/grants/guide/pa-files/PA-08-077.html">PA-08-077</a> (R21)</td>
             <td><!--January 8, 2011<br /> -->
             November 6, 2011</td>
           </tr>
-          <tr valign="top">
+          <tr>
             <td>Methodology and Measurement in the Behavioral and Social Sciences</td>
             <td><a href="http://grants.nih.gov/grants/guide/pa-files/PAR-08-212.html">PAR-08-212</a> (R01)<br />
             <a href="http://grants.nih.gov/grants/guide/pa-files/PAR-08-213.html">PAR-08-213</a> (R21)<br />
             <a href="http://grants.nih.gov/grants/guide/pa-files/PAR-08-214.html">PAR-08-214</a> (R03)</td>
             <td>September 8, 2011</td>
           </tr>
-          <tr valign="top">
+          <tr>
             <td>Geographic and Contextual Influences on Energy Balance-Related Health Behavior<br />
             <a href="http://appliedresearch.cancer.gov/funding/geog_cont_energy_bal_pa_fact_sheet.pdf">Announcement Summary</a></td>
             <td><a href="http://grants.nih.gov/grants/guide/pa-files/PA-08-192.html">PA-08-192</a> (R01)<br />
             <a href="http://grants.nih.gov/grants/guide/pa-files/PA-08-193.html">PA-08-193</a> (R21)</td>
             <td>September 8, 2011</td>
           </tr>
-          <tr valign="top">
+          <tr>
             <td>Population-based Research Optimizing Screening through Personalized Regimens (PROSPR)<br /><br />
             Statistical Coordination Center for the PROSPR</td>
             <td><a href="http://grants.nih.gov/grants/guide/rfa-files/RFA-CA-11-003.html">RFA-CA-11-003</a> (U54)<br /><br /><br /><br />
             <a href="http://grants.nih.gov/grants/guide/rfa-files/RFA-CA-11-004.html">RFA-CA-11-004</a> (U01)</td>
             <td>February 9, 2011</td>
           </tr>
-          <tr valign="top">
+          <tr>
             <td>Research on the Economics of Diet, Activity, and Energy Balance</td>
             <td><a href="http://grants.nih.gov/grants/guide/pa-files/PA-08-078.html">PA-08-078</a> (R01)<!--<br />
             <a href="http://grants.nih.gov/grants/guide/pa-files/PA-08-077.html">PA-08-077</a> (R21) --></td>
             <td>January 8, 2011<!--<br />
             November 6, 2011 --></td>
           </tr>
-          <tr valign="top">
+          <tr>
             <td>Cancer Care Outcomes Research and Surveillance (CanCORS) Consortium (Limited Competition)    </td>
             <td><a href="http://grants.nih.gov/grants/guide/rfa-files/RFA-CA-09-503.html">RFA-CA-09-503</a> [U01]</td>
             <td>December 16, 2008</td>
           </tr>
-          <tr valign="top">
+          <tr>
             <td>Methodology and Measurement in the Behavioral and Social Sciences<br /><br />            
             <a href="docs/Method_Measure_Behavior_Social_Sciences_1007.pdf">Methodology and Measurement in the Behavioral and Social Sciences Factsheet</a></td>
             <td><a href="http://grants.nih.gov/grants/guide/pa-files/PA-07-060.html">PA-07-060</a></td>
             <td>May 8, 2008</td>
           </tr>
-          <tr valign="top">
+          <tr>
             <td>Improved Measures of Diet and Physical Activity for the Genes and Environment Initiative</td>
             <td><a href="http://grants.nih.gov/grants/guide/rfa-files/RFA-CA-07-032.html">RFA-CA-07-032</a></td>
             <td>January 11, 2007</td>
           </tr>
-          <tr valign="top">
+          <tr>
             <td>Economic Studies in Cancer Prevention, Screening and Care</td>
             <td><a href="http://grants.nih.gov/grants/guide/pa-files/PA-06-304.html">PA-06-304</a> (R21)</td>
             <td>November 2, 2006</td>
           </tr>
-          <tr valign="top">
+          <tr>
             <td>Cancer Care Outcomes Research and Surveillance Consortium (CanCORS)</td>
             <td><a href="http://healthservices.cancer.gov/cancors/">CA-01-013</a></td>
             <td>&nbsp;</td>
           </tr>
-          <tr valign="top">
+          <tr>
             <td>Breast Cancer Surveillance Consortium Expansion</td>
             <td><a href="http://grants2.nih.gov/grants/guide/rfa-files/RFA-CA-98-025.html">RFA CA-98-025</a></td>
             <td>July 15, 1999</td>
           </tr>
-          <tr valign="top">
+          <tr>
             <td>Breast Cancer Surveillance Research</td>
             <td><a href="http://grants2.nih.gov/grants/guide/rfa-files/RFA-CA-95-004.html">RFA CA-95-004</a></td>
             <td>April 21, 1995</td>
           </tr>
-          <tr valign="top">
+          <tr>
             <td>Colorectal Cancer Screening in Primary Care Practice</td>
             <td><a href="http://grants1.nih.gov/grants/guide/pa-files/PAR-04-036.html">PAR-04-036</a></td>
             <td>June 30, 2005</td>
           </tr>
-        <tr valign="top">
+        <tr>
 		 <td>Cancer Surveillance Using Health Claims-Based Data System</td>
 		    <td><a href="http://grants.nih.gov/grants/guide/pa-files/PA-09-145.html">PA-09-145</a> (R01)<br />
 		      <a href="http://grants.nih.gov/grants/guide/pa-files/PA-09-143.html">PA-09-143</a> (R03)<br />
@@ -950,33 +1079,33 @@ OD-03-008</a></td>
 		<p align="right">[<a href="#top">Return to Top</a>]</p>		
 		
 		<p><strong><a name="srp"></a>Surveillance Research</strong></p> 
-        <table width="100%" cellpadding="3" border="1" cellspacing="0">
-          <tr valign="top">
-            <th align="left" width="50%">Title</th>
-            <th align="left" width="25%">Announcement #</th>
-            <th align="left" width="25%">Expiration Date</th>
+        <table class="table table-striped table-bordered table-condensed">
+          <tr>
+            <th style="width:50%;">Title</th>
+            <th style="width:25%;">Announcement #</th>
+            <th style="width:25%;">Expiration Date</th>
           </tr>
-          <tr valign="top">
+          <tr>
             <td>Cancer Intervention and Surveillance Modeling Network (CISNET)</td>
             <td><a href="http://grants.nih.gov/grants/guide/rfa-files/RFA-CA-09-025.html">RFA-CA-09-025</a> (U01)</td>
             <td>November 3, 2009</td>
           </tr>
-          <tr valign="top">
+          <tr>
             <td>Cancer Intervention and Surveillance Modeling Network (CISNET)</td>
             <td><a href="http://grants.nih.gov/grants/guide/rfa-files/RFA-CA-05-018.html">RFA-CA-05-018</a></td>
             <td>October 15, 2004</td>
           </tr>
-          <tr valign="top">
+          <tr>
             <td>Cancer Intervention and Surveillance Modeling Network (CISNET)</td>
             <td><a href="http://grants.nih.gov/grants/guide/rfa-files/rfa-ca-02-010.html">CA-02-010</a></td>
             <td>November 13, 2001</td>
           </tr>
-          <tr valign="top">
+          <tr>
             <td>Geographic-Based Research in Cancer Control and Epidemiology</td>
             <td><a href="http://grants.nih.gov/grants/guide/pa-files/PAS-00-120.html">PAS-00-120</a></td>
             <td>July 19, 2001</td>
           </tr>
-          <tr valign="top">
+          <tr>
             <td>Small Grants For Geographic-Based Research in Cancer Control and Epidemiology</td>
             <td><a href="http://grants.nih.gov/grants/guide/pa-files/PAS-00-121.html">PAS-00-121</a></td>
             <td>July 19, 2001</td>
@@ -986,281 +1115,352 @@ OD-03-008</a></td>
 		<p align="right">[<a href="#top">Return to Top</a>]</p>		
 		
 		<p><strong><a name="egrp"></a>Epidemiology and Genomics Research</strong></p>
-        <table width="100%" cellpadding="3" border="1" cellspacing="0">
-          <tr valign="top">
-            <th align="left" width="50%">Title</th>
-            <th align="left" width="25%">Announcement #</th>
-            <th align="left" width="25%">Expiration Date</th>
-          </tr>  
-          <tr valign="top">
+        <table class="table table-striped table-bordered table-condensed">
+          <tr>
+            <th style="width:50%;">Title</th>
+            <th style="width:25%;">Announcement #</th>
+            <th style="width:25%;">Expiration Date</th>
+          </tr> 
+          <tr>
             <td>Research on the Role of Epigenetics in Social, Behavioral, Environmental and Biological Relationships, throughout the Life-Span and across Generations</td>
             <td><a href="http://grants.nih.gov/grants/guide/rfa-files/RFA-TW-13-002.html">RFA-TW-13-002</a> (R21)</td>
             <td>November 14, 2013</td>
-          </tr>           
-          <tr valign="top">
+          </tr>      
+          <tr>
             <td>Epigenetic Approaches in Cancer Epidemiology</td>
             <td><a href="http://grants.nih.gov/grants/guide/pa-files/PA-10-031.html" target="_blank">PA-10-031 </a> (R01)<br />
             <a href="http://grants.nih.gov/grants/guide/pa-files/PA-10-032.html" target="_blank">PA-10-032</a> (R21)</td>
             <td>January 8, 2013</td>
           </tr>
-          <tr valign="top">
+          <tr>
             <td>Development, Application, and Evaluation of Prediction Models for Cancer Risk and Prognosis</td>
             <td><a href="http://grants.nih.gov/grants/guide/pa-files/PA-10-026.html" target="_blank">PA-10-026</a> (R21)<br />
             <a href="http://grants1.nih.gov/grants/guide/pa-files/PA-10-025.html" target="_blank">PA-10-025</a> (R01)</td>
             <td>January 8, 2013</td>
           </tr>
-          <tr valign="top">
+          <tr>
             <td>U.S.-China Program for Biomedical Collaborative Research</td>
             <td><a href="http://grants.nih.gov/grants/guide/rfa-files/RFA-AI-12-021.html">RFA-AI-12-021</a> (R01)</td>
             <td>September 19, 2012</td>
           </tr>
-          <tr valign="top">
+          <tr>
             <td>Climate Change and Health: Assessing and Modeling Population Vulnerability to Climate Change</td>
             <td><a href="http://grants.nih.gov/grants/guide/pa-files/PAR-10-235.html">PAR-10-235</a> (R21)</td>
             <td>May 25, 2012</td>
           </tr> 
-          <tr valign="top">
+          <tr>
             <td>Studies of Energy Balance and Cancer in Humans</td>
             <td><a href="http://grants.nih.gov/grants/guide/pa-files/PA-09-148.html">PA-09-148</a> (R01)<br />
             <a href="http://grants.nih.gov/grants/guide/pa-files/PA-09-149.html">PA-09-149</a> (R21)</td>
             <td>May 8, 2012</td>
           </tr>
-          <tr valign="top">
+          <tr>
             <td>RFA for Deepwater Horizon Disaster Research Consortia: Health Impacts and Community Resiliency</td>
             <td><a href="http://grants.nih.gov/grants/guide/rfa-files/RFA-ES-11-006.html">RFA-ES-11-006</a> (U19)</td>
             <td>January 22, 2011</td>
           </tr>
-          <tr valign="top">
+          <tr>
             <td>Occupational Safety and Health Research</td>
             <td><a href="http://grants.nih.gov/grants/guide/pa-files/PA-07-318.html">PA-07-318</a> (R01)</td>
             <td>March 6, 2010</td>
           </tr>
-          <tr valign="top">
+          <tr>
             <td>Environmental Influences During Windows of Susceptibility in Breast Cancer Risk</td>
             <td><a href="http://grants.nih.gov/grants/guide/rfa-files/RFA-ES-09-009.html">RFA-ES-09-009</a> (U01)</td>
             <td>December 31, 2009</td>
           </tr>
-          <tr valign="top">
+          <tr>
             <td>Coordinating Center for the Breast Cancer and the Environment Research Program</td>
             <td><a href="http://grants.nih.gov/grants/guide/rfa-files/RFA-ES-09-010.html">RFA-ES-09-010</a> (U01)</td>
             <td>December 31, 2009</td>
           </tr>
-          <tr valign="top">
+          <tr>
             <td>Limited Competition: Continuation of Studies on Early Environmental Exposures and Human Puberty</td>
             <td><a href="http://grants.nih.gov/grants/guide/rfa-files/RFA-ES-09-008.html">RFA-ES-09-008</a> (U01)</td>
             <td>December 24, 2009</td>
           </tr>
-          <tr valign="top">
+          <tr>
             <td>Transdisciplinary Cancer Genomics Research:  Post-Genome Wide Association Initiative</td>
             <td><a href="http://grants.nih.gov/grants/guide/rfa-files/RFA-CA-09-002.html">RFA-CA-09-002</a> (U19)</td>
             <td>May 29, 2009</td>
           </tr>
-          <tr valign="top">
+          <tr>
             <td>Rare Diseases Clinical Research Consortia (RDCRC) for the Rare Diseases Clinical Research Network</td>
             <td><a href="http://grants.nih.gov/grants/guide/rfa-files/RFA-OD-08-001.html">RFA-OD-08-001</a> (U54)</td>
             <td>August 20, 2008.</td>
           </tr>
-          <tr valign="top">
+          <tr>
             <td>Replication and Fine-Mapping Studies for the Genes, Environment and Health Initiative</td>
             <td><a href="http://grants.nih.gov/grants/guide/rfa-files/RFA-CA-09-003.html">RFA-CA-09-003 </a>(R01)</td>
             <td>December 2, 2008</td>
           </tr>
-          <tr valign="top">
+          <tr>
             <td>Administrative Supplements for Gene Identification Efforts: Replication and Fine-Mapping Studies: The Genes, Environment, and Health Initiative (GEI)<br /><br />
-            
-            <a href="gei_instructions-2008.html">Instructions</a><br /><br />
             
             <a href="funding_gei.html">Frequently Asked Questions</a>            </td>
             <td><a href="http://grants.nih.gov/grants/guide/notice-files/NOT-CA-08-011.html">NOT-CA-08-011</a></td>
             <td>May 1, 2008</td>
           </tr>
-          <tr valign="top">
+          <tr>
             <td>Comparative Systems Genetics of Cancer</td>
             <td><a href="http://grants.nih.gov/grants/guide/rfa-files/RFA-CA-08-017.html">RFA-CA-08-017</a> (R01)</td>
             <td>May 15, 2008</td>
           </tr>
-          <tr valign="top">
+          <tr>
             <td>Occupational Safety and Health Research</td>
             <td><a href="http://grants1.nih.gov/grants/guide/pa-files/PA-04-038.html">PA-04-038</a> (R01)</td>
             <td>November 23, 2006</td>
           </tr>
-          <tr valign="top">
+          <tr>
             <td>Genome-wide Association Studies in the Genes and Environment Initiative</td>
             <td><a href="http://grants.nih.gov/grants/guide/rfa-files/RFA-HG-06-014.html">HG-06-014</a><br />
             <a href="http://grants.nih.gov/grants/guide/rfa-files/RFA-HG-06-032.html">HG-06-032</a><br />
             <a href="http://grants.nih.gov/grants/guide/rfa-files/RFA-HG-06-033.html">HG-06-033</a></td>
             <td>November 30, 2006</td>
           </tr>
-          <tr valign="top">
+          <tr>
             <td>Environmental Influences on Epigenetic Regulation</td>
             <td><a href="http://grants.nih.gov/grants/guide/rfa-files/RFA-ES-05-007.html">RFA-ES-05-007</a></td>
             <td>January 18, 2006</td>
           </tr>
-          <tr valign="top">
+          <tr>
             <td>Cohort Studies in Cancer Epidemiology<br /><br />
             
             Also, see the Additional Policy on the Acceptance for review of Applications Submitted Under <a href="http://grants1.nih.gov/grants/guide/notice-files/NOT-CA-04-001.html">PAR-04-011</a></td>
             <td><a href="http://grants1.nih.gov/grants/guide/pa-files/PAR-04-011.html">PAR-04-011</a></td>
             <td>November 2, 2005</td>
           </tr>
-          <tr valign="top">
+          <tr>
             <td>Cohort Studies in Cancer Epidemiology</td>
             <td><a href="http://grants2.nih.gov/grants/guide/notice-files/NOT-CA-03-030.html">NOT-CA-03-030</a></td>
             <td><!--<a href="http://grants2.nih.gov/grants/guide/notice-files/NOT-CA-02-026.html"> -->November 1, 2003<!--</a> --></td>
           </tr>
-          <tr valign="top">
+          <tr>
             <td>Breast Cancer and the Environment Research Centers</td>
             <td><a href="http://grants2.nih.gov/grants/guide/rfa-files/RFA-ES-03-001.html">RFA ES-03-001</a></td>
             <td>April 14, 2003</td>
           </tr>
-          <tr valign="top">
+          <tr>
             <td>Mechanisms Underlying Individual Variations in Drug Responses</td>
             <td><a href="http://grants.nih.gov/grants/guide/pa-files/PA-99-016.html">PA-99-016</a> (P01, R21, SBIR, STTR)</td>
             <td>October 1, 2002</td>
           </tr>
-          <tr valign="top">
+          <tr>
             <td>Occupational Safety and Health Research</td>
             <td><a href="http://grants.nih.gov/grants/guide/pa-files/PA-99-143.html">PA-99-143</a> (R01)</td>
             <td>June 1, 2002</td>
           </tr>
-          <tr valign="top">
+          <tr>
             <td>Research Methods for Occupational Health  - Applications due </td>
             <td><a href="http://grants.nih.gov/grants/guide/pa-files/PA-99-148.html">PA-99-148</a> (R01)</td>
             <td>May 1, 2002</td>
           </tr>
-          <tr valign="top">
+          <tr>
             <td>Molecular Epidemiology of Prostate Carcinogenesis<br /><br />
             
             Investigators may wish to refer to <a href="http://planning.cancer.gov/library/1998prostate.pdf">"Defeating Prostate Cancer: Crucial Directions for Prostate Cancer Research"</a>.</td>
             <td><a href="http://grants.nih.gov/grants/guide/pa-files/PA-00-080.html">PA-00-080</a> (R0l)</td>
             <td>&nbsp;</td>
           </tr>
-          <tr valign="top">
+          <tr>
             <td>Geographic-Based Research in Cancer Control and Epidemiology</td>
             <td><a href="http://grants.nih.gov/grants/guide/pa-files/PAS-00-120.html">PAS-00-120</a></td>
             <td>&nbsp;</td>
           </tr>
-          <tr valign="top">
+          <tr>
             <td>Small Grants For Geographic-Based Research in Cancer Control and Epidemiology</td>
             <td><a href="http://grants.nih.gov/grants/guide/pa-files/PAS-00-121.html">PAS-00-121</a></td>
             <td>&nbsp;</td>
           </tr>
-          <tr valign="top">
+          <tr>
             <td>Diet, Lifestyle, and Cancer in U.S. Populations</td>
             <td><a href="http://grants.nih.gov/grants/guide/pa-files/PA-98-028.html">PA-98-028</a> (P01, R01)</td>
             <td>&nbsp;</td>
           </tr>
-          <tr valign="top">
+          <tr>
             <td>Exposure Assessment Methods for Cancer Research</td>
             <td><a href="http://grants.nih.gov/grants/guide/rfa-files/RFA-CA-01-018.html">RFA CA-01-018</a></td>
             <td>&nbsp;</td>
           </tr>
-          <tr valign="top">
+          <tr>
             <td>Small Grants Program for Cancer Epidemiology</td>
             <td><a href="http://grants.nih.gov/grants/guide/pa-files/PAR-04-159.html">PAR-04-159</a> (R03)</td>
             <td>November 21, 2005; March 20, 2006; July 20, 2006; November 20, 2006; March 20, 2007; July 20, 2007; November 20, 2007; March 20, 2008; July 21, 2008; November 21, 2008.</td>
           </tr>
-          <tr valign="top">
+          <tr>
             <td>RFA on Pharmacogenetics Research Network and Knowledge Base</td>
             <td><a href="http://grants2.nih.gov/grants/guide/rfa-files/RFA-GM-04-002.html">RFA-GM-04-002</a> (U01)</td>
             <td>August 19, 2004</td>
           </tr>
-          <tr valign="top">
+          <tr>
             <td><a href="http://rcb.cancer.gov/rcb-internet/appl/rfp/published_rfps.jsp">Breast and Colon Cancer Family Registries Informatics Support Center BC-CFR's ISC)</a></td>
             <td>&nbsp;</td>
             <td>August 12, 2004</td>
           </tr>
-          <tr valign="top">
+          <tr>
             <td>Cancer Survivorship Studies in Established Epidemiologic Cohorts</td>
             <td><a href="http://grants.nih.gov/grants/guide/pa-files/PA-98-027.html">PA-98-027</a> (R01)</td>
             <td>&nbsp;</td>
           </tr>
-          <tr valign="top">
+          <tr>
             <td> Epigenomics of Human Health and Disease</td>
             <td><a href="http://grants.nih.gov/grants/guide/rfa-files/RFA-RM-08-017.html ">RFA-RM-08-017 </a> (R01) </td>
             <td>October 29, 2008</td>
           </tr>
-          <tr valign="top">
+          <tr>
             <td>Genetic Regulation of Susceptibility to Tobacco-Related Carcinogenesis</td>
-            <td><a href="http://grants.nih.gov/grants/guide/pa-files/PA-98-095.html">PA-98-095</a> (R01, R21)></td>
+            <td><a href="http://grants.nih.gov/grants/guide/pa-files/PA-98-095.html">PA-98-095</a> (R01, R21)</td>
             <td>&nbsp;</td>
           </tr>
-           <tr valign="top">
+           <tr>
             <td>Testing Tobacco Products Promoted to Reduce Harm</td>
             <td><a href="http://grants.nih.gov/grants/guide/pa-files/PA-06-361.html">PA-06-361</a> (R21s)</td>
             <td>March 6, 2009</td>
           </tr>
         </table>
+                </div>
+                <!--/span-->
+              </div>
+              <!--/row-->
+              </div>
+                          <!-- InstanceEndEditable -->
+            </div>
+            <!--/span-->
+            <div id="sidebar" class="span3">
+              <div class="well sidebar-nav">
+                <ul class="nav nav-list">
+                  <li class="nav-header"><a href="/funding_apply.html">Apply for Cancer Control Grants</a></li>
+                  <li class="nav-header"><a href="/funding_career.html">Training and Career Development</a></li>
+                  <li class="nav-header"><a href="/funding_info.html">Application Submission &amp; Review</a></li>
+                  <li class="nav-header"><a href="/policy_info.html">Grant Policies</a></li>
+                  <li class="nav-header"><a href="/new_grantees/index.html">Resources and Opportunities for New Grantees</a></li>
+                  <li class="nav-header"><a href="/funding_archive.html">Archive of Funding Opportunities</a></li>
+                </ul>
+              </div>
+              <!--/.well -->
+            </div>
+            <!--/span-->
+          </div>
+          <!-- /.row -->
+          <hr class="featurette-divider">
+          <!-- /END THE FEATURETTES -->
+        </div>
+        <!-- /.container -->
+      <!-- FOOTER -->
+      <footer>
+      	<div class="container-fluid">
+        	<div class="row-fluid bottom-border bottom-margin">
+            <div class="span6 topfoot">
+            <div class="row-fluid top-span">
+             <div class="span6">
+             	<p class="footer-header"><a href="/index.html">Home</a></p>
+             </div><!--/span-->
+             <div class="span6">
+             <p class="footer-header"><a href="/od/">About DCCPS</a></p>
+             </div><!--/span-->
+             </div>
+             <div class="row-fluid">
+             <div class="span6">
+             <p class="footer-header"><a href="/current_research.html">Research Portfolio</a></p>
+              <p><a href="http://maps.cancer.gov/overview/DCCPSGrants/grantlist.jsp?method=dynamic&division=dccps&menu=division">Active Grants</a></p>
+              <p><a href="http://maps.cancer.gov/overview/map/index.jsp">Maps of Awarded Grants</a></p>
+              <p><a href="/current_research.html">Research Initiatives</a></p>
+              <p><a href="http://maps.cancer.gov/overview/index.jsp">Funding History + Trends</a></p>
+             </div><!--/span-->
+             <div class="span6">
+             	<p class="footer-header"><a href="/funding.html">Funding Opportunities</a></p>
+              <p><a href="/funding_apply.html">Apply for Cancer Control Grants</a></p>
+              <p><a href="/funding_career.html">Training and Career Development</a></p>
+              <p><a href="/funding_info.html">Application Submission / Review</a></p>
+              <p><a href="/policy_info.html">Grant Policies</a></p>
+              <p><a href="/new_grantees/index.html">Resources and Opportunities for New Grantees</a></p>
+              <p><a href="/funding_archive.html">Archive of Funding Opportunities</a></p>
+             </div><!--/span-->
+             </div>
+       </div>
+       <div class="span6 bottomfoot">
+          <div class="row-fluid top-span">
+             <div class="span6">
+              <p><a class="footer-twitter" href="https://twitter.com/NCICancerCtrl">Twitter</a></p>
+             </div><!--/span-->
+             <div class="span6">
+             </div><!--/span-->
+          </div>
+          <div class="row-fluid">
+             <div class="span6">
+		      <p class="footer-header"><a href="/cancer_resources.html">Reports + Data</a></p>
+              <p><a href="/cr-reports.html">Reports and Reviews</a></p>
+              <p><a href="/cr-dataset.html">DCCPS Public Data Sets and Analyses</a></p>
+             </div><!--/span-->
+             <div class="span6">
+             <p class="footer-header"><a href="/current_research.html">Research Emphasis</a></p>
+              <p><a href="/energy_balance/index.html">Energy Balance</a></p>
+              <p><a href="/research-emphasis/healthdisp.html">Health Disparities</a></p>
+              <p><a href="/research-emphasis/global_health/index.html">International + Global Health</a></p>
+              <p><a href="/research-emphasis/phg/index.html">Public Health Genomics</a></p>
+            </div><!--/span-->
+          </div>
+           </div>
+       <div class="last-updated">
+       <p class="center"><strong>Last Updated: <!-- InstanceBeginEditable name="Last Updated" -->January 6, 2014<!-- InstanceEndEditable --></strong></p>
+       <a href="http://www.cancer.gov/global/contact" class="help-image"><img class="footer-help" src="/images/footer-help-logo.png" alt="help-logo" /></a><p class="can-numb"><strong>1-800-4-CANCER <br /> (1-800-422-6237)</strong></p>
+       </div>
+       </div><!--/row-->
+          <div class="row-fluid">
+            <div class="span12 footer-box center">
+          	  <ul>
+                <li><a href="/index.html">Site Home</a></li>
+                <li>|</li>
+                <li><a href="http://www.cancer.gov/global/contact">Contact Us</a></li>
+                <li>|</li>
+                <li><a href="http://www.cancer.gov/global/web/policies">Policies</a></li>
+                <li>|</li>
+                <li><a href="http://www.cancer.gov/global/web/policies/accessibility">Accessibility</a></li>
+                <li>|</li>
+                <li><a href="http://www.cancer.gov/global/viewing-files">Viewing Files</a></li>
+                <li>|</li>
+                <li><a href="http://www.cancer.gov/global/web/policies/foia">FOIA</a></li>
+                <li>|</li>
+                <li><a href="/help.html">Help</a></li>
+              </ul>
+              <ul>
+                <li><a href="http://www.hhs.gov/">U.S. Department of Health and Human Services</a></li>
+                <li>|</li>
+                <li><a href="http://www.nih.gov/">National Institutes of Health</a></li>
+                <li>|</li>
+                <li><a href="http://www.cancer.gov/">National Cancer Institute</a></li>
+                <li>|</li>
+                <li><a href="http://www.usa.gov/">USA.gov</a></li>
+              </ul>
+            </div><!--/span-->
+            <p class="center">NIH...Turning Discovery Into Health <sup>&reg;</sup></p>
+          </div><!--/row-->
+        </div>
+      </footer>
+  	</div>
+    <!-- javascript -->
+    <script src="js/jquery-1.10.1.min.js"></script>
+    <script src="js/bootstrap.min.js"></script>
 
-		<p align="right">[<a href="#top">Return to Top</a>]</p>
-      </div>
-    </div>
-  <!-- End of Right Column // Page Content --><br class="clearfloat" />
-  </div>
-<!-- End of Main Content -->
-    
-<!-- Last Updated -->
-  <div class="update">Last Updated: November 19, 2013</div>
-<!-- End of Last Updated -->
-    
-<!-- Footer -->
-  <div id="foot-row1">
-	<ul class="flist2">
-    <li><a href="/index.html">Site Home</a></li>
-    <li>|</li>
-    <li><a href="http://www.cancer.gov/global/contact">Contact Us</a></li>
-    <li>|</li>
-    <li><a href="http://www.cancer.gov/global/web/policies">Policies</a></li>
-    <li>|</li>
-    <li><a href="http://www.cancer.gov/global/web/policies/accessibility">Accessibility</a></li>
-    <li>|</li>
-    <li><a href="http://www.cancer.gov/global/viewing-files">Viewing Files</a></li>
-    <li>|</li>
-    <li><a href="http://www.cancer.gov/global/web/policies/foia">FOIA</a></li>
-    <li>|</li>
-	<li><a href="/help.html">Help</a></li>
-    <li>|</li>
-    <li><a href="/site-map.html">Site Map</a></li>
-  </ul>
-	<br />
+    <script>
+	jQuery('ul.nav li.dropdown').hover(function() {
+  jQuery(this).find('.dropdown-menu').stop(true, true).delay(100).fadeIn();
+}, function() {
+  jQuery(this).find('.dropdown-menu').stop(true, true).delay(100).fadeOut();
+});
+	</script>
+    <script src="js/respond.min.js"></script>
+<script>
+  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+  (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+  m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+  })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
 
-	<ul class="flist2">
-    <li><a href="http://www.hhs.gov/">U.S. Department of Health and Human Services</a></li>
-    <li>|</li>
-  <li><a href="http://www.nih.gov/">National Institutes of Health</a></li>
-  <li>|</li>
-  <li><a href="http://www.cancer.gov/">National Cancer Institute</a></li>
-  <li>|</li>
-  <li><a href="http://www.usa.gov/">USA.gov</a></li>
-  </ul>
-  <div class="nih-tagline">NIH…Turning Discovery Into Health<sup>&#174;</sup></div>
-	</div>
-<!-- End of Footer -->
-</div>
-
-<!-- Image map for head-row1 -->
-<map name="Map" id="Map">
-	<area shape="rect" coords="12,3,294,38" href="http://www.cancer.gov/" alt="National Cancer Institute" />
-	<area shape="rect" coords="715,10,892,33" href="http://www.nih.gov" alt="U.S. National Institutes of Health" />
-	<area shape="rect" coords="893,10,988,33" href="http://www.cancer.gov/" alt="National Cancer Institute" />
-</map>
-<!-- End of Image map for head-row1 -->
-
-<!-- GA Code -->
-<script type="text/javascript">
-
-  var _gaq = _gaq || [];
-  _gaq.push(['_setAccount', 'UA-25589575-1']);
-  _gaq.push(['_trackPageview']);
-
-  (function() {
-    var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
-    ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
-    var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
-  })();
+  ga('create', 'UA-47020801-1', 'cancer.gov');
+  ga('send', 'pageview');
 
 </script>
-<!-- End of GA Code -->
 <script language="JavaScript" type="text/javascript" src="/JS/Omniture/WA_DCCPS_PageLoad.js"></script>
-</body>
-</html>
+    <!-- InstanceBeginEditable name="Scripts" --><!-- InstanceEndEditable -->
+  </body>
+<!-- InstanceEnd --></html>

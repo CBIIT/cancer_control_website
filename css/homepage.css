@@ -91,7 +91,23 @@
       line-height: 1;
       letter-spacing: -1px;
     }
-
+	
+	.content-top {
+	    background-color: #ECECEC;
+    	border: 1px solid #CCCCCC;
+   		padding: 10px;
+	}
+	
+	.triple-back {
+	    background-color: #FFFFFF;
+   		border: 1px solid #CCCCCC;
+    	padding: 15px 15px 0 15px;
+	}
+	
+	[data-scribe="element:screen_name"] {
+		margin-right: 10px;
+	}
+	
 
 
     /* RESPONSIVE CSS
@@ -185,9 +201,9 @@
       }
     }
 
-    .research-header,
-    .funding-header,
-    .reports-header,
+    .research-header a,
+    .funding-header a,
+    .reports-header a,
     .program-areas-header,
     .research-emphasis-header,
     .about-dccps-header {
@@ -198,40 +214,52 @@
       font-family: Helvetica, Arial, "Lucida Grande", sans-serif;
     }
 
-    .research-header {
-      background-image:url(/images/research-header.png);
+	.research-header a:hover,
+	.funding-header a:hover,
+	.reports-header a:hover {
+		text-decoration: underline;
+	}
+	
+    .research-header a {
+      background-image:url(../images/research-header.png);
+	  background-repeat: no-repeat;
       padding-left:74px;
       height:62px;
+	  display: inline-block;
     }
 
-    .funding-header {
-      background-image:url(/images/funding-header.png);
+    .funding-header a {
+      background-image:url(../images/funding-header.png);
+	  background-repeat: no-repeat;
       padding-left:74px;
-      height:62px;
+      height: 62px;
+	  display: inline-block;
     }
 
-    .reports-header {
-      background-image:url(/images/reports-header.png);
+    .reports-header a {
+      background-image:url(../images/reports-header.png);
+	  background-repeat: no-repeat;
       padding-left:74px;
       height:62px;
+	  display: inline-block;
     }
 
     .program-areas-header {
-      background-image:url(/images/program-areas-header.png);
+      background-image:url(../images/program-areas-header.png);
       background-position: 0px 7px;
       padding-left:25px;
       padding-bottom:10px;
     }
 
     .research-emphasis-header {
-      background-image:url(/images/research-emphasis-header.png);
+      background-image:url(../images/research-emphasis-header.png);
       background-position: 0px 7px;
       padding-left:25px;
       padding-bottom:10px;
     }
 
     .about-dccps-header {
-      background-image:url(/images/about-dccps-header.png);
+      background-image:url(../images/about-dccps-header.png);
       background-position: 0px 7px;
       padding-left:25px;
       padding-bottom:10px;
@@ -242,13 +270,12 @@
     }
 
     .featured-items ul li {
-      border-top: solid 1px #cccccc;
       padding: 10px 0px;
     }
 
     a.document {
       color:#696559;
-      background-image:url(/images/featured-icon.png);
+      background-image:url(../images/featured-icon.png);
       background-repeat: no-repeat;
       padding-left:20px;
     }
@@ -272,49 +299,119 @@
       font-size:1.3em;
       font-family: Helvetica, Arial, "Lucida Grande", sans-serif;
       font-weight: normal; }
+	  
+	.popular-now a:hover {
+		color: #a90101;
+	}
 
     .content-bottom {
-      background-color: #ececec;
-      border: 1px #cccccc solid;
-      margin-top:60px;
-      padding:10px;
-    }
-
-    .content-bottom .subsection {
-      background-color: #ffffff;
-      border: 1px #cccccc solid;
-      padding:15px;
+	  margin-top: -20px;
     }
 
     .margin-bottom {
       margin-bottom:10px;
-    }
-    .content-bottom .subsection a {
-      background-image:url(/images/link-arrow.png);
-      background-repeat:no-repeat;
-      padding-left:14px;
-      color:#696559;
     }
 
     @media (max-width: 767px) {
       .twitter {
         width:251px;
         height:260px;
-        background-image:url(/images/twitter-bk.png);
+        background-image:url(../images/twitter-bk.png);
+      }
+      #dccps-tweets ul li .user p.tweets{
+        font-size:10px;
+      }
+      
+      #dccps-tweets ul {
+        margin-left:14px;
+      }
+      .user {
+        padding-top:16px; 
+        padding-bottom:10px;
+      }
+
+      .user img {
+        float:left; 
+        padding-right:5px;
+      }
+
+      .user a {
+        font-size: 0.8em;
+        font-weight:bold;
+        color: #a90101;
+        font-style:italic;
+      }
+
+      p.tweet, p.timePosted {
+        font-size:0.9em; 
+        margin-right:10px;
+      }
+	  
+	  [data-scribe="element:mention"], 
+	  [data-scribe="element:url"],
+	  [data-scribe="element:hashtag"] {
+	    font-size: 1em;
+	  }
+
+      p.timePosted {
+        font-weight:bold;
+      }
+
+      p.interact {
+        display:none;
       }
       .homepage-youtube-sml,
       .homepage-youtube-med {
         display:none;
       }
+	  .triplebox {
+	  	margin-bottom: 10px;
+	  }
+	  .content-top {
+	    height: 1010px;
+		margin-bottom: 30px;
+	  }
     }
 
     @media (min-width: 768px) and (max-width: 979px) {
       .twitter {
         width:146px;
         height:151px;
-        background-image:url(/images/twitter-bk-sml.png);
+        background-image:url(../images/twitter-bk-sml.png);
         background-repeat:no-repeat;
       }
+      #dccps-tweets ul li .user p.tweets{
+        font-size:10px;
+      }
+      
+      #dccps-tweets ul {
+        margin-left:14px;
+      }
+      .user {
+        display:none;
+      }
+	  
+	  [data-scribe="element:mention"], 
+	  [data-scribe="element:url"],
+	  [data-scribe="element:hashtag"] {
+	    font-size: 1em;
+	  }
+
+      p.tweet, p.timePosted {
+        font-size:0.8em; 
+        line-height: 1.65em;
+        margin-right:10px;
+		padding-top: 10px;
+      }
+
+      p.timePosted {
+        display:none;
+      }
+
+      p.interact {
+        display:none;
+      }
+	  
       .homepage-youtube-lrg,
       .homepage-youtube-med {
         display:none;
@@ -322,48 +419,150 @@
       .follow-us a {
         display:none;
       }
+	  .content-top {
+	    height: 580px;
+		margin-bottom: 30px;
+	  }
+	  .triple-back {
+		height:  580px;
+	  }
+	.research-header a,
+    .funding-header a,
+    .reports-header a {
+	     padding-left: 0;
+		 padding-top: 70px;
+		 text-align: center;
+		 background-position: top center;
+		 margin-bottom: -10px;
+	}
     }
 
     @media (min-width: 980px) and (max-width: 1199px) {
       .twitter {
         width:200px;
         height:207px;
-        background-image:url(/images/twitter-bk-med.png);
+        background-image:url(../images/twitter-bk-med.png);
         background-repeat:no-repeat;
+      }
+      #dccps-tweets ul li .user p.tweets{
+        font-size:10px;
+      }
+      
+      #dccps-tweets ul {
+        margin-left:14px;
+      }
+      .user {
+        padding-top:16px; 
+        padding-bottom:10px;
+      }
+
+      .user img {
+        float:left; 
+        padding-right:3px;
+      }
+
+      .user a {
+        font-size: 0.7em;
+        font-weight:bold;
+        color: #a90101;
+        font-style:italic;
+      }
+	  
+	  [data-scribe="element:mention"], 
+	  [data-scribe="element:url"],
+	  [data-scribe="element:hashtag"] {
+	    font-size: 1em;
+	  }
+
+      p.tweet, p.timePosted {
+        font-size:0.8em; 
+        margin-right:10px;
+      }
+
+      p.timePosted {
+        display:none;
+      }
+
+      p.interact {
+        display:none;
       }
       .homepage-youtube-sml,
       .homepage-youtube-lrg {
         display:none;
       }
+	  .content-top {
+	    height: 460px;
+		margin-bottom: 30px;
+	  }
+	  .triple-back {
+		height:  460px;
+	  }
     }
 
     @media (min-width: 1200px) {
       .twitter {
         width:251px;
         height:260px;
-        background-image:url(/images/twitter-bk.png);
+        background-image:url(../images/twitter-bk.png);
+      }
+      #dccps-tweets ul li .user p.tweets{
+        font-size:10px;
+      }
+      
+      #dccps-tweets ul {
+        margin-left:14px;
+		margin-top: -5px;
+      }
+      .user {
+        padding-top:16px; 
+        padding-bottom:10px;
+      }
+
+      .user img {
+        float:left; 
+        padding-right:5px;
+      }
+
+      .user a {
+        font-size: 0.8em;
+        font-weight:bold;
+        color: #a90101;
+        font-style:italic;
+      }
+	  
+	  [data-scribe="element:mention"], 
+	  [data-scribe="element:url"],
+	  [data-scribe="element:hashtag"] {
+	    font-size: 1em;
+	  }
+
+      p.tweet, p.timePosted {
+        font-size:0.9em; 
+        margin-right:10px;
+      }
+
+      p.timePosted {
+        font-weight:bold;
+      }
+
+      p.interact {
+        display:none;
       }
       .homepage-youtube-sml,
       .homepage-youtube-med {
         display:none;
       }
+	  .content-top {
+		height: 390px; 
+		margin-bottom: 30px;
+	  }
+	  .triple-back {
+		height:  390px;
+	  }
     }
 
     .homepage-youtube-sml,
     .homepage-youtube-med,
     .homepage-youtube-lrg {
       margin-bottom:10px;
-    }
-
-    #twitter-feed {
-      padding:10px;
-      font-size: 0.9em;
-    }
-
-    .follow-us a {
-      padding:10px;
-      font-size: 0.7em;
-      font-weight:bold;
-      color: #a90101;
-      font-style:italic;
     }
