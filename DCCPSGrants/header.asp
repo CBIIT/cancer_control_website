@@ -1,3 +1,8 @@
+<div style="display:none;">
+<div id="skipmenu">
+<a href="#skip" class="skippy">Skip Navigation</a>
+<a name="top"></a>
+</div></div> <!-- end skipmenu -->
 <!-- #include virtual="/grants/utility.asp" -->
 <!-- #include file="acknowledgements.asp" -->
 <%
@@ -69,5 +74,5 @@ End Function
 <p>
 <%	End If
 %>
-<div id="content" class="span9">
+<div id="content">
 <a name="skip"></a>
