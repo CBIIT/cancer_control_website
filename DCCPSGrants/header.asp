@@ -73,5 +73,5 @@ End Function
 <p>
 <%	End If
 %>
-<div id="content">
+<div id="content" style="max-width: 1200px;">
 <a name="skip"></a>
