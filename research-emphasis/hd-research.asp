@@ -4,14 +4,17 @@
 <meta http-equiv="content-type" content="text/html; charset=UTF-8">
     <meta charset="utf-8">
     <!-- InstanceBeginEditable name="doctitle" -->
-    <title>National Cancer Institute - Cancer Control and Population Sciences</title>
+    <title>Health Disparities Research - National Cancer Institute - Cancer Control and Population Sciences</title>
     <!-- InstanceEndEditable -->
             <link rel="icon" 
       type="image/jpeg" 
       href="/images/favicon.ico">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta name="description" content="nci, dccps, Cancer Control and Population Sciences, cancer">
+    <meta name="keywords" content="nci, dccps, Cancer Control and Population Sciences, cancer">
     <meta name="author" content="">
+    <!-- InstanceBeginEditable name="metatags" -->
+    <meta name="description" content="Health Disparities Research Grant List" />
+	<!-- InstanceEndEditable -->
 	<script>
 // This adds 'placeholder' to the items listed in the jQuery .support object. 
 jQuery(function() {
@@ -179,7 +182,7 @@ $(function() {
                 </div>
               </div>
               <div class="row-fluid">
-                <div class="span12 listimage">	  <h2>Health Disparities Research</h2>
+                <div class="span12 listimage">	  <h1>Health Disparities Research</h1>
      
       <!-- #include virtual="/grants/utility.asp" -->
 	  <h3>Active Grants</h3>
