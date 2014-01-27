@@ -108,6 +108,10 @@
 		margin-right: 10px;
 	}
 	
+	.know {
+		clear: left;
+	}
+	
 
 
     /* RESPONSIVE CSS
@@ -146,7 +150,6 @@
         margin: 0 auto 20px;
       }
     }
-
 
     @media (max-width: 767px) {
 		
@@ -368,7 +371,7 @@
 	  	margin-bottom: 10px;
 	  }
 	  .content-top {
-	    height: 1010px;
+	    height: 890px;
 		margin-bottom: 30px;
 	  }
     }
@@ -376,7 +379,7 @@
     @media (min-width: 768px) and (max-width: 979px) {
       .twitter {
         width:146px;
-        height:151px;
+        height:180px;
         background-image:url(../images/twitter-bk-sml.png);
         background-repeat:no-repeat;
       }
@@ -420,11 +423,11 @@
         display:none;
       }
 	  .content-top {
-	    height: 580px;
+	    height: 570px;
 		margin-bottom: 30px;
 	  }
 	  .triple-back {
-		height:  580px;
+		height:  570px;
 	  }
 	.research-header a,
     .funding-header a,
@@ -440,7 +443,7 @@
     @media (min-width: 980px) and (max-width: 1199px) {
       .twitter {
         width:200px;
-        height:207px;
+        height:240px;
         background-image:url(../images/twitter-bk-med.png);
         background-repeat:no-repeat;
       }
@@ -553,11 +556,11 @@
         display:none;
       }
 	  .content-top {
-		height: 390px; 
+		height: 370px; 
 		margin-bottom: 30px;
 	  }
 	  .triple-back {
-		height:  390px;
+		height:  370px;
 	  }
     }
 
