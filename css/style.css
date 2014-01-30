@@ -851,7 +851,7 @@ div#skipmenu a.skippy:active, div#skipmenu a.skippy:focus, div#skipmenu a.skippy
 
 @media (max-width: 1199px) {
 	#main-container .navbar .nav li a {
-		padding: 12px 9px;	
+		padding: 12px 6px;	
 	}
 	.nav .twitter-header a span {
 		margin-left: 20px;
