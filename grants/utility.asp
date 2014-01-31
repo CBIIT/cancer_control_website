@@ -1016,7 +1016,7 @@ Sub DisplayGrantsAll(rst, numgrants, strProgram, strBranch, strActive, bDisplayF
 			' strOutput = strOutput & "<A HREF=""/grants/abstract.asp?ApplID=" & rst("APPL_ID") & """>" & strTitle & "</A>"
 			
 			Dim strServer
-			If (Instr(LCase(ConnString), "PMAdb") > 0) Then
+			If (Instr((ConnString), "PMAdb") > 0) Then
 				strServer = "maps.cancer.gov"
 			Else 
 				strServer = "parsley.cit.nih.gov"
