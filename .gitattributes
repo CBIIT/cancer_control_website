@@ -1117,6 +1117,8 @@ brp/smallgrants/wyntk.html -text
 brp/srtb/211eliminate-hd.html -text
 brp/srtb/Scripts/expressInstall.swf -text
 brp/srtb/about.html -text
+brp/srtb/big-data.html -text
+brp/srtb/docs/Executive-Summary_BigDATA.pdf -text
 brp/srtb/index.html -text
 brp/srtb/key_initiatives.html -text
 brp/state_theory_development.html -text
@@ -1930,6 +1932,7 @@ constructs/index.htm -text
 /cr-communication-videos.html -text
 /cr-dataset.html -text
 /cr-reports.html -text
+/cr-tracking.html -text
 croyle-videos/QuickTime[!!-~]Broadband/BehaviorBB.mov -text
 croyle-videos/QuickTime[!!-~]Broadband/CentersBB.mov -text
 croyle-videos/QuickTime[!!-~]Broadband/ChallengesBB.mov -text

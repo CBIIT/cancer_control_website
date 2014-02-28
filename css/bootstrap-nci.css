@@ -90,7 +90,7 @@ max-width: 1008px;
 
 .navbar .nav > li > a {
     padding: 12px 22px;
-	background:url(../images/header-divider.png) right no-repeat;
+	background:url(../images/header-divider.png) right repeat-y;
 }
 
 .navbar .nav > li.twitter-header > a {
