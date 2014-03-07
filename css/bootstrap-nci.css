@@ -355,6 +355,9 @@ h2 {
 	font-weight: 400;
 }
 
+#header-search label {
+	display:none;
+}
 
 @media (max-width: 767px) {
     #sidebar {

@@ -90,9 +90,8 @@ $(function() {
   	  <input type="hidden" name="output" value="xml_no_dtd" />
       <input type="hidden" name="filter" value="0" />
   	  <input type="hidden" name="getfields" value="*" />
-  	  <label for="searchbox">
+  	  <label for="searchbox">Search: </label>
         <input id="searchbox" type="text" name="q" size="15" maxlength="255" class="htextf" placeholder="Search" />
-      </label>
   	  <input type="image" src="../images/hbutton-new.gif"  class="hbutton" name="btnG" id="btnG" alt="Search" />
   	</form>
 	</div>
@@ -125,7 +124,7 @@ $(function() {
                 <li class="dropdown">
                   <a href="/current_research.html" class="hover-link">Research Portfolio <b class="caret"></b></a>
                   <ul class="dropdown-menu">
-                  <li><a href="http://maps.cancer.gov/overview/DCCPSGrants/grantlist.jsp?method=dynamic&division=dccps&menu=division">Active Grants</a></li>
+                  <li><a href="http://maps.cancer.gov/overview/DCCPSGrants/grantlist.jsp?method=dynamic&amp;division=dccps&amp;menu=division">Active Grants</a></li>
                   <li><a href="http://maps.cancer.gov/overview/map/index.jsp">Maps of Awarded Grants</a></li>
                   <li><a href="/research_initiative.html">Research Initiatives</a></li>
                   <li><a href="http://maps.cancer.gov/overview/index.jsp">Funding History + Trends</a></li>
@@ -266,7 +265,7 @@ $(function() {
              <div class="row-fluid">
              <div class="span6">
              <p class="footer-header"><a href="/current_research.html">Research Portfolio</a></p>
-              <p><a href="http://maps.cancer.gov/overview/DCCPSGrants/grantlist.jsp?method=dynamic&division=dccps&menu=division">Active Grants</a></p>
+              <p><a href="http://maps.cancer.gov/overview/DCCPSGrants/grantlist.jsp?method=dynamic&amp;division=dccps&amp;menu=division">Active Grants</a></p>
               <p><a href="http://maps.cancer.gov/overview/map/index.jsp">Maps of Awarded Grants</a></p>
               <p><a href="/current_research.html">Research Initiatives</a></p>
               <p><a href="http://maps.cancer.gov/overview/index.jsp">Funding History + Trends</a></p>
@@ -357,7 +356,7 @@ $(function() {
   ga('send', 'pageview');
 
 </script>
-<script language="JavaScript" type="text/javascript" src="/JS/Omniture/WA_DCCPS_PageLoad.js"></script>
+<script type="text/javascript" src="/JS/Omniture/WA_DCCPS_PageLoad.js"></script>
 
     <script>
 	jQuery('ul.nav li.dropdown').hover(function() {
