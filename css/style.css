@@ -193,7 +193,7 @@ p, td, blockquote, sub, sup, a {
 	padding-left: 0;
 }
 
-.listimage .program-areas-header {
+.program-areas-header {
 	color: #000000;
 	font-weight: 600;
 	font-size: 16px;
@@ -201,7 +201,7 @@ p, td, blockquote, sub, sup, a {
 	margin-top: 10px;
 }
 
-.listimage .program-areas-header a {
+.program-areas-header a {
 	color: #096598;
 	font-weight: 600;
 	font-size: 16px;
@@ -831,6 +831,11 @@ div#skipmenu a.skippy:active, div#skipmenu a.skippy:focus, div#skipmenu a.skippy
 		font-size:0.9em;
         margin-left:-30px;
       }
+	  #carouselButtons {
+      margin-left: 75px;
+      position: absolute;
+      bottom: 10px;
+	}
 }
 
 @media (max-width: 980px) {

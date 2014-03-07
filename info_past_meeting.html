@@ -172,11 +172,23 @@ $(function() {
           <div id="topbanner"><!-- InstanceBeginEditable name="Top Banner" --><!-- InstanceEndEditable --></div>
         </div><!-- /.navbar -->
 		        <div class="container-fluid">
-          <div class="row-fluid">		
+                <a id="skip"></a>
+          <div class="row-fluid">
+          	<div id="sidebar" class="span3">
+              <div class="well sidebar-nav">
+                <ul class="nav nav-list">
+                  <li class="nav-header"><a href="http://maps.cancer.gov/overview/DCCPSGrants/grantlist.jsp?method=dynamic&division=dccps&menu=division">Active Grants</a></li>
+                  <li class="nav-header"><a href="http://maps.cancer.gov/overview/map/index.jsp">Maps of Awarded Grants</a></li>
+                  <li class="nav-header"><a href="/research_initiative.html">Research Initiatives</a></li>
+                  <li class="nav-header"><a href="http://maps.cancer.gov/overview/index.jsp">Funding History + Trends</a></li>
+                </ul>
+              </div>
+              <!--/.well -->
+            </div>
+            <!--/span-->		
             <div id="content" class="span9">
-            	<a id="skip"></a>
-            		<!-- InstanceBeginEditable name="Main Content" -->
-              <div class="row">
+            		<!-- InstanceBeginEditable name="Breadcrumbs" -->
+                <div class="row">
                 <div class="span12">
                   <ul class="breadcrumb">
                     <li class="home-breadcrumb"> <a href="/index.html">Home</a> </li>
@@ -189,10 +201,10 @@ $(function() {
                     </li>
                   </ul>
                 </div>
-              </div>
-              <div class="row-fluid">
-                <!--/span-->
-                <!--/span-->
+              </div>    
+                <!-- InstanceEndEditable -->
+                <div class="row-fluid">
+<!-- InstanceBeginEditable name="Main Content" -->
                 <div class="span12 listimage">
                   <h1>Information about Past Meetings</h1>
       <p>March 20-21, 2013: <a href="http://epi.grants.cancer.gov/workshops/cardiotoxicity/">Cancer Treatment-Related Cardiotoxicity: Understanding the Current State of Knowledge and Developing Future Research Priorities</a></p>
@@ -248,21 +260,10 @@ $(function() {
 		<p>September 5-7, 2003: The Science of Real-Time Data Capture: Self-Reports in Health Research</p>
                 </div>
                 <!--/span-->
-              </div>
-              <!--/row-->
+              
                           <!-- InstanceEndEditable -->
-            </div>
-            <!--/span-->
-            <div id="sidebar" class="span3">
-              <div class="well sidebar-nav">
-                <ul class="nav nav-list">
-                  <li class="nav-header"><a href="http://maps.cancer.gov/overview/DCCPSGrants/grantlist.jsp?method=dynamic&division=dccps&menu=division">Active Grants</a></li>
-                  <li class="nav-header"><a href="http://maps.cancer.gov/overview/map/index.jsp">Maps of Awarded Grants</a></li>
-                  <li class="nav-header"><a href="/research_initiative.html">Research Initiatives</a></li>
-                  <li class="nav-header"><a href="http://maps.cancer.gov/overview/index.jsp">Funding History + Trends</a></li>
-                </ul>
-              </div>
-              <!--/.well -->
+                                        </div>
+              <!--/row-->
             </div>
             <!--/span-->
           </div>
@@ -373,6 +374,14 @@ $(function() {
   jQuery(this).find('.dropdown-menu').stop(true, true).delay(100).fadeIn();
 }, function() {
   jQuery(this).find('.dropdown-menu').stop(true, true).delay(100).fadeOut();
+});
+
+$(window).resize(function () {
+    if ($(window).width() < 776) {
+        $("#sidebar").insertAfter($("#content"));
+    } else {
+        $("#sidebar").prepend($("#containingrow"));
+    }
 });
 	</script>
     <script src="js/respond.min.js"></script>

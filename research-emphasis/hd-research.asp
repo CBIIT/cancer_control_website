@@ -172,12 +172,25 @@ $(function() {
           <div id="topbanner"><!-- InstanceBeginEditable name="Top Banner" --><!-- InstanceEndEditable --></div>
         </div><!-- /.navbar -->
 		        <div class="container-fluid">
-          <div class="row-fluid">		
+                <a id="skip"></a>
+          <div class="row-fluid">
+          		<div id="sidebar" class="span3">
+              <div class="well sidebar-nav">
+                <ul class="nav nav-list">
+                  <li class="nav-header"><a href="/research-emphasis/energy_balance/index.html">Energy Balance</a></li>
+                  <li class="nav-header"><a href="/research-emphasis/healthdisp.html">Health Disparities</a></li>
+                  <li class="nav-header"><a href="/research-emphasis/global_health/index.html">International + Global Health</a></li>
+                  <li class="nav-header"><a href="/research-emphasis/phg/index.html">Public Health Genomics</a></li>
+                </ul>
+              </div>
+              <!--/.well -->
+            </div>
+            <!--/span-->		
             <div id="content" class="span9">
-            	<a id="skip"></a>
-            		<!-- InstanceBeginEditable name="Main Content" -->
-              <div class="row">
-                <div class="span9">
+            	
+            		<!-- InstanceBeginEditable name="Breadcrumbs" -->
+                <div class="row">
+                <div class="span12">
                   <ul class="breadcrumb">
                     <li class="home-breadcrumb"> <a href="/index.html">Home</a> </li>
                     <li class="parent">
@@ -192,7 +205,11 @@ $(function() {
                     </li>
                   </ul>
                 </div>
-              </div>
+              </div>    
+                <!-- InstanceEndEditable -->
+                <div class="row-fluid">
+<!-- InstanceBeginEditable name="Main Content" -->
+              
               <div class="row-fluid">
                 <div class="span12 listimage">	  <h1>Health Disparities Research</h1>
      
@@ -201,24 +218,10 @@ $(function() {
 	  <% DisplayGrantsByCode vbNullString, vbNullString, 0, "HEALTH DISPARITIES", "ACTIVE" %>
 		
 	  <h3>Archived Grants</h3>
-	  <% DisplayGrantsByCode vbNullString, vbNullString, 0, "HEALTH DISPARITIES", "ARCHIVE" %>      
-    </div>
-                <!--/span-->
-              </div>
-              <!--/row-->
+	  <% DisplayGrantsByCode vbNullString, vbNullString, 0, "HEALTH DISPARITIES", "ARCHIVE" %>              
                           <!-- InstanceEndEditable -->
-            </div>
-            <!--/span-->
-            <div id="sidebar" class="span3">
-              <div class="well sidebar-nav">
-                <ul class="nav nav-list">
-                  <li class="nav-header"><a href="/research-emphasis/energy_balance/index.html">Energy Balance</a></li>
-                  <li class="nav-header"><a href="/research-emphasis/healthdisp.html">Health Disparities</a></li>
-                  <li class="nav-header"><a href="/research-emphasis/global_health/index.html">International + Global Health</a></li>
-                  <li class="nav-header"><a href="/research-emphasis/phg/index.html">Public Health Genomics</a></li>
-                </ul>
               </div>
-              <!--/.well -->
+              <!--/row--> 
             </div>
             <!--/span-->
           </div>
@@ -329,6 +332,14 @@ $(function() {
   jQuery(this).find('.dropdown-menu').stop(true, true).delay(100).fadeIn();
 }, function() {
   jQuery(this).find('.dropdown-menu').stop(true, true).delay(100).fadeOut();
+});
+
+$(window).resize(function () {
+    if ($(window).width() < 776) {
+        $("#sidebar").insertAfter($("#content"));
+    } else {
+        $("#sidebar").prepend($("#containingrow"));
+    }
 });
 	</script>
     <script src="../js/respond.min.js"></script>

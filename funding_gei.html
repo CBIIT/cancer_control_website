@@ -172,10 +172,24 @@ $(function() {
           <div id="topbanner"><!-- InstanceBeginEditable name="Top Banner" --><!-- InstanceEndEditable --></div>
         </div><!-- /.navbar -->
 		        <div class="container-fluid">
-          <div class="row-fluid">		
-            <div id="content" class="span9">
             	<a id="skip"></a>
-            		<!-- InstanceBeginEditable name="Main Content" -->
+          <div class="row-fluid">
+            <div id="sidebar" class="span3">
+              <div class="well sidebar-nav">
+                <ul class="nav nav-list">
+                  <li class="nav-header"><a href="/funding_apply.html">Apply for Cancer Control Grants</a></li>
+                  <li class="nav-header"><a href="/funding_career.html">Training and Career Development</a></li>
+                  <li class="nav-header"><a href="/funding_info.html">Application Submission &amp; Review</a></li>
+                  <li class="nav-header"><a href="/policy_info.html">Grant Policies</a></li>
+                  <li class="nav-header"><a href="/new_grantees/index.html">Resources and Opportunities for New Grantees</a></li>
+                  <li class="nav-header"><a href="/funding_archive.html">Archive of Funding Opportunities</a></li>
+                </ul>
+              </div>
+              <!--/.well -->
+            </div>
+            <!--/span-->		
+            <div id="content" class="span9">
+              <!-- InstanceBeginEditable name="Breadcrumbs" -->
               <div class="row">
                 <div class="span12">
                   <ul class="breadcrumb">
@@ -189,10 +203,10 @@ $(function() {
                     </li>
                   </ul>
                 </div>
-              </div>
+              </div>    
+              <!-- InstanceEndEditable -->
               <div class="row-fluid">
-                <!--/span-->
-                <!--/span-->
+            		<!-- InstanceBeginEditable name="Main Content" -->
                 <div class="span12 listimage">
                   <h1>Frequently Asked Questions:<br>
 		NOT-CA-08-011 (Administrative Supplements for Gene Identification Efforts: Replication and Fine-Mapping Studies for The Genes, Environment, and Health Initiative (GEI))</h1>
@@ -226,23 +240,10 @@ $(function() {
                   
                 </div>
                 <!--/span-->
-              </div>
-              <!--/row-->
+              
                           <!-- InstanceEndEditable -->
-            </div>
-            <!--/span-->
-            <div id="sidebar" class="span3">
-              <div class="well sidebar-nav">
-                <ul class="nav nav-list">
-                  <li class="nav-header"><a href="/funding_apply.html">Apply for Cancer Control Grants</a></li>
-                  <li class="nav-header"><a href="/funding_career.html">Training and Career Development</a></li>
-                  <li class="nav-header"><a href="/funding_info.html">Application Submission &amp; Review</a></li>
-                  <li class="nav-header"><a href="/policy_info.html">Grant Policies</a></li>
-                  <li class="nav-header"><a href="/new_grantees/index.html">Resources and Opportunities for New Grantees</a></li>
-                  <li class="nav-header"><a href="/funding_archive.html">Archive of Funding Opportunities</a></li>
-                </ul>
-              </div>
-              <!--/.well -->
+                          </div>
+              <!--/row-->              
             </div>
             <!--/span-->
           </div>
@@ -353,6 +354,14 @@ $(function() {
   jQuery(this).find('.dropdown-menu').stop(true, true).delay(100).fadeIn();
 }, function() {
   jQuery(this).find('.dropdown-menu').stop(true, true).delay(100).fadeOut();
+});
+
+$(window).resize(function () {
+    if ($(window).width() < 776) {
+        $("#sidebar").insertAfter($("#content"));
+    } else {
+        $("#sidebar").prepend($("#containingrow"));
+    }
 });
 	</script>
     <script src="js/respond.min.js"></script>

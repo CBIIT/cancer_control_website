@@ -172,11 +172,22 @@ $(function() {
           <div id="topbanner"><!-- InstanceBeginEditable name="Top Banner" --><!-- InstanceEndEditable --></div>
         </div><!-- /.navbar -->
 		        <div class="container-fluid">
-          <div class="row-fluid">		
+                <a id="skip"></a>
+          <div class="row-fluid">
+          	<div id="sidebar" class="span3">
+              <div class="well sidebar-nav">
+                <ul class="nav nav-list">
+                  <li class="nav-header"><a href="/cr-tracking.html">Tracking the Cancer Burden</a></li>
+                  <li class="nav-header"><a href="/cr-reports.html">Reports About DCCPS</a></li>
+                  <li class="nav-header"><a href="/cr-dataset.html">DCCPS Public Data Sets and Analyses</a></li>
+                </ul>
+              </div>
+              <!--/.well -->
+            </div>
+            <!--/span-->		
             <div id="content" class="span9">
-            	<a id="skip"></a>
-            		<!-- InstanceBeginEditable name="Main Content" -->
-              <div class="row">
+            		<!-- InstanceBeginEditable name="Breadcrumbs" -->
+                <div class="row">
                 <div class="span12">
                   <ul class="breadcrumb">
                     <li class="home-breadcrumb"> <a href="/index.html">Home</a> </li>
@@ -192,10 +203,10 @@ $(function() {
                     </li>
                   </ul>
                 </div>
-              </div>
-              <div class="row-fluid">
-                <!--/span-->
-                <!--/span-->
+              </div>    
+                <!-- InstanceEndEditable -->
+                <div class="row-fluid">
+<!-- InstanceBeginEditable name="Main Content" -->
                 <div class="span12 listimage puds">
                   <h1>Research Tools</h1>
                   <div class="row-fluid">
@@ -211,23 +222,12 @@ $(function() {
                       </div>
                     </div>
                     </div>
-                  <p>&nbsp;</p>
                 </div>
                 <!--/span-->
-              </div>
-              <!--/row-->
+              
                           <!-- InstanceEndEditable -->
-            </div>
-            <!--/span-->
-            <div id="sidebar" class="span3">
-              <div class="well sidebar-nav">
-                <ul class="nav nav-list">
-                  <li class="nav-header"><a href="/cr-tracking.html">Tracking the Cancer Burden</a></li>
-                  <li class="nav-header"><a href="/cr-reports.html">Reports About DCCPS</a></li>
-                  <li class="nav-header"><a href="/cr-dataset.html">DCCPS Public Data Sets and Analyses</a></li>
-                </ul>
               </div>
-              <!--/.well -->
+              <!--/row--> 
             </div>
             <!--/span-->
           </div>
@@ -338,6 +338,14 @@ $(function() {
   jQuery(this).find('.dropdown-menu').stop(true, true).delay(100).fadeIn();
 }, function() {
   jQuery(this).find('.dropdown-menu').stop(true, true).delay(100).fadeOut();
+});
+
+$(window).resize(function () {
+    if ($(window).width() < 776) {
+        $("#sidebar").insertAfter($("#content"));
+    } else {
+        $("#sidebar").prepend($("#containingrow"));
+    }
 });
 	</script>
     <script src="js/respond.min.js"></script>

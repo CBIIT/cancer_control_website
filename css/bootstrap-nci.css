@@ -343,6 +343,19 @@ div.divider > span {
 	visibility:hidden;
 }
 
+[class^="icon-"],
+[class*=" icon-"] {
+  background-image: url("../images/glyphicons-halflings.png");
+}
+
+h1 {
+	font-weight: 500;
+}
+h2 {
+	font-weight: 400;
+}
+
+
 @media (max-width: 767px) {
     #sidebar {
         display: inline-block;
@@ -354,6 +367,9 @@ div.divider > span {
         float:none !important;
         margin-left:0;
     }
+	.breadcrumb {
+		margin-left:0px;
+	}
 }
 
 @media (max-width: 979px) {

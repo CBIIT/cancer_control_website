@@ -169,6 +169,7 @@
     <!-- Carousel
     ================================================== -->
     <div id="myCarousel" class="carousel slide">
+    
       <div class="carousel-inner">
         <div class="item active">
           <img class="splash" src="images/banner-ar1.jpg" alt="Image showing 11 people taking a walk by the water talking about the applied research program.">
@@ -248,7 +249,16 @@
       </div>
       <a class="left carousel-control" href="#myCarousel" data-slide="prev"><img src="/images/slider-left-arrow.png" alt="left control" /></a>
       <a class="right carousel-control" href="#myCarousel" data-slide="next"><img src="/images/slider-right-arrow.png" alt="right control" /></a>
+      <div id="carouselButtons">
+    <button id="playButton" type="button" class="btn btn-default btn-xs">
+        <span class="glyphicon icon-play"></span>
+     </button>
+    <button id="pauseButton" type="button" class="btn btn-default btn-xs">
+        <span class="glyphicon icon-pause"></span>
+    </button>
+</div>
     </div><!-- /.carousel -->
+    
 
 
 
@@ -492,6 +502,12 @@
           $('#myCarousel').carousel()
         })
       }(window.jQuery)
+	  $('#playButton').click(function () {
+    $('#myCarousel').carousel('cycle');
+});
+$('#pauseButton').click(function () {
+    $('#myCarousel').carousel('pause');
+});
     </script>
     <script>
 	jQuery('ul.nav li.dropdown').hover(function() {
