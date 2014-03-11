@@ -620,6 +620,7 @@ brp/hbrb/dietary_behaviors.html -text
 brp/hbrb/docs/17.pdf -text
 brp/hbrb/docs/18.pdf -text
 brp/hbrb/docs/AgursCollinsetalposter.pdf -text
+brp/hbrb/docs/HPRBFactsheet.pdf -text svneol=unset#unset
 brp/hbrb/docs/PERSCPCS03_07_DATA.sav -text
 brp/hbrb/docs/PERSPCS03_07Data_with2003_changes.xls -text
 brp/hbrb/docs/PERSPCSCodebookFinal.pdf -text
@@ -1119,6 +1120,15 @@ brp/srtb/Scripts/expressInstall.swf -text
 brp/srtb/about.html -text
 brp/srtb/big-data.html -text
 brp/srtb/docs/Executive-Summary_BigDATA.pdf -text
+brp/srtb/docs/NCI-Big-Data_Cobb.pdf -text
+brp/srtb/docs/NCI-Big-Data_Coffmann.pdf -text
+brp/srtb/docs/NCI-Big-Data_Collins.pdf -text
+brp/srtb/docs/NCI-Big-Data_Curran.pdf -text
+brp/srtb/docs/NCI-Big-Data_Dunton-Rivera_EMA_Dyn_Sys_Modeling.pdf -text
+brp/srtb/docs/NCI-Big-Data_Rivera_Dynamical_Systems_Modeling.pdf -text
+brp/srtb/docs/NCI-Big-Data_Rothman.pdf -text
+brp/srtb/docs/NCI-Big-Data_Spring-Dynamic-Interventions-to-NCI.pdf -text
+brp/srtb/docs/NCI-Big-Data_Tiro.pdf -text
 brp/srtb/index.html -text
 brp/srtb/key_initiatives.html -text
 brp/state_theory_development.html -text
