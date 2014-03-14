@@ -1,5 +1,4 @@
 * text=auto !eol
-/.ignore -text
 /404.html -text
 /AC_RunActiveContent.js -text
 /AccessforAll.mov -text
@@ -43,7 +42,6 @@ DECC/riskcommbib/riskcom_feedback.html -text
 DECC/riskcommbib/riskcombib.doc -text
 DECC/riskcommbib/riskcombib_update_june03.doc -text
 /DI-PAR-Orientation-Web-Posting-082806.pdf -text svneol=unset#unset
-/Desktop.ini -text
 /FLVPlayer_Progressive.swf -text
 /Halo_Skin_3.swf -text
 IS/DandI_funding_webinars.html -text
@@ -2373,8 +2371,10 @@ messagetailoring/step4.html -text
 messagetailoring/step5.html -text
 messagetailoring/step6.html -text
 messagetailoring/step7.html -text
+mli/400x215.flv -text
 mli/48342_v14.swf -text
 mli/Abstract_Submission_Guidelines.pdf -text
+mli/MinimaFlatCustomColorPlayBackSeekCounterVolMute.swf -text
 mli/NCI_Poster_Abstracts.pdf -text
 mli/Paper_Abstracts.pdf -text svneol=unset#unset
 mli/Scripts/AC_RunActiveContent.js -text
@@ -3286,57 +3286,7 @@ populationhealthcenters/sup_guide_0723.doc -text
 populationhealthcenters/sup_guide_0723.pdf -text svneol=unset#unset
 /privacy-policy.html -text
 /program_areas.html -text
-research-emphasis/HDFactSheet.pdf -text svneol=unset#unset
-research-emphasis/cer/cer_funding.html -text
-research-emphasis/cer/cer_supported_nci.html -text
-research-emphasis/cer/funding.html -text
-research-emphasis/cer/images/arra_symbol.jpg -text
-research-emphasis/cer/images/bmt-logo.jpg -text
-research-emphasis/cer/images/cisnet.png -text
-research-emphasis/cer/images/comparative_effect.jpg -text
-research-emphasis/cer/images/crn.gif -text
-research-emphasis/cer/images/funding_image.jpg -text
-research-emphasis/cer/images/nci-ccc.png -text
-research-emphasis/cer/images/nlst.png -text
-research-emphasis/cer/images/pcori.png -text
-research-emphasis/cer/images/report_pres_congress.jpg -text
-research-emphasis/cer/index.html -text
-research-emphasis/cer/overview.html -text
-research-emphasis/cer/priority_setting.html -text
-research-emphasis/cer/resources_links.html -text
-research-emphasis/energy_balance/description.html -text
-research-emphasis/energy_balance/funding.html -text
-research-emphasis/energy_balance/funding_portfolio.html -text
-research-emphasis/energy_balance/images/figure1.jpg -text
-research-emphasis/energy_balance/images/figure2.jpg -text
-research-emphasis/energy_balance/images/figure3.jpg -text
-research-emphasis/energy_balance/images/figure4.jpg -text
-research-emphasis/energy_balance/images/figure5.jpg -text
-research-emphasis/energy_balance/images/figure6.jpg -text
-research-emphasis/energy_balance/images/figure7.jpg -text
-research-emphasis/energy_balance/index.html -text
-research-emphasis/energy_balance/initiatives-biliarytract.html -text
-research-emphasis/energy_balance/initiatives-bladder.html -text
-research-emphasis/energy_balance/initiatives-brain.html -text
-research-emphasis/energy_balance/initiatives-breast.html -text
-research-emphasis/energy_balance/initiatives-colon.html -text
-research-emphasis/energy_balance/initiatives-endometrial.html -text
-research-emphasis/energy_balance/initiatives-esophagealgastric.html -text
-research-emphasis/energy_balance/initiatives-kidney.html -text
-research-emphasis/energy_balance/initiatives-lung.html -text
-research-emphasis/energy_balance/initiatives-ovarian.html -text
-research-emphasis/energy_balance/initiatives-pancreatic.html -text
-research-emphasis/energy_balance/initiatives-prostate.html -text
-research-emphasis/energy_balance/initiatives-testicular.html -text
-research-emphasis/energy_balance/initiatives-thyroid.html -text
-research-emphasis/energy_balance/initiatives.html -text
-research-emphasis/energy_balance/nccor_role.html -text
-research-emphasis/energy_balance/overview.html -text
-research-emphasis/energy_balance/partners.html -text
-research-emphasis/energy_balance/reports.html -text
-research-emphasis/energy_balance/resources.html -text
-research-emphasis/energy_balance/training_resources.html -text
-research-emphasis/global_health/docs/CHINA_EXS_508.pdf -text
+research-emphasis/energy-balance.html -text
 research-emphasis/global_health/e-newsletter/2011-august.html -text
 research-emphasis/global_health/e-newsletter/2011-december.html -text
 research-emphasis/global_health/e-newsletter/2012-august.html -text
@@ -3345,64 +3295,14 @@ research-emphasis/global_health/e-newsletter/2013-february.html -text
 research-emphasis/global_health/e-newsletter/2013-june.html -text
 research-emphasis/global_health/e-newsletter/2013-sept.html -text
 research-emphasis/global_health/e-newsletter/2014-jan.html -text
-research-emphasis/global_health/gh-archive.html -text
-research-emphasis/global_health/gh-contact.html -text
-research-emphasis/global_health/gh-funding.html -text
-research-emphasis/global_health/gh-intl-research.html -text
-research-emphasis/global_health/gh-overview.html -text
-research-emphasis/global_health/gh-partners.html -text
-research-emphasis/global_health/gh-publications.html -text
-research-emphasis/global_health/gh-seminars.html -text
 research-emphasis/global_health/images/banner.jpg -text
 research-emphasis/global_health/images/footer.jpg -text
 research-emphasis/global_health/images/global_newsletter.gif -text
-research-emphasis/global_health/index.html -text
-research-emphasis/hd-digital-divide.html -text
-research-emphasis/hd-dispar.html -text
-research-emphasis/hd-overview.html -text
+research-emphasis/hd-contacts.html -text
 research-emphasis/hd-research.asp -text
-research-emphasis/hd-resources.html -text
-research-emphasis/healthdisp.html -text
+research-emphasis/health-disparities.html -text
 research-emphasis/index.html -text
-research-emphasis/phg/docs/PMCSciValid.pdf -text
-research-emphasis/phg/docs/allhands3-dccps.ppt -text
-research-emphasis/phg/docs/participants_list.pdf -text
-research-emphasis/phg/docs/personal_genomics.pdf -text
-research-emphasis/phg/images/def.jpg -text
-research-emphasis/phg/images/phg_image.jpg -text
-research-emphasis/phg/index.html -text
-research-emphasis/phg/knowledge_synthesis.html -text
-research-emphasis/phg/overview.html -text
-research-emphasis/phg/presentations.html -text
-research-emphasis/phg/presentations/Bernhardt.pdf -text
-research-emphasis/phg/presentations/Coates.pdf -text svneol=unset#unset
-research-emphasis/phg/presentations/Davis.pdf -text
-research-emphasis/phg/presentations/DuRoss.pdf -text
-research-emphasis/phg/presentations/Feero.pdf -text svneol=unset#unset
-research-emphasis/phg/presentations/Friedman.pdf -text svneol=unset#unset
-research-emphasis/phg/presentations/Gail.pdf -text svneol=unset#unset
-research-emphasis/phg/presentations/Ginsburg.pdf -text svneol=unset#unset
-research-emphasis/phg/presentations/Green.pdf -text
-research-emphasis/phg/presentations/Greenland.pdf -text
-research-emphasis/phg/presentations/Gulcher.pdf -text
-research-emphasis/phg/presentations/Gwinn.pdf -text
-research-emphasis/phg/presentations/Industry.pdf -text
-research-emphasis/phg/presentations/JANSSEN.pdf -text svneol=unset#unset
-research-emphasis/phg/presentations/Khoury.pdf -text
-research-emphasis/phg/presentations/Khourysummary.pdf -text
-research-emphasis/phg/presentations/Kimmel.pdf -text
-research-emphasis/phg/presentations/Mcbride.pdf -text svneol=unset#unset
-research-emphasis/phg/presentations/Offit.pdf -text svneol=unset#unset
-research-emphasis/phg/presentations/Ransohoff.pdf -text
-research-emphasis/phg/presentations/Terry.pdf -text
-research-emphasis/phg/presentations/Teutsch.pdf -text svneol=unset#unset
-research-emphasis/phg/presentations/Trepanier.pdf -text
-research-emphasis/phg/presentations/Witte.pdf -text svneol=unset#unset
-research-emphasis/phg/presentations/Xu.pdf -text
-research-emphasis/phg/presentations/hudson.pdf -text svneol=unset#unset
-research-emphasis/phg/presentations/ioannidis.pdf -text
-research-emphasis/phg/seminar.html -text
-research-emphasis/phg/workshop.html -text
+research-emphasis/quality-of-care.html -text
 /research-tools.html -text
 /research_initiative.html -text
 screenshots/access.jpg -text

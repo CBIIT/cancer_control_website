@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en"><!-- InstanceBegin template="/templates/inner-research.dwt" codeOutsideHTMLIsLocked="false" -->
+<html lang="en"><!-- InstanceBegin template="/templates/research-areas.dwt" codeOutsideHTMLIsLocked="false" -->
   <head>
 <meta http-equiv="content-type" content="text/html; charset=UTF-8">
     <meta charset="utf-8">
@@ -149,12 +149,11 @@ $(function() {
                 </ul>
                 </li>
                  <li class="dropdown active">
-                  <a href="/research-emphasis/index.html" class="hover-link">Research Emphasis<b class="caret"></b></a>
+                  <a href="/research-emphasis/index.html" class="hover-link">Cross-Cutting Areas</a>
                   <ul class="dropdown-menu">
-                  <li><a href="/research-emphasis/energy_balance/index.html">Energy Balance</a></li>
-                  <li><a href="/research-emphasis/healthdisp.html">Health Disparities</a></li>
-                  <li><a href="/research-emphasis/global_health/index.html">International + Global Health</a></li>
-                  <li><a href="/research-emphasis/phg/index.html">Public Health Genomics</a></li>
+                  <li><a href="/research-emphasis/energy-balance.html">Energy Balance</a></li>
+                  <li><a href="/research-emphasis/health-disparities.html">Health Disparities</a></li>
+                  <li><a href="/research-emphasis/quality-of-care.html">Quality of Care</a></li>
                   </ul>
                 </li>
                 <li class="dropdown">
@@ -173,21 +172,20 @@ $(function() {
 		        <div class="container-fluid">
                 <a id="skip"></a>
           <div class="row-fluid">
-          		<div id="sidebar" class="span3">
+          <div id="sidebar" class="span3">
               <div class="well sidebar-nav">
                 <ul class="nav nav-list">
-                  <li class="nav-header"><a href="/research-emphasis/energy_balance/index.html">Energy Balance</a></li>
-                  <li class="nav-header"><a href="/research-emphasis/healthdisp.html">Health Disparities</a></li>
-                  <li class="nav-header"><a href="/research-emphasis/global_health/index.html">International + Global Health</a></li>
-                  <li class="nav-header"><a href="/research-emphasis/phg/index.html">Public Health Genomics</a></li>
+                  <li class="nav-header"><a href="/research-emphasis/energy-balance.html">Energy Balance</a></li>
+                  <li class="nav-header"><a href="/research-emphasis/health-disparities.html">Health Disparities</a></li>
+                  <li class="nav-header"><a href="/research-emphasis/quality-of-care.html">Quality of Care</a></li>
                 </ul>
               </div>
               <!--/.well -->
             </div>
             <!--/span-->		
             <div id="content" class="span9">
-            	
-            		<!-- InstanceBeginEditable name="Breadcrumbs" -->
+    
+    <!-- InstanceBeginEditable name="Breadcrumbs" -->
                 <div class="row">
                 <div class="span12">
                   <ul class="breadcrumb">
@@ -206,11 +204,8 @@ $(function() {
                 </div>
               </div>    
                 <!-- InstanceEndEditable -->
-                <div class="row-fluid">
-<!-- InstanceBeginEditable name="Main Content" -->
-              
-              <div class="row-fluid">
-                <div class="span12 listimage">	  <h1>Health Disparities Research</h1>
+                <div class="row-fluid">        		<!-- InstanceBeginEditable name="Main Content" -->
+                <div class="span12">	  <h1>Health Disparities Research</h1>
      
       <!-- #include virtual="/grants/utility.asp" -->
 	  <h3>Active Grants</h3>
@@ -219,8 +214,7 @@ $(function() {
 	  <h3>Archived Grants</h3>
 	  <% DisplayGrantsByCode vbNullString, vbNullString, 0, "HEALTH DISPARITIES", "ARCHIVE" %>              
                           <!-- InstanceEndEditable -->
-              </div>
-              <!--/row--> 
+          </div>                <!--/row-->
             </div>
             <!--/span-->
           </div>
@@ -229,7 +223,7 @@ $(function() {
           <!-- /END THE FEATURETTES -->
         </div>
         <!-- /.container -->
-       <!-- FOOTER -->
+      <!-- FOOTER -->
       <footer>
       	<div class="container-fluid">
         	<div class="row-fluid bottom-border bottom-margin">
@@ -277,12 +271,12 @@ $(function() {
               <p><a href="/cr-dataset.html">DCCPS Public Data Sets and Analyses</a></p>
              </div><!--/span-->
              <div class="span6">
-             <p class="footer-header"><a href="/current_research.html">Research Emphasis</a></p>
-              <p><a href="/energy_balance/index.html">Energy Balance</a></p>
-              <p><a href="/research-emphasis/healthdisp.html">Health Disparities</a></p>
-              <p><a href="/research-emphasis/global_health/index.html">International + Global Health</a></p>
-              <p><a href="/research-emphasis/phg/index.html">Public Health Genomics</a></p>
-            </div><!--/span-->
+             <p class="footer-header"><a href="/research-emphasis/index.html">Cross-Cutting Areas</a></p>
+<p><a href="/research-emphasis/energy-balance.html">Energy Balance</a></p>
+<p><a href="/research-emphasis/health-disparities.html">Health Disparities</a></p>
+<p><a href="/research-emphasis/quality-of-care.html">Quality of Care</a>            </p>
+            </div>
+             <!--/span-->
           </div>
            </div>
        <div class="last-updated">
