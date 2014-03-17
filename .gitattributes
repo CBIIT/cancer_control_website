@@ -583,6 +583,7 @@ brp/docs/ELIFactSheet.pdf -text svneol=unset#unset
 brp/docs/Grants2005.pdf -text
 brp/docs/HCIRBPD.pdf -text
 brp/docs/Memoriam_SabraWooley.pdf -text
+brp/docs/Quantitative-Fellowship-at-the-NCI-March-2014.pdf -text
 brp/docs/TRECBaselineSurvey.pdf -text
 brp/docs/TRECWrittenProductsProtocol.pdf -text svneol=unset#unset
 brp/docs/TTURCResearchSurvey.pdf -text svneol=unset#unset
@@ -866,6 +867,8 @@ brp/pcrb/cervical_cancer/cc_reducing-paskett.html -text
 brp/pcrb/cervical_hpv.html -text
 brp/pcrb/cooperation-competition.html -text
 brp/pcrb/cyberseminar/030613-web-meeting.pdf -text
+brp/pcrb/cyberseminar/11-06-13-NIH.pdf -text
+brp/pcrb/cyberseminar/NCI_MeasuringTeamworkNov2013.pdf -text
 brp/pcrb/cyberseminar/NIHNCICybersessionJune272012GODFREY.ppt -text
 brp/pcrb/cyberseminar/November_transcript.doc -text
 brp/pcrb/cyberseminar/PC36-27-2012MeetingTranscript.doc -text
