@@ -244,6 +244,7 @@ IS/resources.html -text
 IS/slideshow_home.html -text
 IS/staff.html -text
 IS/word-ball.jpg -text
+IS2/index.html -text
 /OppNet_v2_org_cap.flv -text
 Scripts/AC_RunActiveContent.js -text
 Scripts/expressInstall.swf -text
@@ -1968,6 +1969,7 @@ css/bootstrap-nci.css -text
 css/bootstrap-responsive.css -text
 css/bootstrap.css -text
 css/homepage.css -text
+css/is-style.css -text
 css/responsive-tables.css -text
 css/style.css -text
 /current_research.html -text

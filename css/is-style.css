@@ -1,0 +1,890 @@
+html, body, div, span, applet, object, iframe, h1, h2, h3, h4, h5, h6, p, blockquote, pre, a, abbr, acronym, address, big, cite, code ,del, dfn, em, img, ins, kbd, q, s, samp, small, strike, strong, tt, var, b, u, i, center, dl, dt, dd, ol, ul, li, fieldset, form, label, legend, table, caption, tbody, tfoot, thead, tr, th, td, article, aside, canvas, details, embed, figure, figcaption, footer, header, hgroup, menu, nav, output, ruby, section, summary, time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+
+footer {
+  background-color: #ecf5fb;
+  margin:-20px;
+  padding:10px;
+}
+
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, footer, header, hgroup, menu, nav, section { display: block; }
+body { line-height: 1; }
+ul { list-style: none; }
+blockquote, q { quotes: none; }
+blockquote:before, blockquote:after, q:before, q:after { content: ''; content: none; }
+table { border-collapse: collapse; border-spacing: 0; }
+
+p, td, blockquote, sub, sup, a {
+	font:Verdana, Geneva, sans-serif;
+	font-size:14px;	
+}
+
+.non-visual { position: absolute; height: 1px; width: 1px;overflow: hidden;text-indent: -9999px;}
+
+.center { text-align:center; }
+
+ /* CUSTOMIZE THE NAVBAR
+    -------------------------------------------------- */
+
+    /* Special class on .container surrounding .navbar, used for positioning it into place. */
+    .navbar-wrapper {
+      position: absolute;
+      top: 0;
+      left: 0;
+      right: 0;
+      z-index: 10;
+      margin-top: 20px;
+      margin-bottom: -90px; /* Negative margin to pull up carousel. 90px is roughly margins and height of navbar. */
+    }
+    .navbar-wrapper .navbar {
+
+    }
+
+    /* Remove border and change up box shadow for more contrast */
+    .navbar .navbar-inner {
+      border: 0;
+      -webkit-box-shadow: 0 2px 10px rgba(0,0,0,.25);
+         -moz-box-shadow: 0 2px 10px rgba(0,0,0,.25);
+              box-shadow: 0 2px 10px rgba(0,0,0,.25);
+    }
+
+    /* Downsize the brand/project name a bit */
+    .navbar .brand {
+      padding: 14px 20px 16px; /* Increase vertical padding to match navbar links */
+      font-size: 16px;
+      font-weight: bold;
+      text-shadow: 0 -1px 0 rgba(0,0,0,.5);
+    }
+	
+    /* Offset the responsive button for proper vertical alignment */
+    .navbar .btn-navbar {
+      margin-top: 10px;
+    }
+	
+	#header, .navbar {
+      margin: 0px -20px;
+    }
+
+    .main-content {
+      margin-top:40px;
+    }
+
+    .main-content h2 {
+      font-weight: normal;
+    }
+	
+	/*Change the size of the caret for the dropdown navbar */
+	#main-container .navbar .nav > li > .dropdown-menu:after {
+		border-bottom: 15px solid #FFFFFF;
+		border-left: 15px solid rgba(0, 0, 0, 0);
+		border-right: 15px solid rgba(0, 0, 0, 0);
+		left: 5px;
+		top: -10px;
+	}
+
+/* Site Resources */
+#main-container {
+    background-color: #FFFFFF;
+	max-width: 1024px;
+    margin: 0 auto;
+	position:relative;
+}
+
+.container-fluid .row-fluid .mapcenter {
+	margin: 0 auto;	
+}
+
+.span9 .mapbread {
+	margin-left: 0;
+	padding: 8px 10px;	
+}
+
+#content {
+	padding:20px;
+}
+
+#content-column {
+	width:30%;
+	padding:10px;	
+}
+
+.last-updated { float:right; font-size:14px; font-weight:bold; }
+
+#main-container #header-search {
+	position: absolute;
+	top: 75px;
+	right: 15px;
+	width: 200px;
+	padding: 0px;
+	display: block;
+}
+
+#topbanner img{
+	width: 100%;
+}
+
+.row-fluid #sidebar{
+	margin-top: 14px;	
+}
+
+.sidebar-nav .nav-list .nav-header {
+	background: none;
+	list-style-image: none;
+	padding-left: 0;
+}
+
+.sidebar-nav .nav-list .nav-header a {
+	color: #096598;
+}
+
+#main-container .navbar .nav li a:hover {
+	background-color: #096598;
+	color: #FFFFFF
+}
+
+#main-container .navbar .nav li.twitter-header a:hover {
+                background: url("../images/footer-twitter.png") no-repeat scroll 5px 9px #096598;
+    color: #FFFFFF;
+}
+
+.nav-list li {
+	list-style-image: url("../images/tiny-arrow.png");
+	margin-left: 7px;
+}
+
+#content .listimage ul li {
+	list-style-image: url("../images/tiny-arrow.png");
+	padding-left: 0;
+	margin-left: 5px;
+}
+
+#content .listimage .nav-tabs li {
+	list-style-image: none;
+}
+
+.listimage .nav-tabs {
+	margin-bottom: 0;
+}
+
+.nav-tabs li a {
+	background-color: #DDDDDD;
+	border: 1px solid #DDDDDD;	
+	border-radius: 4px 4px 0 0;
+	font-weight: bold;
+	color: #096598;
+}	
+
+.tab-content .tab-pane {
+	border-right: 1px solid #DDDDDD;
+	border-bottom: 1px solid #DDDDDD;
+	border-left: 1px solid #DDDDDD;
+	padding: 20px;
+	line-height: 1.5;
+}
+
+#content .tab-pane ol li {
+	padding-left: 0;
+}
+
+.listimage .program-areas-header {
+	color: #000000;
+	font-weight: 600;
+	font-size: 16px;
+	padding-bottom: 5px;
+	margin-top: 10px;
+}
+
+.listimage .program-areas-header a {
+	color: #096598;
+	font-weight: 600;
+	font-size: 16px;
+	padding-bottom: 5px;
+	margin-top: 10px;
+}
+
+.listimage h1 {
+	font-weight: 500;
+}
+.listimage h2 {
+	font-weight: 400;
+	padding-left: 28px;
+}
+
+.listimage #contexthead {
+	background-image: url("../images/program-areas-header1.png");
+	background-position: left 6px;
+	background-size: 22px;
+}
+
+.listimage #lifehead {
+	background-image: url("../images/program-areas-header3.png");
+	background-position: left 6px;
+	background-size: 22px;
+}
+
+.listimage #healthhead {
+	background-image: url("../images/program-areas-header2.png");
+	background-position: left 6px;
+	background-size: 22px;
+}
+
+.listimage #methodhead {
+	background-image: url("../images/program-areas-header.png");
+	background-position: left 6px;
+	background-size: 22px;
+}
+
+.list-text p {
+	margin-left: 5px;
+}
+
+.content-greybox p a {
+	color: #096598;	
+}
+
+.mapcenter select {
+	margin-top: 15px;
+	margin-bottom: -10px;
+}
+
+.stategrants .table-condensed td {
+	padding: 12px 0 12px 15px;
+	font-weight: 500;
+	font-weight: 600;
+}
+
+.stategrants .table-condensed td a {
+	color: #096598;
+}
+
+.stategrants .table-condensed th {
+	padding: 12px 0 12px 15px;
+	color: #096598;
+	font-weight: 700;
+}
+.puds .subsection a, .puds .content-bottom .subsection a {
+	color: #0965BA
+}
+#content .ddrjump li {
+	margin-top: 0;
+}
+
+table h3 {
+	line-height: 1;
+}
+.stategrants form {
+	margin: 0 0 0 -10px;
+	text-align: center;
+	padding: 0 -10px;
+}
+.stategrants th form input[type="checkbox"] {
+	margin: -1px 5px 0 10px;	
+}
+.stategrants th form {
+	margin-bottom: 5px;
+}
+.stategrants .table tbody th:last-child {
+	padding: 12px 0 0 0;
+	text-align: center;
+}
+.content-greybox form {
+	margin-bottom: 5px;
+}
+.content-greybox form input[type="radio"] {
+	margin-left: 3px;
+	margin-right: 5px;
+}
+.content-greybox .showdata {
+	margin-left: 20px;
+}	
+.table-search {
+	margin-bottom: -25px;
+}
+.table-search input {
+	width: 80%;
+}
+.table-search .hbutton {
+	margin-left: 75%;
+	margin-top: -80px;
+}
+.institute {
+	background: url("../images/blueplus.png") no-repeat left center;
+	background-size: 22px 20px;
+	padding: 2px 0 2px 35px;
+	margin-bottom: 0;
+}
+.dropdownTable div {
+	font-weight: lighter;
+}
+.dropdownIN div {
+	margin-left: 51px;
+}
+.dropdownInfo {
+	margin-left: 15px;
+}
+.dropdownTitle {
+	color: #096598;
+}
+.hiddenRow .in {
+	padding: 12px 0 12px 0;
+}
+.stategrants .table-condensed .hiddenRow {
+	padding: 0;
+	border-left: 1px solid #DDDDDD;
+	border-top: none;
+	border-bottom: none;
+	border-right: none;
+}
+#exportxls {
+	border: 1px solid #DDDDDD;
+	color: #096598;
+	display: inline-block;
+	padding: 5px;
+	margin-bottom: 5px;
+	margin-top: -5px;
+	background: linear-gradient(to top, #DBEBF8, #F6FBFF);
+}	
+#exportxlsin {
+	border: 1px solid #DDDDDD;
+	color: #096598;
+	display: inline-block;
+	padding: 5px;
+	margin-bottom: 12px;
+	background: linear-gradient(to top, #DBEBF8, #F6FBFF);
+	width: 80%;
+	text-align: center;
+}
+#exportxls:hover {
+	cursor: pointer;
+}
+
+.content-bottom {
+    background-color: #ECECEC;
+    border: 1px solid #CCCCCC;
+    margin-top: -20px;
+    padding: 10px;
+}
+
+.content-bottom .subsection {
+    background-color: #FFFFFF;
+    border: 1px solid #CCCCCC;
+    padding: 15px;
+}
+
+.help-image {
+	float: right; 
+	margin-top: -50px; 
+	margin-right: 120px;
+}
+
+.can-numb {
+	float: right; 
+	margin-top: -55px; 
+	text-align: center;
+}
+
+/* Continuum  Table (Will be deleted) */
+.contintable {
+	border: 1px solid #000000;
+}
+td.continuum {
+    background: url("../images/continuum_white_red_arrow.jpg") no-repeat scroll center center rgba(0, 0, 0, 0);
+}
+
+
+    a.document {
+      background-image:url(../images/featured-icon.png);
+      background-repeat: no-repeat;
+      padding-left:20px;
+    }
+	
+	p.rightside {
+	  border-top: 1px solid #CCCCCC;
+	  padding-top: 10px;	
+	}
+	
+	/* Customized Boxes */
+	
+	.content-bottom .subsection .program-areas-header a,
+	.content-bottom .subsection .research-emphasis-header a,
+	.content-bottom .subsection .about-dccps-header a {
+	  background-repeat: no-repeat;
+      padding-top:10px;
+      color: #a90101;
+      font-family: Helvetica, Arial, "Lucida Grande", sans-serif;
+	  background-image: none;
+	  padding-left: 0;
+	  font-size: inherit;
+	}
+	
+	.content-bottom {
+      background-color: #ececec;
+      border: 1px #cccccc solid;
+      padding:10px;
+    }
+
+    .content-bottom .subsection {
+      background-color: #ffffff;
+      border: 1px #cccccc solid;
+      padding:15px;
+    }
+	
+	.content-bottom .subsection a {
+      background-image:url(../images/link-arrow.png);
+      background-repeat:no-repeat;
+      padding-left:14px;
+      color:#696559;
+    }
+
+@media (max-width: 320px) {
+  body #main-container #header-search {
+  	right: -15px;
+  }
+}
+
+@media (max-width: 400px) {
+  #main-container #header {
+  	height: 97px;
+  }
+  body #main-container #header-search {
+  	top: 92px;
+  }
+  #main-container #header #nci-banner {
+  	height: 45px;
+	width: 100%;
+	background-size: auto 45px;
+  }
+  #main-container #header #cancercontrol-banner {
+  	height: 52px;
+	width: 100%;
+	background-size: auto 52px;
+  }
+  #main-container .carousel .item {
+	height: 140px;  
+  }
+  #main-container .carousel img.splash {
+	height: 140px;  
+  }	
+  .carousel .btn {
+	display: none;  
+  }
+  .carousel-caption p {
+	display: none;  
+  }
+  #myCarousel .carousel-control {
+	top: 70%;
+  }
+    /* Footer */
+  .help-image {
+	margin-top: -80px; 
+  }
+
+  .can-numb { 
+	margin-top: -85px; 
+  }
+  #main-container footer .span6 .top-span {
+     margin-bottom: 0;
+  }
+  .last-updated {
+     margin-top: 40px;
+  }
+}
+
+@media (max-width: 480px) {
+  #myCarousel .carousel-control {
+	top: 60%;	
+  }
+}
+
+@media (min-width: 768px) {
+  #main-container #header-search input[type=text] {
+  	-webkit-border-radius: 0px;
+  	-webkit-appearance: none;
+  	float: left;
+  	padding: 10px;
+  	padding-left: 1.488095238095238%;
+  	border: 0px;
+  	height: 16px;
+  	text-indent: 6px;
+  	display: block;
+  	color: #666666;
+  	background-color: #ffffff;
+  	width: 90%;
+  }
+  #main-container {
+    box-shadow: 0 0 11px 0px #000;
+	padding: 0 20px;;
+}
+
+.container-fluid .mapcenter .viewdata {
+	margin-left: 0;
+}
+	#main-container .bottom-border .bottomright {
+	  padding-left: 15px;
+	}
+}
+@media (max-width: 767px) {
+  #main-container #header-search {
+    top: 130px;
+  }
+    #main-container #header-search input[type=text] {
+    top: 130px;
+    -webkit-border-radius: 0px;
+    -webkit-appearance: none;
+    float: left;
+    padding: 0px;
+    padding-left: 1.488095238095238%;
+    border: 0px;
+    height: 30px;
+    text-indent: 6px;
+    display: block;
+    color: #666666;
+    background-color: #ffffff;
+    width: 90%;
+    margin-top:4px;
+    border: solid #cccccc 1px;
+  }
+.nav-collapse .dropdown-menu li {
+	margin-left: 10px;
+}
+
+#myCarousel .carousel-control {
+	z-index: 10;
+	width: 30px;
+	height: auto;
+	margin-top: -60px;
+}
+.carousel-caption .btn-info {
+	background: none;	
+	border: none;
+	border-color: none;
+	box-shadow: none;
+	color: #FFFFFF;
+	margin-left: -10px;
+	margin-top: 0;
+}
+.carousel-caption .btn-info:hover {
+	background: none;
+	text-decoration: underline;
+	color: #FFFFFF;
+}
+}
+
+#main-container #header-search input[type=button], input[type=submit] {
+	-webkit-border-radius: 0px;	
+	float: right;
+	height: 28px;
+	width: 9.6551724137931034482758620689655%;
+	/*background: #ffffff url('../img/magnify_glass.png') no-repeat center 4px;*/
+	padding: 0px;
+	margin: 0px;
+	border: 0px;
+	outline: 0px;
+	-webkit-border-radius:0px;
+}
+
+#main-container #header-search input[type=image] {
+  margin-left:-24px;
+  margin-top:8px;
+}
+
+      .sidebar-nav {
+        padding: 9px 0;
+      }
+
+    #content .popular-now-inner {
+      border: 1px #cccccc solid;
+      padding: 0px 10px;
+	  width:95%;
+	  float:right;
+	  margin-left:10px;
+	  margin-bottom:10px;
+    }
+
+    #content .popular-now-inner h2 {
+      background-color: #096598;
+      color:#ffffff;
+      padding:0px 15px;
+      font-size:1.4em;
+      font-family: Helvetica, Arial, "Lucida Grande", sans-serif;
+      font-weight: 600;
+    }
+
+    #content .popular-now-inner h3 {
+      color: #a90101;
+      font-size:1.3em;
+      font-family: Helvetica, Arial, "Lucida Grande", sans-serif;
+      font-weight: normal; }
+
+/* Header */
+#header {
+	height:135px;
+}
+#header #nci-banner {
+	background: url("../images/banner-nci.jpg") no-repeat scroll center top #A90101;	
+	height:61px;
+}
+#header #cancercontrol-banner {
+	background: url("../images/banner-cancercontrol.jpg") no-repeat scroll center top #096598;	
+	height:74px;
+}
+
+
+@media (max-width: 767px) {
+  #header #nci-banner {
+    background: url("../images/banner-nci-sml.png") no-repeat #A90101;  
+    height:61px;
+  }
+  #header #cancercontrol-banner {
+    background: url("../images/banner-cancercontrol-sml.png") no-repeat #096598;  
+    height:62px;
+  }
+}
+
+@media (min-width: 400px) and (max-width: 767px) {
+	  /* Footer */
+  .container-fluid .row-fluid .topfoot {
+  	float: left;
+	width: 50%;
+  }
+
+  .container-fluid .row-fluid .bottomfoot {
+	float: right;  
+	clear: none;
+	width: 50%;
+  }	
+  .help-image {
+	margin-top: -100px; 
+  }
+
+  .can-numb { 
+	margin-top: -105px; 
+  }
+  #main-container footer .span6 .top-span {
+     margin-bottom: 0;
+  }
+}
+
+@media (min-width: 600px) and (max-width: 767px) {
+   #viewright {
+     float: right;
+	 width: 50%;
+	 clear: none;
+   }
+   #discussleft {
+   	 float: left;
+	 width: 50%;
+   }
+}
+
+@media (min-width: 767px) and (max-width: 979px) {
+	.span3 .popular-now h2 {
+		font-size: 1.3em;
+	}
+	.span4 p .thirdbtn {
+		margin-top: 51px;
+	}
+}
+
+@media (max-width: 979px) {
+  #header #nci-banner {
+    background: url("../images/banner-nci-sml.png") no-repeat #A90101;  
+    height:61px;
+  }
+  #header #cancercontrol-banner {
+    background: url("../images/banner-cancercontrol-sml.png") no-repeat #096598;  
+    height:74px;
+  }
+  .bookpic {
+	display: none;
+  }
+  #main-container .navbar .navbar-inner .caret {
+	display: none; 
+  }
+  #main-container .navbar .navbar-inner .dropdown-menu li {
+	display: none; 
+  }
+}
+
+#header #nci-banner a {
+	display: block;
+	height:61px;
+	width: 100%;
+}
+#header #cancercontrol-banner a {
+	display: block;
+	height:74px;
+	width: 100%;
+}
+
+#header #nci-banner a > span {
+	display: none;
+}
+#header #cancercontrol-banner a > span {
+	display: none;
+}
+
+/* footer */
+
+footer .span6 .row-fluid { min-height:130px;}
+
+footer .span6 .row-fluid.top-span { min-height:70px; margin-bottom: -30px;}
+
+footer .last-updated {padding-top:20px; float:none; clear:both;}
+
+.footer-box > ul li {
+    display: inline;
+    list-style: none outside none;
+    margin: 0 5px;
+}
+
+.footer-header { font-weight:bold; }
+
+footer a { color:#696559; }
+
+footer a:hover { color:#696559; }
+
+.footer-box a { font-size:0.9em; }
+
+    .bottom-border {
+      border-bottom: solid #cccccc 1px;
+      margin-bottom: 10px;
+    }
+	
+	.bottom-border .span6 {
+	  margin-bottom: 10px;
+	}
+	
+    .bottom-margin {
+      margin-bottom:20px;
+    }
+
+    a.footer-twitter {
+      color:#696559;
+      background-image:url(../images/footer-twitter.png);
+      background-repeat: no-repeat;
+      padding-left:30px;
+      padding-top:4px;
+      padding-bottom:6px;
+      height:40px;
+	  font-weight:bold;
+    }
+
+ /* Skip Navigation */
+#skip {
+    text-align: left;
+}
+#skip a {
+    height: 1px;
+    left: -10000px;
+    overflow: hidden;
+    position: absolute;
+    width: 1px;
+}
+#skip a:focus, #skip a:active {
+    height: auto;
+    left: 0;
+    overflow: visible;
+    position: static;
+    text-decoration: underline;
+    width: auto;
+}
+div#skipmenu {
+    position: relative;
+}
+div#skipmenu a.skippy {
+    height: 1px;
+    left: -1000px;
+    overflow: hidden;
+    position: absolute;
+    top: -1000px;
+    width: 1px;
+}
+div#skipmenu a.skippy:active, div#skipmenu a.skippy:focus, div#skipmenu a.skippy:hover {
+    color: black;
+    font-size: 1em;
+    font-weight: bold;
+    height: 1em;
+    left: auto;
+    margin-bottom: 25px;
+    padding-bottom: 15px;
+    position: absolute;
+    text-align: right;
+    top: auto;
+    width: 100%;
+    z-index: 100;
+}
+
+@media (min-width: 768px) and (max-width: 979px) {
+	#main-container { max-width: 768px; }
+}
+
+@media (min-width: 768px) {
+	.help-info p{
+		font-size:0.9em;
+        margin-left:-30px;
+      }
+}
+
+@media (max-width: 980px) {
+    /* Enable use of floated navbar text */
+    .navbar-text.pull-right {
+    	float: none;
+        padding-left: 5px;
+        padding-right: 5px;
+    }
+}
+
+@media (min-width: 1200px) {
+	#main-container {
+		max-width: 1200px;
+		padding: 0 20px;
+	}
+}
+
+@media (max-width: 1199px) {
+	#main-container .navbar .nav li a {
+		padding: 12px 6px;	
+	}
+	.nav .twitter-header a span {
+		margin-left: 20px;
+	}
+}
+
+    .footer-logos {
+      margin-top: 20px;
+    }
+
+    .footer-help {
+      width: 91px;
+      height: 50px;
+	  margin-top: -5px;
+    }
+	
+	.content-greybox {
+      background-color: #ececec;
+      border: 1px #cccccc solid;
+      margin-bottom:1em;
+      padding:10px;
+    }
+	
+	.content-greybox.inline {
+		float:left;
+		margin:10px;
+	}
+	
+	.content-greybox .active {
+      color: #096598;
+	  font-weight:bold;
+    }
+	
+	.content-greybox a {
+      color: #A90101;
+	}
