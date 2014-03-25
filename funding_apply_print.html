@@ -13,34 +13,7 @@
     <!-- InstanceBeginEditable name="metatags" -->
     <meta name="description" content="The Division of Cancer Control and Population Sciences funds a large portfolio of grants and contracts. The portfolio currently includes approximately 800 grants valued at nearly $450 million. Here we provide a listing of funding opportunities that are currently accepting applications. Please visit this page regularly as new funding opportunities are added upon approval by NCI." />
 	<!-- InstanceEndEditable -->
-	<script>
-// This adds 'placeholder' to the items listed in the jQuery .support object. 
-jQuery(function() {
-   jQuery.support.placeholder = false;
-   test = document.createElement('input');
-   if('placeholder' in test) jQuery.support.placeholder = true;
-});
-// This adds placeholder support to browsers that wouldn't otherwise support it. 
-$(function() {
-   if(!$.support.placeholder) { 
-      var active = document.activeElement;
-      $(':text').focus(function () {
-         if ($(this).attr('placeholder') != '' && $(this).val() == $(this).attr('placeholder')) {
-            $(this).val('').removeClass('hasPlaceholder');
-         }
-      }).blur(function () {
-         if ($(this).attr('placeholder') != '' && ($(this).val() == '' || $(this).val() == $(this).attr('placeholder'))) {
-            $(this).val($(this).attr('placeholder')).addClass('hasPlaceholder');
-         }
-      });
-      $(':text').blur();
-      $(active).focus();
-      $('form:eq(0)').submit(function () {
-         $(':text.hasPlaceholder').val('');
-      });
-   }
-});
-</script>
+	
     <!-- Le styles -->
     <link href="css/style.css" rel="stylesheet">
     <link href="css/bootstrap.css" rel="stylesheet">
@@ -147,7 +120,7 @@ $(function() {
                 </ul>
                 </li>
                  <li class="dropdown">
-                  <a href="/research-emphasis/index.html" class="hover-link">Cross-Cutting Areas</a>
+                  <a href="/research-emphasis/index.html" class="hover-link">Cross-Cutting Areas <b class="caret"></b></a>
                   <ul class="dropdown-menu">
                   <li><a href="/research-emphasis/energy-balance.html">Energy Balance</a></li>
                   <li><a href="/research-emphasis/health-disparities.html">Health Disparities</a></li>
@@ -372,10 +345,20 @@ $(function() {
             <th style="width:18%;">Program Contact</th>
           </tr>
           <tr style="vertical-align:top;">
+            <td>Core Infrastructure and Methodological Research for Cancer </td>
+            <td><a href="http://grants.nih.gov/grants/guide/pa-files/PAR-14-160.html">PAR-14-160</a> (U01)</td>
+            <td>March 11, 2017</td>
+            <td><p>Daniela Seminara, Ph.D., M.P.H.<br>
+              240-276-6748<br>
+              <a href="mailto:seminard@mail.nih.gov">seminard@mail.nih.gov</a></p></td>
+          </tr>
+          <tr style="vertical-align:top;">
             <td>Mechanistic Insights from Birth Cohorts</td>
             <td><a href="http://grants.nih.gov/grants/guide/pa-files/PAR-13-109.html">PAR-13-109</a> (R01)</td>
             <td>May 8, 2016</td>
-            <td></td>
+            <td>Somdat Mahabir, <br>
+              240-276-6941<br>
+              <a href="mailto:Mahabir@mail.nih.gov">Mahabir@mail.nih.gov</a></td>
           </tr>
           <tr style="vertical-align:top;">
             <td>Revisions for Early-Stage Development of Informatics Technology</td>
@@ -397,15 +380,9 @@ $(function() {
             <td>Mukesh Verma, Ph.D.  <br /> 240-276-6889   <br /> <a href="mailto:vermam@mail.nih.gov" target="_top">vermam@mail.nih.gov</a><br /></td>
           </tr>
           <tr style="vertical-align:top;">
-            <td>Analysis of Genome-Wide Gene-Environment (G x E) Interactions</td>
-            <td><a href="http://grants2.nih.gov/grants/guide/pa-files/PAR-13-382.html">PAR-12-382</a> (R21)</td>
-            <td>February 15, 2014</td>
-            <td>Leah Mechanic, PhD, MPH  <br /> 240-276-6847  <br /> <a href="mailto:mechanil@mail.nih.gov" target="_top">mechanil@mail.nih.gov</a><br /></td>
-          </tr>
-          <tr style="vertical-align:top;">
             <td>Pilot Studies in Pancreatic Cancer</td>
             <td><a href="http://grants.nih.gov/grants/guide/pa-files/PA-11-298.html">PA-11-298</a> (R03)<br />
-            <a href="http://grants.nih.gov/grants/guide/pa-files/PA-11-297.html">PA-11-297 </a> (R21)</td>
+              <a href="http://grants.nih.gov/grants/guide/pa-files/PA-11-297.html">PA-11-297 </a> (R21)</td>
             <td>January 5, 2015</td>
             <td>Mukesh Verma, Ph.D.  <br /> 240-276-6889   <br /> <a href="mailto:vermam@mail.nih.gov" target="_top">vermam@mail.nih.gov</a><br /></td>
           </tr>
@@ -420,12 +397,6 @@ $(function() {
             <td><a href="http://grants.nih.gov/grants/guide/pa-files/PA-11-250.html">PA-11-250</a> (R01)</td>
             <td>September 8, 2014</td>
             <td>Charlisse Caga-anan  <br /> 240-276-6738   <br /> <a href="mailto:charlisse.caga-anan@nih.gov" target="_top">charlisse.caga-anan@nih.gov</a><br /></td>
-          </tr>   
-          <tr style="vertical-align:top;">
-            <td>Notice of Intent to Publish a Funding Opportunity Announcement for Core Infrastructure and Methodological Research for Cancer Epidemiology Cohorts</td>
-            <td><a href="http://grants.nih.gov/grants/guide/notice-files/NOT-CA-14-013.html">NOT-CA-14-013</a> (UM1)<br /><a href="http://epi.grants.cancer.gov/funding/cohorts/#faqs">FAQs</a></td>
-            <td>&nbsp;</td>
-            <td>Daniela Seminara, Ph.D., M.P.H.  <br /> 240-276-6748   <br /> <a href="mailto:seminard@mail.nih.gov" target="_top">seminard@mail.nih.gov</a><br /></td>
           </tr>
         </table>
         </div>
@@ -611,14 +582,6 @@ $(function() {
             <th style="width:18%;">Expiration Date</th>
             <th style="width:18%;">Program Contact</th>
           </tr>
-    <tr style="vertical-align:top;">
-      <td>Behavioral Interventions to Address Multiple Chronic Health Conditions    in Primary Care</td>
-      <td><a href="http://grants.nih.gov/grants/guide/pa-files/PA-12-024.html">PA-12-024</a> (R01)</td>
-      <td>January 8, 2014</td>
-      <td><a href="http://staffprofiles.cancer.gov/brp/prgmStaffProfile.do?contactId=1470&amp;bioType=stf">Veronica    Chollette</a>, RN, MS <br />
-        240-276-6969<br />
-        <a href="mailto:cholletv@mail.nih.gov">cholletv@mail.nih.gov</a></td>
-    </tr>
     <tr style="vertical-align:top;">
       <td>The Effect of Racial and Ethnic Discrimination/Bias on Health Care    Delivery</td>
       <td><a href="http://grants.nih.gov/grants/guide/pa-files/PA-11-162.html">PA-11-162</a> (R01)<br />
@@ -853,6 +816,33 @@ $(function() {
     <script src="js/bootstrap.min.js"></script>
 
     <script>
+// This adds 'placeholder' to the items listed in the jQuery .support object. 
+jQuery(function() {
+   jQuery.support.placeholder = false;
+   test = document.createElement('input');
+   if('placeholder' in test) jQuery.support.placeholder = true;
+});
+// This adds placeholder support to browsers that wouldn't otherwise support it. 
+$(function() {
+   if(!$.support.placeholder) { 
+      var active = document.activeElement;
+      $(':text').focus(function () {
+         if ($(this).attr('placeholder') != '' && $(this).val() == $(this).attr('placeholder')) {
+            $(this).val('').removeClass('hasPlaceholder');
+         }
+      }).blur(function () {
+         if ($(this).attr('placeholder') != '' && ($(this).val() == '' || $(this).val() == $(this).attr('placeholder'))) {
+            $(this).val($(this).attr('placeholder')).addClass('hasPlaceholder');
+         }
+      });
+      $(':text').blur();
+      $(active).focus();
+      $('form:eq(0)').submit(function () {
+         $(':text.hasPlaceholder').val('');
+      });
+   }
+});
+
 	jQuery('ul.nav li.dropdown').hover(function() {
   jQuery(this).find('.dropdown-menu').stop(true, true).delay(100).fadeIn();
 }, function() {

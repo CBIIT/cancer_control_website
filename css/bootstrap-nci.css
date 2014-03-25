@@ -76,13 +76,6 @@ max-width: 1008px;
   font-weight:bold;
 }
 
-.dropdown-menu > li > a:hover,
-.dropdown-menu > li > a:focus,
-.dropdown-submenu:hover > a,
-.dropdown-submenu:focus > a {
-  color: #ffffff;
-}
-
 .navbar-inverse .nav li.dropdown > .hover-link .caret {
   border-top-color: #096598;
   border-bottom-color: #096598;
@@ -356,7 +349,11 @@ h2 {
 }
 
 #header-search label {
-	display:none;
+    display: none;
+}
+
+.nav {
+    margin-bottom: 0px;
 }
 
 @media (max-width: 767px) {

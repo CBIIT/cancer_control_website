@@ -9,7 +9,7 @@ html, body, div, span, applet, object, iframe, h1, h2, h3, h4, h5, h6, p, blockq
 
 footer {
   background-color: #ecf5fb;
-  margin:-20px;
+  margin: 0 -20px;
   padding:10px;
 }
 
@@ -144,11 +144,6 @@ p, td, blockquote, sub, sup, a {
 	color: #096598;
 }
 
-#main-container .navbar .nav li a:hover {
-	background-color: #096598;
-	color: #FFFFFF
-}
-
 #main-container .navbar .nav li.twitter-header a:hover {
                 background: url("../images/footer-twitter.png") no-repeat scroll 5px 9px #096598;
     color: #FFFFFF;
@@ -182,10 +177,7 @@ p, td, blockquote, sub, sup, a {
 }	
 
 .tab-content .tab-pane {
-	border-right: 1px solid #DDDDDD;
-	border-bottom: 1px solid #DDDDDD;
-	border-left: 1px solid #DDDDDD;
-	padding: 20px;
+	padding: 0 20px 20px;
 	line-height: 1.5;
 }
 

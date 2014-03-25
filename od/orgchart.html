@@ -15,34 +15,7 @@
     <!-- InstanceBeginEditable name="metatags" -->
     <meta name="description" content="This page provides the Division of Cancer Control and Population Sciences organization chart." />
 	<!-- InstanceEndEditable -->
-	<script>
-// This adds 'placeholder' to the items listed in the jQuery .support object. 
-jQuery(function() {
-   jQuery.support.placeholder = false;
-   test = document.createElement('input');
-   if('placeholder' in test) jQuery.support.placeholder = true;
-});
-// This adds placeholder support to browsers that wouldn't otherwise support it. 
-$(function() {
-   if(!$.support.placeholder) { 
-      var active = document.activeElement;
-      $(':text').focus(function () {
-         if ($(this).attr('placeholder') != '' && $(this).val() == $(this).attr('placeholder')) {
-            $(this).val('').removeClass('hasPlaceholder');
-         }
-      }).blur(function () {
-         if ($(this).attr('placeholder') != '' && ($(this).val() == '' || $(this).val() == $(this).attr('placeholder'))) {
-            $(this).val($(this).attr('placeholder')).addClass('hasPlaceholder');
-         }
-      });
-      $(':text').blur();
-      $(active).focus();
-      $('form:eq(0)').submit(function () {
-         $(':text.hasPlaceholder').val('');
-      });
-   }
-});
-</script>
+	
     <!-- Le styles -->
     <link href="../css/style.css" rel="stylesheet">
     <link href="../css/bootstrap.css" rel="stylesheet">
@@ -150,7 +123,7 @@ $(function() {
                 </ul>
                 </li>
                  <li class="dropdown">
-                  <a href="/research-emphasis/index.html" class="hover-link">Cross-Cutting Areas</a>
+                  <a href="/research-emphasis/index.html" class="hover-link">Cross-Cutting Areas <b class="caret"></b></a>
                   <ul class="dropdown-menu">
                   <li><a href="/research-emphasis/energy-balance.html">Energy Balance</a></li>
                   <li><a href="/research-emphasis/health-disparities.html">Health Disparities</a></li>
@@ -203,34 +176,34 @@ $(function() {
            		  <!-- InstanceBeginEditable name="Main Content" -->
                 <div class="span12 listimage">
                   <h1>DCCPS Organization</h1>
-                  <img src="../images/bb_org-sm.jpg" alt="Orgchart" width="877" height="472" border="0" usemap="#map3" style="100%" />
+                  <img src="../images/bb_org-sm.jpg" alt="Orgchart" width="877" height="472" border="0" usemap="#map3" />
                   <map name="map3">
-        <area shape="rect" coords="243,373,434,426" href="#" alt="Science of Research &amp; Techonology Branch - Dr. William Riley">
-        <area shape="rect" coords="544,13,702,66" href="#" alt="Deputy Director for Implementation Science - Dr. Cynthia Vinson (Acting)">
-        <area shape="rect" coords="685,294,900,347" href="#" alt="Statistical Research Branch &amp; Applications - Dr. Eric Feuer">
-        <area shape="rect" coords="471,161,652,214" href="#" alt="Tobacco Control Research Branch - Dr. Andrew Feedman">
-        <area shape="rect" coords="685,228,939,280" href="#" alt="Data Modeling - Dr. Angela Mariotto">
-        <area shape="rect" coords="14,294,206,347" href="sks.html" alt="Risk Factor Monitoring &amp; Methods Branch - Dr. Susan Krebs-Smith">
-        <area shape="rect" coords="243,429,435,481" href="#"  alt="Tobacco Control Research Branch - Dr. Michele Bloch (Acting)" >
-        <area shape="rect" coords="243,206,435,259" href="#" alt="Health Behaviors Research Branch - Dr. Linda Nebeling">
-        <area shape="rect" coords="243,261,435,315" href="#" alt="Health Communication &amp; Informatics Research Branch - Dr. Bradford Hesse">
-        <area shape="rect" coords="471,228,652,280" href="#" alt="Host Susceptibility Branch - Dr. Elizabeth Gillanders">
-        <area shape="rect" coords="685,161,927,215" href="#" alt="Data Analysis &amp; Interpretation - Dr. Kathleen Cronin">
-        <area shape="rect" coords="14,228,206,281" href="#" alt="Outcomes Research Branch - Dr. Neeraj Arora" >
-        <area shape="rect" coords="243,150,435,203" href="#" alt="Basic Behavioral &amp; Research Branch - Dr. Paige McDonald" >
-        <area shape="rect" coords="471,361,652,414" href="#" alt="Modifiable Risk Factors Branch - Dr. Britt Reid">
-        <area shape="rect" coords="686,361,879,414" href="#" alt="Surveillance Systems - Dr. Zaria Tatalovich (Acting)">
-        <area shape="rect" coords="14,160,206,213" href="#" alt="Health Services &#38; Economics Branch - Dr. Ann Geiger">
-        <area shape="rect" coords="243,318,435,371" href="#" alt="Applied Cancer Screening Research Branch - Dr. Stephen Taplin">
-        <area shape="rect" coords="471,295,652,346" href="#" alt="Methods and Technologies Branch - Dr. Mukesh Verma">
-        <area shape="rect" coords="685,93,930,146" href="#"  alt="Surveillance Research Program - Dr. Lynn Penberthy">
-        <area shape="rect" coords="16,93,206,148" href="view_arp.html"  alt="Applied Research Branch - Dr. Rachel Ballard-Barbash">
-        <area shape="rect" coords="242,94,435,147" href="view_sbs.html" alt="Behavioral Research Program - Dr. William Klein">
-        <area shape="rect" coords="472,94,652,148" href="#" alt="Epidemiology &amp; Genomics Research Program - Dr. Muin J. Khoury">
-      <area shape="rect" coords="716,13,875,66" href="#" alt="Senior Advisor for Cancer Surveillance - Dr. Brenda Edwards">
+        <area shape="rect" coords="243,373,434,426" href="http://cancercontrol.cancer.gov/brp/srtb/" alt="Science of Research &amp; Techonology Branch - Dr. William Riley">
+        <area shape="rect" coords="544,13,702,66" href="http://cancercontrol.cancer.gov/is/" alt="Deputy Director for Implementation Science - Dr. Cynthia Vinson (Acting)">
+        <area shape="rect" coords="685,294,900,347" href="http://surveillance.cancer.gov/branches/smab/" alt="Statistical Methodology and Applications - Dr. Eric Feuer">
+        <area shape="rect" coords="471,161,652,214" href="http://epi.grants.cancer.gov/cteb/" alt="Clinical and Translational Epidemiology Branch - Dr. Andrew Feedman">
+        <area shape="rect" coords="685,228,939,280" href="http://surveillance.cancer.gov/branches/dmb/" alt="Data Modeling - Dr. Angela Mariotto">
+        <area shape="rect" coords="14,294,206,347" href="http://appliedresearch.cancer.gov/about/rfmmb/" alt="Risk Factor Monitoring &amp; Methods Branch - Dr. Susan Krebs-Smith">
+        <area shape="rect" coords="243,429,435,481" href="http://cancercontrol.cancer.gov/brp/tcrb/"  alt="Tobacco Control Research Branch - Dr. Michele Bloch (Acting)" >
+        <area shape="rect" coords="243,206,435,259" href="http://cancercontrol.cancer.gov/brp/hbrb/index.html" alt="Health Behaviors Research Branch - Dr. Linda Nebeling">
+        <area shape="rect" coords="243,261,435,315" href="http://cancercontrol.cancer.gov/brp/hcirb/" alt="Health Communication &amp; Informatics Research Branch - Dr. Bradford Hesse">
+        <area shape="rect" coords="471,228,652,280" href="http://epi.grants.cancer.gov/hsfb/" alt="Host Susceptibility Branch - Dr. Elizabeth Gillanders">
+        <area shape="rect" coords="685,161,927,215" href="http://surveillance.cancer.gov/branches/daib/" alt="Data Analysis &amp; Interpretation - Dr. Kathleen Cronin">
+        <area shape="rect" coords="14,228,206,281" href="http://appliedresearch.cancer.gov/about/orb/" alt="Outcomes Research Branch - Dr. Neeraj Arora" >
+        <area shape="rect" coords="243,150,435,203" href="http://cancercontrol.cancer.gov/brp/bbpsb/index.html" alt="Basic Behavioral &amp; Research Branch - Dr. Paige McDonald" >
+        <area shape="rect" coords="471,361,652,414" href="http://epi.grants.cancer.gov/mrfb/" alt="Modifiable Risk Factors Branch - Dr. Britt Reid">
+        <area shape="rect" coords="686,361,879,414" href="http://surveillance.cancer.gov/branches/ssb/" alt="Surveillance Systems - Dr. Zaria Tatalovich (Acting)">
+        <area shape="rect" coords="14,160,206,213" href="http://appliedresearch.cancer.gov/about/hseb/" alt="Health Services &#38; Economics Branch - Dr. Ann Geiger">
+        <area shape="rect" coords="243,318,435,371" href="http://cancercontrol.cancer.gov/brp/pcrb/index.html" alt="Process of Care Research - Dr. Stephen Taplin">
+        <area shape="rect" coords="471,295,652,346" href="http://epi.grants.cancer.gov/mtb/" alt="Methods and Technologies Branch - Dr. Mukesh Verma">
+        <area shape="rect" coords="685,93,930,146" href="http://surveillance.cancer.gov/"  alt="Surveillance Research Program - Dr. Lynn Penberthy">
+        <area shape="rect" coords="16,93,206,148" href="http://appliedresearch.cancer.gov/"  alt="Applied Research Branch - Dr. Rachel Ballard-Barbash">
+        <area shape="rect" coords="242,94,435,147" href="http://cancercontrol.cancer.gov/brp/" alt="Behavioral Research Program - Dr. William Klein">
+        <area shape="rect" coords="472,94,652,148" href="http://epi.grants.cancer.gov/" alt="Epidemiology &amp; Genomics Research Program - Dr. Muin J. Khoury">
+      <area shape="rect" coords="716,13,875,66" href="bke.html" alt="Senior Advisor for Cancer Surveillance - Dr. Brenda Edwards">
       <area shape="rect" coords="386,13,531,66" href="dep_director_dw.html" alt="Deputy Director Dr. Deborah M. Winn">
       <area shape="rect" coords="197,2,371,66" href="view_rtc.html" alt="Officer of the Director Dr. Robert T Croyle, Director">
-      <area shape="rect" coords="13,13,183,66" href="view_ocs.html" alt="Office of Cancer Survivorship - Dr. Julia H. Rowland, Director"></map>
+      <area shape="rect" coords="13,13,183,66" href="http://cancercontrol.cancer.gov/ocs/" alt="Office of Cancer Survivorship - Dr. Julia H. Rowland, Director"></map>
                   <a style="float:right;" href="/od/bb-org.html">Larger View</a>
                 </div>
                 <!--/span-->
@@ -304,7 +277,7 @@ $(function() {
           </div>
            </div>
        <div class="last-updated">
-       <p class="center"><strong>Last Updated: <!-- InstanceBeginEditable name="Last Updated" -->February 6, 2014<!-- InstanceEndEditable --></strong></p>
+       <p class="center"><strong>Last Updated: <!-- InstanceBeginEditable name="Last Updated" -->March 24, 2014<!-- InstanceEndEditable --></strong></p>
        <a href="http://www.cancer.gov/global/contact" class="help-image"><img class="footer-help" src="/images/footer-help-logo.png" alt="help-logo" /></a><p class="can-numb"><strong>1-800-4-CANCER <br /> (1-800-422-6237)</strong></p>
        </div>
        </div><!--/row-->
@@ -344,7 +317,61 @@ $(function() {
     <script src="../js/jquery-1.10.1.min.js"></script>
     <script src="../js/bootstrap.min.js"></script>
     <script src="../js/respond.min.js"></script>
-<script>
+    <script type="text/javascript" src="../js/responsive-tables.js"></script>
+    
+    <script>
+// This adds 'placeholder' to the items listed in the jQuery .support object. 
+jQuery(function() {
+   jQuery.support.placeholder = false;
+   test = document.createElement('input');
+   if('placeholder' in test) jQuery.support.placeholder = true;
+});
+// This adds placeholder support to browsers that wouldn't otherwise support it. 
+$(function() {
+   if(!$.support.placeholder) { 
+      var active = document.activeElement;
+      $(':text').focus(function () {
+         if ($(this).attr('placeholder') != '' && $(this).val() == $(this).attr('placeholder')) {
+            $(this).val('').removeClass('hasPlaceholder');
+         }
+      }).blur(function () {
+         if ($(this).attr('placeholder') != '' && ($(this).val() == '' || $(this).val() == $(this).attr('placeholder'))) {
+            $(this).val($(this).attr('placeholder')).addClass('hasPlaceholder');
+         }
+      });
+      $(':text').blur();
+      $(active).focus();
+      $('form:eq(0)').submit(function () {
+         $(':text.hasPlaceholder').val('');
+      });
+   }
+});
+
+	jQuery('ul.nav li.dropdown').hover(function() {
+  jQuery(this).find('.dropdown-menu').stop(true, true).delay(100).fadeIn();
+}, function() {
+  jQuery(this).find('.dropdown-menu').stop(true, true).delay(100).fadeOut();
+});
+
+$(window).resize(function() {
+    if ($(window).width() < 776) {
+        $("#sidebar").insertAfter($("#content"));
+    } else {
+        $("#sidebar").prepend($("#containingrow"));
+    }
+});
+
+$(document).ready(function(){
+    if ( $(window).width() < 768 ) {
+        $("#sidebar").insertAfter($("#content"));
+    }
+});
+	</script>
+    
+
+<script type="text/javascript" src="/JS/Omniture/WA_DCCPS_PageLoad.js"></script>
+
+    <script>
   (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
   (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
   m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
@@ -354,24 +381,14 @@ $(function() {
   ga('send', 'pageview');
 
 </script>
-<script type="text/javascript" src="/JS/Omniture/WA_DCCPS_PageLoad.js"></script>
-
+    
+    <!-- InstanceBeginEditable name="Scripts" -->
+	<script src="../js/jquery.rwdImageMaps.min.js"></script>
     <script>
-	jQuery('ul.nav li.dropdown').hover(function() {
-  jQuery(this).find('.dropdown-menu').stop(true, true).delay(100).fadeIn();
-}, function() {
-  jQuery(this).find('.dropdown-menu').stop(true, true).delay(100).fadeOut();
-});
-
-$(window).resize(function () {
-    if ($(window).width() < 776) {
-        $("#sidebar").insertAfter($("#content"));
-    } else {
-        $("#sidebar").prepend($("#containingrow"));
-    }
-});
+    $(document).ready(function(e) {
+        $('img[usemap]').rwdImageMaps();
+    });
 	</script>
-    <script type="text/javascript" src="../js/responsive-tables.js"></script>
-    <!-- InstanceBeginEditable name="Scripts" --><!-- InstanceEndEditable -->
+	<!-- InstanceEndEditable -->
   </body>
 <!-- InstanceEnd --></html>

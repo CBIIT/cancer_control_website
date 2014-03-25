@@ -15,34 +15,6 @@
     <!-- InstanceBeginEditable name="metatags" -->
     <meta name="description" content="The Surveillance, Epidemiology, and End Results (SEER) Program of the National Cancer Institute works to provide information on cancer statistics in an effort to reduce the burden of cancer among the U.S. population." />
 	<!-- InstanceEndEditable -->
-	<script>
-// This adds 'placeholder' to the items listed in the jQuery .support object. 
-jQuery(function() {
-   jQuery.support.placeholder = false;
-   test = document.createElement('input');
-   if('placeholder' in test) jQuery.support.placeholder = true;
-});
-// This adds placeholder support to browsers that wouldn't otherwise support it. 
-$(function() {
-   if(!$.support.placeholder) { 
-      var active = document.activeElement;
-      $(':text').focus(function () {
-         if ($(this).attr('placeholder') != '' && $(this).val() == $(this).attr('placeholder')) {
-            $(this).val('').removeClass('hasPlaceholder');
-         }
-      }).blur(function () {
-         if ($(this).attr('placeholder') != '' && ($(this).val() == '' || $(this).val() == $(this).attr('placeholder'))) {
-            $(this).val($(this).attr('placeholder')).addClass('hasPlaceholder');
-         }
-      });
-      $(':text').blur();
-      $(active).focus();
-      $('form:eq(0)').submit(function () {
-         $(':text.hasPlaceholder').val('');
-      });
-   }
-});
-</script>
     <!-- Le styles -->
     <link href="css/style.css" rel="stylesheet">
     <link href="css/bootstrap.css" rel="stylesheet">
@@ -149,7 +121,7 @@ $(function() {
                 </ul>
                 </li>
                  <li class="dropdown">
-                  <a href="/research-emphasis/index.html" class="hover-link">Cross-Cutting Areas</a>
+                  <a href="/research-emphasis/index.html" class="hover-link">Cross-Cutting Areas <b class="caret"></b></a>
                   <ul class="dropdown-menu">
                   <li><a href="/research-emphasis/energy-balance.html">Energy Balance</a></li>
                   <li><a href="/research-emphasis/health-disparities.html">Health Disparities</a></li>
@@ -331,6 +303,35 @@ $(function() {
     <!-- javascript -->
     <script src="js/jquery-1.10.1.min.js"></script>
     <script src="js/bootstrap.min.js"></script>
+    
+    <script>
+// This adds 'placeholder' to the items listed in the jQuery .support object. 
+jQuery(function() {
+   jQuery.support.placeholder = false;
+   test = document.createElement('input');
+   if('placeholder' in test) jQuery.support.placeholder = true;
+});
+// This adds placeholder support to browsers that wouldn't otherwise support it. 
+$(function() {
+   if(!$.support.placeholder) { 
+      var active = document.activeElement;
+      $(':text').focus(function () {
+         if ($(this).attr('placeholder') != '' && $(this).val() == $(this).attr('placeholder')) {
+            $(this).val('').removeClass('hasPlaceholder');
+         }
+      }).blur(function () {
+         if ($(this).attr('placeholder') != '' && ($(this).val() == '' || $(this).val() == $(this).attr('placeholder'))) {
+            $(this).val($(this).attr('placeholder')).addClass('hasPlaceholder');
+         }
+      });
+      $(':text').blur();
+      $(active).focus();
+      $('form:eq(0)').submit(function () {
+         $(':text.hasPlaceholder').val('');
+      });
+   }
+});
+</script>
 
     <script>
 	jQuery('ul.nav li.dropdown').hover(function() {
@@ -339,11 +340,17 @@ $(function() {
   jQuery(this).find('.dropdown-menu').stop(true, true).delay(100).fadeOut();
 });
 
-$(window).resize(function () {
+$(window).resize(function() {
     if ($(window).width() < 776) {
         $("#sidebar").insertAfter($("#content"));
     } else {
         $("#sidebar").prepend($("#containingrow"));
+    }
+});
+
+$(document).ready(function(){
+    if ( $(window).width() < 768 ) {
+        $("#sidebar").insertAfter($("#content"));
     }
 });
 	</script>
