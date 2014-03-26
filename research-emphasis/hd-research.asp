@@ -122,11 +122,12 @@
                 </ul>
                 </li>
                  <li class="dropdown active">
-                  <a href="/research-emphasis/index.html" class="hover-link">Cross-Cutting Areas <b class="caret"></b></a>
+                  <a href="/research-emphasis/index.html" class="hover-link">Cross-cutting Areas <b class="caret"></b></a>
                   <ul class="dropdown-menu">
                   <li><a href="/research-emphasis/energy-balance.html">Energy Balance</a></li>
                   <li><a href="/research-emphasis/health-disparities.html">Health Disparities</a></li>
-                  <li><a href="/research-emphasis/quality-of-care.html">Quality of Care</a></li>
+                  <li><a href="/research-emphasis/quality-of-care.html">Patient-centered Communication and Care Coordination</a></li>
+                  <li><a href="/research-emphasis/patterns-of-care.html">Patterns of Care </a></li>
                   </ul>
                 </li>
                 <li class="dropdown">
@@ -150,7 +151,8 @@
                 <ul class="nav nav-list">
                   <li class="nav-header"><a href="/research-emphasis/energy-balance.html">Energy Balance</a></li>
                   <li class="nav-header"><a href="/research-emphasis/health-disparities.html">Health Disparities</a></li>
-                  <li class="nav-header"><a href="/research-emphasis/quality-of-care.html">Quality of Care</a></li>
+                  <li class="nav-header"><a href="/research-emphasis/quality-of-care.html">Patient-centered Communication and Care Coordination</a></li>
+                  <li class="nav-header"><a href="/research-emphasis/patterns-of-care.html">Patterns of Care</a></li>
                 </ul>
               </div>
               <!--/.well -->
@@ -244,10 +246,11 @@
               <p><a href="/cr-dataset.html">DCCPS Public Data Sets and Analyses</a></p>
              </div><!--/span-->
              <div class="span6">
-             <p class="footer-header"><a href="/research-emphasis/index.html">Cross-Cutting Areas</a></p>
+             <p class="footer-header"><a href="/research-emphasis/index.html">Cross-cutting Areas</a></p>
 <p><a href="/research-emphasis/energy-balance.html">Energy Balance</a></p>
 <p><a href="/research-emphasis/health-disparities.html">Health Disparities</a></p>
-<p><a href="/research-emphasis/quality-of-care.html">Quality of Care</a>            </p>
+<p><a href="/research-emphasis/quality-of-care.html">Patient-centered Communication and Care Coordination</a></p>
+<p><a href="/research-emphasis/patterns-of-care.html">Patterns of Care</a></p>
             </div>
              <!--/span-->
           </div>
