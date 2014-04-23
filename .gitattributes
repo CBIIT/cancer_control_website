@@ -33,14 +33,6 @@ DCCPSGrants/star_r01_criteria.html -text
 DCCPSGrants/utility.asp -text
 DCCPSGrants/validationInstructions.asp -text
 DECC/index.html -text
-DECC/riskcommbib/coding.html -text
-DECC/riskcommbib/help.html -text
-DECC/riskcommbib/index.html -text
-DECC/riskcommbib/instructions.txt -text
-DECC/riskcommbib/intro.html -text
-DECC/riskcommbib/riskcom_feedback.html -text
-DECC/riskcommbib/riskcombib.doc -text
-DECC/riskcommbib/riskcombib_update_june03.doc -text
 /DI-PAR-Orientation-Web-Posting-082806.pdf -text svneol=unset#unset
 /FLVPlayer_Progressive.swf -text
 /Halo_Skin_3.swf -text
@@ -297,7 +289,6 @@ brp/bbpsb/cognitive-changes/in-utero.html -text
 brp/bbpsb/cognitive-changes/index.html -text
 brp/bbpsb/cognitive-changes/perception.html -text
 brp/bbpsb/complex.html -text
-brp/bbpsb/decision_research.html -text
 brp/bbpsb/distress.html -text
 brp/bbpsb/docs/10-1962.pdf -text
 brp/bbpsb/docs/11-1936.pdf -text svneol=unset#unset
@@ -1174,10 +1165,6 @@ brp/tcrb/documents/menthol_bibliography_508.pdf -text svneol=unset#unset
 brp/tcrb/eliminating_tobacco_hd.pdf -text
 brp/tcrb/fahq.html -text
 brp/tcrb/guide_measures.html -text
-brp/tcrb/hd_funding_mechanisms.html -text
-brp/tcrb/hd_grants.html -text
-brp/tcrb/hd_links_resources.html -text
-brp/tcrb/hd_reports_pubs.html -text
 brp/tcrb/hisp_biblio.pdf -text svneol=unset#unset
 brp/tcrb/honc.html -text
 brp/tcrb/images/button_sfw_145x52.jpg -text
