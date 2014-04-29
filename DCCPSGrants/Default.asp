@@ -17,7 +17,7 @@
 		%> 
 
 		<div id="pageDescription">
-DCCPS currently funds <%=numGrants %> grants valued at <%=FormatCurrency(amtAwarded, 0) %>. The researchers funded by DCCPS have advanced the science to improve public health and we celebrate their accomplishments. Click on the links below to learn more about the accomplishments and service of some of our grantees.
+***DCCPS currently funds <%=numGrants %> grants valued at <%=FormatCurrency(amtAwarded, 0) %>. The researchers funded by DCCPS have advanced the science to improve public health and we celebrate their accomplishments. Click on the links below to learn more about the accomplishments and service of some of our grantees.
 		</div>
 		</td>
 	</tr>
