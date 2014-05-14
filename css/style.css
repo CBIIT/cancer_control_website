@@ -434,6 +434,19 @@ td.continuum {
       padding-left:14px;
       color:#696559;
     }
+	
+.minibanner-gray {  background: #707070; height:61px; }
+.minibanner-gray ul li.nci a {  display: block;  height: 40px;  text-indent: -3000px; }
+.minibanner-gray ul li.nih a {  display: block;  height: 40px;  text-indent: -3000px; }
+.minibanner-gray ul li.cancergov a {  display: block;  height: 40px;  text-indent: -3000px; } 
+.minibanner-gray ul {  height: 40px;  margin: 0 auto;  padding: 0;  overflow: hidden; }
+.minibanner-gray li {  list-style: none; }
+.minibanner-gray li.nci {  width: 258px;  height: 40px;  float: left; } 
+.minibanner-gray li.nci {  background: url(http://www.cancer.gov/PublishedContent/images/images/minibanner/minibanner-gray-nci.gif) no-repeat; margin-left: 10px; margin-top: 5px; }
+.minibanner-gray li.nih {  width: 203px;  height: 40px;  float: right; }
+.minibanner-gray li.nih {  background: url(http://www.cancer.gov/PublishedContent/images/images/minibanner/minibanner-gray-nih.gif) no-repeat; } 
+.minibanner-gray li.cancergov {  width: 102px;  height: 40px;  float: right; }
+.minibanner-gray li.cancergov {  background: url(http://www.cancer.gov/PublishedContent/images/images/minibanner/minibanner-gray-cancergov.gif) no-repeat; margin-right: 5px; } }
 
 @media (max-width: 320px) {
   body #main-container #header-search {
