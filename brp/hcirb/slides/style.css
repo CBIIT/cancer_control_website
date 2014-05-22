@@ -2,7 +2,8 @@
 
 #slideshow-container{
 	width:520px;
-	height: 237px;
+	/*height: 237px;*/
+	height:200px;
 	position: relative;
 	border:2px solid #00427f;
 }
