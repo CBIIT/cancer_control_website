@@ -995,3 +995,53 @@ z-index:100;
 text-align:right;
 margin-bottom:25px;
 }
+
+#column-mid1.science-news {
+	width: 760px;
+}
+
+#column-mid1.science-news img {
+	/*padding:10px;*/
+}
+
+#column-mid1.science-news h1 {
+	color:#A90101;
+}
+
+#column-mid1.science-news h1 span {
+	padding:10px;
+	color:#000;
+}
+#column-right1-science-news {
+	float: left;
+	width: 200px;
+	margin: 20px 0 20px 20px;
+	font-size: 90%;
+}
+
+#column-right1-science-news .d-head {
+	background: url("../images/arrow-blue.gif") no-repeat scroll 0 11px transparent;
+	padding-left: 20px;
+	border:none;
+	color:#A90101;
+}
+
+#column-right1-science-news .d-case2 {
+	border:none;
+}
+
+#column-right1-science-news .comments {
+	background-color:#f2dbdb;
+	padding:10px;
+}
+
+#column-right1-science-news .additional-text {
+	padding:10px;
+}
+
+#column-right1-science-news ul.itemsList li {
+	border-bottom:solid thin #000;
+	padding-bottom: 10px;
+	background: url("../images/tiny-arrow.gif") no-repeat scroll 0 0 transparent;
+	padding-left:5px;
+}

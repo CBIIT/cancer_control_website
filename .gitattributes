@@ -589,6 +589,15 @@ brp/docs/TTURCResearchSurvey.pdf -text svneol=unset#unset
 brp/docs/gem-factsheet.pdf -text
 brp/docs/santafe_workshop_summaries.pdf -text
 brp/docs/vaccination_meta-analysis_5.0.pdf -text
+brp/e-newsletter/archive.html -text
+brp/e-newsletter/images/GIS.jpg -text
+brp/e-newsletter/images/Michele-Bloch.jpg -text
+brp/e-newsletter/images/catherine-alfano.jpg -text
+brp/e-newsletter/images/david-ahern.jpg -text
+brp/e-newsletter/images/william-klein.jpg -text
+brp/e-newsletter/may-2014.html -text
+brp/e-newsletter/subscribe.html -text
+brp/e-newsletter/thank-you.html -text
 brp/eli.html -text
 brp/eli_background.html -text
 brp/fab/docs/FAB_Codebook_v8.pdf -text
