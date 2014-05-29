@@ -48,7 +48,7 @@
     <div id="header">
     <div class="minibanner-gray"> <ul> <li class="nci"><a href="http://www.cancer.gov">National Cancer Institute</a></li> <li class="cancergov"><a href="http://www.cancer.gov">www.cancer.gov</a></li> <li class="nih"><a href="http://www.nih.gov">at the National Institutes of Health</a></li> </ul> </div>
     <div id="cancercontrol-banner">
-    	<a href="http://cancercontrol.cancer.gov/"><span>Cancer Control and Population Sciences: NCI's Bridge to Public Health Research, Practice, and Policy</span></a>
+    	<a href="/ocs"><span>Cancer Control and Population Sciences: NCI's Bridge to Public Health Research, Practice, and Policy</span></a>
     </div>
   </div>
   <div id="header-search">
