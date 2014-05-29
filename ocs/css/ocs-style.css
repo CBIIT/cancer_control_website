@@ -1,0 +1,198 @@
+#header {
+    height: 157px;
+}
+
+#header #cancercontrol-banner {
+	background: url("../images/dccps_ocs_banner.png") no-repeat scroll center top #04859D;	
+	height:96px;
+}
+
+#header #cancercontrol-banner a {
+	display: block;
+	height:96px;
+	width: 100%;
+}
+
+#header #cancercontrol-banner a > span {
+	display: none;
+}
+
+.navbar .nav > li > a {
+    min-height: 40px;
+	padding: 12px 60px;
+	text-align: center;
+}
+.accordion {
+	margin-top: 20px;
+}
+.accordion-group {
+	border: none;
+	margin-bottom: 8px;
+}
+.accordion-heading {
+	border: 1px solid #E5E5E5;
+}
+.accordion-group .accordion-heading a {
+	padding-left: 30px;
+	background: url(../../images/blueminus.png) no-repeat left center;
+	margin-left: 10px;
+	font-weight: bold;
+}
+.accordion-group .accordion-heading a.collapsed {
+	padding-left: 30px;
+	background: url(../../images/blueplus.png) no-repeat left center;
+	margin-left: 10px;
+	color: #696559;
+}
+.advocates li {
+	margin-bottom: 15px;
+}
+.telepic span {
+	width: 75px;
+	float: left;
+	margin-bottom: 30px;
+}
+.teletext {
+	margin-left: 95px;
+	margin-top: -10px;
+}
+.navbar-inverse .nav > li > a {
+	color: #04859D;
+}
+#main-container .navbar .nav li a:hover {
+	background-color: #04859D;
+}
+
+#main-container .navbar-inverse .nav li.dropdown > .hover-link .caret {
+	border-bottom-color: #04859D;
+    border-top-color: #04859D;
+}
+
+#main-container .navbar .nav li a:hover,
+.navbar-inverse .nav .active > a,
+.navbar-inverse .nav .active > a:hover,
+.navbar-inverse .nav .active > a:focus {
+	background-color: #04859D;
+    background-image: linear-gradient(to bottom, #333333, #04859D);
+	color: #FFFFFF;
+}
+
+.dropdown-menu > li > a:hover,
+.dropdown-menu > li > a:focus,
+.dropdown-submenu:hover > a,
+.dropdown-submenu:focus > a {
+  color: #FFFFFF;
+  background-image: -moz-linear-gradient(top, #333333, #04859D);
+  background-image: -webkit-gradient(linear, 0 0, 0 100%, from(#333333), to(#04859D));
+  background-image: -webkit-linear-gradient(top, #333333, #04859D);
+  background-image: -o-linear-gradient(top, #333333, #04859D);
+  background-image: linear-gradient(to bottom, #333333, #04859D);
+  background-repeat: repeat-x;
+  filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#ff333333', endColorstr='#ff6C3A77', GradientType=0);
+}
+
+.nav .dropdown-menu > li > a {
+	color: #04859D;
+}
+
+.nav .dropdown li a:hover {
+	background-color: #04859D;
+}
+.subsection a {
+	color: #696559;
+}
+.navbar-inverse .nav-collapse .dropdown-menu a {
+	color: #04859D;
+}
+.navbar-inverse .btn-navbar, .navbar-inverse .btn-navbar:hover, .navbar-inverse .btn-navbar:focus {
+	background-color: #04859D;
+	background-image: linear-gradient(to bottom, #04859D, #04859D);
+	border-color: #04859D;
+}
+#header-search label {
+	display: block;
+}
+.listimage .bi2004 {
+	padding-left: 0;
+	line-height: 1.2
+}
+#content h1, #content h2 {
+	color: #04859D;
+}
+#content h2 a {
+	font-size: 22.5px;
+}
+#main-container .breadcrumb li.active {
+	background-color: #04859D;
+}
+.breadcrumb li.active div.divider {
+	background: url(../../images/breadcrumb-divider-ocs.png) no-repeat scroll; 
+}
+.breadcrumb li div.divider {
+	background: url(../../images/breadcrumb-divider-parents-ocs.png) no-repeat scroll;
+}
+.breadcrumb a {
+	color: #04859D;
+}
+.span9 .breadcrumb li, .span12 .breadcrumb li {
+	background: none repeat scroll 0 0 #abcfd5;
+}
+.sidebar-nav .nav-list .nav-header a {
+	color: #696559;
+}
+#content .listimage ul li {
+	list-style-image: url(../../images/tiny-arrow-ocs.png);
+}
+@media (max-width: 580px) {
+body #main-container #header-search {
+  	top: 167px;
+  }
+}
+
+@media (max-width: 400px) {
+body #main-container #header-search {
+  	top: 102px;
+  }
+#main-container #header {
+  	height: 113px;
+}
+
+}
+
+@media (min-width: 768px) and (max-width: 979px) {
+	
+#header {
+    height: 177px;
+}
+}
+
+@media (max-width: 767px) {
+  #header {
+    height: 177px;
+  }
+  .navbar-inverse .nav-collapse .nav > li > a {
+    color: #04859D;
+  }
+
+  #header #cancercontrol-banner {
+    background: url("../images/dccps_ocs_banner-sml.png") no-repeat #04859D;
+    height:62px;
+  }
+  
+  #main-container #header-search {
+    top: 75px;
+  }
+}
+
+@media (max-width: 979px) {
+  #header #cancercontrol-banner {
+    background: url("../images/dccps_ocs_banner-sml.png") no-repeat #04859D; 
+    height:120px;
+  }
+}
+
+@media (max-width: 1199px) {
+	#main-container .navbar .nav li a {
+		padding: 12px 38px;
+	}
+}

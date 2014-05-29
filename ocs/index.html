@@ -1,252 +1,383 @@
-<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
-<html xmlns="http://www.w3.org/1999/xhtml">
-<head>
-  <!-- meta tags-->
-  <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
-  <!--external style sheets-->
-  <link href="../style.css" type="text/css" rel="stylesheet" />
-<title>DCCPS: OCS</title>
-  <script type="text/javascript">
-function MM_swapImgRestore() { //v3.0
-  var i,x,a=document.MM_sr; for(i=0;a&&i<a.length&&(x=a[i])&&x.oSrc;i++) x.src=x.oSrc;
-}
-  </script>
-</head>
-<body>
-<div id="skipmenu">
-<a href="#skip" class="skippy">Skip Navigation</a>
-<a name="top"></a>
-</div> <!-- end skipmenu -->
-<div id="wrapper">
-  <!-- NCI Banner -->
-  <div id="head-row1">
-  <img src="../images/dccps-banner2.gif" alt="National Cancer Institute" width="1000" height="40" usemap="#Map" />
-  </div>
-  <!-- end of NCI Banner -->
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+<meta http-equiv="content-type" content="text/html; charset=UTF-8">
+    <meta charset="utf-8">
+    <title>National Cancer Institute - Cancer Control and Population Sciences</title>
+            <link rel="icon" 
+      type="image/jpeg" 
+      href="/images/favicon.ico">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="keywords" content="nci, dccps, Cancer Control and Population Sciences, cancer">
+    <meta name="author" content="">
+    <meta name="description" content="" />
+	<script>
+// This adds 'placeholder' to the items listed in the jQuery .support object. 
+jQuery(function() {
+   jQuery.support.placeholder = false;
+   test = document.createElement('input');
+   if('placeholder' in test) jQuery.support.placeholder = true;
+});
+// This adds placeholder support to browsers that wouldn't otherwise support it. 
+$(function() {
+   if(!$.support.placeholder) { 
+      var active = document.activeElement;
+      $(':text').focus(function () {
+         if ($(this).attr('placeholder') != '' && $(this).val() == $(this).attr('placeholder')) {
+            $(this).val('').removeClass('hasPlaceholder');
+         }
+      }).blur(function () {
+         if ($(this).attr('placeholder') != '' && ($(this).val() == '' || $(this).val() == $(this).attr('placeholder'))) {
+            $(this).val($(this).attr('placeholder')).addClass('hasPlaceholder');
+         }
+      });
+      $(':text').blur();
+      $(active).focus();
+      $('form:eq(0)').submit(function () {
+         $(':text.hasPlaceholder').val('');
+      });
+   }
+});
+</script>
+    <!-- Le styles -->
+    <link href="../css/style.css" rel="stylesheet">
+    <link href="../css/bootstrap.css" rel="stylesheet">
+    <link href="../css/bootstrap-responsive.css" rel="stylesheet">
+    <link href="../css/bootstrap-nci.css" rel="stylesheet">
+    <link href="css/ocs-homepage.css" rel="stylesheet">
+    <link href="css/ocs-style.css" rel="stylesheet">
 
-  <!-- DCCPS Banner / Search Field -->
-  <div id="head-row2">
-    <div id="left2"><img src="../images/ocs_banner.jpg" alt="Cancer Survivorship Research - Cancer Control and Population Sciences" width="730" height="70" /></div>
-	<div id="ocsright2">
-	  <div id="ocsnorth">
-		<a href="http://twitter.com/NCICancerCtrl" title="Twitter">Twitter<img src="../images/twitter-icon.png" title="Twitter" alt="Twitter" width="20" height="20" /></a><a href="../exit_disclaimer.html"><img src="../images/Icon_External_Link.png" width="12" height="12" alt="exit disclaimer" /></a> <a href="../cr-communication-videos.html" title="Multimedia">Multimedia<img src="../images/media-icon.gif" title="Multimedia" alt="Multimedia" width="20" height="20" /></a>
-	  </div>
-	  <form method="get" action="http://search2.google.cit.nih.gov/search" name="search">
-	  <input type="hidden" name="site" value="DCCPS" />
-	  <input type="hidden" name="client" value="DCCPS_frontend" />
-	  <input type="hidden" name="proxystylesheet" value="DCCPS_frontend" />
-	  <input type="hidden" name="output" value="xml_no_dtd" />
-	  <input type="hidden" name="filter" value="0" />
-	  <input type="hidden" name="getfields" value="*" />
-	  <label for="searchbox"><input id="searchbox" type="text" name="q" size="15" maxlength="255" class="htextf" value="Search" /></label>
-	  <input type="image" src="../images/hbutton.gif"  class="hbutton" name="btnG" id="btnG" alt="Search" />
-	  </form><br class="clearfloat" />
-	  </div><br class="clearfloat" />
+    <!-- HTML5 shim, for IE6-8 support of HTML5 elements -->
+    <!--[if lt IE 9]>
+      <script>document.createElement('footer');</script>
+      <script src="/js/html5shiv.js"></script>
+    <![endif]-->
+
+    <!-- Fav and touch icons -->
+    <link rel="apple-touch-icon-precomposed" sizes="144x144" href="http://twitter.github.io/bootstrap/assets/ico/apple-touch-icon-144-precomposed.png">
+    <link rel="apple-touch-icon-precomposed" sizes="114x114" href="http://twitter.github.io/bootstrap/assets/ico/apple-touch-icon-114-precomposed.png">
+      <link rel="apple-touch-icon-precomposed" sizes="72x72" href="http://twitter.github.io/bootstrap/assets/ico/apple-touch-icon-72-precomposed.png">
+                    <link rel="apple-touch-icon-precomposed" href="http://twitter.github.io/bootstrap/assets/ico/apple-touch-icon-57-precomposed.png">
+                                   <link rel="shortcut icon" href="http://twitter.github.io/bootstrap/assets/ico/favicon.png">
+  <style type="text/css" id="holderjs-style">.holderjs-fluid {font-size:16px;font-weight:bold;text-align:center;font-family:sans-serif;margin:0}</style>
+  </head>
+
+  <body>
+  	<div id="skipmenu">
+	<a href="#skip" class="skippy">Skip Navigation</a>
+	<a id="top"></a>
+	</div> <!-- end skipmenu -->
+	<div id="main-container">
+    <div id="header">
+    <div class="minibanner-gray"> <ul> <li class="nci"><a href="http://www.cancer.gov">National Cancer Institute</a></li> <li class="cancergov"><a href="http://www.cancer.gov">www.cancer.gov</a></li> <li class="nih"><a href="http://www.nih.gov">at the National Institutes of Health</a></li> </ul> </div>
+    <div id="cancercontrol-banner">
+    	<a href="http://cancercontrol.cancer.gov/"><span>Cancer Control and Population Sciences: NCI's Bridge to Public Health Research, Practice, and Policy</span></a>
+    </div>
+  </div>
+  <div id="header-search">
+		<form method="get" action="http://search2.google.cit.nih.gov/search" name="search">
+  	  <input type="hidden" name="site" value="DCCPS" />
+  	  <input type="hidden" name="client" value="DCCPS_frontend" />
+  	  <input type="hidden" name="proxystylesheet" value="DCCPS_frontend" />
+  	  <input type="hidden" name="output" value="xml_no_dtd" />
+      <input type="hidden" name="filter" value="0" />
+  	  <input type="hidden" name="getfields" value="*" />
+  	  <label for="searchbox">
+        <input id="searchbox" type="text" name="q" size="15" maxlength="255" class="htextf" placeholder="Search" />
+      </label>
+  	  <input type="image" src="../images/hbutton-new.gif"  class="hbutton" name="btnG" id="btnG" alt="Search" />
+  	</form>
 	</div>
-	<!-- End of DCCPS Banner / Search Field -->
-	
-    <!-- Main Content -->
-	<div id="mainarea">
-    <!-- Left Column // DCCPS Link / Need Help Banner -->
-	<div id="column-left1">
-  	  <div id="dccps-link"><a href="../index.html">Cancer Control &amp; Population Sciences Home</a></div>
-      
-      <p><a href="../funding_apply.html#ocs" target="_blank"><img src="images/funding_opps.gif" width="196" height="96" alt="Funding Opportunities" /></a></p>
-      
-      <p><a href="http://supportorgs.cancer.gov/home.aspx?js=1" target="_blank"><img src="images/support.jpg" width="200" height="100" alt="Support for Survivors and Families" /></a></p>
-      
-      <p><a href="https://pubs.cancer.gov/ncipl/home.aspx?js=1" target="_blank"><img src="images/publications.gif" width="200" height="100" alt="Order/Download Free Publications" /></a></p>
-      
-      <p><img src="images/Survivorship_Spotlight.gif" alt="Survivorship in the Spotlight" width="200" height="100" border="0" usemap="#Map2" /></p>
-      
-      <p><a href="http://www.cancer.gov/help"><img src="../images/help-tile.jpg" alt="Need Help? Contact us by phone (1-800-422-6237), Web, or e-mail" /></a></p>
-    </div>
-    <!-- End of Left Column // DCCPS Link / Need Help Banner -->
-    
-    <!-- Center Column // Content / Links to subpages -->
-    <div id="column-mid1">
-    	<a name="skip"></a>
-      <div class="content">
-      <h1 style="color:#0073bb; text-align:center;">The Office of Cancer Survivorship is dedicated to enhancing the length and quality of life of survivors and addressing their<br />
-	  unique needs.</h1>
-      <div style="float:left; width:270px;">
-        <p align="center"><img src="../images/ocs_flower.gif" width="189" height="100" alt="flower"/></p>
-  	  	<ul class="mlist1">
-	    <li>
-	      <ul>	        
-	        <li class="mlink1"><a href="office-survivorship.html">Office of Cancer Survivorship</a></li>
-            <li><a href="about.html">About Us</a></li>
-  		    <li><a href="history.html">Office History</a></li> 
-  		    <li><a href="staff.html">Staff List</a></li> 
-  		    <li><a href="factsheets.html">Fact Sheets</a></li>
-  		    <li><a href="feedback.html">Contact Us</a></li> 
-	      </ul>
-	    </li>
-	    <li>
-	      <ul>
-		  <li class="mlink1"><a href="about-survivorship.html">About Cancer Survivorship</a></li>
-           <li><a href="definitions.html">Definitions</a></li> 
-		  <li><a href="prevalence/index.html">Survivorship-Related Statistics<br />
-          and Graphs</a></li> 
-		  </ul>
-	    </li>
-	    <li>
-	    <ul>
-		  <li class="mlink1"><a href="research-survivorship.html">Cancer Survivorship Research</a></li>
-           <li><a href="funding_history.html">Funding History</a></li> 
-           <li><a href="http://maps.cancer.gov/overview/DCCPSGrants/grantlist.jsp?method=dynamic&amp;program=ocs">Active Research Grant Portfolio</a></li> 
-           <li><a href="http://maps.cancer.gov/overview/DCCPSGrants/grantlist.jsp?method=dynamic&amp;status=archive&amp;program=ocs">Previously Funded Grants</a></li> 
-           <!--<li><a href="key.html">Key Initiatives</a></li> --> 
-           <li><a href="../funding_apply.html#ocs">Funding Opportunities</a></li> 
-	    </ul>
-	    </li>
-	    <li>
-	    <ul>
-		  <li class="mlink1"><a href="research_tools.html">Research Tools</a></li>
-          <li><a href="http://ccss.stjude.org/">Childhood Cancer Survivor Study Public Access Data Tables</a></li>  
-          <!--<li><a href="focus.html">Follow-up Care Use Among Survivors (FOCUS) Survey</a></li> 
-          <li><a href="http://outcomes.cancer.gov/surveys/aya/">Adolescent & Young Adult Health Outcomes & Patient Experience Study</a></li>  -->
-          <li><a href="http://healthservices.cancer.gov/surveys/sparccs/">Survey of Physician Attitudes Regarding the Care of Cancer Survivors (SPARCCS)</a></li> 
-          <li><a href="research_tools.html">More Research Tools</a></li> 
-    </ul>
-    </li>
-  </ul></div>
-	   <div style="float:left; width:270px;">
-<ul class="mlist1">
-	    <li>
-	    <ul>
-		  <li class="mlink1"><a href="conf-meetings.html">Conferences and Meetings</a></li>
-           <li><a href="conf-meetings.html">Upcoming Meetings</a></li> 
-           <li><a href="past_meetings.html">Meetings Archive</a></li> 
-	    </ul>
-	    </li>
-	    <li>
-	      <ul>
-		  <li class="mlink1"><a href="info-resources.html">Key Survivorship Publications</a></li>
-           <li><a href="ocs_cancer_bulletin.html">Survivorship Highlights in NCI Cancer Bulletin</a></li> 
-           <li><a href="reports.html">Reports</a></li>
-		  </ul>
-	    </li>
-	    <li>
-	    <ul>
-		  <li class="mlink1"><a href="resources.html">Information for Survivors/Caregivers/ Advocates</a></li>
-           <li><a href="ff_series.html">Facing Forward Series</a></li>
-          <li><a href="follow.html">Follow-Up Medical Care after Treatment</a></li> 
-          <li><a href="late_effects.html">Possible Late Effects of Treatment</a></li> 
-          <li><a href="health.html">Health &amp; Well-Being After Treatment</a></li>  
-          <li><a href="resources.html">More Information for Survivors/Caregivers/ Advocates</a></li>
-	    </ul></li>
-        <li>
-	    <ul>
-		  <li class="mlink1"><a href="resources-physicians.html">Resources for Health Care Professionals</a></li>
-          <li><a href="clin_practice.html">Clinical Practice Follow-Up Guidelines</a></li> 
-          <li><a href="resource-pdq.html">PDQ Cancer Information Summaries: Supportive Care</a></li> 
-          <li><a href="resources-treatment.html">Treatment and Late-Term Effects</a></li> 
-	    </ul>
-	    </li>
-	  </ul>
-      </div>
-      </div>
-    </div>
-    <!-- End of Center Column // Content / Links to subpages -->
- <!-- Right Column // Whats's New -->
-    <div id="column-right1">
-      <div class="d-head">What's New</div>
-        <div class="d-case2">
-        <ul class="slist2">
-          <li><strong>NEW! -  <a href="http://www.cancer.org/subsites/survivorship2014/">7th Biennial Cancer Survivorship Research Conference</a></strong><a href="http://www.cancer.org/subsites/survivorship2014/"><br />
-          <strong><em>Advancing  Survivorship Care through Multilevel Collaborations</em></strong></a> <a href="../exit_disclaimer.html"><img src="../images/Icon_External_Link.png" alt="Exit Disclaimer" width="12" height="12" border="0" /></a><br />
-        June  18-20, 2014<br />
-        Atlanta, Georgia</li>
-          <li><a href="http://jco.ascopubs.org/content/early/2013/04/22/JCO.2012.46.2101.full.pdf+html"><strong>Receipt of Psychosocial Care among Cancer Survivors in the United States</strong>, <em>Journal of Clinical Oncology</em></a> <a href="../exit_disclaimer.html"><img src="../images/Icon_External_Link.png" alt="Exit Disclaimer" width="12" height="12" border="0" /></a></li>
-          <li><a href="http://www.ncbi.nlm.nih.gov/pubmed/?term=Cancer+Survivors+in+the+United+States%3A+Prevalence+across+the+Survivorship+Trajectory+and+Implications+for+Care"><strong>Cancer Survivors in the United States: Prevalence across the Survivorship Trajectory and Implications for Care</strong>. <em>Cancer Epidemiology, Biomarkers &amp; Prevention</em></a></li>
-          <li><a href="http://www.cancer.gov/newscenter/pressreleases/2012/survivorship2012">Cancer   Survivorship Conference Highlights Research for Survivor Care</a></li>
-          <li><a href="http://ecancer.org/tv/conference/140/1333">Dr Julia Rowland Discusses the   Developing Field of Cancer Survivorship</a> <a href="../exit_disclaimer.html"><img src="../images/Icon_External_Link.png" alt="Exit Disclaimer" width="12" height="12" border="0" /></a></li>
-        </ul></div>
+      <!-- NAVBAR
+    ================================================== -->
+
+
+        <div class="navbar navbar-inverse">
+          <div class="navbar-inner">
+            <!-- Responsive Navbar Part 1: Button for triggering responsive navbar (not covered in tutorial). Include responsive CSS to utilize. -->
+            <button type="button" class="btn btn-navbar" data-toggle="collapse" data-target=".nav-collapse">
+              <span class="icon-bar"></span>
+              <span class="icon-bar"></span>
+              <span class="icon-bar"></span>
+            </button>
+            <div class="nav-collapse collapse">
+              <ul class="nav">
+                <li class="active"><a href="/ocs/index.html">OCS <br>
+                Home</a></li>
+<li class="dropdown">
+                  <a href="/ocs/about/index.html" class="hover-link">About Cancer <br>
+                  Survivorship <b class="caret"></b></a>
+                  <ul class="dropdown-menu">
+                  <li><a href="/ocs/about/director-page.html">Director's Page</a></li>
+                  <li><a href="/ocs/about/mission.html">Mission</a></li>
+                  <li><a href="/ocs/about/staff.html">Expertise in Cancer <br>
+Survivorship Research</a></li>
+                  <li><a href="/ocs/about/contact.html">Contact Us</a></li>
+                </ul>
+                </li>
+                <li class="dropdown">
+                  <a href="/ocs/resources/index.html" class="hover-link">Resources and <br>
+                  Information <b class="caret"></b></a>
+                  <ul class="dropdown-menu">
+                  <li><a href="/ocs/resources/survivors.html">For Survivors and Caregivers</a></li>
+                  <li><a href="/ocs/resources/researchers.html">For Researchers</a></li>
+                  <li><a href="/ocs/resources/healthcare.html">For Health Care Professionals</a></li>
+                  <li><a href="/ocs/resources/advocates.html">For Advocates</a></li>
+                </ul>
+                </li>
+                <li class="dropdown">
+                  <a href="/ocs/statistics/index.html" class="hover-link">Definitions, Statistics <br>
+                  and Graphs <b class="caret"></b></a>
+                  <ul class="dropdown-menu">
+                  <li><a href="/ocs/statistics/definitions.html">Definitions</a></li>
+                  <li><a href="/ocs/statistics/statistics.html">Statistics</a></li>
+                  <li><a href="/ocs/statistics/graphs.html">Graphs</a></li>
+                </ul>
+                </li>
+                <li class="dropdown">
+                  <a href="/ocs/funding/index.html" class="hover-link">Funding History and <br>
+                  Opportunities <b class="caret"></b></a>
+                  <ul class="dropdown-menu">
+                  <li><a href="/funding_apply.html#ocs">Current Survivorship Funding <br>
+Opportunities at NCI</a></li>
+                  <li><a href="http://maps.cancer.gov/overview/DCCPSGrants/grantlist.jsp?method=dynamic&program=ocs">Active Grant Portfolio</a></li>
+                  <li><a href="http://maps.cancer.gov/overview/index.jsp?fy=&mt=&divisionId=1&view=&branchId=&programId=6">Funding History and Trends</a></li>
+                </ul>
+                </li>
+              </ul>
+            </div><!--/.nav-collapse -->
+          </div><!-- /.navbar-inner -->
+        </div><!-- /.navbar -->
+        <a id="skip"></a>
         
-        <!--<div class="d-head">Shortcuts</div>
-        <div class="d-case2">
-        <ul class="slist2">
-          <li><a href="https://pubs.cancer.gov/ncipl/home.aspx?js=1">Order/Download Free NCI   Publications</a></li>        
-          <li><a href="../funding_apply.html">Funding Opportunities</a>        
-          <li><a href="http://maps.cancer.gov/overview/DCCPSGrants/grantlist.jsp?method=dynamic&amp;program=ocs">Active Research Portfolio</a></li>
-        </ul></div> -->
-        <br class="clearfloat" />
-      </div><br class="clearfloat" />
-      <!-- End of Right Column // Whats's New -->
+    <!-- Carousel -->
+    
+    <div class="row-fluid">
+    <div class="span9">
+	<div id="myCarousel" class="carousel slide">
+      <div class="carousel-inner">
+        <div class="item active">
+          <img class="splash" src="Images/carousel/banner-audience.jpg" alt="OCS Provides Resources and Information to Many Different Audiences">
+          <div class="container">
+            <div class="carousel-caption slide1">
+                  <a class="btn btn-info slide1a" href="/ocs/resources/index.html">Learn More</a>
+            </div>
+          </div>
+        </div>
+        <div class="item">
+          <img class="splash" src="Images/carousel/banner-fastfacts2.jpg" alt="Fast Facts">
+          <div class="container">
+            <div class="carousel-caption slide2">
+                  <a class="btn btn-info slide2a" href="/ocs/statistics/statistics.html">Learn More</a>
+            </div>
+          </div>
+        </div>
+        <div class="item">
+          <img class="splash" src="Images/carousel/banner-fastfacts1.jpg" alt="Fast Facts">
+          <div class="container">
+            <div class="carousel-caption slide3">
+                  <a class="btn btn-info slide3a" href="/ocs/statistics/statistics.html">Learn More</a>
+            </div>
+          </div>
+        </div>
+                <div class="item">
+          <img class="splash" src="Images/carousel/banner-fastfacts3.jpg" alt="Fast Facts">
+          <div class="container">
+            <div class="carousel-caption slide4">
+                  <a class="btn btn-info slide4a" href="/ocs/statistics/statistics.html">Learn More</a>
+            </div>
+          </div>
+        </div>
+                <div class="item">
+          <img class="splash" src="Images/carousel/banner-definition.jpg" alt="Definition of Cancer Survivor">
+                    <div class="container">
+            <div class="carousel-caption slide5">
+                  <a class="btn btn-info slide5a" href="/ocs/statistics/definitions.html">Learn More</a>
+            </div>
+          </div>
+
+        </div>
+      </div>
+      <a class="left carousel-control" href="#myCarousel" data-slide="prev"><img src="/images/slider-left-arrow.png" alt="left control" /></a>
+      <a class="right carousel-control" href="#myCarousel" data-slide="next"><img src="/images/slider-right-arrow.png" alt="right control" /></a>
+      <div id="carouselButtons">
+        <button id="playButton" class="btn btn-default btn-xs" type="button">
+        <span class="glyphicon icon-play"></span>
+        </button>
+        <button id="pauseButton" class="btn btn-default btn-xs" type="button">
+        <span class="glyphicon icon-pause"></span>
+        </button>
+        </div>
+    </div><!-- /.carousel -->
+    </div><!-- .span9 -->
+    
+    <div class="span3">
+    	<div class="publications">
+        	<h2>News and Highlights</h2>
+             <p class="bb"><a class="document" href="http://www.cancer.org/subsites/survivorship2014/survivorship-2014">Save the Date: 2014 Biennial Cancer Survivorship Research Conference:</a> <a href="/exit_disclaimer.html"><img src="/images/Icon_External_Link.png" width="12" height="12" alt="exit disclaimer" /></a> Advancing Survivorship Care through Multilevel Collaboration June 18-20, in Atlanta, Georgia</p>
+             <p class="bb"><a class="document" href="/ocs/about/staff.html">NEW Interactive Graphic: Expertise in Cancer Survivorship Research</a></p>
+        </div>
     </div>
-    <!-- End of Main Content -->
-  
-    <!-- Last Update Field -->
-    <div class="update">Last Updated: December 20, 2013</div>
-    <!-- End of Last Update Field -->
-  
-    <!-- Footer -->
-    <div id="ocsfoot-row1">
-	<ul class="flist2">
-    <li><a href="/index.html">Site Home</a></li>
-    <li>|</li>
-    <li><a href="http://www.cancer.gov/global/contact">Contact Us</a></li>
-    <li>|</li>
-    <li><a href="http://www.cancer.gov/global/web/policies">Policies</a></li>
-    <li>|</li>
-    <li><a href="http://www.cancer.gov/global/web/policies/accessibility">Accessibility</a></li>
-    <li>|</li>
-    <li><a href="http://www.cancer.gov/global/viewing-files">Viewing Files</a></li>
-    <li>|</li>
-    <li><a href="http://www.cancer.gov/global/web/policies/foia">FOIA</a></li>
-    <li>|</li>
-	<li><a href="/help.html">Help</a></li>
-    <li>|</li>
-    <li><a href="/site-map.html">Site Map</a></li>
-  </ul>
-	<br />
+    </div><!-- row-fluid -->
+    <div class="row-fluid">
+    	<div class="span12 puds">
+        	<div class="content-bottom">
+            <div class="subsection">
+        		<div class="news bottom-border">Publications</div>
+                <div class="span6">
+                <div class="pub-row">
+                <img src="Images/ff-after.jpg">
+				<p><a href="http://www.cancer.gov/cancertopics/coping/life-after-treatment.pdf">Facing Forward: Life After Cancer Treatment</a> (August 2012)</p>
+                </div>
+                <div class="pub-row">
+                <img src="Images/ff-difference.jpg" />
+            	<p><a href="http://www.cancer.gov/cancertopics/facing-forward.pdf">Facing Forward: Making a Difference in Cancer</a> (September 2010)</p>
+                </div>
+                </div>
+                <div class="span6">
+                <div class="pub-row">
+                <img src="Images/ff-siga.jpg" />
+            	<p><a href="http://www.cancer.gov/espanol/cancer/sobrellevar/supervivencia/sigaadelante.pdf">Siga adelante: La vida después del tratamiento del cáncer</a> (December 2012)</p>
+                </div>
+                <div class="pub-row">
+                <img src="Images/ff-love.jpg" />
+            	<p><a href="http://www.cancer.gov/cancertopics/coping/someone-you-love-completed-cancer-treatment.pdf">Facing Forward: When Someone You Love Has Completed Cancer Treatment</a> (May 2010)</p>
+                </div>
+                </div>
+            </div>
+        	</div>
+        </div>
+    </div>
 
-	<ul class="flist2">
-    <li><a href="http://www.hhs.gov/">U.S. Department of Health and Human Services</a></li>
-    <li>|</li>
-  <li><a href="http://www.nih.gov/">National Institutes of Health</a></li>
-  <li>|</li>
-  <li><a href="http://www.cancer.gov/">National Cancer Institute</a></li>
-  <li>|</li>
-  <li><a href="http://www.usa.gov/">USA.gov</a></li>
-  </ul>
-  <div class="nih-tagline">NIH…Turning Discovery Into Health<sup>&#174;</sup></div>
-	</div>
-    <!-- End of Footer -->
-  </div>
+   <!-- Main content messaging and featurettes
+    ================================================== -->
+    <!-- Wrap the rest of the page in another container to center all the content. -->
 
-<!-- Image map for head-row1 -->
-<map name="Map" id="Map">
-  <area shape="rect" coords="12,3,294,38" href="http://www.cancer.gov/" alt="National Cancer Institute" />
-  <area shape="rect" coords="715,10,892,33" href="http://www.nih.gov" alt="U.S. National Institutes of Health" />
-  <area shape="rect" coords="893,10,988,33" href="http://www.cancer.gov/" alt="National Cancer Institute" />
-</map>
-<!-- End of Image map for head-row1 -->
+    <div class="container main-content">
 
-<!-- image map for survivor in the spotlight -->
-<map name="Map2" id="Map2">
-  <area shape="rect" coords="188,86,198,98" href="../exit_disclaimer.html" target="_blank" alt="External Link" />
-  <area shape="rect" coords="1,1,189,99" href="http://ecancer.org/tv/conference/140/1333" target="_blank" alt="Survivorship in the Spotlight" />
-</map>
-<!-- End image map for survivor in teh spotlight -->
+      <!-- Three columns of text below the carousel -->
+      <div class="row-fluid">
+      
+      </div>
+    </div>
 
-<!-- GA Code -->
-<script type="text/javascript">
 
-  var _gaq = _gaq || [];
-  _gaq.push(['_setAccount', 'UA-25589575-1']);
-  _gaq.push(['_trackPageview']);
 
-  (function() {
-    var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
-    ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
-    var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
-  })();
+      <!-- FOOTER -->
+      <footer>
+      	<div class="container-fluid">
+        	<div class="row-fluid bottom-border bottom-margin">
+            <div class="span6 topfoot">
+             <div class="row-fluid">
+             <div class="span6">
+             <p class="footer-header"><a href="/ocs/about/index.html">About Cancer Survivorship</a></p>
+                  <p><a href="/ocs/about/director-page.html">Director's Page</a></p>
+                  <p><a href="/ocs/about/mission.html">Mission</a></p>
+                  <p><a href="/ocs/about/staff.html">Expertise in Cancer <br>
+Survivorship Research</a></p>
+                  <p><a href="/ocs/about/contact.html">Contact Us</a></p>
+             </div><!--/span-->
+             <div class="span6">
+             	<p class="footer-header"><a href="/ocs/resources/index.html">Resources and Information</a></p>
+                  <p><a href="/ocs/resources/survivors.html">For Survivors and Caregivers</a></p>
+                  <p><a href="/ocs/resources/researchers.html">For Researchers</a></p>
+                  <p><a href="/ocs/resources/healthcare.html">For Health Care Professionals</a></p>
+                  <p><a href="/ocs/resources/advocates.html">For Advocates</a></p>
+             </div><!--/span-->
+             </div>
+       </div>
+       <div class="span6 bottomfoot">
+          <div class="row-fluid">
+             <div class="span6">
+		      <p class="footer-header"><a href="/ocs/statistics/index.html">Definitions, Statistics and Graphs</a></p>
+              <p><a href="/ocs/statistics/definitions.html">Definitions</a></p>
+              <p><a href="/ocs/statistics/statistics.html">Statistics</a></p>
+              <p><a href="/ocs/statistics/graphs.html">Graphs</a></p>
+             </div><!--/span-->
+             <div class="span6">
+             <p class="footer-header"><a href="/ocs/funding/index.html">Funding History and Opportunities</a></p>
+             <p><a href="/funding_apply.html#ocs">Current Survivorship Funding <br>
+Opportunities at NCI</a></p>
+<p><a href="http://maps.cancer.gov/overview/DCCPSGrants/grantlist.jsp?method=dynamic&program=ocs">Active Grant Portfolio</a></p>
+<p><a href="http://maps.cancer.gov/overview/index.jsp?fy=&mt=&divisionId=1&view=&branchId=&programId=6">Funding History and Trends</a></p>
+            </div><!--/span-->
+          </div>
+           </div>
+       <div class="last-updated">
+       <p class="center"><strong>Last Updated: March 14, 2014</strong></p>
+       <a href="http://www.cancer.gov/global/contact" class="help-image"><img class="footer-help" src="/images/footer-help-logo.png" alt="help-logo" /></a><p class="can-numb"><strong>1-800-4-CANCER <br /> (1-800-422-6237)</strong></p>
+       </div>
+       </div><!--/row-->
+          <div class="row-fluid">
+            <div class="span12 footer-box center">
+          	  <ul>
+                <li><a href="/index.html">Site Home</a></li>
+                <li>|</li>
+                <li><a href="http://www.cancer.gov/global/contact">Contact Us</a></li>
+                <li>|</li>
+                <li><a href="http://www.cancer.gov/global/web/policies">Policies</a></li>
+                <li>|</li>
+                <li><a href="http://www.cancer.gov/global/web/policies/accessibility">Accessibility</a></li>
+                <li>|</li>
+                <li><a href="http://www.cancer.gov/global/viewing-files">Viewing Files</a></li>
+                <li>|</li>
+                <li><a href="http://www.cancer.gov/global/web/policies/foia">FOIA</a></li>
+                <li>|</li>
+                <li><a href="/help.html">Help</a></li>
+              </ul>
+              <ul>
+                <li><a href="http://www.hhs.gov/">U.S. Department of Health and Human Services</a></li>
+                <li>|</li>
+                <li><a href="http://www.nih.gov/">National Institutes of Health</a></li>
+                <li>|</li>
+                <li><a href="http://www.cancer.gov/">National Cancer Institute</a></li>
+                <li>|</li>
+                <li><a href="http://www.usa.gov/">USA.gov</a></li>
+              </ul>
+            </div><!--/span-->
+            <p class="center">NIH...Turning Discovery Into Health <sup>&reg;</sup></p>
+          </div><!--/row-->
+        </div>
+      </footer>
+  	</div>
+    <!-- javascript -->
+    <script src="../js/jquery-1.10.1.min.js"></script>
+    <script src="../js/bootstrap.min.js"></script>
+    <script>
+      !function ($) {
+        $(function(){
+          // carousel demo
+          $('#myCarousel').carousel()
+        })
+      }(window.jQuery)
+	  $('#playButton').click(function () {
+    $('#myCarousel').carousel('cycle');
+});
+$('#pauseButton').click(function () {
+    $('#myCarousel').carousel('pause');
+});
+          $('#myCarousel').carousel({
+			  interval: 8000
+		  })
+    </script>
+    <script>
+	jQuery('ul.nav li.dropdown').hover(function() {
+  jQuery(this).find('.dropdown-menu').stop(true, true).delay(100).fadeIn();
+}, function() {
+  jQuery(this).find('.dropdown-menu').stop(true, true).delay(100).fadeOut();
+});
+	</script>
+    <script src="../js/respond.min.js"></script>
+<script>
+  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+  (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+  m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+  })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+
+  ga('create', 'UA-47020801-1', 'cancer.gov');
+  ga('send', 'pageview');
 
 </script>
-
-<!-- End of GA Code -->
 <script language="JavaScript" type="text/javascript" src="/JS/Omniture/WA_DCCPS_PageLoad.js"></script>
-</body>
+  </body>
 </html>

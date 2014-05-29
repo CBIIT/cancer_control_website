@@ -1,0 +1,10 @@
+#header { display:none; }
+#main-container #header-search { display:none; }
+.navbar { display:none; }
+#sidebar {display:none; }
+footer { display:none; }
+.breadcrumb { display:none; }
+
+.row-fluid .span9 { width:100% }
+#main-container { box-shadow:none; }
+

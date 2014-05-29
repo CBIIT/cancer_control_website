@@ -1,0 +1,422 @@
+
+    /* GLOBAL STYLES
+    -------------------------------------------------- */
+    /* Padding below the footer and lighter body text */
+
+    body {
+      padding-bottom: 40px;
+      color: #5a5a5a;
+    }
+
+    /* CUSTOMIZE THE CAROUSEL
+    -------------------------------------------------- */
+
+    /* Carousel base class */
+    .carousel {
+      margin-bottom: 60px;
+	  border: 1px solid #CCCCCC;
+    }
+
+    .carousel-caption {
+      width:100%;
+      margin-left:auto;
+      margin-right:auto;
+      padding-top:25px;
+      padding-bottom:25px;
+	  background: none;
+    }
+
+	.carousel-caption .btn {
+	  float: right;
+	  padding-top: 12px;
+	  padding-bottom: 12px;
+	  width: 120px;
+	  margin-right: 40px;
+	}
+
+    .carousel-caption p {
+      line-height: 30px;
+      padding-left:20px;
+    }
+
+    .carousel-control {
+      height: 80px;
+      margin-top: 0;
+      font-size: 120px;
+      text-shadow: 0 1px 1px rgba(0,0,0,.4);
+      background-color: transparent;
+      border: 0;
+      z-index: 10;
+    }
+
+    .carousel .item {
+      height: 410px;
+    }
+    .carousel img.splash{
+      position: absolute;
+      top: 0;
+      left: 0;
+      min-width: 100%;
+      height: 410px;
+    }
+	#carouselButtons {
+	  margin-left: 40px;
+	}
+
+	.navbar {
+	  margin-bottom:0;
+	}
+
+    /* MAIN CONTENT
+    -------------------------------------------------- */
+
+    #myCarousel {
+      margin: 10px -20px 0 0;
+    }
+	
+	.publications {
+		border: 1px solid #CCCCCC;
+    	padding: 0 10px;
+		margin-top: 10px;
+	}
+	
+	.publications h2 {
+		background-color: #04859D;
+    	color: #FFFFFF;
+    	font-family: Helvetica,Arial,"Lucida Grande",sans-serif;
+    	font-size: 1.4em;
+    	font-weight: 600;
+    	padding: 0 15px;
+		text-align: center;
+		line-height: 1.2;
+		padding: 10px 0;
+	}
+	
+	.publications p.bb {
+		padding: 0 5px 10px 5px;
+		border-bottom: 1px solid #CCCCCC;
+	}
+	
+	.publications p {
+		padding: 0 5px;
+	}
+	
+	.subsection img {
+		float: left;
+		clear: left;
+		width: 50px;
+		margin-bottom: 10px;
+	}
+	
+	.content-bottom .subsection a.document {
+		background-image: url(../../images/featured-icon.png);
+    	background-repeat: no-repeat;
+    	padding-left: 20px;
+	}
+	
+	.content-bottom .subsection a {
+		background-image: none;
+		padding: 0;
+	}
+	
+	.subsection .pub-row {
+		clear: left;
+		width: 70%;
+	}
+	
+	.news {
+    	color: #A90101;
+    	font-family: Helvetica,Arial,"Lucida Grande",sans-serif;
+    	font-size: 1.5em;
+		text-align: center;
+		padding-bottom: 10px;
+		margin-bottom: 20px;
+	}
+	
+	.subsection p {
+		padding-left: 70px;
+	}
+	
+	.content-bottom {
+		margin-top: 15px;
+	}
+	
+	.content-bottom .subsection .span6 {
+		width: 47%;
+	}
+	
+	.front-text {
+		color: #000000;
+		margin-top: 20px;
+	}
+	
+	.puds .content-bottom .subsection {
+		padding: 15px 15px 160px 15px;
+	}
+	
+    /* Featurettes
+    ------------------------- */
+
+    .featurette-divider {
+      /* margin: 80px 0;  Space out the Bootstrap <hr> more */
+    }
+    .featurette {
+      padding-top: 120px; /* Vertically center images part 1: add padding above and below text. */
+      overflow: hidden; /* Vertically center images part 2: clear their floats. */
+    }
+    .featurette-image {
+      margin-top: -120px; /* Vertically center images part 3: negative margin up the image the same amount of the padding to center it. */
+    }
+
+    /* Give some space on the sides of the floated elements so text doesn't run right into it. */
+    .featurette-image.pull-left {
+      margin-right: 40px;
+    }
+    .featurette-image.pull-right {
+      margin-left: 40px;
+    }
+
+    /* Thin out the main content headings */
+    .featurette-heading {
+      font-size: 50px;
+      font-weight: 300;
+      line-height: 1;
+      letter-spacing: -1px;
+    }
+	
+	.content-top {
+	    background-color: #ECECEC;
+    	border: 1px solid #CCCCCC;
+   		padding: 10px;
+	}
+	
+	.triple-back {
+	    background-color: #FFFFFF;
+   		border: 1px solid #CCCCCC;
+    	padding: 15px 15px 0 15px;
+	}
+	
+	[data-scribe="element:screen_name"] {
+		margin-right: 10px;
+	}
+	
+	.know {
+		clear: left;
+	}
+	
+
+
+    /* RESPONSIVE CSS
+    -------------------------------------------------- */
+
+    @media (max-width: 1200px) {
+	  .publications {
+		margin-left: 10px; 
+	  }
+	  .carousel img.splash, .carousel .item {
+		height: 380px; 
+	  }
+	}
+	
+	@media (max-width: 979px) {
+
+      .container.navbar-wrapper {
+        margin-bottom: 0;
+        width: auto;
+      }
+      .navbar-inner {
+        border-radius: 0;
+      }
+
+      .carousel .item {
+        height: 260px;
+      }
+      .carousel img.splash {
+        width: auto;
+        height: 260px;
+      }
+      .carousel-caption {
+        width:100%;
+      }
+	  
+	  .carousel-caption .btn {
+	  	float: right; 
+		margin-right: 40px;
+		padding-top: 8px;
+		padding-bottom: 8px;
+		width: 100px;
+	  }
+
+      .featurette {
+        height: auto;
+        padding: 0;
+      }
+      .featurette-image.pull-left,
+      .featurette-image.pull-right {
+        display: block;
+        float: none;
+        max-width: 40%;
+        margin: 0 auto 20px;
+      }
+	  .publications {
+		margin-left: 10px; 
+	  }
+	  .publications img {
+		display: none; 
+	  }
+	  .publications p {
+		padding-left: 0; 
+	  }
+	.puds .content-bottom .subsection {
+		padding-bottom: 180px;
+	}
+    }
+
+    @media (max-width: 767px) {
+	  #myCarousel {
+        margin: 10px 0 0 0;
+      }
+      .carousel {
+        
+      }
+      .carousel .container {
+
+      }
+      .carousel .item {
+        height: 330px;
+      }
+      .carousel img.splash {
+        height: 330px;
+      }
+      .carousel-caption {
+        width: 100%;
+      }
+      .carousel-caption p {
+        padding-left:0px;
+        padding-right:100px;
+      }
+      .carousel-caption h1 {
+        font-size: 30px;
+      }
+      .carousel-caption .lead,
+      .carousel-caption .btn {
+        font-size: 18px;
+      }
+      .carousel-control {
+        height: 80px;
+        padding-bottom:70px;
+        margin-top: -70px;
+        font-size: 120px;
+        text-shadow: 0 1px 1px rgba(0,0,0,.4);
+        background-color: transparent;
+        border: 0;
+        z-index: -10;
+      }
+	  .carousel-caption .btn {
+	  	float: right; 
+		padding-top: 8px;
+		padding-bottom: 8px;
+		width: 100px;
+	  }
+	  .carousel-caption .btn-info	{
+			background-color: #DCEBF8;
+			background-image: linear-gradient(to bottom, #DCEBF8, #F6FBFF);
+			background-repeat: repeat-x;
+			border-color: rgba(0, 0, 0, 0.1) rgba(0, 0, 0, 0.1) rgba(0, 0, 0, 0.25);
+			color: #096598;
+			font-size: 14px;
+			border-image: none;
+			border-radius: 4px;
+			border-style: solid;
+			border-width: 1px;
+			box-shadow: 0 1px 0 rgba(255, 255, 255, 0.2) inset, 0 1px 2px rgba(0, 0, 0, 0.05);	   
+			}
+		.btn-info:hover,
+		.btn-info:focus,
+		.btn-info:active,
+		.btn-info.active,
+		.btn-info.disabled,
+		.btn-info[disabled] {
+		  color: #096598;
+		  background-color: #ffffffs;
+		  *background-color: #dcebf8;
+		}
+			
+      .carousel .btn {
+        margin-bottom:10px;
+      }
+	  #carouselButtons {
+	  margin-left: 0px;
+	  }
+	  
+      .featurette-heading {
+        font-size: 30px;
+      }
+      .featurette .lead {
+        font-size: 18px;
+        line-height: 1.5;
+      }
+	  .publications {
+		margin-left: 0; 
+		padding-bottom: 10px;
+	  }
+	  .publications img {
+		display: block;
+	  }
+	  .publications p {
+		padding-left: 10px; 
+	  }
+	 .content-bottom .subsection .span6 {
+		width: 100%;
+	 }
+	.puds .content-bottom .subsection {
+		padding-bottom: 10px;
+	}
+    }
+	@media (max-width: 670px) {
+	  .carousel img.splash, .carousel .item {
+		height: 300px; 
+	  }
+	}
+	@media (max-width: 550px) {
+	  .carousel img.splash, .carousel .item {
+		height: 250px; 
+	  }
+	}
+	@media (max-width: 480px) {
+	  .carousel img.splash, .carousel .item {
+		height: 200px; 
+	  }
+  .carousel .carousel-caption {
+	position: relative;
+	top: 0;
+	right: 0;
+  }
+  .carousel .carousel-caption .btn {
+	position: absolute;
+	top: 160px;
+	right: 0;	
+	width: 70px;
+	padding-top: 6px;
+	padding-bottom: 6px;
+	font-size: 12px;
+	z-index: 999;  }
+	}
+	@media (max-width: 400px) {
+  .carousel .carousel-caption {
+	position: relative;
+	top: 0;
+	right: 0;
+  }
+  .carousel .carousel-caption .btn {
+	position: absolute;
+	top: 108px;
+	right: 0;	
+	width: 60px;
+	padding-top: 2px;
+	padding-bottom: 2px;
+	font-size: 10px;
+	display: block;
+	z-index: 999;
+  }
+	}	
