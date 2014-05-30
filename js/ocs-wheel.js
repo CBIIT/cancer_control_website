@@ -66,16 +66,16 @@ $(document).ready(function() {
 			moveLeft = -310,
 			moveDown = 50;
 		} else if (x === 'research-platforms') {
-			moveLeft = -50,
+			moveLeft = 50,
 			moveDown = -250;
 		} else if (x === 'disease-progression') {
 			moveLeft = -470,
 			moveDown = -135;
 		} else if (x === 'health-behaviors') {
-			moveLeft = -480,
+			moveLeft = -400,
 			moveDown = -50;
 		} else if (x === 'special-populations') {
-			moveLeft = 20,
+			moveLeft = 50,
 			moveDown = -50;
 		} else {
 			moveLeft = -140,
