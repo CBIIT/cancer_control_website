@@ -2108,6 +2108,8 @@ images/1800cancer.jpg -text
 images/2.jpg -text
 images/3.jpg -text
 images/4.jpg -text
+images/DCCPS-chart-june2014-800x600.jpg -text
+images/DCCPS-chart-june2014.jpg -text
 images/DCCPS-chart-may072014.jpg -text
 images/DI-GEM-Screenshot.jpg -text
 images/Excel.png -text
@@ -2307,6 +2309,7 @@ includefile/SQLInputCheck.asp -text
 includes/footer.html -text
 /index.html -text
 /info_past_meeting.html -text
+/infographics.html -text
 js/Omniture/WA_DCCPS_PageLoad.js -text
 js/Omniture/WA_DCCPS_post.js -text
 js/Omniture/WA_DCCPS_pre.js -text
