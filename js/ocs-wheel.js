@@ -69,10 +69,10 @@ $(document).ready(function() {
 			moveLeft = 50,
 			moveDown = -250;
 		} else if (x === 'disease-progression') {
-			moveLeft = -470,
+			moveLeft = -570,
 			moveDown = -135;
 		} else if (x === 'health-behaviors') {
-			moveLeft = -400,
+			moveLeft = -500,
 			moveDown = -50;
 		} else if (x === 'special-populations') {
 			moveLeft = 50,

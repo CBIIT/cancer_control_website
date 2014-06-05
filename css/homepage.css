@@ -98,6 +98,12 @@
    		padding: 10px;
 	}
 	
+	.content-end {
+	    background-color: #ECECEC;
+    	border: 1px solid #CCCCCC;
+   		padding: 10px;
+	}
+	
 	.triple-back {
 	    background-color: #FFFFFF;
    		border: 1px solid #CCCCCC;
@@ -207,9 +213,10 @@
     .research-header a,
     .funding-header a,
     .reports-header a,
-    .program-areas-header,
+    .program-areas-home-header,
     .research-emphasis-header,
-    .about-dccps-header {
+    .about-dccps-header,
+	.area-header {
       background-repeat: no-repeat;
       padding-top:10px;
       color: #a90101;
@@ -247,7 +254,7 @@
 	  display: inline-block;
     }
 
-    .program-areas-header {
+    .program-areas-home-header {
       background-image:url(../images/program-areas-header.png);
       background-position: 0px 7px;
       padding-left:25px;
@@ -265,6 +272,12 @@
       background-image:url(../images/about-dccps-header.png);
       background-position: 0px 7px;
       padding-left:25px;
+      padding-bottom:10px;
+    }
+	
+	.area-header {
+      background-position: 0px 7px;
+      padding-left:5px;
       padding-bottom:10px;
     }
 
@@ -308,12 +321,16 @@
 	}
 
     .content-bottom {
-	  margin-top: -20px;
+	  margin-top: -15px;
     }
 
     .margin-bottom {
       margin-bottom:10px;
     }
+	
+	.content-bottom .subsection {
+		padding:10px;
+	}
 
     @media (max-width: 767px) {
       .twitter {
@@ -371,7 +388,11 @@
 	  	margin-bottom: 10px;
 	  }
 	  .content-top {
-	    height: 890px;
+	    /*height: 830px;*/
+		margin-bottom: 30px;
+	  }
+	  .content-end {
+	    /*height: 635px;*/
 		margin-bottom: 30px;
 	  }
     }
@@ -423,11 +444,19 @@
         display:none;
       }
 	  .content-top {
-	    height: 570px;
+	    height: 470px;
+		margin-bottom: 30px;
+	  }
+	  .content-end {
+	    height: 400px;
 		margin-bottom: 30px;
 	  }
 	  .triple-back {
-		height:  570px;
+		height:  470px;
+	  }
+	  
+	  .content-end .triple-back {
+		height:  400px;
 	  }
 	.research-header a,
     .funding-header a,
@@ -494,11 +523,15 @@
         display:none;
       }
 	  .content-top {
-	    height: 460px;
+	    height: 380px;
+		margin-bottom: 30px;
+	  }
+	   {
+	    height: 380px;
 		margin-bottom: 30px;
 	  }
 	  .triple-back {
-		height:  460px;
+		height:  380px;
 	  }
     }
 
@@ -556,11 +589,18 @@
         display:none;
       }
 	  .content-top {
-		height: 370px; 
+		height: 330px; 
+		margin-bottom: 15px;
+	  }
+	  .content-end {
+		height: 300px; 
 		margin-bottom: 30px;
 	  }
 	  .triple-back {
-		height:  370px;
+		height:  330px;
+	  }
+	  .content-end .triple-back {
+		height:  300px;
 	  }
     }
 
