@@ -448,6 +448,70 @@ td.continuum {
 .minibanner-gray li.cancergov {  width: 102px;  height: 40px;  float: right; }
 .minibanner-gray li.cancergov {  background: url(http://www.cancer.gov/PublishedContent/images/images/minibanner/minibanner-gray-cancergov.gif) no-repeat; margin-right: 5px; } }
 
+
+#main-container #header-search input[type=button], input[type=submit] {
+	-webkit-border-radius: 0px;	
+	float: right;
+	height: 28px;
+	width: 9.6551724137931034482758620689655%;
+	/*background: #ffffff url('../img/magnify_glass.png') no-repeat center 4px;*/
+	padding: 0px;
+	margin: 0px;
+	border: 0px;
+	outline: 0px;
+	-webkit-border-radius:0px;
+}
+
+#main-container #header-search input[type=image] {
+  margin-left:-24px;
+  margin-top:16px;
+}
+
+      .sidebar-nav {
+        padding: 9px 0;
+      }
+
+    #content .popular-now-inner {
+      border: 1px #cccccc solid;
+      padding: 0px 10px;
+	  width:95%;
+	  float:right;
+	  margin-left:10px;
+	  margin-bottom:10px;
+    }
+
+    #content .popular-now-inner h2 {
+      background-color: #096598;
+      color:#ffffff;
+      padding:0px 15px;
+      font-size:1.4em;
+      font-family: Helvetica, Arial, "Lucida Grande", sans-serif;
+      font-weight: 600;
+    }
+
+    #content .popular-now-inner h3 {
+      color: #a90101;
+      font-size:1.3em;
+      font-family: Helvetica, Arial, "Lucida Grande", sans-serif;
+      font-weight: normal; }
+
+/* Header */
+#header {
+	height:135px;
+}
+#header #nci-banner {
+	background: url("../images/banner-nci.jpg") no-repeat scroll center top #A90101;	
+	height:61px;
+}
+#header #cancercontrol-banner {
+	background: url("../images/banner-cancercontrol.jpg") no-repeat scroll center top #096598;	
+	height:74px;
+}
+  #header #cancercontrol-banner a {
+    display: block;
+    width: 100%;
+}
+
 @media (max-width: 320px) {
   body #main-container #header-search {
   	right: -15px;
@@ -471,6 +535,9 @@ td.continuum {
 	width: 100%;
 	background-size: auto 52px;
   }
+  #header #cancercontrol-banner a {
+    height: 52px;
+}
   #main-container .carousel .item {
 	height: 140px;  
   }
@@ -536,66 +603,8 @@ td.continuum {
 	}
 }
 
-#main-container #header-search input[type=button], input[type=submit] {
-	-webkit-border-radius: 0px;	
-	float: right;
-	height: 28px;
-	width: 9.6551724137931034482758620689655%;
-	/*background: #ffffff url('../img/magnify_glass.png') no-repeat center 4px;*/
-	padding: 0px;
-	margin: 0px;
-	border: 0px;
-	outline: 0px;
-	-webkit-border-radius:0px;
-}
 
-#main-container #header-search input[type=image] {
-  margin-left:-24px;
-  margin-top:16px;
-}
-
-      .sidebar-nav {
-        padding: 9px 0;
-      }
-
-    #content .popular-now-inner {
-      border: 1px #cccccc solid;
-      padding: 0px 10px;
-	  width:95%;
-	  float:right;
-	  margin-left:10px;
-	  margin-bottom:10px;
-    }
-
-    #content .popular-now-inner h2 {
-      background-color: #096598;
-      color:#ffffff;
-      padding:0px 15px;
-      font-size:1.4em;
-      font-family: Helvetica, Arial, "Lucida Grande", sans-serif;
-      font-weight: 600;
-    }
-
-    #content .popular-now-inner h3 {
-      color: #a90101;
-      font-size:1.3em;
-      font-family: Helvetica, Arial, "Lucida Grande", sans-serif;
-      font-weight: normal; }
-
-/* Header */
-#header {
-	height:135px;
-}
-#header #nci-banner {
-	background: url("../images/banner-nci.jpg") no-repeat scroll center top #A90101;	
-	height:61px;
-}
-#header #cancercontrol-banner {
-	background: url("../images/banner-cancercontrol.jpg") no-repeat scroll center top #096598;	
-	height:74px;
-}
-
-@media (max-width: 767px) {
+@media (max-width: 768px) {
   #main-container #header-search {
     top: 130px;
   }
@@ -673,6 +682,9 @@ td.continuum {
   #main-container footer .span6 .top-span {
      margin-bottom: 0;
   }
+  #header #cancercontrol-banner a {
+    height: 74px;
+  }
 }
 
 @media (min-width: 600px) and (max-width: 767px) {
@@ -687,7 +699,7 @@ td.continuum {
    }
 }
 
-@media (min-width: 767px) and (max-width: 979px) {
+@media (min-width: 768px) and (max-width: 979px) {
 	.span3 .popular-now h2 {
 		font-size: 1.3em;
 	}
@@ -719,11 +731,6 @@ td.continuum {
 #header #nci-banner a {
 	display: block;
 	height:61px;
-	width: 100%;
-}
-#header #cancercontrol-banner a {
-	display: block;
-	height:74px;
 	width: 100%;
 }
 
@@ -841,6 +848,9 @@ div#skipmenu a.skippy:active, div#skipmenu a.skippy:focus, div#skipmenu a.skippy
 	}
 	#main-container #header-search input[type=image] {
       margin-top:8px;
+    }
+	#header #cancercontrol-banner a {
+   		height: 74px;
     }
 }
 

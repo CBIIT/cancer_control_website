@@ -9,7 +9,6 @@
 
 #header #cancercontrol-banner a {
 	display: block;
-	height:96px;
 	width: 100%;
 }
 
@@ -156,7 +155,15 @@ body #main-container #header-search {
 #main-container #header {
   	height: 113px;
 }
+#header #cancercontrol-banner a {
+	height:52px;
+}
+}
 
+@media (min-width: 400px) and (max-width: 767px) {
+	#header #cancercontrol-banner a {
+    height: 96px;
+  }
 }
 
 @media (min-width: 768px) and (max-width: 979px) {
@@ -182,6 +189,12 @@ body #main-container #header-search {
   #main-container #header-search {
     top: 75px;
   }
+}
+
+@media (min-width: 768px) {
+	#header #cancercontrol-banner a {
+   		height: 96px;
+    }
 }
 
 @media (max-width: 979px) {
