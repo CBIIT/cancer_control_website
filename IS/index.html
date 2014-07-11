@@ -1,241 +1,464 @@
-﻿<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
-<html xmlns="http://www.w3.org/1999/xhtml">
+<!DOCTYPE html>
+<html lang="en">
   <head>
-  <title>DCCPS: Cancer Control Research: Implementation Science</title>
-  <!-- meta tags-->
-  <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
-  <!--external style sheets-->
-    <link href="../style.css" type="text/css" rel="stylesheet" />
-  <link href="../style.css" type="text/css" rel="stylesheet" />
-	<link href="../style2.css" type="text/css" rel="stylesheet" />
-  <!-- additional style -->
-  <!--[if IE]>
-    <style type="text/css">
-    ul.mlist2 li ul { margin: -14px 20px 0 0; }
-    </style>
-  <![endif]-->
-  <!-- Slideshow script and stylesheet -->
-  <link rel="stylesheet" href="slides/style.css" type="text/css" media="screen" />
-  <script type="text/javascript" src="slides/mootools-1.2-core.js"></script>
-  <script type="text/javascript" src="slides/myslideshow.js"></script>
-  <script type="text/javascript">
-    window.addEvent('domready', function () { var slideshow = new MySlideShow('slideshow-container', '#slideshow-container img', 'caption'); slideshow.start(); });
-  </script>
+<meta http-equiv="content-type" content="text/html; charset=UTF-8">
+    <meta charset="utf-8">
+  <title>Implementation Science - Division of Cancer Control &amp; Population Sciences</title>
+  <link rel="icon" 
+      type="image/jpeg" 
+      href="/images/favicon.ico">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="keywords" content="nci, dccps, Cancer Control and Population Sciences, cancer">
+    <meta name="author" content="">
+  <meta name="description" content="Implementation Science homepage" />
+  <!-- Le styles -->
+    <link href="../css/style.css" rel="stylesheet">
+    <link href="../css/bootstrap.css" rel="stylesheet">
+    <link href="../css/bootstrap-responsive.css" rel="stylesheet">
+    <link href="../css/bootstrap-nci.css" rel="stylesheet">
+    <link type="text/css" media="screen" rel="stylesheet" href="../IS/css/is-style.css" />
+    <link type="text/css" media="screen" rel="stylesheet" href="../IS/css/is-homepage.css" />
+
+    <!-- HTML5 shim, for IE6-8 support of HTML5 elements -->
+    <!--[if lt IE 9]>
+      <script>document.createElement('footer');</script>
+      <script src="/js/html5shiv.js"></script>
+    <![endif]-->
+
+    <!-- Fav and touch icons -->
+    <link rel="apple-touch-icon-precomposed" sizes="144x144" href="http://twitter.github.io/bootstrap/assets/ico/apple-touch-icon-144-precomposed.png">
+    <link rel="apple-touch-icon-precomposed" sizes="114x114" href="http://twitter.github.io/bootstrap/assets/ico/apple-touch-icon-114-precomposed.png">
+      <link rel="apple-touch-icon-precomposed" sizes="72x72" href="http://twitter.github.io/bootstrap/assets/ico/apple-touch-icon-72-precomposed.png">
+                    <link rel="apple-touch-icon-precomposed" href="http://twitter.github.io/bootstrap/assets/ico/apple-touch-icon-57-precomposed.png">
+                                   <link rel="shortcut icon" href="http://twitter.github.io/bootstrap/assets/ico/favicon.png">
+  <style type="text/css" id="holderjs-style">.holderjs-fluid {font-size:16px;font-weight:bold;text-align:center;font-family:sans-serif;margin:0}</style>
   </head>
+
   <body>
-    <div id="skipmenu">
-<a href="#skip" class="skippy">Skip Navigation</a>
-<a name="top"></a>
-</div> <!-- end skipmenu -->
-<div id="wrapper"> 
-  <!-- NCI Banner -->
-  <div id="head-row1"> <img src="../images/dccps-banner2.gif" alt="National Cancer Institute" width="1000"
-      height="40" usemap="#Map" /></div>
-  <!-- end of NCI Banner --> 
-  <!-- DCCPS Banner / Search Field -->
-  <div id="head-row2">
-  <div id="left2"> <a href="index.html"> <img src="../images/d_i_banner.gif" alt="Implementation Science Integrating Science, Practice, and Policy" width="730" height="68" /></a> </div>
-  <div id="right2">
-    <div id="north"> <a href="http://twitter.com/NCICancerCtrl" title="Twitter">Twitter<img src="../images/twitter-icon.gif" title="Twitter" alt="Twitter" width="20" height="20" /></a><a href="../exit_disclaimer.html"><img src="../images/Icon_External_Link.png" width="12" height="12" alt="exit disclaimer" /></a> <a href="../cr-communication-videos.html" title="Multimedia">Multimedia<img src="../images/media-icon.gif" title="Multimedia" alt="Multimedia" width="20" height="20" /></a></div>
-    <form method="get" action="http://search2.google.cit.nih.gov/search" name="search" onsubmit="NCIAnalytics.SiteSearchWithValue(this,document.search.searchbox.value);" >
-    <input type="hidden" name="site" value="DCCPS" />
-    <input type="hidden" name="client" value="DCCPS_frontend" />
-    <input type="hidden" name="proxystylesheet" value="DCCPS_frontend" />
-    <input type="hidden" name="output" value="xml_no_dtd" />
-    <input type="hidden" name="filter" value="0" />
-    <input type="hidden" name="getfields" value="*" />
-    <input id="searchbox" type="text" name="q" size="15" maxlength="255" class="htextf"
-        value="Search" />
-    <input type="image" src="../images/hbutton.gif" class="hbutton" name="btnG" id="btnG"
-        alt="Search" />
-  </form>
-    <br class="clearfloat" />
-    </div>
-  <br class="clearfloat" />
-  </div>
-  <!-- End of DCCPS Banner / Search Field --> 
-  <!-- Main Content -->
-  <div id="mainarea"> 
-  <!-- Left Column // DCCPS Link / Need Help Banner -->
-  <div id="column-left1">
-    <div id="dccps-link"> <a href="../index.html">Cancer Control &amp; Population Sciences Home</a></div>
-   
-    <p> <a href="http://cancercontrolplanet.cancer.gov/"> <img src="../images/planet-tile.jpg" alt="Cancer Control P.L.A.N.E.T., Plan, Link, Act, Network, with Evidence-based Tools"
-          width="200" height="83" border="0" /></a></p>
-    <p> <a href="http://progressreport.cancer.gov/"> <img src="../images/dccps_ctpr_tile2.gif" alt="Cancer Trends Progress Report" width="200"
-          height="83" border="0" /></a><!--Need better logo tile --></p>
-    <p> <a href="http://www.cancer.gov/help"> <img src="../images/help-tile.jpg" alt="Need Help? Contact us by phone (1-800-422-6237), Web, or e-mail"
-          width="200" height="60" /></a></p>
-          
-          <p> <a href="http://mrm.hostworks.net/narrative-library/use-the-narrative-library/video-viewer.aspx?youtubeid=laSWUHn4q90"> <img src="images/di-video.jpg" alt="Need Help? Contact us by phone (1-800-422-6237), Web, or e-mail"
-          width="200" height="119" class="image1" /></a></p>
-    </div>
-  <!-- End of Left Column // DCCPS Link / Need Help Banner --> 
-  <!-- Middle Column // Content Area-->
-  <div id="column-mid1">
-    <a name="skip"></a>
-	<div class="content"> 
-    <!-- Carousel // Captions should go in the alt tag for the image.-->
-    <div id="slideshow-container"> 
-   
-   <a href="https://researchtoreality.cancer.gov/"><img src="slides/img1-go.jpg" alt="Research to Reality &#150; Join the Discussion" width="520" height="200" /></a> 
-   <a href="http://cancercontrolplanet.cancer.gov/index.html"><img src="slides/img3-go.jpg" alt="Cancer Control P.L.A.N.E.T. - Plan, Link, Act, Network with Evidence-based Tools" width="520" height="200" border="0" /></a> 
-   <a href="http://www.cpcrn.org/default.asp"><img src="slides/img2-go.jpg" alt="CPCRN - Cancer Prevention and Control Research Network" width="520" height="200" /></a> 
-
-      <img src="Slides/r2r.jpg" alt="Establish Robust Partnerships" width="500" height="200" /> 
-      <img src="Slides/img10.jpg" alt="Research Translation Continuum.  (Modified from Khoury M et al.  2007. Genetics in Medicine.)" width="500" height="200" /> 
-      
-      <a href="http://rtips.cancer.gov/rtips/index.do"><img src="Slides/img8-rtip.jpg" alt="Research-tested Intervention Programs"  width="520" height="200" /></a> 
-      <a href="presentations.html"><img src="Slides/img7-go.jpg" alt="Evidence Integration Triangle (Glasgow RE et al. 2012. Am J Prev Med. 2012 Jun;42(6):646-54)" width="500" height="200" /></a> 
-      <a href="/is/dimmi.html"><img src="Slides/img10.gif" alt="Dissemination and Implementation (D&amp;I) Measures and Methods initiative" width="520" height="200" /></a>
-      <a href="/is/publications.html "><img src="Slides/ISWordCloud.jpg" alt="Key Terms of Implementation Science (IS) – Review Recent IS Publications" width="520" height="200" /></a>
-      
-      
-      <a href="http://conferences.thehillgroup.com/OBSSRinstitutes/TIDIRH2013/index.html"><img src="Slides/TIDIRH_banner.gif" width="520" height="117" alt="Training Institute for Dissemination and Implementation Research in Health" /></a> 
-      
-         
-     
-      <!--Slideshow Caption-->
-      <div id="caption" class="info"> 
-    <!--place a stationary image caption to display when JavaScript is disabled // Should be first slide's caption-->
-    <h4>Research to Reality &#150; Join the Discussion</h4>
-    </div>
-    </div>
-    <div align="center"><a href="slideshow_home.html">Text version of slide show</a></div>
-    <div style="width: 100%;">
-      <div style="float: left; width: 49%; vertical-align: top;">
-    <ul class="mlist1">
-      <li style="height: 75px;">
-      <ul>
-        <li class="mlink1"><a href="about.html" title="About">About</a></li>
-        <li>Mission, definitions, staff and contact information</li>
-        </ul>
-      </li>
-      <li>
-      <ul>
-        <li class="mlink1"><a href="resources.html" title="Resources">Resources and Interactive
-        Tools</a></li>
-        <li>Cancer Control P.L.A.N.E.T., Cancer Trends Progress Report, Conferences and Presentations,
-        Fact Sheets, Research Reviews</li>
-        <li>Dissemination and Implementation Measures and Methods Initiative</li>
-        </ul>
-      </li>
-      <li style="height: 60px;">
-      <ul>
-        <li class="mlink1"><a href="publications.html" title="Publications">Publications</a></li>
-        <li>Dissemination and Implementation Publications</li>
-        </ul>
-      </li>
-      </ul>
-    </div>
-      <div style="float: right; width: 49%; vertical-align: top;">
-    <ul class="mlist1">
-      <li>
-      <ul>
-        <li class="mlink1"><a href="funding.html">Funding 
-        <!--and Training --> 
-        Opportunities</a></li>
-        <li>Apply for Grants, Archive of Funding Opportunities, Application Information, Dissemination
-        and Implementation Research Portfolio</li>
-        </ul>
-      </li>
-      <li>
-      <ul>
-        <li class="mlink1"><a href="conf_train.html">Conferences and Training</a></li>
-        <li>Annual NIH Conference on the Science of Dissemination and Implementation, Training
-        Institute for Dissemination and Implementation Research in Health</li>
-        </ul>
-      </li>
-      <li style="height: 75px;">
-      <ul>
-        <li class="mlink1"><a href="presentations.html" title="Presentations">Presentations</a></li>
-        <li>Presentations by Implementation Science Team, Presentations by D&amp;I Investigators</li>
-        </ul>
-      </li>
-      </ul>
-    </div>
+  	<div id="skipmenu">
+	<a href="#skip" class="skippy">Skip Navigation</a>
+	<a id="top"></a>
+	</div> <!-- end skipmenu -->
+	<div id="main-container">
+    <div id="header">
+    <div class="minibanner-gray"> <ul> <li class="nci"><a href="http://www.cancer.gov">National Cancer Institute</a></li> <li class="cancergov"><a href="http://www.cancer.gov">www.cancer.gov</a></li> <li class="nih"><a href="http://www.nih.gov">at the National Institutes of Health</a></li> </ul> </div>
+    <div id="cancercontrol-banner">
+    	<a href="http://cancercontrol.cancer.gov/"><span>Cancer Control and Population Sciences: NCI's Bridge to Public Health Research, Practice, and Policy</span></a>
     </div>
   </div>
-    </div>
-  <!-- End of Middle Column // Content Area--> 
-  <!-- Right Column // Short Cuts / Anniversary Report -->
-  <div id="column-right1">
-    <div class="d-head">What's New</div>
-    <div class="d-case2">
-      <p><strong>NEW!</strong> Conference:&nbsp;<a href="http://www.academyhealth.org/Events/events.cfm?ItemNumber=13518&amp;navItemNumber=13668">7th  Annual Conference on the Science of Dissemination &amp; Implementation:  Transforming Health Systems to Optimize Individual and Population Health</a> <a href="/exit_disclaimer.html"><img src="/images/Icon_External_Link.png" alt="Exit Disclaimer" width="12" height="12" border="0" /></a> (Bethesda, Maryland) will run December 8 – 9, 2014 and is  cohosted&nbsp; by AcademyHealth and the National Institutes of Health. Abstract  Submission Deadline: August 8th.</p>
-      <p><strong>NEW!</strong> Conference:&nbsp;<a href="http://acepidemiology.org/content/2014-annual-meeting">Annual Meeting of  the American College of Epidemiology: Making Epidemiology More Consequential</a> <a href="/exit_disclaimer.html"><img src="/images/Icon_External_Link.png" alt="Exit Disclaimer" width="12" height="12" border="0" /></a> (Silver Spring, Maryland) featuring a <a href="http://www.acepidemiology.org/sites/default/files/2014%20ACE%20Preliminary%20Program%20Agenda%20UPDATEDWH%207-3-2014.pdf">Workshop  on Dissemination and Implementation Research in Health</a>, <a href="/exit_disclaimer.html"><img src="/images/Icon_External_Link.png" alt="Exit Disclaimer" width="12" height="12" border="0" /></a> September 7 – 9,  2014. Registration now open. Early bird registration deadline August 22nd.</p>
-<p><strong>NEW! </strong>NCI Advanced Topics in Implementation Science Webinar Series. <a href="https://cyberseminar.cancercontrolplanet.org/implementationscience/default.aspx">Learn more and register for the upcoming webinar</a>. <a href="/exit_disclaimer.html"><img src="/images/Icon_External_Link.png" alt="Exit Disclaimer" width="12" height="12" border="0" /></a></p>
-      <p><strong>NEW!</strong> Training: <a href="http://conferences.thehillgroup.com/OBSSRinstitutes/TIDIRH2014/">Training  Institute for Dissemination and Implementation Research in Health</a> <a href="/exit_disclaimer.html"><img src="/images/Icon_External_Link.png" alt="Exit Disclaimer" width="12" height="12" border="0" /></a> (Babson  Park, Massachusetts) TIDIRH will run from July 20 – 25, 2014 and is sponsored  by Harvard University, the Dana-Farber Cancer Institute in collaboration with  OBSSR, NIH, NCI, NIMH, NHLBI, NIOOK, ODP, and the VA.</p>
-<p><strong>Funding  Opportunity!<br />
-</strong><a href="http://provocativequestions.nci.nih.gov/">NCI Provocative Questions  Initiative – New Category on Clinical Effectiveness</a> (R01 and R21).</p>
-<p><a href="DandI_funding_webinars.html">Archive of the Trans-NIH Dissemination and Implementation Funding Announcement Webinar Now Available.</a><br />
- </p>
-<p><a href="pdfs/DandI-PAR-Grant-FundedContentAnalysis.pdf">Content Analysis Report of Funded D&amp;I Grants</a> (PDF)</p>
-    </div>
-    </div>
-  <!-- End of Right Column // Short Cuts / Anniversary Report --> 
-  <br class="clearfloat" />
-  </div>
-  <!-- Main Content --> 
-  <!-- Last Updated -->
-  <div class="update">Last Updated: July 7, 2014</div>
-  <!-- End of Last Updated --> 
-  <!-- Footer -->
-  <div id="foot-row1">
-	<ul class="flist2">
-    <li><a href="/index.html">Site Home</a></li>
-    <li>|</li>
-    <li><a href="http://www.cancer.gov/global/contact">Contact Us</a></li>
-    <li>|</li>
-    <li><a href="http://www.cancer.gov/global/web/policies">Policies</a></li>
-    <li>|</li>
-    <li><a href="http://www.cancer.gov/global/web/policies/accessibility">Accessibility</a></li>
-    <li>|</li>
-    <li><a href="http://www.cancer.gov/global/viewing-files">Viewing Files</a></li>
-    <li>|</li>
-    <li><a href="http://www.cancer.gov/global/web/policies/foia">FOIA</a></li>
-    <li>|</li>
-	<li><a href="/help.html">Help</a></li>
-    <li>|</li>
-    <li><a href="/site-map.html">Site Map</a></li>
-  </ul>
-	<br />
-
-	<ul class="flist2">
-    <li><a href="http://www.hhs.gov/">U.S. Department of Health and Human Services</a></li>
-    <li>|</li>
-  <li><a href="http://www.nih.gov/">National Institutes of Health</a></li>
-  <li>|</li>
-  <li><a href="http://www.cancer.gov/">National Cancer Institute</a></li>
-  <li>|</li>
-  <li><a href="http://www.usa.gov/">USA.gov</a></li>
-  </ul>
-  <div class="nih-tagline">NIH…Turning Discovery Into Health<sup>&#174;</sup></div>
+  <div id="header-search">
+		<form method="get" action="http://search2.google.cit.nih.gov/search" name="search">
+  	  <input type="hidden" name="site" value="DCCPS" />
+  	  <input type="hidden" name="client" value="DCCPS_frontend" />
+  	  <input type="hidden" name="proxystylesheet" value="DCCPS_frontend" />
+  	  <input type="hidden" name="output" value="xml_no_dtd" />
+      <input type="hidden" name="filter" value="0" />
+  	  <input type="hidden" name="getfields" value="*" />
+  	  <label for="searchbox">Search: </label>
+        <input id="searchbox" type="text" name="q" size="15" maxlength="255" class="htextf" placeholder="Search" />
+  	  <input type="image" src="../images/hbutton-new.gif"  class="hbutton" name="btnG" id="btnG" alt="Search" />
+  	</form>
 	</div>
-  <!-- End of Footer --> 
-  </div>
-<!-- Image map for head-row1 -->
-<map name="Map" id="Map">
-  <area shape="rect" coords="12,3,294,38" href="http://www.cancer.gov/" alt="National Cancer Institute" />
-  <area shape="rect" coords="715,10,892,33" href="http://www.nih.gov" alt="U.S. National Institutes of Health" />
-  <area shape="rect" coords="893,10,988,33" href="http://www.cancer.gov/" alt="National Cancer Institute" />
-  </map>
-<!-- End of Image map for head-row1 --> 
-<!-- GA Code --> 
-<script type="text/javascript">
+      <!-- NAVBAR
+    ================================================== -->
 
-    var _gaq = _gaq || [];
-    _gaq.push(['_setAccount', 'UA-25589575-1']);
-    _gaq.push(['_trackPageview']);
 
-    (function () {
-    var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
-    ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
-    var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
-    })();
+        <div class="navbar navbar-inverse">
+          <div class="navbar-inner">
+            <!-- Responsive Navbar Part 1: Button for triggering responsive navbar (not covered in tutorial). Include responsive CSS to utilize. -->
+            <button type="button" class="btn btn-navbar" data-toggle="collapse" data-target=".nav-collapse">
+              <span class="icon-bar"></span>
+              <span class="icon-bar"></span>
+              <span class="icon-bar"></span>
+            </button>
+            <div class="nav-collapse collapse">
+              <ul class="nav">
+                <li><a href="/IS/index.html">Home</a></li>
+<li class="dropdown">
+                  <a class="hover-link" href="about.html">About IS <b class="caret"></b></a>
+                  <ul class="dropdown-menu">
+                  <li><a href="about.html#vision">Vision</a></li>
+                  <li><a href="about.html#mission">Mission</a></li>
+                  <li><a href="staff.html">Meet the Team</a></li>
+                  <li><a href="glance.html">IS at a Glance</a></li>
+                  <li><a href="key-collaborations.html">Key Collaborations</a></li>
+                </ul>
+                </li>
+                <li class="dropdown">
+                  <a class="hover-link" href="tools.html">Tools <b class="caret"></b></a>
+                  <ul class="dropdown-menu" style="display: none;">
+                  <li><a href="/IS/tools.html#ccplanet">Cancer Control P.L.A.N.E.T.</a></li>
+                  <li><a href="/IS/tools.html#rtips">Research-tested Intervention Programs</a></li>
+                  <li><a href="/IS/tools.html#r2r">Research to Reality</a></li>
+                  <li><a href="/IS/tools.html#ctpr">Cancer Trends Progress Report</a></li>
+                  <li><a href="/IS/di-methods.html">D&amp;I Methods and Measures</a></li>
+                  <li><a href="/IS/tools.html#reports">Reports and Fact Sheets</a>
+                </li></ul>
+                </li>
+                <li class="dropdown active">
+                  <a class="hover-link" href="training-education.html">Training &amp; Education <b class="caret"></b></a>
+                  <ul class="dropdown-menu">
+                  <li><a href="https://cyberseminar.cancercontrolplanet.org/implementationscience/">Webinars</a></li>
+                  <li><a href="training-education.html#trainings">Trainings</a></li>
+                  <li><a href="training-education.html#conferences">Conferences</a></li>
+                  <li><a href="training-education.html#presentations">Presentations</a></li>
+                </ul>
+                </li>
+                <li class="dropdown">
+                  <a class="hover-link" href="funding.html">Funding <b class="caret"></b></a>
+                  <ul class="dropdown-menu">
+                  <li><a href="/IS/funding.html#methodhead">Funding Opportunities</a></li>
+                  <li><a href="/IS/funding.html#healthhead">Grantsmanship Resources</a></li>
+                  <li><a href="/IS/funding.html#contexthead">Research Portfolio</a></li>
+                </ul>
+                </li>
+                 <li class="dropdown">
+                  <a class="hover-link" href="publications.html">Publications<b class="caret"></b></a>
+                  <ul class="dropdown-menu">
+                  <li><a href="2013.html">2013</a></li>
+                  <li><a href="2012.html">2012</a></li>
+                  <li><a href="2011.html">2011</a></li>
+                  <li><a href="2010.html">2010</a></li>
+                  </ul>
+                </li>                
+              </ul>
+            </div><!--/.nav-collapse -->
+          </div><!-- /.navbar-inner -->
+          <div id="topbanner"></div>
+        </div><!-- /.navbar -->
+		        <div class="container-fluid">
+                <a id="skip"></a>
+ <!-- Carousel -->
+    
+    <div class="row-fluid">
+    <div class="span9">
+	<div id="myCarousel" class="carousel slide">
+      <div class="carousel-inner">
+        <div class="item active">
+          <img class="splash" src="../IS/images/carousel/rtr-banner.jpg" alt="Research to Reality Image.">
+          <div class="container">
+            <div class="carousel-caption">
+              <div class="row-fluid">
+                <div class="span9">
+                  <p>Research to Reality – Join the Discussion</p>
+                </div>
+                <div class="span3">
+                  <a class="btn btn-info" href="https://researchtoreality.cancer.gov/">Learn More</a>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="item">
+          <img class="splash" src="../IS/images/carousel/planet-banner.jpg" alt="Cancer Control P.L.A.N.E.T. Image">
+          <div class="container">
+            <div class="carousel-caption">
+              <div class="row-fluid">
+                <div class="span9">
+                  <p>Cancer Control P.L.A.N.E.T. - Plan, Link, Act, Network with Evidence-based Tools</p>
+                </div>
+                <div class="span3">
+                  <a class="btn btn-info" href="http://cancercontrolplanet.cancer.gov/index.html">Learn More</a>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="item">
+          <img class="splash" src="../IS/images/carousel/cpcrn-banner.jpg" alt="CPCRN Image">
+          <div class="container">
+            <div class="carousel-caption">
+              <div class="row-fluid">
+                <div class="span9">
+                  <p>CPCRN - Cancer Prevention and Control Research Network</p>
+                </div>
+                <div class="span3">
+                  <a class="btn btn-info" href="http://www.cpcrn.org/default.asp">Learn More</a> <a href="/exit_disclaimer.html"><img src="/images/Icon_External_Link.png" width="12" height="12" alt="exit disclaimer" /></a>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+                <div class="item">
+          <img class="splash" src="../IS/images/carousel/advancedtopics.jpg" alt="Advanced Topics Webinar Image">
+          <div class="container">
+            <div class="carousel-caption">
+              <div class="row-fluid">
+                <div class="span9">
+                  <p>Advanced Topics in Implementation Science Webinar Series – Learn more, register, or view and archive.</p>
+                </div> 
+                <div class="span3">
+                <a class="btn btn-info" href="https://cyberseminar.cancercontrolplanet.org/implementationscience/default.aspx">Learn More</a>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+                <div class="item">
+          <img class="splash" src="../IS/images/carousel/intervention-banner.jpg" alt="Research-tested Intervention Program Image">
+          <div class="container">
+            <div class="carousel-caption">
+              <div class="row-fluid">
+                <div class="span9">
+                  <p>Research-tested Intervention Programs</p>
+                </div>
+                <div class="span3">
+                <a class="btn btn-info" href="http://rtips.cancer.gov/rtips/index.do">Learn More</a>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+                <div class="item">
+          <img class="splash" src="../IS/images/carousel/terms-banner.jpg" alt="Key Terms of Implementation Science (IS) – Review Recent IS Publications Image">
+          <div class="container">
+            <div class="carousel-caption">
+              <div class="row-fluid">
+                <div class="span9">
+                  <p>Key Terms of Implementation Science (IS) – Review Recent IS Publications</p>
+                </div>
+                <div class="span3">
+                <a class="btn btn-info" href="/IS/publications.html">Learn More</a>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+                <div class="item">
+          <img class="splash" src="../IS/images/carousel/tidirh-banner.gif" alt="Training Institute for Dissemination and Implementation Research in Health Image">
+          <div class="container">
+            <div class="carousel-caption">
+              <div class="row-fluid">
+                <div class="span9">
+                  <p>Training Institute for Dissemination and Implementation Research in Health</p>
+                </div>
+                <div class="span3">
+                <a class="btn btn-info" href="http://conferences.thehillgroup.com/OBSSRinstitutes/TIDIRH2014/">Learn More</a> <a href="/exit_disclaimer.html"><img src="/images/Icon_External_Link.png" alt="Exit Disclaimer" width="12" height="12" /></a>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <a class="left carousel-control" href="#myCarousel" data-slide="prev"><img src="/images/slider-left-arrow.png" alt="left control" /></a>
+      <a class="right carousel-control" href="#myCarousel" data-slide="next"><img src="/images/slider-right-arrow.png" alt="right control" /></a>
+      <div id="carouselButtons">
+        <button id="playButton" class="btn btn-default btn-xs" type="button">
+        <span class="glyphicon icon-play"></span>
+        </button>
+        <button id="pauseButton" class="btn btn-default btn-xs" type="button">
+        <span class="glyphicon icon-pause"></span>
+        </button>
+        </div>
+    </div><!-- /.carousel -->
+    <br>
+    <div class="row-fluid content-end" style="clear:both;">
+                <div class="span6 triplebox triple-back">
+                  <div class="news  bottom-border">Tools</div>
+                  <div class="featured-items">
+              <div class="row-fluid">
+              <div class="span6">
+				<a href="http://cancercontrolplanet.cancer.gov/"><img class="tools-img" src="../IS/images/planet-tile.jpg" alt="Cancer Control Planet" /></a>
+              </div>
+              <div class="span6">
+				<a href="http://progressreport.cancer.gov/"><img src="../IS/images/ctrp.gif" alt="Cancer Trends Progress Report" class="tools-img" /></a>
+              </div>
+              </div>
+              <div class="row-fluid">
+              <div class="span6">
+				<a href="https://researchtoreality.cancer.gov/"><img src="../IS/images/r2r.png" alt="Research to Reality" class="tools-img" /></a>
+              </div>
+              <div class="span6">
+				<a href="http://statecancerprofiles.cancer.gov/"><img src="../IS/images/SCPtitle_header.gif" alt="State Cancer Profiles" class="tools-img" /></a>
+              </div>
+              </div>
+                </div></div>
+                <div class="span6 triplebox triple-back">
+                  <div class="news  bottom-border">D&amp;I Narrative Library</div>
+                  <div class="center">
+                <iframe style="width:100%; max-width:300px; height:auto;" src="//www.youtube.com/embed/laSWUHn4q90" allowfullscreen></iframe></div>
+              <a href="http://mrm.hostworks.net/narrative-library/use-the-narrative-library.aspx">D&amp;I Narrative Library</a> <a href="/exit_disclaimer.html"><img src="/images/Icon_External_Link.png" width="12" height="12" alt="exit disclaimer" /></a></div>           
+          </div>
+        <div class="row-fluid content-end" style="clear:both; max-height:120px;">
+          <div class="span12 triplebox triple-back" style="max-height:120px;">
+                  <div class="news  bottom-border">Sign up to receive updates from the Implementation Science Team</div>
+                  <div class="featured-items">
+              <div class="row-fluid">
+              <div class="span12">
+                <p>NCI Advanced Topics in  Implementation Science Webinar Series.&nbsp;<a href="https://cyberseminar.cancercontrolplanet.org/implementationscience/default.aspx">Learn more and register for the upcoming webinar.</a> <a href="/exit_disclaimer.html"><img src="/images/Icon_External_Link.png" alt="Exit Disclaimer" width="12" height="12" border="0" /></a></p>
+              </div>
+              </div>
+              </div></div>
+          </div>
+    </div><!-- .span9 -->
+    <div class="span3">
+    	<div class="publications">
+        	<h2>News</h2>
+                <div class="publications-row">
+            	<p class="document">Conference:&nbsp;<a href="http://www.academyhealth.org/Events/events.cfm?ItemNumber=13518&amp;navItemNumber=13668">7th  Annual Conference on the Science of Dissemination &amp; Implementation:  Transforming Health Systems to Optimize Individual and Population Health</a> <a href="/exit_disclaimer.html"><img src="/images/Icon_External_Link.png" alt="Exit Disclaimer" width="12" height="12" border="0" /></a> (Bethesda, Maryland) will run December 8 – 9, 2014 and is  cohosted&nbsp; by AcademyHealth and the National Institutes of Health. Abstract  Submission Deadline: August 8th.</p>
+                </div>
+                <div class="publications-row">
+            	<p class="document">Conference:&nbsp;<a href="http://acepidemiology.org/content/2014-annual-meeting">Annual Meeting of  the American College of Epidemiology: Making Epidemiology More Consequential</a> <a href="/exit_disclaimer.html"><img src="/images/Icon_External_Link.png" alt="Exit Disclaimer" width="12" height="12" border="0" /></a> (Silver Spring, Maryland) featuring a <a href="http://www.acepidemiology.org/sites/default/files/2014%20ACE%20Preliminary%20Program%20Agenda%20UPDATEDWH%207-3-2014.pdf">Workshop  on Dissemination and Implementation Research in Health</a> (PDF), <a href="/exit_disclaimer.html"><img src="/images/Icon_External_Link.png" alt="Exit Disclaimer" width="12" height="12" border="0" /></a> September 7 – 9,  2014. Registration now open. Early bird registration deadline August 22nd.</p>
+                </div>
+                <div class="publications-row">
+            	<p class="document">NCI Advanced Topics in Implementation Science Webinar Series. <a href="https://cyberseminar.cancercontrolplanet.org/implementationscience/default.aspx">Learn more and register for the upcoming webinar.</a> <a href="/exit_disclaimer.html"><img src="/images/Icon_External_Link.png" width="12" height="12" alt="exit disclaimer" /></a></p>
+                </div>
+                <div class="publications-row">
+            	<p class="document"><a href="mailto:NCIdccpsISteam@mail.nih.gov?subject=Subscribe">Sign  up to receive updates from the Implementation Science Team.</a></p>
+                </div>
+          <div class="publications-row">
+                <p class="document">Training: <a href="http://conferences.thehillgroup.com/OBSSRinstitutes/TIDIRH2014/">Training  Institute for Dissemination and Implementation Research in Health</a> <a href="/exit_disclaimer.html"><img src="/images/Icon_External_Link.png" alt="Exit Disclaimer" width="12" height="12" /></a> (Babson  Park, Massachusetts) TIDIRH will run from July 20 – 25, 2014 and is sponsored  by Harvard University, the Dana-Farber Cancer Institute in collaboration with  OBSSR, NIH, NCI, NIMH, NHLBI, NIOOK, ODP, and the VA.</p>
+                </div>
+    	</div>
+    </div>
+    </div><!-- row-fluid -->
+    </div><br>
+      <!-- FOOTER -->
+      <footer>
+      	<div class="container-fluid">
+        	<div class="row-fluid bottom-border bottom-margin">
+            <div class="span12 topfoot">
+            <div class="row-fluid top-span">
+             <div class="span4">
+             	<p class="footer-header"><a href="/IS/index.html">Home</a></p>
+             </div><!--/span-->
+             <div class="span4">
+             	<p class="footer-header"><a href="/IS/about.html">About IS</a></p>
+             </div><!--/span-->
+             <div class="span4">
+             	<p class="footer-header"><a href="/IS/publications.html">Publications</a></p>
+             </div><!--/span-->
+             </div>
+             <div class="row-fluid"><div class="row-fluid top-span">
+             <div class="span4">
+             	<p class="footer-header"><a href="/IS/training-education.html">Training &amp; Education</a></p>
+             </div><!--/span-->
+             <div class="span4">
+             	<p class="footer-header"><a href="/IS/funding.html">Funding</a></p>
+             </div><!--/span-->
+             <div class="span4">
+             	<p class="footer-header"><a href="/IS/tools.html" class="hover-link">Tools</a></p>
+             </div><!--/span-->
+             </div>
+             </div>
+       </div>
+            <div class="last-updated">
+              <p class="center"><strong>Last Updated: <span class="update">July 15, 2014</span></strong></p>
+       <a href="http://www.cancer.gov/global/contact" class="help-image"><img class="footer-help" src="/images/footer-help-logo.png" alt="help-logo" /></a><p class="can-numb"><strong>1-800-4-CANCER <br /> (1-800-422-6237)</strong></p>
+     </div>
+       </div><!--/row-->
+          <div class="row-fluid">
+            <div class="span12 footer-box center">
+          	  <ul>
+                <li><a href="/index.html">Site Home</a></li>
+                <li>|</li>
+                <li><a href="http://www.cancer.gov/global/contact">Contact Us</a></li>
+                <li>|</li>
+                <li><a href="http://www.cancer.gov/global/web/policies">Policies</a></li>
+                <li>|</li>
+                <li><a href="http://www.cancer.gov/global/web/policies/accessibility">Accessibility</a></li>
+                <li>|</li>
+                <li><a href="http://www.cancer.gov/global/viewing-files">Viewing Files</a></li>
+                <li>|</li>
+                <li><a href="http://www.cancer.gov/global/web/policies/foia">FOIA</a></li>
+                <li>|</li>
+                <li><a href="/help.html">Help</a></li>
+              </ul>
+              <ul>
+                <li><a href="http://www.hhs.gov/">U.S. Department of Health and Human Services</a></li>
+                <li>|</li>
+                <li><a href="http://www.nih.gov/">National Institutes of Health</a></li>
+                <li>|</li>
+                <li><a href="http://www.cancer.gov/">National Cancer Institute</a></li>
+                <li>|</li>
+                <li><a href="http://www.usa.gov/">USA.gov</a></li>
+              </ul>
+            </div><!--/span-->
+            <p class="center">NIH...Turning Discovery Into Health <sup>&reg;</sup></p>
+          </div><!--/row-->
+        </div>
+      </footer>
+  	</div>
+    <!-- javascript -->
+    <script src="../js/jquery-1.10.1.min.js"></script>
+    <script src="../js/bootstrap.min.js"></script>
+    <script src="../js/respond.min.js"></script>
+    <script type="text/javascript" src="../js/responsive-tables.js"></script>
+        <script>
+      !function ($) {
+        $(function(){
+          // carousel demo
+          $('#myCarousel').carousel()
+        })
+      }(window.jQuery)
+	  $('#playButton').click(function () {
+    $('#myCarousel').carousel('cycle');
+});
+$('#pauseButton').click(function () {
+    $('#myCarousel').carousel('pause');
+});
+    </script>
+    <script>
+// This adds 'placeholder' to the items listed in the jQuery .support object. 
+jQuery(function() {
+   jQuery.support.placeholder = false;
+   test = document.createElement('input');
+   if('placeholder' in test) jQuery.support.placeholder = true;
+});
+// This adds placeholder support to browsers that wouldn't otherwise support it. 
+$(function() {
+   if(!$.support.placeholder) { 
+      var active = document.activeElement;
+      $(':text').focus(function () {
+         if ($(this).attr('placeholder') != '' && $(this).val() == $(this).attr('placeholder')) {
+            $(this).val('').removeClass('hasPlaceholder');
+         }
+      }).blur(function () {
+         if ($(this).attr('placeholder') != '' && ($(this).val() == '' || $(this).val() == $(this).attr('placeholder'))) {
+            $(this).val($(this).attr('placeholder')).addClass('hasPlaceholder');
+         }
+      });
+      $(':text').blur();
+      $(active).focus();
+      $('form:eq(0)').submit(function () {
+         $(':text.hasPlaceholder').val('');
+      });
+   }
+});
 
-  </script> 
-<!-- End of GA Code -->
-<script language="JavaScript" type="text/javascript" src="/JS/Omniture/WA_DCCPS_PageLoad.js"></script>
+	jQuery('ul.nav li.dropdown').hover(function() {
+  jQuery(this).find('.dropdown-menu').stop(true, true).delay(100).fadeIn();
+}, function() {
+  jQuery(this).find('.dropdown-menu').stop(true, true).delay(100).fadeOut();
+});
+
+$(window).resize(function() {
+    if ($(window).width() < 776) {
+        $("#sidebar").insertAfter($("#content"));
+    } else {
+        $("#sidebar").prepend($("#containingrow"));
+    }
+});
+
+$(document).ready(function(){
+    if ( $(window).width() < 768 ) {
+        $("#sidebar").insertAfter($("#content"));
+    }
+});
+	</script>
+    
+
+<script type="text/javascript" src="/JS/Omniture/WA_DCCPS_PageLoad.js"></script>
+
+    <script>
+  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+  (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+  m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+  })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+
+  ga('create', 'UA-47020801-1', 'cancer.gov');
+  ga('send', 'pageview');
+
+</script>
 </body>
 </html>
