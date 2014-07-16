@@ -150,7 +150,6 @@
                     <!-- InstanceBeginEditable name="Breadcrumbs" --><!-- InstanceEndEditable -->
                 <div class="row-fluid">
            		  <!-- InstanceBeginEditable name="Main Content" -->
-                <div class="span12 listimage">
                      
 <%
 	dim strOwner
@@ -174,8 +173,24 @@
 	cmd.Parameters.Append cmd.CreateParameter("portfolio_name", adVarChar, adParamInput, 60, strPortfolioName)
 	strTitle = RunSPReturnVarchar(cmd, 100)
 %>
+              <div class="row">
+                <div class="span12">
+                  <ul class="breadcrumb">
+                    <li class="home-breadcrumb"> <a href="/IS/index.html">Home</a> </li>
+                    <li class="parent">
+    <div class="heading"><a href="/IS/funding.html">Funding</a></div>       <div class="divider"><span>></span></div>
+  </li>
+                    <li class="active">
+                      <div class="heading"><%= strTitle %></div>
+                      <div class="divider"><span>></span></div>
+                    </li>
+                  </ul>
+                </div>
+              </div>
 <!-- #include virtual="grants/utility.asp" -->
-  <h2><%= strTitle %></h2>
+              <div class="row">
+                <div class="span12">
+  <h1><%= strTitle %></h1>
   
 		 
 <%	If (Request.QueryString("Portfolio") = "dandd") Then %>
@@ -187,7 +202,7 @@
 <%	End If %>
 	
 
-<p><a name="previous"></a><strong>Currently Funded Grants</strong></p>
+<h2><a name="previous"></a>Currently Funded Grants</h2>
 <%
 	If trim(len(strOwner)) <> 0 and trim(len(strPortfolioName)) <> 0 Then
 
@@ -226,7 +241,7 @@
 	cmd.Parameters.Append cmd.CreateParameter("portfolio_name", adVarChar, adParamInput, 60, strPortfolioName)
 	strTitle = RunSPReturnVarchar(cmd, 100)
 %>
-<p><a name="previous"></a><strong>Previously Funded Grants</strong></p>
+<h2><a name="previous"></a>Previously Funded Grants</h2>
 <p>
 <% 	If (Request.QueryString("Portfolio") = "dandd") Then
 		dim strPortfolioName2
@@ -239,6 +254,7 @@
 </p>
     
                 </div>
+              </div>
                 <!--/span-->
                           <!-- InstanceEndEditable -->
                               </div>
