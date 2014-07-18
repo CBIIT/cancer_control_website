@@ -746,6 +746,7 @@ brp/hcirb/slides/myslideshow.js -text
 brp/hcirb/slides/style.css -text
 brp/hcirb/social_media.html -text
 brp/health_theory_index.html -text
+brp/images/Geoffrey-Williams.jpg -text
 brp/images/Thumbs.db -text
 brp/images/banner-small1.jpg -text
 brp/images/banner-small2.jpg -text
@@ -908,6 +909,10 @@ brp/pcrb/slideshow_text.html -text
 brp/pcrb/team-based-measures.html -text
 brp/pcrb/team-cognition.html -text
 brp/pcrb/type.html -text
+brp/presentations/DCCPS_BPR_2014_Dr_Williams.pdf -text
+brp/presentations/DMSC_Speaker_Series_Dr_Geoffrey_Williams.wmv -text
+brp/presentations/DMSC_Speaker_Series_Dr_Geoffrey_Williams_Works_Cited.pdf -text
+brp/presentations/DMSC_Speaker_Series_Dr_Geoffrey_Williams_transcript.pdf -text
 brp/presentations/cameron.pdf -text svneol=unset#unset
 brp/presentations/cappella.pdf -text
 brp/presentations/greenwald.pdf -text svneol=unset#unset
@@ -1912,6 +1917,7 @@ croyle-videos/Win[!!-~]Media[!!-~]Dialup/CentersD.wmv -text
 croyle-videos/Win[!!-~]Media[!!-~]Dialup/ChallengesD.wmv -text
 croyle-videos/Win[!!-~]Media[!!-~]Dialup/FocusD.wmv -text
 croyle-videos/Win[!!-~]Media[!!-~]Dialup/UnusualTimeD.wmv -text
+css/bootstrap-lightbox.min.css -text
 css/bootstrap-nci.css -text
 css/bootstrap-responsive.css -text
 css/bootstrap.css -text
@@ -2260,6 +2266,8 @@ images/twitter-icon.gif -text
 images/twitter-icon.png -text
 images/us_commit_global_health_cover.gif -text
 images/win-logo.gif -text
+images/wss-class-2012-thumbnail.jpg -text
+images/wss-class-2012.jpg -text
 includefile/SQLInjectionPrevention.asp -text
 includefile/SQLInputCheck.asp -text
 includes/footer.html -text
@@ -2270,6 +2278,7 @@ js/Omniture/WA_DCCPS_PageLoad.js -text
 js/Omniture/WA_DCCPS_post.js -text
 js/Omniture/WA_DCCPS_pre.js -text
 js/Omniture/s_code.js -text
+js/bootstrap.lightbox.min.js -text
 js/bootstrap.min.js -text
 js/holder.js -text
 js/html5shiv.js -text
