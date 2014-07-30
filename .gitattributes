@@ -205,7 +205,6 @@ brp/Scripts/expressInstall.swf -text
 brp/Scripts/swfobject_modified.js -text
 brp/about.html -text
 brp/about/career_training.html -text
-brp/apssymposium.html -text
 brp/archive_initiative.html -text
 brp/ati2004.pdf -text svneol=unset#unset
 brp/bbpsb/Scripts/expressInstall.swf -text
@@ -745,7 +744,6 @@ brp/hcirb/slides/mootools-1.2-core.js -text
 brp/hcirb/slides/myslideshow.js -text
 brp/hcirb/slides/style.css -text
 brp/hcirb/social_media.html -text
-brp/health_theory_index.html -text
 brp/images/Geoffrey-Williams.jpg -text
 brp/images/Thumbs.db -text
 brp/images/banner-small1.jpg -text
@@ -775,7 +773,6 @@ brp/images/steven-katz.jpg -text
 brp/images/tricia-strusowski.jpg -text
 brp/images/woolley_sabra-sm.jpg -text
 brp/index.html -text
-brp/integrating_theories.html -text
 brp/key_initiatives.html -text
 brp/memoriam_sabra.html -text
 brp/pcrb/48342_520x220.swf -text
@@ -828,6 +825,10 @@ brp/pcrb/cyberseminar/NCI_MeasuringTeamworkNov2013.pdf -text
 brp/pcrb/cyberseminar/NIHNCICybersessionJune272012GODFREY.ppt -text
 brp/pcrb/cyberseminar/November_transcript.doc -text
 brp/pcrb/cyberseminar/PC36-27-2012MeetingTranscript.doc -text
+brp/pcrb/cyberseminar/PC3_Cyber_Discussion_Dr_Ricciardi.pdf -text
+brp/pcrb/cyberseminar/PC3_Cyber_Discussion_Dr_Ricciardi.wmv -text
+brp/pcrb/cyberseminar/PC3_Cyber_Discussion_Dr_Ricciardi_case_study.pdf -text
+brp/pcrb/cyberseminar/PC3_Cyber_Discussion_Dr_Ricciardi_transcript.pdf -text
 brp/pcrb/cyberseminar/SDM-Cyber-Discussion-04-03-13.pdf -text
 brp/pcrb/cyberseminar/Stephen-Humphrey-Slides.pdf -text
 brp/pcrb/cyberseminar/Stephen-Humphrey-transcript.pdf -text
@@ -918,6 +919,9 @@ brp/presentations/DCCPS_BPR_2014_Dr_Williams.pdf -text
 brp/presentations/DMSC_Speaker_Series_Dr_Geoffrey_Williams.wmv -text
 brp/presentations/DMSC_Speaker_Series_Dr_Geoffrey_Williams_Works_Cited.pdf -text
 brp/presentations/DMSC_Speaker_Series_Dr_Geoffrey_Williams_transcript.pdf -text
+brp/presentations/DMSC_Speaker_Series_Katz.pdf -text
+brp/presentations/DMSC_Speaker_Series_Katz.wmv -text
+brp/presentations/DMSC_Speaker_Series_Katz_transcript.pdf -text svneol=unset#unset
 brp/presentations/cameron.pdf -text svneol=unset#unset
 brp/presentations/cappella.pdf -text
 brp/presentations/greenwald.pdf -text svneol=unset#unset
@@ -939,7 +943,6 @@ brp/presentations_1/Photos/OscarWeb.jpg -text
 brp/presentations_1/Photos/VishLadiesWeb.jpg -text
 brp/research_tools.html -text
 brp/resources.html -text
-brp/santafe_workshop_summaries.pdf -text
 brp/sci-res/ELIFactSheet.pdf -text svneol=unset#unset
 brp/sci-res/behavior.html -text
 brp/sci-res/docs/TRECBaselineSurvey.pdf -text
@@ -1006,7 +1009,6 @@ brp/scienceteam/presentations_day1.html -text
 brp/scienceteam/presentations_day2.html -text
 brp/scienceteam/systems.html -text
 brp/scienceteam/theoretical.html -text
-brp/slideshow_text.html -text
 brp/smallgrants/2009_annual_meeting.html -text
 brp/smallgrants/NCI_FinalEvaluation_15Dec05.pdf -text
 brp/smallgrants/about.html -text
@@ -1095,7 +1097,6 @@ brp/srtb/docs/NCI-Big-Data_Tiro.pdf -text
 brp/srtb/docs/NCI_DCCPS_SRTB_Flyer.pdf -text svneol=unset#unset
 brp/srtb/index.html -text
 brp/srtb/key_initiatives.html -text
-brp/state_theory_development.html -text
 brp/stipend.html -text
 brp/style.css -text
 brp/tcrb/2ndICSTREPORTweb3.pdf -text svneol=unset#unset
