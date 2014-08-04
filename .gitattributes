@@ -1422,7 +1422,7 @@ brp/tcrb/monographs/2/m2_5.pdf -text svneol=unset#unset
 brp/tcrb/monographs/2/m2_6.pdf -text
 brp/tcrb/monographs/2/m2_7.pdf -text
 brp/tcrb/monographs/2/m2_8.pdf -text
-brp/tcrb/monographs/2/m2_ack.pdf -text
+brp/tcrb/monographs/2/m2_ack.pdf -text svneol=unset#application/octet-stream
 brp/tcrb/monographs/2/m2_complete.pdf -text
 brp/tcrb/monographs/2/m2_contents.pdf -text svneol=unset#unset
 brp/tcrb/monographs/2/m2_foreword.pdf -text
