@@ -916,6 +916,9 @@ brp/pcrb/team-based-measures.html -text
 brp/pcrb/team-cognition.html -text
 brp/pcrb/type.html -text
 brp/presentations/DCCPS_BPR_2014_Dr_Williams.pdf -text
+brp/presentations/DMSC_Speaker_Series_Brant.wmv -text
+brp/presentations/DMSC_Speaker_Series_Dr_Brant.pdf -text
+brp/presentations/DMSC_Speaker_Series_Dr_Brant_transcript.pdf -text
 brp/presentations/DMSC_Speaker_Series_Dr_Geoffrey_Williams.wmv -text
 brp/presentations/DMSC_Speaker_Series_Dr_Geoffrey_Williams_Works_Cited.pdf -text
 brp/presentations/DMSC_Speaker_Series_Dr_Geoffrey_Williams_transcript.pdf -text
@@ -1098,6 +1101,7 @@ brp/srtb/docs/NCI_DCCPS_SRTB_Flyer.pdf -text svneol=unset#unset
 brp/srtb/docs/SRTB-Strategic-Goals.pdf -text
 brp/srtb/index.html -text
 brp/srtb/key_initiatives.html -text
+brp/srtb/strategic-plan.html -text
 brp/stipend.html -text
 brp/style.css -text
 brp/tcrb/2ndICSTREPORTweb3.pdf -text svneol=unset#unset
@@ -2127,6 +2131,8 @@ images/breadcrumb-divider-parents-is.png -text
 images/breadcrumb-divider-parents-ocs.png -text
 images/breadcrumb-divider-parents.png -text
 images/breadcrumb-divider.png -text
+images/breast-cancer-genomic-type-thumb.gif -text
+images/breast-cancer-genomic-type.gif -text
 images/breast_imaging.jpg -text
 images/brp-tree.gif -text
 images/brp_staff.jpg -text
