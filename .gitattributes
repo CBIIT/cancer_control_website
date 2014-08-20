@@ -525,6 +525,11 @@ brp/docs/TRECBaselineSurvey.pdf -text
 brp/docs/TRECWrittenProductsProtocol.pdf -text svneol=unset#unset
 brp/docs/TTURCResearchSurvey.pdf -text svneol=unset#unset
 brp/docs/gem-factsheet.pdf -text
+brp/docs/sample[!!-~]application[!!-~]-rees_s508b.pdf -text
+brp/docs/sample[!!-~]application[!!-~]demark-wahnefried_s508a.pdf -text
+brp/docs/sample[!!-~]application[!!-~]miller_s508a.pdf -text
+brp/docs/sample[!!-~]application[!!-~]stepanov_s508a.pdf -text
+brp/docs/sample[!!-~]application[!!-~]wallace_s508b.pdf -text
 brp/docs/santafe_workshop_summaries.pdf -text
 brp/docs/vaccination_meta-analysis_5.0.pdf -text
 brp/e-newsletter/archive.html -text
@@ -548,6 +553,10 @@ brp/fab/index.html -text
 brp/funding-conf.html -text
 brp/funding-effects-bias.html -text
 brp/funding-journal-supplement.html -text
+brp/funding-opportunities.html -text
+brp/funding-peer-review.html -text
+brp/funding-preparing-grant.html -text
+brp/funding-sample-application.html -text
 brp/funding.html -text
 brp/gem.html -text
 brp/hbrb/Scripts/expressInstall.swf -text
@@ -825,6 +834,7 @@ brp/pcrb/cyberseminar/NCI_MeasuringTeamworkNov2013.pdf -text
 brp/pcrb/cyberseminar/NIHNCICybersessionJune272012GODFREY.ppt -text
 brp/pcrb/cyberseminar/November_transcript.doc -text
 brp/pcrb/cyberseminar/PC36-27-2012MeetingTranscript.doc -text
+brp/pcrb/cyberseminar/PC3_Cyber_Discussion_Dr_Ricciardi.mp3 -text
 brp/pcrb/cyberseminar/PC3_Cyber_Discussion_Dr_Ricciardi.pdf -text
 brp/pcrb/cyberseminar/PC3_Cyber_Discussion_Dr_Ricciardi.wmv -text
 brp/pcrb/cyberseminar/PC3_Cyber_Discussion_Dr_Ricciardi_case_study.pdf -text
