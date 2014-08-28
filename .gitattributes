@@ -36,31 +36,21 @@ DECC/index.html -text
 /DI-PAR-Orientation-Web-Posting-082806.pdf -text svneol=unset#unset
 /FLVPlayer_Progressive.swf -text
 /Halo_Skin_3.swf -text
-IS/DandI_funding_webinars.html -text
-IS/Slides/ISWordCloud.jpg -text
-IS/Slides/TIDIRH_banner.gif -text
-IS/Slides/Thumbs.db -text
-IS/Slides/img1-go.jpg -text
-IS/Slides/img10.gif -text
-IS/Slides/img10.jpg -text
-IS/Slides/img2-go.jpg -text
-IS/Slides/img3-go.jpg -text
-IS/Slides/img7-go.jpg -text
-IS/Slides/img8-rtip.jpg -text
+IS/2010.html -text
+IS/2011.html -text
+IS/2012.html -text
+IS/2013.html -text
 IS/Slides/mootools-1.2-core.js -text
 IS/Slides/myslideshow.js -text
-IS/Slides/r2r.jpg -text
-IS/Slides/russ.jpg -text
 IS/Slides/style.css -text
 IS/about.html -text
-IS/attachments/An-Analysis-of-DD-Supplements-Eckstein.pdf -text
-IS/attachments/Analysis-of-DI-Applications-DI-COnference-Eckstein.ppt -text
-IS/attachments/Dissemination-and-Diffusion-Supplements-Analysis-Final.pdf -text
-IS/collaborations.html -text
-IS/conf_train.html -text
+IS/application.html -text
+IS/css/is-homepage.css -text
+IS/css/is-style.css -text
 IS/custom_portfolio.asp -text
-IS/definitions.html -text
-IS/dimmi.html -text
+IS/dd-supplements.html -text
+IS/di-grants.html -text
+IS/di-methods.html -text
 IS/dissemination_implement_rw.html -text
 IS/docs/Character_Strong_Dis_Implement_Access.doc -text
 IS/docs/ConsolidatedFinalReport.doc -text
@@ -69,119 +59,69 @@ IS/docs/dod_PCP_presentation.ppt -text
 IS/docs/dod_clanton.ppt -text
 IS/docs/dod_dialogue_summary.ppt -text
 IS/docs/dod_introduction.ppt -text
-IS/evidence_report.html -text
-IS/evidence_report/Refcit.pdf -text
-IS/evidence_report/acknowledge.pdf -text
-IS/evidence_report/acronyms.pdf -text
-IS/evidence_report/append_a.pdf -text
-IS/evidence_report/append_b.pdf -text
-IS/evidence_report/append_c.pdf -text
-IS/evidence_report/append_d.pdf -text
-IS/evidence_report/append_e.pdf -text
-IS/evidence_report/append_f.pdf -text svneol=unset#unset
-IS/evidence_report/chap_1.pdf -text
-IS/evidence_report/chap_2.pdf -text svneol=unset#unset
-IS/evidence_report/chap_3.pdf -text svneol=unset#unset
-IS/evidence_report/chap_4.pdf -text svneol=unset#unset
-IS/evidence_report/evidence_report.pdf -text
-IS/evidence_report/ex_studies_cancer_population.pdf -text svneol=unset#unset
-IS/evidence_report/ex_studies_gen_population.pdf -text svneol=unset#unset
-IS/evidence_report/fig_1.pdf -text
-IS/evidence_report/fig_10.pdf -text
-IS/evidence_report/fig_11.pdf -text
-IS/evidence_report/fig_12.pdf -text
-IS/evidence_report/fig_13.pdf -text
-IS/evidence_report/fig_14.pdf -text
-IS/evidence_report/fig_15.pdf -text
-IS/evidence_report/fig_16.pdf -text
-IS/evidence_report/fig_17.pdf -text
-IS/evidence_report/fig_18.pdf -text
-IS/evidence_report/fig_19.pdf -text
-IS/evidence_report/fig_2.pdf -text
-IS/evidence_report/fig_20.pdf -text
-IS/evidence_report/fig_21.pdf -text
-IS/evidence_report/fig_3.pdf -text svneol=unset#unset
-IS/evidence_report/fig_4.pdf -text
-IS/evidence_report/fig_5.pdf -text
-IS/evidence_report/fig_6.pdf -text
-IS/evidence_report/fig_7.pdf -text
-IS/evidence_report/fig_8.pdf -text
-IS/evidence_report/fig_9.pdf -text
-IS/evidence_report/preface.pdf -text
-IS/evidence_report/recruit_7-7.pdf -text svneol=unset#unset
-IS/evidence_report/references_incl_studies.pdf -text svneol=unset#unset
-IS/evidence_report/summary.pdf -text svneol=unset#unset
-IS/evidence_report/table_1.pdf -text svneol=unset#unset
-IS/evidence_report/table_10.pdf -text
-IS/evidence_report/table_11.pdf -text svneol=unset#unset
-IS/evidence_report/table_12.pdf -text svneol=unset#unset
-IS/evidence_report/table_13.pdf -text svneol=unset#unset
-IS/evidence_report/table_14.pdf -text
-IS/evidence_report/table_15.pdf -text
-IS/evidence_report/table_16.pdf -text svneol=unset#unset
-IS/evidence_report/table_17.pdf -text svneol=unset#unset
-IS/evidence_report/table_18.pdf -text svneol=unset#unset
-IS/evidence_report/table_19.pdf -text svneol=unset#unset
-IS/evidence_report/table_2.pdf -text
-IS/evidence_report/table_20.pdf -text svneol=unset#unset
-IS/evidence_report/table_21.pdf -text
-IS/evidence_report/table_22.pdf -text svneol=unset#unset
-IS/evidence_report/table_3.pdf -text
-IS/evidence_report/table_4.pdf -text
-IS/evidence_report/table_5.pdf -text
-IS/evidence_report/table_6.pdf -text
-IS/evidence_report/table_7.pdf -text svneol=unset#unset
-IS/evidence_report/table_8.pdf -text
-IS/evidence_report/table_9.pdf -text
-IS/evidence_report/toc.pdf -text svneol=unset#unset
-IS/evidence_review.html -text
-IS/findings.html -text
+IS/funding-webinars.html -text
 IS/funding.html -text
-IS/fundingfaq.html -text
-IS/fundingresources/D&Irelated_pubs.html -text
-IS/fundingresources/evaluations_funding_opps.html -text
-IS/fundingresources/models&frameworks.html -text
-IS/fundingresources/submmission&review.html -text
-IS/grant_app_process-2.html -text
-IS/grant_app_process.html -text
-IS/images/Thumbs.db -text
-IS/images/arrow_long.jpg -text
-IS/images/di-video.jpg -text
+IS/glance.html -text
+IS/images/S-Heurtin-Roberts.jpg -text
+IS/images/SCPtitle_header.gif -text
+IS/images/about-banner.jpg -text
+IS/images/carousel/advancedtopics.jpg -text
+IS/images/carousel/continuum-banner.jpg -text
+IS/images/carousel/cpcrn-banner.jpg -text
+IS/images/carousel/funding-opportunities.jpg -text
+IS/images/carousel/gem-banner.gif -text
+IS/images/carousel/intervention-banner.jpg -text
+IS/images/carousel/partner-banner.jpg -text
+IS/images/carousel/planet-banner.jpg -text
+IS/images/carousel/rtr-banner.jpg -text
+IS/images/carousel/terms-banner.jpg -text
+IS/images/carousel/tidirh-banner.gif -text
+IS/images/carousel/triangle-banner.jpg -text
+IS/images/ccrc.jpg -text
+IS/images/ceccr.jpg -text
+IS/images/ctrp.gif -text
 IS/images/dod_logo.jpg -text
-IS/images/is_icon.gif -text
-IS/images/reaim_badge.gif -text
-IS/images/reaim_icon.gif -text
+IS/images/funding-banner.jpg -text
+IS/images/gem-screenshot.jpg -text
+IS/images/gem.jpg -text
+IS/images/intervention-program.jpg -text
+IS/images/nci.jpg -text
+IS/images/nih-is-header-mobile.jpg -text
+IS/images/nih-is-header-web.jpg -text
+IS/images/planet-tile.jpg -text
+IS/images/publications-banner.jpg -text
+IS/images/r2r.png -text
+IS/images/tools-banner.jpg -text
+IS/images/training-education-banner.jpg -text
 IS/index.html -text
 IS/info_Canada-US_Cancer_Control_Alliance.html -text
 IS/info_computer_meeting.html -text
 IS/info_d4dconf.html -text
 IS/info_dod.html -text
 IS/info_dod_background.html -text
-IS/info_er.html -text
-IS/info_nr.html -text
-IS/past_confs.html -text
+IS/key-collaborations.html -text
+IS/past-ct.html -text
 IS/pdfs/2013ISVisionStatement.pdf -text
+IS/pdfs/An-Analysis-of-DD-Supplements-Eckstein.pdf -text
+IS/pdfs/Analysis-of-DI-Applications-DI-COnference-Eckstein.ppt -text
 IS/pdfs/Appendix_1-23-08_version.pdf -text
 IS/pdfs/BRPAllHands_CERPresentation.pdf -text
 IS/pdfs/BackgroundCSRElectronicSubmission.pdf -text
 IS/pdfs/BackgroundDisseminationImplementationResearch.pdf -text svneol=unset#unset
-IS/pdfs/Bolenetal2006.pdf -text svneol=unset#unset
 IS/pdfs/CCPFinalReport.pdf -text
 IS/pdfs/CTIWorkgroupMeetingAgenda.pdf -text
 IS/pdfs/Canada_US_Cancer_Control_Alliance_Report_1-23-08.pdf -text
+IS/pdfs/DCCPS_R2R_Fact_Sheet_Update-v4_2-2012.pdf -text
 IS/pdfs/DDSurveillanceSupplementOrientation.pdf -text
 IS/pdfs/DIPAROrientWebPosting082806.pdf -text svneol=unset#unset
 IS/pdfs/DandI-PAR-Grant-FundedContentAnalysis.pdf -text
-IS/pdfs/DialogueSeriesReport.pdf -text svneol=unset#unset
-IS/pdfs/Dissemination-Implementation_KeyReferences_1-23-13.pdf -text svneol=unset#unset
+IS/pdfs/Dissemination-and-Diffusion-Supplements-Analysis-Final.pdf -text
 IS/pdfs/DisseminationWeightManagementProgramAmongUSveterans.pdf -text svneol=unset#unset
 IS/pdfs/EHR_Meeting_May_2-3-2011--Executive_Summary.pdf -text
 IS/pdfs/FinalAgenda.pdf -text
 IS/pdfs/Final_FocusGroup_Report-8-26-11.pdf -text
 IS/pdfs/IS_Fact_Sheet_508.pdf -text
 IS/pdfs/Instructions_DCCPS_Admin_Suppls_3-2-06.pdf -text
-IS/pdfs/Laieta2006.pdf -text svneol=unset#unset
-IS/pdfs/MOHR_Executive_Summary_2-22-2013.pdf -text svneol=unset#unset
 IS/pdfs/MethodologyPresenationandDiscussion.pdf -text
 IS/pdfs/PeerReviewofD&IResearch-Intro.pdf -text
 IS/pdfs/PeerReviewofD&IResearch-Part1.pdf -text
@@ -201,41 +141,40 @@ IS/pdfs/framework.pdf -text svneol=unset#unset
 IS/pdfs/steering.pdf -text svneol=unset#unset
 IS/pdfs/whence_we_came.pdf -text svneol=unset#unset
 IS/presentations.html -text
-IS/presentations/03-9-13_Glasgow-ASPO-Memphis[!!-~]TN_FINAL.ppt -text
+IS/presentations/03-9-13_Glasgow-ASPO-Memphis-TN.pdf -text svneol=unset#unset
 IS/presentations/03-9-13_Glasgow_ASPO_508compliant_textonly.pdf -text
+IS/presentations/05-2013_Glasgow-ISRII-Chicago-Ill.pdf -text svneol=unset#unset
 IS/presentations/05-2013_Glasgow-ISRII-Chicago.pdf -text
-IS/presentations/05-2013_Glasgow-ISRII-Chicago.pptx -text
 IS/presentations/10-26-12_AEA_Vinson_508compliant.pdf -text
-IS/presentations/10-26-2012_SOPHE-Fries_PragmaticTrials_Glasgow_FINAL-508compliant.ppt -text
+IS/presentations/10-26-2012_SOPHE-Fries_PragmaticTrials_Glasgow.pdf -text svneol=unset#unset
 IS/presentations/10-27-12_SOPHE-Fries_Glasgow_FINAL_508-compliant.pdf -text
-IS/presentations/12-18-12_Disparities[!!-~]2012[!!-~]Summit_FINAL.pptx -text
+IS/presentations/12-18-12_Disparities-2012-Summit.pdf -text
 IS/presentations/12-18-2012_Disparities[!!-~]Conference_Glasgow_508compliant.pdf -text
-IS/presentations/3-19-2012-Chambers-Glasgow.ppt -text
 IS/presentations/3-19-2012-Chambers-Glasgow_508.pdf -text svneol=unset#unset
-IS/presentations/7-23-2013_NIDA_MOHR.pptx -text
+IS/presentations/3-19-2012-Chambers-Glasgow_Crossroads.pdf -text svneol=unset#unset
+IS/presentations/7-23-2013_NIDA_MOHR_Glasgow_HeurtinRoberts.pdf -text
 IS/presentations/7-23-2013_NIDA_MOHR_Huertin-Roberts_Glasgow.pdf -text svneol=unset#unset
 IS/presentations/APHA_Meet_Expert_ISTeam.pdf -text
-IS/presentations/APHA_Meet_Expert_ISTeam.ppt -text
-IS/presentations/ASPO.pptx -text
+IS/presentations/APHA_Meet_Expert_ISTeam_Glasgow.pdf -text
 IS/presentations/ASPO_508compliant.pdf -text
-IS/presentations/BRPAllHands_CER.ppt -text
-IS/presentations/CDCCindyRuss.ppt -text
+IS/presentations/ASPO_Sustainable[!!-~]Intervention_Glasgow.pdf -text
+IS/presentations/BRPAllHands_CER_Croyle_Glasgow.pdf -text svneol=unset#unset
 IS/presentations/CDCPresentation_Glasgow-Vinson_508compliant.pdf -text
+IS/presentations/CDC_2012_Vinson_Glasgow.pdf -text svneol=unset#unset
 IS/presentations/EvidenceIntegrationTriangle.pdf -text
-IS/presentations/EvidenceIntegrationTriangle.ppt -text
-IS/presentations/Glasgow_2-12-2011_ONC_FINAL.PPTX -text
+IS/presentations/EvidenceIntegrationTriangle_Glasgow2011.pdf -text
+IS/presentations/Glasgow_2-12-2011_ONC.pdf -text
 IS/presentations/Glasgow_ONC_2-12-11_Final.pdf -text
 IS/presentations/NCI_OCS_BiennialConference_Glasgow_06-14-2012.pdf -text
-IS/presentations/OCS_Biennial[!!-~]Conference_Glasgow_06-14-12.ppt -text
-IS/presentations/R2RGoing_to_scale.ppt -text
+IS/presentations/OCS_Biennial-Conference_Glasgow_06-14-12.pdf -text svneol=unset#unset
+IS/presentations/R2RGoing_to_scale_Glasgow_Sanchez.pdf -text
 IS/presentations/R2R_goingtoscale.pdf -text
-IS/presentations/Thumbs.db -text
-IS/presentations/VinsonAEA-10-26-12.pptx -text
+IS/presentations/Vinson-AEA-10-26-12-Using-REAIM.pdf -text svneol=unset#unset
 IS/publications.html -text
-IS/resources.html -text
-IS/slideshow_home.html -text
+IS/reports-factsheet.html -text
 IS/staff.html -text
-IS/word-ball.jpg -text
+IS/tools.html -text
+IS/training-education.html -text
 /OppNet_v2_org_cap.flv -text
 Scripts/AC_RunActiveContent.js -text
 Scripts/expressInstall.swf -text
@@ -266,7 +205,6 @@ brp/Scripts/expressInstall.swf -text
 brp/Scripts/swfobject_modified.js -text
 brp/about.html -text
 brp/about/career_training.html -text
-brp/apssymposium.html -text
 brp/archive_initiative.html -text
 brp/ati2004.pdf -text svneol=unset#unset
 brp/bbpsb/Scripts/expressInstall.swf -text
@@ -575,8 +513,8 @@ brp/constructs/worry/worry.pdf -text
 brp/crosstalk.html -text
 brp/decision-making.html -text
 brp/docs/APHALI2016[!!-~].pdf -text
+brp/docs/BBPSB-post-doc-CRTA-2014.pdf -text
 brp/docs/BRP_Fact_Sheet-acc.pdf -text
-brp/docs/CRTA_Announcement.pdf -text
 brp/docs/ELIFactSheet.pdf -text svneol=unset#unset
 brp/docs/Grants2005.pdf -text
 brp/docs/HCIRBPD.pdf -text
@@ -587,6 +525,11 @@ brp/docs/TRECBaselineSurvey.pdf -text
 brp/docs/TRECWrittenProductsProtocol.pdf -text svneol=unset#unset
 brp/docs/TTURCResearchSurvey.pdf -text svneol=unset#unset
 brp/docs/gem-factsheet.pdf -text
+brp/docs/sample[!!-~]application[!!-~]-rees_s508b.pdf -text
+brp/docs/sample[!!-~]application[!!-~]demark-wahnefried_s508a.pdf -text
+brp/docs/sample[!!-~]application[!!-~]miller_s508a.pdf -text
+brp/docs/sample[!!-~]application[!!-~]stepanov_s508a.pdf -text
+brp/docs/sample[!!-~]application[!!-~]wallace_s508b.pdf -text
 brp/docs/santafe_workshop_summaries.pdf -text
 brp/docs/vaccination_meta-analysis_5.0.pdf -text
 brp/e-newsletter/archive.html -text
@@ -610,6 +553,10 @@ brp/fab/index.html -text
 brp/funding-conf.html -text
 brp/funding-effects-bias.html -text
 brp/funding-journal-supplement.html -text
+brp/funding-opportunities.html -text
+brp/funding-peer-review.html -text
+brp/funding-preparing-grant.html -text
+brp/funding-sample-application.html -text
 brp/funding.html -text
 brp/gem.html -text
 brp/hbrb/Scripts/expressInstall.swf -text
@@ -806,7 +753,7 @@ brp/hcirb/slides/mootools-1.2-core.js -text
 brp/hcirb/slides/myslideshow.js -text
 brp/hcirb/slides/style.css -text
 brp/hcirb/social_media.html -text
-brp/health_theory_index.html -text
+brp/images/Geoffrey-Williams.jpg -text
 brp/images/Thumbs.db -text
 brp/images/banner-small1.jpg -text
 brp/images/banner-small2.jpg -text
@@ -818,19 +765,23 @@ brp/images/banner_screen3.jpg -text
 brp/images/banner_screen4.jpg -text
 brp/images/banner_screen5.jpg -text
 brp/images/banner_screen6.jpg -text
+brp/images/barbara-biesecker.jpg -text
 brp/images/funding-opportunity.jpg -text
 brp/images/funding_tile.jpg -text
 brp/images/gem_banner.jpg -text
 brp/images/gem_tile.jpg -text
+brp/images/jeannine-brant.jpg -text
 brp/images/k_mccaul-sm.jpg -text
 brp/images/k_mccaul.jpg -text
 brp/images/m_gerrard-sm.jpg -text
 brp/images/m_gerrard.jpg -text
 brp/images/nci-headquarters.jpg -text
+brp/images/paul-han.jpg -text
 brp/images/sabra_article.jpg -text
+brp/images/steven-katz.jpg -text
+brp/images/tricia-strusowski.jpg -text
 brp/images/woolley_sabra-sm.jpg -text
 brp/index.html -text
-brp/integrating_theories.html -text
 brp/key_initiatives.html -text
 brp/memoriam_sabra.html -text
 brp/pcrb/48342_520x220.swf -text
@@ -883,6 +834,11 @@ brp/pcrb/cyberseminar/NCI_MeasuringTeamworkNov2013.pdf -text
 brp/pcrb/cyberseminar/NIHNCICybersessionJune272012GODFREY.ppt -text
 brp/pcrb/cyberseminar/November_transcript.doc -text
 brp/pcrb/cyberseminar/PC36-27-2012MeetingTranscript.doc -text
+brp/pcrb/cyberseminar/PC3_Cyber_Discussion_Dr_Ricciardi.mp3 -text
+brp/pcrb/cyberseminar/PC3_Cyber_Discussion_Dr_Ricciardi.pdf -text
+brp/pcrb/cyberseminar/PC3_Cyber_Discussion_Dr_Ricciardi.wmv -text
+brp/pcrb/cyberseminar/PC3_Cyber_Discussion_Dr_Ricciardi_case_study.pdf -text
+brp/pcrb/cyberseminar/PC3_Cyber_Discussion_Dr_Ricciardi_transcript.pdf -text
 brp/pcrb/cyberseminar/SDM-Cyber-Discussion-04-03-13.pdf -text
 brp/pcrb/cyberseminar/Stephen-Humphrey-Slides.pdf -text
 brp/pcrb/cyberseminar/Stephen-Humphrey-transcript.pdf -text
@@ -969,6 +925,25 @@ brp/pcrb/slideshow_text.html -text
 brp/pcrb/team-based-measures.html -text
 brp/pcrb/team-cognition.html -text
 brp/pcrb/type.html -text
+brp/presentations/DCCPS_BPR_2014_Dr_Williams.pdf -text
+brp/presentations/DMSC_Speaker_Series_Biesecker.pdf -text
+brp/presentations/DMSC_Speaker_Series_Biesecker.wmv -text
+brp/presentations/DMSC_Speaker_Series_Biesecker_transcript.pdf -text
+brp/presentations/DMSC_Speaker_Series_Brant.wmv -text
+brp/presentations/DMSC_Speaker_Series_Dr_Brant.pdf -text
+brp/presentations/DMSC_Speaker_Series_Dr_Brant_transcript.pdf -text
+brp/presentations/DMSC_Speaker_Series_Dr_Geoffrey_Williams.wmv -text
+brp/presentations/DMSC_Speaker_Series_Dr_Geoffrey_Williams_Works_Cited.pdf -text
+brp/presentations/DMSC_Speaker_Series_Dr_Geoffrey_Williams_transcript.pdf -text
+brp/presentations/DMSC_Speaker_Series_Han.pdf -text
+brp/presentations/DMSC_Speaker_Series_Han.wmv -text
+brp/presentations/DMSC_Speaker_Series_Han_transcript.pdf -text
+brp/presentations/DMSC_Speaker_Series_Katz.pdf -text
+brp/presentations/DMSC_Speaker_Series_Katz.wmv -text
+brp/presentations/DMSC_Speaker_Series_Katz_transcript.pdf -text svneol=unset#unset
+brp/presentations/DMSC_Speaker_Series_Strusowski.pdf -text
+brp/presentations/DMSC_Speaker_Series_Strusowski.wmv -text
+brp/presentations/DMSC_Speaker_Series_Strusowski_transcript.pdf -text
 brp/presentations/cameron.pdf -text svneol=unset#unset
 brp/presentations/cappella.pdf -text
 brp/presentations/greenwald.pdf -text svneol=unset#unset
@@ -990,7 +965,6 @@ brp/presentations_1/Photos/OscarWeb.jpg -text
 brp/presentations_1/Photos/VishLadiesWeb.jpg -text
 brp/research_tools.html -text
 brp/resources.html -text
-brp/santafe_workshop_summaries.pdf -text
 brp/sci-res/ELIFactSheet.pdf -text svneol=unset#unset
 brp/sci-res/behavior.html -text
 brp/sci-res/docs/TRECBaselineSurvey.pdf -text
@@ -1057,7 +1031,6 @@ brp/scienceteam/presentations_day1.html -text
 brp/scienceteam/presentations_day2.html -text
 brp/scienceteam/systems.html -text
 brp/scienceteam/theoretical.html -text
-brp/slideshow_text.html -text
 brp/smallgrants/2009_annual_meeting.html -text
 brp/smallgrants/NCI_FinalEvaluation_15Dec05.pdf -text
 brp/smallgrants/about.html -text
@@ -1143,9 +1116,11 @@ brp/srtb/docs/NCI-Big-Data_Rivera_Dynamical_Systems_Modeling.pdf -text
 brp/srtb/docs/NCI-Big-Data_Rothman.pdf -text
 brp/srtb/docs/NCI-Big-Data_Spring-Dynamic-Interventions-to-NCI.pdf -text
 brp/srtb/docs/NCI-Big-Data_Tiro.pdf -text
+brp/srtb/docs/NCI_DCCPS_SRTB_Flyer.pdf -text svneol=unset#unset
+brp/srtb/docs/SRTB-Strategic-Goals.pdf -text
 brp/srtb/index.html -text
 brp/srtb/key_initiatives.html -text
-brp/state_theory_development.html -text
+brp/srtb/strategic-plan.html -text
 brp/stipend.html -text
 brp/style.css -text
 brp/tcrb/2ndICSTREPORTweb3.pdf -text svneol=unset#unset
@@ -1471,7 +1446,7 @@ brp/tcrb/monographs/2/m2_5.pdf -text svneol=unset#unset
 brp/tcrb/monographs/2/m2_6.pdf -text
 brp/tcrb/monographs/2/m2_7.pdf -text
 brp/tcrb/monographs/2/m2_8.pdf -text
-brp/tcrb/monographs/2/m2_ack.pdf -text
+brp/tcrb/monographs/2/m2_ack.pdf -text svneol=unset#application/octet-stream
 brp/tcrb/monographs/2/m2_complete.pdf -text
 brp/tcrb/monographs/2/m2_contents.pdf -text svneol=unset#unset
 brp/tcrb/monographs/2/m2_foreword.pdf -text
@@ -1972,6 +1947,7 @@ croyle-videos/Win[!!-~]Media[!!-~]Dialup/CentersD.wmv -text
 croyle-videos/Win[!!-~]Media[!!-~]Dialup/ChallengesD.wmv -text
 croyle-videos/Win[!!-~]Media[!!-~]Dialup/FocusD.wmv -text
 croyle-videos/Win[!!-~]Media[!!-~]Dialup/UnusualTimeD.wmv -text
+css/bootstrap-lightbox.min.css -text
 css/bootstrap-nci.css -text
 css/bootstrap-responsive.css -text
 css/bootstrap.css -text
@@ -2168,10 +2144,14 @@ images/blue_right.jpg -text
 images/blueminus.png -text
 images/blueplus.png -text
 images/branch_img.jpg -text
+images/breadcrumb-divider-is.png -text
 images/breadcrumb-divider-ocs.png -text
+images/breadcrumb-divider-parents-is.png -text
 images/breadcrumb-divider-parents-ocs.png -text
 images/breadcrumb-divider-parents.png -text
 images/breadcrumb-divider.png -text
+images/breast-cancer-genomic-type-thumb.gif -text
+images/breast-cancer-genomic-type.gif -text
 images/breast_imaging.jpg -text
 images/brp-tree.gif -text
 images/brp_staff.jpg -text
@@ -2304,6 +2284,7 @@ images/strat_assist_science.gif -text
 images/tagline.gif -text
 images/thepc_cover.gif -text
 images/tiny-arrow-ocs.png -text
+images/tiny-arrow-purple.png -text
 images/tiny-arrow-red.png -text
 images/tiny-arrow.gif -text
 images/tiny-arrow.png -text
@@ -2318,6 +2299,8 @@ images/twitter-icon.gif -text
 images/twitter-icon.png -text
 images/us_commit_global_health_cover.gif -text
 images/win-logo.gif -text
+images/wss-class-2012-thumbnail.jpg -text
+images/wss-class-2012.jpg -text
 includefile/SQLInjectionPrevention.asp -text
 includefile/SQLInputCheck.asp -text
 includes/footer.html -text
@@ -2328,6 +2311,7 @@ js/Omniture/WA_DCCPS_PageLoad.js -text
 js/Omniture/WA_DCCPS_post.js -text
 js/Omniture/WA_DCCPS_pre.js -text
 js/Omniture/s_code.js -text
+js/bootstrap.lightbox.min.js -text
 js/bootstrap.min.js -text
 js/holder.js -text
 js/html5shiv.js -text
@@ -2869,6 +2853,7 @@ od/view_sbs.html -text
 od/vision.html -text
 od/w_klein.html -text
 od/winn_cv.pdf -text
+pdf/Health-Disparities-Research-Contacts-in-DCCPS.pdf -text
 pdf/NCI_DCCPS_50_Ways.pdf -text
 pdf/ntrp0077.pdf -text
 /pie.htc -text

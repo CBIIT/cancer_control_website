@@ -2,9 +2,10 @@
 #main-container #header-search { display:none; }
 .navbar { display:none; }
 #sidebar {display:none; }
-footer { display:none; }
+footer, .bottom-border, .row-fluid .footer-box { display:none; }
+
 .breadcrumb { display:none; }
 
-.row-fluid .span9 { width:100% }
+.row-fluid .span9 { width:100%; font-size:.9em }
 #main-container { box-shadow:none; }
 

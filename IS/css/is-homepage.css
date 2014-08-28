@@ -1,0 +1,364 @@
+
+    /* GLOBAL STYLES
+    -------------------------------------------------- */
+    /* Padding below the footer and lighter body text */
+
+    body {
+      padding-bottom: 40px;
+      color: #5a5a5a;
+    }
+
+    /* CUSTOMIZE THE CAROUSEL
+    -------------------------------------------------- */
+
+    /* Carousel base class */
+    .carousel {
+      margin-bottom: 60px;
+	  border: 1px solid #CCCCCC;
+    }
+
+    .carousel-caption {
+      width:60%;
+      margin-left:auto;
+      margin-right:auto;
+      padding-top:25px;
+      padding-bottom:25px;
+      background: rgba(0, 0, 0, 0.40)
+    }
+
+    .carousel-caption p {
+      line-height: 30px;
+      padding-left:20px;
+    }
+
+    .carousel-control {
+      height: 80px;
+      margin-top: 0;
+      font-size: 120px;
+      text-shadow: 0 1px 1px rgba(0,0,0,.4);
+      background-color: transparent;
+      border: 0;
+      z-index: 10;
+    }
+
+    .carousel img.splash{
+      top: 0;
+      left: 0;
+      min-width: 100%;
+      height: 410px;
+    }
+	#carouselButtons {
+	  margin-left: 40px;
+	}
+
+	.navbar {
+	  margin-bottom:0;
+	}
+
+    /* MAIN CONTENT
+    -------------------------------------------------- */
+
+    #myCarousel {
+      margin: 10px -20px 0 0;
+    }
+	
+	.publications {
+		border: 1px solid #CCCCCC;
+    	padding: 0 10px;
+		margin-top: 10px;
+		margin-left: 5px;
+	}
+	
+	.publications h2 {
+		background-color: #6C3A77;
+    	color: #FFFFFF;
+    	font-family: Helvetica,Arial,"Lucida Grande",sans-serif;
+    	font-size: 1.4em;
+    	font-weight: 600;
+    	padding: 0 15px;
+		text-align: center;
+	}
+	
+	.publications p.document {
+		background-image: url(../../images/featured-icon.png);
+    	background-repeat: no-repeat;
+    	padding-left: 20px;
+		padding-top: 0;
+	}
+			
+	.publications .publications-row {
+		border-bottom: 1px solid #CCCCCC;
+		display: inline-block;
+		margin-bottom: 10px;
+		width: 100%;
+		padding-bottom: 5px;
+	}
+		
+	.content-bottom .subsection a.document {
+		background-image: url(../../images/featured-icon.png);
+    	background-repeat: no-repeat;
+    	padding-left: 20px;
+	}
+	
+	.news {
+    	color: #A90101;
+    	font-family: Helvetica,Arial,"Lucida Grande",sans-serif;
+    	font-size: 1.5em;
+		text-align: center;
+		padding-bottom: 10px;
+		margin-bottom: 20px;
+	}
+	
+	.content-bottom {
+		margin-top: -260px;
+		margin-bottom: 20px;
+		clear: none;
+	}
+	
+	.content-bottom .subsection .span6 {
+		width: 47%;
+	}
+	
+	.front-text {
+		color: #000000;
+		margin-top: 20px;
+	}
+	
+	.puds .content-bottom .subsection {
+		padding: 15px 15px 100px 15px;
+	}
+	
+    /* Featurettes
+    ------------------------- */
+
+    .featurette-divider {
+      /* margin: 80px 0;  Space out the Bootstrap <hr> more */
+    }
+    .featurette {
+      padding-top: 120px; /* Vertically center images part 1: add padding above and below text. */
+      overflow: hidden; /* Vertically center images part 2: clear their floats. */
+    }
+    .featurette-image {
+      margin-top: -120px; /* Vertically center images part 3: negative margin up the image the same amount of the padding to center it. */
+    }
+
+    /* Give some space on the sides of the floated elements so text doesn't run right into it. */
+    .featurette-image.pull-left {
+      margin-right: 40px;
+    }
+    .featurette-image.pull-right {
+      margin-left: 40px;
+    }
+
+    /* Thin out the main content headings */
+    .featurette-heading {
+      font-size: 50px;
+      font-weight: 300;
+      line-height: 1;
+      letter-spacing: -1px;
+    }
+	
+	.content-top {
+	    background-color: #ECECEC;
+    	border: 1px solid #CCCCCC;
+   		padding: 10px;
+	}
+	
+	.content-end {
+	    background-color: #ECECEC;
+    	border: 1px solid #CCCCCC;
+   		padding: 10px;
+	}
+	
+	.triple-back {
+	    background-color: #FFFFFF;
+   		border: 1px solid #CCCCCC;
+    	padding: 15px 15px 0 15px;
+	}
+	
+	[data-scribe="element:screen_name"] {
+		margin-right: 10px;
+	}
+	
+	.know {
+		clear: left;
+	}
+	.featured-items .list-pad {
+	padding-bottom: 10px;
+	}
+	.tools-img {
+		padding:2px;
+	}
+	.content-bottom .featured-items .is-tools a {
+		background-image: none;
+	}
+	.is-tools {
+		margin-left: -30px;
+	}
+
+    /* RESPONSIVE CSS
+    -------------------------------------------------- */
+	@media (min-width: 1200px) {
+		.content-end {
+		height: 255px; 
+		margin-bottom: 15px;
+	  }
+	  .content-end .triple-back {
+		height:  255px;
+	  }
+	}
+
+    @media (max-width: 1200px) {
+	  .publications {
+		margin-left: 10px; 
+	  }
+	  .carousel img.splash, .carousel .item {
+		height: 380px; 
+	  }
+	.content-bottom {
+		margin-top: -450px;
+	}
+	.content-end {
+		min-height: 235px; 
+		margin-bottom: 15px;
+	  }
+	  .content-end .triple-back {
+		min-height:  235px;
+	  }
+	}
+	
+	@media (max-width: 979px) {
+
+      .container.navbar-wrapper {
+        margin-bottom: 0;
+        width: auto;
+      }
+      .navbar-inner {
+        border-radius: 0;
+      }
+
+      .carousel .item {
+        height: 260px;
+      }
+      .carousel img.splash {
+        width: auto;
+        height: 260px;
+      }
+      .carousel-caption {
+        width:70%;
+      }
+
+      .featurette {
+        height: auto;
+        padding: 0;
+      }
+      .featurette-image.pull-left,
+      .featurette-image.pull-right {
+        display: block;
+        float: none;
+        max-width: 40%;
+        margin: 0 auto 20px;
+      }
+	  .publications {
+		margin-left: 10px; 
+	  }
+	  .publications img {
+		display: none; 
+	  }
+	  .publications p {
+		padding-left: 0; 
+	  }
+	.content-bottom {
+		margin-top: -910px;
+	}
+	}
+
+    @media (max-width: 767px) {
+      .carousel .item {
+        height: 330px;
+      }
+      .carousel img.splash {
+        height: 330px;
+      }
+      .carousel-caption {
+        width: 100%;
+        padding: 0 70px;
+        margin-top: 25px;
+      }
+      .carousel-caption p {
+        padding-left:0px;
+        padding-right:100px;
+      }
+      .carousel-caption h1 {
+        font-size: 30px;
+      }
+      .carousel-caption .lead,
+      .carousel-caption .btn {
+        font-size: 18px;
+      }
+      .carousel-control {
+        height: 80px;
+        padding-bottom:70px;
+        margin-top: -70px;
+        font-size: 120px;
+        text-shadow: 0 1px 1px rgba(0,0,0,.4);
+        background-color: transparent;
+        border: 0;
+        z-index: -10;
+      }
+      .carousel .btn {
+        margin-bottom:10px;
+      }
+	  #carouselButtons {
+	  margin-left: 0px;
+	  }
+
+      .featurette-heading {
+        font-size: 30px;
+      }
+      .featurette .lead {
+        font-size: 18px;
+        line-height: 1.5;
+      }
+	  .publications {
+		margin-left: 0; 
+		padding-bottom: 40px;
+	  }
+	  .publications img {
+		display: block;
+	  }
+	  .publications p {
+		padding-left: 70px; 
+	  }
+	  .content-bottom {
+		margin-top: 10px;  
+	  }
+	  .content-end {
+	    /*height: 635px;*/
+		margin-bottom: 30px;
+	  }
+    }
+	@media (min-width: 768px) and (max-width: 979px) {
+		.content-end {
+	    height: 250px;
+		margin-bottom: 15px;
+	  }
+	  .content-end .triple-back {
+		height:  250px;
+	  }
+	}
+	@media (max-width: 670px) {
+	  .carousel img.splash, .carousel .item {
+		height: 300px; 
+	  }
+	}
+	@media (max-width: 550px) {
+	  .carousel img.splash, .carousel .item {
+		height: 250px; 
+	  }
+	}
+	@media (max-width: 480px) {
+	  .carousel img.splash, .carousel .item {
+		height: 200px; 
+	  }
+	}
