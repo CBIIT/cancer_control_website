@@ -19,7 +19,7 @@
     <link href="../css/bootstrap-responsive.css" rel="stylesheet">
     <link href="../css/bootstrap-nci.css" rel="stylesheet">
     <link type="text/css" media="screen" rel="stylesheet" href="css/is-style.css" />
-
+    <link href="../css/print.css" rel="stylesheet" media="print" />
 
     <!-- HTML5 shim, for IE6-8 support of HTML5 elements -->
     <!--[if lt IE 9]>
