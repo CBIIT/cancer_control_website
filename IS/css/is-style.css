@@ -117,7 +117,7 @@
 	padding-left: 0;
 	line-height: 1.2
 }
-#content h1, #content h2, #content h3 {
+#content h1, #content h2, #content h3, #content h4 {
 	color: #6C3A77;
 }
 #main-container .breadcrumb li.active {
