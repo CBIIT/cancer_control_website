@@ -521,6 +521,11 @@ brp/docs/HCIRBPD.pdf -text
 brp/docs/Memoriam_SabraWooley.pdf -text
 brp/docs/Methods-Theory-Technology-Fellowship-at-the-NCI.pdf -text
 brp/docs/Program-Director-Position-in-Process-of-Care.pdf -text
+brp/docs/SGA_8568274.pdf -text
+brp/docs/SGA_8619527.pdf -text
+brp/docs/SGA_8689989.pdf -text
+brp/docs/SGA_8703646.pdf -text
+brp/docs/SGA_8729472.pdf -text
 brp/docs/TRECBaselineSurvey.pdf -text
 brp/docs/TRECWrittenProductsProtocol.pdf -text svneol=unset#unset
 brp/docs/TTURCResearchSurvey.pdf -text svneol=unset#unset
@@ -947,6 +952,9 @@ brp/presentations/DMSC_Speaker_Series_Han_transcript.pdf -text
 brp/presentations/DMSC_Speaker_Series_Katz.pdf -text
 brp/presentations/DMSC_Speaker_Series_Katz.wmv -text
 brp/presentations/DMSC_Speaker_Series_Katz_transcript.pdf -text svneol=unset#unset
+brp/presentations/DMSC_Speaker_Series_Malik.pdf -text
+brp/presentations/DMSC_Speaker_Series_Malik.wmv -text
+brp/presentations/DMSC_Speaker_Series_Malik_transcript.pdf -text
 brp/presentations/DMSC_Speaker_Series_Strusowski.pdf -text
 brp/presentations/DMSC_Speaker_Series_Strusowski.wmv -text
 brp/presentations/DMSC_Speaker_Series_Strusowski_transcript.pdf -text
@@ -2247,6 +2255,8 @@ images/minus.gif -text
 images/mlist1.gif -text
 images/mlist3.gif -text
 images/mm_spacer.gif -text
+images/national-expenditures-between-2010-2020-thumb.png -text
+images/national-expenditures-between-2010-2020.png -text
 images/nav-header-dash.jpg -text
 images/new.gif -text
 images/nih-fda_tile.gif -text
