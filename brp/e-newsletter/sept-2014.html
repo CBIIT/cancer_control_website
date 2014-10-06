@@ -1,0 +1,475 @@
+﻿<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    
+  <title>DCCPS: BRP: Health Communication and Informatics Research Branch</title>
+  <!-- meta tags-->
+  <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+  <!--external style sheets-->
+  <link href="../style.css" type="text/css" rel="stylesheet" /> 
+  <link href="../../style.css" type="text/css" rel="stylesheet" /> 
+  <script src="../Scripts/swfobject_modified.js" type="text/javascript"></script>
+  <script src="../../toggle.js" type="text/javascript"></script>
+  
+  <!-- additional style -->
+  <!--[if IE]>
+  <style>
+    ul.mlist2 li ul { margin: -14px 20px 0 0; }
+  </style>
+  <![endif]-->  
+  <link rel="stylesheet" href="slides/style.css" type="text/css" media="screen" />
+  <style type="text/css">
+   p { margin-top:1em; margin-bottom:1em; }  
+  </style>
+  
+  <script type="text/javascript" src="slides/mootools-1.2-core.js"></script>
+  <script language="JavaScript" type="text/javascript">
+function Validate()
+{
+	return false;
+}
+
+function SendToLyris()
+{
+  if (document.frm_SubScribe.TXT_Email.value == '')
+  {
+    alert ('You must enter an email address');
+    return false;
+  }
+  
+    apos=document.frm_SubScribe.TXT_Email.value.indexOf("@");
+  dotpos=document.frm_SubScribe.TXT_Email.value.lastIndexOf(".");
+  if (apos<1||dotpos-apos<2)
+    {
+		alert("You must enter a valid email address");
+    	return false;
+	}
+
+
+  if (document.frm_SubScribe.RD_SubScribe[0].checked)
+  {
+	  document.frm_SubScribe_LYRIS.email.value = document.frm_SubScribe.TXT_Email.value;
+    document.forms.frm_SubScribe_LYRIS.submit()
+
+
+  }
+  else if (document.frm_SubScribe.RD_SubScribe[1].checked)
+  {
+	  document.frm_UNSub_LYRIS.email.value = document.frm_SubScribe.TXT_Email.value;
+    document.forms.frm_UNSub_LYRIS.submit()
+	  
+  }
+  else 
+  {
+	  alert("You must select subscribe or unsubscribe");
+  }
+//  return false;
+}
+
+
+</script>
+  
+</head>
+
+<body>
+<div id="skipmenu">
+<a href="#skip" class="skippy">Skip Navigation</a>
+<a name="top"></a>
+</div> <!-- end skipmenu -->
+<div id="wrapper">
+<!-- NCI Banner -->
+  <div id="head-row1"><img src="../../images/dccps-banner2.gif" alt="National Cancer Institute" width="1000" height="40" usemap="#Map" /></div>
+<!-- end of NCI Banner -->
+
+<!-- DCCPS Banner / Search Field -->
+  <div id="head-row2-brp">
+	<div id="left2"><a href="../index.html"><img src="../../images/banner-brp.jpg" alt="Behavioral Research - Cancer Control and Population Sciences" width="730" height="70" /></a></div>
+    
+    <div id="brpright2">
+	  <div id="brpnorth">
+      <a href="http://twitter.com/NCICancerCtrl" title="Twitter">Twitter<img src="../../images/twitter-icon.png" title="Twitter" alt="Twitter" width="20" height="20" /></a> <a href="/exit_disclaimer.html"><img src="/images/Icon_External_Link.png" width="12" height="12" alt="exit disclaimer" /></a>
+      <a href="/cr-communication-videos.html" title="Multimedia">Multimedia<img src="../../images/media-icon.gif" title="Multimedia" alt="Multimedia" width="20" height="20" /></a></div>
+      <form method="get" action="http://search2.google.cit.nih.gov/search" name="search">
+	    <input type="hidden" name="site" value="DCCPS" />
+	    <input type="hidden" name="client" value="DCCPS_frontend" />
+	    <input type="hidden" name="proxystylesheet" value="DCCPS_frontend" />
+	    <input type="hidden" name="output" value="xml_no_dtd" />
+	    <input type="hidden" name="filter" value="0" />
+	    <input type="hidden" name="getfields" value="*" />
+	    <label for="searchbox"><input id="searchbox" type="text" name="q" size="15" maxlength="255" class="htextf" value="Search" /></label>
+	    <input type="image" src="../../images/hbutton.gif"  class="hbutton" name="btnG" id="btnG" alt="Search" />
+	  </form><br class="clearfloat" />
+    </div><br class="clearfloat" />
+  </div>
+  <!-- End of DCCPS Banner / Search Field -->
+  <div id="navigation">
+  <ul>
+  	<li><a href="../index.html">Home</a></li>
+    <li><a href="../about.html">About</a></li>
+    <li><a href="../key_initiatives.html">Key Initiatives</a></li>
+    <li><a href="../funding.html">Funding</a></li>
+    <li><a href="../resources.html">Resources</a></li>
+    <li><a href="../research_tools.html">Tools</a></li>
+  </ul>
+    </div>
+    <!-- Main Content -->
+  <div id="mainarea">
+  <!-- Left Column // DCCPS Link / Need Help Banner --><!-- End of Left Column // DCCPS Link  -->
+    
+    <!-- Middle Column // Content Area-->
+    <div id="column-mid1" class="science-news">
+    <div class="content">
+    <a name="skip"></a>
+    <h1>Scientific    News from the Behavioral Research Program (BRP)<!--<br />
+          <span>September 2014</span>--></h1>
+<p><img width="165" height="228" src="/brp/e-newsletter/images/srtb.jpg" alt="srtb" style="float:right;" /></p>
+<h2 id="forward">Foreword  from Richard Moser and William Riley, Science of Research and Technology</h2>
+      <p>The <a href="/brp/srtb/index.html">Science of    Research and Technology Branch (SRTB)</a> is the newest branch in the <a href="/brp/index.html">Behavioral Research    Program</a> (BRP) at the National Cancer Institute (NCI). The mission of SRTB    is to lead and support the development and application of innovative research    approaches, theories, methods, measures, analytic tools, and technologies to    advance social and behavioral science in the context of cancer prevention and    control. The priorities of SRTB are:</p>
+      <ul style="margin-left:2em;">
+        <li>Theory         development, testing, and application;</li>
+        <li>Measure         development and testing, particularly of antecedents to, changes in, and         consequences of health behavior;</li>
+        <li>Technology         development and application;</li>
+        <li>Methodological         innovation, particularly in analytic approaches;</li>
+        <li>Data         harmonization and research synthesis; and</li>
+        <li>Team         science and cross-disciplinary approaches.</li>
+      </ul>
+<p>To address these priorities, SRTB provides support for    research initiatives, grants, workshops, training programs, and various    research resources.  To  learn more about SRTB, please visit: <a href="/brp/srtb/index.html">http://cancercontrol.cancer.gov/brp/srtb/index.html</a></p>
+<h2 id="funding">Funding  Opportunities</h2>
+<p id="sample"><a href="/brp/funding-sample-application.html"><strong>Sample Cancer Behavioral Research Grant Applications</strong></a><strong> </strong><br />
+Program Directors frequently receive requests from investigators for examples of successfully funded grant  applications. The BRP is grateful to several investigators for providing a <a href="/brp/funding-sample-application.html">Sample  Grant Application</a> as an excellent example of  grantsmanship  in behavioral research. </p>
+<table width="100%" cellspacing="0" cellpadding="3" border="1" title="Principle BRP Investigators">
+    	<thead style="text-align: center; background: #E9E9E9;">
+    		<tr>
+    		<th colspan="2">Principal Investigator(s)</th>
+            <th>Grant Award Number
+  & Grant Application
+</th>
+            <th>Title of Project</th>
+          </thead>
+        <tbody style="text-align: center;">
+        	<tr>
+        	  <td valign="top"><img src="/brp/images/judy-rees.jpg" alt="Judy R. Rees" width="120" height="120" /></td>
+        	  <td><a href="http://staffprofiles.cancer.gov/brp/granteeProfile.do?contactId=22545693&grpId=52812">Judy R. Rees, BM, BCh, MPH, PhD<br />
+      	    </a>Dartmouth College</td>
+                <td><p>1R03CA178272-01</p>
+                <p><a href="docs/sample application -rees_s508b.pdf">View Grant Application</a></p></td>
+                <td>Participant beliefs and bias in a randomized controlled trial<br />
+                  <a href="http://projectreporter.nih.gov/project_info_description.cfm?aid=8692707&amp;icde=21241581&amp;ddparam=&amp;ddvalue=&amp;ddsub=&amp;cr=1&amp;csb=default&amp;cs=ASC">View Abstract</a></td>
+            </tr>
+        	<tr>
+        	  <td valign="top"><img src="/brp/images/wendy-demark-wahnefried.jpg" alt="Wendy Demark-Wahnefried" width="120" height="120" /></td>
+        	  <td><a href="http://staffprofiles.cancer.gov/brp/granteeProfile.do?contactId=22542726&grpId=52811">Wendy Demark-Wahnefried, PhD</a><br />
+       	      University of Alabama at Birmingham</td>
+                <td><p>1R21CA182508-01</p>
+                <p><a href="docs/sample application demark-wahnefried_s508a.pdf">View Grant Application</a></p></td>
+                <td>Vegetable garden feasibility trial to promote function in older cancer survivors<br />
+                  <a href="http://projectreporter.nih.gov/project_info_description.cfm?aid=8619527&amp;icde=20841370&amp;ddparam=&amp;ddvalue=&amp;ddsub=&amp;cr=1&amp;csb=default&amp;cs=ASC">View Abstract</a></td>
+            </tr>
+        	<tr>
+        	  <td valign="top"><img src="/brp/images/mark-wallace.jpg" alt="Mark T. Wallace" width="120" height="120" /></td>
+        	  <td><a href="http://staffprofiles.cancer.gov/brp/granteeProfile.do?contactId=22542111&grpId=52812">Mark T. Wallace,  PhD</a><br />
+       	      Vanderbilt University</td>
+                <td><p>1R21CA183492-01</p>
+                <p><a href="docs/sample application wallace_s508b.pdf">View Grant Application</a></p></td>
+                <td>Multisensory Processing Across Lifespan and Links to Cognition<br />
+                  <a href="http://projectreporter.nih.gov/project_info_description.cfm?aid=8576040&amp;icde=20855019&amp;ddparam=&amp;ddvalue=&amp;ddsub=&amp;cr=1&amp;csb=default&amp;cs=ASC">View Abstract</a></td>
+            </tr>
+        	<tr>
+        	  <td valign="top"><img src="/brp/images/irina-stepanov.jpg" alt="Irina Stepanov" width="120" height="120" /></td>
+        	  <td><a href="http://staffprofiles.cancer.gov/brp/granteeProfile.do?contactId=22546771&grpId=52814">Irina Stepanov, PhD</a><br />
+       	      University of Minnesota</td>
+                <td><p>1R01CA179246-01</p>
+                <p><a href="docs/sample application stepanov_s508a.pdf">View Grant Application</a></p></td>
+                <td>Constituent yields and biomarkers of exposure for tobacco product regulation<br />
+                  <a href="http://projectreporter.nih.gov/project_info_description.cfm?aid=8574995&amp;icde=20854459&amp;ddparam=&amp;ddvalue=&amp;ddsub=&amp;cr=1&amp;csb=default&amp;cs=AS">View Abstract</a></td>
+            </tr>
+        	<tr>
+        	  <td valign="top"><img src="/brp/images/david-miller.jpg" alt="David P. Miller" width="120" height="120" /></td>
+        	  <td><a href="http://staffprofiles.cancer.gov/brp/granteeProfile.do?contactId=22545618&grpId=52809">David P. Miller, MD, MS</a><br />
+       	      Wake Forest School of Medicine</td>
+                <td><p>1R01CA178941-01</p>
+                <p><a href="docs/sample application miller_s508a.pdf">View Grant Application</a></p></td>
+                <td>A Primary Care Multilevel mHealth Colorectal Cancer Screening (mCRC) Intervention<br />
+                  <a href="http://projectreporter.nih.gov/project_info_description.cfm?aid=8689989&amp;icde=20840168&amp;ddparam=&amp;ddvalue=&amp;ddsub=&amp;cr=1&amp;csb=default&amp;cs=ASC">View Abstract</a></td>
+            </tr>
+        </tbody>
+    </table>
+<h3 id="outstanding"><br />Outstanding Investigator Award</h3>
+<p>NCI  recently announced the <a href="http://grants.nih.gov/grants/guide/pa-files/PAR-14-267.html">Outstanding  Investigator Award (PAR-14-267)</a>. The award gives investigators with  outstanding records of productivity in cancer research the freedom to embark on  long-term projects of unusual potential in cancer research, the opportunity to  take greater risks and be more adventurous in their lines of inquiry, and  sufficient time to develop new techniques.</p>
+<p>Funded  investigators will receive up to $600,000 in direct costs per year for up to seven  years to provide funding stability. NCI anticipates making about 50 awards  annually.</p>
+<p>The  Outstanding Investigator Award is intended to provide extended funding  stability and encourage investigators to embark on projects of unusual  potential in cancer research. The research projects should break new ground or  extend previous discoveries toward new directions of applications that may lead  to a breakthrough that will advance biomedical, behavioral, or clinical cancer  research.  Further details, including <a href="http://www.cancer.gov/researchandfunding/funding/announcements/oia-faq?cid=EBoia_gen">frequently  asked questions</a>, are available <a href="http://www.cancer.gov/researchandfunding/funding/announcements/oia?cid=EBoia_gen">online</a>.   </p>
+<h3 id="current">Current Funding Opportunities</h3>
+<p>The following list highlights some  of the ongoing research initiatives relevant to behavioral medicine at NIH. A  full list of current BRP <a href="/funding_apply.html#brp">Funding Opportunity Announcements</a> can be found online.</p>
+
+<table border="1" cellspacing="0" cellpadding="0" width="100%" title="BRP Funding Opportunities">
+  <tr>
+    <th>Title</th>
+    <th style="width:120px;">Announcement #</th>
+    <th style="width:135px;">Expiration Date</th>
+    <th>BRP Contact</th>
+  </tr>
+  <tr>
+    <td><p>Fundamental Mechanisms of    Affective and Decisional Processes in Cancer Control </p></td>
+    <td><p><a href="http://grants.nih.gov/grants/guide/pa-files/PAR-14-067.html" target="_blank">PAR-14-067</a>&nbsp;(U01) </p></td>
+    <td><p>October 15, 2016 </p></td>
+    <td><p><a href="http://staffprofiles.cancer.gov/brp/prgmStaffProfile.do?contactId=1439021&amp;bioType=stf" target="_blank">Rebecca Ferrer</a><br />
+      240-276-6914&nbsp;<br />
+      <a href="mailto:rebecca.ferrer@nih.gov" target="_blank">rebecca.ferrer@nih.gov</a></p></td>
+  </tr>
+  <tr>
+    <td><p>Physical activity and weight    control interventions among cancer survivors: Effects on biomarkers of    prognosis and survival </p></td>
+    <td><p><a href="http://grants.nih.gov/grants/guide/pa-files/PAR-12-228.html" target="_blank">PAR-12-228</a> (R01) <br />
+      <a href="http://grants.nih.gov/grants/guide/pa-files/PAR-12-229.html" target="_blank">PAR-12-229</a> (R21) </p></td>
+    <td><p>September 8, 2015 </p></td>
+    <td><p><a href="http://staffprofiles.cancer.gov/brp/prgmStaffProfile.do?contactId=16856731&amp;bioType=stf" target="_blank">Catherine Alfano</a> <br />
+      240-276-6736<br />
+      <a href="mailto:Catherine.alfano@nih.gov" target="_blank">Catherine.alfano@nih.gov</a></p></td>
+  </tr>
+  <tr>
+    <td><p>Accelerating the Pace of    Drug Abuse Research Using Existing Data </p></td>
+    <td><p><a href="http://grants.nih.gov/grants/guide/pa-files/PAR-13-080.html" target="_blank">PAR-13-080</a>&nbsp;(R01) </p></td>
+    <td><p>January 8, 2016 </p></td>
+    <td><p><a href="http://staffprofiles.cancer.gov/brp/prgmStaffProfile.do?contactId=8539&amp;bioType=stf" target="_blank">Erik Augustson</a><br />
+      240-276-6774 <br />
+      <a href="mailto:augustse@mail.nih.gov" target="_blank">augustse@mail.nih.gov</a></p></td>
+  </tr>
+  <tr>
+    <td><p>Exploratory Studies of    Smoking Cessation Interventions for People with Schizophrenia </p></td>
+    <td><p><a href="http://grants.nih.gov/grants/guide/pa-files/PAR-14-230.html" target="_blank">PAR-14-230</a> (R21) <br />
+      <a href="http://grants.nih.gov/grants/guide/pa-files/PAR-14-231.html" target="_blank">PAR-14-231</a> (R33) </p></td>
+    <td><p>April 18, 2017 </p></td>
+    <td><p><a href="http://staffprofiles.cancer.gov/brp/prgmStaffProfile.do?contactId=1439530&amp;bioType=stf" target="_blank">Yvonne Hunt</a> <br />
+      240-276-6975 <br />
+      <a href="mailto:huntym@mail.nih.gov" target="_blank">huntym@mail.nih.gov</a></p></td>
+  </tr>
+</table>
+<p>The NCI <a href="/brp/hcirb/social_media.html">Health  Communication and Informatics Research Branch</a> recently led two funding  opportunities on social media and addiction.&nbsp; The research initiative,&nbsp;<em>Using  Social Media to Understand and Address Substance Use and Addiction</em>&nbsp;[<a href="http://grants.nih.gov/grants/guide/rfa-files/RFA-CA-14-008.html">RFA-CA-14-008</a> (R01) &amp;&nbsp;<a href="http://grants.nih.gov/grants/guide/rfa-files/RFA-CA-14-009.html">RFA-CA-14-009</a>&nbsp;(R21)] is funded as part of&nbsp;Collaborative  Research on Addiction at NIH,&nbsp;a trans-NIH  partnership with the National Institute on Alcohol Abuse and Alcoholism (NIAAA)  and the National Institute on Drug Abuse (NIDA). The funding plan was approved  by NCI Scientific Program Leadership in July 2014, and grant awards will be  made this fall.</p>
+<p>BRP funds a large portfolio of grants and  contracts. The portfolio currently includes more than <a href="http://maps.cancer.gov/overview/fydetails.jsp?fy=2012&amp;divisionId=1&amp;programId=3">330  grants valued at more than $166 million</a>. Major funding areas include  research project grants, Cancer Funding Centers and Centers of Excellence, and Research  &amp; Development contracts. Although many investigator-initiated (unsolicited)  applications are received for new, expanded, and/or high-priority programs, BRP  may also support grant applications through Program Announcements or Requests  for Applications in specific areas of interest. <a href="http://staffprofiles.cancer.gov/brp/prgmStaffList.do?listType=stf">BRP  Program Directors</a> can advise you throughout the application process from  development of your idea through submission and review.</p>
+<h2 id="staffing">Staffing Announcements</h2>
+<p>The <a href="http://www.jobs.nih.gov/vacancies/executive/obssrd.htm">Office of Behavioral and Social Science Research</a> is  seeking a new Director who would function as the NIH Associate Director for  Behavioral and Social Science Research. Applications are due to <a href="mailto:mccrayad@od.nih.gov">Adia McCray</a> by October 30, 2014. A full list of BRP <a href="/brp/career_training.html">Fellowship and Career Postings</a> can be found online.</p>
+<div style="float:left; width:100px; border:thin solid #ccc; margin:10px; padding:5px; font-size:9px;"><img src="/brp/e-newsletter/images/rachel-grana.jpg" alt="Dr. Rachel Grana" width="90" height="90" style="padding-left:8px; padding-right:5px;" /></div>
+<p id="newest"><strong><br />
+  Please join us in welcoming our newest  member to the BRP team!</strong></p>
+<p><a href="http://staffprofiles.cancer.gov/brp/prgmStaffProfile.do?contactId=22444270&amp;bioType=stf">Dr. Rachel Grana</a>, PhD, MPH, is a new Program Director in the <a href="/brp/tcrb/">Tobacco Control Research Branch</a> (TCRB) within the BRP of the <a href="/brp/tcrb/">Division of Cancer Control and Population  Sciences (DCCPS)</a>. Grana&rsquo;s research interests lie in  examining behavioral factors associated with smoking and cessation and the  phenomena of dual and polyuse of tobacco products, including novel products such as electronic-cigarettes.</p>
+<br clear="both"/>
+<div style="float:left; width:100px; border:thin solid #ccc; margin:10px; margin-bottom:50px; padding:5px; font-size:9px;"><img src="/brp/e-newsletter/images/abby-prestin.jpg" alt="Dr. Abby Prestin" width="90" height="90" style="padding-left:8px; padding-right:5px;" />
+</div>
+<p><strong>
+  In Memoriam</strong></p>
+<p> This past month, the BRP  lost a dear friend  and colleague. Dr. Abby Prestin was a former Fellow in the Health  Communication and Informatics Research Branch, and more recently, a key  collaborator in tobacco product regulation. Part of her journey was covered by  the <a href="http://www.washingtonpost.com/national/health-science/she-was-studying-cancers-effects-on-people-then-she-got-lymphoma/2014/03/31/c5dbec22-b91f-11e3-9a05-c739f29ccb08_story.html">Washington  Post</a> <a href="/exit_disclaimer.html"><img src="/images/Icon_External_Link.png" width="12" height="12" alt="exit disclaimer" /></a> this past spring.</p>
+<p>&ldquo;Dr. Prestin&rsquo;s contributions in communication and  psychological influence in cancer control will have a lasting impact on public  health. Abby&rsquo;s brilliant spirit and friendship has also made a lasting  impression on those of us who were fortunate to know her.&rdquo; ~ Bradford Hesse,  Branch Chief and former mentor. </p>
+<h2 style="clear:both;" id="advances">Scientific   Advances</h2>
+<h3 id="cravings" style="clear:both;">Smokers May Get Cravings With  E-Cigarettes</h3>
+<p>In a study  supported by NCI and published online in<a href="http://tobaccocontrol.bmj.com/content/early/2014/05/21/tobaccocontrol-2014-051563.full"> <em>Tobacco  Control</em></a>, <a href="/exit_disclaimer.html"><img src="/images/Icon_External_Link.png" width="12" height="12" alt="exit disclaimer" /></a> researchers  examined whether exposure to someone using an electronic cigarette  (e-cigarette) or a combustible cigarette would cue the desire and urge to smoke  a combustible cigarette in a sample of young adult daily combustible cigarette  smokers. They found that exposure to a person using an e-cigarette increased  the desire to smoke a combustible cigarette. Exposure to someone smoking a  combustible cigarette also increased the desire to smoke a combustible  cigarette, as expected. The study is of importance, as e-cigarette use has been  increasing among both adults and youth, and likely increasing numbers of people  are observing the behavior. It is important to recognize that simply seeing  e-cigarette use might promote combustible cigarette smoking behavior among  young adult smokers. </p>
+<p><strong>Reference</strong>: King, A. C.,  et al. (2014). Passive exposure to electronic cigarette (e-cigarette) use  increases desire for combustible and e-cigarettes in young adult smokers. <em>Tobacco  Control</em>, Published Online First: [July 29 2014] doi:  10.1136/tobaccocontrol-2014-051563</p>
+<h3 id="surviving">More Americans Surviving Cancer</h3>
+<p>An article published by <a href="http://www.cbsnews.com/news/more-americans-surviving-cancer-than-ever-before/">CBS News</a> <a href="/exit_disclaimer.html"><img src="/images/Icon_External_Link.png" width="12" height="12" alt="exit disclaimer" /></a> cites NCI&rsquo;s <a href="http://seer.cancer.gov/">Surveillance, Epidemiology, and End Results  Program (SEER)</a> data and a DCCPS-funded study in <a href="http://onlinelibrary.wiley.com/doi/10.1002/cncr.28607/abstract"><em>Cancer</em></a> <a href="/exit_disclaimer.html"><img src="/images/Icon_External_Link.png" width="12" height="12" alt="exit disclaimer" /></a> on unemployment among breast cancer survivors. According to  the article, cancer survival rates are improving; almost 14.5 million Americans  with a history of cancer were alive at the start of 2014. This number is  expected to grow to almost 19 million by 2024. The findings are also published  in the American Cancer Society&rsquo;s <a href="http://www.cancer.org/research/cancerfactsstatistics/survivor-facts-figures">&ldquo;Cancer Treatment &amp; Survivorship Facts &amp;  Figures, 2014–2015&rdquo;</a>. <a href="/exit_disclaimer.html"><img src="/images/Icon_External_Link.png" width="12" height="12" alt="exit disclaimer" /></a> Increased  survivorship occurs for various reasons, from better screening efforts to   effective cancer therapies. However, the article warns that the growth in the  number of cancer survivors warrants greater attention to the long-term physical  and emotional challenges that individuals with cancer histories often  experience. Cancer survivors are at a higher risk for numerous health issues,  including ongoing fatigue, cardiovascular diseases like heart failure, diabetes, or memory problems. Additionally, psychological and emotional challenges such  as depression and anxiety are common in the years after successful cancer  treatment. Keeping a job can be particularly difficult; the recent DCCPS-funded <a href="http://onlinelibrary.wiley.com/doi/10.1002/cncr.28607/abstract">study</a> <a href="/exit_disclaimer.html"><img src="/images/Icon_External_Link.png" width="12" height="12" alt="exit disclaimer" /></a> found  that 30 percent of breast cancer survivors who had jobs at the start of  treatment were unemployed just four years later. It is increasingly important  that patient care in the future includes interventions to improve the physical,  emotional, cognitive, and financial health of cancer survivors. </p>
+<p><strong>References</strong>: American  Cancer Society. (2014). <em>Cancer Treatment  and Survivorship Facts &amp; Figures 2014-2015</em>. Atlanta, GA: American  Cancer Society. </p>
+<p>Firger, J. (2014). &ldquo;More Americans surviving cancer  than ever.&rdquo; <em>CBS New</em>s, 2 June 2014. </p>
+<p>Jagsi, R., Hawley, S. T., Abrahamse P, Li, Y., Janz, N.  K., Griggs, J. J., Bradley, C., Graff, J. J., Hamilton, A, &amp; Katz, S. J. (2014).  Impact of adjuvant chemotherapy on long-term employment of survivors of  early-stage breast cancer. <em>Cancer.</em> doi: 10.1002/cncr.29607</p>
+<h3 id="texting">Texting and Quitting Success</h3>
+<p>An <a href="http://abcnews.go.com/blogs/health/2014/06/07/texting-therapy-doubles-success-in-quitting-smoking/">ABC News</a> <a href="/exit_disclaimer.html"><img src="/images/Icon_External_Link.png" width="12" height="12" alt="exit disclaimer" /></a> article highlights  findings from an NCI-supported  study of a text message-delivered intervention  for smoking cessation. The randomized controlled trial, published in the <a href="http://www.ajpmonline.org/article/S0749-3797%2814%2900177-9/abstract"><em>American Journal  of Preventive Medicine</em></a>, <a href="/exit_disclaimer.html"><img src="/images/Icon_External_Link.png" width="12" height="12" alt="exit disclaimer" /></a> evaluated  Text2Quit, an interactive mobile health program that sends personalized text  messages with advice, support, and reminders about quitting smoking. Smokers  who received the text messaging intervention were more than twice as likely to  quit successfully, compared to a control group who received self-help  materials. Biochemically confirmed abstinence rates at the 6-month follow-up  were 11.1 percent in the Text2Quit group, versus  just 5 percent in the control group. In the United States, a number of text  messaging services for smoking cessation are publicly available, including  SmokefreeTXT, a national service launched by  NCI in 2011. Dr. Michael Fiore, a smoking  cessation expert from the University of Wisconsin-Madison who was not involved  in the study, told ABC News that technology-based tools like these can make it  easier for smokers to find support when they are ready to quit.</p>
+<p><strong>References</strong>: Abroms, L. C.,  Boal, A. L, Simmens, S. J., Mendel, J. A., &amp; Windsor, R. A. (2014). &nbsp;A  randomized trial of Text2Quit: A text messaging program for smoking cessation. <em>American  Journal of Preventive Medicine</em>.</p>
+<p>  Wang, K.   &ldquo;Texting Therapy Doubles Success in Quitting Smoking.&rdquo; <em>ABC News,</em> 7 June  2014. </p>
+<h3 id="perceptions">Perceptions of Cigarettes and E-Cigarettes Harm</h3>
+<p>BRP  collaborators co-authored a paper in the <a href="http://www.sciencedirect.com/science/journal/07493797/47/2/supp/S1"><em>American Journal  of Preventive Medicine</em></a> <a href="/exit_disclaimer.html"><img src="/images/Icon_External_Link.png" width="12" height="12" alt="exit disclaimer" /></a> supplement,  &ldquo;Using the National Youth Tobacco Survey to Inform Tobacco Product Regulation  and Tobacco Control.&rdquo; Using data from the 2012 <a href="http://www.cdc.gov/tobacco/data_statistics/surveys/NYTS/">National Youth  Tobacco Survey</a>,  the study examines patterns of cigarette and e-cigarette harm perceptions among  U.S. middle and high school students. The findings showed that the majority of  youth perceived that the harm of cigarettes was dependent upon frequency and  intensity of cigarette smoking. Youth who perceived a continuum of cigarette  harm were also more likely to perceive e-cigarettes as less harmful than  conventional cigarettes, compared to youth who had consistently high  perceptions of cigarette harm. Results show that youth who perceive there to be  gradations of conventional cigarette harm may be more susceptible to using  e-cigarette products. <strong><br />
+  <br />
+  Reference:</strong> Ambrose, B. K., Rostron, B. L., Johnson, S. E., Portnoy,  D. B., Apelberg, B. J., Kaufman, A. R., &amp; Choiniere, C. J. (2014).  Perceptions of the relative harm of cigarettes and e-cigarettes among U.S.  youth. <em>American Journal of Preventive Medicine, 47</em>(2, Suppl 1): S53–S60.</p>
+<h3 id="ehealth">eHealth Usage</h3>
+<p>A  paper in the <a href="http://www.jmir.org/2014/7/e172/"><em>Journal of Medical Internet Research</em></a>, <a href="/exit_disclaimer.html"><img src="/images/Icon_External_Link.png" width="12" height="12" alt="exit disclaimer" /></a> co-authored by BRP members, uses NCI&rsquo;s <a href="http://hints.cancer.gov/">Health Information  National Trends Survey (HINTS)</a> data to examine the use and impact of eHealth strategies  among vulnerable populations. The current <a href="http://www.jmir.org/2014/7/e172/">paper</a> <a href="/exit_disclaimer.html"><img src="/images/Icon_External_Link.png" width="12" height="12" alt="exit disclaimer" /></a> investigates eHealth use by sociodemographic  factors among Internet users and found significant differences in use by  socioeconomic status.</p>
+<p><strong>Reference:</strong> Kontos, E.,  Blake, K. D., Wen-Ying, S. C., &amp; Prestin, A. (2014). Predictors of eHealth  usage: Insights on the digital divide from the Health Information National  Trends Survey 2012. <em>Journal of Medical  Internet Research</em>, <em>16</em>(7): e172. doi:  10.2196/jmir.3117</p>
+<h3 id="obesity">Extreme Obesity and Life Expectancy </h3>
+<p>A <a href="http://www.cancer.gov/newscenter/newsfromnci/2014/ClassObesity">study</a> led by Dr. Cari Kitahara of the <a href="http://dceg.cancer.gov/">Division of Cancer Epidemiology and Genetics</a>, and published in <a href="http://www.plosmedicine.org/article/info%3Adoi%2F10.1371%2Fjournal.pmed.1001673"><em>PLOS Medicine</em></a>, <a href="/exit_disclaimer.html"><img src="/images/Icon_External_Link.png" width="12" height="12" alt="exit disclaimer" /></a> found that adults with extreme  obesity (class III, 40 kg/m or higher) have a significantly reduced life  expectancy compared to people of normal weight. These individuals are more  likely to die at a younger age from diseases such as cancer, heart disease, diabetes,  and influenza/pneumonia. The risk of dying overall rose continuously with  increasing BMI in the class III obesity group; years of life lost varied from  6.5 years for those in the 40 to 44.9 kg/m range, to 13.7 years for those in  the 55 to 59.9 kg/m range. The analysis pooled data from 20 large studies of  people from three countries.</p>
+<p><strong>Reference:</strong> Kitahara, C. M.,  et al. (2013). Association between Class III obesity (BMI of 40-59 kg/m) and mortality:  A pooled analysis of 20 prospective studies. <em>PLOS Medicine</em>. doi: 10.1371/journal.pmed.1001673 </p>
+<h3 id="skincancer">Surgeon General Calls for Reduced Skin Cancer </h3>
+<p><a href="http://www.nytimes.com/2014/07/30/science/surgeon-general-calls-for-action-to-reduce-skin-cancer-rate.html?_r=0"><em>The New York Times</em></a> <a href="/exit_disclaimer.html"><img src="/images/Icon_External_Link.png" width="12" height="12" alt="exit disclaimer" /></a> reported the U.S. Surgeon General&rsquo;s <a href="http://www.surgeongeneral.gov/library/calls/prevent-skin-cancer/call-to-action-prevent-skin-cancer.pdf">call to action</a> on skin cancer in July. Several members of DCCPS, including <a href="http://appliedresearch.cancer.gov/about/staff/bios/hartman.html">Anne Hartman</a>, <a href="http://staffprofiles.cancer.gov/brp/prgmStaffProfile.do?contactId=51678&amp;">Frank Perna</a>, <a href="http://staffprofiles.cancer.gov/brp/prgmStaffProfile.do?contactId=6098881&amp;bioType=flw">Laura Dwyer</a>,  and <a href="http://appliedresearch.cancer.gov/about/staff/bios/yabroff.html">Robin Yabroff</a>, contributed expertise to the initiative. Citing the nearly 5 million  Americans treated for skin cancer each year and the $8 billion annual price  tag, the report urges individuals to do more to reduce sun exposure. Each year  approximately 9,000 people die from melanoma, and rates of skin cancer have  increased dramatically since the 1970s. The report calls for people of all skin  colors to follow standard advice to reduce sun exposure (including using  protective clothing and sunscreen). It also declares that tanning-bed use may  be contributing to a large portion of skin cancer cases and notes that this  type of ultraviolet radiation exposure is &ldquo;completely avoidable.&rdquo;</p>
+<p><strong>References:</strong> U.S. Department of Health  and Human Services (2014). <em>The Surgeon  General&rsquo;s Call to Action to Prevent Skin Cancer</em>. Washington, DC: U.S. Department  of Health and Human Services, Office of the Surgeon General.</p>
+<p>  Tavernise, S. &ldquo;Surgeon  general calls for action to reduce skin cancer.&rdquo; <em>The New York Times</em>. 29  July 2014. </p>
+<h3>Cancer Survivor Smoking</h3>
+<p>An article  published in <a href="http://www.usatoday.com/story/news/nation/2014/08/06/cancer-smokers-study/13632761/"><em>USA Today</em></a> <a href="/exit_disclaimer.html"><img src="/images/Icon_External_Link.png" width="12" height="12" alt="exit disclaimer" /></a> cites results in <a href="http://cebp.aacrjournals.org/content/early/2014/07/28/1055-9965.EPI-14-0046.abstract"><em>Cancer  Epidemiology Biomarkers &amp; Prevention</em></a> <a href="/exit_disclaimer.html"><img src="/images/Icon_External_Link.png" width="12" height="12" alt="exit disclaimer" /></a> that show that  almost 1 in 10 long-term cancer survivors are current smokers. Researchers  examined smoking prevalence and quit intentions in a cross-sectional sample of  cancer survivors nine years after their initial cancer diagnosis. Smoking  prevalence was particularly high among those who had cancers that are linked to  tobacco use, for example lung and bladder cancer. The majority of the  cancer-survivor smoker population was daily smokers; they smoked an average of  15 cigarettes per day. However, a sizeable minority were non-daily smokers. In  the study, 47% of cancer survivors said they were planning to quit, another 43%  were unsure, and 10% had no plans to quit. Non-daily smoking was associated  with planning to quit sooner rather than later, suggesting that this group  might be especially receptive to cessation interventions. The <em>USA Today</em> article  notes the BRP&rsquo;s <a href="http://smokefree.gov/talk-to-an-expert">smokefree.gov</a> as a cessation  resource.&nbsp; </p>
+<p><strong>References</strong>: Painter, K. &ldquo;Nearly 10% of  cancer survivors smoke, despite risks&rdquo; <em>USA Today,</em>  August 6, 2014.</p>
+<p>Westmaas, J. L., Alcaraz,  K. I., Berg, C. J., &amp; Stein, K. D. (2014). Prevalence and correlates of  smoking and cessation-related behavior among survivors of ten cancers: Findings  from a nationwide survey nine years after diagnosis. <em>Cancer Epidemiology,  Biomarkers &amp; Prevention.</em> doi: 10.1158/1055-9965.EPI-14-0046</p>
+<h2 id="tools">Resources and  Research Tools</h2>
+<h3 id="crosstalk">Crosstalk  Symposium 2014: &ldquo;Leveraging Lessons Learned Across Behavioral Domains&rdquo;</h3>
+<p>  The <a href="/brp/crosstalk.html">2014 Crosstalk  Symposium</a> will take place at NCI in Rockville, MD, on October 30, 2014. The  symposium will feature experts from the field who will share cutting-edge  examples of work that applies knowledge from one behavioral domain to one or  more other behavioral domains. Participants will come away with an  understanding of the utility of cross-domain behavioral research, as well as a  toolkit of practical strategies for leveraging &quot;crosstalk&quot; in their own  research. Please <a href="https://www.surveymonkey.com/s/Crosstalk2014">register</a> <a href="/exit_disclaimer.html"><img src="/images/Icon_External_Link.png" width="12" height="12" alt="exit disclaimer" /></a> for the event online. </p>
+<div style="float:left; width:130px; margin:5px; padding:5px;"><img border="0" width="130" height="23" src="../images/gem_banner.jpg" alt="GEM - Grid-Enabled Measures Database A Community Site for Researchers" style="float:left;" /></div>
+
+<h3>Grid-Enabled Measures</h3>
+<p><a href="https://www.gem-measures.org/Public/Home.aspx">Grid-Enabled Measures (GEM)</a> <a href="/exit_disclaimer.html"><img src="/images/Icon_External_Link.png" width="12" height="12" alt="exit disclaimer" /></a> is a dynamic, Web-based collaborative tool. It  contains behavioral, social science, and other relevant measures organized by  theoretical constructs. The goal of GEM is to support and encourage a community  of users to build consensus on best measures, incorporate these measures into  their studies, and share the resulting harmonized data.&nbsp; Based upon a wiki  platform, users contribute to the website by adding and editing information  about measures and associated constructs, and by providing feedback and ratings  on these measures and constructs in GEM. One new feature on GEM are workspaces  where users can create and administer their own initiatives to collaborate with  others around a specific topic to examine existing measures, learn about new  measures, and ultimately achieve consensus on the use of common measures.  Consider starting your own initiative by submitting a workspace request form  found on the GEM website.</p>
+<div style="float:left; width:130px; margin:5px; padding:5px;"><img border="0" width="130" height="40" src="/brp/e-newsletter/images/team-science-toolkit.jpg" style="float:left;" alt="Team Science Toolkit" /></div>
+
+<h3>Team Science Toolkit</h3>
+<p>  The <a href="https://www.teamsciencetoolkit.cancer.gov/Public/Home.aspx">Team Science Toolkit</a> is a &ldquo;one-stop shop&rdquo; for resources to help  users conduct, lead, manage, facilitate, or support team-based research.  Toolkit resources address the interests of a wide range of Team Science (TS)  stakeholders, such as investigators and community and translational partners;  administrators at academic institutions, businesses, and other organizations;  funding agency staff; Science of Team Science (SciTS) scholars and evaluators;  and those seeking to learn more about TS and the SciTS field.&nbsp;The Toolkit  contains three main types of resources: (1) <em>practical tools</em> to enhance,  support, or facilitate TS; (2) <em>measures and methods</em> for studying or  evaluating TS; and (3) TS-relevant <em>publications and bibliographic citations</em>,  including scholarly publications and gray literature (e.g., unpublished  technical reports). Additional resources in the Toolkit include background  information to the SciTS field, recommended key SciTS resources, and a blog  written by a rotating group of invited experts. Capitalizing on the collective  knowledge of the growing community of stakeholders interested in team-based  research, the Toolkit allows any user to upload publicly accessible  resources.</p>
+<h3 id="decision">Decision-Making Steering Committee  &amp; Webinars</h3>
+<p>  The  BRP has established the Decision-Making Steering  Committee to identify and promote research areas to advance public health with  regard to behavior change and cancer prevention and control. External expert  consultants assist in the formulation of these priority-setting efforts in  decision science and participated in <a href="/brp/decision-making.html">webinars</a> to  share their knowledge in prevention, treatment, or recovery when significant  decision-making challenges arise for the patient, their family, or health care  professionals. </p>
+    </div>
+</div>
+  <!-- End of Middle Column // Content Area-->
+    
+  <!-- Right Column // Short Cuts / Anniversary Report -->
+	<div id="column-right1-science-news">
+	<div class="d-head">In this Issue</div>
+	  <div class="d-case2">
+<ul class="itemsList">
+          <li><a href="#forward">Foreword</a></li>
+          <li><a href="#funding">Funding Opportunities</a></li>
+          <li><a href="#staffing">Staffing Announcements</a></li>
+          <li><a href="#advances">Scientific Advances</a></li>
+          <li><a href="#tools">Resources and  Research Tools</a></li>
+        </ul>
+	  </div>
+      <p class="comments">For questions,  comments, or suggestions for the BRP <br />
+          e-newsletter, please email <br />
+  <a href="mailto:ncidccpsbrpadvances@mail.nih.gov?subject=BRP%20e-newsletter%20feedback">NCI DCCPS BRP Scientific Advances (NIH/NCI)</a>. </p>
+  <div class="additional-text"><div id="NEI_SubForm" style="display: none">
+        <form id="frm_SubScribe" onSubmit="return Validate()" name="frm_SubScribe">
+            Use the following form to subscribe or unsubscribe from the newsletter.
+            <br />
+            <br />
+            <label for="TXT_Email">
+                Your e-mail:
+            </label>
+            <br />
+            <input type="text" name="TXT_Email" id="TXT_Email" size="28" />
+            <p>
+                <input name="RD_SubScribe" type="radio" id="RD_Sub" checked="true" value="SubScribe" />
+                <label for="RD_Sub">
+                    Subscribe</label><br />
+                <input name="RD_SubScribe" type="radio" id="RD_Unsub" value="UnSubScribe" />
+                <label for="RD_Unsub">
+                    Unsubscribe</label>
+            </p>
+            <p>
+                <label>
+                    <input type="button" onClick="return SendToLyris()" name="Submit" value="Send" />
+                </label>
+            </p>
+        </form>
+    </div>
+    <div id="Lyris_SubForm" style="display: block">
+        <form id="frm_SubScribe_LYRIS" name="frm_SubScribe_LYRIS" action="http://lists.icfwebservices.com/subscribe/subscribe.tml"
+            method="POST">
+            <table border="0" cellspacing="0" cellpadding="3">
+                <tr valign="top">
+                    <td align="right">
+                        <label for="email">
+                            Email:</label>
+                    </td>
+                    <td>
+                        <input type="text" name="email" id="email" value="" size="10">
+                    </td>
+                    <td>
+                        <input type="image" border="0" height="19" width="73" title="subscribe" alt="subscribe"
+                            src="http://lists.icfwebservices.com/img/english/button_subscribe.gif" name="subscribe_btn"
+                            align="left">
+                    </td>
+                </tr>
+            </table>
+            <input type="hidden" name="list" value="brpscientificnews">
+            <input type="hidden" name="confirm" value="none">
+            <input type="hidden" name="showconfirm" value="F">
+            <input type="hidden" name="url" value="http://cancercontrol.cancer.gov/brp/e-newsletter/thank-you.html">
+        </form>
+        <form id="frm_UNSub_LYRIS" name="frm_UNSub_LYRIS" action="http://lists.icfwebservices.com/subscribe/unsubscribe.tml"
+            method="GET">
+            <table border="0" cellspacing="0" cellpadding="3">
+                <tr valign="top">
+                    <td>
+                        <label for="email">
+                            Email:</label>
+                    </td>
+                    <td>
+                        <input type="text" name="email" id="Text1" value="" size="10">
+                    </td>
+                    <td>
+                        <input type="image" border="0" height="19" width="84" title="unsubscribe" alt="unsubscribe"
+                            src="http://lists.icfwebservices.com/img/english/button_unsubscribe.gif"
+                            name="unsubscribe">
+                    </td>
+                </tr>
+            </table>
+            <input type="hidden" name="url" value="/brp/e-newsletter/thank-you.html">
+            <input type="hidden" name="confirm" value="none">
+            <input type="hidden" name="showconfirm" value="F">
+            <input type="hidden" name="lists" value="brpscientificnews">
+        </form>
+    </div></div>
+	</div>
+    <!-- End of Right Column // Short Cuts / Anniversary Report -->
+    <br class="clearfloat" />
+    </div>
+    <!-- Main Content -->
+    
+    <!-- Last Updated -->
+    <div class="update">Last Updated: September 30, 2014</div>
+    <!-- End of Last Updated -->
+    
+    <!-- Footer -->
+    <div id="brpfoot-row1">
+	<ul class="flist2">
+    <li><a href="/index.html">Site Home</a></li>
+    <li>|</li>
+    <li><a href="http://www.cancer.gov/global/contact">Contact Us</a></li>
+    <li>|</li>
+    <li><a href="http://www.cancer.gov/global/web/policies">Policies</a></li>
+    <li>|</li>
+    <li><a href="http://www.cancer.gov/global/web/policies/accessibility">Accessibility</a></li>
+    <li>|</li>
+    <li><a href="http://www.cancer.gov/global/viewing-files">Viewing Files</a></li>
+    <li>|</li>
+    <li><a href="http://www.cancer.gov/global/web/policies/foia">FOIA</a></li>
+    <li>|</li>
+	<li><a href="/help.html">Help</a></li>
+    <li>|</li>
+    <li><a href="/site-map.html">Site Map</a></li>
+  </ul>
+	<br />
+
+	<ul class="flist2">
+    <li><a href="http://www.hhs.gov/">U.S. Department of Health and Human Services</a></li>
+    <li>|</li>
+  <li><a href="http://www.nih.gov/">National Institutes of Health</a></li>
+  <li>|</li>
+  <li><a href="http://www.cancer.gov/">National Cancer Institute</a></li>
+  <li>|</li>
+  <li><a href="http://www.usa.gov/">USA.gov</a></li>
+  </ul>
+  <div class="nih-tagline">NIH…Turning Discovery Into Health<sup>&#174;</sup></div>
+	</div>
+<!-- End of Footer -->
+  </div>
+
+<!-- Image map for head-row1 -->
+<map name="Map" id="Map">
+	<area shape="rect" coords="12,3,294,38" href="http://www.cancer.gov/" alt="National Cancer Institute" />
+	<area shape="rect" coords="715,10,892,33" href="http://www.nih.gov" alt="U.S. National Institutes of Health" />
+	<area shape="rect" coords="893,10,988,33" href="http://www.cancer.gov/" alt="National Cancer Institute" />
+</map>
+<!-- End of Image map for head-row1 -->
+
+<script language="JavaScript" type="text/javascript">
+ var theObject = document.getElementById("NEI_SubForm")
+    theObject.style.display="block"
+
+ var theObject2 = document.getElementById("Lyris_SubForm")
+    theObject2.style.display="none"
+</script>
+
+<!-- GA Code -->
+<script type="text/javascript">
+
+  var _gaq = _gaq || [];
+  _gaq.push(['_setAccount', 'UA-25589575-1']);
+  _gaq.push(['_trackPageview']);
+
+  (function() {
+    var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+    ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+    var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+  })();
+
+</script>
+<!-- End of GA Code -->
+<script language="JavaScript" type="text/javascript" src="/JS/Omniture/WA_DCCPS_PageLoad.js"></script>
+</body>
+</html>
