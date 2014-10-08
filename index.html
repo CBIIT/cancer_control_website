@@ -281,16 +281,16 @@
                 <div class="span6 triplebox triple-back">
                   <div class="area-header bottom-border">Featured Video</div>
                   <div class="center">
-                  <div id="video"></div>
-            <!--<div class="homepage-youtube-lrg">
-              <iframe width="249" height="180" title="Lifelines: Cervical Cancer Awareness" src="http://www.youtube.com/embed/6lCuu854EkQ?rel=0" allowfullscreen></iframe>   
+                  <!--<div id="video"></div>-->
+            <div class="homepage-youtube-lrg">
+              <iframe width="249" height="180" src="//www.youtube.com/embed/s3K9OzLZ9cg?rel=0" title="Did You Know? Melanoma" allowfullscreen></iframe>   
             </div>         
             <div class="homepage-youtube-med">
-              <iframe width="200" height="143" title="Lifelines: Cervical Cancer Awareness" src="http://www.youtube.com/embed/6lCuu854EkQ?rel=0" allowfullscreen></iframe>
+              <iframe width="200" height="143" src="//www.youtube.com/embed/s3K9OzLZ9cg?rel=0" title="Did You Know? Melanoma" allowfullscreen></iframe>
             </div>
             <div class="homepage-youtube-sml">
-              <iframe width="144" height="120" title="Lifelines: Cervical Cancer Awareness" src="http://www.youtube.com/embed/6lCuu854EkQ?rel=0" allowfullscreen></iframe>
-            </div>-->
+              <iframe width="144" height="120" src="//www.youtube.com/embed/s3K9OzLZ9cg?rel=0" title="Did You Know? Melanoma" allowfullscreen></iframe>
+            </div>
             </div>
             <a class="document" href="/cr-communication-videos.html">View the Video Archives</a>
                 </div>
@@ -369,6 +369,7 @@
             <h3>Know</h3>
             <div class="featured-items">
             	<ul>
+                <li><a class="document" href="/pdf/DCCPS-by-the-Numbers-FY-14-Progress-Report.pdf">DCCPS Year in Review FY 2014 Progress Report</a></li>
                 <li><a class="document" href="/research-emphasis/global_health/e-newsletter/2014-sept.html">September 2014 Global Health Newsletter</a></li>
                 <li><a class="document" href="https://grants.nih.gov/grants/guide/rfa-files/RFA-CA-14-012.html">CISNET FOA open through November 14, 2014</a></li>
                 <li><a class="document" href="http://ncorp.cancer.gov/">NCI Community Oncology  Research Program (NCORP)</a></li>
@@ -444,7 +445,7 @@
           </div>
            </div>
        <div class="last-updated">
-       <p class="center"><strong>Last Updated: September 18, 2014</strong></p>
+       <p class="center"><strong>Last Updated: October 2, 2014</strong></p>
        <a href="http://www.cancer.gov/global/contact" class="help-image"><img class="footer-help" src="/images/footer-help-logo.png" alt="help-logo" /></a><p class="can-numb"><strong>1-800-4-CANCER <br /> (1-800-422-6237)</strong></p>
                   </div>
        </div><!--/row-->
@@ -523,12 +524,12 @@
 	  	var d = new Date();
 		var wom = d.getWeekOfMonth();
 		var videos = [
+				's3K9OzLZ9cg',
 				'6lCuu854EkQ',
 				'VKIVGiAexY4',
 				'QEl54HsQKJ4',
 				'5hsdb6xVZVc',
-				'vKiTTrVJgyY',
-				'FFtQ-2GGHB8'
+				'vKiTTrVJgyY'
 ];
 var html='<div class="homepage-youtube-lrg"><iframe width="249" height="180" title="Lifelines: Cervical Cancer Awareness" src="http://www.youtube.com/embed/' + videos[wom-1] + '" frameborder="0" allowfullscreen></iframe></div><div class="homepage-youtube-med"><iframe width="200" height="143" title="Lifelines: Cervical Cancer Awareness" src="http://www.youtube.com/embed/' + videos[wom-1] + '" frameborder="0" allowfullscreen></iframe></div><div class="homepage-youtube-sml"><iframe width="144" height="120" title="Lifelines: Cervical Cancer Awareness" src="http://www.youtube.com/embed/' + videos[wom] + '" frameborder="0" allowfullscreen></iframe></div>';
 return html;
