@@ -205,6 +205,10 @@ brp/Scripts/expressInstall.swf -text
 brp/Scripts/swfobject_modified.js -text
 brp/about.html -text
 brp/about/career_training.html -text
+brp/accepted_fellows/documents/CRTA_Insurance_Application.pdf -text
+brp/accepted_fellows/documents/CRTA_Provisions_Document.pdf -text
+brp/accepted_fellows/documents/UnderstandFAESform.doc -text
+brp/accepted_fellows/index.html -text
 brp/archive_initiative.html -text
 brp/ati2004.pdf -text svneol=unset#unset
 brp/bbpsb/Scripts/expressInstall.swf -text
