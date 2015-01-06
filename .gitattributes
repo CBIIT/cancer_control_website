@@ -90,6 +90,7 @@ IS/images/intervention-program.jpg -text
 IS/images/nci.jpg -text
 IS/images/nih-is-header-mobile.jpg -text
 IS/images/nih-is-header-web.jpg -text
+IS/images/percy-laurry.jpg -text
 IS/images/planet-tile.jpg -text
 IS/images/publications-banner.jpg -text
 IS/images/r2r.png -text
@@ -748,6 +749,7 @@ brp/hcirb/cyberinfrastructure/index.html -text
 brp/hcirb/cyberinfrastructure/new_resources.html -text
 brp/hcirb/cyberinfrastructure/popsci.html -text
 brp/hcirb/health_journal_research.html -text
+brp/hcirb/health_literacy.html -text
 brp/hcirb/hesse_cv.pdf -text
 brp/hcirb/index.html -text
 brp/hcirb/informatics_projects.html -text
@@ -2901,6 +2903,7 @@ od/view_sbs.html -text
 od/vision.html -text
 od/w_klein.html -text
 od/winn_cv.pdf -text
+pdf/ASCO-Survivorship-Care-Plan.pdf -text svneol=unset#unset
 pdf/DCCPS-by-the-Numbers-FY-14-Progress-Report.pdf -text svneol=unset#unset
 pdf/Health-Disparities-Research-Contacts-in-DCCPS.pdf -text
 pdf/NCI_DCCPS_50_Ways.pdf -text
