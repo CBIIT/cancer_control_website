@@ -1,0 +1,45 @@
+/* Header */
+#header.native-banner {
+	height:157px;
+}
+
+#header.native-banner #cancercontrol-banner {
+	background: url("../images/native-banner.jpg") no-repeat scroll top center #096598;	
+	height:96px;
+}
+
+#header.native-banner #cancercontrol-banner a {
+    display: block;
+    width: 100%;
+}
+
+@media (max-width: 320px) {
+  body #main-container #header-search {
+  	right: -15px;
+  }
+}
+
+@media (max-width: 400px) {
+  #header.native-banner #cancercontrol-banner a {
+    height: 96px;
+}
+
+}
+
+@media (max-width: 768px) {
+    #main-container #header-search {
+    top: 150px;
+}
+  #header.native-banner #cancercontrol-banner a {
+    height: 96px;
+  }
+  #header.native-banner #cancercontrol-banner {
+	background-position:center;
+}
+}
+
+@media (min-width: 768px) {
+  #header.native-banner #cancercontrol-banner a {
+    height: 96px;
+  }
+}
