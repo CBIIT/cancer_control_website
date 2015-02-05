@@ -192,6 +192,7 @@ bb/2006_bb.pdf -text svneol=unset#unset
 bb/Briefing_Book_2011_acc.pdf -text
 bb/NCI-DCCPS-Overview-and-Highlights-2013.pdf -text svneol=unset#unset
 bb/briefing_book_accessible.pdf -text svneol=unset#unset
+bb/docs/NCI-DCCPS-Overview-and-Highlights-2015.pdf -text
 bb/images/cover.jpg -text
 bb/images/grant_process_overview.jpg -text
 bb/index.html -text
