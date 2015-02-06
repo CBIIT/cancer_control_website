@@ -1,8 +1,6 @@
 * text=auto !eol
 /404.html -text
 /AC_RunActiveContent.js -text
-/AccessforAll.mov -text
-/CopingWithCrisis.mov -text
 DCCPSGrants/DCCPSGrants.css -text
 DCCPSGrants/DCCPSGrants.js -text
 DCCPSGrants/Default.asp -text
@@ -178,7 +176,6 @@ IS/reports-factsheet.html -text
 IS/staff.html -text
 IS/tools.html -text
 IS/training-education.html -text
-/OppNet_v2_org_cap.flv -text
 Scripts/AC_RunActiveContent.js -text
 Scripts/expressInstall.swf -text
 Scripts/random_images_dccps.js -text
@@ -192,6 +189,7 @@ bb/2006_bb.pdf -text svneol=unset#unset
 bb/Briefing_Book_2011_acc.pdf -text
 bb/NCI-DCCPS-Overview-and-Highlights-2013.pdf -text svneol=unset#unset
 bb/briefing_book_accessible.pdf -text svneol=unset#unset
+bb/docs/NCI-DCCPS-Overview-and-Highlights-2015.pdf -text
 bb/images/cover.jpg -text
 bb/images/grant_process_overview.jpg -text
 bb/index.html -text
@@ -1970,26 +1968,6 @@ constructs/index.htm -text
 /cr-dataset.html -text
 /cr-reports.html -text
 /cr-tracking.html -text
-croyle-videos/QuickTime[!!-~]Broadband/BehaviorBB.mov -text
-croyle-videos/QuickTime[!!-~]Broadband/CentersBB.mov -text
-croyle-videos/QuickTime[!!-~]Broadband/ChallengesBB.mov -text
-croyle-videos/QuickTime[!!-~]Broadband/FocusBB.mov -text
-croyle-videos/QuickTime[!!-~]Broadband/UnusualBB.mov -text
-croyle-videos/QuickTime[!!-~]Dialup/BehaviorD.mov -text
-croyle-videos/QuickTime[!!-~]Dialup/CentersD.mov -text
-croyle-videos/QuickTime[!!-~]Dialup/ChallengesD.mov -text
-croyle-videos/QuickTime[!!-~]Dialup/FocusD.mov -text
-croyle-videos/QuickTime[!!-~]Dialup/UnusualTimeD.mov -text
-croyle-videos/Win[!!-~]Media[!!-~]Broadband/Behavior.wmv -text
-croyle-videos/Win[!!-~]Media[!!-~]Broadband/Centers.wmv -text
-croyle-videos/Win[!!-~]Media[!!-~]Broadband/Challenges.wmv -text
-croyle-videos/Win[!!-~]Media[!!-~]Broadband/Focus.wmv -text
-croyle-videos/Win[!!-~]Media[!!-~]Broadband/UnusualTime.wmv -text
-croyle-videos/Win[!!-~]Media[!!-~]Dialup/BehaviorD.wmv -text
-croyle-videos/Win[!!-~]Media[!!-~]Dialup/CentersD.wmv -text
-croyle-videos/Win[!!-~]Media[!!-~]Dialup/ChallengesD.wmv -text
-croyle-videos/Win[!!-~]Media[!!-~]Dialup/FocusD.wmv -text
-croyle-videos/Win[!!-~]Media[!!-~]Dialup/UnusualTimeD.wmv -text
 css/bootstrap-lightbox.min.css -text
 css/bootstrap-nci.css -text
 css/bootstrap-responsive.css -text
