@@ -274,6 +274,9 @@ brp/bbpsb/docs/SocialEnvironment_Conzen_4Mar07.pdf -text svneol=unset#unset
 brp/bbpsb/docs/Survivorship-Affective-Science-Presentation.pdf -text
 brp/bbpsb/docs/Tobacco-Affective-Science-Presentation.pdf -text
 brp/bbpsb/docs/Tumor-Biology-Affective-Science-Presentation.pdf -text
+brp/bbpsb/docs/Vision-Research-Science-Agenda.pdf -text
+brp/bbpsb/docs/Vision-Research-Science-Workshop-Day-One_Transcript.pdf -text
+brp/bbpsb/docs/Vision-Research-Science-Workshop-Day-Two_Transcript.pdf -text
 brp/bbpsb/images/Heuristic-framework-for-research-on-biobehavioral-risk-factor-influences-on-clinical-cancer-course.jpg -text
 brp/bbpsb/images/a_sood.jpg -text
 brp/bbpsb/images/bbi-logo.jpg -text
@@ -520,6 +523,7 @@ brp/docs/BBPSB-post-doc-CRTA-2015.pdf -text
 brp/docs/BRP_Fact_Sheet-acc.pdf -text
 brp/docs/ELIFactSheet.pdf -text svneol=unset#unset
 brp/docs/Grants2005.pdf -text
+brp/docs/HBRB-Branch-Chief-ad.pdf -text
 brp/docs/HCIRBFactSheet.pdf -text svneol=unset#unset
 brp/docs/HCIRBPD.pdf -text
 brp/docs/Memoriam_SabraWooley.pdf -text
@@ -2162,7 +2166,6 @@ images/banner_dccps.jpg -text
 images/banner_hcg.jpg -text
 images/banner_ocs.jpg -text
 images/bb_org-sm.jpg -text
-images/bb_org.jpg -text
 images/bill.gif -text
 images/blue_right.jpg -text
 images/blueminus.png -text
@@ -2798,7 +2801,6 @@ od/about.html -text
 od/aboutcc.html -text
 od/aboutdiv.html -text
 od/act.html -text
-od/bb-org.html -text
 od/bke.html -text
 od/continuum.html -text
 od/continuum.ppt -text
@@ -3254,6 +3256,8 @@ use_what_works/mod5/Module_5_Lesson_Plan.pdf -text svneol=unset#unset
 use_what_works/mod5/start.htm -text
 use_what_works/preservation_of_traditions.mpeg -text
 use_what_works/start.htm -text
+video/2014-11-06-09.07-Vision-Science-Research-Workshop.wmv -text
+video/2014-11-07-09.00-Vision-Science[!!-~]Research-Workshop.wmv -text
 workshop/2012_ATI_Application_for_Web.doc -text
 workshop/ATI-Schedule-2010.pdf -text
 workshop/ATI2005_coursesyllabus.pdf -text
