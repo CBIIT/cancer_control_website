@@ -76,90 +76,18 @@
 </nav>
 <!-- End Main Nav of Site -->
 <!-- Main Section of Site -->
-<section class="hp-content">
-
+<section class="main-content">
+<div class="investments-band"></div>
 <div class="container">
-	<div class="row" id="flip-container">
-    <div class="flip-container" id="flip-toggle">
-    	<div class="col-sm-4 flipper">
-        	<a href="message.html">
-            	<div class="thumbnail-box box1">
-                	<div class="summary">In the Division of Cancer Control and Population Sciences (DCCPS) at NCI, we have a responsibility to ensure that we are doing all we can to effectively advance our mission. To that end, we need to be responsive to new demands, priorities…</div>
-                    <div class="hp-link">
-                    	<h3>Message from the Director</h3>
-                    </div>
-                </div>
-                <div class="back"></div>
-            </a>
-        </div>
-        </div>
-        <div class="flip-container">
-        <div class="col-sm-4 flipper">
-        	<a href="leadership.html">
-            	<div class="thumbnail-box box2">
-                	<div class="summary">The DCCPS senior leadership team is often described as dedicated and innovative. We pride ourselves not only in our commitment to cancer control, but also in our willingness to utilize unconventional ideas and approaches…</div>
-                    <div class="hp-link">
-                    	<h3>Leadership at a Glance</h3>
-                    </div>
-                </div>
-                <div class="back"></div>
-            </a>
-        </div>
-        </div>
-        <div class="flip-container">
-        <div class="col-sm-4 flipper">
-        	<a href="vision.html">
-            	<div class="thumbnail-box box3">
-                	<div class="summary"><b>The Behavioral Research Program:</b> Cancer morbidity and mortality are greatly affected by behaviors such as tobacco use, physical activity, vaccination, and sun exposure, and by psychological and behavioral processes including…</div>
-                    <div class="hp-link">
-                    	<h3>Vision for Cancer Control</h3>
-                    </div>
-                </div>
-                <div class="back"></div>
-            </a>
-        </div>
-    </div>
-    </div>
-    <div class="row">
-    <div class="flip-container">
-    	<div class="col-sm-4 flipper">
-        	<a href="enabling-research.html">
-            	<div class="thumbnail-box box4">
-                	<div class="summary">The sources of our greatest advances in cancer control are difficult to predict and typically emerge from the talented investigators in our funded research community. Often, their rich experimental ideas can only be realized with NCI funding support…</div>
-                    <div class="hp-link">
-                    	<h3>Enabling the Cancer Control Research Community</h3>
-                    </div>
-                </div>
-                <div class="back"></div>
-            </a>
-        </div>
-        </div>
-        <div class="flip-container">
-        <div class="col-sm-4 flipper">
-        	<a href="investments.html">
-            	<div class="thumbnail-box box5">
-                    <div class="summary">Researchers funded by DCCPS have advanced the science to improve public health for nearly two decades, and we celebrate their scientific advances and research accomplishments in cancer control and population sciences.</div>
-                    <div class="hp-link">
-                    	<h3>Investments in Cancer Control Research</h3>
-                     </div>
-                </div>
-                <div class="back"></div>
-            </a>
-        </div>
-        </div>
-        <div class="flip-container">
-        <div class="col-sm-4 flipper">
-        	<a href="initiatives.html">
-            	<div class="thumbnail-box box6">
-                	<div class="summary">DCCPS funds a number of large, signature initiatives across the cancer control research continuum, including: Integrated surveillance systems; Epidemiology consortia, registries, and large-scale genetic studies…</div>
-                    <div class="hp-link">
-                    	<h3>DCCPS Signature Initiatives</h3>
-                    </div>
-                    
-                </div>
-                <div class="back"></div>
-            </a>
-        </div>
+	<div class="row">
+    	<div class="col-sm-12">
+        	<h1>Investments in Cancer Control Research</h1>
+            <p>Researchers funded by DCCPS have advanced the science to improve public health for nearly two decades, and we celebrate their scientific advances and research accomplishments in cancer control and population sciences. Major programmatic areas include epidemiology and genomics research, behavioral research, health services and outcomes research, surveillance research, and survivorship research.</p>
+            
+<p>In FY 2014, DCCPS funded 789 grants valued at more than $430 million, with work in the United States and internationally aimed to reduce risk, incidence, and deaths from cancer, and to enhance the quality of life for cancer survivors. While the majority of DCCPS funding is for investigator-initiated research project grants, the division also uses a variety of strategies to support and stimulate research such as multi-component specialized research centers and cancer epidemiology cohorts.</p>
+
+<p>Learn more about the DCCPS grant portfolio and funding trends at <a href="http://maps.cancer.gov/overview/">maps.cancer.gov/overview/</a>.</p>
+			<p><img src="images/DCCPS-Portfolio-per-Year.svg" style="width:100%; height:100%" alt="DCCPS Research Portfolio by Fiscal Year"></p>
         </div>
     </div>
 </div>
@@ -221,16 +149,5 @@
 <script src="../js/bootstrap3.min.js"></script>
 <!-- Navigation Javascript from Codyhouse -->
 <script src="../js/navigation-bootstrap3.js"></script>
-
-<script>
-$('.col-sm-4 a').click(function (e) {
-    e.preventDefault();
-	$(".flip-container").toggleClass('hover');
-    var goTo = this.getAttribute("href");
-    setTimeout(function(){
-         window.location = goTo;
-    },500);
-});
-</script>
 </body>
 </html>
