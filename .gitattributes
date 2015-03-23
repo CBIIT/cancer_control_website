@@ -2393,7 +2393,7 @@ js/jquery-1.10.1.min.js -text
 js/jquery-1.10.2.min.js -text
 js/jquery.cycle.all.latest.js -text
 js/jquery.rwdImageMaps.min.js -text
-js/modernizr-2.6.2.min.js -text
+js/modernizr.min.js -text
 js/navigation-bootstrap3.js -text
 js/ocs-wheel.js -text
 js/respond.min.js -text
@@ -2827,7 +2827,6 @@ od/meet_staff.html -text
 od/org.html -text
 od/orgchart.html -text
 od/rbb.html -text
-od/sks.html -text
 od/support_pis.html -text
 od/timeline.html -text
 od/view_arp.html -text
