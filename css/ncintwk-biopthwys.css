@@ -1,0 +1,61 @@
+/* utility styles */
+	.center { text-align: center; }
+	.clear { clear: both; }
+	.left { float: left; }
+	.right { float: right; }
+	.clear-float { float: none; }
+
+/* hover styles */
+	#popup {
+		display: none;
+		position: absolute;
+		width: 280px;
+		padding: 10px;
+		background: #eeeeee;
+		color: #000000;
+		border: 1px solid #1a1a1a;
+	}
+	#popup-acro {
+		display: none;
+		position: absolute;
+		width: 200px;
+		padding: 10px;
+		background: #eeeeee;
+		color: #a81e22;
+		border: 1px solid #1a1a1a;
+		text-align: center;
+		font-weight: bold;
+		line-height: 1.25em;
+	}
+/* term-info styles */
+	.term-info { margin: 15px 0; }
+	.term-info h3 { border-bottom: 1px solid #a81e22; padding-bottom: 5px; margin-top: 25px; }
+
+/* contacts table styles */
+	.contact-info { padding-top: 5px; }
+	.contact-info table tr { padding: 5px; }
+	.contact-info table th {
+		background-color: #daeaf4;
+		border-bottom: 1px solid #ccc;
+		border-top: 4px solid #a81e22;
+		padding: 8px;
+		font-weight: bold;
+	}
+	.contact-info table th,
+	.contact-info table th + th { width: 410px; }
+	.contact-info table th + th + th,
+	.contact-info table th + th + th + th { width: 100px; }
+	.contact-info table td { text-align: left; }
+	.contact-info table td {
+		background-color: #E8EDFF;
+    	border-bottom: 1px solid #ccc;
+    	border-top: 1px solid rgba(204, 204, 204, 0);
+		padding: 8px;
+	}
+	.contact-info table th {
+		text-align: left;
+	}
+
+	.contact-info table tr:hover td {
+		background-color: #ddd;
+	}
