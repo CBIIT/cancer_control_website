@@ -1198,21 +1198,15 @@ brp/srtb/strategic-plan.html -text
 brp/srtb/webinars.html -text
 brp/stipend.html -text
 brp/style.css -text
-brp/tcrb/2ndICSTREPORTweb3.pdf -text svneol=unset#unset
-brp/tcrb/3rdICSTreport.pdf -text svneol=unset#unset
-brp/tcrb/3rd_icst_report.pdf -text svneol=unset#unset
 brp/tcrb/LITSExecSummary.pdf -text svneol=unset#unset
 brp/tcrb/MentholExecSumRprt4_10-16.pdf -text svneol=unset#unset
 brp/tcrb/MethnolExecSumRprt4_10-16.pdf -text svneol=unset#unset
 brp/tcrb/Scripts/swfobject_modified.js -text
-brp/tcrb/Spanish_Smoking_book.pdf -text svneol=unset#unset
 brp/tcrb/Tobacco_Harm_Reduction_Flyer.pdf -text svneol=unset#unset
 brp/tcrb/about.html -text
 brp/tcrb/acso.html -text
 brp/tcrb/ajhb_issue.html -text
 brp/tcrb/archive.html -text
-brp/tcrb/bibliography_alaska_tobacco.html -text
-brp/tcrb/bibliography_tobacco.html -text
 brp/tcrb/cds_12.html -text
 brp/tcrb/cds_5.html -text
 brp/tcrb/collaborative-research.html -text
@@ -1227,7 +1221,8 @@ brp/tcrb/documents/ISTS_final_report.pdf -text
 brp/tcrb/documents/MergedArticles311-422.pdf -text svneol=unset#unset
 brp/tcrb/documents/MythsaboutNRTFactSheet.pdf -text svneol=unset#unset
 brp/tcrb/documents/NCICigaretteWarningLabelsMeetingSummary.pdf -text
-brp/tcrb/documents/TCRB_Factsheet_2014.pdf -text
+brp/tcrb/documents/TCIR_Factsheet.pdf -text
+brp/tcrb/documents/TCRB_Factsheet.pdf -text
 brp/tcrb/documents/factsheet.pdf -text
 brp/tcrb/documents/flyer_monograph_final_16.pdf -text svneol=unset#unset
 brp/tcrb/documents/flyer_monograph_final_17.pdf -text svneol=unset#unset
@@ -1280,8 +1275,6 @@ brp/tcrb/international/FIC_NCI_Int_Tob_train_ProgramBrochure.pdf -text svneol=un
 brp/tcrb/international/earth.jpg -text
 brp/tcrb/international/funding_init.html -text
 brp/tcrb/international/index.html -text
-brp/tcrb/international/int_activities.html -text
-brp/tcrb/international/int_consortia.html -text
 brp/tcrb/international/int_workshops.html -text
 brp/tcrb/international/interior_pgs_template.html -text
 brp/tcrb/international/links_resources.html -text
@@ -1291,15 +1284,6 @@ brp/tcrb/jackson.html -text
 brp/tcrb/key_initiatives.html -text
 brp/tcrb/meeting_brochure.pdf -text svneol=unset#unset
 brp/tcrb/meeting_registration.pdf -text svneol=unset#unset
-brp/tcrb/menthol_smoking_status.html -text
-brp/tcrb/menthol_use_age.html -text
-brp/tcrb/menthol_use_education.html -text
-brp/tcrb/menthol_use_employ_status.html -text
-brp/tcrb/menthol_use_gender.html -text
-brp/tcrb/menthol_use_income.html -text
-brp/tcrb/menthol_use_occupation.html -text
-brp/tcrb/menthol_use_race_ethnicity.html -text
-brp/tcrb/menthol_usual_cigarette.html -text
 brp/tcrb/mftq.html -text
 brp/tcrb/monographs/1/index.html -text
 brp/tcrb/monographs/1/m1_1.pdf -text svneol=unset#unset
@@ -1740,27 +1724,17 @@ brp/tcrb/neg_pos_scale.html -text
 brp/tcrb/nicotine_depend_scale_adol.html -text
 brp/tcrb/perceptions_self-report.htm -text
 brp/tcrb/pfs.html -text
-brp/tcrb/publicationsfor_tobaccousers.html -text
 brp/tcrb/pubs_augustson.html -text
 brp/tcrb/receptivity.html -text
 brp/tcrb/research_assist.html -text
 brp/tcrb/research_topic-cessation.html -text
-brp/tcrb/research_topic-ethics.html -text
 brp/tcrb/research_topic-hd.html -text
-brp/tcrb/research_topic-menthol.html -text
-brp/tcrb/research_topic-smokeless-p-r.html -text
-brp/tcrb/research_topic-smokeless.html -text
 brp/tcrb/research_topic-special_popluations.html -text
 brp/tcrb/research_topic-state_comm.html -text
 brp/tcrb/research_topic-tob_industry.html -text
 brp/tcrb/research_topic-tob_networks.html -text
-brp/tcrb/research_topic-tob_products.html -text
+brp/tcrb/research_topic-tobacco-use.html -text
 brp/tcrb/research_topic-tp-study.html -text
-brp/tcrb/research_topic-transdisciplinary.html -text
-brp/tcrb/research_topic-women_tobacco.html -text
-brp/tcrb/research_topic-youth.html -text
-brp/tcrb/research_topic.html -text
-brp/tcrb/resource_smokers.html -text
 brp/tcrb/scrfa.html -text
 brp/tcrb/scrfa_grant.html -text
 brp/tcrb/sdi.html -text
@@ -1788,18 +1762,13 @@ brp/tcrb/slides/mootools-1.2-core.js -text
 brp/tcrb/slides/myslideshow.js -text
 brp/tcrb/slides/style.css -text
 brp/tcrb/smokefreemeetingpolicy.html -text
-brp/tcrb/stfact_sheet_combined10-23-02.pdf -text svneol=unset#unset
 brp/tcrb/subprojects.html -text
 brp/tcrb/susceptibility.html -text
 brp/tcrb/temp_to_smoke-nonsmkr.html -text
 brp/tcrb/temp_to_smoke-smkr.html -text
-brp/tcrb/tfms.pdf -text
 brp/tcrb/tob_alcohol_problems.html -text
 brp/tcrb/tob_prod_dev.html -text
 brp/tcrb/tob_prod_funding.asp -text
-brp/tcrb/tob_prod_literature.html -text
-brp/tcrb/tob_prod_other.html -text
-brp/tcrb/tob_prod_potential.html -text
 brp/tcrb/tob_regulatory_science.html -text
 brp/tcrb/tobacco_motives.html -text
 brp/tcrb/tobacco_networks.html -text
@@ -1984,7 +1953,6 @@ brp/tcrb/tturc/tturc_symposium.html -text
 brp/tcrb/tturc/tturc_workshop.html -text
 brp/tcrb/tturc/tturcstamp-2.gif -text
 brp/tcrb/tturc/tturcstamp.gif -text
-brp/tcrb/ucsd_quitlines.html -text
 brp/tcrb/uptake_continuum.html -text
 brp/tcrb/youth.html -text
 brp/theories_project/concept-workshop/index.html -text
