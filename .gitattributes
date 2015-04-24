@@ -1271,14 +1271,16 @@ brp/tcrb/images/teenIcon.jpg -text
 brp/tcrb/images/usual_cigarette_type.jpg -text
 brp/tcrb/images/womenIcon.jpg -text
 brp/tcrb/index.html -text
-brp/tcrb/international/FIC_NCI_Int_Tob_train_ProgramBrochure.pdf -text svneol=unset#unset
-brp/tcrb/international/earth.jpg -text
-brp/tcrb/international/funding_init.html -text
+brp/tcrb/international/images/1.jpg -text
+brp/tcrb/international/images/2.jpg -text
+brp/tcrb/international/images/3.jpg -text
+brp/tcrb/international/images/4.jpg -text
+brp/tcrb/international/images/china-no-smoking-restaurant.jpg -text
+brp/tcrb/international/images/china-us-personnel.jpg -text
 brp/tcrb/international/index.html -text
-brp/tcrb/international/int_workshops.html -text
-brp/tcrb/international/interior_pgs_template.html -text
-brp/tcrb/international/links_resources.html -text
-brp/tcrb/international/research_training.html -text
+brp/tcrb/international/int_activities.html -text
+brp/tcrb/international/int_publications.html -text
+brp/tcrb/international/int_research.html -text
 brp/tcrb/investigators_meeting.html -text
 brp/tcrb/jackson.html -text
 brp/tcrb/key_initiatives.html -text
