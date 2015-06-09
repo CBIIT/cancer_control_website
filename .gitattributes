@@ -44,6 +44,7 @@ IS/Slides/myslideshow.js -text
 IS/Slides/style.css -text
 IS/about.html -text
 IS/application.html -text
+IS/chambers.html -text
 IS/css/is-homepage.css -text
 IS/css/is-style.css -text
 IS/custom_portfolio.asp -text
@@ -51,6 +52,7 @@ IS/di-methods.html -text
 IS/dissemination_implement_rw.html -text
 IS/docs/Character_Strong_Dis_Implement_Access.doc -text
 IS/docs/ConsolidatedFinalReport.doc -text
+IS/docs/DAChambers-CV.pdf -text
 IS/docs/ExecSummaryCTIWGMtg.doc -text
 IS/docs/dod_PCP_presentation.ppt -text
 IS/docs/dod_clanton.ppt -text
@@ -3118,6 +3120,7 @@ fonts/glyphicons-halflings-regular.eot -text
 fonts/glyphicons-halflings-regular.svg -text
 fonts/glyphicons-halflings-regular.ttf -text
 fonts/glyphicons-halflings-regular.woff -text
+/funding-foa-applicants.html -text
 /funding.html -text
 /funding_06-019_qna.html -text
 /funding_apply.html -text
