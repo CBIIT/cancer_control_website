@@ -575,6 +575,7 @@ brp/docs/HBRB-Branch-Chief-ad.pdf -text
 brp/docs/HCIRBFactSheet.pdf -text svneol=unset#unset
 brp/docs/HCIRBPD.pdf -text
 brp/docs/Memoriam_SabraWooley.pdf -text
+brp/docs/NCI_Network_Factsheet.pdf -text
 brp/docs/ORB-Health-Scientist-Position.pdf -text
 brp/docs/SGA_8562335.pdf -text
 brp/docs/SGA_8568274.pdf -text
@@ -817,6 +818,7 @@ brp/hcirb/slides/myslideshow.js -text
 brp/hcirb/slides/style.css -text
 brp/hcirb/social_media.html -text
 brp/images/Geoffrey-Williams.jpg -text
+brp/images/NCI-Network-Factsheet.png -text
 brp/images/Thumbs.db -text
 brp/images/banner-small1.jpg -text
 brp/images/banner-small2.jpg -text
@@ -2207,6 +2209,13 @@ images/c-head.gif -text
 images/cancer_care_ga.jpg -text
 images/career_training_tile.gif -text
 images/cco_lmic_cover.gif -text
+images/colorectal-cancer-incidence-rates-2007-2011-thumb-vert.jpg -text
+images/colorectal-cancer-incidence-rates-2007-2011-thumb.jpg -text
+images/colorectal-cancer-incidence-rates-2007-2011.jpg -text
+images/colorectal-cancer-mortality-rates-2007-2011-thumb.jpg -text
+images/colorectal-cancer-mortality-rates-2007-2011.jpg -text
+images/colorectal-cancer-screening-rates-2012-thumb.jpg -text
+images/colorectal-cancer-screening-rates-2012.jpg -text
 images/compare-causes-death-lg.gif -text
 images/compare-causes-death.gif -text
 images/continuum_icon.gif -text
