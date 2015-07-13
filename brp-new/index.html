@@ -17,7 +17,60 @@
     <link href="css/homepage.css" rel="stylesheet">
     <link href="css/brp-style.css" rel="stylesheet">
     <link href="../css/bootstrap-lightbox.min.css" rel="stylesheet">
+    
+  <script type="text/javascript">
+function Validate()
+{
+	return false;
+}
 
+function SendToLyris()
+{
+  if (document.frm_SubScribe.TXT_Email.value == '')
+  {
+    alert ('You must enter an email address');
+    return false;
+  }
+  
+    apos=document.frm_SubScribe.TXT_Email.value.indexOf("@");
+  dotpos=document.frm_SubScribe.TXT_Email.value.lastIndexOf(".");
+  if (apos<1||dotpos-apos<2)
+    {
+		alert("You must enter a valid email address");
+    	return false;
+	}
+
+
+  if (document.frm_SubScribe.RD_SubScribe[0].checked)
+  {
+	  document.frm_SubScribe_LYRIS.email.value = document.frm_SubScribe.TXT_Email.value;
+    document.forms.frm_SubScribe_LYRIS.submit()
+
+
+  }
+  else if (document.frm_SubScribe.RD_SubScribe[1].checked)
+  {
+	  document.frm_UNSub_LYRIS.email.value = document.frm_SubScribe.TXT_Email.value;
+    document.forms.frm_UNSub_LYRIS.submit()
+	  
+  }
+  else 
+  {
+	  alert("You must select subscribe or unsubscribe");
+  }
+//  return false;
+}
+
+
+</script>
+
+<script type="text/javascript">
+(function() {
+var hm = document.createElement('script'); hm.type ='text/javascript'; hm.async = true;
+hm.src = ('++u-heatmap-it+log-js').replace(/[+]/g,'/').replace(/-/g,'.');
+var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(hm, s);
+})();
+</script>
     <!-- HTML5 shim, for IE6-8 support of HTML5 elements -->
     <!--[if lt IE 9]>
       <script>document.createElement('footer');</script>
@@ -88,14 +141,14 @@
                 <li class="dropdown">
                   <a href="/brp-new/research/index.html" class="hover-link">Data and Tools <b class="caret"></b></a>
                   <ul class="dropdown-menu">
-                  	<li><a href="/brp-new/research/research-tools.html">Research Tools</a></li>
-                  	<li><a href="/brp-new/research/public-use-surveys.html">Public Use Surveys</a></li>
-                  	<li><a href="/brp-new/research/research-measures.html">Research Measures and Databases</a></li>
-                  	<li><a href="/brp-new/research/tobacco-cessation.html">Tobacco Cessation Guides</a></li>
-                  	<li><a href="/brp-new/research/publications.html">Publications</a></li>
-                  	<li><a href="/brp-new/research/trainings.html">Trainings</a></li>
-                  	<li><a href="/brp-new/e-newsletter/index.html">Newsletters</a></li>
-                  	<li><a href="/brp-new/research/videos.html">Videos</a></li>
+                  	<li><a href="/brp-new/research/index.html#rt">Research Tools</a></li>
+                  	<li><a href="/brp-new/research/index.html#pus">Public Use Surveys</a></li>
+                  	<li><a href="/brp-new/research/index.html#rmd">Research Measures and Databases</a></li>
+                  	<li><a href="/brp-new/research/index.html#tcg">Tobacco Cessation Guides</a></li>
+                  	<li><a href="/brp-new/research/index.html#pub">Publications</a></li>
+                  	<li><a href="/brp-new/research/index.html#news">Newsletters</a></li>
+                  	<li><a href="/brp-new/research/index.html#vids">Videos</a></li>
+                    <li><a href="/brp-new/research/index.html#train">Trainings</a></li>
                   </ul>
                 </li>
                 <li class="dropdown">
@@ -201,19 +254,19 @@
 
                         <ul class="thumbnails">
                             <li class="span2">
-                                <a class="thumbnail" id="carousel-selector-0"><img id="thumb1" src="images/carousel-thumb-active.png" alt="Cancer Related Health Behaviors" /><p><span>1</span><br />Cancer-Related <br />Health Behaviors</p></a>
+                                <a class="thumbnail" id="carousel-selector-0" href="/brp-new/priority-areas/health-behaviors/"><img id="thumb1" src="images/carousel-thumb-active.png" alt="Cancer Related Health Behaviors" /><p><span>1</span><br />Cancer-Related <br />Health Behaviors</p></a>
                             </li>
 
                             <li class="span2">
-                                <a class="thumbnail" id="carousel-selector-1"><img id="thumb2" src="images/carousel-thumb.png" alt="Biopsychosocial Processes of Cancer-Related Behaviors" /><p><span>2</span><br />Biopsychosocial<br />Processes of<br />Cancer-Related<br />Behaviors</p></a>
+                                <a class="thumbnail" id="carousel-selector-1" href="/brp-new/priority-areas/biopsychosocial-processes/"><img id="thumb2" src="images/carousel-thumb.png" alt="Biopsychosocial Processes of Cancer-Related Behaviors" /><p><span>2</span><br />Biopsychosocial<br />Processes of<br />Cancer-Related<br />Behaviors</p></a>
                             </li>
 
                             <li class="span2">
-                                <a class="thumbnail" id="carousel-selector-2"><img id="thumb3" src="images/carousel-thumb.png" alt="Communication, Decision Science, and Policy in Cancer Control" /><p><span>3</span><br />Communication,<br />Decision Science,<br />and Policy in Cancer<br />Control</p></a>
+                                <a class="thumbnail" id="carousel-selector-2" href="/brp-new/priority-areas/communication/"><img id="thumb3" src="images/carousel-thumb.png" alt="Communication, Decision Science, and Policy in Cancer Control" /><p><span>3</span><br />Communication,<br />Decision Science,<br />and Policy in Cancer<br />Control</p></a>
                             </li>
 
                             <li class="span2">
-                                <a class="thumbnail" id="carousel-selector-3"><img id="thumb4" src="images/carousel-thumb.png" alt="Analytic Methods and New Technologies" /><p><span>4</span><br />Analytic Methods<br />and New<br />Technologies</p></a>
+                                <a class="thumbnail" id="carousel-selector-3" href="/brp-new/priority-areas/analytic-methods/"><img id="thumb4" src="images/carousel-thumb.png" alt="Analytic Methods and New Technologies" /><p><span>4</span><br />Analytic Methods<br />and New<br />Technologies</p></a>
                             </li>
                         </ul>
                     </div>
@@ -269,6 +322,65 @@
 			    </ul>
             </div>
           </div>
+            <div class="additional-text branches-right"><div id="NEI_SubForm" style="display: none">
+            <h2 id="newsHeader">Subscribe for Updates</h2>
+        <form id="frm_SubScribe" onSubmit="return Validate()" name="frm_SubScribe">
+            Enter your e-mail address to subscribe or unsubscribe from the newsletter
+			<br />
+            <br />
+            <input type="text" name="TXT_Email" id="TXT_Email" size="28" />
+            <p class="newsSubmit">
+                <label>
+                    <input type="button" onClick="return SendToLyris()" name="Submit" value="Submit" />
+                </label>
+            </p>
+            <p>
+                <input name="RD_SubScribe" type="radio" id="RD_Sub" checked="true" value="SubScribe" />
+                <label for="RD_Sub">
+                    Subscribe</label>
+                <input name="RD_SubScribe" type="radio" id="RD_Unsub" value="UnSubScribe" />
+                <label for="RD_Unsub">
+                    Unsubscribe</label>
+            </p>
+        </form>
+    </div>
+    <div id="Lyris_SubForm" style="display: block">
+        <form id="frm_SubScribe_LYRIS" name="frm_SubScribe_LYRIS" action="http://lists.icfwebservices.com/subscribe/subscribe.tml"
+            method="POST">
+
+                        <label for="email">
+                            Email:</label>
+
+                        <input type="text" name="email" id="email" value="" size="10">
+
+                        <input type="image" height="19" width="73" title="subscribe" alt="subscribe"
+                            src="http://lists.icfwebservices.com/img/english/button_subscribe.gif" name="subscribe_btn">
+
+            <input type="hidden" name="list" value="brpscientificnews">
+            <input type="hidden" name="confirm" value="none">
+            <input type="hidden" name="showconfirm" value="F">
+            <input type="hidden" name="url" value="http://cancercontrol.cancer.gov/brp-new/e-newsletter/thank-you.html">
+        </form>
+        <form id="frm_UNSub_LYRIS" name="frm_UNSub_LYRIS" action="http://lists.icfwebservices.com/subscribe/unsubscribe.tml"
+            method="GET">
+
+                        <label for="email">
+                            Email:</label>
+
+                        <input type="text" name="email" id="Text1" value="" size="10">
+
+                        <input type="image" height="19" width="84" title="unsubscribe" alt="unsubscribe"
+                            src="http://lists.icfwebservices.com/img/english/button_unsubscribe.gif"
+                            name="unsubscribe">
+
+            <input type="hidden" name="url" value="/brp-new/e-newsletter/thank-you.html">
+            <input type="hidden" name="confirm" value="none">
+            <input type="hidden" name="showconfirm" value="F">
+            <input type="hidden" name="lists" value="brpscientificnews">
+        </form>
+    </div>
+    </div>
+
         </div><!-- /.span3 -->
       </div><!-- /.row -->
 
@@ -302,7 +414,7 @@
              </div><!--/span-->
 </div>
             <div class="last-updated">
-              <p class="center"><strong>Last Updated: March 31, 2015</strong></p>
+              <p class="center"><strong>Last Updated: July 2, 2015</strong></p>
        <a href="http://www.cancer.gov/contact" class="help-image"><img class="footer-help" src="/images/footer-help-logo.png" alt="help-logo" /></a><p class="can-numb"><strong>1-800-4-CANCER <br /> (1-800-422-6237)</strong></p>
                 </div>
        </div><!--/row-->
@@ -446,7 +558,6 @@
 });
 
 	</script>
-    <script src="../js/holder.js"></script>
     <script src="../js/respond.min.js"></script>
     <script>
   (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
@@ -461,7 +572,13 @@
 <script type="text/javascript" src="/JS/Omniture/WA_DCCPS_PageLoad.js"></script>
 
 
+	<script type="text/javascript">
+ var theObject = document.getElementById("NEI_SubForm")
+    theObject.style.display="block"
 
+ var theObject2 = document.getElementById("Lyris_SubForm")
+    theObject2.style.display="none"
+</script>
 
 
   </body>

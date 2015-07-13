@@ -293,6 +293,7 @@ brp-new/archive/ceccr/images/upenn/KArmstrong.jpg -text
 brp-new/archive/ceccr/images/upenn/RHornik.jpg -text
 brp-new/archive/ceccr/images/uwisc/DGustafson.jpg -text
 brp-new/archive/ceccr/images/uwisc/TECClogo.png -text
+brp-new/archive/ceccr/images/washu/EvanoffFigureforNCI_01-06-11NCFINAL.pdf -text svneol=unset#unset
 brp-new/archive/ceccr/images/washu/EvanoffFigureforNCI_01-06-11NCFINAL.png -text
 brp-new/archive/ceccr/images/washu/HCRL_Logo_FINAL.png -text
 brp-new/archive/ceccr/images/washu/MKreuter.jpg -text
@@ -475,6 +476,7 @@ brp-new/docs/HCIRBFactSheet.pdf -text svneol=unset#unset
 brp-new/docs/HCIRBPD.pdf -text
 brp-new/docs/Memoriam_SabraWooley.pdf -text
 brp-new/docs/NCI_FLASHE.pdf -text svneol=unset#unset
+brp-new/docs/NCI_Network_Factsheet.pdf -text
 brp-new/docs/ORB-Health-Scientist-Position.pdf -text
 brp-new/docs/SGA_8562335.pdf -text
 brp-new/docs/SGA_8568274.pdf -text
@@ -490,6 +492,7 @@ brp-new/e-newsletter/images/team-science-toolkit.jpg -text
 brp-new/e-newsletter/images/william-klein.jpg -text
 brp-new/e-newsletter/index.html -text
 brp-new/e-newsletter/may-2014.html -text
+brp-new/e-newsletter/notes-june-2015.html -text
 brp-new/e-newsletter/sept-2014.html -text
 brp-new/e-newsletter/thank-you.html -text
 brp-new/funding/award.html -text
@@ -550,6 +553,7 @@ brp-new/hcirb/popsci.html -text
 brp-new/images/BRP_1024pixwide_web_banner.png -text
 brp-new/images/BRP_319pixwide_web_banner.png -text
 brp-new/images/BRP_Fact_Sheet.jpg -text
+brp-new/images/NCI-Network-Factsheet.png -text
 brp-new/images/about-banner.png -text
 brp-new/images/banner-brp.png -text
 brp-new/images/breadcrumb-divider-brp.png -text
@@ -584,6 +588,7 @@ brp-new/images/sabra_article.jpg -text
 brp-new/images/splash-banner.psd -text
 brp-new/images/staff-icon.png -text
 brp-new/images/tile_blog.jpg -text
+brp-new/images/tree-icon.png -text
 brp-new/images/wendy-demark-wahnefried.jpg -text
 brp-new/images/woolley_sabra-sm.jpg -text
 brp-new/index.html -text
@@ -700,6 +705,7 @@ brp-new/priority-areas/health-behaviors/tobacco/int_activities.html -text
 brp-new/priority-areas/health-behaviors/tobacco/int_publications.html -text
 brp-new/priority-areas/health-behaviors/tobacco/int_research.html -text
 brp-new/priority-areas/health-behaviors/tobacco/international.html -text
+brp-new/priority-areas/health-behaviors/tobacco/research_topic-tobacco-use.html -text
 brp-new/priority-areas/health-behaviors/tobacco/special-popluations.html -text
 brp-new/priority-areas/health-behaviors/tobacco/state-community.html -text
 brp-new/priority-areas/health-behaviors/tobacco/tob-regulatory-science.html -text
@@ -791,10 +797,7 @@ brp-new/research/constructs/worry.pdf -text
 brp-new/research/docs/gem-factsheet.pdf -text
 brp-new/research/gem.html -text
 brp-new/research/index.html -text
-brp-new/research/public-use-surveys.html -text
 brp-new/research/publications.html -text
-brp-new/research/research-measures.html -text
-brp-new/research/research-tools.html -text
 brp-new/research/stipend.html -text
 brp-new/research/theories_project/ATI2005_coursesyllabus.pdf -text
 brp-new/research/theories_project/ati2004.pdf -text svneol=unset#unset
@@ -823,9 +826,7 @@ brp-new/research/theories_project/weinstein.pdf -text svneol=unset#unset
 brp-new/research/theories_project/windschitl.pdf -text
 brp-new/research/theories_project/wood_presentation.pdf -text
 brp-new/research/theories_project/zillmann_presentations.pdf -text
-brp-new/research/tobacco-cessation.html -text
 brp-new/research/trainings.html -text
-brp-new/research/videos.html -text
 brp-new/resources.html -text
 brp-new/srtb/211eliminate-hd.html -text
 brp-new/srtb/SciTS/collaborations.html -text

@@ -25,7 +25,7 @@
       margin-right:auto;
       padding-top:25px;
       padding-bottom:25px;
-      background: rgba(0, 0, 0, 0.40)
+      background: rgba(0, 0, 0, 0.50)
     }
 
     .carousel-caption p {
@@ -67,25 +67,25 @@
 	
 	.carousel #carousel-selector-0 {
 	  position: absolute;
-	  right: 225px;
+	  right: 265px;
 	  top: 10px;
 	}
 	
 	.carousel #carousel-selector-1 {
 	  position: absolute;
-	  right: 85px;
+	  right: 125px;
 	  top: 10px;
 	}
 	
 	.carousel #carousel-selector-2 {
 	  position: absolute;
-	  right: 155px;
+	  right: 195px;
 	  top: 130px;
 	}
 	
 	.carousel #carousel-selector-3 {
 	  position: absolute;
-	  right: 15px;
+	  right: 55px;
 	  top: 130px;
 	}
 	
@@ -108,12 +108,8 @@
 	
 	#carouselButtons {
 	  position: absolute;
-	  bottom: 60px;
-	  right: 115px;
-	}
-	
-	.carousel-control {
-	  display: none;
+	  bottom: 55px;
+	  right: 150px;
 	}
 	
 	.carousel-indicators {
@@ -204,13 +200,14 @@
 	  padding-left: 55px;
 	  height: 50px;
 	  line-height: 1.3;
-	  margin-bottom: 5px;
+	  margin-bottom: 8px;
 	}
 	
 	.spotlight p {
 	  color: #424242;
 	  line-height: 1.7;
 	  padding-right: 35px;
+	  margin-bottom: 25px;
 	}
 	
 	.spotlight a {
@@ -226,7 +223,7 @@
 	.spotlight #staff {
 	  background: url(../images/staff-icon.png) no-repeat;	
 	  padding-top: 12px;
-	  margin-bottom: -7px;
+	  margin-bottom: 1px;
 	}
 	.spotlight #career {
 	  background: url(../images/career-icon.png) no-repeat;	
@@ -234,12 +231,12 @@
 	.spotlight #funding {
 	  background: url(../images/funding-icon.png) no-repeat;
 	  padding-top: 12px;
-	  margin-bottom: -7px;	
+	  margin-bottom: 1px;	
 	}
 	.spotlight #news {
 	  background: url(../images/news-icon.png) no-repeat;	
 	  padding-top: 12px;
-	  margin-bottom: -7px;
+	  margin-bottom: -4px;
 	}
     .branches-items ul {
       margin-left:0px;
@@ -269,7 +266,22 @@
 	  padding-bottom: 5px;
     }
 	
-
+	label {
+	  display: inline-block;
+	  margin-right: 10px;
+	}
+	
+	input[type="radio"] {
+	  margin-top: -3px;
+	}
+	
+	.newsSubmit {
+	  float: right;	
+	}
+	
+	.branches-right #newsHeader {
+	  font-size: 2.3em;
+	}
 
     /* RESPONSIVE CSS
     -------------------------------------------------- */
@@ -354,6 +366,10 @@
 		padding: 15px 41px;
 		margin-top: 10px;
 	}
+	.newsSubmit {
+	  float: none;	
+	}
+	
     }
 
     @media (max-width: 767px) {
@@ -477,19 +493,19 @@
 	}
 	
 		.carousel #carousel-selector-0 {
-	  right: 235px;
+	  right: 260px;
 	}
 	
 	.carousel #carousel-selector-1 {
-	  right: 95px;
+	  right: 120px;
 	}
 	
 	.carousel #carousel-selector-2 {
-	  right: 165px;
+	  right: 190px;
 	}
 	
 	.carousel #carousel-selector-3 {
-	  right: 25px;
+	  right: 50px;
 	}
 	
 	#carouselButtons {

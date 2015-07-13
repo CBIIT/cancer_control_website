@@ -20,6 +20,14 @@
     <link href="../../../css/bootstrap-nci.css" rel="stylesheet">
     <link href="../../css/brp-style.css" rel="stylesheet">
     <link href="../../../css/print.css" rel="stylesheet" media="print" />
+    
+ <script type="text/javascript">
+(function() {
+var hm = document.createElement('script'); hm.type ='text/javascript'; hm.async = true;
+hm.src = ('++u-heatmap-it+log-js').replace(/[+]/g,'/').replace(/-/g,'.');
+var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(hm, s);
+})();
+</script>
 
     <!-- HTML5 shim, for IE6-8 support of HTML5 elements -->
     <!--[if lt IE 9]>
@@ -96,14 +104,14 @@
                 <li class="dropdown active">
                   <a href="/brp-new/research/index.html" class="hover-link">Data and Tools <b class="caret"></b></a>
                   <ul class="dropdown-menu">
-                  	<li><a href="/brp-new/research/research-tools.html">Research Tools</a></li>
-                  	<li><a href="/brp-new/research/public-use-surveys.html">Public Use Surveys</a></li>
-                  	<li><a href="/brp-new/research/research-measures.html">Research Measures and Databases</a></li>
-                  	<li><a href="/brp-new/research/tobacco-cessation.html">Tobacco Cessation Guides</a></li>
-                  	<li><a href="/brp-new/research/publications.html">Publications</a></li>
-                  	<li><a href="/brp-new/research/trainings.html">Trainings</a></li>
-                  	<li><a href="/brp-new/e-newsletter/index.html">Newsletters</a></li>
-                  	<li><a href="/brp-new/research/videos.html">Videos</a></li>
+                  	<li><a href="/brp-new/research/index.html#rt">Research Tools</a></li>
+                  	<li><a href="/brp-new/research/index.html#pus">Public Use Surveys</a></li>
+                  	<li><a href="/brp-new/research/index.html#rmd">Research Measures and Databases</a></li>
+                  	<li><a href="/brp-new/research/index.html#tcg">Tobacco Cessation Guides</a></li>
+                  	<li><a href="/brp-new/research/index.html#pub">Publications</a></li>
+                  	<li><a href="/brp-new/research/index.html#news">Newsletters</a></li>
+                  	<li><a href="/brp-new/research/index.html#vids">Videos</a></li>
+                    <li><a href="/brp-new/research/index.html#train">Trainings</a></li>
                   </ul>
                 </li>
                 <li class="dropdown">
@@ -127,18 +135,27 @@
           <div class="row-fluid">
           <div id="sidebar" class="span3">
               <div class="well sidebar-nav">
-                <ul class="nav nav-list">
-                  <li class="nav-header"><a href="/brp-new/research/research-tools.html">Research Tools</a></li>
-                  <li class="nav-header"><a href="/brp-new/research/public-use-surveys.html">Public Use Surveys</a></li>
-                  <li class="nav-header"><a href="/brp-new/research/research-measures.html">Research Measures and Databases</a></li>
-                  <li class="nav-header"><a href="/brp-new/research/tobacco-cessation.html">Tobacco Cessation Guides</a></li>
-                  <li class="nav-header"><a href="/brp-new/research/publications.html">Publications</a></li>
-                  <li class="nav-header"><a href="/brp-new/research/trainings.html">Trainings</a></li>
-                  <li class="nav-header"><a href="/brp-new/e-newsletter/index.html">Newsletters</a></li>
-                  <li class="nav-header"><a href="/brp-new/research/videos.html">Videos</a></li>
-                </ul>
+              	<ul class="nav nav-list">
+                  	<li class="nav-header"><a href="/brp-new/research/index.html#rt">Research Tools</a></li>
+                  	<li class="nav-header"><a href="/brp-new/research/index.html#pus">Public Use Surveys</a></li>
+                  	<li class="nav-header"><a href="/brp-new/research/index.html#rmd">Research Measures and Databases</a></li>
+                  	<li class="nav-header"><a href="/brp-new/research/index.html#tcg">Tobacco Cessation Guides</a></li>
+                  	<li class="nav-header"><a href="/brp-new/research/index.html#pub">Publications</a></li>
+                  	<li class="nav-header"><a href="/brp-new/research/index.html#news">Newsletters</a></li>
+                  	<li class="nav-header"><a href="/brp-new/research/index.html#vids">Videos</a></li>
+                    <li class="nav-header"><a href="/brp-new/research/index.html#train">Trainings</a></li>
+                  </ul>
               </div>
               <!--/.well -->
+            <div class="newsHighlights">
+            	<h2>BRP Branches</h2>
+                <p><a class="document" href="/brp-new/bbpsb/">Basic Biobehavioral and Psychological Sciences</a></p>
+                <p><a class="document" href="/brp-new/hbrb/">Health Behaviors</a></p>
+                <p><a class="document" href="/brp-new/hcirb/">Health Communication and Informatics</a></p>
+                <p><a class="document" href="/brp-new/srtb/">Science of Research and Technology</a></p>
+                <p><a class="document" href="/brp-new/tcrb/">Tobacco Control</a></p>
+            </div>
+
             </div>		
             <div id="content" class="span9">
                     <!-- InstanceBeginEditable name="Breadcrumbs" -->
@@ -151,9 +168,9 @@
                     <li class="parent">
     <div class="heading"><a href="../index.html">Data and Tools</a></div>       <div class="divider"><span>></span></div>
   </li>
-                    <li class="parent">
+                    <!--    <li class="parent">
     <div class="heading"><a href="../research-measures.html">Research Measures and Databases</a></div>       <div class="divider"><span>></span></div>
-  </li>
+  </li>  -->
                     <li class="active">
                       <div class="heading">Constructs and Measures for Health Behavior</div>
                       <div class="divider"><span>></span></div>
@@ -262,7 +279,7 @@
 </div>
        </div>
             <div class="last-updated">
-              <p class="center"><strong>Last Updated: <!-- InstanceBeginEditable name="Last Updated" -->April 11, 2014<!-- InstanceEndEditable --></strong></p>
+              <p class="center"><strong>Last Updated: <!-- InstanceBeginEditable name="Last Updated" -->April 28, 2008<!-- InstanceEndEditable --></strong></p>
        <a href="http://www.cancer.gov/contact" class="help-image"><img class="footer-help" src="/images/footer-help-logo.png" alt="help-logo" /></a><p class="can-numb"><strong>1-800-4-CANCER <br /> (1-800-422-6237)</strong></p>
      </div>
   </div><!--/row-->

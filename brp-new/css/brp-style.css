@@ -183,7 +183,7 @@ footer {
 .newsHighlights {
 	border: 1px solid #CCCCCC;	
 }
-#content .newsHighlights h2 {
+#content .newsHighlights h2, #sidebar .newsHighlights h2 {
 	color: #FFFFFF;
 	background: #793C82;
 	padding: 10px;
@@ -191,6 +191,14 @@ footer {
 	border-bottom: 1px solid #CCCCCC;	
 	line-height: 1.5;
 	font-size: 19px;
+	text-align: center;
+}
+#sidebar .newsHighlights h2 {
+	background-image: url(../images/tree-icon.png);
+	background-repeat: no-repeat;
+}
+#sidebar .newsHighlights {
+	width: 90%;	
 }
 .newsHighlights p {
 	padding: 0 10px;
