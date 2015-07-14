@@ -21,28 +21,7 @@
 	padding: 12px 60px;
 	text-align: center;
 }
-.accordion {
-	margin-top: 20px;
-}
-.accordion-group {
-	border: none;
-	margin-bottom: 8px;
-}
-.accordion-heading {
-	border: 1px solid #E5E5E5;
-}
-.accordion-group .accordion-heading a {
-	padding-left: 30px;
-	background: url(../../images/blueminus.png) no-repeat left center;
-	margin-left: 10px;
-	font-weight: bold;
-}
-.accordion-group .accordion-heading a.collapsed {
-	padding-left: 30px;
-	background: url(../../images/blueplus.png) no-repeat left center;
-	margin-left: 10px;
-	color: #696559;
-}
+
 .advocates li {
 	margin-bottom: 15px;
 }
