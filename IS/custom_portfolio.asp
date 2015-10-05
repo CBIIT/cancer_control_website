@@ -293,7 +293,7 @@
        </div>
             <div class="last-updated">
               <p class="center"><strong>Last Updated: <!-- InstanceBeginEditable name="Last Updated" -->June 27, 2013<!-- InstanceEndEditable --></strong></p>
-       <a href="http://www.cancer.gov/global/contact" class="help-image"><img class="footer-help" src="/images/footer-help-logo.png" alt="help-logo" /></a><p class="can-numb"><strong>1-800-4-CANCER <br /> (1-800-422-6237)</strong></p>
+       <a href="http://www.cancer.gov/contact" class="help-image"><img class="footer-help" src="/images/footer-help-logo.png" alt="help-logo" /></a><p class="can-numb"><strong>1-800-4-CANCER <br /> (1-800-422-6237)</strong></p>
      </div>
        </div><!--/row-->
           <div class="row-fluid">
@@ -301,15 +301,13 @@
           	  <ul>
                 <li><a href="/index.html">Site Home</a></li>
                 <li>|</li>
-                <li><a href="http://www.cancer.gov/global/contact">Contact Us</a></li>
+                <li><a href="http://www.cancer.gov/contact">Contact Us</a></li>
                 <li>|</li>
-                <li><a href="http://www.cancer.gov/global/web/policies">Policies</a></li>
+                <li><a href="http://www.cancer.gov/policies/disclaimer">Disclaimer Policy</a></li>
                 <li>|</li>
-                <li><a href="http://www.cancer.gov/global/web/policies/accessibility">Accessibility</a></li>
+                <li><a href="http://www.cancer.gov/policies/accessibility">Accessibility</a></li>
                 <li>|</li>
-                <li><a href="http://www.cancer.gov/global/viewing-files">Viewing Files</a></li>
-                <li>|</li>
-                <li><a href="http://www.cancer.gov/global/web/policies/foia">FOIA</a></li>
+                <li><a href="http://www.cancer.gov/policies/foia">FOIA</a></li>
                 <li>|</li>
                 <li><a href="/help.html">Help</a></li>
               </ul>
@@ -332,7 +330,6 @@
     <script src="../js/jquery-1.10.1.min.js"></script>
     <script src="../js/bootstrap.min.js"></script>
     <script src="../js/respond.min.js"></script>
-    <script type="text/javascript" src="../js/responsive-tables.js"></script>
     
     <script>
 // This adds 'placeholder' to the items listed in the jQuery .support object. 
@@ -394,6 +391,7 @@ $(document).ready(function(){
 
   ga('create', 'UA-47020801-1', 'cancer.gov');
   ga('send', 'pageview');
+  ga('set', 'anonymizeIp', true);
 
 </script>
     
