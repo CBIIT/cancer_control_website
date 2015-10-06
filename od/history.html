@@ -37,16 +37,23 @@
 	<a href="#skip" class="skippy">Skip Navigation</a>
 	<a id="top"></a>
 	</div> <!-- end skipmenu -->
-	<div id="main-container">
-    <div id="header">
-    <div id="nci-banner">
-		<a href="http://www.cancer.gov/"><span>National Cancer Institute</span></a>
+	<div id="header-nci">
+    	    <a href="http://www.cancer.gov/"> <img alt="National Cancer Institute" src="../images/nci-logo-full.png"> </a>
     </div>
-    <div id="cancercontrol-banner">
-    	<a href="http://cancercontrol.cancer.gov/"><span>Cancer Control and Population Sciences: NCI's Bridge to Public Health Research, Practice, and Policy</span></a>
+    <div id="header">
+      <div id="cancercontrol-banner">
+    	<span>Division of Cancer Control &amp; Population Sciences</span>
     </div>
   </div>
-  <div id="header-search">
+  
+<div id="main-container">
+  
+      <!-- NAVBAR
+    ================================================== -->
+
+
+        <div class="navbar navbar-inverse">
+        <div id="header-search">
 		<form method="get" action="http://search2.google.cit.nih.gov/search" name="search">
   	  <input type="hidden" name="site" value="DCCPS" />
   	  <input type="hidden" name="client" value="DCCPS_frontend" />
@@ -59,11 +66,6 @@
   	  <input type="image" src="../images/hbutton-new.gif"  class="hbutton" name="btnG" id="btnG" alt="Search" />
   	</form>
 	</div>
-      <!-- NAVBAR
-    ================================================== -->
-
-
-        <div class="navbar navbar-inverse">
           <div class="navbar-inner">
             <!-- Responsive Navbar Part 1: Button for triggering responsive navbar (not covered in tutorial). Include responsive CSS to utilize. -->
             <button type="button" class="btn btn-navbar" data-toggle="collapse" data-target=".nav-collapse">
@@ -193,6 +195,7 @@
           <!-- /END THE FEATURETTES -->
         </div>
         <!-- /.container -->
+      </div>
       <!-- FOOTER -->
       <footer>
       	<div class="container-fluid">
@@ -283,7 +286,6 @@
           </div><!--/row-->
         </div>
       </footer>
-  	</div>
     <!-- javascript -->
     <script src="../js/jquery-1.10.1.min.js"></script>
     <script src="../js/bootstrap.min.js"></script>
