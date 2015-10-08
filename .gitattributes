@@ -570,16 +570,15 @@ brp/constructs/worry/worry.pdf -text
 brp/crosstalk.html -text
 brp/decision-making.html -text
 brp/docs/APHALI2016[!!-~].pdf -text
-brp/docs/BBPSB-post-doc-CRTA-2015.pdf -text
 brp/docs/BRP_Fact_Sheet-acc.pdf -text
+brp/docs/CRTA_Announcement_T_RB_2015.pdf -text
 brp/docs/ELIFactSheet.pdf -text svneol=unset#unset
 brp/docs/Grants2005.pdf -text
-brp/docs/HBRB-Branch-Chief-ad.pdf -text
 brp/docs/HCIRBFactSheet.pdf -text svneol=unset#unset
 brp/docs/HCIRBPD.pdf -text
 brp/docs/Memoriam_SabraWooley.pdf -text
 brp/docs/NCI_Network_Factsheet.pdf -text
-brp/docs/ORB-Health-Scientist-Position.pdf -text
+brp/docs/Research-Design-Stats-Measurement-Fellowship-at-NCI.pdf -text
 brp/docs/SGA_8562335.pdf -text
 brp/docs/SGA_8568274.pdf -text
 brp/docs/SGA_8574995.pdf -text
@@ -2247,7 +2246,9 @@ images/cr_video-thumbnails/tagurscollins-reduce.jpg -text
 images/d_i_banner.gif -text
 images/dccps-banner.gif -text
 images/dccps-banner2.gif -text
+images/dccps-logo.png -text
 images/dccps-logo1.gif -text
+images/dccps-people-large.png -text
 images/dccps_ctpr_tile2.gif -text
 images/delay-adjusted_incidence_graph.jpg -text
 images/di-initiative-partners.jpg -text
@@ -2309,6 +2310,7 @@ images/national-expenditures-between-2010-2020-thumb.png -text
 images/national-expenditures-between-2010-2020.png -text
 images/native-banner.jpg -text
 images/nav-header-dash.jpg -text
+images/nci-logo-full.png -text
 images/nci-vol-10178-150.gif -text
 images/new.gif -text
 images/nih-fda_tile.gif -text
@@ -2827,6 +2829,7 @@ od/images/ArleneCoit.jpg -text
 od/images/Ballard-BarbashRa2.jpg -text
 od/images/BrendaEdwards.jpg -text
 od/images/CynthiaVinson.jpg -text
+od/images/Daniela-Seminara.jpg -text
 od/images/DeborahWinn.jpg -text
 od/images/DeniseBuckley.jpg -text
 od/images/EdwardsBr.jpg -text

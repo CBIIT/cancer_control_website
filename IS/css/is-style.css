@@ -1,22 +1,9 @@
-
 #header {
-    height: 157px;
+    background-color: #6c3a77;
 }
 
 #header #cancercontrol-banner {
-	background-color:#6C3A77;
-	background: url("../images/nih-is-header-web.jpg") no-repeat scroll left top #6C3A77;
-	height: 96px;
-}
-
-#header #cancercontrol-banner a {
-	display: block;
-	width: 100%;
-	height:95px;
-}
-
-#header #cancercontrol-banner a > span {
-	display: none;
+	background-color:#6c3a77;	
 }
 
 .navbar .nav > li > a {
@@ -60,16 +47,16 @@
 .navbar-inverse .nav > li > a {
 	color: #6C3A77;
 }
-#main-container .navbar .nav li a:hover {
+.navbar .nav li a:hover {
 	background-color: #6C3A77;
 }
 
-#main-container .navbar-inverse .nav li.dropdown > .hover-link .caret {
+.navbar-inverse .nav li.dropdown > .hover-link .caret {
 	border-bottom-color: #6C3A77;
     border-top-color: #6C3A77;
 }
 
-#main-container .navbar .nav li a:hover,
+.navbar .nav li a:hover,
 .navbar-inverse .nav .active > a,
 .navbar-inverse .nav .active > a:hover,
 .navbar-inverse .nav .active > a:focus {
@@ -169,76 +156,14 @@
 	height:61px;
 }
 
-@media (max-width: 580px) {
-body #main-container #header-search {
-  	top: 117px;
-  }
-}
-
 @media (max-width: 767px) {
-  #header {
-    height: 125px;
-}
   .navbar-inverse .nav-collapse .nav > li > a {
     color: #6C3A77;
-  }
-
-  #header #cancercontrol-banner a {
-    height: 65px;
-}
-  
-  #main-container #header-search {
-    top: 117px;
-  }
-      
-  #main-container #header #cancercontrol-banner {
-  	height: 65px;
-	width: 100%;
-	background-size: auto 65px;
-  }
-  #header #nci-banner {
-    background: url("/IS/pdfs/An-Analysis-of-DD-Supplements-Eckstein.pdf") no-repeat #A90101;  
-    height:61px;
-  }
-}
-
-
-@media (max-width: 480px) {
-	
-#main-container #header {
-    height: 180px;
-}
-body #main-container #header-search {
-  	top: 174px;
-  }
-      
-  #main-container #header #cancercontrol-banner {
-	width: 100%;
-	  background-color:#6C3A77;
-    background: url("../images/nih-is-header-mobile.jpg") no-repeat #6C3A77;
-    height:120px;
-		background-size: auto 120px;
-  }
-
-  #header #cancercontrol-banner a {
-	height:62px;
-}
-}
-
-@media (max-width: 979px) {
-	#header #nci-banner {
-    background: url("../../images/banner-nci-sml.png") no-repeat #A90101;  
-    height:61px;
-  }
-  #header #cancercontrol-banner {
-	  background-color:#6C3A77;
-    background: url("../images/nih-is-header-web.jpg") no-repeat #6C3A77;
-    height:120px;
   }
 }
 
 @media (max-width: 1199px) {
-	#main-container .navbar .nav li a {
+	.navbar .nav li a {
 		padding: 12px 20px;
 	}
 }

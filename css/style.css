@@ -9,8 +9,8 @@ html, body, div, span, applet, object, iframe, h1, h2, h3, h4, h5, h6, p, blockq
 
 footer {
   background-color: #ecf5fb;
-  margin: 0 -20px;
   padding:20px;
+  margin: 0;
 }
 
 /* HTML5 display-role reset for older browsers */
@@ -68,7 +68,7 @@ p, td, blockquote, sub, sup, a {
       margin-top: 10px;
     }
 	
-	#header, .navbar {
+	.navbar {
       margin: 0px -20px;
     }
 
@@ -81,7 +81,7 @@ p, td, blockquote, sub, sup, a {
     }
 	
 	/*Change the size of the caret for the dropdown navbar */
-	#main-container .navbar .nav > li > .dropdown-menu:after {
+	.navbar .nav > li > .dropdown-menu:after {
 		border-bottom: 15px solid #FFFFFF;
 		border-left: 15px solid rgba(0, 0, 0, 0);
 		border-right: 15px solid rgba(0, 0, 0, 0);
@@ -119,8 +119,8 @@ p, td, blockquote, sub, sup, a {
 
 #header-search {
 	position: absolute;
-	top: 75px;
-	right: 15px;
+	top: -40px;
+	right: 0px;
 	width: 200px;
 	padding: 0px;
 	display: block;
@@ -144,7 +144,7 @@ p, td, blockquote, sub, sup, a {
 	color: #096598;
 }
 
-#main-container .navbar .nav li.twitter-header a:hover {
+.navbar .nav li.twitter-header a:hover {
                 background: url("../images/footer-twitter.png") no-repeat scroll 5px 9px #096598;
     color: #FFFFFF;
 }
@@ -436,20 +436,6 @@ td.continuum {
       color:#696559;
     }
 	
-.minibanner-gray {  background: #707070; height:61px; }
-.minibanner-gray ul li.nci a {  display: block;  height: 40px;  text-indent: -3000px; }
-.minibanner-gray ul li.nih a {  display: block;  height: 40px;  text-indent: -3000px; }
-.minibanner-gray ul li.cancergov a {  display: block;  height: 40px;  text-indent: -3000px; } 
-.minibanner-gray ul {  height: 40px;  margin: 0 auto;  padding: 0;  overflow: hidden; }
-.minibanner-gray li {  list-style: none; }
-.minibanner-gray li.nci {  width: 258px;  height: 40px;  float: left; } 
-.minibanner-gray li.nci {  background: url(http://www.cancer.gov/PublishedContent/images/images/minibanner/minibanner-gray-nci.gif) no-repeat; margin-left: 10px; margin-top: 5px; }
-.minibanner-gray li.nih {  width: 203px;  height: 40px;  float: right; }
-.minibanner-gray li.nih {  background: url(http://www.cancer.gov/PublishedContent/images/images/minibanner/minibanner-gray-nih.gif) no-repeat; } 
-.minibanner-gray li.cancergov {  width: 102px;  height: 40px;  float: right; }
-.minibanner-gray li.cancergov {  background: url(http://www.cancer.gov/PublishedContent/images/images/minibanner/minibanner-gray-cancergov.gif) no-repeat; margin-right: 25px; } }
-
-
 #header-search input[type=button], input[type=submit] {
 	-webkit-border-radius: 0px;	
 	float: right;
@@ -498,47 +484,39 @@ td.continuum {
 
 /* Header */
 #header {
-	height:135px;
-}
-#header #nci-banner {
-	background: url("../images/banner-nci.jpg") no-repeat scroll center top #A90101;	
-	height:61px;
-}
-#header #cancercontrol-banner {
-	background: url("../images/banner-cancercontrol.jpg") no-repeat scroll center top #096598;	
-	height:74px;
-}
-  #header #cancercontrol-banner a {
-    display: block;
-    width: 100%;
+	background-color:#096598;
 }
 
-@media (max-width: 320px) {
-  body #header-search {
-  	right: -15px;
-  }
+#header-nci {
+    max-width: 1240px;
+	width:90%;
+}
+
+#header #cancercontrol-banner {
+	background: url("../images/dccps-people-large.png") no-repeat scroll 75% 0 #096598;
+	width: 100%;
+	height: auto;
+	max-width: 1240px;
+    margin: 0 auto;
+	position:relative;
+	padding:10px;
+}
+
+#header #cancercontrol-banner span {
+	font-size:20px;
+	color:#fff;
+	margin-left:1px;
+}
+
+form {
+    margin: 0;
 }
 
 @media (max-width: 400px) {
   #main-container #header {
   	height: 97px;
   }
-  body #header-search {
-  	top: 92px;
-  }
-  #main-container #header #nci-banner {
-  	height: 45px;
-	width: 100%;
-	background-size: auto 45px;
-  }
-  #main-container #header #cancercontrol-banner {
-  	height: 52px;
-	width: 100%;
-	background-size: auto 52px;
-  }
-  #header #cancercontrol-banner a {
-    height: 52px;
-}
+  
   #main-container .carousel .item {
 	height: 140px;  
   }
@@ -583,7 +561,6 @@ td.continuum {
   	float: left;
   	padding: 10px;
   	padding-left: 1.488095238095238%;
-  	border: 0px;
   	height: 16px;
   	text-indent: 6px;
   	display: block;
@@ -604,11 +581,10 @@ td.continuum {
 	}
 }
 
-
 @media (max-width: 768px) {
-  #header-search {
-    top: 130px;
-  }
+	#header {
+      margin: 0px -20px;
+    }
     #header-search input[type=text] {
     top: 130px;
     -webkit-border-radius: 0px;
@@ -626,6 +602,17 @@ td.continuum {
     margin-top:10px;
     border: solid #cccccc 1px;
   }
+  	#header-search {
+	position:absolute;
+	bottom:0px;
+	right:0px;
+	float:right;
+  }
+  
+  #header #cancercontrol-banner {
+	  height:40px;
+  }
+  
 .nav-collapse .dropdown-menu li {
 	margin-left: 10px;
 }
@@ -650,14 +637,12 @@ td.continuum {
 	text-decoration: underline;
 	color: #FFFFFF;
 }
-
-  #header #nci-banner {
-    background: url("../images/banner-nci-sml.png") no-repeat #A90101;  
-    height:61px;
-  }
-  #header #cancercontrol-banner {
-    background: url("../images/banner-cancercontrol-sml.png") no-repeat #096598;  
-    height:62px;
+  	footer {
+  margin: 0 -20px;
+}  
+	#header-search {
+	top:-5px;
+	right:0px;
   }
 }
 
@@ -682,9 +667,6 @@ td.continuum {
   }
   #main-container footer .span6 .top-span {
      margin-bottom: 0;
-  }
-  #header #cancercontrol-banner a {
-    height: 74px;
   }
 }
 
@@ -714,32 +696,16 @@ td.continuum {
     background: url("../images/banner-nci-sml.png") no-repeat #A90101;  
     height:61px;
   }
-  #header #cancercontrol-banner {
-    background: url("../images/banner-cancercontrol-sml.png") no-repeat #096598;  
-    height:74px;
-  }
+  
   .bookpic {
 	display: none;
   }
-  #main-container .navbar .navbar-inner .caret {
+  .navbar .navbar-inner .caret {
 	display: none; 
   }
-  #main-container .navbar .navbar-inner .dropdown-menu li {
+  .navbar .navbar-inner .dropdown-menu li {
 	display: none; 
   }
-}
-
-#header #nci-banner a {
-	display: block;
-	height:61px;
-	width: 100%;
-}
-
-#header #nci-banner a > span {
-	display: none;
-}
-#header #cancercontrol-banner a > span {
-	display: none;
 }
 
 .accordion {
@@ -872,11 +838,7 @@ div#skipmenu a.skippy:active, div#skipmenu a.skippy:focus, div#skipmenu a.skippy
 	}
 	#header-search input[type=image] {
       margin-top:8px;
-    }
-	#header #cancercontrol-banner a {
-   		height: 74px;
-    }
-}
+    }}
 
 @media (max-width: 980px) {
     /* Enable use of floated navbar text */
@@ -885,6 +847,10 @@ div#skipmenu a.skippy:active, div#skipmenu a.skippy:focus, div#skipmenu a.skippy
         padding-left: 5px;
         padding-right: 5px;
     }
+	
+	#header #cancercontrol-banner {
+		background: url("../images/dccps-people-large.png") no-repeat scroll 100% 0 #096598;
+	}
 }
 
 @media (min-width: 1200px) {
@@ -895,7 +861,7 @@ div#skipmenu a.skippy:active, div#skipmenu a.skippy:focus, div#skipmenu a.skippy
 }
 
 @media (max-width: 1199px) {
-	#main-container .navbar .nav li a {
+	.navbar .nav li a {
 		padding: 12px 6px;	
 	}
 	.nav .twitter-header a span {

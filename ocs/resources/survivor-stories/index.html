@@ -38,14 +38,19 @@
 	<a href="#skip" class="skippy">Skip Navigation</a>
 	<a id="top"></a>
 	</div> <!-- end skipmenu -->
-	<div id="main-container">
+	<div id="header-nci">
+    	    <a href="http://cancercontrol.cancer.gov/"> <img alt="National Cancer Institute" src="../../../images/dccps-logo.png"> </a>
+    </div>
     <div id="header">
-    <div class="minibanner-gray"> <ul> <li class="nci"><a href="http://www.cancer.gov">National Cancer Institute</a></li> <li class="cancergov"><a href="http://www.cancer.gov">www.cancer.gov</a></li> <li class="nih"><a href="http://www.nih.gov">at the National Institutes of Health</a></li> </ul> </div>
-    <div id="cancercontrol-banner">
-    	<a href="/ocs"><span>Cancer Control and Population Sciences: NCI's Bridge to Public Health Research, Practice, and Policy</span></a>
+      <div id="cancercontrol-banner">
+    	<span>Office of Cancer Survivorship</span>
     </div>
   </div>
-  <div id="header-search">
+	<div id="main-container">
+      <!-- NAVBAR
+    ================================================== -->
+        <div class="navbar navbar-inverse">
+        <div id="header-search">
 		<form method="get" action="http://search2.google.cit.nih.gov/search" name="search">
   	  <input type="hidden" name="site" value="DCCPS" />
   	  <input type="hidden" name="client" value="DCCPS_frontend" />
@@ -53,17 +58,11 @@
   	  <input type="hidden" name="output" value="xml_no_dtd" />
       <input type="hidden" name="filter" value="0" />
   	  <input type="hidden" name="getfields" value="*" />
-  	  <label for="searchbox">
+  	  <label for="searchbox">Search: </label>
         <input id="searchbox" type="text" name="q" size="15" maxlength="255" class="htextf" placeholder="Search" />
-      </label>
   	  <input type="image" src="../../../images/hbutton-new.gif"  class="hbutton" name="btnG" id="btnG" alt="Search" />
   	</form>
 	</div>
-      <!-- NAVBAR
-    ================================================== -->
-
-
-        <div class="navbar navbar-inverse">
           <div class="navbar-inner">
             <!-- Responsive Navbar Part 1: Button for triggering responsive navbar (not covered in tutorial). Include responsive CSS to utilize. -->
             <button type="button" class="btn btn-navbar" data-toggle="collapse" data-target=".nav-collapse">
@@ -215,7 +214,10 @@ Matthew Zachary<br>
           <!-- /END THE FEATURETTES -->
         </div>
         <!-- /.container -->
+      </div>
+
       <!-- FOOTER -->
+
       <footer>
       	<div class="container-fluid">
         	<div class="row-fluid bottom-border bottom-margin">

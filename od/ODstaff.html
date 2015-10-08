@@ -38,16 +38,23 @@
 	<a href="#skip" class="skippy">Skip Navigation</a>
 	<a id="top"></a>
 	</div> <!-- end skipmenu -->
-	<div id="main-container">
-    <div id="header">
-    <div id="nci-banner">
-		<a href="http://www.cancer.gov/"><span>National Cancer Institute</span></a>
+	<div id="header-nci">
+    	    <a href="http://www.cancer.gov/"> <img alt="National Cancer Institute" src="../images/nci-logo-full.png"> </a>
     </div>
-    <div id="cancercontrol-banner">
-    	<a href="http://cancercontrol.cancer.gov/"><span>Cancer Control and Population Sciences: NCI's Bridge to Public Health Research, Practice, and Policy</span></a>
+    <div id="header">
+      <div id="cancercontrol-banner">
+    	<span>Division of Cancer Control &amp; Population Sciences</span>
     </div>
   </div>
-  <div id="header-search">
+  
+<div id="main-container">
+  
+      <!-- NAVBAR
+    ================================================== -->
+
+
+        <div class="navbar navbar-inverse">
+        <div id="header-search">
 		<form method="get" action="http://search2.google.cit.nih.gov/search" name="search">
   	  <input type="hidden" name="site" value="DCCPS" />
   	  <input type="hidden" name="client" value="DCCPS_frontend" />
@@ -60,11 +67,6 @@
   	  <input type="image" src="../images/hbutton-new.gif"  class="hbutton" name="btnG" id="btnG" alt="Search" />
   	</form>
 	</div>
-      <!-- NAVBAR
-    ================================================== -->
-
-
-        <div class="navbar navbar-inverse">
           <div class="navbar-inner">
             <!-- Responsive Navbar Part 1: Button for triggering responsive navbar (not covered in tutorial). Include responsive CSS to utilize. -->
             <button type="button" class="btn btn-navbar" data-toggle="collapse" data-target=".nav-collapse">
@@ -197,44 +199,44 @@
                       </div>
                     </div>
                   </div>
-                  <table class="table table-striped table-bordered table-condensed responsive" title="Office of the Director Staff">
+                  <table class="table table-striped table-bordered table-condensed responsive" title="Office of the Director Senior Staff">
 	    <tr>
-	      <th width="10%" align="left" valign="top">&nbsp;</th>
-	      <th width="35%" align="left" valign="top">Name<br>
+	      <th style="width:10%">&nbsp;</th>
+	      <th style="width:35%">Name<br>
 	        Title</th>
-          <th width="15%" align="left" valign="top">Telephone</th>
-          <th width="40%" align="left" valign="top">E-mail</th>
+          <th style="width:15%">Telephone</th>
+          <th style="width:40%">E-mail</th>
         </tr>
         <tr>
-          <td valign="top"><a href="director_rc.html"><img src="images/croyle.jpg" width="94" height="141" alt="Robert Croyle"></a></td>
-          <td valign="top"><a href="director_rc.html">            Robert Croyle, PhD</a><br>
+          <td><a href="director_rc.html"><img src="images/croyle.jpg" width="94" height="141" alt="Robert Croyle"></a></td>
+          <td><a href="director_rc.html">            Robert Croyle, PhD</a><br>
             Director</td>
-          <td valign="top">240-276-6690</td>
-          <td valign="top"><a href="mailto:croyler@mail.nih.gov">croyler@mail.nih.gov</a></td>
+          <td>240-276-6690</td>
+          <td><a href="mailto:croyler@mail.nih.gov">croyler@mail.nih.gov</a></td>
         </tr>
         <tr>
-          <td valign="top"><a href="dep_director_dw.html"><img src="images/DeborahWinn.jpg" width="94" height="141" alt="Debbie Winn"></a></td>
-          <td valign="top"><a href="dep_director_dw.html">            Debbie Winn, PhD</a><br>
+          <td><a href="dep_director_dw.html"><img src="images/DeborahWinn.jpg" width="94" height="141" alt="Debbie Winn"></a></td>
+          <td><a href="dep_director_dw.html">            Debbie Winn, PhD</a><br>
             Deputy Director</td>
-          <td valign="top">240-276-6755</td>
-          <td valign="top"><a href="mailto:winnde@mail.nih.gov">winnde@mail.nih.gov</a></td>
+          <td>240-276-6755</td>
+          <td><a href="mailto:winnde@mail.nih.gov">winnde@mail.nih.gov</a></td>
         </tr>
         <tr>
-          <td valign="top"><img src="/IS/images/chambers.jpg" width="94" height="135" alt="David Chambers"></td>
-          <td valign="top"><a href="../IS/chambers.html">David Chambers, D. Phil.</a><br>
+          <td><img src="/IS/images/chambers.jpg" width="94" height="135" alt="David Chambers"></td>
+          <td><a href="../IS/chambers.html">David Chambers, D. Phil.</a><br>
             Deputy  Director for Implementation Science </td>
             <td>240-276-5090</td>
-          <td valign="top"><a href="mailto:dchamber@mail.nih.gov">dchamber@mail.nih.gov</a></td>
+          <td><a href="mailto:dchamber@mail.nih.gov">dchamber@mail.nih.gov</a></td>
         </tr>
-        <tr valign="top">
+        <tr>
           <td><a href="bke.html"><img src="images/BrendaEdwards.jpg" width="94" height="141" alt="Brenda Edwards"><br>
           </a></td>
           <td><a href="bke.html">            Brenda Edwards, PhD</a><br>
-            Senior Advisor for Cancer Surveillance</td>
+            Senior Advisor for Global Health</td>
           <td>240-276-6722</td>
           <td><a href="mailto:edwardsb@mail.nih.gov">edwardsb@mail.nih.gov</a></td>
         </tr>
-        <tr valign="top">
+        <tr>
           <td><a href="/ocs/about/director-page.html"><img src="/od/images/jrowland.jpg" width="94" height="141" alt="Brenda Edwards"><br>
           </a></td>
           <td><a href="/ocs/about/director-page.html">Julia Rowland, PhD</a><br>
@@ -243,40 +245,47 @@
           <td><a href="mailto:Julia.Rowland@nih.gov">Julia.Rowland@nih.gov</a></td>
         </tr>
         <tr>
-          <td valign="top"><img src="images/MarkAlexander.jpg" width="94" height="141" alt="Mark Alexander"></td>
-          <td valign="top">            Mark Alexander, MSC<br>
+          <td><img src="images/MarkAlexander.jpg" width="94" height="141" alt="Mark Alexander"></td>
+          <td>            Mark Alexander, MSC<br>
             Public Health Advisor</td>
-          <td valign="top">240-276-6869</td>
-          <td valign="top"><a href="mailto:alexandm@mail.nih.gov">alexandm@mail.nih.gov</a></td>
+          <td>240-276-6869</td>
+          <td><a href="mailto:alexandm@mail.nih.gov">alexandm@mail.nih.gov</a></td>
         </tr>
         <tr>
-          <td valign="top"><img src="images/SarahBernal.jpg" width="94" height="141" alt="Sarah Bruce Bernal"></td>
-          <td valign="top">            Sarah Bruce Bernal, MA<br>Program Analyst/Implementation Science Coordinator</td>
-          <td valign="top">240-276-6539</td>
-          <td valign="top"><a href="mailto:sarah.bernal@nih.gov">sarah.bernal@nih.gov</a></td>
-        </tr>
-        <tr>
-          <td valign="top"><img src="images/DeniseBuckley.jpg" width="95" height="141" alt="Denise Buckley"></td>
-          <td valign="top">            Denise Buckley, ELS<br>
-            Communications Manager</td>
-          <td valign="top">240-276-6756</td>
-          <td valign="top"><a href="mailto:buckleyde@mail.nih.gov">buckleyde@mail.nih.gov</a></td>
-        </tr>
-        <tr>
-          <td valign="top">&nbsp;</td>
-          <td valign="top">Quentin Carr<br>
+          <td>&nbsp;</td>
+          <td>Debbie Allen<br>
             Program Assistant</td>
-          <td valign="top">240-276-7003</td>
-          <td valign="top"><a href="mailto:carrq@mail.nih.gov">carrq@mail.nih.gov</a></td>
+          <td>240-276-6753</td>
+          <td><a href="mailto:Debbie.Allen@nih.gov">Debbie.Allen@nih.gov</a></td>
         </tr>
         <tr>
-          <td valign="top"><img src="images/EverettCarpenter.jpg" width="94" height="141" alt="Everett Carpenter"></td>
-          <td valign="top">            Everett Carpenter<br>
-            IT Specialist</td>
-          <td valign="top">240-276-6777</td>
-          <td valign="top"><a href="mailto:everett.carpenter@nih.gov">everett.carpenter@nih.gov</a></td>
+          <td><img src="images/SarahBernal.jpg" width="94" height="141" alt="Sarah Bruce Bernal"></td>
+          <td>            Sarah Bruce Bernal, MA<br>Program Analyst/Implementation Science Coordinator</td>
+          <td>240-276-6539</td>
+          <td><a href="mailto:sarah.bernal@nih.gov">sarah.bernal@nih.gov</a></td>
         </tr>
-        <tr valign="top">
+        <tr>
+          <td><img src="images/DeniseBuckley.jpg" width="95" height="141" alt="Denise Buckley"></td>
+          <td>            Denise Buckley, ELS<br>
+            Communications Manager</td>
+          <td>240-276-6756</td>
+          <td><a href="mailto:buckleyde@mail.nih.gov">buckleyde@mail.nih.gov</a></td>
+        </tr>
+        <tr>
+          <td>&nbsp;</td>
+          <td>Quentin Carr<br>
+            Program Assistant</td>
+          <td>240-276-7003</td>
+          <td><a href="mailto:carrq@mail.nih.gov">carrq@mail.nih.gov</a></td>
+        </tr>
+        <tr>
+          <td><img src="images/EverettCarpenter.jpg" width="94" height="141" alt="Everett Carpenter"></td>
+          <td>            Everett Carpenter<br>
+            IT Specialist</td>
+          <td>240-276-6777</td>
+          <td><a href="mailto:everett.carpenter@nih.gov">everett.carpenter@nih.gov</a></td>
+        </tr>
+        <tr>
           <td><img src="images/ArleneCoit.jpg" width="94" height="141" alt="Arlene Coit"></td>
           <td>            Arlene Coit<br>
             Executive Assistant</td>
@@ -284,122 +293,115 @@
           <td><a href="mailto:coita@od.nih.gov">coita@od.nih.gov</a></td>
         </tr>
         <tr>
-          <td valign="top"><img src="images/MargaretFarrell.jpg" width="94" height="141" alt="Margaret Farrell"></td>
-          <td valign="top">Margaret Farrell, MPH, RD</td>
-          <td valign="top">240-276-6636</td>
-          <td valign="top"><a href="mailto:farrellm@mail.nih.gov">farrellm@mail.nih.gov</a></td>
+          <td><img src="images/MargaretFarrell.jpg" width="94" height="141" alt="Margaret Farrell"></td>
+          <td>Margaret Farrell, MPH, RD</td>
+          <td>240-276-6636</td>
+          <td><a href="mailto:farrellm@mail.nih.gov">farrellm@mail.nih.gov</a></td>
         </tr>
         <tr>
-          <td valign="top"><img src="images/TinaFelix.jpg" width="94" height="141" alt="Augustina Felix"></td>
-          <td valign="top">Augustina &#34;Tina&#34; Felix<br>
-            Extramural Support Assistant</td>
-          <td valign="top">240-276-6717</td>
-          <td valign="top"><a href="mailto:felixa@mail.nih.gov">felixa@mail.nih.gov</a></td>
-        </tr>
-        <tr>
-          <td valign="top"><img src="images/S-Heurtin-Roberts.jpg" width="94" height="141" alt="Suzanne Heurtin-Roberts"></td>
-          <td valign="top">            Suzanne Heurtin-Roberts, MA, MSW, PhD<br>
+          <td><img src="images/S-Heurtin-Roberts.jpg" width="94" height="141" alt="Suzanne Heurtin-Roberts"></td>
+          <td>            Suzanne Heurtin-Roberts, MA, MSW, PhD<br>
             Medical Anthropologist</td>
-          <td valign="top">240-276-6953</td>
-          <td valign="top"><a href="mailto:sheurtin@mail.nih.gov">sheurtin@mail.nih.gov</a></td>
+          <td>240-276-6953</td>
+          <td><a href="mailto:sheurtin@mail.nih.gov">sheurtin@mail.nih.gov</a></td>
         </tr>
         <tr>
-          <td valign="top"><img src="images/JudyKuan.jpg" width="94" height="141" alt="Judy Kuan"></td>
-          <td valign="top">            Judy Kuan, MS<br>
+          <td><img src="images/JudyKuan.jpg" width="94" height="141" alt="Judy Kuan"></td>
+          <td>            Judy Kuan, MS<br>
             IT Specialist</td>
-          <td valign="top">240-276-6826</td>
-          <td valign="top"><a href="mailto:kuanj@mail.nih.gov">kuanj@mail.nih.gov</a></td>
+          <td>240-276-6826</td>
+          <td><a href="mailto:kuanj@mail.nih.gov">kuanj@mail.nih.gov</a></td>
         </tr>
         <tr>
-          <td valign="top"><img src="images/GilaNeta.jpg" width="94" height="141" alt="Gila Neta"></td>
-          <td valign="top">            Gila Neta, PhD, MPP<br>
+          <td><img src="images/GilaNeta.jpg" width="94" height="141" alt="Gila Neta"></td>
+          <td>            Gila Neta, PhD, MPP<br>
             Health Scientist</td>
-          <td valign="top">240-276-6785</td>
-          <td valign="top"><a href="mailto:netagil@mail.nih.gov">netagil@mail.nih.gov</a></td>
+          <td>240-276-6785</td>
+          <td><a href="mailto:netagil@mail.nih.gov">netagil@mail.nih.gov</a></td>
         </tr>	
         <tr>
-          <td valign="top"><img src="/is/images/wynne-norton.jpg" width="94" height="141" alt="Wynne E. Norton"></td>
-          <td valign="top"><p>Wynne E. Norton, PhD<br>
+          <td><img src="/is/images/wynne-norton.jpg" width="94" height="141" alt="Wynne E. Norton"></td>
+          <td><p>Wynne E. Norton, PhD<br>
           Program Officer</p></td>
-          <td valign="top">240-276-6875</td>
-          <td valign="top"><a href="mailto:wynne.norton@nih.gov">wynne.norton@nih.gov</a></td>
-        </tr>
-        <tr>
-          <td valign="top">&nbsp;</td>
-          <td valign="top">Arshon Parker<br>
-            Project Manager/Contractor</td>
-          <td valign="top">240-276-6713</td>
-          <td valign="top"><a href="mailto:parkear@mail.nih.gov">parkear@mail.nih.gov</a></td>
+          <td>240-276-6875</td>
+          <td><a href="mailto:wynne.norton@nih.gov">wynne.norton@nih.gov</a></td>
         </tr>		
 		<tr>
-		  <td valign="top"><img src="/IS/images/percy-laurry.jpg" width="94" height="135" alt="Antoinette Percy-Laurry"></td>
-		  <td valign="top">Antoinette Percy-Laurry, DrPH, MSPH<br>
+		  <td><img src="/IS/images/percy-laurry.jpg" width="94" height="135" alt="Antoinette Percy-Laurry"></td>
+		  <td>Antoinette Percy-Laurry, DrPH, MSPH<br>
 		    Public Health Advisor</td>
-		  <td valign="top">240-276-6708</td>
-		  <td valign="top"><a href="mailto:percyl@mail.nih.gov">percyl@mail.nih.gov</a></td>
+		  <td>240-276-6708</td>
+		  <td><a href="mailto:percyl@mail.nih.gov">percyl@mail.nih.gov</a></td>
 		  </tr>
 		<tr>
-		  <td valign="top"><img src="images/NicoleSaiontz.jpg" width="94" height="141" alt="Nicole Saiontz"></td>
-		  <td valign="top">		    Nicole Saiontz, MHS<br>
+		  <td><img src="images/NicoleSaiontz.jpg" width="94" height="141" alt="Nicole Saiontz"></td>
+		  <td>		    Nicole Saiontz, MHS<br>
 		    Communications Specialist</td>
-		  <td valign="top">240-276-6690</td>
-		  <td valign="top"><a href="mailto:saiontzn@mail.nih.gov">saiontzn@mail.nih.gov</a></td>
+		  <td>240-276-6690</td>
+		  <td><a href="mailto:saiontzn@mail.nih.gov">saiontzn@mail.nih.gov</a></td>
 		  </tr>
         <tr>
-          <td valign="top">&nbsp;</td>
-          <td valign="top">Arline  Sanchez<br>
+          <td>&nbsp;</td>
+          <td>Arline  Sanchez<br>
             Program Assistant</td>
-          <td valign="top">240-276-6712</td>
-          <td valign="top"><a href="mailto:arlines@mail.nih.gov">arlines@mail.nih.gov</a></td>
+          <td>240-276-6712</td>
+          <td><a href="mailto:arlines@mail.nih.gov">arlines@mail.nih.gov</a></td>
         </tr>
         <tr>
-          <td valign="top"><img src="images/FekadeShewakena.jpg" width="94" height="141" alt="Fekade Shewakena"></td>
-          <td valign="top">Fekade Shewakena, MA<br>
+          <td><img src="images/Daniela-Seminara.jpg" width="94" height="141" alt="Daniela Seminara"></td>
+          <td><p>Daniela Seminara, PhD, MPH<br>
+            Senior Advisor</p></td>
+          <td>240-276-6748</td>
+          <td><a href="mailto:seminard@mail.nih.gov" target="_blank">seminard@mail.nih.gov</a></td>
+        </tr>
+        <tr>
+          <td><img src="images/FekadeShewakena.jpg" width="94" height="141" alt="Fekade Shewakena"></td>
+          <td>Fekade Shewakena, MA<br>
             Program Analyst</td>
-          <td valign="top">240-276-6778</td>
-          <td valign="top"><a href="mailto:shewakef@mail.nih.gov">shewakef@mail.nih.gov</a></td>
+          <td>240-276-6778</td>
+          <td><a href="mailto:shewakef@mail.nih.gov">shewakef@mail.nih.gov</a></td>
         </tr>
         <tr>
-          <td valign="top"><img src="images/ShobhaSrinivasan.jpg" width="94" height="141" alt="Shobha Srinivasan"></td>
-          <td valign="top">            Shobha Srinivasan, PhD<br>
+          <td><img src="images/ShobhaSrinivasan.jpg" width="94" height="141" alt="Shobha Srinivasan"></td>
+          <td>            Shobha Srinivasan, PhD<br>
             Health Disparities Research Coordinator</td>
-          <td valign="top">240-276-6938</td>
-          <td valign="top"><a name="srin" href="mailto:sriniva2@mail.nih.gov">sriniva2@mail.nih.gov</a></td>
+          <td>240-276-6938</td>
+          <td><a href="mailto:sriniva2@mail.nih.gov">sriniva2@mail.nih.gov</a></td>
         </tr>
         <tr>
-          <td valign="top"><img src="images/KathleeneUlanday.jpg" width="94" height="141" alt="Kathleene Ulanday"></td>
-          <td valign="top">            Kathleene
+          <td><img src="images/KathleeneUlanday.jpg" width="94" height="141" alt="Kathleene Ulanday"></td>
+          <td>            Kathleene
             Ulanday, MPH<br>Cancer Research Training Award Fellow</td>
-          <td valign="top">240-276-6690</td>
-          <td valign="top"><a href="mailto:ulandaykt@mail.nih.gov">ulandaykt@mail.nih.gov</a></td>
+          <td>240-276-6690</td>
+          <td><a href="mailto:ulandaykt@mail.nih.gov">ulandaykt@mail.nih.gov</a></td>
         </tr>
         <tr>
-          <td valign="top">&nbsp;</td>
-          <td valign="top">Annabelle Uy, MS<br>
+          <td>&nbsp;</td>
+          <td>Annabelle Uy, MS<br>
             Program Analyst</td>
-          <td valign="top">240-276-6703</td>
-          <td valign="top"><a name="uy" href="mailto:uya@mail.nih.gov">uya@mail.nih.gov</a></td>
+          <td>240-276-6703</td>
+          <td><a href="mailto:uya@mail.nih.gov">uya@mail.nih.gov</a></td>
         </tr>
         <tr>
-          <td valign="top"><img src="images/StaceyVando.jpg" width="94" height="141" alt="Stacey Vandor"></td>
-          <td valign="top">            Stacey Vandor, MPA<br>
+          <td><img src="images/StaceyVando.jpg" width="94" height="141" alt="Stacey Vandor"></td>
+          <td>            Stacey Vandor, MPA<br>
             Planning Officer</td>
-          <td valign="top">240-276-6942</td>
-          <td valign="top"><a href="mailto:vandors@mail.nih.gov">vandors@mail.nih.gov</a></td>
+          <td>240-276-6942</td>
+          <td><a href="mailto:vandors@mail.nih.gov">vandors@mail.nih.gov</a></td>
         </tr>
         <tr>
-          <td valign="top"><img src="images/CynthiaVinson.jpg" width="94" height="141" alt="Cynthia Vinson"></td>
-          <td valign="top">            Cynthia A. Vinson, PhD, MPA<br>
+          <td><img src="images/CynthiaVinson.jpg" width="94" height="141" alt="Cynthia Vinson"></td>
+          <td>            Cynthia A. Vinson, PhD, MPA<br>
            Health Science Administrator for Implementation  Science</td>
-          <td valign="top">240-276-6745</td>
-          <td valign="top"><a name="vinson" href="mailto:cvinson@mail.nih.gov">cvinson@mail.nih.gov</a></td>
+          <td>240-276-6745</td>
+          <td><a href="mailto:cvinson@mail.nih.gov">cvinson@mail.nih.gov</a></td>
         </tr>
         <tr>
-          <td valign="top"><img src="images/tonza-webb.jpg" width="94" height="141" alt="Tonza Webb"></td>
-          <td valign="top">Tonza Webb<br>
+          <td><img src="images/tonza-webb.jpg" width="94" height="141" alt="Tonza Webb"></td>
+          <td>Tonza Webb<br>
             Program Specialist </td>
-          <td valign="top">240-276-6966 </td>
-          <td valign="top"><a href="mailto:webbton@mail.nih.gov">webbton@mail.nih.gov </a></td>
+          <td>240-276-6966 </td>
+          <td><a href="mailto:webbton@mail.nih.gov">webbton@mail.nih.gov </a></td>
         </tr>
 </table>
                 </div>
@@ -417,6 +419,7 @@
           <!-- /END THE FEATURETTES -->
         </div>
         <!-- /.container -->
+      </div>
       <!-- FOOTER -->
       <footer>
       	<div class="container-fluid">
@@ -474,7 +477,7 @@
           </div>
            </div>
        <div class="last-updated">
-       <p class="center"><strong>Last Updated: <!-- InstanceBeginEditable name="Last Updated" -->September 3, 2015<!-- InstanceEndEditable --></strong></p>
+       <p class="center"><strong>Last Updated: <!-- InstanceBeginEditable name="Last Updated" -->October 5, 2015<!-- InstanceEndEditable --></strong></p>
        <a href="http://www.cancer.gov/contact" class="help-image"><img class="footer-help" src="/images/footer-help-logo.png" alt="help-logo" /></a><p class="can-numb"><strong>1-800-4-CANCER <br /> (1-800-422-6237)</strong></p>
        </div>
        </div><!--/row-->
@@ -507,12 +510,10 @@
           </div><!--/row-->
         </div>
       </footer>
-  	</div>
     <!-- javascript -->
     <script src="../js/jquery-1.10.1.min.js"></script>
     <script src="../js/bootstrap.min.js"></script>
     <script src="../js/respond.min.js"></script>
-    <script type="text/javascript" src="../js/responsive-tables.js"></script>
     
     <script>
 // This adds 'placeholder' to the items listed in the jQuery .support object. 
