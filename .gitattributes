@@ -102,6 +102,7 @@ IS/info_computer_meeting.html -text
 IS/info_d4dconf.html -text
 IS/info_dod.html -text
 IS/info_dod_background.html -text
+IS/jobs.html -text
 IS/key-collaborations.html -text
 IS/past-ct.html -text
 IS/pdfs/2013ISVisionStatement.pdf -text
@@ -1680,6 +1681,7 @@ brp/docs/SGA_8619527.pdf -text
 brp/docs/TRECBaselineSurvey.pdf -text
 brp/docs/TRECWrittenProductsProtocol.pdf -text svneol=unset#unset
 brp/docs/TTURCResearchSurvey.pdf -text svneol=unset#unset
+brp/docs/bbpsb_PG.pdf -text
 brp/docs/gem-factsheet.pdf -text
 brp/docs/santafe_workshop_summaries.pdf -text
 brp/docs/vaccination_meta-analysis_5.0.pdf -text
