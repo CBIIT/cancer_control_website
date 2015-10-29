@@ -102,6 +102,7 @@ IS/info_computer_meeting.html -text
 IS/info_d4dconf.html -text
 IS/info_dod.html -text
 IS/info_dod_background.html -text
+IS/jobs.html -text
 IS/key-collaborations.html -text
 IS/past-ct.html -text
 IS/pdfs/2013ISVisionStatement.pdf -text
@@ -587,12 +588,29 @@ brp/docs/SGA_8619527.pdf -text
 brp/docs/TRECBaselineSurvey.pdf -text
 brp/docs/TRECWrittenProductsProtocol.pdf -text svneol=unset#unset
 brp/docs/TTURCResearchSurvey.pdf -text svneol=unset#unset
+brp/docs/bbpsb_PG.pdf -text
 brp/docs/gem-factsheet.pdf -text
 brp/docs/santafe_workshop_summaries.pdf -text
 brp/docs/vaccination_meta-analysis_5.0.pdf -text
 brp/e-newsletter/archive.html -text
+brp/e-newsletter/images/ABCD.jpg -text
+brp/e-newsletter/images/Alexandra-Greenberg.jpg -text
+brp/e-newsletter/images/Angela-Falisi.jpg -text
+brp/e-newsletter/images/Christopher-Wheldon.jpg -text
+brp/e-newsletter/images/Danny-Ramin.jpg -text
+brp/e-newsletter/images/Erin-Ellis.jpg -text
 brp/e-newsletter/images/GIS.jpg -text
+brp/e-newsletter/images/Gordon-Willis.jpg -text
+brp/e-newsletter/images/Heather-DAngelo.jpg -text
+brp/e-newsletter/images/Human-Subjects-Protections.jpg -text
+brp/e-newsletter/images/Jen-Scheideler.jpg -text
+brp/e-newsletter/images/Kara-Wiseman.jpg -text
+brp/e-newsletter/images/Kathy-Helzlsouer.jpg -text
+brp/e-newsletter/images/Megan-Roberts.jpg -text
 brp/e-newsletter/images/Michele-Bloch.jpg -text
+brp/e-newsletter/images/Susan-Czajkowski.jpg -text
+brp/e-newsletter/images/Tracey-Goldner.jpg -text
+brp/e-newsletter/images/Video-Series.jpg -text
 brp/e-newsletter/images/abby-prestin.jpg -text
 brp/e-newsletter/images/catherine-alfano.jpg -text
 brp/e-newsletter/images/david-ahern.jpg -text
@@ -602,6 +620,7 @@ brp/e-newsletter/images/team-science-toolkit.jpg -text
 brp/e-newsletter/images/william-klein.jpg -text
 brp/e-newsletter/may-2014.html -text
 brp/e-newsletter/notes-june-2015.html -text
+brp/e-newsletter/oct-2015.html -text
 brp/e-newsletter/sept-2014.html -text
 brp/e-newsletter/subscribe.html -text
 brp/e-newsletter/thank-you.html -text
