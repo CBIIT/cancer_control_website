@@ -186,6 +186,8 @@ Scripts/random_images_left.js -text
 Scripts/random_images_nci.js -text
 Scripts/random_images_right.js -text
 Scripts/swfobject_modified.js -text
+/SessionTest_Finish.aspx -text
+/SessionTest_Start.aspx -text
 /TestDotNet.aspx -text
 audio/RFAWebinar_8415.m4a -text
 bb/2004.pdf -text
