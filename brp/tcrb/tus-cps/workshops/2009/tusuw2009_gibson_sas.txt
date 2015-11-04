@@ -1,0 +1,1001 @@
+/*******************************************************************/
+/* Program: workshop.example.sas                                   */
+/*    Date: May 2009                                               */
+/*******************************************************************/
+Filename cpsmay06 "cpsmay06.dat" lrecl=1313;
+Filename cpsaug06 "cpsaug06.dat" lrecl=1313;
+Filename cpsjan07 "cpsjan07.dat" lrecl=1313;
+
+Proc Format;
+  Value PESexF
+    1 = "Male"
+    2 = "Female"
+    ;
+  Value AgeGrpF
+    1 = "18-24"
+    2 = "25-44"
+    3 = "45-64"
+    4 = "65+"
+    ;
+  Value SmokStF
+    1,4 = "Never/Former"
+    2,3 = "Current"
+    ;  
+
+%Macro ReadData(survey);
+  Data CPS&survey;
+    Infile CPS&survey;
+    Input @0016 HRMonth  2.
+          @0018 HRYear4  4.
+          @0093 GESTFIPS 2.     /* State (FIPS) Variable */
+          @0122 PEAge    2.
+          @0129 PESex    2.
+          @0137 PEEduca  2.
+          @0139 PRDTRace 2.
+          @0141 PRDTHSP  2.
+          @0161 PRPERTYP 2.
+          @0955 PEA1     2.
+          @0959 PEA3     2.
+          @1278 Intrview 2.
+          @1282 SmokStat 2.
+          @1288 PRS64    2.
+          @1294 PWNRWgt  10.
+          @1304 PWSRWgt  10.;
+    If PRPerTyp=2;     /* Adult Civilian Household Member */
+    If PEAge>17;       /* Ages 18 and over                */
+    If Intrview=1;     /* Supplement Interview            */
+    If PEA1 In (1,2) & PEA3 Not In (-9,-3,-2); /* Exclude Don't Know, Refused, No Response */
+    PWNRWgt=PWNRWgt/10000;
+    If PRS64=1 Then PWSRWgt=PWSRWgt/10000;
+%Mend;
+
+%ReadData(may06); Run;
+%ReadData(aug06); Run;
+%ReadData(jan07); Run;
+
+Data CPS0607;
+  Set CPSmay06 CPSaug06 CPSjan07;
+  PWNRWgt=PWNRWgt/3;
+  If PRS64=1 Then PWSRWgt=PWSRWgt/3;
+  If (18<=PEAge<=24) Then AgeGrp=1;
+  Else If (25<=PEAge<=44) Then AgeGrp=2;
+  Else If (45<=PEAge<=64) Then AgeGrp=3;
+  Else If (PEAge>64) Then AgeGrp=4;
+  Format AgeGrp AgeGrpF. PESex PESexF. SmokStat SmokStF.;
+  Label HRMonth  = "Month of Interview"
+        HRYear4  = "Year of Interview"
+        GESTFIPS = "Federal Information Processing Standards State Code"
+        PEAge    = "Persons Age"
+        PESex    = "Gender"
+        PEEduca  = "Highest Level of School Completed"
+        PRDTRace = "Race"
+        PRDTHSP  = "Detailed Hispanic Origin Group"
+        PRPERTYP = "Type of Person Record Recode"
+        PEA1     = "Smoked at Least 100 Cigarette in Entire Life"
+        PEA3     = "Now Smokes Cigarettes Every Day, Some Days or Not at All"
+        Intrview = "Interview Status Recode"
+        SmokStat = "Smoker Recode"
+        PRS64    = "Who is Responding for the Supplement"
+        PWNRWgt  = "Nonresponse Weight"
+        PWSRWgt  = "Self Response Weight"
+        AgeGrp   = "Age Group";
+Run;
+
+Proc Tabulate Data=CPS0607;
+  Title1 "Tobacco Use Supplement to The Current Population Survey";
+  Title2 "May 2006, August 2006 and January 2007 Combined";
+  Title3 "Interviewed, Adults, Ages 18 and Over";  
+  Title4 "Self and Proxy Respondents";
+  Title6 "Current Cigarette Smoking Status By Gender and Age Group";
+  Class PESex AgeGrp SmokStat;
+  Var PWNRWgt;
+  Table All="Total" PESex AgeGrp,
+    (SmokStat All="Total")*
+    (N="Sample"*F=Comma7. 
+    PWNRWgt=""*(Sum="Population"*F=Comma12. PctSum<SmokStat All>="Percent"*F=7.2))/RTS=11;
+Run;
+
+Proc Tabulate Data=CPS0607;
+  Title4 "Self Respondents Only";
+  Title6 "Current Cigarette Smoking Status By Gender and Age Group";
+  Where PRS64=1;
+  Class PESex AgeGrp SmokStat;
+  Var PWSRWgt;
+  Table All="Total" PESex AgeGrp,
+    (SmokStat All="Total")*
+    (N="Sample"*F=Comma7. 
+    PWSRWgt=""*(Sum="Population"*F=Comma12. PctSum<SmokStat All>="Percent"*F=7.2))/RTS=11;
+Run;  
+Tobacco Use Supplement to The Current Population Survey
+May 2006, August 2006 and January 2007 Combined
+Interviewed, Adults, Ages 18 and Over
+Self and Proxy Respondents
+
+Current Cigarette Smoking Status By Gender and Age Group
+
+--------------------------------------------------------------------------------------------------
+|         |                      Smoker Recode                      |                            |
+|         |---------------------------------------------------------|                            |
+|         |        Never/Former        |          Current           |           Total            |
+|         |----------------------------+----------------------------+----------------------------|
+|         |Sample | Population |Percent|Sample | Population |Percent|Sample | Population |Percent|
+|---------+-------+------------+-------+-------+------------+-------+-------+------------+-------|
+|Total    |186,723| 180,059,805|  82.28| 40,705|  38,765,650|  17.72|227,428| 218,825,454| 100.00|
+|---------+-------+------------+-------+-------+------------+-------+-------+------------+-------|
+|Gender   |       |            |       |       |            |       |       |            |       |
+|---------|       |            |       |       |            |       |       |            |       |
+|Male     | 85,366|  84,256,721|  79.94| 21,426|  21,142,935|  20.06|106,792| 105,399,656| 100.00|
+|---------+-------+------------+-------+-------+------------+-------+-------+------------+-------|
+|Female   |101,357|  95,803,084|  84.46| 19,279|  17,622,715|  15.54|120,636| 113,425,798| 100.00|
+|---------+-------+------------+-------+-------+------------+-------+-------+------------+-------|
+|Age Group|       |            |       |       |            |       |       |            |       |
+|---------|       |            |       |       |            |       |       |            |       |
+|18-24    | 20,714|  22,852,427|  82.07|  4,727|   4,992,010|  17.93| 25,441|  27,844,437| 100.00|
+|---------+-------+------------+-------+-------+------------+-------+-------+------------+-------|
+|25-44    | 63,764|  64,821,609|  79.63| 17,008|  16,580,926|  20.37| 80,772|  81,402,535| 100.00|
+|---------+-------+------------+-------+-------+------------+-------+-------+------------+-------|
+|45-64    | 65,021|  59,847,003|  80.72| 15,589|  14,291,634|  19.28| 80,610|  74,138,637| 100.00|
+|---------+-------+------------+-------+-------+------------+-------+-------+------------+-------|
+|65+      | 37,224|  32,538,765|  91.81|  3,381|   2,901,080|   8.19| 40,605|  35,439,845| 100.00|
+--------------------------------------------------------------------------------------------------
+
+
+Tobacco Use Supplement to The Current Population Survey
+May 2006, August 2006 and January 2007 Combined
+Interviewed, Adults, Ages 18 and Over
+Self Respondents Only
+
+Current Cigarette Smoking Status By Gender and Age Group
+
+--------------------------------------------------------------------------------------------------
+|         |                      Smoker Recode                      |                            |
+|         |---------------------------------------------------------|                            |
+|         |        Never/Former        |          Current           |           Total            |
+|         |----------------------------+----------------------------+----------------------------|
+|         |Sample | Population |Percent|Sample | Population |Percent|Sample | Population |Percent|
+|---------+-------+------------+-------+-------+------------+-------+-------+------------+-------|
+|Total    |139,827| 179,047,732|  81.51| 31,501|  40,605,950|  18.49|171,328| 219,653,682| 100.00|
+|---------+-------+------------+-------+-------+------------+-------+-------+------------+-------|
+|Gender   |       |            |       |       |            |       |       |            |       |
+|---------|       |            |       |       |            |       |       |            |       |
+|Male     | 59,295|  83,970,198|  79.32| 15,133|  21,897,259|  20.68| 74,428| 105,867,457| 100.00|
+|---------+-------+------------+-------+-------+------------+-------+-------+------------+-------|
+|Female   | 80,532|  95,077,534|  83.56| 16,368|  18,708,691|  16.44| 96,900| 113,786,225| 100.00|
+|---------+-------+------------+-------+-------+------------+-------+-------+------------+-------|
+|Age Group|       |            |       |       |            |       |       |            |       |
+|---------|       |            |       |       |            |       |       |            |       |
+|18-24    | 11,158|  22,221,636|  78.84|  3,134|   5,965,267|  21.16| 14,292|  28,186,902| 100.00|
+|---------+-------+------------+-------+-------+------------+-------+-------+------------+-------|
+|25-44    | 47,690|  64,699,376|  79.21| 13,125|  16,979,254|  20.79| 60,815|  81,678,630| 100.00|
+|---------+-------+------------+-------+-------+------------+-------+-------+------------+-------|
+|45-64    | 50,019|  59,555,978|  80.15| 12,426|  14,745,799|  19.85| 62,445|  74,301,777| 100.00|
+|---------+-------+------------+-------+-------+------------+-------+-------+------------+-------|
+|65+      | 30,960|  32,570,742|  91.78|  2,816|   2,915,630|   8.22| 33,776|  35,486,373| 100.00|
+--------------------------------------------------------------------------------------------------
+/*******************************************************************/
+/* Program: workshop.example.reps.sas                              */
+/*    Date: May 2009                                               */
+/*******************************************************************/
+Filename cpsmay06 "cpsmay06.dat" lrecl=1313;
+Filename cpsaug06 "cpsaug06.dat" lrecl=1313;
+Filename cpsjan07 "cpsjan07.dat" lrecl=1313;
+Filename repmay06 "may06nrrep.new.dat"; 
+Filename repaug06 "aug06nrrep.new.dat"; 
+Filename repjan07 "jan07nrrep.new.dat"; 
+
+Proc Format;
+  Value PESexF
+    1 = "Male"
+    2 = "Female"
+    ;
+  Value AgeGrpF
+    1 = "18-24"
+    2 = "25-44"
+    3 = "45-64"
+    4 = "65+"
+    ;
+  Value CurrentF
+    1 = "Yes"
+    2 = "No"
+    ;
+
+%Macro ReadData(survey);
+  Data CPS&survey;
+    Infile CPS&survey;
+    Input @0016 HRMonth  2.
+          @0018 HRYear4  4.
+          @0093 GESTFIPS 2.     /* State (FIPS) Variable */
+          @0122 PEAge    2.
+          @0129 PESex    2.
+          @0161 PRPERTYP 2.
+          @0815 QstNum   5.
+          @0820 OccurNum 2.
+          @0955 PEA1     2.
+          @0959 PEA3     2.
+          @1278 Intrview 2.
+          @1282 SmokStat 2.
+          @1288 PRS64    2.;
+    If PRPerTyp=2;     /* Adult Civilian Household Member */
+    If PEAge>17;       /* Ages 18 and over                */
+    If Intrview=1;     /* Supplement Interview            */
+    If PEA1 In (1,2) & PEA3 Not In (-9,-3,-2); /* Exclude Don't Know, Refused, No Response */
+
+  Data Rep&Survey;
+    Infile Rep&Survey Missover;
+    Input @001 QstNum   5.
+          @007 OccurNum 2.
+          @045 SmplWgt  11.4
+          @056 (RepWt001-RepWt004) (11.4)
+        / @001 (RepWt005-RepWt011) (11.4)
+        / @001 (RepWt012-RepWt018) (11.4)
+        / @001 (RepWt019-RepWt025) (11.4)
+        / @001 (RepWt026-RepWt032) (11.4)
+        / @001 (RepWt033-RepWt039) (11.4)
+        / @001 (RepWt040-RepWt046) (11.4)
+        / @001 (RepWt047-RepWt053) (11.4)
+        / @001 (RepWt054-RepWt060) (11.4)
+        / @001 (RepWt061-RepWt067) (11.4)
+        / @001 (RepWt068-RepWt074) (11.4)
+        / @001 (RepWt075-RepWt081) (11.4)
+        / @001 (RepWt082-RepWt088) (11.4)
+        / @001 (RepWt089-RepWt095) (11.4)
+        / @001 (RepWt096-RepWt102) (11.4)
+        / @001 (RepWt103-RepWt109) (11.4)
+        / @001 (RepWt110-RepWt116) (11.4)
+        / @001 (RepWt117-RepWt123) (11.4)
+        / @001 (RepWt124-RepWt130) (11.4)
+        / @001 (RepWt131-RepWt137) (11.4)
+        / @001 (RepWt138-RepWt144) (11.4)
+        / @001 (RepWt145-RepWt151) (11.4)
+        / @001 (RepWt152-RepWt158) (11.4)
+        / @001 (RepWt159-RepWt160) (11.4);       
+    If SmplWgt=0 & (RepWt001=0 | RepWt001=.) Then Delete;
+    
+  Proc Sort Data=CPS&Survey;
+    By QstNum OccurNum;
+
+  Proc Sort Data=Rep&Survey;
+    By QstNum OccurNum;
+    
+  Data CPS&Survey;
+    Merge CPS&Survey(In=In1)
+          Rep&Survey;
+    By QstNum OccurNum; 
+    If In1;
+%Mend;
+
+%ReadData(may06); Run;
+%ReadData(aug06); Run;
+%ReadData(jan07); Run;
+
+Data CPS0607;
+  Array Wgts(161) SmplWgt RepWt001-RepWt160;
+  Set CPSmay06 CPSaug06 CPSjan07;
+  Do I = 1 to 161;
+    Wgts(I)=Wgts(I)/3;
+    End;  
+  If (18<=PEAge<=24) Then AgeGrp=1;
+  Else If (25<=PEAge<=44) Then AgeGrp=2;
+  Else If (45<=PEAge<=64) Then AgeGrp=3;
+  Else If (PEAge>64) Then AgeGrp=4;
+  If SmokStat In (2,3) Then Current=1;
+  Else If SmokStat In (1,4) Then Current=2;
+  Format AgeGrp AgeGrpF. PESex PESexF. Current CurrentF.;
+  Label PESex    = "Gender"        
+        SmokStat = "Smoker Recode"        
+        AgeGrp   = "Age Group"
+        Current  = "Current Cigarette Smoker"
+        QstNum   = "Unique Household Identifier"
+        OccurNum = "Unique Person Identifier";
+Run;
+
+Proc Crosstab Data=CPS0607 Design=BRR;      /* SUDAAN CrossTab Procedure */
+  Setenv DecWidth=4;
+  Weight SmplWgt;
+  RepWgt RepWt001-RepWt160/ADJFay=4;
+  Subgroup Current PESex AgeGrp;
+  Levels      2      2    4;
+  Tables PESex*Current AgeGrp*Current;
+  RTitle "Tobacco Use Supplement to The Current Population Survey";
+  RTitle "May 2006, August 2006 and January 2007";
+  RTitle "Interviewed, Adults, Ages 18 and Over";  
+  RTitle "Self and Proxy Respondents";
+  RTitle "Current Cigarette Smoking Status By Gender and Age Group";
+  Print NSum = "Sample Size"
+        WSum = "Population Size"
+        RowPer = "Percent"
+        SERow = "Standard Error"
+        LowRow = "Lower 95% CI"
+        UpRow = "Upper 95% CI"
+        /NSumFmt=F8.0 WSumFmt=F10.0;
+Run;         
+                                  S U D A A N
+            Software for the Statistical Analysis of Correlated Data
+           Copyright        Research Triangle Institute    February 2005
+                                  Release 9.0.1
+ 
+ 
+Number of observations read    : 227428    Weighted count :218825454
+Denominator degrees of freedom :    160
+                                                                                                                                          
+                                                                                                                                           
+Date: 05-21-2009                Research Triangle Institute                   Page  : 1  
+Time: 09:29:29                    The CROSSTAB Procedure                      Table : 1  
+                                                                                                                                           
+Variance Estimation Method: BRR                                                                                                            
+Tobacco Use Supplement to The Current Population Survey                                                                                    
+May 2006, August 2006 and January 2007                                                                                                     
+Interviewed, Adults, Ages 18 and Over                                                                                                      
+Self and Proxy Respondents                                                                                                                 
+Current Cigarette Smoking Status By Gender and Age Group                                                                                   
+by: Gender, Current Cigarette Smoker.                                                                                                      
+                                                                                                                                           
+-----------------------------------------------------------------------------                                                              
+|                 |                  |                                                                                                     
+| Gender          |                  | Current Cigarette Smoker                                                                            
+|                 |                  | Total      | Yes        | No         |                                                              
+-----------------------------------------------------------------------------                                                              
+|                 |                  |            |            |            |                                                              
+| Total           | Sample Size      |     227428 |      40705 |     186723 |                                                              
+|                 | Population Size  |  218825454 |   38765650 |  180059805 |                                                              
+|                 | Percent          |   100.0000 |    17.7153 |    82.2847 |                                                              
+|                 | Standard Error   |     0.0000 |     0.1130 |     0.1130 |                                                              
+|                 | Lower 95% CI     |      .     |    17.4933 |    82.0605 |                                                              
+|                 | Upper 95% CI     |      .     |    17.9395 |    82.5067 |                                                              
+-----------------------------------------------------------------------------                                                              
+|                 |                  |            |            |            |                                                              
+| Male            | Sample Size      |     106792 |      21426 |      85366 |                                                              
+|                 | Population Size  |  105399656 |   21142935 |   84256721 |                                                              
+|                 | Percent          |   100.0000 |    20.0598 |    79.9402 |                                                              
+|                 | Standard Error   |     0.0000 |     0.1578 |     0.1578 |                                                              
+|                 | Lower 95% CI     |      .     |    19.7499 |    79.6267 |                                                              
+|                 | Upper 95% CI     |      .     |    20.3733 |    80.2501 |                                                              
+-----------------------------------------------------------------------------                                                              
+|                 |                  |            |            |            |                                                              
+| Female          | Sample Size      |     120636 |      19279 |     101357 |                                                              
+|                 | Population Size  |  113425798 |   17622715 |   95803084 |                                                              
+|                 | Percent          |   100.0000 |    15.5368 |    84.4632 |                                                              
+|                 | Standard Error   |     0.0000 |     0.1239 |     0.1239 |                                                              
+|                 | Lower 95% CI     |      .     |    15.2937 |    84.2170 |                                                              
+|                 | Upper 95% CI     |      .     |    15.7830 |    84.7063 |                                                              
+-----------------------------------------------------------------------------                                                              
+
+Date: 05-21-2009                Research Triangle Institute                   Page  : 2  
+Time: 09:29:29                    The CROSSTAB Procedure                      Table : 2  
+                                                                                                                                           
+Variance Estimation Method: BRR                                                                                                            
+Tobacco Use Supplement to The Current Population Survey                                                                                    
+May 2006, August 2006 and January 2007                                                                                                     
+Interviewed, Adults, Ages 18 and Over                                                                                                      
+Self and Proxy Respondents                                                                                                                 
+Current Cigarette Smoking Status By Gender and Age Group                                                                                   
+by: Age Group, Current Cigarette Smoker.                                                                                                   
+                                                                                                                                           
+-----------------------------------------------------------------------------                                                              
+|                 |                  |                                                                                                     
+| Age Group       |                  | Current Cigarette Smoker                                                                            
+|                 |                  | Total      | Yes        | No         |                                                              
+-----------------------------------------------------------------------------                                                              
+|                 |                  |            |            |            |                                                              
+| Total           | Sample Size      |     227428 |      40705 |     186723 |                                                              
+|                 | Population Size  |  218825454 |   38765650 |  180059805 |                                                              
+|                 | Percent          |   100.0000 |    17.7153 |    82.2847 |                                                              
+|                 | Standard Error   |     0.0000 |     0.1130 |     0.1130 |                                                              
+|                 | Lower 95% CI     |      .     |    17.4933 |    82.0605 |                                                              
+|                 | Upper 95% CI     |      .     |    17.9395 |    82.5067 |                                                              
+-----------------------------------------------------------------------------                                                              
+|                 |                  |            |            |            |                                                              
+| 18-24           | Sample Size      |      25441 |       4727 |      20714 |                                                              
+|                 | Population Size  |   27844437 |    4992010 |   22852427 |                                                              
+|                 | Percent          |   100.0000 |    17.9282 |    82.0718 |                                                              
+|                 | Standard Error   |     0.0000 |     0.2969 |     0.2969 |                                                              
+|                 | Lower 95% CI     |      .     |    17.3493 |    81.4778 |                                                              
+|                 | Upper 95% CI     |      .     |    18.5222 |    82.6507 |                                                              
+-----------------------------------------------------------------------------                                                              
+|                 |                  |            |            |            |                                                              
+| 25-44           | Sample Size      |      80772 |      17008 |      63764 |                                                              
+|                 | Population Size  |   81402535 |   16580926 |   64821609 |                                                              
+|                 | Percent          |   100.0000 |    20.3691 |    79.6309 |                                                              
+|                 | Standard Error   |     0.0000 |     0.1788 |     0.1788 |                                                              
+|                 | Lower 95% CI     |      .     |    20.0181 |    79.2755 |                                                              
+|                 | Upper 95% CI     |      .     |    20.7245 |    79.9819 |                                                              
+-----------------------------------------------------------------------------                                                              
+|                 |                  |            |            |            |                                                              
+| 45-64           | Sample Size      |      80610 |      15589 |      65021 |                                                              
+|                 | Population Size  |   74138637 |   14291634 |   59847003 |                                                              
+|                 | Percent          |   100.0000 |    19.2769 |    80.7231 |                                                              
+|                 | Standard Error   |     0.0000 |     0.1872 |     0.1872 |                                                              
+|                 | Lower 95% CI     |      .     |    18.9099 |    80.3507 |                                                              
+|                 | Upper 95% CI     |      .     |    19.6493 |    81.0901 |                                                              
+-----------------------------------------------------------------------------                                                              
+|                 |                  |            |            |            |                                                              
+| 65+             | Sample Size      |      40605 |       3381 |      37224 |                                                              
+|                 | Population Size  |   35439845 |    2901080 |   32538765 |                                                              
+|                 | Percent          |   100.0000 |     8.1859 |    91.8141 |                                                              
+|                 | Standard Error   |     0.0000 |     0.1560 |     0.1560 |                                                              
+|                 | Lower 95% CI     |      .     |     7.8831 |    91.5007 |                                                              
+|                 | Upper 95% CI     |      .     |     8.4993 |    92.1169 |                                                              
+-----------------------------------------------------------------------------    
+/*******************************************************************/
+/* Program: workshop.example.reps.multiple.years.sas               */
+/*    Date: May 2009                                               */
+/*******************************************************************/
+Filename cpsfeb03 "cpsfeb03.dat" lrecl=1384;
+Filename cpsjun03 "cpsjun03.dat" lrecl=1384;
+Filename cpsnov03 "cpsnov03.dat" lrecl=1384;
+Filename cpsmay06 "cpsmay06.dat" lrecl=1313;
+Filename cpsaug06 "cpsaug06.dat" lrecl=1313;
+Filename cpsjan07 "cpsjan07.dat" lrecl=1313;
+Filename repfeb03 "feb03nrrep.fixed_15yr.dat"; 
+Filename repjun03 "jun03nrrep.fixed_15yr.dat"; 
+Filename repnov03 "nov03nrrep.fixed_15yr.dat"; 
+Filename repmay06 "may06nrrep.new.dat"; 
+Filename repaug06 "aug06nrrep.new.dat"; 
+Filename repjan07 "jan07nrrep.new.dat"; 
+
+Proc Format;
+  Value PESexF
+    1 = "Male"
+    2 = "Female"
+    ;
+  Value AgeGrpF
+    1 = "18-24"
+    2 = "25-44"
+    3 = "45-64"
+    4 = "65+"
+    ;
+  Value CurrentF
+    1 = "Yes"
+    2 = "No"
+    ;
+
+%Macro Read2003(survey);
+  Data CPS&survey;
+    Infile CPS&survey;
+    Input @0016 HRMonth  2.
+          @0018 HRYear4  4.
+          @0093 GESTFIPS 2.
+          @0122 PEAge    2.
+          @0129 PESex    2.
+          @0161 PRPERTYP 2.
+          @0815 QstNum   5.
+          @0820 OccurNum 2.
+          @0879 PEA1     2.
+          @0883 PEA3     2.
+          @1347 Intrview 2.
+          @1351 SmokStat 2.;
+    If PRPerTyp=2;     /* Adult Civilian Household Member */
+    If PEAge>17;       /* Ages 18 and over                */
+    If Intrview=1;     /* Supplement Interview            */
+    If PEA1 In (1,2) & PEA3 Not In (-9,-3,-2); /* Exclude Don't Know, Refused, No Response */
+
+  Data Rep&Survey;
+    Infile Rep&Survey Missover;
+    Input @001 QstNum   5.
+          @007 OccurNum 2.
+          @045 SmplWgt  11.4
+          @056 (RepWt001-RepWt004) (11.4)
+        / @001 (RepWt005-RepWt011) (11.4)
+        / @001 (RepWt012-RepWt018) (11.4)
+        / @001 (RepWt019-RepWt025) (11.4)
+        / @001 (RepWt026-RepWt032) (11.4)
+        / @001 (RepWt033-RepWt039) (11.4)
+        / @001 (RepWt040-RepWt046) (11.4)
+        / @001 (RepWt047-RepWt053) (11.4)
+        / @001 (RepWt054-RepWt060) (11.4)
+        / @001 (RepWt061-RepWt067) (11.4)
+        / @001 (RepWt068-RepWt074) (11.4)
+        / @001 (RepWt075-RepWt080) (11.4);
+    If SmplWgt=0 & (RepWt001=0 | RepWt001=.) Then Delete;
+    
+  Proc Sort Data=CPS&Survey;
+    By QstNum OccurNum;
+
+  Proc Sort Data=Rep&Survey;
+    By QstNum OccurNum;
+    
+  Data CPS&Survey;
+    Merge CPS&Survey(In=In1)
+          Rep&Survey;
+    By QstNum OccurNum; 
+    If In1;
+%Mend;
+
+%Macro Read0607(survey);
+  Data CPS&survey;
+    Infile CPS&survey;
+    Input @0016 HRMonth  2.
+          @0018 HRYear4  4.
+          @0093 GESTFIPS 2.     /* State (FIPS) Variable */
+          @0122 PEAge    2.
+          @0129 PESex    2.
+          @0161 PRPERTYP 2.
+          @0815 QstNum   5.
+          @0820 OccurNum 2.
+          @0955 PEA1     2.
+          @0959 PEA3     2.
+          @1278 Intrview 2.
+          @1282 SmokStat 2.
+          @1288 PRS64    2.;
+    If PRPerTyp=2;     /* Adult Civilian Household Member */
+    If PEAge>17;       /* Ages 18 and over                */
+    If Intrview=1;     /* Supplement Interview            */
+    If PEA1 In (1,2) & PEA3 Not In (-9,-3,-2); /* Exclude Don't Know, Refused, No Response */
+
+  Data Rep&Survey;
+    Infile Rep&Survey Missover;
+    Input @001 QstNum   5.
+          @007 OccurNum 2.
+          @045 SmplWgt  11.4
+          @056 (RepWt001-RepWt004) (11.4)
+        / @001 (RepWt005-RepWt011) (11.4)
+        / @001 (RepWt012-RepWt018) (11.4)
+        / @001 (RepWt019-RepWt025) (11.4)
+        / @001 (RepWt026-RepWt032) (11.4)
+        / @001 (RepWt033-RepWt039) (11.4)
+        / @001 (RepWt040-RepWt046) (11.4)
+        / @001 (RepWt047-RepWt053) (11.4)
+        / @001 (RepWt054-RepWt060) (11.4)
+        / @001 (RepWt061-RepWt067) (11.4)
+        / @001 (RepWt068-RepWt074) (11.4)
+        / @001 (RepWt075-RepWt081) (11.4)
+        / @001 (RepWt082-RepWt088) (11.4)
+        / @001 (RepWt089-RepWt095) (11.4)
+        / @001 (RepWt096-RepWt102) (11.4)
+        / @001 (RepWt103-RepWt109) (11.4)
+        / @001 (RepWt110-RepWt116) (11.4)
+        / @001 (RepWt117-RepWt123) (11.4)
+        / @001 (RepWt124-RepWt130) (11.4)
+        / @001 (RepWt131-RepWt137) (11.4)
+        / @001 (RepWt138-RepWt144) (11.4)
+        / @001 (RepWt145-RepWt151) (11.4)
+        / @001 (RepWt152-RepWt158) (11.4)
+        / @001 (RepWt159-RepWt160) (11.4);       
+    If SmplWgt=0 & (RepWt001=0 | RepWt001=.) Then Delete;
+    
+  Proc Sort Data=CPS&Survey;
+    By QstNum OccurNum;
+
+  Proc Sort Data=Rep&Survey;
+    By QstNum OccurNum;
+    
+  Data CPS&Survey;
+    Merge CPS&Survey(In=In1)
+          Rep&Survey;
+    By QstNum OccurNum; 
+    If In1;
+%Mend;
+
+%Read2003(feb03); Run;
+%Read2003(jun03); Run;
+%Read2003(nov03); Run;
+%Read0607(may06); Run;
+%Read0607(aug06); Run;
+%Read0607(jan07); Run;
+
+Data CPS0307;
+  Set CPSfeb03 CPSjun03 CPSnov03 CPSmay06 CPSaug06 CPSjan07;
+  If (18<=PEAge<=24) Then AgeGrp=1;
+  Else If (25<=PEAge<=44) Then AgeGrp=2;
+  Else If (45<=PEAge<=64) Then AgeGrp=3;
+  Else If (PEAge>64) Then AgeGrp=4;
+  If SmokStat In (2,3) Then Current=1;
+  Else If SmokStat In (1,4) Then Current=2;
+  If HRYear4=2003 Then SurvGrp=1;
+  Else If HRYear4 In (2006,2007) Then SurvGrp=2;
+  Format AgeGrp AgeGrpF. PESex PESexF. Current CurrentF.;
+  Label AgeGrp   = "Age Group"
+        Current  = "Current Cigarette Smoker"
+        PESex    = "Gender"        
+        OccurNum = "Unique Person Identifier"
+        QstNum   = "Unique Household Identifier"
+        SmokStat = "Smoker Recode"        
+        SurvGrp  = "Survey Group";
+Run;
+
+Data CPS0307(Drop=I J RepWt001-RepWt160 SmplWgt);
+  Set CPS0307;
+  Array OldR(160) RepWt001-RepWt160;
+  Array NewR(240) NWgt001-NWgt240;
+  NSmplWgt=SmplWgt/6;
+  If SurvGrp=1 Then Do;
+    Do I = 1 to 80;
+      NewR(I)=(1/6) * (SmplWgt+(.866025*(OldR(I)-SmplWgt)));  /* .866025 = 1/2 x (Sqrt(240/80) */
+      End;
+    Do I = 81 to 240;
+      NewR(I)=SmplWgt/6;
+      End;
+    End;
+  Else Do;
+    Do I = 1 to 80;
+      NewR(I)=SmplWgt/6;
+      End;
+    Do I = 81 to 240;
+      J = I - 80;
+      NewR(I)=(1/6) * (SmplWgt+(.612372*(OldR(J)-SmplWgt)));  /* .612372 = 1/2 x (Sqrt(240/160)  */
+      End;
+    End;
+Run;
+
+Proc Crosstab Data=CPS0307 Design=BRR;      /* SUDAAN CrossTab Procedure */
+  Setenv DecWidth=4;
+  Weight NSmplWgt;
+  RepWgt NWgt001-NWgt240/ADJFay=16;
+  Subgroup Current PESex AgeGrp;
+  Levels      2      2    4;
+  Tables PESex*Current AgeGrp*Current;
+  RTitle "Tobacco Use Supplement to The Current Population Survey";
+  RTitle "February 2003, June 2003, November 2003, May 2006, August 2006 and January 2007";
+  RTitle "Interviewed, Adults, Ages 18 and Over";  
+  RTitle "Self and Proxy Respondents";
+  RTitle "Current Cigarette Smoking Status By Gender and Age Group";
+  Print NSum = "Sample Size"
+        WSum = "Population Size"
+        RowPer = "Percent"
+        SERow = "Standard Error"
+        LowRow = "Lower 95% CI"
+        UpRow = "Upper 95% CI"
+        /NSumFmt=F8.0 WSumFmt=F10.0;
+Run;                                                                   
+                                  S U D A A N
+            Software for the Statistical Analysis of Correlated Data
+           Copyright        Research Triangle Institute    February 2005
+                                  Release 9.0.1
+ 
+ 
+Number of observations read    : 461702    Weighted count :214976422
+Denominator degrees of freedom :    240
+ 
+
+                                                                                                                                           
+Date: 05-21-2009                Research Triangle Institute                   Page  : 1  
+Time: 09:56:32                    The CROSSTAB Procedure                      Table : 1  
+                                                                                                                                           
+Variance Estimation Method: BRR                                                                                                            
+Tobacco Use Supplement to The Current Population Survey                                                                                    
+February 2003, June 2003, November 2003, May 2006, August 2006 and January 2007                                                            
+Interviewed, Adults, Ages 18 and Over                                                                                                      
+Self and Proxy Respondents                                                                                                                 
+Current Cigarette Smoking Status By Gender and Age Group                                                                                   
+by: Gender, Current Cigarette Smoker.                                                                                                      
+                                                                                                                                           
+-----------------------------------------------------------------------------                                                              
+|                 |                  |                                                                                                     
+| Gender          |                  | Current Cigarette Smoker                                                                            
+|                 |                  | Total      | Yes        | No         |                                                              
+-----------------------------------------------------------------------------                                                              
+|                 |                  |            |            |            |                                                              
+| Total           | Sample Size      |     461702 |      84536 |     377166 |                                                              
+|                 | Population Size  |  214976422 |   38783864 |  176192558 |                                                              
+|                 | Percent          |   100.0000 |    18.0410 |    81.9590 |                                                              
+|                 | Standard Error   |     0.0000 |     0.0911 |     0.0911 |                                                              
+|                 | Lower 95% CI     |      .     |    17.8622 |    81.7788 |                                                              
+|                 | Upper 95% CI     |      .     |    18.2212 |    82.1378 |                                                              
+-----------------------------------------------------------------------------                                                              
+|                 |                  |            |            |            |                                                              
+| Male            | Sample Size      |     216833 |      44277 |     172556 |                                                              
+|                 | Population Size  |  103321845 |   21047600 |   82274244 |                                                              
+|                 | Percent          |   100.0000 |    20.3709 |    79.6291 |                                                              
+|                 | Standard Error   |     0.0000 |     0.1216 |     0.1216 |                                                              
+|                 | Lower 95% CI     |      .     |    20.1324 |    79.3885 |                                                              
+|                 | Upper 95% CI     |      .     |    20.6115 |    79.8676 |                                                              
+-----------------------------------------------------------------------------                                                              
+|                 |                  |            |            |            |                                                              
+| Female          | Sample Size      |     244869 |      40259 |     204610 |                                                              
+|                 | Population Size  |  111654577 |   17736264 |   93918314 |                                                              
+|                 | Percent          |   100.0000 |    15.8849 |    84.1151 |                                                              
+|                 | Standard Error   |     0.0000 |     0.0996 |     0.0996 |                                                              
+|                 | Lower 95% CI     |      .     |    15.6897 |    83.9178 |                                                              
+|                 | Upper 95% CI     |      .     |    16.0822 |    84.3103 |                                                              
+-----------------------------------------------------------------------------                                                              
+
+                                                                                                                                           
+                                                                                                                                           
+                                                                                                                                           
+Date: 05-21-2009                Research Triangle Institute                   Page  : 2  
+Time: 09:56:32                    The CROSSTAB Procedure                      Table : 2  
+                                                                                                                                           
+Variance Estimation Method: BRR                                                                                                            
+Tobacco Use Supplement to The Current Population Survey                                                                                    
+February 2003, June 2003, November 2003, May 2006, August 2006 and January 2007                                                            
+Interviewed, Adults, Ages 18 and Over                                                                                                      
+Self and Proxy Respondents                                                                                                                 
+Current Cigarette Smoking Status By Gender and Age Group                                                                                   
+by: Age Group, Current Cigarette Smoker.                                                                                                   
+                                                                                                                                           
+-----------------------------------------------------------------------------                                                              
+|                 |                  |                                                                                                     
+| Age Group       |                  | Current Cigarette Smoker                                                                            
+|                 |                  | Total      | Yes        | No         |                                                              
+-----------------------------------------------------------------------------                                                              
+|                 |                  |            |            |            |                                                              
+| Total           | Sample Size      |     461702 |      84536 |     377166 |                                                              
+|                 | Population Size  |  214976422 |   38783864 |  176192558 |                                                              
+|                 | Percent          |   100.0000 |    18.0410 |    81.9590 |                                                              
+|                 | Standard Error   |     0.0000 |     0.0911 |     0.0911 |                                                              
+|                 | Lower 95% CI     |      .     |    17.8622 |    81.7788 |                                                              
+|                 | Upper 95% CI     |      .     |    18.2212 |    82.1378 |                                                              
+-----------------------------------------------------------------------------                                                              
+|                 |                  |            |            |            |                                                              
+| 18-24           | Sample Size      |      51903 |      10251 |      41652 |                                                              
+|                 | Population Size  |   27488937 |    5203696 |   22285241 |                                                              
+|                 | Percent          |   100.0000 |    18.9301 |    81.0699 |                                                              
+|                 | Standard Error   |     0.0000 |     0.2163 |     0.2163 |                                                              
+|                 | Lower 95% CI     |      .     |    18.5077 |    80.6400 |                                                              
+|                 | Upper 95% CI     |      .     |    19.3600 |    81.4923 |                                                              
+-----------------------------------------------------------------------------                                                              
+|                 |                  |            |            |            |                                                              
+| 25-44           | Sample Size      |     169032 |      36370 |     132662 |                                                              
+|                 | Population Size  |   81807506 |   16936375 |   64871131 |                                                              
+|                 | Percent          |   100.0000 |    20.7027 |    79.2973 |                                                              
+|                 | Standard Error   |     0.0000 |     0.1326 |     0.1326 |                                                              
+|                 | Lower 95% CI     |      .     |    20.4427 |    79.0348 |                                                              
+|                 | Upper 95% CI     |      .     |    20.9652 |    79.5573 |                                                              
+-----------------------------------------------------------------------------                                                              
+|                 |                  |            |            |            |                                                              
+| 45-64           | Sample Size      |     158786 |      31071 |     127715 |                                                              
+|                 | Population Size  |   70944727 |   13786725 |   57158002 |                                                              
+|                 | Percent          |   100.0000 |    19.4331 |    80.5669 |                                                              
+|                 | Standard Error   |     0.0000 |     0.1344 |     0.1344 |                                                              
+|                 | Lower 95% CI     |      .     |    19.1697 |    80.3009 |                                                              
+|                 | Upper 95% CI     |      .     |    19.6991 |    80.8303 |                                                              
+-----------------------------------------------------------------------------                                                              
+|                 |                  |            |            |            |                                                              
+| 65+             | Sample Size      |      81981 |       6844 |      75137 |                                                              
+|                 | Population Size  |   34735252 |    2857068 |   31878184 |                                                              
+|                 | Percent          |   100.0000 |     8.2253 |    91.7747 |                                                              
+|                 | Standard Error   |     0.0000 |     0.1102 |     0.1102 |                                                              
+|                 | Lower 95% CI     |      .     |     8.0108 |    91.5551 |                                                              
+|                 | Upper 95% CI     |      .     |     8.4449 |    91.9892 |                                                              
+-----------------------------------------------------------------------------                                                              
+/*******************************************************************/
+/* Program: workshop.example.tuscps.asec.link.sas                  */
+/*    Date: May 2009                                               */
+/*******************************************************************/
+Filename CPSJan07 "cpsjan07.dat" lrecl=1313;
+Filename ASEC2007 "cpsmar07.dat" lrecl=974;
+
+Proc Format;
+  Value HIC_StaF
+    1 = "Covered/Insured"    
+    2 = "Not Covered/Uninsured"
+    ;
+  Value WorkBanF
+    1 = "Ban"
+    2 = "No Ban"
+    ; 
+    
+Data HH_2007(Keep=H_MIS SEQ)
+     Per_2007(Drop=H_MIS H_SEQ RecType);
+  Infile ASEC2007;
+  Input @001 RecType   1. @;
+  If RecType=1 Then Do;
+    Input @002 H_SEQ     5.
+          @029 H_MIS     1.;          
+    Seq=H_SEQ;
+    Output HH_2007;
+    End;
+  Else If RecType=3 Then Do;
+    Input @002 PH_SEQ    5.
+          @009 A_LineNo  2.
+          @015 A_Age     2.
+          @020 A_Sex     1.
+          @748 HI        1.
+          @750 DEPHI     1.
+          @757 PRIV      1.
+          @759 DEPRIV    1.
+          @765 OUT       1.
+          @766 CARE      1.
+          @767 CAID      1.
+          @770 OTH       1.
+          @771 (OTYP_1-OTYP_5) (1.)
+          @776 OTHSTPER  1.
+          @777 (OTHSTYP1-OTHSTYP6) (2.)
+          @866 IAHIPER   1.
+          @867 (AHITYP1-AHITYP6) (2.)          
+          @880 PCHIP     1.
+          @912 PERIDNUM  $Char22.;
+    Seq=PH_SEQ;
+    Output Per_2007;
+    End;
+Run;
+
+Proc Sort Data=HH_2007;
+  By Seq;
+Run;
+
+Proc Sort Data=Per_2007;
+  By Seq;
+Run;
+
+
+Data ASEC2007;
+  Merge HH_2007
+        Per_2007(In=IN1);
+  By Seq;
+  If In1;
+Run;
+
+/* Create Health Insurance Variables Based on Census Documentation   */
+/* More Information Available at the Following Web Sites:            */
+/*     http://www.census.gov/hhes/www/hlthins/hlthinsrecodevar.html  */
+/*     http://www.census.gov/hhes/www/hlthins/hlthinsvar.html        */
+Data ASEC2007;
+  Set ASEC2007;  
+  If HI=1 | DEPHI=1 | PRIV=1 | DEPRIV=1 | OUT=1 Then COV_HI=1;
+  Else If (10<=OTHSTYP1<=14) | (10<=OTHSTYP2<=14) | (10<=OTHSTYP3<=14) | 
+    (10<=OTHSTYP4<=14) | (10<=OTHSTYP5<=14) | (10<=OTHSTYP6<=14) Then COV_HI=1;
+  Else If (10<=AHITYP1<=15) | (10<=AHITYP2<=15) | (10<=AHITYP3<=15) |
+    (10<=AHITYP4<=15) | (10<=AHITYP5<=15) | (10<=AHITYP6<=15) Then COV_HI=1;
+  Else COV_HI=2;
+
+  If Care=1 Then MCARE=1;
+  Else If (OTHSTYP1=1) | (OTHSTYP2=1) | (OTHSTYP3=1) | (OTHSTYP4=1) | (OTHSTYP5=1) | (OTHSTYP6=1) 
+    Then MCARE=1;
+  Else If (AHITYP1=1) | (AHITYP2=1) | (AHITYP3=1) | (AHITYP4=1) | (AHITYP5=1) | (AHITYP6=1) 
+    Then MCARE=1;
+  Else MCARE=2;
+
+  If CAID=1 | PCHIP=1 Then MCAID=1;
+  Else If (OTHSTYP1 In (2,7,9,15) | OTHSTYP2 In (2,7,9,15) | OTHSTYP3 In (2,7,9,15) | 
+    OTHSTYP4 In (2,7,9,15) | OTHSTYP5 In (2,7,9,15) | OTHSTYP6 In (2,7,9,15)) Then MCAID=1;
+  Else If (AHITYP1 In (2,7,9) | AHITYP2 In (2,7,9) | AHITYP3 In (2,7,9) | 
+    AHITYP4 In (2,7,9) | AHITYP5 In (2,7,9) | AHITYP6 In (2,7,9)) Then MCAID=1;
+  Else MCAID=2;
+
+  If OTYP_1=1 | OTYP_2=1 | OTYP_3=1 | OTYP_5=1 Then CHAMP=1;
+  Else If (3<=OTHSTYP1<=6) | (3<=OTHSTYP2<=6) | (3<=OTHSTYP3<=6) | 
+    (3<=OTHSTYP4<=6) | (3<=OTHSTYP5<=6) | (3<=OTHSTYP6<=6) Then CHAMP=1;
+  Else If (3<=AHITYP1<=6) | (3<=AHITYP2<=6) | (3<=AHITYP3<=6) | 
+    (3<=AHITYP4<=6) | (3<=AHITYP5<=6) | (3<=AHITYP6<=6) Then CHAMP=1;
+  Else CHAMP=2;
+    
+  If COV_HI=1 | MCARE=1 | MCAID=1 | CHAMP=1 Then HIC_Stat=1;
+  Else HIC_Stat=2;
+  Label COV_HI   = "Private health insurance status"
+        MCARE    = "Medicare status"
+        MCAID    = "Medicaid status"
+        CHAMP    = "Military health care status"
+        HIC_Stat = "Health insurance coverage status";
+  Format HIC_Stat HIC_StaF.;       
+Run;
+
+Proc Freq Data=ASEC2007;
+  Title1 "2007 Annual Social and Economic (ASEC) Supplement";
+  Title2 "Adults Ages 18 to 64";
+  Where (18<=A_Age<=64);
+  Table HIC_Stat;
+Run; 
+
+
+Data ASEC2007;
+  Set ASEC2007;
+  If H_MIS In (3,4,7,8);
+  HRMIS_B=H_MIS; 
+Run;       
+    
+Data CPSJan07;
+  Infile CPSJan07;
+  Input @0001 HRHHID   $Char15.
+        @0016 HRMonth  2.
+        @0018 HRYear4  4.
+        @0063 HRMIS    2.
+        @0071 HRHHID2  $Char5.
+        @0122 PEAge    2.
+        @0129 PESex    2.
+        @0147 PULineNo 2.
+        @0161 PRPERTYP 2.
+        @0955 PEA1     2.
+        @0959 PEA3     2.
+        @1240 PEK2A    2.
+        @1242 PEK3A    2.
+        @1244 PEK3B    2.
+        @1278 Intrview 2.
+        @1288 PRS64    2.;
+  If PRPerTyp=2;     /* Adult Civilian Household Member */
+  If Intrview=1;     /* Supplement Interview            */
+  If PEAge>17;       /* Ages 18 and over                */
+  If HRMIS In (1,2,5,6);
+  PERIDNum=HRHHID||HRHHID2||Put(PULineNo,Z2.);
+  HRMIS_B=HRMIS+2;  
+  If PEK2A In (1,2) & PEK3A Not In (-9,-3,-2) & PEK3B Not In (-9,-3,-2) Then Do;
+    If PEK3A=1 & PEK3B=1 Then WorkBan=1;
+    Else WorkBan=2;
+    End;
+  Else WorkBan=9;    
+  Label WorkBan  = "Smoking ban at work";
+  Format WorkBan WorkBanF.;
+Run;
+
+Proc Sort Data=CPSJan07;
+  By HRMIS_B PERIDNum;
+Run;
+
+Proc Sort Data=ASEC2007;
+  By HRMIS_B PERIDNum;
+Run;
+
+Data AJan2007;
+  Merge CPSJan07(In=InTUS)
+        ASEC2007(In=InASEC);
+  By HRMIS_B PERIDNum;
+  If InTUS & InAsec;
+  If PESex=A_Sex;
+  If (PEAge=A_Age) | (PEAge=(A_Age-1));
+Run;
+
+
+Proc Freq Data=AJan2007;
+  Title1 "January 2007 Tobacco Use Supplement to the Current Population Survey Merged With";
+  Title2 "2007 Annual Social and Economic (ASEC) Supplement";
+  Title3 "Adults Ages 18 to 64";
+  Where (18<=PEAge<=64);
+  Table HIC_Stat;
+Run; 
+
+Proc Freq Data=AJan2007;
+  Title3 "Adults Ages 18 to 64, Self Respondents";
+  Where (18<=PEAge<=64) & WorkBan In (1,2) & (PRS64=1);
+  Table HIC_Stat*WorkBan;
+Run;
+
+               2007 Annual Social and Economic (ASEC) Supplement                 
+                              Adults Ages 18 to 64                               
+                                                                                 
+                               The FREQ Procedure                                
+                                                                                 
+                        Health insurance coverage status                         
+                                                                                 
+                                                     Cumulative    Cumulative    
+                HIC_Stat    Frequency     Percent     Frequency      Percent     
+   --------------------------------------------------------------------------    
+   Covered/Insured            100650       80.89        100650        80.89      
+   Not Covered/Uninsured       23776       19.11        124426       100.00      
+
+                                                                                 
+                                                                                 
+                                                                                 
+January 2007 Tobacco Use Supplement to the Current Population Survey Merged With 
+               2007 Annual Social and Economic (ASEC) Supplement                 
+                              Adults Ages 18 to 64                               
+                                                                                 
+                               The FREQ Procedure                                
+                                                                                 
+                        Health insurance coverage status                         
+                                                                                 
+                                                     Cumulative    Cumulative    
+                HIC_Stat    Frequency     Percent     Frequency      Percent     
+   --------------------------------------------------------------------------    
+   Covered/Insured             26864       83.80         26864        83.80      
+   Not Covered/Uninsured        5194       16.20         32058       100.00      
+                                                                                 
+                                                                                 
+                                                                                 
+                                                                                 
+January 2007 Tobacco Use Supplement to the Current Population Survey Merged With 
+               2007 Annual Social and Economic (ASEC) Supplement                 
+                     Adults Ages 18 to 64, Self Respondents                      
+                                                                                 
+                               The FREQ Procedure                                
+                                                                                 
+                          Table of HIC_Stat by WorkBan                           
+                                                                                 
+                  HIC_Stat(Health insurance coverage status)                     
+                                    WorkBan(Smoking ban at work)                 
+                  Frequency        |                                             
+                  Percent          |                                             
+                  Row Pct          |                                             
+                  Col Pct          |Ban     |No Ban  |  Total                    
+                  -----------------+--------+--------+                           
+                  Covered/Insured  |   8679 |   2235 |  10914                    
+                                   |  71.06 |  18.30 |  89.36                    
+                                   |  79.52 |  20.48 |                           
+                                   |  90.75 |  84.37 |                           
+                  -----------------+--------+--------+                           
+                  Not Covered/     |    885 |    414 |   1299                    
+                  Uninsured        |   7.25 |   3.39 |  10.64                    
+                                   |  68.13 |  31.87 |                           
+                                   |   9.25 |  15.63 |                           
+                  -----------------+--------+--------+                           
+                  Total                9564     2649    12213                    
+                                      78.31    21.69   100.00                    
