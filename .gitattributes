@@ -541,7 +541,7 @@ brp/docs/SGA_8568274.pdf -text
 brp/docs/SGA_8574995.pdf -text
 brp/docs/SGA_8576040.pdf -text
 brp/docs/SGA_8619527.pdf -text
-brp/docs/bbpsb_PG.pdf -text
+brp/docs/bbpsb.pdf -text
 brp/e-newsletter/images/ABCD.jpg -text
 brp/e-newsletter/images/Alexandra-Greenberg.jpg -text
 brp/e-newsletter/images/Angela-Falisi.jpg -text
@@ -1602,6 +1602,7 @@ images/EGRP_banner.jpg -text
 images/Excel.png -text
 images/Final-Challenge-Infographic-thumb.jpg -text
 images/Final-Challenge-Infographic.jpg -text
+images/HINTS4-Cycle4-Infographic-v3.jpg -text
 images/HINTS_Brief_26_Image.jpg -text
 images/HINTS_Brief_26_Image_Thumb.jpg -text
 images/Help2.gif -text
@@ -2322,6 +2323,8 @@ od/orgchart.html -text
 od/rbb.html -text
 od/seminara.html -text
 od/seminara_cv.pdf -text
+od/srinivasan-cv.pdf -text
+od/srinivasan.html -text
 od/support_pis.html -text
 od/timeline.html -text
 od/view_arp.html -text
