@@ -77,7 +77,7 @@ var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(hm
       <script src="js/html5shiv.js"></script>
     <![endif]-->
   <style type="text/css" id="holderjs-style">.holderjs-fluid {font-size:16px;font-weight:bold;text-align:center;font-family:sans-serif;margin:0}</style>
-  
+  </head>
 <body>
   	<div id="skipmenu">
 	<a href="#skip" class="skippy">Skip Navigation</a>
