@@ -54,6 +54,7 @@ IS/docs/Character_Strong_Dis_Implement_Access.doc -text
 IS/docs/ConsolidatedFinalReport.doc -text
 IS/docs/DAChambers-CV.pdf -text
 IS/docs/ExecSummaryCTIWGMtg.doc -text
+IS/docs/WE-Norton-CV.pdf -text
 IS/docs/dod_PCP_presentation.ppt -text
 IS/docs/dod_clanton.ppt -text
 IS/docs/dod_dialogue_summary.ppt -text
@@ -177,6 +178,14 @@ IS/presentations/Vinson-AEA-10-26-12-Using-REAIM.pdf -text svneol=unset#unset
 IS/publications.html -text
 IS/reports-factsheet.html -text
 IS/staff.html -text
+IS/staff/Bernal.html -text
+IS/staff/Farrell.html -text
+IS/staff/Heurtin-Roberts.html -text
+IS/staff/Neta.html -text
+IS/staff/Norton.html -text
+IS/staff/Percy-Laurry.html -text
+IS/staff/Uy.html -text
+IS/staff/Vinson.html -text
 IS/tools.html -text
 IS/training-education.html -text
 Scripts/AC_RunActiveContent.js -text
@@ -529,7 +538,7 @@ brp/docs/SGA_8568274.pdf -text
 brp/docs/SGA_8574995.pdf -text
 brp/docs/SGA_8576040.pdf -text
 brp/docs/SGA_8619527.pdf -text
-brp/docs/bbpsb_PG.pdf -text
+brp/docs/bbpsb.pdf -text
 brp/e-newsletter/images/ABCD.jpg -text
 brp/e-newsletter/images/Alexandra-Greenberg.jpg -text
 brp/e-newsletter/images/Angela-Falisi.jpg -text
@@ -1590,6 +1599,7 @@ images/EGRP_banner.jpg -text
 images/Excel.png -text
 images/Final-Challenge-Infographic-thumb.jpg -text
 images/Final-Challenge-Infographic.jpg -text
+images/HINTS4-Cycle4-Infographic-v3.jpg -text
 images/HINTS_Brief_26_Image.jpg -text
 images/HINTS_Brief_26_Image_Thumb.jpg -text
 images/Help2.gif -text
@@ -2310,6 +2320,8 @@ od/orgchart.html -text
 od/rbb.html -text
 od/seminara.html -text
 od/seminara_cv.pdf -text
+od/srinivasan-cv.pdf -text
+od/srinivasan.html -text
 od/support_pis.html -text
 od/timeline.html -text
 od/view_arp.html -text
