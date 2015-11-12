@@ -39,7 +39,7 @@ Partial Class terms
             MailMessage.To.Add("christopher.deloose@icfi.com")
 
             'MailObj.Host = System.Configuration.ConfigurationManager.AppSettings("EmailHost").ToString
-             MailObj.Host = "mailfwd.nih.gov"
+            MailObj.Host = "mailfwd.nih.gov"
 
             'MailMessage.From.Clear()
             MailMessage.From = New System.Net.Mail.MailAddress(txtemailTerms.Text)
@@ -48,9 +48,9 @@ Partial Class terms
             MailMessage.Body = strbody
             MailObj.Send(MailMessage)
 
-            Response.Redirect("~/brp/flashe-files.html")
+            Response.Redirect("~/brp/hbrb/flashe-files.html")
         Catch ex As Exception
-            Response.Redirect("~/brp/flashe-terms.aspx")
+            Response.Redirect("~/brp/hbrb/flashe.html")
         End Try
     End Sub
 
