@@ -41,16 +41,16 @@ Partial Class terms
             'MailObj.Host = System.Configuration.ConfigurationManager.AppSettings("EmailHost").ToString
              MailObj.Host = "mailfwd.nih.gov"
 
-            MailMessage.From.Clear()
+            'MailMessage.From.Clear()
             MailMessage.From = New System.Net.Mail.MailAddress(txtemailTerms.Text)
             MailMessage.Subject = "FLASHE Data Terms of Use"
             MailMessage.IsBodyHtml = True
             MailMessage.Body = strbody
             MailObj.Send(MailMessage)
 
-            Response.Redirect("~/flashe-files.html")
+            Response.Redirect("~/brp/flashe-files.html")
         Catch ex As Exception
-            Response.Redirect("~/index.html")
+            Response.Redirect("~/brp/flashe-terms.aspx")
         End Try
     End Sub
 

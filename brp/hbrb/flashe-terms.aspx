@@ -9,14 +9,13 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta name="description" content="The Division of Cancer Control and Population Sciences (DCCPS) aims to reduce the risk, incidence, and deaths from cancer as well as enhance the quality of life for cancer survivors.">
     
-    <!-- Le styles -->
-    <link href="../css/style.css" rel="stylesheet">
-    <link href="../css/bootstrap.css" rel="stylesheet">
-    <link href="../css/bootstrap-responsive.css" rel="stylesheet">
-    <link href="../css/bootstrap-nci.css" rel="stylesheet">
-    <link href="../brp/css/homepage.css" rel="stylesheet">
-    <link href="../brp/css/brp-style.css" rel="stylesheet">
-    <link href="../css/bootstrap-lightbox.min.css" rel="stylesheet">
+    <link href="../../css/style.css" rel="stylesheet">
+    <link href="../../css/bootstrap.css" rel="stylesheet">
+    <link href="../../css/bootstrap-responsive.css" rel="stylesheet">
+    <link href="../../css/bootstrap-nci.css" rel="stylesheet">
+    <link href="../css/homepage.css" rel="stylesheet">
+    <link href="../css/brp-style.css" rel="stylesheet">
+    <link href="../../css/bootstrap-lightbox.min.css" rel="stylesheet">
     
   <script type="text/javascript">
 function Validate()
@@ -85,7 +84,7 @@ var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(hm
 	</div> <!-- end skipmenu -->
     
 	<div id="header-nci">
-    	    <a href="http://cancercontrol.cancer.gov/"> <img alt="National Cancer Institute" src="../images/dccps-logo.png"> </a>
+    	    <a href="http://cancercontrol.cancer.gov/"> <img alt="National Cancer Institute" src="../../images/dccps-logo.png"> </a>
     </div>
     <div id="header">
       <div id="cancercontrol-banner">
@@ -307,9 +306,9 @@ var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(hm
         </div>
       </footer>
 
-    <script src="../js/jquery-1.10.1.min.js"></script>
-    <script src="../js/bootstrap.min.js"></script>
-    <script src="../js/bootstrap.lightbox.min.js"></script>
+    <script src="../../js/jquery-1.10.1.min.js"></script>
+    <script src="../../js/bootstrap.min.js"></script>
+    <script src="../../js/bootstrap.lightbox.min.js"></script>
     <script>
       !function ($) {
         $(function(){
@@ -415,7 +414,7 @@ var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(hm
 });
 
 	</script>
-    <script src="../js/respond.min.js"></script>
+    <script src="../../js/respond.min.js"></script>
     <script>
   (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
   (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
