@@ -1,36 +1,84 @@
-<!DOCTYPE html>
-<html lang="en"><!-- InstanceBegin template="/templates/BRP-tus-cps.dwt" codeOutsideHTMLIsLocked="false" -->
+﻿<!DOCTYPE html>
+<html lang="en"><!-- InstanceBegin template="/templates/BRP-newsletter.dwt" codeOutsideHTMLIsLocked="false" -->
   <head>
-<meta http-equiv="content-type" content="text/html; charset=UTF-8">
-    <meta charset="utf-8">
-    <!-- InstanceBeginEditable name="doctitle" -->
-    <title>National Cancer Institute - Cancer Control and Population Sciences</title>
-    <!-- InstanceEndEditable -->
-        <link rel="icon" type="image/jpeg" href="/images/favicon.ico">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta name="keywords" content="nci, dccps, Cancer Control and Population Sciences, cancer">
-    <meta name="author" content="">
-    <!-- InstanceBeginEditable name="metatags" -->
-    <meta name="description" content="" />
-	<!-- InstanceEndEditable -->
+  <meta http-equiv="content-type" content="text/html; charset=UTF-8">
+  <meta charset="utf-8">
+  <!-- InstanceBeginEditable name="doctitle" -->
+  <title>Leadership Announcement in Health Behaviors Research at the NCI</title>
+  <!-- InstanceEndEditable -->
+  <link rel="icon" type="image/jpeg" href="/images/favicon.ico">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="keywords" content="nci, dccps, Cancer Control and Population Sciences, cancer">
+  <meta name="author" content="">
+  <!-- InstanceBeginEditable name="metatags" -->
+  <meta name="description" content="" />
+  <!-- InstanceEndEditable -->
+  <link href="../../css/style.css" rel="stylesheet">
+  <link href="../../css/bootstrap.css" rel="stylesheet">
+  <link href="../../css/bootstrap-responsive.css" rel="stylesheet">
+  <link href="../../css/bootstrap-nci.css" rel="stylesheet">
+  <link href="../css/brp-style.css" rel="stylesheet">
+  <link href="../../css/print.css" rel="stylesheet" media="print" />
+  
+  
+  <script type="text/javascript">
+function Validate()
+{
+	return false;
+}
 
-    <link href="../../../css/style.css" rel="stylesheet">
-    <link href="../../../css/bootstrap.css" rel="stylesheet">
-    <link href="../../../css/bootstrap-responsive.css" rel="stylesheet">
-    <link href="../../../css/bootstrap-nci.css" rel="stylesheet">
-    <link href="../../css/brp-style.css" rel="stylesheet">
-    <link href="../../../css/print.css" rel="stylesheet" media="print" />
+function SendToLyris()
+{
+  if (document.frm_SubScribe.TXT_Email.value == '')
+  {
+    alert ('You must enter an email address');
+    return false;
+  }
+  
+    apos=document.frm_SubScribe.TXT_Email.value.indexOf("@");
+  dotpos=document.frm_SubScribe.TXT_Email.value.lastIndexOf(".");
+  if (apos<1||dotpos-apos<2)
+    {
+		alert("You must enter a valid email address");
+    	return false;
+	}
 
-    <!-- HTML5 shim, for IE6-8 support of HTML5 elements -->
-    <!--[if lt IE 9]>
+
+  if (document.frm_SubScribe.RD_SubScribe[0].checked)
+  {
+	  document.frm_SubScribe_LYRIS.email.value = document.frm_SubScribe.TXT_Email.value;
+    document.forms.frm_SubScribe_LYRIS.submit()
+
+
+  }
+  else if (document.frm_SubScribe.RD_SubScribe[1].checked)
+  {
+	  document.frm_UNSub_LYRIS.email.value = document.frm_SubScribe.TXT_Email.value;
+    document.forms.frm_UNSub_LYRIS.submit()
+	  
+  }
+  else 
+  {
+	  alert("You must select subscribe or unsubscribe");
+  }
+//  return false;
+}
+
+
+</script>
+  
+  <!-- HTML5 shim, for IE6-8 support of HTML5 elements -->
+  <!--[if lt IE 9]>
       <script>document.createElement('footer');</script>
       <script src="/js/html5shiv.js"></script>
     <![endif]-->
-
-    <!-- Fav and touch icons -->
-  <style type="text/css" id="holderjs-style">.holderjs-fluid {font-size:16px;font-weight:bold;text-align:center;font-family:sans-serif;margin:0}</style>
+  <!-- Fav and touch icons -->
+  <style type="text/css" id="holderjs-style">
+  .holderjs-fluid {font-size:16px;font-weight:bold;text-align:center;font-family:sans-serif;margin:0}
+  </style>
   <!-- InstanceBeginEditable name="head" -->
   <!-- InstanceEndEditable -->
+  <!-- InstanceParam name="Menu" type="boolean" value="true" -->
   </head>
 
   <body>
@@ -41,7 +89,7 @@
 	
 	
 <div id="header-nci">
-    	    <a href="http://cancercontrol.cancer.gov/"> <img alt="National Cancer Institute" src="../../../images/dccps-logo.png"> </a>
+    	    <a href="http://cancercontrol.cancer.gov/"> <img alt="National Cancer Institute" src="../../images/dccps-logo.png"> </a>
     </div>
     <div id="header">
       <div id="cancercontrol-banner">
@@ -64,7 +112,7 @@
   	  <input type="hidden" name="getfields" value="*" />
   	  <label for="searchbox">Search: </label>
         <input id="searchbox" type="text" name="q" size="15" maxlength="255" class="htextf" placeholder="Search" />
-  	  <input type="image" src="../../../images/hbutton-new.gif"  class="hbutton" name="btnG" id="btnG" alt="Search" />
+  	  <input type="image" src="../../images/hbutton-new.gif"  class="hbutton" name="btnG" id="btnG" alt="Search" />
   	</form>
 	</div>
           <div class="navbar-inner">
@@ -109,7 +157,7 @@
                   	<li><a href="/brp/research/index.html#pub">Publications, News, and Videos</a></li>
                   </ul>
                 </li>
-                <li class="dropdown active">
+                <li class="active dropdown">
                   <a href="/brp/about.html" class="hover-link">About BRP <b class="caret"></b></a>
                   <ul class="dropdown-menu">
                   	<li><a href="/brp/about.html#branches">Program Branches</a></li>
@@ -128,22 +176,76 @@
           <div class="row-fluid">
           <div id="sidebar" class="span3">
               <div class="well sidebar-nav">
-                <ul class="nav nav-list">
-<li class="nav-header"><a class="active" href="/brp/tcrb/tus-cps/">The Tobacco Use Supplement to the Current Population Survey (TUS-CPS)</a></li>
-            <li class="nav-header"><a href="/brp/tcrb/tus-cps/questionnaire.html">What topics are covered on the questionnaire?</a></li>
-            <li class="nav-header"><a href="/brp/tcrb/tus-cps/uses.html">How can the data be used?</a></li>
-            <li class="nav-header"><a href="/brp/tcrb/tus-cps/info.html">Where can I get the data &amp; questionnaire?</a></li>
-            <li class="nav-header"><a href="/brp/tcrb/tus-cps/results.html">What are the current &amp; past survey findings?</a></li>
-            <li class="nav-header"><a href="/brp/tcrb/tus-cps/future.html">What are NCI's future plans?</a></li>
-            <li class="nav-header"><a href="/brp/tcrb/tus-cps/citation.html">Suggested Citation</a></li>
-            <li class="nav-header"><a href="/brp/tcrb/tus-cps/publications.html">Reports &amp; Publications Using the TUS-CPS</a></li>
-            <li class="nav-header"><a href="/brp/tcrb/tus-cps/new-mod.html">New, Updated, &amp; Modified Files</a></li>
-            <li class="nav-header"><a href="/brp/tcrb/tus-cps/translation/">TUS-CPS Translations into Other Languages</a></li>
-            <li class="nav-header"><a href="/brp/tcrb/tus-cps/workshops/2009/">2009 Users' Workshop</a></li>
-            <li class="nav-header"><a href="/brp/tcrb/tus-cps/workshops/2007/">2007 Users' Workshop</a></li>
-            <li class="nav-header"><a href="/brp/tcrb/tus-cps/TUS-CPS_fact_sheet.pdf">TUS-CPS Fact Sheet (PDF, 121 KB)</a></li>
-</ul>
-              </div>
+
+                  <!-- InstanceBeginEditable name="Newsletter Menu" -->                                  
+                  <!-- InstanceEndEditable -->
+
+      <p class="comments">For questions,  comments, or suggestions for the BRP <br />
+          e-newsletter, please email <br />
+  <a href="mailto:ncidccpsbrpadvances@mail.nih.gov?subject=BRP%20e-newsletter%20feedback">NCI DCCPS BRP Scientific Advances (NIH/NCI)</a>. </p>
+  <div class="additional-text"><div id="NEI_SubForm" style="display: none">
+        <form id="frm_SubScribe" onSubmit="return Validate()" name="frm_SubScribe">
+            Use the following form to subscribe or unsubscribe from the newsletter.
+            <br />
+            <br />
+            <label for="TXT_Email">
+                Your e-mail:
+            </label>
+            <br />
+            <input type="text" name="TXT_Email" id="TXT_Email" size="28" />
+            <p>
+                <input name="RD_SubScribe" type="radio" id="RD_Sub" checked="true" value="SubScribe" />
+                <label for="RD_Sub">
+                    Subscribe</label>
+                <input name="RD_SubScribe" type="radio" id="RD_Unsub" value="UnSubScribe" />
+                <label for="RD_Unsub">
+                    Unsubscribe</label>
+            </p>
+            <p>
+                <label>
+                    <input type="button" onClick="return SendToLyris()" name="Submit" value="Send" />
+                </label>
+            </p>
+        </form>
+    </div>
+    <div id="Lyris_SubForm" style="display: block">
+        <form id="frm_SubScribe_LYRIS" name="frm_SubScribe_LYRIS" action="http://lists.icfwebservices.com/subscribe/subscribe.tml"
+            method="POST">
+
+                        <label for="email">
+                            Email:</label>
+
+                        <input type="text" name="email" id="email" value="" size="10">
+
+                        <input type="image" height="19" width="73" title="subscribe" alt="subscribe"
+                            src="http://lists.icfwebservices.com/img/english/button_subscribe.gif" name="subscribe_btn">
+
+            <input type="hidden" name="list" value="brpscientificnews">
+            <input type="hidden" name="confirm" value="none">
+            <input type="hidden" name="showconfirm" value="F">
+            <input type="hidden" name="url" value="http://cancercontrol.cancer.gov/brp/e-newsletter/thank-you.html">
+        </form>
+        <form id="frm_UNSub_LYRIS" name="frm_UNSub_LYRIS" action="http://lists.icfwebservices.com/subscribe/unsubscribe.tml"
+            method="GET">
+
+                        <label for="email">
+                            Email:</label>
+
+                        <input type="text" name="email" id="Text1" value="" size="10">
+
+                        <input type="image" height="19" width="84" title="unsubscribe" alt="unsubscribe"
+                            src="http://lists.icfwebservices.com/img/english/button_unsubscribe.gif"
+                            name="unsubscribe">
+
+            <input type="hidden" name="url" value="/brp/e-newsletter/thank-you.html">
+            <input type="hidden" name="confirm" value="none">
+            <input type="hidden" name="showconfirm" value="F">
+            <input type="hidden" name="lists" value="brpscientificnews">
+        </form>
+    </div>
+	</div>
+
+            </div>
               <!--/.well -->
             <div class="newsHighlights">
             	<h2>BRP Branches</h2>
@@ -160,100 +262,32 @@
                 <div class="row">
                 <div class="span12">
                   <ul class="breadcrumb">
-                    <li class="home-breadcrumb"> <a href="/brp/">Home</a> </li>
+                    <li class="home-breadcrumb"> <a href="/brp/index.html">Home</a> </li>
                     <li class="parent">
-    <div class="heading"><a href="/brp/about.html">About BRP</a></div>       <div class="divider"><span>></span></div>
+    <div class="heading"><a href="/brp/e-newsletter/index.html">Scientific News from the Behavioral Research Program (BRP)</a></div>       <div class="divider"><span>></span></div>
   </li>
-<li class="parent">
-    <div class="heading"><a href="/brp/tcrb/">TCRB</a></div>       <div class="divider"><span>></span></div>
-  </li><li class="parent">
-    <div class="heading"><a href="/brp/tcrb/tus-cps/">TUS-CPS</a></div>       <div class="divider"><span>></span></div>
-  </li><li class="active">
-    <div class="heading">Suggested Citation</div>       <div class="divider"><span>></span></div></li></ul>
+                    <li class="active">
+                      <div class="heading">Leadership  Announcement in Health Behaviors Research at the NCI</div>
+                      <div class="divider"><span>></span></div>
+                    </li>
+                  </ul>
                 </div>
               </div>    
                 <!-- InstanceEndEditable -->
                 <div class="row-fluid">
            		  <!-- InstanceBeginEditable name="Main Content" -->
+                  <div class="span12">
+    <h1>Leadership  Announcement in Health Behaviors Research at the NCI</h1>
+    <img src="/brp/e-newsletter/images/Susan-Czajkowski.jpg" alt="Susan Czajkowski" width="95" height="144" style="float:right" />
+<p>Dr.  Susan Czajkowski has been appointed Chief of the Health Behaviors Research  Branch (HBRB) within the National Cancer Institute (NCI) Behavioral Research  Program, Division of Cancer Control and Population Sciences. HBRB supports  research on cancer prevention and control in areas including diet, energy  balance, physical activity, sleep, sun safety, protection from viral exposure,  and genetic influences on behaviors. Dr. Czajkowski&rsquo;s expertise in health  behavior interventions as well as psychosocial aspects of disease and  health-related quality of life will help guide the research agenda in HBRB and  inform new initiatives in the Behavioral Research Program, led by Associate  Director, Dr. William Klein.</p>
+<p>&ldquo;Dr.  Czajkowski&rsquo;s exceptional track record in collaboration and innovation of  behavioral and social science research is an incredibly valuable addition to  NCI,&rdquo; noted Dr. Klein. &ldquo;Her scientific leadership experiences and expertise  make her an ideal Branch Chief and member of our program leadership team.&rdquo;</p>
+<p>  Dr.  Czajkowski first joined the National Institutes of Health in 1987 when she  became a Project Officer in the Behavioral Medicine Research Group at the <a href="http://lists.icfwebservices.com/t/144078/1565158/219/4/" target="_blank">National  Heart, Lung, and Blood Institute</a> (NHLBI). Since that time, she has become  an expert in the role of social and psychological factors in disease risk and  recovery. She has most recently served as a Program Director for the Clinical  Applications and Prevention Branch at NHLBI and in that role, developed and led  initiatives on the effects of depression treatment on cardiovascular disease  outcomes, improvement of adherence to lifestyle and medical therapies, and  translation of basic behavioral science findings into health-related behavioral  interventions.</p>
+<p>  Her interest in early-phase translational behavioral science  prompted her to initiate and serve as lead Project Officer for the  Obesity-Related Behavioral Intervention Trials (ORBIT) consortium, a trans-NIH  network of seven projects aimed at developing innovative behavioral  interventions to reduce obesity using findings from basic research on human  behavior. A major product of the ORBIT consortium has been the development of  the ORBIT Model, a systematic framework for developing behavioral treatments  for preventing and treating chronic diseases that was recently published in <a href="http://lists.icfwebservices.com/t/144078/1565158/9108/7/" target="_blank">Health  Psychology</a>. Other recent collaborations include participation in the <a href="http://lists.icfwebservices.com/t/144078/1565158/9109/13/" target="_blank">Science  of Behavior Change Initiative</a>, the <a href="http://lists.icfwebservices.com/t/144078/1565158/9110/31/" target="_blank">Basic  Behavioral and Social Sciences Research Opportunity Network</a> (OppNet), and  the <a href="http://lists.icfwebservices.com/t/144078/1565158/9111/32/" target="_blank">Office of Behavioral and Social Sciences Research</a> coordinating committee. She received a bachelor&rsquo;s degree from George Mason  University and a master&rsquo;s and doctorate in psychology from the University of  Maryland, College Park. </p>
+<div style="background-color:#004380; color:#fff; padding:15px;">Visit the <a href="/brp/e-newsletter/index.html" style="color:#fff;">archive page</a> to view other Scientific News from the Behavioral Research Program newsletters.</div>
+    </div>
 
-<div class="span9 listimage">
-      
-  <div id="breadcrumbs"></div><div class="dir_logo tuscps_logo"><a href="/brp/tcrb/tus-cps/"><img src="/brp/tcrb/tus-cps/images/tuscps_logo.gif" style="width:396px; height:48px; border:0px;" 
-alt="Tobacco Use Supplement to the Current Population Survey"></a></div>
 
-<h1 id="skipnav">Suggested Citation for the TUS-CPS</h1>
 
-<p>Use of data from the NCI-sponsored Tobacco Use Supplement to the Current Population Survey (TUS-CPS) for publication purposes 
-  should contain a citation.  Citations for the data and/or technical documentation are:</p>
-
-<p>For the May 2010 - May 2011 Longitudinal Cohort data, use:</p>
-
-<blockquote>
-US Department of Commerce, Census Bureau (2015). <a href="/brp/tcrb/tus-cps/">National Cancer Institute-sponsored Tobacco Use Supplement to the Current Population Survey (May 2010-2011)</a>. <em><a href="http://thedataweb.rm.census.gov/ftp/cps_ftp.html#cpssupps">Data files and technical documentation</a></em>.<br>
-<br>
-or
-<br>
-<br>
-US Department of Commerce, Census Bureau (2015). <a href="/brp/tcrb/tus-cps/">National Cancer Institute-sponsored Tobacco Use Supplement to the Current Population Survey (May 2010-11)</a>. <em><a href="http://www.census.gov/cps/methodology/techdocs.html">Technical documentation</a>.</em></blockquote>
-
-<p>For the 2010-11 data, use one of the following, as appropriate:</p>
-
-<blockquote>
-US Department of Commerce, Census Bureau (2012). 
-  <a href="/brp/tcrb/tus-cps/">National Cancer Institute-sponsored 
-Tobacco Use Supplement to the Current Population Survey (2010-11)</a>. <em><a href="http://thedataweb.rm.census.gov/ftp/cps_ftp.html#cpssupps">Data files and technical documentation</a>:</em>
-<a href="http://thedataweb.rm.census.gov/ftp/cps_ftp.html#cpssupps">http://thedataweb.rm.census.gov/ftp/cps_ftp.html#cpssupps</a>. <br>
-<br>
-or
-<br>
-<br>
-US Department of Commerce, Census Bureau (2012). 
-National Cancer Institute-sponsored 
-Tobacco Use Supplement to the Current Population Survey (2010-11): 
-<a href="/brp/tcrb/tus-cps/">http://cancercontrol.cancer.gov/brp/tcrb/tus-cps/</a>. <em>Technical documentation:</em>
-<a href="http://www.census.gov/cps/methodology/techdocs.html">http://www.census.gov/cps/methodology/techdocs.html</a>. </blockquote>
-
-<p>For the 2006-07 data, use:</p>
-
-<blockquote>
-US Department of Commerce, Census Bureau (2008). 
-National Cancer Institute and Centers for Disease Control and Prevention Co-sponsored 
-Tobacco Use Supplement to the Current Population Survey (2006-07): 
-  <a href="/brp/tcrb/tus-cps/">http://cancercontrol.cancer.gov/brp/tcrb/tus-cps/</a>. 
-Data files (AND/OR) technical documentation (technical documentation Website : 
-  <a href="http://www.census.gov/cps/methodology/techdocs.html">http://www.census.gov/cps/methodology/techdocs.html</a>). </blockquote>
-
-<p>For the 2003 data, use:</p>
-<blockquote>
-US Department of Commerce, Census Bureau (2006). 
-National Cancer Institute and Centers for Disease Control and Prevention Co-sponsored
-Tobacco Use Special Cessation Supplement to the Current Population Survey (2003): 
-  <a href="/brp/tcrb/tus-cps/">http://cancercontrol.cancer.gov/brp/tcrb/tus-cps/</a>. 
-Data files (AND/OR) technical documentation (technical documentation Website : 
-  <a href="/brp/tcrb/tus-cps/info.html">http://cancercontrol.cancer.gov/brp/tcrb/tus-cps/info.html</a>). </blockquote>
-
-<p> For the 2001-2002 data, use:</p>
-<blockquote> US Department of Commerce, Census Bureau (2004). National Cancer Institute and Centers for Disease Control 
-  and Prevention Co-sponsored Tobacco Use Supplement to the Current Population Survey (2001-2002): <a href="/brp/tcrb/tus-cps/">http://cancercontrol.cancer.gov/brp/tcrb/tus-cps/</a>. 
-  Data files (AND/OR) technical documentation (technical documentation Website : <a href="http://www.census.gov/cps/methodology/techdocs.html">http://www.census.gov/cps/methodology/techdocs.html</a>). 
-</blockquote>
-
-<p>For 2000 or earlier data, use: </p>
-<blockquote> 
-  US Department of Commerce, Census Bureau (year of data release). National Cancer Institute Sponsored Tobacco Use Supplement 
-    to the Current Population Survey (years of survey): <a href="/brp/tcrb/tus-cps/">http://cancercontrol.cancer.gov/brp/tcrb/tus-cps/</a>. 
-    Data files (AND/OR) technical documentation (technical documentation Website : provide link).<br><br>
-  For example, the citation for use of the 1998-1999 Tobacco Use Supplement to the CPS would be:<br><br>
-  US Department of Commerce, Census Bureau (2001). National Cancer Institute Sponsored Tobacco Use Supplement to the Current 
-    Population Survey (1998-1999): <a href="/brp/tcrb/tus-cps/">http://cancercontrol.cancer.gov/brp/tcrb/tus-cps/</a>. 
-    Data files (AND/OR) technical documentation (technical documentation Website : <a href="http://www.census.gov/cps/methodology/techdocs.html">http://www.census.gov/cps/methodology/techdocs.html</a>). </blockquote>
-            </div>
-            <div class="span3 newsHighlights listimage">
-<h2>Items of Interest</h2>
-<ul>
-  <li><a href="http://www.cancermeetings.org/TUSCPSWebinar/presentations.cfm">Sept. 17 2013 TUS-CPS Webinar Presentations &amp; Recordings</a> <a href="/exit_disclaimer.html"><img src="/images/Icon_External_Link.png" width="12" height="12" alt="exit disclaimer" /></a></li>
-</ul>
-</div>
 <!-- InstanceEndEditable -->
                               </div>
               <!--/row-->          
@@ -297,7 +331,7 @@ Data files (AND/OR) technical documentation (technical documentation Website :
 </div>
        </div>
             <div class="last-updated">
-              <p class="center"><strong>Last Updated: <!-- InstanceBeginEditable name="Last Updated" -->August 10, 2015<!-- InstanceEndEditable --></strong></p>
+              <p class="center"><strong>Last Updated: <!-- InstanceBeginEditable name="Last Updated" -->June 11, 2015<!-- InstanceEndEditable --></strong></p>
        <a href="http://www.cancer.gov/contact" class="help-image"><img class="footer-help" src="/images/footer-help-logo.png" alt="help-logo" /></a><p class="can-numb"><strong>1-800-4-CANCER <br /> (1-800-422-6237)</strong></p>
      </div>
   </div><!--/row-->
@@ -333,9 +367,9 @@ Data files (AND/OR) technical documentation (technical documentation Website :
 </div>
       </footer>
     <!-- javascript -->
-    <script src="../../../js/jquery-1.10.1.min.js"></script>
-    <script src="../../../js/bootstrap.min.js"></script>
-    <script src="../../../js/respond.min.js"></script>
+    <script src="../../js/jquery-1.10.1.min.js"></script>
+    <script src="../../js/bootstrap.min.js"></script>
+    <script src="../../js/respond.min.js"></script>
     
     <script>
 // This adds 'placeholder' to the items listed in the jQuery .support object. 
@@ -401,6 +435,16 @@ $(document).ready(function(){
 
 </script>
     
-    <!-- InstanceBeginEditable name="Scripts" --><!-- InstanceEndEditable -->
+    <!-- InstanceBeginEditable name="Scripts" -->
+	
+	<script type="text/javascript">
+ var theObject = document.getElementById("NEI_SubForm")
+    theObject.style.display="block"
+
+ var theObject2 = document.getElementById("Lyris_SubForm")
+    theObject2.style.display="none"
+</script>
+
+	<!-- InstanceEndEditable -->
   </body>
 <!-- InstanceEnd --></html>
