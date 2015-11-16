@@ -565,6 +565,7 @@ brp/e-newsletter/images/william-klein.jpg -text
 brp/e-newsletter/index.html -text
 brp/e-newsletter/may-2014.html -text
 brp/e-newsletter/notes-june-2015.html -text
+brp/e-newsletter/notes-oct-2015.html -text
 brp/e-newsletter/oct-2015.html -text
 brp/e-newsletter/sept-2014.html -text
 brp/e-newsletter/subscribe.html -text
@@ -1538,9 +1539,7 @@ fonts/glyphicons-halflings-regular.woff -text
 /funding.html -text
 /funding_06-019_qna.html -text
 /funding_apply.html -text
-/funding_apply_print.html -text
 /funding_archive.html -text
-/funding_archive_print.html -text
 /funding_career.html -text
 /funding_d4d_faq_par10038.html -text
 /funding_d4d_faq_par10039.html -text
