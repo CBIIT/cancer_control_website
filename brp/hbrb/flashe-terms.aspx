@@ -166,6 +166,7 @@ var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(hm
             </div><!--/.nav-collapse -->
           </div><!-- /.navbar-inner -->
         </div><!-- /.navbar -->
+        <div class="container-fluid">
         <div class="span12">
 		<a name="skip"></a>
             
@@ -213,7 +214,7 @@ var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(hm
         </div></div>
         
         </div><!-- /.container -->
-  	</div>
+
     <!-- FOOTER -->
       <footer>
       	<div class="container-fluid">
@@ -397,16 +398,5 @@ var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(hm
 
 </script>
 <script type="text/javascript" src="/JS/Omniture/WA_DCCPS_PageLoad.js"></script>
-
-
-	<script type="text/javascript">
- var theObject = document.getElementById("NEI_SubForm")
-    theObject.style.display="block"
-
- var theObject2 = document.getElementById("Lyris_SubForm")
-    theObject2.style.display="none"
-</script>
-
-
   </body>
 </html>
