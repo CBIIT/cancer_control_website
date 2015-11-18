@@ -48,7 +48,7 @@ Partial Class terms
             MailMessage.Body = strbody
             MailObj.Send(MailMessage)
 
-            Response.Redirect("~/brp/hbrb/flashe-files.html")
+            Response.Redirect("~/brp/hbrb/flashe-files.aspx")
         Catch ex As Exception
             Response.Redirect("~/brp/hbrb/flashe.html")
         End Try
