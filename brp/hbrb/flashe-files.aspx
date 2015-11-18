@@ -1,4 +1,4 @@
-<%@ Page Language="VB" AutoEventWireup="false" CodeFile="flashe-files.aspx.vb" Inherits="terms" %>
+<%@ Page Language="VB" AutoEventWireup="false" CodeFile="flashe-files.aspx.vb" Inherits="dataset" %>
 
 <!DOCTYPE html>
 <html lang="en"><head>
