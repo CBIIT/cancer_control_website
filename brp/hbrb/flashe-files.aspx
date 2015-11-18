@@ -168,10 +168,10 @@ var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(hm
           </div><!-- /.navbar-inner -->
         </div><!-- /.navbar -->
         <div class="container-fluid">
-        <div class="span12">
+        <div id="content" class="span12">
 		<a name="skip"></a>
             
-    <div>
+    <div class="listimage">
     <h1>Family Life, Activity, Sun, Health, and Eating (FLASHE) study    </h1>
     <h2>FLASHE Public Use Data Files and Supporting  Documentation </h2>
         <p>Welcome to the FLASHE data  and resource Web page. This page contains data files (available in SAS and SPSS  formats), survey instruments, and other documentation to assist you in  analyzing FLASHE data.</p>
@@ -224,7 +224,7 @@ var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(hm
       <div> </div>
     </div>
     <h2 id="Papers">FLASHE papers</h2>
-<p>  FLASHE Data Users  – we want to hear from you!  If you use FLASHE data, please send your  published papers and/or presentations to <a href="mailto:nciflashe@mail.nih.gov">nciflashe@mail.nih.gov</a>. Published papers will be added to this section in the coming months.</p>
+<p>  FLASHE Data Users  &ndash; we want to hear from you!  If you use FLASHE data, please send your  published papers and/or presentations to <a href="mailto:nciflashe@mail.nih.gov">nciflashe@mail.nih.gov</a>. Published papers will be added to this section in the coming months.</p>
 <h2 id="Contacts">Contacts</h2>
     <p>For more  information about the Family Life, Activity, Sun, Health, and Eating (FLASHE)  study, please contact: </p>
     <p><a href="http://staffprofiles.cancer.gov/brp/prgmStaffProfile.do?contactId=1612&bioType=stf">Linda Nebeling, Ph.D.,  M.P.H., R.D</a>.<br>
@@ -318,7 +318,7 @@ Support to: National  Cancer Institute, Health Behaviors Research Branch<br>
              </div><!--/span-->
 </div>
             <div class="last-updated">
-              <p class="center"><strong>Last Updated: July 2, 2015</strong></p>
+              <p class="center"><strong>Last Updated: November 18, 2015</strong></p>
        <a href="http://www.cancer.gov/contact" class="help-image"><img class="footer-help" src="/images/footer-help-logo.png" alt="help-logo" /></a><p class="can-numb"><strong>1-800-4-CANCER <br /> (1-800-422-6237)</strong></p>
                 </div>
        </div><!--/row-->

@@ -168,13 +168,13 @@ var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(hm
           </div><!-- /.navbar-inner -->
         </div><!-- /.navbar -->
         <div class="container-fluid">
-        <div class="span12">
+        <div id="content" class="span12">
 		<a name="skip"></a>
             
-    <div>
+    <div class="listimage">
     <h1>Family Life, Activity, Sun, Health, and Eating (FLASHE) study    </h1>
     <h2>	Dyadic analysis resources</h2>
-<p>Individuals  who are part of a close relationship – such as a parent and child – may influence  one another.  Such individuals may also  express similarity in their thoughts, behavior, or affect.  The FLASHE study was designed to capture this  type of interdependence and homogeneity. </p>
+<p>Individuals  who are part of a close relationship &ndash; such as a parent and child &ndash; may influence  one another.  Such individuals may also  express similarity in their thoughts, behavior, or affect.  The FLASHE study was designed to capture this  type of interdependence and homogeneity. </p>
 <p>  FLASHE  incorporates the conceptualization of multilevel influences on multiple cancer-preventive  health behaviors into a dyadic design to facilitate numerous research questions  focused on either an individual (parent or adolescent) or the dyad (parent and adolescent).&nbsp;  The analysis of dyadic data is much more complicated than the analysis of data  from individuals. &nbsp;To support data users who are interested in conducting  dyadic analyses, we have provided the following resources:</p>
 <h3>Presentations and Webinars</h3>
 <ul>
@@ -182,8 +182,8 @@ var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(hm
   <li>A short introduction to dyadic analysis  (webinar)</li>
 </ul>
 <h3>FLASHE=-specific dyadic-analysis resources</h3>
-<ul><li>  FLASHE Dyadic constructs table – Diet (PDF)</li>
-  <li>    FLASHE Dyadic constructs table – Physical  activity (PDF)  </li>
+<ul><li>  FLASHE Dyadic constructs table &ndash; Diet (PDF)</li>
+  <li>    FLASHE Dyadic constructs table &ndash; Physical  activity (PDF)  </li>
   <li>    FLASHE Dyadic Analysis User&rsquo;s Guide and  Sample Code (PDF)</li>
 </ul>
 <h3>Acknowledgements</h3>
@@ -220,7 +220,7 @@ var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(hm
              </div><!--/span-->
 </div>
             <div class="last-updated">
-              <p class="center"><strong>Last Updated: July 2, 2015</strong></p>
+              <p class="center"><strong>Last Updated: November 18, 2015</strong></p>
        <a href="http://www.cancer.gov/contact" class="help-image"><img class="footer-help" src="/images/footer-help-logo.png" alt="help-logo" /></a><p class="can-numb"><strong>1-800-4-CANCER <br /> (1-800-422-6237)</strong></p>
                 </div>
        </div><!--/row-->

@@ -167,10 +167,10 @@ var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(hm
           </div><!-- /.navbar-inner -->
         </div><!-- /.navbar -->
         <div class="container-fluid">
-        <div class="span12">
+        <div id="content" class="span12">
 		<a name="skip"></a>
             
-    <div>
+    <div class="listimage">
     <h1>FLASHE  Data Terms of Use </h1>
     <form id="form1" runat="server">
 <p>      It  is of utmost importance to ensure the confidentiality of survey participants.  Every effort has been made to exclude identifying information on individual  respondents from the computer files. Some demographic information such as sex,  race, etc., has been included for research purposes. The National Cancer  Institute expects that users of the data set will adhere to the strictest  standards of ethical conduct for the analysis and reporting of collected survey  data. It is mandatory that all research results be presented/published in a manner  that protects the integrity of the data and ensures the confidentiality of  participants. In order for the Family Life, Activity, Sun, Health, and Eating  Survey (FLASHE) to provide a public-use or another version of data to you, it  is necessary that you agree to the following provisions. </p>
@@ -242,7 +242,7 @@ var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(hm
              </div><!--/span-->
 </div>
             <div class="last-updated">
-              <p class="center"><strong>Last Updated: July 2, 2015</strong></p>
+              <p class="center"><strong>Last Updated: November 18, 2015</strong></p>
        <a href="http://www.cancer.gov/contact" class="help-image"><img class="footer-help" src="/images/footer-help-logo.png" alt="help-logo" /></a><p class="can-numb"><strong>1-800-4-CANCER <br /> (1-800-422-6237)</strong></p>
                 </div>
        </div><!--/row-->

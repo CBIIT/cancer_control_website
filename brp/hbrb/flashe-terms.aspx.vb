@@ -40,6 +40,7 @@ Partial Class terms
 
             'MailObj.Host = System.Configuration.ConfigurationManager.AppSettings("EmailHost").ToString
             MailObj.Host = "mailfwd.nih.gov"
+            'MailObj.Host = "localhost"
 
             'MailMessage.From.Clear()
             MailMessage.From = New System.Net.Mail.MailAddress(txtemailTerms.Text)
@@ -47,10 +48,12 @@ Partial Class terms
             MailMessage.IsBodyHtml = True
             MailMessage.Body = strbody
             MailObj.Send(MailMessage)
+            Response.Write("<h1>Sent</h1>")
 
-            Response.Redirect("~/brp/hbrb/flashe-files.aspx")
+            Response.Redirect("flashe-files.aspx")
         Catch ex As Exception
-            Response.Redirect("~/brp/hbrb/flashe.html")
+            'Response.Redirect("flashe.html")
+            Response.Write("<h1>" & ex.ToString & "</h1>")
         End Try
     End Sub
 
