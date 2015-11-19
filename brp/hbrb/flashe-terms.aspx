@@ -13,56 +13,9 @@
     <link href="../../css/bootstrap.css" rel="stylesheet">
     <link href="../../css/bootstrap-responsive.css" rel="stylesheet">
     <link href="../../css/bootstrap-nci.css" rel="stylesheet">
-    <link href="../css/homepage.css" rel="stylesheet">
     <link href="../css/brp-style.css" rel="stylesheet">
     <link href="../../css/bootstrap-lightbox.min.css" rel="stylesheet">
     
-  <script type="text/javascript">
-function Validate()
-{
-	return false;
-}
-
-function SendToLyris()
-{
-  if (document.frm_SubScribe.TXT_Email.value == '')
-  {
-    alert ('You must enter an email address');
-    return false;
-  }
-  
-    apos=document.frm_SubScribe.TXT_Email.value.indexOf("@");
-  dotpos=document.frm_SubScribe.TXT_Email.value.lastIndexOf(".");
-  if (apos<1||dotpos-apos<2)
-    {
-		alert("You must enter a valid email address");
-    	return false;
-	}
-
-
-  if (document.frm_SubScribe.RD_SubScribe[0].checked)
-  {
-	  document.frm_SubScribe_LYRIS.email.value = document.frm_SubScribe.TXT_Email.value;
-    document.forms.frm_SubScribe_LYRIS.submit()
-
-
-  }
-  else if (document.frm_SubScribe.RD_SubScribe[1].checked)
-  {
-	  document.frm_UNSub_LYRIS.email.value = document.frm_SubScribe.TXT_Email.value;
-    document.forms.frm_UNSub_LYRIS.submit()
-	  
-  }
-  else 
-  {
-	  alert("You must select subscribe or unsubscribe");
-  }
-//  return false;
-}
-
-
-</script>
-
 <script type="text/javascript">
 (function() {
 var hm = document.createElement('script'); hm.type ='text/javascript'; hm.async = true;
@@ -167,9 +120,32 @@ var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(hm
           </div><!-- /.navbar-inner -->
         </div><!-- /.navbar -->
         <div class="container-fluid">
-        <div id="content" class="span12">
+        <div class="row-fluid">
+          <div id="content" class="span9">
+        
+        <div class="row">
+                <div class="span12">
+                  <ul class="breadcrumb">
+                    <li class="home-breadcrumb"> <a href="/brp/">Home</a> </li>
+                    <li class="parent">
+    <div class="heading"><a href="/brp/about.html">About BRP</a></div>       <div class="divider"><span>></span></div>
+  </li>
+<li class="parent">
+    <div class="heading"><a href="/brp/hbrb/index.html">HBRB</a></div>       <div class="divider"><span>></span></div>
+  </li>
+  <li class="parent">
+    <div class="heading"><a href="/brp/hbrb/flashe.html">FLASHE</a></div>       <div class="divider"><span>></span></div>
+  </li>
+                    <li class="active">
+                      <div class="heading">FLASHE Data Terms of Use</div>
+                      <div class="divider"><span>></span></div>
+                    </li>
+                  </ul>
+                </div>
+              </div>
+              
 		<a name="skip"></a>
-            
+            <div class="row-fluid">
     <div class="listimage">
     <h1>FLASHE  Data Terms of Use </h1>
     <form id="form1" runat="server">
@@ -214,7 +190,26 @@ var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(hm
         </div></div>
         
         </div><!-- /.container -->
+        <div class="span3" id="sidebar">
+              <div class="well sidebar-nav">
+                <ul class="nav nav-list">
+                  <li class="nav-header"><a href="/brp/about.html#brp">Behavioral Research In Cancer Prevention and Control</a></li>
+                  <li class="nav-header"><a href="/brp/about.html#branches">Program Branches</a></li>
+                  <li class="nav-header"><a href="/brp/about.html#staff">Program Staff</a></li>
+                </ul>
+              </div>
+              <!--/.well -->
+            <div class="newsHighlights">
+            	<h2>BRP Branches</h2>
+                <p><a href="/brp/bbpsb/" class="document">Basic Biobehavioral and Psychological Sciences</a></p>
+                <p><a href="/brp/hbrb/" class="document">Health Behaviors</a></p>
+                <p><a href="/brp/hcirb/" class="document">Health Communication and Informatics</a></p>
+                <p><a href="/brp/srtb/" class="document">Science of Research and Technology</a></p>
+                <p><a href="/brp/tcrb/" class="document">Tobacco Control</a></p>
+            </div>
 
+            </div>
+</div></div></div>
     <!-- FOOTER -->
       <footer>
       	<div class="container-fluid">

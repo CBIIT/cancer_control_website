@@ -48,12 +48,13 @@ Partial Class terms
             MailMessage.IsBodyHtml = True
             MailMessage.Body = strbody
             MailObj.Send(MailMessage)
-            Response.Write("<h1>Sent</h1>")
+            'Response.Write("<h1>Sent</h1>")
 
             Response.Redirect("flashe-files.aspx")
         Catch ex As Exception
-            'Response.Redirect("flashe.html")
-            Response.Write("<h1>" & ex.ToString & "</h1>")
+            Response.Redirect("flashe.html")
+            'Response.Write("<h1>" & ex.ToString & "</h1>")
+
         End Try
     End Sub
 
