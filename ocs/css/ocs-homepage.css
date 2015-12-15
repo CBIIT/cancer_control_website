@@ -60,7 +60,18 @@
       height: 350px;
     }
 	#carouselButtons {
-	  margin-left: 40px;
+	  position: absolute;
+	  bottom: 15px;
+	  left: 15px;
+	}
+	
+	#playButton, #pauseButton {
+	  background: none;
+	  border: 0;
+	  border-radius: 0;
+	  box-shadow: none;
+	  text-shadow: none;
+	  padding: 0;
 	}
 
 	.navbar {
@@ -214,7 +225,7 @@
 		margin-left: 10px; 
 	  }
 	  .carousel img.splash, .carousel .item {
-		height: 380px; 
+		height: 315px; 
 	  }
 	}
 	
@@ -283,10 +294,10 @@
 
       }
       .carousel .item {
-        height: 330px;
+        height: 270px;
       }
       .carousel img.splash {
-        height: 330px;
+        height: 270px;
       }
       .carousel-caption {
         width: 100%;
@@ -345,9 +356,6 @@
       .carousel .btn {
         margin-bottom:10px;
       }
-	  #carouselButtons {
-	  margin-left: 0px;
-	  }
 	  
       .featurette-heading {
         font-size: 30px;
@@ -375,7 +383,7 @@
     }
 	@media (max-width: 670px) {
 	  .carousel img.splash, .carousel .item {
-		height: 300px; 
+		height: 250px; 
 	  }
 	}
 	@media (max-width: 550px) {

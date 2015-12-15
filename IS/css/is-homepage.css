@@ -52,7 +52,17 @@
       height: 350px;
     }
 	#carouselButtons {
-	  margin-left: 40px;
+	  position: absolute;
+	  bottom: 15px;
+	  left: 15px;
+	}
+	#playButton, #pauseButton {
+	  background: none;
+	  border: 0;
+	  border-radius: 0;
+	  box-shadow: none;
+	  text-shadow: none;
+	  padding: 0;
 	}
 
 	.navbar {
@@ -313,9 +323,6 @@
       .carousel .btn {
         margin-bottom:10px;
       }
-	  #carouselButtons {
-	  margin-left: 0px;
-	  }
 
       .featurette-heading {
         font-size: 30px;

@@ -8,6 +8,10 @@
 	padding: 12px 52px;	
 }
 
+#header-search {
+    top: -110px;
+}
+
 .breadcrumb { clear:both; }
 
 .program-areas-header {
@@ -15,7 +19,7 @@
 }
 
 #content .listimage ul li {
-	list-style-image: url(../../brp/images/featured-icon.png);
+	list-style-image: url(../brp/images/featured-icon.png);
 	color: #424242;
 }
 
@@ -125,7 +129,7 @@
 	text-align: center;
 }
 #sidebar .newsHighlights h2 {
-	background-image: url(../../brp/images/tree-icon.png);
+	background-image: url(../brp/images/tree-icon.png);
 	background-repeat: no-repeat;
 }
 #sidebar .newsHighlights {

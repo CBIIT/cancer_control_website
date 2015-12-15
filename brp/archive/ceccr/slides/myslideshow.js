@@ -78,7 +78,7 @@ var MySlideShow = new Class({
 			if(this.elements[this.currentIndex].get('alt')) {
 				captionText = this.elements[this.currentIndex].get('alt');
 				this.captions.empty();
-				/* new Element('h4').set('html','<a href="../../../../brp/archive/ceccr/slides/'+title+'">link</a>'+title).inject(this.captions); */
+				/* new Element('h4').set('html','<a href="/brp/archive/ceccr/slides/'+title+'">link</a>'+title).inject(this.captions); */
 				new Element('h4').set('html',captionText).inject(this.captions);
 			}
 		}

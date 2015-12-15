@@ -6,6 +6,10 @@
 	background-color:#6c3a77;	
 }
 
+#header-search {
+    top: -110px;
+}
+
 .navbar .nav > li > a {
 	padding: 12px 54px;
 	text-align: center;

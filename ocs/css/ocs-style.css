@@ -6,6 +6,10 @@
 	background-color:#04859D;	
 }
 
+#header-search {
+    top: -110px;
+}
+
 .navbar .nav > li > a {
     min-height: 40px;
 	padding: 12px 60px;

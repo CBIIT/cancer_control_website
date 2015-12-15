@@ -215,26 +215,26 @@
 	  font-weight: bold;
 	}
 	.spotlight #gat {
-	  background: url(../../brp/images/gat-icon.png) no-repeat;	
+	  background: url(../brp/images/gat-icon.png) no-repeat;	
 	}
 	.spotlight #fgp {
-	  background: url(../../brp/images/fgp-icon.png) no-repeat;	
+	  background: url(../brp/images/fgp-icon.png) no-repeat;	
 	}
 	.spotlight #staff {
-	  background: url(../../brp/images/staff-icon.png) no-repeat;	
+	  background: url(../brp/images/staff-icon.png) no-repeat;	
 	  padding-top: 12px;
 	  margin-bottom: 1px;
 	}
 	.spotlight #career {
-	  background: url(../../brp/images/career-icon.png) no-repeat;	
+	  background: url(../brp/images/career-icon.png) no-repeat;	
 	}
 	.spotlight #funding {
-	  background: url(../../brp/images/funding-icon.png) no-repeat;
+	  background: url(../brp/images/funding-icon.png) no-repeat;
 	  padding-top: 12px;
 	  margin-bottom: 1px;	
 	}
 	.spotlight #news {
-	  background: url(../../brp/images/news-icon.png) no-repeat;	
+	  background: url(../brp/images/news-icon.png) no-repeat;	
 	  padding-top: 12px;
 	  margin-bottom: -4px;
 	}
@@ -248,7 +248,7 @@
 
     a.document {
       color: #424242;
-      background-image: url(../../brp/images/featured-icon.png);
+      background-image: url(../brp/images/featured-icon.png);
       background-repeat: no-repeat;
       padding-left:20px;
     }

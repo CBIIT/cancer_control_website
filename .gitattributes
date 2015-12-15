@@ -1580,7 +1580,6 @@ grants/query_mech13.asp -text
 grants/summary.asp -text
 grants/test_statfund.asp -text
 grants/utility.asp -text
-hd/index.html -text
 /health-services.html -text
 /health-surveys.html -text
 /help.html -text
@@ -1790,10 +1789,12 @@ images/ocs_right.jpg -text
 images/ocsjuliesig.gif -text
 images/orgchart.gif -text
 images/orgchart.jpg -text
+images/pause-button.png -text
 images/pdficon_small.gif -text
 images/php2-thumb.jpg -text
 images/php2.jpg -text
 images/planet-tile.jpg -text
+images/play-button.png -text
 images/plus.gif -text
 images/postit.jpg -text
 images/postit.png -text
