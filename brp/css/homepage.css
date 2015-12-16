@@ -182,7 +182,7 @@
 		margin-left: 0;
 	}
 	
-	.spotlight h2 {
+	.spotlight h1, .spotlight h2 {
 	  color: #007185;
       font-size: 2.4em;
       font-family: Helvetica, Arial, "Lucida Grande", sans-serif;
