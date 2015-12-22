@@ -118,6 +118,18 @@
 .newsHighlights {
 	border: 1px solid #CCCCCC;	
 }
+
+#content .newsHighlights h2, #sidebar .newsHighlights h2 {
+    background: #0072a2 none repeat scroll 0 0;
+    border-bottom: 1px solid #cccccc;
+    color: #ffffff;
+    font-size: 19px;
+    line-height: 1.5;
+    margin-top: 0;
+    padding: 10px;
+    text-align: center;
+}
+
 #content .newsHighlights div, #sidebar .newsHighlights div {
 	color: #FFFFFF;
 	background: #0072a2;
