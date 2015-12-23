@@ -836,11 +836,6 @@ div#skipmenu a.skippy:active, div#skipmenu a.skippy:focus, div#skipmenu a.skippy
 		font-size:0.9em;
         margin-left:-30px;
       }
-	  #carouselButtons {
-      margin-left: 75px;
-      position: absolute;
-      bottom: 10px;
-	}
 	#header-search input[type=image] {
       margin-top:8px;
     }}

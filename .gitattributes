@@ -535,6 +535,7 @@ brp/docs/BRP_Fact_Sheet-acc.pdf -text
 brp/docs/CRTA_Announcement_T_RB_2015.pdf -text
 brp/docs/HCIRBFactSheet.pdf -text svneol=unset#unset
 brp/docs/HCIRBPD.pdf -text
+brp/docs/Health-Behaviors-Research-Fellowship.pdf -text svneol=unset#unset
 brp/docs/Memoriam_SabraWooley.pdf -text
 brp/docs/NCI_Network_Factsheet.pdf -text
 brp/docs/Research-Design-Stats-Measurement-Fellowship-at-NCI.pdf -text
@@ -543,7 +544,6 @@ brp/docs/SGA_8568274.pdf -text
 brp/docs/SGA_8574995.pdf -text
 brp/docs/SGA_8576040.pdf -text
 brp/docs/SGA_8619527.pdf -text
-brp/docs/bbpsb.pdf -text
 brp/docs/pcc_monograph.pdf -text svneol=unset#unset
 brp/e-newsletter/images/ABCD.jpg -text
 brp/e-newsletter/images/Alexandra-Greenberg.jpg -text
@@ -1571,7 +1571,6 @@ grants/query_mech13.asp -text
 grants/summary.asp -text
 grants/test_statfund.asp -text
 grants/utility.asp -text
-hd/index.html -text
 /health-services.html -text
 /health-surveys.html -text
 /help.html -text
@@ -1713,6 +1712,7 @@ images/dccps-people-large.png -text
 images/dccps_ctpr_tile2.gif -text
 images/delay-adjusted_incidence_graph.jpg -text
 images/di-initiative-partners.jpg -text
+images/egrp_banner2.jpg -text
 images/ehsdmrmee-cover.gif -text
 images/enviro_pa.jpg -text
 images/eqccow_cover.gif -text
@@ -1737,6 +1737,7 @@ images/go.gif -text
 images/hbutton-new.gif -text
 images/hbutton.gif -text
 images/hd_research_plan.gif -text
+images/hdrp_banner.jpg -text
 images/head-row1.gif -text
 images/head-row2.gif -text
 images/header-divider.png -text
@@ -1781,10 +1782,12 @@ images/ocs_right.jpg -text
 images/ocsjuliesig.gif -text
 images/orgchart.gif -text
 images/orgchart.jpg -text
+images/pause-button.png -text
 images/pdficon_small.gif -text
 images/php2-thumb.jpg -text
 images/php2.jpg -text
 images/planet-tile.jpg -text
+images/play-button.png -text
 images/plus.gif -text
 images/postit.jpg -text
 images/postit.png -text
@@ -1814,6 +1817,7 @@ images/smkfremp_tile.jpg -text
 images/smoothed-age-adjusted-death-rates-thumbnail.jpg -text
 images/smoothed-age-adjusted-death-rates.jpg -text
 images/spacer.gif -text
+images/srp_banner2.jpg -text
 images/strat_assist_science.gif -text
 images/tagline.gif -text
 images/thepc_cover.gif -text

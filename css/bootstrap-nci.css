@@ -7,6 +7,10 @@
 max-width: 1008px;
 }*/
 
+a {
+	color:#007DBC;
+}
+
 .navbar .btn-navbar { float:left; margin-top:0; }
 
 .navbar-inverse .btn-navbar { background-color:#fff; color:#096598; }
@@ -229,7 +233,7 @@ width: 290px;
 
 .span9 .breadcrumb li, .span12 .breadcrumb li {
 	background:none;
-	background-color:#bed6e4;
+	background-color:#C1DEF2;
 	color:#FFF;
 	text-shadow:none;
 	font-weight:bold;
@@ -237,7 +241,7 @@ width: 290px;
 }
 
 .breadcrumb li.active {
-	background-color:#89b5ce;
+	background-color:#007DBC;
 }
 
 #content h1, #content h2 {
