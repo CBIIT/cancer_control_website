@@ -532,7 +532,6 @@ brp/css/brp-style.css -text
 brp/css/homepage.css -text
 brp/decision-making.html -text
 brp/docs/BRP_Fact_Sheet-acc.pdf -text
-brp/docs/CRTA_Announcement_T_RB_2015.pdf -text
 brp/docs/HCIRBFactSheet.pdf -text svneol=unset#unset
 brp/docs/HCIRBPD.pdf -text
 brp/docs/Health-Behaviors-Research-Fellowship.pdf -text svneol=unset#unset
@@ -544,6 +543,7 @@ brp/docs/SGA_8568274.pdf -text
 brp/docs/SGA_8574995.pdf -text
 brp/docs/SGA_8576040.pdf -text
 brp/docs/SGA_8619527.pdf -text
+brp/docs/Tobacco-Control-Fellowship.pdf -text
 brp/docs/pcc_monograph.pdf -text svneol=unset#unset
 brp/e-newsletter/images/ABCD.jpg -text
 brp/e-newsletter/images/Alexandra-Greenberg.jpg -text
@@ -570,6 +570,7 @@ brp/e-newsletter/images/team-science-toolkit.jpg -text
 brp/e-newsletter/images/william-klein.jpg -text
 brp/e-newsletter/index.html -text
 brp/e-newsletter/may-2014.html -text
+brp/e-newsletter/notes-jan-2016.html -text
 brp/e-newsletter/notes-june-2015.html -text
 brp/e-newsletter/notes-oct-2015.html -text
 brp/e-newsletter/oct-2015.html -text
@@ -625,11 +626,14 @@ brp/hbrb/fab/docs/FAB_Sources_2011-02-16.pdf -text
 brp/hbrb/fab/docs/FAB_Survey_Flyer_508.pdf -text
 brp/hbrb/fab/docs/FAB_analytic_guide_doc_final_4-26.pdf -text
 brp/hbrb/fab/index.html -text
+brp/hbrb/flashe-webinar.html -text
 brp/hbrb/flashe.html -text
 brp/hbrb/images/TREC_logo.jpg -text
+brp/hbrb/images/bolger.jpg -text
 brp/hbrb/images/diet_comm.jpg -text
 brp/hbrb/images/fab-image1.jpg -text
 brp/hbrb/images/framework.jpg -text
+brp/hbrb/images/laurenceau.jpg -text
 brp/hbrb/index.html -text
 brp/hbrb/key_initiatives.html -text
 brp/hbrb/obesity_prevention.html -text
