@@ -14,7 +14,6 @@
     <link href="../../css/bootstrap-responsive.css" rel="stylesheet">
     <link href="../../css/bootstrap-nci.css" rel="stylesheet">
     <link href="../css/brp-style.css" rel="stylesheet">
-    <link href="../../css/bootstrap-lightbox.min.css" rel="stylesheet">
     <link href="/css/bootstrap-lightbox.min.css" rel="stylesheet">
     
 <script type="text/javascript">
@@ -67,7 +66,7 @@ var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(hm
 	</div>
           <div class="navbar-inner">
             <!-- Responsive Navbar Part 1: Button for triggering responsive navbar (not covered in tutorial). Include responsive CSS to utilize. -->
-            <button type="button" class="btn btn-navbar" data-toggle="collapse" data-target=".nav-collapse">
+            <button type="button" class="btn btn-navbar" data-toggle="collapse" data-target=".nav-collapse" value="Menu">
               <span class="icon-bar"></span>
               <span class="icon-bar"></span>
               <span class="icon-bar"></span>
@@ -148,9 +147,8 @@ var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(hm
 		<a name="skip"></a>
             <div class="row-fluid">
     <div class="listimage">
-    <h1>Family Life, Activity, Sun, Health, and Eating (FLASHE) study    </h1>
-    <h2>FLASHE Public Use Data Files and Supporting  Documentation </h2>
-        <p>Welcome to the FLASHE data  and resource Web page. This page contains data files (available in SAS and SPSS  formats), survey instruments, and other documentation to assist you in  analyzing FLASHE data.</p>
+    <h1>FLASHE Public Use Data Files and Supporting  Documentation </h1>
+<p>Welcome to the FLASHE data  and resource Web page. This page contains data files (available in SAS and SPSS  formats), survey instruments, and other documentation to assist you in  analyzing FLASHE data.</p>
     <ul>
       <li><a href="#Adolescent">Adolescent and parent data</a></li>
       <li><a href="#Survey">Survey instruments</a></li>
@@ -164,35 +162,35 @@ var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(hm
 <h2 id="Adolescent">Adolescent  and parent data</h2>
     <p>Adolescents ages 12-17  were surveyed about their diet, physical activity, and demographics. Results  were saved in separate data sets that can be linked across files using  participant or dyad identification numbers.</p>
     <ul>
-      <li>Download adolescent  demographic data (<a href="/brp/hbrb/docs/Teen-Demographic-SAS.zip">SAS</a>, <a href="/brp/hbrb/docs/Teen-Demographic-SPSS.zip">SPSS</a>)</li>
-      <li>Download adolescent diet  data (<a href="/brp/hbrb/docs/Teen-Diet-SAS.zip">SAS</a>, <a href="/brp/hbrb/docs/Teen-Diet-SPSS.zip">SPSS</a>)</li>
+      <li>Download adolescent  demographic data (coming soon!)</li>
+      <li>Download adolescent diet  data (coming soon!)</li>
       <li>Download adolescent  physical activity data (coming soon!)</li>
       <li>Download adolescent  physical activity monitor data (coming soon!)</li>
     </ul>
     </ul>
     <p>Parents of adolescents  were surveyed about diet, physical activity, and demographics. Results were  saved in separate data sets that can be linked across files using participant  or dyad identification numbers.</p>
     <ul>
-      <li>Download parent  demographic data (<a href="/brp/hbrb/docs/Parent-Demographic-SAS.zip">SAS</a>, <a href="/brp/hbrb/docs/Parent-Demographic-SPSS.zip">SPSS</a>)</li>
-      <li>Download parent diet data  (<a href="/brp/hbrb/docs/Parent-Diet-SAS.zip">SAS</a>, <a href="/brp/hbrb/docs/Parent-Diet-SPSS.zip">SPSS</a>)</li>
+      <li>Download parent  demographic data (coming soon!)</li>
+      <li>Download parent diet data (coming soon!)</li>
       <li>Download parent  physical activity data (coming soon!) </li>
     </ul>
 
 <h2 id="Survey">Survey instruments</h2>
     <ul>
-      <li>Adolescent demographic survey instrument  (<a href="/brp/hbrb/docs/Teen_Demo_PUF_Instrument.pdf">PDF</a>)</li>
-      <li>Adolescent diet survey instrument (<a href="/brp/hbrb/docs/Teen_Diet_PUF_Instrument.pdf">PDF</a>)</li>
-      <li>Adolescent  physical activity survey instrument (<a href="/brp/hbrb/docs/Teen_PA_PUF_Instrument.pdf">PDF</a>)</li>
-      <li>Parent demographic  survey instrument (<a href="/brp/hbrb/docs/Parent_Demo_PUF_Instrument.pdf">PDF</a>) </li>
-      <li>Parent diet survey instrument (<a href="/brp/hbrb/docs/Parent_Diet_PUF_Instrument.pdf">PDF</a>)</li>
-      <li>Parent physical  activity survey instrument (<a href="/brp/hbrb/docs/Parent_PA_PUF_Instrument.pdf">PDF</a>)</li>
+      <li>Adolescent demographic survey instrument (coming soon!)</li>
+      <li>Adolescent diet survey instrument (coming soon!)</li>
+      <li>Adolescent  physical activity survey instrument (coming soon!)</li>
+      <li>Parent demographic  survey instrument (coming soon!)</li>
+      <li>Parent diet survey instrument (coming soon!)</li>
+      <li>Parent physical  activity survey instrument (coming soon!)</li>
     </ul>
     <h2 id="Methods">Methods summary and data user guides</h2>
     <ul>
-      <li>Codebook (<a href="/brp/hbrb/docs/FLASHE-Public-Codebook.xlsx">XLS</a>)</li>
-      <li>Data user&rsquo;s  guide (PDF)</li>
-      <li>FLASHE methods  summary report (<a href="/brp/hbrb/docs/FLASHE_Methods_Report.pdf">PDF</a>)</li>
-      <li>Item source and  reference list - Diet (PDF)</li>
-      <li>Item source and  reference list - Physical activity (PDF)</li>
+      <li>Codebook (coming soon!)</li>
+      <li>Data user&rsquo;s  guide (coming soon!)</li>
+      <li>FLASHE methods  summary report (coming soon!)</li>
+      <li>Item source and  reference list - Diet (coming soon!)</li>
+      <li>Item source and  reference list - Physical activity (coming soon!)</li>
       </ul>
     <h2 id="Dyadic"><a href="flashe-dyadic-analysis.aspx" style="font-size: 22.5px;">Dyadic analysis resources</a></h2>
     <p>FLASHE  data can be used to conduct individual- or dyadic-level analyses. Click on the link above to read more about  dyadic analysis and browse available resources. </p>
@@ -341,7 +339,7 @@ Support to: National  Cancer Institute, Health Behaviors Research Branch<br>
                 <li>|</li>
                 <li><a href="http://www.cancer.gov/">National Cancer Institute</a></li>
                 <li>|</li>
-                <li><a href="http://www.usa.gov/">USA.gov</a></li>
+                <li><a href="https://www.usa.gov/">USA.gov</a></li>
               </ul>
             </div><!--/span-->
             <p class="center">NIH...Turning Discovery Into Health <sup>&reg;</sup></p>
@@ -468,7 +466,6 @@ Support to: National  Cancer Institute, Health Behaviors Research Branch<br>
   ga('send', 'pageview');
 
 </script>
-<script src="/js/bootstrap.lightbox.min.js"></script>
 <script type="text/javascript" src="/JS/Omniture/WA_DCCPS_PageLoad.js"></script>
   </body>
 </html>

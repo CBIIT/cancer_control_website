@@ -13,10 +13,7 @@
     <link href="../../css/bootstrap.css" rel="stylesheet">
     <link href="../../css/bootstrap-responsive.css" rel="stylesheet">
     <link href="../../css/bootstrap-nci.css" rel="stylesheet">
-    <link href="../css/brp-style.css" rel="stylesheet">
-    <link href="../../css/bootstrap-lightbox.min.css" rel="stylesheet">
-    <link href="/css/bootstrap-lightbox.min.css" rel="stylesheet">
-    
+    <link href="../css/brp-style.css" rel="stylesheet">  
 
 <script type="text/javascript">
 (function() {
@@ -68,7 +65,7 @@ var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(hm
 	</div>
           <div class="navbar-inner">
             <!-- Responsive Navbar Part 1: Button for triggering responsive navbar (not covered in tutorial). Include responsive CSS to utilize. -->
-            <button type="button" class="btn btn-navbar" data-toggle="collapse" data-target=".nav-collapse">
+            <button type="button" class="btn btn-navbar" data-toggle="collapse" data-target=".nav-collapse" value="Menu">
               <span class="icon-bar"></span>
               <span class="icon-bar"></span>
               <span class="icon-bar"></span>
@@ -139,7 +136,7 @@ var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(hm
     <div class="heading"><a href="/brp/hbrb/flashe.html">FLASHE</a></div>       <div class="divider"><span>></span></div>
   </li>
                     <li class="active">
-                      <div class="heading">Dyadic Analysis Resources</div>
+                      <div class="heading">FLASHE	Dyadic Analysis Resources</div>
                       <div class="divider"><span>></span></div>
                     </li>
                   </ul>
@@ -149,19 +146,18 @@ var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(hm
 		<a name="skip"></a>
             <div class="row-fluid">
     <div class="listimage">
-    <h1>Family Life, Activity, Sun, Health, and Eating (FLASHE) study    </h1>
-    <h2>	Dyadic Analysis Resources</h2>
+    <h1>FLASHE	Dyadic Analysis Resources</h1>
 <p>Individuals  who are part of a close relationship &ndash; such as a parent and child &ndash; may influence  one another.  Such individuals may also  express similarity in their thoughts, behavior, or affect.  The FLASHE study was designed to capture this  type of interdependence and homogeneity. </p>
 <p>  FLASHE  incorporates the conceptualization of multilevel influences on multiple cancer-preventive  health behaviors into a dyadic design to facilitate numerous research questions  focused on either an individual (parent or adolescent) or the dyad (parent and adolescent).&nbsp;  The analysis of dyadic data is much more complicated than the analysis of data  from individuals. &nbsp;To support data users who are interested in conducting  dyadic analyses, we have provided the following resources:</p>
 <h3>Presentations and Webinars</h3>
 <ul>
-  <li>NCI hosted short-course on dyadic analyses  (PDF)&nbsp; </li>
-  <li>A short introduction to dyadic analysis  (webinar)</li>
+  <li>NCI hosted short-course on dyadic analyses  (PDF) - data coming soon</li>
+  <li>A short introduction to dyadic analysis  (webinar) - data coming soon</li>
 </ul>
 <h3>FLASHE=-specific dyadic-analysis resources</h3>
-<ul><li>  FLASHE Dyadic constructs table &ndash; Diet (PDF)</li>
-  <li>    FLASHE Dyadic constructs table &ndash; Physical  activity (PDF)  </li>
-  <li>    FLASHE Dyadic Analysis User&rsquo;s Guide and  Sample Code (PDF)</li>
+<ul><li>  FLASHE Dyadic constructs table &ndash; Diet (PDF) - data coming soon</li>
+  <li>    FLASHE Dyadic constructs table &ndash; Physical  activity (PDF)   - data coming soon</li>
+  <li>    FLASHE Dyadic Analysis User&rsquo;s Guide and  Sample Code (PDF) - data coming soon</li>
 </ul>
 <h3>Acknowledgements</h3>
 <p>We  would like to thank Dr. Niall Bolger and Dr. Jean-Philippe Laurenceau for their  time and effort in developing the dyadic analysis resources.</p>
@@ -244,7 +240,7 @@ var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(hm
                 <li>|</li>
                 <li><a href="http://www.cancer.gov/">National Cancer Institute</a></li>
                 <li>|</li>
-                <li><a href="http://www.usa.gov/">USA.gov</a></li>
+                <li><a href="https://www.usa.gov/">USA.gov</a></li>
               </ul>
             </div><!--/span-->
             <p class="center">NIH...Turning Discovery Into Health <sup>&reg;</sup></p>
@@ -254,7 +250,6 @@ var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(hm
 
     <script src="../../js/jquery-1.10.1.min.js"></script>
     <script src="../../js/bootstrap.min.js"></script>
-    <script src="../../js/bootstrap.lightbox.min.js"></script>
     <script>
       !function ($) {
         $(function(){
@@ -371,7 +366,6 @@ var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(hm
   ga('send', 'pageview');
 
 </script>
-<script src="/js/bootstrap.lightbox.min.js"></script>
 <script type="text/javascript" src="/JS/Omniture/WA_DCCPS_PageLoad.js"></script>
   </body>
 </html>
