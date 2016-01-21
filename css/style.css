@@ -126,6 +126,10 @@ p, td, blockquote, sub, sup, a {
 	display: block;
 }
 
+#header-search.research-emphasis {
+    top: -110px;
+}
+
 #topbanner img{
 	width: 100%;
 }
