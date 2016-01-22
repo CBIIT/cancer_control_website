@@ -19,7 +19,7 @@
 }
 
 #content .listimage ul li {
-	list-style-image: url(/brp/images/featured-icon.png);
+	list-style-image: url("/brp/images/featured-icon.png");
 	color: #424242;
 }
 
@@ -72,7 +72,6 @@
     width: 50%;
 }
 .constantContact {
-    background: url("/i/subscribe-bg.jpg") repeat scroll 0 0 rgba(0, 0, 0, 0);
     padding: 1em;
 }
 .constantContact .fsBody .fsForm {
@@ -141,7 +140,7 @@
 	text-align: center;
 }
 #sidebar .newsHighlights div {
-	background-image: url(/brp/images/tree-icon.png);
+	background-image: url("/brp/images/tree-icon.png");
 	background-repeat: no-repeat;
 }
 #sidebar .newsHighlights {
