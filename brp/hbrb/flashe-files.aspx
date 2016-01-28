@@ -256,7 +256,7 @@ Support to: National  Cancer Institute, Health Behaviors Research Branch<br>
       <li><strong>Do I need  permission to use the data?</strong><br>
         No. All data sets from the FLASHE study are available for free download. You  will need to agree to certain terms so that participants&rsquo; privacy can be  maintained.</li>
       <li><strong>Will I be  contacted by the National Cancer Institute in the future?</strong><br>
-        Yes. Once you download a data set, your email will be recorded, and you might  be emailed when new data sets become available.</li>
+        We may send emails when updates to the FLASHE dataset are available.</li>
       <li><strong>Where can  I find information on sampling procedures?</strong><br>
         You can download the <a href="#Methods">methodology report and data user&rsquo;s guide</a>.</li>
     </ol>
@@ -311,7 +311,7 @@ Support to: National  Cancer Institute, Health Behaviors Research Branch<br>
              </div><!--/span-->
 </div>
             <div class="last-updated">
-              <p class="center"><strong>Last Updated: November 18, 2015</strong></p>
+              <p class="center"><strong>Last Updated: January 28, 2016</strong></p>
        <a href="http://www.cancer.gov/contact" class="help-image"><img class="footer-help" src="/images/footer-help-logo.png" alt="help-logo" /></a><p class="can-numb"><strong>1-800-4-CANCER <br /> (1-800-422-6237)</strong></p>
                 </div>
        </div><!--/row-->
