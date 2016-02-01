@@ -1,17 +1,8 @@
 #header { display:none; }
-
-#main-container #header-search { display:none; }
+#main-container #header-search, #main-container .navbar, #sidebar, .breadcrumb, footer, .row-fluid .footer-box { display:none; }
 #main-container { box-shadow:none; }
-
-.navbar, #sidebar {display:none; }
-
-
-.breadcrumb { display:none; }
-
 .row-fluid .noprint, .popular-now-inner { display:none; }
-
 .row-fluid .span9 { width:100%; font-size:.9em; display:block; }
 .row-fluid .span12 { width:100%; font-size:.9em; display:block; }
 .row-fluid .subsection { font-size:.9em; display:block; }
-
-footer, .row-fluid .footer-box { display:none; }
+a[href]:after { content:"" !important; }
