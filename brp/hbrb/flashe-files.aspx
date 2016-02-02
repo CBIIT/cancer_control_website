@@ -211,20 +211,13 @@ var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(hm
   Health Communication and  Informatics Research Branch<br>
   National Cancer Institute<br>
   <a href="mailto:ohay@mail.nih.gov">ohay@mail.nih.gov</a></p>
-<p><a href="http://staffprofiles.cancer.gov/brp/prgmStaffProfile.do?contactId=1463505&bioType=stf">Erin Hennessy, Ph.D.,  M.P.H.</a> <br>
-Senior Behavioral  Scientist<br>
-Leidos Biomedical  Research, Inc.<br>
-Support to: National  Cancer Institute, Health Behaviors Research Branch<br>
-<a href="mailto:hennessye@mail.nih.gov">hennessye@mail.nih.gov</a></p>
-<div>
-  <div> </div>
-</div>
+
 <h2 id="FAQ">FAQ</h2>
     <ol>
       <li><strong> What  does FLASHE stand for?</strong><br>
         FLASHE is the acronym given to this cross-sectional, Internet-based survey. It  stands for Family Life, Activity, Sun, Health, and Eating study.</li>
       <li><strong> Why was  this survey created?</strong><br>
-        The survey was created so that researchers can examine cancer-preventive  behaviors in adolescents and their parents. The survey includes comprehensive  questions about diet, physical activity, sedentary behavior, sleep patterns,  sun safety, and tobacco use. This type of comprehensive information has not  been included in other publicly available data resources. The goal of the study  is to better understand the dynamic relationship between the environment,  psychosocial factors, and behavior from a parent-adolescent perspective.</li>
+        The survey was created so researchers can examine cancer-preventive  behaviors in adolescents and their parents. The survey includes comprehensive  questions about diet, physical activity, sedentary behavior, sleep patterns,  sun safety, and tobacco use. This type of comprehensive information has not  been included in other publicly available data resources. The goal of the study  is to better understand the dynamic relationship between  environment,  psychosocial factors, and behavior from a parent-adolescent perspective.</li>
       <li><strong> When was  the survey conducted? </strong><br>
         The survey was conducted between April and October 2014.</li>
       <li><strong> What was  the sample size of this study?</strong><br>
@@ -244,7 +237,7 @@ Support to: National  Cancer Institute, Health Behaviors Research Branch<br>
       <li><strong> Who  funded this survey?<br>
       </strong>This study was  funded by the National Cancer Institute. </li>
       <li><strong> Who  designed the survey?</strong><br>
-        This survey was designed through extensive and thoughtful input from scientists  and program officials in the federal government, nonprofit organizations, and  several academic institutions.&nbsp;Dr. Linda Nebeling, the deputy associate  director of the Behavioral Research Program, led the study. National Cancer  Institute researchers Dr. April Oh and Dr. Erin Hennessy assisted. Other outside  researchers provided feedback and assisted with the conceptualization of the  study.</li>
+        This survey was designed through extensive and thoughtful input from scientists  and program officials in the federal government, nonprofit organizations, and  several academic institutions.</li>
       <li><strong> Who conducted  the survey?</strong> <br>
         Westat, Inc., a research group based in Rockville, Maryland.</li>
       <li><strong> How were  participants recruited?<br>
@@ -252,9 +245,9 @@ Support to: National  Cancer Institute, Health Behaviors Research Branch<br>
       <li><strong>Did  participants get paid for their participation?</strong><br>
         Yes. All participants received $5 for each completed survey or $10 for  completing the survey early. Participants received either $20 or $40 for  returning the accelerometer after completing the motion study.</li>
       <li><strong>How do I  contact the program?</strong><br>
-        The main contact for this study is Dr. Erin Hennessy (<a href="mailto:nciflashe@mail.nih.gov">nciflashe@mail.nih.gov</a>), a senior behavioral scientist with Leidos Biomedical Research,  Inc.</li>
+        <a href="mailto:nciflashe@mail.nih.gov">nciflashe@mail.nih.gov</a></li>
       <li><strong>Do I need  permission to use the data?</strong><br>
-        No. All data sets from the FLASHE study are available for free download. You  will need to agree to certain terms so that participants&rsquo; privacy can be  maintained.</li>
+        No. All data sets from the FLASHE study are available for free download. You will need to agree to certain terms to maintain data integrity. </li>
       <li><strong>Will I be  contacted by the National Cancer Institute in the future?</strong><br>
         We may send emails when updates to the FLASHE dataset are available.</li>
       <li><strong>Where can  I find information on sampling procedures?</strong><br>
@@ -311,7 +304,7 @@ Support to: National  Cancer Institute, Health Behaviors Research Branch<br>
              </div><!--/span-->
 </div>
             <div class="last-updated">
-              <p class="center"><strong>Last Updated: January 28, 2016</strong></p>
+              <p class="center"><strong>Last Updated: January 29, 2016</strong></p>
        <a href="http://www.cancer.gov/contact" class="help-image"><img class="footer-help" src="/images/footer-help-logo.png" alt="help-logo" /></a><p class="can-numb"><strong>1-800-4-CANCER <br /> (1-800-422-6237)</strong></p>
                 </div>
        </div><!--/row-->
