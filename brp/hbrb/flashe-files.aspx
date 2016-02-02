@@ -177,18 +177,18 @@ var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(hm
 
 <h2 id="Survey">Survey instruments</h2>
     <ul>
-      <li>Adolescent demographic survey instrument (coming soon!)</li>
-      <li>Adolescent diet survey instrument (coming soon!)</li>
-      <li>Adolescent  physical activity survey instrument (coming soon!)</li>
-      <li>Parent demographic  survey instrument (coming soon!)</li>
-      <li>Parent diet survey instrument (coming soon!)</li>
-      <li>Parent physical  activity survey instrument (coming soon!)</li>
+      <li>Adolescent demographic survey instrument  (<a href="/brp/hbrb/docs/Teen_Demo_PUF_Instrument.pdf">PDF</a>)</li>
+      <li>Adolescent diet survey instrument (<a href="/brp/hbrb/docs/Teen_Diet_PUF_Instrument.pdf">PDF</a>)</li>
+      <li>Adolescent  physical activity survey instrument (<a href="/brp/hbrb/docs/Teen_PA_PUF_Instrument.pdf">PDF</a>)</li>
+      <li>Parent demographic  survey instrument (<a href="/brp/hbrb/docs/Parent_Demo_PUF_Instrument.pdf">PDF</a>) </li>
+      <li>Parent diet survey instrument (<a href="/brp/hbrb/docs/Parent_Diet_PUF_Instrument.pdf">PDF</a>)</li>
+      <li>Parent physical  activity survey instrument (<a href="/brp/hbrb/docs/Parent_PA_PUF_Instrument.pdf">PDF</a>)</li>
     </ul>
     <h2 id="Methods">Methods summary and data user guides</h2>
     <ul>
-      <li>Codebook (coming soon!)</li>
+      <li>Codebook (<a href="/brp/hbrb/docs/FLASHE-Public-Codebook.xlsx">XLS</a>)</li>
       <li>Data user&rsquo;s  guide (coming soon!)</li>
-      <li>FLASHE methods  summary report (coming soon!)</li>
+      <li>FLASHE methods  summary report (<a href="/brp/hbrb/docs/FLASHE_Methods_Report.pdf">PDF</a>)</li>
       <li>Item source and  reference list - Diet (coming soon!)</li>
       <li>Item source and  reference list - Physical activity (coming soon!)</li>
       </ul>
