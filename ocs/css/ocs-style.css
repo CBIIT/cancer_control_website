@@ -6,10 +6,6 @@
 	background-color:#04859D;	
 }
 
-#header-search {
-    top: -110px;
-}
-
 .navbar .nav > li > a {
     min-height: 40px;
 	padding: 12px 60px;
@@ -113,6 +109,11 @@
 	list-style-image: url(../../images/tiny-arrow-ocs.png);
 }
 
+@media (min-width: 767px) {
+	#header-search {
+    	top: -110px;
+	}
+}
 
 @media (max-width: 767px) {
   .navbar-inverse .nav-collapse .nav > li > a {

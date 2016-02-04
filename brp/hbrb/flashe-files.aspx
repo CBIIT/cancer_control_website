@@ -241,7 +241,7 @@ var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(hm
       <li><strong> Who conducted  the survey?</strong> <br>
         Westat, Inc., a research group based in Rockville, Maryland.</li>
       <li><strong> How were  participants recruited?<br>
-      </strong>The sample was drawn from  an already existing group of respondents. Ipsos, a panel research organization,  invites people to join its panel through print ads, Internet banner ads, random  digit dialing omnibus surveys, and panelist referrals. Westat worked with Ipsos  to identify FLASHE-eligible households, and then Westat sent out invitations.  Within each household, one adolescent was selected from all eligible  adolescents living there. </li>
+      </strong>The sample was drawn from an already existing group of respondents. Ipsos, a panel research organization, invites people to join its panel through print ads, Internet banner ads, random digit dialing omnibus surveys, and panelist referrals. Ipsos screened their participants to identify eligible households.  Within each household, one adolescent was selected from the eligible adolescents living there.  Ipsos provided the sample of eligible households to Westat, who sent out invitations to participate in the FLASHE study.</li>
       <li><strong>Did  participants get paid for their participation?</strong><br>
         Yes. All participants received $5 for each completed survey or $10 for  completing the survey early. Participants received either $20 or $40 for  returning the accelerometer after completing the motion study.</li>
       <li><strong>How do I  contact the program?</strong><br>
@@ -304,7 +304,7 @@ var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(hm
              </div><!--/span-->
 </div>
             <div class="last-updated">
-              <p class="center"><strong>Last Updated: January 29, 2016</strong></p>
+              <p class="center"><strong>Last Updated: February 3, 2016</strong></p>
        <a href="http://www.cancer.gov/contact" class="help-image"><img class="footer-help" src="/images/footer-help-logo.png" alt="help-logo" /></a><p class="can-numb"><strong>1-800-4-CANCER <br /> (1-800-422-6237)</strong></p>
                 </div>
        </div><!--/row-->

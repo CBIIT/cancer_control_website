@@ -6,10 +6,6 @@
 	background-color:#6c3a77;	
 }
 
-#header-search {
-    top: -110px;
-}
-
 .navbar .nav > li > a {
 	padding: 12px 54px;
 	text-align: center;
@@ -101,9 +97,7 @@
 	background-image: linear-gradient(to bottom, #6C3A77, #6C3A77);
 	border-color: #6C3A77;
 }
-#header-search label {
-	display: none;
-}
+
 .listimage .bi2004 {
 	padding-left: 0;
 	line-height: 1.2
@@ -158,6 +152,12 @@
 #header #nci-banner {
 	background: url("/IS/pdfs/An-Analysis-of-DD-Supplements-Eckstein.pdf") no-repeat scroll center top #A90101;	
 	height:61px;
+}
+
+@media (min-width: 767px) {
+	#header-search {
+    	top: -110px;
+	}
 }
 
 @media (max-width: 767px) {
