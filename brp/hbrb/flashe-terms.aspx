@@ -265,7 +265,7 @@ var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(hm
                 <li>|</li>
                 <li><a href="http://www.cancer.gov/">National Cancer Institute</a></li>
                 <li>|</li>
-                <li><a href="http://www.usa.gov/">USA.gov</a></li>
+                <li><a href="https://www.usa.gov/">USA.gov</a></li>
               </ul>
             </div><!--/span-->
             <p class="center">NIH...Turning Discovery Into Health <sup>&reg;</sup></p>
