@@ -522,11 +522,13 @@ brp/crosstalk.html -text
 brp/css/brp-style.css -text
 brp/css/homepage.css -text
 brp/decision-making.html -text
+brp/docs/BBPSB_PD.pdf -text
 brp/docs/BRP_Fact_Sheet-acc.pdf -text
 brp/docs/Flier_HBRB.pdf -text svneol=unset#unset
 brp/docs/HCIRBFactSheet.pdf -text svneol=unset#unset
 brp/docs/HCIRBPD.pdf -text
 brp/docs/HCIRB_CRTA.pdf -text
+brp/docs/HCIRB_PostdocCRTA.pdf -text
 brp/docs/Health-Behaviors-Research-Fellowship.pdf -text svneol=unset#unset
 brp/docs/Memoriam_SabraWooley.pdf -text
 brp/docs/NCI_Network_Factsheet.pdf -text
