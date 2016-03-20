@@ -1,4 +1,5 @@
 jQuery(document).ready(function($){
+	
 	//check if background-images have been loaded and show list items
 	$('.cd-single-project').bgLoaded({
 	  	afterLoaded : function(){
@@ -17,6 +18,11 @@ jQuery(document).ready(function($){
 	$('.projects-container .cd-close').on('click', function(){
 		toggleProject($('.is-full-width'), $('.projects-container'), false);
 	});
+	
+	//close project on title click
+	$('#banner .page-title').on('click', function(){
+		toggleProject($('.is-full-width'), $('.projects-container'), false);
+	});
 
 	//scroll to project info
 	$('.projects-container .cd-scroll').on('click', function(){
@@ -32,15 +38,16 @@ jQuery(document).ready(function($){
 		if(bool) {
 			//expand project
 			container.addClass('project-is-open');
-			project.addClass('is-full-width').siblings('li').removeClass('is-loaded');
-			/*$("footer").css("display", "inline");*/
+			project.addClass('is-full-width');
+			project.siblings('li').removeClass('is-loaded');
+			project.siblings('li').addClass('is-not-full-width');
 		} else {
 			//check media query
 			var mq = window.getComputedStyle(document.querySelector('.projects-container'), '::before').getPropertyValue('content').replace(/"/g, "").replace(/'/g, ""),
 				delay = ( mq == 'mobile' ) ? 100 : 0;
 			container.removeClass('project-is-open');
+			project.siblings('li').removeClass('is-not-full-width');
 			//fade out project
-			/*$("footer").css("display", "none");*/
 			project.animate({opacity: 0}, 100, function(){
 				project.removeClass('is-loaded');
 				$('.projects-container').find('.cd-scroll').attr('style', '');
