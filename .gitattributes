@@ -867,6 +867,7 @@ brp/tcrb/collaborative-research.html -text
 brp/tcrb/documents/MentholExecSumRprt4_10-16.pdf -text svneol=unset#unset
 brp/tcrb/documents/MergedArticles311-422.pdf -text svneol=unset#unset
 brp/tcrb/documents/MethnolExecSumRprt4_10-16.pdf -text svneol=unset#unset
+brp/tcrb/documents/NCI-AACR-Cancer-Patient-Tobacco-Use-Assessment-Task-Force.pdf -text
 brp/tcrb/documents/TCIR_Factsheet.pdf -text
 brp/tcrb/documents/TCRB_Factsheet.pdf -text
 brp/tcrb/documents/eliminating_tobacco_hd.pdf -text
@@ -1380,6 +1381,29 @@ brp/tcrb/tob-regulatory-science.html -text
 brp/tcrb/tobacco-second-hand.html -text
 brp/tcrb/tus-cps/TUS-CPS_fact_sheet.pdf -text
 brp/tcrb/tus-cps/TUS-CPS_overlap.pdf -text
+brp/tcrb/tus-cps/archive.html -text
+brp/tcrb/tus-cps/archive/WebAgenda.pdf -text
+brp/tcrb/tus-cps/archive/cps_results.pdf -text
+brp/tcrb/tus-cps/archive/cps_results03.pdf -text svneol=unset#unset
+brp/tcrb/tus-cps/archive/tuscps_english_2001-02.doc -text
+brp/tcrb/tus-cps/archive/tuscps_english_2001-02.pdf -text
+brp/tcrb/tus-cps/archive/tuscps_english_2003.doc -text
+brp/tcrb/tus-cps/archive/tuscps_english_2003.pdf -text
+brp/tcrb/tus-cps/archive/tuscps_english_2006.doc -text
+brp/tcrb/tus-cps/archive/tuscps_english_2006.pdf -text
+brp/tcrb/tus-cps/archive/tuscps_spanish_2003.doc -text
+brp/tcrb/tus-cps/archive/tuscps_spanish_2003.pdf -text
+brp/tcrb/tus-cps/archive/tusuw_davis.pdf -text
+brp/tcrb/tus-cps/archive/tusuw_delnevo.pdf -text
+brp/tcrb/tus-cps/archive/tusuw_gibson.pdf -text
+brp/tcrb/tus-cps/archive/tusuw_hartman.pdf -text svneol=unset#unset
+brp/tcrb/tus-cps/archive/tusuw_malek.pdf -text
+brp/tcrb/tus-cps/archive/tusuw_messer.pdf -text
+brp/tcrb/tus-cps/archive/tusuw_trosclair.pdf -text svneol=unset#unset
+brp/tcrb/tus-cps/archive/tusuw_tworek.pdf -text svneol=unset#unset
+brp/tcrb/tus-cps/archive/tusuw_weyland.pdf -text
+brp/tcrb/tus-cps/archive/tusuw_willis1.pdf -text
+brp/tcrb/tus-cps/archive/tusuw_willis2.pdf -text svneol=unset#unset
 brp/tcrb/tus-cps/citation.html -text
 brp/tcrb/tus-cps/cps03_final.sas -text
 brp/tcrb/tus-cps/cps1011.sas -text
@@ -1637,6 +1661,7 @@ images/Speaking_of_Health.gif -text
 images/Thumbs.db -text
 images/about-dccps-header.png -text
 images/adequacy_evidence.gif -text
+images/archiveicon.gif -text
 images/arrow-blue.gif -text
 images/arrow_big.gif -text
 images/arrow_blue.gif -text
