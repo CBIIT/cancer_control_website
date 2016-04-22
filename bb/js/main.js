@@ -14,6 +14,44 @@ jQuery(document).ready(function($){
 		if(toggle) toggleProject($(this), $('.projects-container'), toggle);
 	});
 
+
+  if(window.location.href.indexOf('#director') != -1) {
+		var selectedProject = $(this),
+			toggle = !selectedProject.hasClass('is-full-width');
+		if(toggle) toggleProject($(document.getElementById('director')), $('.projects-container'), toggle);
+  }
+  if(window.location.href.indexOf('#leadership') != -1) {
+		var selectedProject = $(this),
+			toggle = !selectedProject.hasClass('is-full-width');
+		if(toggle) toggleProject($(document.getElementById('leadership')), $('.projects-container'), toggle);
+  }
+  if(window.location.href.indexOf('#additional') != -1) {
+		var selectedProject = $(this),
+			toggle = !selectedProject.hasClass('is-full-width');
+		if(toggle) toggleProject($(document.getElementById('additional')), $('.projects-container'), toggle);
+  }
+  if(window.location.href.indexOf('#priority') != -1) {
+		var selectedProject = $(this),
+			toggle = !selectedProject.hasClass('is-full-width');
+		if(toggle) toggleProject($(document.getElementById('priority')), $('.projects-container'), toggle);
+  }
+  if(window.location.href.indexOf('#enabling') != -1) {
+		var selectedProject = $(this),
+			toggle = !selectedProject.hasClass('is-full-width');
+		if(toggle) toggleProject($(document.getElementById('enabling')), $('.projects-container'), toggle);
+  }
+  if(window.location.href.indexOf('#investments') != -1) {
+		var selectedProject = $(this),
+			toggle = !selectedProject.hasClass('is-full-width');
+		if(toggle) toggleProject($(document.getElementById('investments')), $('.projects-container'), toggle);
+  }
+  if(window.location.href.indexOf('#signature') != -1) {
+		var selectedProject = $(this),
+			toggle = !selectedProject.hasClass('is-full-width');
+		if(toggle) toggleProject($(document.getElementById('signature')), $('.projects-container'), toggle);
+  }
+
+
 	//close project
 	$('.projects-container .cd-close').on('click', function(){
 		toggleProject($('.is-full-width'), $('.projects-container'), false);
