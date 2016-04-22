@@ -18,7 +18,7 @@ body {
   font-family: "PT Sans", sans-serif;
   color: #ffffff;
   padding:0;
-  background-color:#2e2e35 ;
+  background-color:#2e2e35;
   position: relative;
 }
 
@@ -582,6 +582,7 @@ img.right { float:right; padding:1em; }
   cursor: auto;
   background-color: #ffffff;
   color: #3f538e;
+  min-height: 70vh;
   -webkit-transition: opacity 0.4s 0s, visibility 0s 0.4s;
   -moz-transition: opacity 0.4s 0s, visibility 0s 0.4s;
   transition: opacity 0.4s 0s, visibility 0s 0.4s;
