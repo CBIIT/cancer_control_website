@@ -350,16 +350,16 @@
         height:260px;
         background-image:url(../images/twitter-bk.png);
       }
-      #dccps-tweets ul li .user p.tweets{
-        font-size:10px;
+      .twitter ul li .user p.tweets{
+        font-size:8px;
       }
       
-      #dccps-tweets ul {
-        margin-left:14px;
+      .twitter ul {
+        margin-left:12px;
       }
       .user {
-        padding-top:16px; 
-        padding-bottom:10px;
+        padding-top:10px; 
+        padding-bottom:12px;
       }
 
       .user img {
@@ -374,7 +374,7 @@
         font-style:italic;
       }
 
-      p.tweet, p.timePosted {
+      p.tweet, p.timePosted, .timePosted a {
         font-size:0.9em; 
         margin-right:10px;
       }
@@ -416,12 +416,12 @@
         background-image:url(../images/twitter-bk-sml.png);
         background-repeat:no-repeat;
       }
-      #dccps-tweets ul li .user p.tweets{
+      .twitter ul li .user p.tweets{
         font-size:10px;
       }
       
-      #dccps-tweets ul {
-        margin-left:14px;
+      .twitter ul {
+        margin-left:12px;
       }
       .user {
         display:none;
@@ -433,7 +433,7 @@
 	    font-size: 1em;
 	  }
 
-      p.tweet, p.timePosted {
+      p.tweet, p.timePosted, .timePosted a {
         font-size:0.8em; 
         line-height: 1.65em;
         margin-right:10px;
@@ -488,16 +488,16 @@
         background-image:url(../images/twitter-bk-med.png);
         background-repeat:no-repeat;
       }
-      #dccps-tweets ul li .user p.tweets{
+      .twitter ul li .user p.tweets{
         font-size:10px;
       }
       
-      #dccps-tweets ul {
-        margin-left:14px;
+      .twitter ul {
+        margin-left:12px;
       }
       .user {
-        padding-top:16px; 
-        padding-bottom:10px;
+        padding-top:10px; 
+        padding-bottom:12px;
       }
 
       .user img {
@@ -518,7 +518,7 @@
 	    font-size: 1em;
 	  }
 
-      p.tweet, p.timePosted {
+      p.tweet, p.timePosted, .timePosted a {
         font-size:0.8em; 
         margin-right:10px;
       }
@@ -557,17 +557,17 @@
         height:260px;
         background-image:url(../images/twitter-bk.png);
       }
-      #dccps-tweets ul li .user p.tweets{
+      .twitter ul li .user p.tweets{
         font-size:10px;
       }
       
-      #dccps-tweets ul {
-        margin-left:14px;
+      .twitter ul {
+        margin-left:12px;
 		margin-top: -5px;
       }
       .user {
-        padding-top:16px; 
-        padding-bottom:10px;
+        padding-top:10px; 
+        padding-bottom:12px;
       }
 
       .user img {
@@ -588,7 +588,7 @@
 	    font-size: 1em;
 	  }
 
-      p.tweet, p.timePosted {
+      p.tweet, p.timePosted, .timePosted a {
         font-size:0.9em; 
         margin-right:10px;
       }
