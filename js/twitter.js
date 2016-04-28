@@ -26,10 +26,10 @@ Removed--><img src="'+l+'" alt="Image from tweet" />
 </div>
 */
 
- var config1 = {
+ /*var config1 = {
   "id": '388634487975714816',
   "domId": 'dccps-tweets',
   "maxTweets": 1,
   "enableLinks": true
 };
-twitterFetcher.fetch(config1);
+twitterFetcher.fetch(config1);*/
