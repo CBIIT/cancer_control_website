@@ -209,6 +209,10 @@
 	.is-tools {
 		margin-left: -30px;
 	}
+	
+	#is-tweets {
+		overflow:hidden;
+	}
 
     /* RESPONSIVE CSS
     -------------------------------------------------- */
