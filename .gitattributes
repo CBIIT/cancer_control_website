@@ -245,6 +245,7 @@ bb/index.html -text
 bb/js/main.js -text
 brp/about.html -text
 brp/accepted_fellows/documents/CRTA_Insurance_Application.pdf -text
+brp/accepted_fellows/documents/CRTA_Insurance_Waiver.pdf -text
 brp/accepted_fellows/documents/CRTA_Provisions_Document.pdf -text
 brp/accepted_fellows/documents/SF181.pdf -text svneol=unset#unset
 brp/accepted_fellows/documents/SF256.pdf -text svneol=unset#unset
@@ -530,7 +531,7 @@ brp/docs/Health-Behaviors-Research-Fellowship.pdf -text svneol=unset#unset
 brp/docs/Health-Communication-Fellowship-2016.pdf -text
 brp/docs/Memoriam_SabraWooley.pdf -text
 brp/docs/NCI_Network_Factsheet.pdf -text
-brp/docs/OAD_CRTA.pdf -text
+brp/docs/OAD_analyst.pdf -text
 brp/docs/SGA_8562335.pdf -text
 brp/docs/SGA_8568274.pdf -text
 brp/docs/SGA_8574995.pdf -text
@@ -563,6 +564,7 @@ brp/e-newsletter/images/jerry-suls.jpg -text
 brp/e-newsletter/images/moser.jpg -text
 brp/e-newsletter/images/rachel-grana.jpg -text
 brp/e-newsletter/images/srtb.jpg -text
+brp/e-newsletter/images/tanya-agurs-collins.jpg -text
 brp/e-newsletter/images/team-science-toolkit.jpg -text
 brp/e-newsletter/images/william-klein.jpg -text
 brp/e-newsletter/images/yvonne-hunt.jpg -text
@@ -577,6 +579,7 @@ brp/e-newsletter/notes-feb-2016.html -text
 brp/e-newsletter/notes-jan-2016.html -text
 brp/e-newsletter/notes-june-2015.html -text
 brp/e-newsletter/notes-may-2016-funding.html -text
+brp/e-newsletter/notes-may-2016-new-opportunity.html -text
 brp/e-newsletter/notes-oct-2015.html -text
 brp/e-newsletter/oct-2015.html -text
 brp/e-newsletter/sept-2014.html -text
