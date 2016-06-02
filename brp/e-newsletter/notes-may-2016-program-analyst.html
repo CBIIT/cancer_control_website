@@ -1,36 +1,84 @@
-<!DOCTYPE html>
-<html lang="en"><!-- InstanceBegin template="/templates/BRP-about.dwt" codeOutsideHTMLIsLocked="false" -->
+﻿<!DOCTYPE html>
+<html lang="en"><!-- InstanceBegin template="/templates/BRP-newsletter.dwt" codeOutsideHTMLIsLocked="false" -->
   <head>
-<meta http-equiv="content-type" content="text/html; charset=UTF-8">
-    <meta charset="utf-8">
-    <!-- InstanceBeginEditable name="doctitle" -->
-    <title>National Cancer Institute - Cancer Control and Population Sciences</title>
-    <!-- InstanceEndEditable -->
-        <link rel="icon" type="image/jpeg" href="/images/favicon.ico">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta name="keywords" content="nci, dccps, Cancer Control and Population Sciences, cancer">
-    <meta name="author" content="">
-    <!-- InstanceBeginEditable name="metatags" -->
-    <meta name="description" content="" />
-	<!-- InstanceEndEditable -->
+  <meta http-equiv="content-type" content="text/html; charset=UTF-8">
+  <meta charset="utf-8">
+  <!-- InstanceBeginEditable name="doctitle" -->
+  <title>New Federal Program Analyst Position and Cancer Research Training Award Fellowship Position</title>
+  <!-- InstanceEndEditable -->
+  <link rel="icon" type="image/jpeg" href="/images/favicon.ico">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="keywords" content="nci, dccps, Cancer Control and Population Sciences, cancer">
+  <meta name="author" content="">
+  <!-- InstanceBeginEditable name="metatags" -->
+  <meta name="description" content="" />
+  <!-- InstanceEndEditable -->
+  <link href="../../css/style.css" rel="stylesheet">
+  <link href="../../css/bootstrap.css" rel="stylesheet">
+  <link href="../../css/bootstrap-responsive.css" rel="stylesheet">
+  <link href="../../css/bootstrap-nci.css" rel="stylesheet">
+  <link href="../css/brp-style.css" rel="stylesheet">
+  <link href="../../css/print.css" rel="stylesheet" media="print" />
+  
+  
+  <script type="text/javascript">
+function Validate()
+{
+	return false;
+}
 
-    <link href="../../css/style.css" rel="stylesheet">
-    <link href="../../css/bootstrap.css" rel="stylesheet">
-    <link href="../../css/bootstrap-responsive.css" rel="stylesheet">
-    <link href="../../css/bootstrap-nci.css" rel="stylesheet">
-    <link href="../css/brp-style.css" rel="stylesheet">
-    <link href="../../css/print.css" rel="stylesheet" media="print" />
+function SendToLyris()
+{
+  if (document.frm_SubScribe.TXT_Email.value == '')
+  {
+    alert ('You must enter an email address');
+    return false;
+  }
+  
+    apos=document.frm_SubScribe.TXT_Email.value.indexOf("@");
+  dotpos=document.frm_SubScribe.TXT_Email.value.lastIndexOf(".");
+  if (apos<1||dotpos-apos<2)
+    {
+		alert("You must enter a valid email address");
+    	return false;
+	}
 
-    <!-- HTML5 shim, for IE6-8 support of HTML5 elements -->
-    <!--[if lt IE 9]>
+
+  if (document.frm_SubScribe.RD_SubScribe[0].checked)
+  {
+	  document.frm_SubScribe_LYRIS.email.value = document.frm_SubScribe.TXT_Email.value;
+    document.forms.frm_SubScribe_LYRIS.submit()
+
+
+  }
+  else if (document.frm_SubScribe.RD_SubScribe[1].checked)
+  {
+	  document.frm_UNSub_LYRIS.email.value = document.frm_SubScribe.TXT_Email.value;
+    document.forms.frm_UNSub_LYRIS.submit()
+	  
+  }
+  else 
+  {
+	  alert("You must select subscribe or unsubscribe");
+  }
+//  return false;
+}
+
+
+</script>
+  
+  <!-- HTML5 shim, for IE6-8 support of HTML5 elements -->
+  <!--[if lt IE 9]>
       <script>document.createElement('footer');</script>
       <script src="/js/html5shiv.js"></script>
     <![endif]-->
-
-    <!-- Fav and touch icons -->
-  <style type="text/css" id="holderjs-style">.holderjs-fluid {font-size:16px;font-weight:bold;text-align:center;font-family:sans-serif;margin:0}</style>
+  <!-- Fav and touch icons -->
+  <style type="text/css" id="holderjs-style">
+  .holderjs-fluid {font-size:16px;font-weight:bold;text-align:center;font-family:sans-serif;margin:0}
+  </style>
   <!-- InstanceBeginEditable name="head" -->
   <!-- InstanceEndEditable -->
+  <!-- InstanceParam name="Menu" type="boolean" value="true" -->
   </head>
 
   <body>
@@ -109,7 +157,7 @@
                   	<li><a href="/brp/research/index.html#pub">Publications, News, and Videos</a></li>
                   </ul>
                 </li>
-                <li class="dropdown active">
+                <li class="active dropdown">
                   <a href="/brp/about.html" class="hover-link">About BRP <b class="caret"></b></a>
                   <ul class="dropdown-menu">
                   	<li><a href="/brp/about.html#branches">Program Branches</a></li>
@@ -128,12 +176,76 @@
           <div class="row-fluid">
           <div id="sidebar" class="span3">
               <div class="well sidebar-nav">
-                <ul class="nav nav-list">
-                  <li class="nav-header"><a href="/brp/about.html#brp">Behavioral Research In Cancer Prevention and Control</a></li>
-                  <li class="nav-header"><a href="/brp/about.html#branches">Program Branches</a></li>
-                  <li class="nav-header"><a href="/brp/about.html#staff">Program Staff</a></li>
-                </ul>
-              </div>
+
+                  <!-- InstanceBeginEditable name="Newsletter Menu" -->                                  
+                  <!-- InstanceEndEditable -->
+
+      <p class="comments">For questions,  comments, or suggestions for the BRP <br />
+          e-newsletter, please email <br />
+  <a href="mailto:ncidccpsbrpadvances@mail.nih.gov?subject=BRP%20e-newsletter%20feedback">NCI DCCPS BRP Scientific Advances (NIH/NCI)</a>. </p>
+  <div class="additional-text"><div id="NEI_SubForm" style="display: none">
+        <form id="frm_SubScribe" onSubmit="return Validate()" name="frm_SubScribe">
+            Use the following form to subscribe or unsubscribe from the newsletter.
+            <br />
+            <br />
+            <label for="TXT_Email">
+                Your e-mail:
+            </label>
+            <br />
+            <input type="text" name="TXT_Email" id="TXT_Email" size="28" />
+            <p>
+                <input name="RD_SubScribe" type="radio" id="RD_Sub" checked="true" value="SubScribe" />
+                <label for="RD_Sub">
+                    Subscribe</label>
+                <input name="RD_SubScribe" type="radio" id="RD_Unsub" value="UnSubScribe" />
+                <label for="RD_Unsub">
+                    Unsubscribe</label>
+            </p>
+            <p>
+                <label for="Submit" id="lyrissubmit">Submit</label>
+                    <input type="button" onClick="return SendToLyris()" name="Submit" id="Submit" value="Send" />
+                
+            </p>
+        </form>
+    </div>
+    <div id="Lyris_SubForm" style="display: block">
+        <form id="frm_SubScribe_LYRIS" name="frm_SubScribe_LYRIS" action="http://lists.icfwebservices.com/subscribe/subscribe.tml"
+            method="POST">
+
+                        <label for="email">
+                            Email:</label>
+
+                        <input type="text" name="email" id="email" value="" size="10">
+
+                        <input type="image" height="19" width="73" title="subscribe" alt="subscribe"
+                            src="http://lists.icfwebservices.com/img/english/button_subscribe.gif" name="subscribe_btn">
+
+            <input type="hidden" name="list" value="brpscientificnews">
+            <input type="hidden" name="confirm" value="none">
+            <input type="hidden" name="showconfirm" value="F">
+            <input type="hidden" name="url" value="http://cancercontrol.cancer.gov/brp/e-newsletter/thank-you.html">
+        </form>
+        <form id="frm_UNSub_LYRIS" name="frm_UNSub_LYRIS" action="http://lists.icfwebservices.com/subscribe/unsubscribe.tml"
+            method="GET">
+
+                        <label for="email">
+                            Email:</label>
+
+                        <input type="text" name="email" id="Text1" value="" size="10">
+
+                        <input type="image" height="19" width="84" title="unsubscribe" alt="unsubscribe"
+                            src="http://lists.icfwebservices.com/img/english/button_unsubscribe.gif"
+                            name="unsubscribe">
+
+            <input type="hidden" name="url" value="/brp/e-newsletter/thank-you.html">
+            <input type="hidden" name="confirm" value="none">
+            <input type="hidden" name="showconfirm" value="F">
+            <input type="hidden" name="lists" value="brpscientificnews">
+        </form>
+    </div>
+	</div>
+
+            </div>
               <!--/.well -->
             <div class="newsHighlights">
             	<div>BRP Branches</div>
@@ -143,23 +255,19 @@
                 <p><a class="document" href="/brp/srtb/">Science of Research and Technology</a></p>
                 <p><a class="document" href="/brp/tcrb/">Tobacco Control</a></p>
             </div>
-            <!-- InstanceBeginEditable name="SpecialLeftHandBox" -->
-			<!-- InstanceEndEditable -->
+
             </div>		
             <div id="content" class="span9">
                     <!-- InstanceBeginEditable name="Breadcrumbs" -->
                 <div class="row">
                 <div class="span12">
                   <ul class="breadcrumb">
-                    <li class="home-breadcrumb"> <a href="/brp/">Home</a> </li>
+                    <li class="home-breadcrumb"> <a href="/brp/index.html">Home</a> </li>
                     <li class="parent">
-    <div class="heading"><a href="/brp/about.html">About BRP</a></div>       <div class="divider"><span>></span></div>
-  </li>
-<li class="parent">
-    <div class="heading"><a href="/brp/hbrb/index.html">HBRB</a></div>       <div class="divider"><span>></span></div>
+    <div class="heading"><a href="/brp/e-newsletter/index.html">Scientific News from BRP</a></div>       <div class="divider"><span>></span></div>
   </li>
                     <li class="active">
-                      <div class="heading">eHealth/mHealth</div>
+                      <div class="heading">New Funding Opportunity</div>
                       <div class="divider"><span>></span></div>
                     </li>
                   </ul>
@@ -168,26 +276,20 @@
                 <!-- InstanceEndEditable -->
                 <div class="row-fluid">
            		  <!-- InstanceBeginEditable name="Main Content" -->
-    <div class="span12 listimage">
-    <h1>eHealth/mHealth</h1>
-<p>Computer  technologies have created ever-expanding opportunities to assess and deliver  health information to individuals, groups, and populations (i.e., electronic  health or eHealth). Information technologies are being developed and used to  specifically examine cancer-related health behaviors and states. Mobile phones  and other portable health information technologies (i.e. mobile health or  mHealth), in particular, offer unprecedented opportunities to improve the  health of the U.S. population and reach traditionally underserved subgroups. Within  the Health Behavior Research Branch (HBRB), we encourage the development and  scientific evaluation of interventions that use eHealth/mHealth to promote physical  activity, diet, obesity/energy balance, and sun protective behaviors. In  addition, the development and advancement of related research methodologies  (e.g., real-time data capture, geospatial analysis of global positioning system  tools, etc.) is encouraged. The primary goals of HBRB&rsquo;s focus on eHealth/mHealth  research are to 1) encourage the development of interventions that capitalize  on technologies to produce positive health behavior change; 2) facilitate the  understanding of mechanisms related to health behaviors and cancer using  innovative information technologies; 3) use eHealth/mHealth to reach vulnerable  populations to promote cancer preventive behaviors including healthy diet,  physical activity and energy balance.</p>
-    <h2>      Contact</h2>
-    <p><a href="https://researchtoreality.cancer.gov/users/AudieAtienza">Audie Atienza, Ph.D.</a><br />
-      <a href="mailto:atienzaa@mail.nih.gov">atienzaa@mail.nih.gov</a></p>
-    <p><a href="../../funding_apply.html#hbrb">View all Health Promotion Funding Opportunities</a></p>
-                
-        <h2>Reports &#38; Publications</h2>
-        
-        <p><em>American Journal of Preventive Medicine</em> (May 2007, Volume 32, Issue 5, Supplement, Pages 71-138). <a href="http://www.ajpm-online.net/issues/contents?issue_key=S0749-3797(07)X0120-X" target="_blank">Supplement: Critical Issues in eHealth Research.</a> <a href="../../exit_disclaimer.html"><img src="../../images/Icon_External_Link.png" width="12" height="12" alt="exit disclaimer" /></a></p>
-        
-        <p><em>American Journal of Preventive Medicine</em> (January 2010, Volume 38, Issue 1, Pages 85-109). <a href="http://www.ajpm-online.net/issues?issue_key=S0749-3797%2809%29X0017-6-" target="_blank">Special Issue: eHealth Research and Patient-Centered Care: Examining Theory, Methods, and Application</a> <a href="../../exit_disclaimer.html"><img src="../../images/Icon_External_Link.png" width="12" height="12" alt="exit disclaimer" /></a></p>
-        
-        <p><a href="https://global.oup.com/academic/product/the-science-of-real-time-data-capture-9780195178715?cc=us&lang=en&" target="_blank">The Science of Real-Time Data Capture</a> <a href="../../exit_disclaimer.html"><img src="../../images/Icon_External_Link.png" width="12" height="12" alt="exit disclaimer" /></a> &#8211; edited book<br />
-        Discusses the state of the science of real-time data capture and its application to health and cancer research. It provides a conceptual framework for ecological momentary assessments (EMA) and discusses health-related topics where ecological momentary assessments have been applied. In addition, future directions in real-time data capture assessment, interventions, methodology, and technology are discussed.</p>
-        
-        <p>M&acirc;sse, LC, Wilson, M, &#38; Baranowski, T (Eds.) (2006). Item Response Modeling in Health Education and Health Behavior Research. <em>Health Education Research</em>, Vol. 21, Suppl. 1</p>
- 
-</div>
+                  <div class="span12">
+    <h1>New Federal  Program Analyst Position and Cancer Research Training Award Fellowship Position</h1>
+    <p>          The National Cancer Institute (NCI) is pleased to invite letters of interest    from public health, communication, and business management professionals for    a <a href="/brp/docs/OAD_analyst.pdf" target="_blank">federal    career position as a Program Analyst</a> in the Office of the Associate    Director of the Behavioral Research Program (BRP).</p>
+    <p>      The anticipated full-time    position is based in Rockville, Maryland, and will likely be classified as a <a href="https://jobs.nih.gov/vacancies/administrative.htm">Program/Management    Analyst</a> or similar occupational series on <a href="https://www.usajobs.gov/">www.usajobs.gov</a>.    Jobs are typically posted for 5-7 days, and official applications can only be    accepted via usajobs, once announced. The United States Office of Personnel    Management <a href="https://www.opm.gov/policy-data-oversight/pay-leave/salaries-wages/salary-tables/16Tables/html/DCB.aspx">Federal    salaries</a> for this position will range from GS 11-13 and are commensurate    with qualifications and experience; excellent benefits will be    provided.&nbsp; The selected Program Analyst will participate in the    planning, organization, implementation, and management of tasks in support of    the scientific research areas and administrative scope of BRP. For the full    Program Analyst Position Description and Call for Letters of Interest, visit <a href="/brp/docs/OAD_analyst.pdf" target="_blank">http://cancercontrol.cancer.gov/brp/docs/OAD_analyst.pdf</a>.</p>
+    <p><strong>Interested    candidates for the federal career position as a Program Analyst are    encouraged to submit a letter of interest, resume/CV, writing sample, and    letter of recommendation from a professional reference immediately to </strong><a href="mailto:ncidccpsbrpadvances@mail.nih.gov"><strong>ncidccpsbrpadvances@mail.nih.gov</strong></a><strong> [Subject: Program Analyst letter of    interest].</strong></p>
+    
+    <p>Applications will also be    considered for a <a href="/brp/docs/Health-Communication-Fellowship-2016.pdf" target="_blank">Cancer    Research Training Award Fellowship</a> in BRP. This full-time fellowship is    based in Rockville, Maryland, and provides outstanding opportunities for    training and professional development in applied health communication.    Applicants should hold a Master&rsquo;s degree or equivalent in communication,    journalism, public health, business administration, or related field; and    must have demonstrated excellence in written and oral communication. For    details on the Cancer Research Training Award, visit <a href="/brp/docs/Health-Communication-Fellowship-2016.pdf" target="_blank">http://cancercontrol.cancer.gov/brp/docs/Health-Communication-Fellowship-2016.pdf</a>.</p>
+    
+    <p><strong>Interested    fellowship candidates should send a Cover letter – not to exceed 400 words    (provide an explanation of interest in BRP, and describe&nbsp; professional    background and development goals) and resume or CV to </strong><a href="mailto:ncidccpsbrpadvances@mail.nih.gov?subject=Fellowship application"><strong>ncidccpsbrpadvances@mail.nih.gov</strong></a><strong> [Subject: Fellowship application]. </strong></p>
+    <p>You are encouraged to contact  current and past fellows, mentors, and other staff members. Please visit <a href="http://staffprofiles.cancer.gov/brp/prgmStaffHome.do">http://staffprofiles.cancer.gov/brp</a> to learn more about our network of mentorship and collaboration.    </p>
+    <div style="background-color:#004380; color:#fff; padding:15px;">Visit the <a href="/brp/e-newsletter/index.html" style="color:#fff;">archive page</a> to view other Scientific News from the Behavioral Research Program newsletters.</div>
+    </div>
+
+
 
 <!-- InstanceEndEditable -->
                               </div>
@@ -232,7 +334,7 @@
 </div>
        </div>
             <div class="last-updated">
-              <p class="center"><strong>Last Updated: <!-- InstanceBeginEditable name="Last Updated" -->October 22, 2013<!-- InstanceEndEditable --></strong></p>
+              <p class="center"><strong>Last Updated: <!-- InstanceBeginEditable name="Last Updated" -->May 31, 2016<!-- InstanceEndEditable --></strong></p>
        <a href="http://www.cancer.gov/contact" class="help-image"><img class="footer-help" src="/images/footer-help-logo.png" alt="help-logo" /></a><p class="can-numb"><strong>1-800-4-CANCER <br /> (1-800-422-6237)</strong></p>
      </div>
   </div><!--/row-->
@@ -336,6 +438,16 @@ $(document).ready(function(){
 
 </script>
     
-    <!-- InstanceBeginEditable name="Scripts" --><!-- InstanceEndEditable -->
+    <!-- InstanceBeginEditable name="Scripts" -->
+	
+	<script type="text/javascript">
+ var theObject = document.getElementById("NEI_SubForm")
+    theObject.style.display="block"
+
+ var theObject2 = document.getElementById("Lyris_SubForm")
+    theObject2.style.display="none"
+</script>
+
+	<!-- InstanceEndEditable -->
   </body>
 <!-- InstanceEnd --></html>

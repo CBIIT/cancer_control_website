@@ -527,7 +527,6 @@ brp/docs/Flier_HBRB.pdf -text svneol=unset#unset
 brp/docs/HCIRBFactSheet.pdf -text svneol=unset#unset
 brp/docs/HCIRBPD.pdf -text
 brp/docs/HCIRB_PostdocCRTA.pdf -text
-brp/docs/Health-Behaviors-Research-Fellowship.pdf -text svneol=unset#unset
 brp/docs/Health-Communication-Fellowship-2016.pdf -text
 brp/docs/Memoriam_SabraWooley.pdf -text
 brp/docs/NCI_Network_Factsheet.pdf -text
@@ -580,6 +579,7 @@ brp/e-newsletter/notes-jan-2016.html -text
 brp/e-newsletter/notes-june-2015.html -text
 brp/e-newsletter/notes-may-2016-funding.html -text
 brp/e-newsletter/notes-may-2016-new-opportunity.html -text
+brp/e-newsletter/notes-may-2016-program-analyst.html -text
 brp/e-newsletter/notes-oct-2015.html -text
 brp/e-newsletter/oct-2015.html -text
 brp/e-newsletter/sept-2014.html -text
@@ -627,7 +627,6 @@ brp/hbrb/docs/Teen-Diet-SPSS.sav -text
 brp/hbrb/docs/Teen_Demo_PUF_Instrument.pdf -text
 brp/hbrb/docs/Teen_Diet_PUF_Instrument.pdf -text
 brp/hbrb/docs/Teen_PA_PUF_Instrument.pdf -text
-brp/hbrb/ehealth.html -text
 brp/hbrb/fab/docs/FAB_Codebook_v8.pdf -text
 brp/hbrb/fab/docs/FAB_Main_annotated.pdf -text
 brp/hbrb/fab/docs/FAB_Sources_2011-02-16.pdf -text
