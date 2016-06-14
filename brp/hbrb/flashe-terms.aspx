@@ -29,6 +29,17 @@ var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(hm
       <script src="js/html5shiv.js"></script>
     <![endif]-->
   <style type="text/css" id="holderjs-style">.holderjs-fluid {font-size:16px;font-weight:bold;text-align:center;font-family:sans-serif;margin:0}</style>
+<script>
+  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+  (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+  m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+  })(window,document,'script','https://www.google-analytics.com/analytics.js','ga');
+
+  ga('create', 'UA-47020801-1', 'auto');
+  ga('send', 'pageview');
+  ga('set', 'anonymizeIp', true);
+
+</script>
   </head>
 <body>
   	<div id="skipmenu">
@@ -66,7 +77,7 @@ var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(hm
 	</div>
           <div class="navbar-inner">
             <!-- Responsive Navbar Part 1: Button for triggering responsive navbar (not covered in tutorial). Include responsive CSS to utilize. -->
-            <button type="button" class="btn btn-navbar" data-toggle="collapse" data-target=".nav-collapse">
+            <button type="button" class="btn btn-navbar" data-toggle="collapse" data-target=".nav-collapse" value="Menu">
               <span class="icon-bar"></span>
               <span class="icon-bar"></span>
               <span class="icon-bar"></span>
@@ -382,16 +393,6 @@ var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(hm
 
 	</script>
     <script src="../../js/respond.min.js"></script>
-    <script>
-  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
-  (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
-  m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
-  })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
-
-  ga('create', 'UA-47020801-1', 'cancer.gov');
-  ga('send', 'pageview');
-
-</script>
 <script type="text/javascript" src="/JS/Omniture/WA_DCCPS_PageLoad.js"></script>
   </body>
 </html>
