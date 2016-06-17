@@ -25,7 +25,7 @@ theAltTag[3] = 'This is test 4'
 theLink[0] = 'http://www.cancer.gov/help'
 theLink[1] = 'http://www.yahoo.com'
 theLink[2] = 'http://www.google.com'
-theLink[3] = 'http://smokefree.gov/'
+theLink[3] = 'https://smokefree.gov/'
 
 
 
