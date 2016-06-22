@@ -28,19 +28,17 @@ var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(hm
       <script src="js/html5shiv.js"></script>
     <![endif]-->
   <style type="text/css" id="holderjs-style">.holderjs-fluid {font-size:16px;font-weight:bold;text-align:center;font-family:sans-serif;margin:0}</style>
-<script>
-  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
-  (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
-  m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
-  })(window,document,'script','https://www.google-analytics.com/analytics.js','ga');
-
-  ga('create', 'UA-47020801-1', 'auto');
-  ga('send', 'pageview');
-  ga('set', 'anonymizeIp', true);
-
-</script>
   </head>
 <body>
+<!-- Google Tag Manager -->
+<noscript><iframe src="//www.googletagmanager.com/ns.html?id=GTM-NMGZRC"
+height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
+<script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
+new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
+j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
+'//www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
+})(window,document,'script','dataLayer','GTM-NMGZRC');</script>
+<!-- End Google Tag Manager -->
   	<div id="skipmenu">
 	<a href="#skip" class="skippy">Skip Navigation</a>
 	<a id="top"></a>
@@ -158,17 +156,17 @@ var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(hm
             <div class="row-fluid">
     <div class="listimage">
     <h1>FLASHE	Dyadic Analysis Resources</h1>
-<p>Individuals  who are part of a close relationship &ndash; such as a parent and child &ndash; may influence  one another.  Such individuals may also  express similarity in their thoughts, behavior, or affect.  The FLASHE study was designed to capture this  type of interdependence and homogeneity. </p>
+<p>Individuals who are part of a close relationship &ndash; such as a parent and child &ndash; may influence each another. Such individuals may also express similarity in their thoughts, behavior, or affect. The FLASHE study is designed to capture this type of interdependence and homogeneity. </p>
 <p>  FLASHE  incorporates the conceptualization of multilevel influences on multiple cancer-preventive  health behaviors into a dyadic design to facilitate numerous research questions  focused on either an individual (parent or adolescent) or the dyad (parent and adolescent).&nbsp;  The analysis of dyadic data is much more complicated than the analysis of data  from individuals. &nbsp;To support data users who are interested in conducting  dyadic analyses, we have provided the following resources:</p>
 <h3>Presentations and Webinars</h3>
 <ul>
-  <li>NCI hosted short-course on dyadic analyses  (PDF) - data coming soon</li>
-  <li>A short introduction to dyadic analysis  (webinar) - data coming soon</li>
+  <li>NCI hosted short-course on dyadic analyses  (PDF) -  coming soon</li>
+  <li>A short introduction to dyadic analysis  (<a href="/brp/hbrb/flashe-webinar.html">webinar</a>)</li>
 </ul>
-<h3>FLASHE=-specific dyadic-analysis resources</h3>
-<ul><li>  FLASHE Dyadic constructs table &ndash; Diet (PDF) - data coming soon</li>
-  <li>    FLASHE Dyadic constructs table &ndash; Physical  activity (PDF)   - data coming soon</li>
-  <li>    FLASHE Dyadic Analysis User&rsquo;s Guide and  Sample Code (PDF) - data coming soon</li>
+<h3>FLASHE-specific dyadic-analysis resources</h3>
+<ul><li>  FLASHE Dyadic constructs table &ndash; Diet (PDF) -  coming soon</li>
+  <li>    FLASHE Dyadic constructs table &ndash; Physical  activity (PDF)   -  coming soon</li>
+  <li>    FLASHE Dyadic Analysis User&rsquo;s Guide and  Sample Code (<a href="docs/FLASHE-Dyadic-Data-Users-Guide.pdf">PDF</a>)</li>
 </ul>
 <h3>Acknowledgements</h3>
 <p>We  would like to thank Dr. Niall Bolger and Dr. Jean-Philippe Laurenceau for their  time and effort in developing the dyadic analysis resources.</p>
@@ -223,7 +221,7 @@ var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(hm
              </div><!--/span-->
 </div>
             <div class="last-updated">
-              <p class="center"><strong>Last Updated: November 18, 2015</strong></p>
+              <p class="center"><strong>Last Updated: June 17, 2016</strong></p>
        <a href="http://www.cancer.gov/contact" class="help-image"><img class="footer-help" src="/images/footer-help-logo.png" alt="help-logo" /></a><p class="can-numb"><strong>1-800-4-CANCER <br /> (1-800-422-6237)</strong></p>
                 </div>
        </div><!--/row-->

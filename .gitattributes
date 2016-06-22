@@ -606,6 +606,8 @@ brp/hbrb/behavior_genetic.html -text
 brp/hbrb/diet_comm_int_frmwrk.html -text
 brp/hbrb/dietary_behaviors.html -text
 brp/hbrb/docs/AgursCollinsetalposter.pdf -text
+brp/hbrb/docs/FLASHE-Data-Users-Guide.pdf -text
+brp/hbrb/docs/FLASHE-Dyadic-Data-Users-Guide.pdf -text
 brp/hbrb/docs/FLASHE-Public-Codebook.xlsx -text
 brp/hbrb/docs/FLASHE_Methods_Report.pdf -text svneol=unset#unset
 brp/hbrb/docs/Genes-Behaviors-and-Response-Conference-Report.pdf -text
@@ -614,18 +616,24 @@ brp/hbrb/docs/HPRBFactsheet.pdf -text svneol=unset#unset
 brp/hbrb/docs/NCI_FLASHE.pdf -text svneol=unset#unset
 brp/hbrb/docs/Parent-Demographic-SAS.zip -text
 brp/hbrb/docs/Parent-Demographic-SPSS.sav -text
+brp/hbrb/docs/Parent-Demographic-SPSS.zip -text
 brp/hbrb/docs/Parent-Diet-SAS.zip -text
 brp/hbrb/docs/Parent-Diet-SPSS.sav -text
+brp/hbrb/docs/Parent-Diet-SPSS.zip -text
 brp/hbrb/docs/Parent_Demo_PUF_Instrument.pdf -text
 brp/hbrb/docs/Parent_Diet_PUF_Instrument.pdf -text
 brp/hbrb/docs/Parent_PA_PUF_Instrument.pdf -text
 brp/hbrb/docs/Teen-Demographic-SAS.zip -text
 brp/hbrb/docs/Teen-Demographic-SPSS.sav -text
+brp/hbrb/docs/Teen-Demographic-SPSS.zip -text
 brp/hbrb/docs/Teen-Diet-SAS.zip -text
 brp/hbrb/docs/Teen-Diet-SPSS.sav -text
+brp/hbrb/docs/Teen-Diet-SPSS.zip -text
 brp/hbrb/docs/Teen_Demo_PUF_Instrument.pdf -text
 brp/hbrb/docs/Teen_Diet_PUF_Instrument.pdf -text
 brp/hbrb/docs/Teen_PA_PUF_Instrument.pdf -text
+brp/hbrb/docs/item-source-and-reference-list-diet.pdf -text
+brp/hbrb/docs/item-source-and-reference-list-physical-activity.pdf -text
 brp/hbrb/fab/docs/FAB_Codebook_v8.pdf -text
 brp/hbrb/fab/docs/FAB_Main_annotated.pdf -text
 brp/hbrb/fab/docs/FAB_Sources_2011-02-16.pdf -text
