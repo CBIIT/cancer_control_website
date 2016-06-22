@@ -29,19 +29,17 @@ var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(hm
       <script src="js/html5shiv.js"></script>
     <![endif]-->
   <style type="text/css" id="holderjs-style">.holderjs-fluid {font-size:16px;font-weight:bold;text-align:center;font-family:sans-serif;margin:0}</style>
-<script>
-  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
-  (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
-  m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
-  })(window,document,'script','https://www.google-analytics.com/analytics.js','ga');
-
-  ga('create', 'UA-47020801-1', 'auto');
-  ga('send', 'pageview');
-  ga('set', 'anonymizeIp', true);
-
-</script>
   </head>
 <body>
+<!-- Google Tag Manager -->
+<noscript><iframe src="//www.googletagmanager.com/ns.html?id=GTM-NMGZRC"
+height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
+<script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
+new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
+j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
+'//www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
+})(window,document,'script','dataLayer','GTM-NMGZRC');</script>
+<!-- End Google Tag Manager -->
   	<div id="skipmenu">
 	<a href="#skip" class="skippy">Skip Navigation</a>
 	<a id="top"></a>
@@ -159,74 +157,73 @@ var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(hm
             <div class="row-fluid">
     <div class="listimage">
     <h1>FLASHE Public Use Data Files and Supporting  Documentation </h1>
-<p>Welcome to the FLASHE data  and resource Web page. This page contains data files (available in SAS and SPSS  formats), survey instruments, and other documentation to assist you in  analyzing FLASHE data.</p>
-    <ul>
-      <li><a href="#Adolescent">Adolescent and parent data</a></li>
+<p>This page contains data files (available in SAS and SPSS formats), survey  instruments, and other documentation to assist you in analyzing FLASHE data.</p>
+<ul>
+  <li><a href="#Adolescent">Adolescent and parent data</a></li>
       <li><a href="#Survey">Survey instruments</a></li>
       <li><a href="#Methods">Methods summary and data user guides</a></li>
       <li><a href="#Dyadic">Dyadic analysis resources</a></li>
       <li><a href="#Papers">FLASHE papers</a></li>
       <li><a href="#Contacts">Contacts</a></li>
       <li><a href="#FAQ">FAQ</a></li>
-    </ul>
+  </ul>
 
 <h2 id="Adolescent">Adolescent  and parent data</h2>
-    <p>Adolescents ages 12-17  were surveyed about their diet, physical activity, and demographics. Results  were saved in separate data sets that can be linked across files using  participant or dyad identification numbers.</p>
+    <p>Adolescents ages 12-17 were surveyed about their diet, physical activity, and demographics. The results are saved in separate data sets that can be linked across files using participant or dyad identification numbers.</p>
     <ul>
-      <li>Download adolescent  demographic data (coming soon!)</li>
-      <li>Download adolescent diet  data (coming soon!)</li>
+      <li>Download adolescent  demographic data (<a href="/brp/hbrb/docs/Teen-Demographic-SAS.zip">SAS</a>, <a href="/brp/hbrb/docs/Teen-Demographic-SPSS.zip">SPSS</a>)</li>
+      <li>Download adolescent diet  data (<a href="/brp/hbrb/docs/Teen-Diet-SAS.zip">SAS</a>, <a href="/brp/hbrb/docs/Teen-Diet-SPSS.zip">SPSS</a>)</li>
       <li>Download adolescent  physical activity data (coming soon!)</li>
       <li>Download adolescent  physical activity monitor data (coming soon!)</li>
     </ul>
     </ul>
-    <p>Parents of adolescents  were surveyed about diet, physical activity, and demographics. Results were  saved in separate data sets that can be linked across files using participant  or dyad identification numbers.</p>
+    <p>Parents of adolescents were surveyed about diet, physical activity, and demographics. The results are saved in separate data sets that can be linked across files using participant or dyad identification numbers.</p>
     <ul>
-      <li>Download parent  demographic data (coming soon!)</li>
-      <li>Download parent diet data (coming soon!)</li>
+      <li>Download parent  demographic data (<a href="/brp/hbrb/docs/Parent-Demographic-SAS.zip">SAS</a>, <a href="/brp/hbrb/docs/Parent-Demographic-SPSS.zip">SPSS</a>)</li>
+      <li>Download parent diet data  (<a href="/brp/hbrb/docs/Parent-Diet-SAS.zip">SAS</a>, <a href="/brp/hbrb/docs/Parent-Diet-SPSS.zip">SPSS</a>)</li>
       <li>Download parent  physical activity data (coming soon!) </li>
     </ul>
 
 <h2 id="Survey">Survey instruments</h2>
     <ul>
-      <li>Adolescent demographic survey instrument  (<a href="/brp/hbrb/docs/Teen_Demo_PUF_Instrument.pdf">PDF</a>)</li>
-      <li>Adolescent diet survey instrument (<a href="/brp/hbrb/docs/Teen_Diet_PUF_Instrument.pdf">PDF</a>)</li>
-      <li>Adolescent  physical activity survey instrument (<a href="/brp/hbrb/docs/Teen_PA_PUF_Instrument.pdf">PDF</a>)</li>
-      <li>Parent demographic  survey instrument (<a href="/brp/hbrb/docs/Parent_Demo_PUF_Instrument.pdf">PDF</a>) </li>
-      <li>Parent diet survey instrument (<a href="/brp/hbrb/docs/Parent_Diet_PUF_Instrument.pdf">PDF</a>)</li>
-      <li>Parent physical  activity survey instrument (<a href="/brp/hbrb/docs/Parent_PA_PUF_Instrument.pdf">PDF</a>)</li>
+      <li>Adolescent demographic survey instrument  (<a href="/brp/hbrb/docs/Teen_Demo_PUF_Instrument.pdf" target="_blank">PDF</a>)</li>
+      <li>Adolescent diet survey instrument (<a href="/brp/hbrb/docs/Teen_Diet_PUF_Instrument.pdf" target="_blank">PDF</a>)</li>
+      <li>Adolescent  physical activity survey instrument (<a href="/brp/hbrb/docs/Teen_PA_PUF_Instrument.pdf" target="_blank">PDF</a>)</li>
+      <li>Parent demographic  survey instrument (<a href="/brp/hbrb/docs/Parent_Demo_PUF_Instrument.pdf" target="_blank">PDF</a>) </li>
+      <li>Parent diet survey instrument (<a href="/brp/hbrb/docs/Parent_Diet_PUF_Instrument.pdf" target="_blank">PDF</a>)</li>
+      <li>Parent physical  activity survey instrument (<a href="/brp/hbrb/docs/Parent_PA_PUF_Instrument.pdf" target="_blank">PDF</a>)</li>
     </ul>
     <h2 id="Methods">Methods summary and data user guides</h2>
     <ul>
       <li>Codebook (<a href="/brp/hbrb/docs/FLASHE-Public-Codebook.xlsx">XLS</a>)</li>
-      <li>Data user&rsquo;s  guide (coming soon!)</li>
-      <li>FLASHE methods  summary report (<a href="/brp/hbrb/docs/FLASHE_Methods_Report.pdf">PDF</a>)</li>
-      <li>Item source and  reference list - Diet (coming soon!)</li>
-      <li>Item source and  reference list - Physical activity (coming soon!)</li>
+      <li>Data user&rsquo;s  guide (<a href="docs/FLASHE-Data-Users-Guide.pdf" target="_blank">PDF</a>)</li>
+      <li>FLASHE methods  summary report (<a href="/brp/hbrb/docs/FLASHE_Methods_Report.pdf" target="_blank">PDF</a>)</li>
+      <li>Item source and  reference list - Diet (<a href="docs/item-source-and-reference-list-diet.pdf" target="_blank">PDF</a>)</li>
+      <li>Item source and  reference list - Physical activity (<a href="docs/item-source-and-reference-list-physical-activity.pdf" target="_blank">PDF</a>)</li>
       </ul>
-    <h2 id="Dyadic"><a href="flashe-dyadic-analysis.aspx" style="font-size: 22.5px;">Dyadic analysis resources</a></h2>
-    <p>FLASHE  data can be used to conduct individual- or dyadic-level analyses. Click on the link above to read more about  dyadic analysis and browse available resources. </p>
-    <div>
-      <div> </div>
-    </div>
-    <h2 id="Papers">FLASHE papers</h2>
-<p>  FLASHE Data Users  &ndash; we want to hear from you!  If you use FLASHE data, please send your  published papers and/or presentations to <a href="mailto:nciflashe@mail.nih.gov">nciflashe@mail.nih.gov</a>. Published papers will be added to this section in the coming months.</p>
+    <h2 id="Dyadic">Dyadic analysis resources</h2>
+    <p>FLASHE data can be used to conduct individual- or  dyadic-level analyses. Go to the <a href="/brp/hbrb/flashe-dyadic-analysis.aspx">dyadic  analysis resource</a> page or view an <a href="/brp/hbrb/flashe-webinar.html">introductory  webinar</a>.    </p>
+    <h2 id="Papers">FLASHE projects</h2>
+<p><strong>FLASHE Data Users &ndash; we want to hear from you!</strong> We encourage you to let  us know how you are using the FLASHE data by emailing <a href="mailto:nciflashe@mail.nih.gov">nciflashe@mail.nih.gov</a>. Your  responses, for example: a brief description of the project, or list of  presentations or manuscripts, will help us understand how the data are being  used and will not be shared with the public.</p>
 <h2 id="Contacts">Contacts</h2>
     <p>For more  information about the Family Life, Activity, Sun, Health, and Eating (FLASHE)  study, please contact: </p>
     <p><a href="http://staffprofiles.cancer.gov/brp/prgmStaffProfile.do?contactId=1612&bioType=stf">Linda Nebeling, Ph.D.,  M.P.H., R.D</a>.<br>
       Deputy Associate Director<br>
       Behavioral Research  Program<br>
       National Cancer Institute<br>
-  <a href="mailto:nebelinl@mail.nih.gov">nebelinl@mail.nih.gov</a></p>
+  <a href="mailto:linda.nebeling@nih.gov">linda.nebeling@nih.gov</a></p>
 <p><a href="http://staffprofiles.cancer.gov/brp/prgmStaffProfile.do?contactId=1439602&bioType=stf">April Oh, Ph.D., M.P.H</a>.<br>
   Program Director<br>
   Health Communication and  Informatics Research Branch<br>
   National Cancer Institute<br>
-  <a href="mailto:ohay@mail.nih.gov">ohay@mail.nih.gov</a></p>
+  <a href="mailto:april.oh@nih.gov">april.oh@nih.gov</a></p>
+<p><a href="http://staffprofiles.cancer.gov/brp/prgmStaffProfile.do?contactId=6098881&bioType=flw">Laura Dwyer,  Ph.D.</a><br>
+  <a href="mailto:laura.dwyer@nih.gov">laura.dwyer@nih.gov</a></p>
 
 <h2 id="FAQ">FAQ</h2>
     <ol>
       <li><strong> What  does FLASHE stand for?</strong><br>
-        FLASHE is the acronym given to this cross-sectional, Internet-based survey. It  stands for Family Life, Activity, Sun, Health, and Eating study.</li>
+        FLASHE is the acronym given to this cross-sectional, internet-based survey. It  stands for Family Life, Activity, Sun, Health, and Eating study.</li>
       <li><strong> Why was  this survey created?</strong><br>
         The survey was created so researchers can examine cancer-preventive  behaviors in adolescents and their parents. The survey includes comprehensive  questions about diet, physical activity, sedentary behavior, sleep patterns,  sun safety, and tobacco use. This type of comprehensive information has not  been included in other publicly available data resources. The goal of the study  is to better understand the dynamic relationship between  environment,  psychosocial factors, and behavior from a parent-adolescent perspective.</li>
       <li><strong> When was  the survey conducted? </strong><br>
@@ -246,23 +243,25 @@ var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(hm
       <li><strong> How can  these data be used for cancer control?</strong><br>
         The data can be used to identify significant associations in cancer-preventive health behaviors among parents and their adolescent children. Researchers and public health practitioners can use the findings to develop targeted health interventions.</li>
       <li><strong> Who  funded this survey?<br>
-      </strong>This study was  funded by the National Cancer Institute. </li>
+      </strong>The National Cancer Institute funded this study.  </li>
       <li><strong> Who  designed the survey?</strong><br>
         This survey was designed through extensive and thoughtful input from scientists  and program officials in the federal government, nonprofit organizations, and  several academic institutions.</li>
       <li><strong> Who conducted  the survey?</strong> <br>
         Westat, Inc., a research group based in Rockville, Maryland.</li>
       <li><strong> How were  participants recruited?<br>
-      </strong>The sample was drawn from an already existing group of respondents. Ipsos, a panel research organization, invites people to join its panel through print ads, Internet banner ads, random digit dialing omnibus surveys, and panelist referrals. Ipsos screened their participants to identify eligible households.  Within each household, one adolescent was selected from the eligible adolescents living there.  Ipsos provided the sample of eligible households to Westat, who sent out invitations to participate in the FLASHE study.</li>
+      </strong>The sample was drawn from an already existing group of respondents. Ipsos, a panel research organization, invites people to join its panel through print ads, internet banner ads, random digit dialing omnibus surveys, and panelist referrals. Ipsos screened its participants to identify eligible households. Within each household, one adolescent was selected from the eligible adolescents living there. Ipsos provided the sample of eligible households to Westat, which sent out invitations to participate in the FLASHE study.</li>
       <li><strong>Did  participants get paid for their participation?</strong><br>
         Yes. All participants received $5 for each completed survey or $10 for  completing the survey early. Participants received either $20 or $40 for  returning the accelerometer after completing the motion study.</li>
       <li><strong>How do I  contact the program?</strong><br>
-        <a href="mailto:nciflashe@mail.nih.gov">nciflashe@mail.nih.gov</a></li>
+        Please  email: <a href="mailto:nciflashe@mail.nih.gov">nciflashe@mail.nih.gov</a></li>
       <li><strong>Do I need  permission to use the data?</strong><br>
         No. All data sets from the FLASHE study are available for free download. You will need to agree to certain terms to maintain data integrity. </li>
       <li><strong>Will I be  contacted by the National Cancer Institute in the future?</strong><br>
-        We may send emails when updates to the FLASHE dataset are available.</li>
+        We might send emails when updates to the FLASHE dataset are available.</li>
       <li><strong>Where can  I find information on sampling procedures?</strong><br>
         You can download the <a href="#Methods">methodology report and data user&rsquo;s guide</a>.</li>
+      <li><strong>Where can I find information about dyadic analysis?</strong><br>
+        Go  to the <a href="http://cancercontrol-stage.icfwebservices.com/brp/hbrb/flashe-dyadic-analysis.aspx">dyadic  analysis resource</a> page or view an <a href="http://cancercontrol-stage.icfwebservices.com/brp/hbrb/flashe-webinar.html">introductory  webinar</a>. </li>
     </ol>
     
         </div></div>
@@ -315,7 +314,7 @@ var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(hm
              </div><!--/span-->
 </div>
             <div class="last-updated">
-              <p class="center"><strong>Last Updated: February 3, 2016</strong></p>
+              <p class="center"><strong>Last Updated: June 17, 2016</strong></p>
        <a href="http://www.cancer.gov/contact" class="help-image"><img class="footer-help" src="/images/footer-help-logo.png" alt="help-logo" /></a><p class="can-numb"><strong>1-800-4-CANCER <br /> (1-800-422-6237)</strong></p>
                 </div>
        </div><!--/row-->
