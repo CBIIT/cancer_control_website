@@ -36,7 +36,7 @@ Partial Class terms
             Dim MailMessage As New System.Net.Mail.MailMessage
 
             MailMessage.To.Clear()
-            MailMessage.To.Add("christopher.deloose@icfi.com")
+            MailMessage.To.Add("christopher.deloose@nih.gov")
 
             'MailObj.Host = System.Configuration.ConfigurationManager.AppSettings("EmailHost").ToString
             MailObj.Host = "mailfwd.nih.gov"
@@ -52,7 +52,7 @@ Partial Class terms
 
             Response.Redirect("flashe-files.aspx")
         Catch ex As Exception
-            Response.Redirect("flashe.html")
+            Response.Redirect("flashe-files.aspx")
             'Response.Write("<h1>" & ex.ToString & "</h1>")
 
         End Try
