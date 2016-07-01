@@ -1931,14 +1931,6 @@ brp/trec/index.html -text
 brp/trec/umn.html -text
 brp/trec/usc.html -text
 /cancer_resources.html -text
-cgi-bin/keyword_search.asp -text
-cgi-bin/risk_menu.asp -text
-cgi-bin/risk_result.asp -text
-cgi-bin/risk_search.asp -text
-cgi-bin/risk_update.asp -text
-cgi-bin/riskcom_feedback.asp -text
-cgi-bin/riskcom_mail.asp -text
-cgi-bin/total.asp -text
 cgn/index.html -text
 communicationcenters/index.html -text
 conf/authz -text
