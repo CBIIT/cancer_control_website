@@ -1539,15 +1539,6 @@ brp/tcrb/tus-cps/workshops/2009/tusuw2009_zhu.pdf -text
 brp/tcrb/tus-cps/workshops/2009/tusuw2009_zhu.ppt -text
 brp/tcrb/youth.html -text
 /cancer_resources.html -text
-cgi-bin/images/spacer.gif -text
-cgi-bin/keyword_search.asp -text
-cgi-bin/risk_menu.asp -text
-cgi-bin/risk_result.asp -text
-cgi-bin/risk_search.asp -text
-cgi-bin/risk_update.asp -text
-cgi-bin/riskcom_feedback.asp -text
-cgi-bin/riskcom_mail.asp -text
-cgi-bin/total.asp -text
 conf/authz -text
 conf/hooks-env.tmpl -text
 conf/passwd -text
