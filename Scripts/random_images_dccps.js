@@ -24,7 +24,7 @@ rightImageLink[0] = 'http://hints.cancer.gov'
 rightImageLink[1] = 'http://ccplanet.cancer.gov'
 rightImageLink[2] = 'http://seer.cancer.gov'
 rightImageLink[3] = 'http://women.smokefree.gov'
-rightImageLink[4] = 'http://www.smokefree.gov'
+rightImageLink[4] = 'https://smokefree.gov'
 
 
 if (document.getElementById && document.createTextNode) {
