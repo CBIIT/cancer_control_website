@@ -588,6 +588,15 @@ form {
 	#header #cancercontrol-banner span {
     font-size: 20px;
 }
+
+.table td.right { width:300px; }
+
+.table td.right img {
+	float:right;
+	width:120px;
+	padding-left:0.25em;
+}
+
 }
 
 @media (max-width: 768px) {
