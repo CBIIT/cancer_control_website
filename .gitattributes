@@ -595,6 +595,7 @@ brp/hbrb/docs/FLASHE-Data-Users-Guide.pdf -text
 brp/hbrb/docs/FLASHE-Dyadic-Data-Users-Guide.pdf -text
 brp/hbrb/docs/FLASHE-Public-Codebook.xlsx -text
 brp/hbrb/docs/FLASHE_Methods_Report.pdf -text svneol=unset#unset
+brp/hbrb/docs/FLASHE_factsheet.pdf -text
 brp/hbrb/docs/Genes-Behaviors-and-Response-Conference-Report.pdf -text
 brp/hbrb/docs/Genes-Behaviors-and-Response-to-Weight-Loss-Interventions.pdf -text
 brp/hbrb/docs/HPRBFactsheet.pdf -text svneol=unset#unset
@@ -633,6 +634,7 @@ brp/hbrb/flashe-terms.aspx -text
 brp/hbrb/flashe-terms.aspx.vb -text
 brp/hbrb/flashe-webinar.html -text
 brp/hbrb/flashe.html -text
+brp/hbrb/images/FLASHE_Fact_Sheet.jpg -text
 brp/hbrb/images/TREC_logo.jpg -text
 brp/hbrb/images/bolger.jpg -text
 brp/hbrb/images/diet_comm.jpg -text
@@ -869,6 +871,7 @@ brp/tcrb/documents/MergedArticles311-422.pdf -text svneol=unset#unset
 brp/tcrb/documents/MethnolExecSumRprt4_10-16.pdf -text svneol=unset#unset
 brp/tcrb/documents/NCI-AACR-Cancer-Patient-Tobacco-Use-Assessment-Task-Force.pdf -text
 brp/tcrb/documents/TCIR_Factsheet.pdf -text
+brp/tcrb/documents/TCRBInternationalFactsheet.pdf -text
 brp/tcrb/documents/TCRB_Factsheet.pdf -text
 brp/tcrb/documents/eliminating_tobacco_hd.pdf -text
 brp/tcrb/documents/flyer_monograph_final_16.pdf -text svneol=unset#unset

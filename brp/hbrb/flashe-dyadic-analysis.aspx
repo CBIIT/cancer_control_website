@@ -245,7 +245,7 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
               <ul>
                 <li><a href="http://www.hhs.gov/">U.S. Department of Health and Human Services</a></li>
                 <li>|</li>
-                <li><a href="http://www.nih.gov/">National Institutes of Health</a></li>
+                <li><a href="https://www.nih.gov/">National Institutes of Health</a></li>
                 <li>|</li>
                 <li><a href="http://www.cancer.gov/">National Cancer Institute</a></li>
                 <li>|</li>
