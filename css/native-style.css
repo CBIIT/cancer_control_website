@@ -15,6 +15,16 @@
 	width:100%;
 }
 
+.sidebar-nav .nav-list .nav-header.cover a {
+    border: 1px solid #e3e3e3;
+	font-size: 0.95em;
+    padding:5px 7px;
+}
+
+.sidebar-nav .nav-list .nav-header.cover a img {
+    width:100%;
+}
+
 @media (max-width: 768px) {
 	
 #header-nci {
