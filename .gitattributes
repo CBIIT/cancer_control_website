@@ -1567,6 +1567,7 @@ docs/Thumbs.db -text
 docs/acknowledgementFAQs.pdf -text
 docs/acknowledgementLettertograntees.pdf -text
 /egrisk.html -text
+/epidemiology.html -text
 /exit_disclaimer.html -text
 fonts/glyphicons-halflings-regular.eot -text
 fonts/glyphicons-halflings-regular.svg -text
@@ -1788,6 +1789,7 @@ images/mm_spacer.gif -text
 images/national-expenditures-between-2010-2020-thumb.png -text
 images/national-expenditures-between-2010-2020.png -text
 images/native-banner.jpg -text
+images/nativeamericanintervention-cover.jpg -text
 images/nav-header-dash.jpg -text
 images/nci-logo-full.png -text
 images/nci-vol-10178-150.gif -text
@@ -2316,6 +2318,7 @@ od/winn_cv.pdf -text
 pdf/ASCO-Survivorship-Care-Plan.pdf -text svneol=unset#unset
 pdf/DCCPS-by-the-Numbers-FY-14-Progress-Report.pdf -text svneol=unset#unset
 pdf/Galea_Slides.pdf -text
+pdf/IRINAH-Spring-2016-newsletter.pdf -text
 pdf/Khoury_Slides.pdf -text
 pdf/NCI_DCCPS_50_Ways.pdf -text
 pdf/RFAWebX.pdf -text
