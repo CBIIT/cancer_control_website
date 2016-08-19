@@ -29,6 +29,55 @@
 
     <!-- Fav and touch icons -->
   <style type="text/css" id="holderjs-style">.holderjs-fluid {font-size:16px;font-weight:bold;text-align:center;font-family:sans-serif;margin:0}</style>
+  
+  
+  
+  <script type="text/javascript">
+function Validate()
+{
+	return false;
+}
+
+function SendToLyris()
+{
+  if (document.frm_SubScribe.TXT_Email.value == '')
+  {
+    alert ('You must enter an email address');
+    return false;
+  }
+  
+    apos=document.frm_SubScribe.TXT_Email.value.indexOf("@");
+  dotpos=document.frm_SubScribe.TXT_Email.value.lastIndexOf(".");
+  if (apos<1||dotpos-apos<2)
+    {
+		alert("You must enter a valid email address");
+    	return false;
+	}
+
+
+  if (document.frm_SubScribe.RD_SubScribe[0].checked)
+  {
+	  document.frm_SubScribe_LYRIS.email.value = document.frm_SubScribe.TXT_Email.value;
+    document.forms.frm_SubScribe_LYRIS.submit()
+
+
+  }
+  else if (document.frm_SubScribe.RD_SubScribe[1].checked)
+  {
+	  document.frm_UNSub_LYRIS.email.value = document.frm_SubScribe.TXT_Email.value;
+    document.forms.frm_UNSub_LYRIS.submit()
+	  
+  }
+  else 
+  {
+	  alert("You must select subscribe or unsubscribe");
+  }
+//  return false;
+}
+
+
+</script>
+
   </head>
   <body>
 <!-- Google Tag Manager -->
@@ -87,7 +136,7 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
                 </ul>
                 </li>
                 <li class="dropdown">
-                  <a class="hover-link" href="/IS/funding.html">Funding <b class="caret"></b></a>
+                  <a class="hover-link" href="/IS/funding.html">Funding Opportunities <b class="caret"></b></a>
                   <ul class="dropdown-menu">
                     <li><a href="/IS/funding.html#apply">Apply for Grants</a></li>
                     <li><a href="/IS/funding.html#generalgrant">Resources for Prospective Grantees </a></li>
@@ -120,6 +169,8 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
         </div><!-- /.navbar -->
 		        <div class="container-fluid">
                 <a id="skip"></a>
+                <div class="row-fluid">
+    <div class="span8">
  <!-- Carousel -->
   <!-- Carousel - Redesign - 6/1/2016
     ================================================== -->
@@ -252,14 +303,8 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
         <li data-target="#myCarousel" data-slide-to="6"></li>
     </ol>
     </div><!-- /.carousel -->
-
-    <!-- Main Content Redesign -->
-    <div class="container main-content">
-
-      <!-- Three columns of text below the carousel -->
-      <div class="row-fluid">
-        <div class="span8">
-          <div class="row-fluid">
+    
+    <div class="row-fluid">
           <div class="span12">
           <div class="spotlight">
             <h1>Highlighted Features</h1>
@@ -276,47 +321,94 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
                 <p>Connect with the team of dedicated scientists and research associates.  <a href="/IS/staff.html">VIEW ALL</a></p>
                 <a href="https://cyberseminar.cancercontrolplanet.org/implementationscience/"><h3 id="fgp">Webinar Series </h3></a>
                 <p>Explore advanced dissemination and implementation research topics.  <a href="https://cyberseminar.cancercontrolplanet.org/implementationscience/">VIEW ALL</a></p>
-                <a href="https://researchtoreality.cancer.gov/"><h3 id="news">Research to Reality </h3></a>
+                <a href="https://researchtoreality.cancer.gov/"><h3 id="r2r">Research to Reality </h3></a>
                 <p>Join the community of cancer control practitioners and researchers.  <a href="https://researchtoreality.cancer.gov/">VIEW ALL</a></p> 
             </div>
           </div>
           </div>
           </div>
-        </div>
-        <div class="span4">
-          <div class="branches-right">
-            <h2>IS Tweets</h2>         
-              <div class="branches-items">
-                </div><!-- .span9 -->
-                  <div class="span3">
-                    <div class="publications">
-                      <div id="is-tweets"></div>
-                      </div>
-                    </div>
-                  </div><!-- row-fluid -->
-                </div><br>
-              </div>
-            </div>
-          </div>
-        </div>
-           
-    <!-- /.Main Content Redesign -->
 
+    </div><!-- .span8 -->
     
-   
-    </div><!-- .span9 -->
-    <div class="span3">
+    <div class="span4">
+    <div class="branches-right">
+            
+            <div class="additional-text"><div id="NEI_SubForm" style="display: none">
+            <h2 id="newsHeader">Subscribe for Updates</h2>
+       <form id="frm_SubScribe" onSubmit="return Validate()" name="frm_SubScribe">
+            Enter your email address to subscribe or unsubscribe from the newsletter.
+			<br />
+            <br />
+            <label for="TXT_Email">Your e-mail:</label><br>
+
+            <input type="text" name="TXT_Email" id="TXT_Email" size="28" />
+            <p class="newsSubmit">
+                <label for="Submit" id="lyrissubmit">Submit</label>
+                    <input type="button" onClick="return SendToLyris()" name="Submit" value="Submit" id="Submit" />
+                
+            </p>
+            <p>
+                <input name="RD_SubScribe" type="radio" id="RD_Sub" checked="true" value="SubScribe" />
+                <label for="RD_Sub">
+                    Subscribe</label>
+                <input name="RD_SubScribe" type="radio" id="RD_Unsub" value="UnSubScribe" />
+                <label for="RD_Unsub">
+                    Unsubscribe</label>
+            </p>
+        </form>
+    </div>
+    <div id="Lyris_SubForm" style="display: block">
+        <form id="frm_SubScribe_LYRIS" name="frm_SubScribe_LYRIS" action="http://lists.icfwebservices.com/subscribe/subscribe.tml"
+            method="POST">
+
+                        <label for="email">
+                            Email:</label>
+
+                        <input type="text" name="email" id="email" value="" size="10">
+
+                        <input type="image" height="19" width="73" title="subscribe" alt="subscribe"
+                            src="http://lists.icfwebservices.com/img/english/button_subscribe.gif" name="subscribe_btn">
+
+            <input type="hidden" name="list" value="cancercontrolplanet">
+            <input type="hidden" name="confirm" value="none">
+            <input type="hidden" name="showconfirm" value="F">
+            <input type="hidden" name="url" value="http://cancercontrol-stage.icfwebservices.com/IS/e-newsletter/thank-you.html">
+        </form>
+        <form id="frm_UNSub_LYRIS" name="frm_UNSub_LYRIS" action="http://lists.icfwebservices.com/subscribe/unsubscribe.tml"
+            method="GET">
+
+                        <label for="email">
+                            Email:</label>
+
+                        <input type="text" name="email" id="Text1" value="" size="10">
+
+                        <input type="image" height="19" width="84" title="unsubscribe" alt="unsubscribe"
+                            src="http://lists.icfwebservices.com/img/english/button_unsubscribe.gif"
+                            name="unsubscribe">
+
+            <input type="hidden" name="url" value="http://cancercontrol-stage.icfwebservices.com/IS/e-newsletter/thank-you.html">
+            <input type="hidden" name="confirm" value="none">
+            <input type="hidden" name="showconfirm" value="F">
+            <input type="hidden" name="lists" value="cancercontrolplanet">
+        </form>
+    </div>
+    </div>
+    
+            <h2>IS Tweets</h2>  
     <div class="publications">
        	  <div id="is-tweets"></div>
+          <p><a href="https://twitter.com/NCI_ImplSci">View More Tweets &#8594;</a> <a href="/exit_disclaimer.html"><img src="/images/Icon_External_Link.png" width="12" height="12" alt="exit disclaimer" /></a> <a href="https://twitter.com/NCI_ImplSci" class="twitter-follow-button" data-show-count="false">Follow @NCI_ImplSci</a>
+<script>!function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0],p=/^http:/.test(d.location)?'http':'https';if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src=p+'://platform.twitter.com/widgets.js';fjs.parentNode.insertBefore(js,fjs);}}(document, 'script', 'twitter-wjs');</script></p>
     	</div>
-    </div>
+    </div>           
+    <!-- /.Main Content Redesign -->
+    
     </div><!-- row-fluid -->
-    </div><br>
+    </div>
       </div>
-
+  	</div>
       <!-- FOOTER -->
-
-      <footer>
+    <footer>
       	<div class="container-fluid">
         	<div class="row-fluid bottom-border bottom-margin">
             <div class="span12 topfoot">
@@ -365,7 +457,7 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
               <ul>
                 <li><a href="http://www.hhs.gov/">U.S. Department of Health and Human Services</a></li>
                 <li>|</li>
-                <li><a href="http://www.nih.gov/">National Institutes of Health</a></li>
+                <li><a href="https://www.nih.gov/">National Institutes of Health</a></li>
                 <li>|</li>
                 <li><a href="http://www.cancer.gov/">National Cancer Institute</a></li>
                 <li>|</li>
@@ -376,7 +468,6 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
           </div><!--/row-->
         </div>
       </footer>
-  	</div>
     <!-- javascript -->
     <script src="../js/jquery-1.10.1.min.js"></script>
     <script src="../js/bootstrap.min.js"></script>
@@ -452,6 +543,15 @@ $(document).ready(function(){
     }
 });
 	</script>
+    
+    
+    <script type="text/javascript">
+ var theObject = document.getElementById("NEI_SubForm")
+    theObject.style.display="block"
+
+ var theObject2 = document.getElementById("Lyris_SubForm")
+    theObject2.style.display="none"
+</script>
     
 
 <script type="text/javascript" src="/JS/Omniture/WA_DCCPS_PageLoad.js"></script>
