@@ -494,6 +494,7 @@ brp/decision-making.html -text
 brp/docs/BBPSB_PD.pdf -text
 brp/docs/BRP_Fact_Sheet-acc.pdf -text
 brp/docs/Flier_HBRB.pdf -text svneol=unset#unset
+brp/docs/HBRB_fellowship.pdf -text
 brp/docs/HCIRBFactSheet.pdf -text svneol=unset#unset
 brp/docs/HCIRBPD.pdf -text
 brp/docs/Memoriam_SabraWooley.pdf -text
@@ -2576,6 +2577,7 @@ populationhealthcenters/sup_guide_0723.doc -text
 populationhealthcenters/sup_guide_0723.pdf -text svneol=unset#unset
 /privacy-policy.html -text
 /program_areas.html -text
+/r03-program.html -text
 /r21-program.html -text
 research-emphasis/energy-balance.html -text
 research-emphasis/global_health/e-newsletter/2011-august.html -text
