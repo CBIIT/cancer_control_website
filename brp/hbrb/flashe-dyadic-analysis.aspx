@@ -90,9 +90,9 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
   <li>  <a href="/brp/hbrb/sun-protection.html">Sun  Protection</a>  </li>
   <li>  <a href="/brp/priority-areas/health-behaviors/hpv-vaccination.html">HPV  Vaccination</a>  </li>
   <li>  <a href="/brp/bbpsb/affective_science.html">Affect  and Emotion</a>  </li>
-  <li>  <a href="/brp/bbpsb/cognitive-changes/index.html">Cognition</a>  </li>
+  <li>  <a href="/brp/bbpsb/cognitive-changes.html">Cognition</a>  </li>
   <li>  <a href="/brp/hcirb/social-media.html">Social  Media</a>  </li>
-  <li><a href="/brp/srtb/big-data.html">Integrated  Data Analysis</a> </li>
+  <li><a href="/brp/priority-areas/big-data.html">Integrated  Data Analysis</a> </li>
 </ul>
                 </li>
                 <li class="dropdown">
@@ -188,7 +188,6 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
                 <p><a href="/brp/bbpsb/" class="document">Basic Biobehavioral and Psychological Sciences</a></p>
                 <p><a href="/brp/hbrb/" class="document">Health Behaviors</a></p>
                 <p><a href="/brp/hcirb/" class="document">Health Communication and Informatics</a></p>
-                <p><a href="/brp/srtb/" class="document">Science of Research and Technology</a></p>
                 <p><a href="/brp/tcrb/" class="document">Tobacco Control</a></p>
             </div>
 

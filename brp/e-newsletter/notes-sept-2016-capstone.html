@@ -1,37 +1,84 @@
 ﻿<!DOCTYPE html>
-<html lang="en"><!-- InstanceBegin template="/templates/BRP-about.dwt" codeOutsideHTMLIsLocked="false" -->
+<html lang="en"><!-- InstanceBegin template="/templates/BRP-newsletter.dwt" codeOutsideHTMLIsLocked="false" -->
   <head>
-<meta http-equiv="content-type" content="text/html; charset=UTF-8">
-    <meta charset="utf-8">
-    <!-- InstanceBeginEditable name="doctitle" -->
-    <title>About Science of Research and Technology Branch (SRTB) - Cancer Control and Population Sciences</title>
-    <!-- InstanceEndEditable -->
-        <link rel="icon" type="image/jpeg" href="/images/favicon.ico">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta name="keywords" content="nci, dccps, Cancer Control and Population Sciences, cancer">
-    <meta name="author" content="">
-    <!-- InstanceBeginEditable name="metatags" -->
-    <meta name="description" content="" />
-	<!-- InstanceEndEditable -->
+  <meta http-equiv="content-type" content="text/html; charset=UTF-8">
+  <meta charset="utf-8">
+  <!-- InstanceBeginEditable name="doctitle" -->
+  <title>Register for the Capstone Meeting of the Network on Biobehavioral Pathways in Cancer</title>
+  <!-- InstanceEndEditable -->
+  <link rel="icon" type="image/jpeg" href="/images/favicon.ico">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="keywords" content="nci, dccps, Cancer Control and Population Sciences, cancer">
+  <meta name="author" content="">
+  <!-- InstanceBeginEditable name="metatags" -->
+  <meta name="description" content="" />
+  <!-- InstanceEndEditable -->
+  <link href="../../css/style.css" rel="stylesheet">
+  <link href="../../css/bootstrap.css" rel="stylesheet">
+  <link href="../../css/bootstrap-responsive.css" rel="stylesheet">
+  <link href="../../css/bootstrap-nci.css" rel="stylesheet">
+  <link href="../css/brp-style.css" rel="stylesheet">
+  <link href="../../css/print.css" rel="stylesheet" media="print" />
+  
+  
+  <script type="text/javascript">
+function Validate()
+{
+	return false;
+}
 
-    <link href="../../css/style.css" rel="stylesheet">
-    <link href="../../css/bootstrap.css" rel="stylesheet">
-    <link href="../../css/bootstrap-responsive.css" rel="stylesheet">
-    <link href="../../css/bootstrap-nci.css" rel="stylesheet">
-    <link href="../css/brp-style.css" rel="stylesheet">
-    <link href="../../css/print.css" rel="stylesheet" media="print" />
+function SendToLyris()
+{
+  if (document.frm_SubScribe.TXT_Email.value == '')
+  {
+    alert ('You must enter an email address');
+    return false;
+  }
+  
+    apos=document.frm_SubScribe.TXT_Email.value.indexOf("@");
+  dotpos=document.frm_SubScribe.TXT_Email.value.lastIndexOf(".");
+  if (apos<1||dotpos-apos<2)
+    {
+		alert("You must enter a valid email address");
+    	return false;
+	}
 
-    <!-- HTML5 shim, for IE6-8 support of HTML5 elements -->
-    <!--[if lt IE 9]>
+
+  if (document.frm_SubScribe.RD_SubScribe[0].checked)
+  {
+	  document.frm_SubScribe_LYRIS.email.value = document.frm_SubScribe.TXT_Email.value;
+    document.forms.frm_SubScribe_LYRIS.submit()
+
+
+  }
+  else if (document.frm_SubScribe.RD_SubScribe[1].checked)
+  {
+	  document.frm_UNSub_LYRIS.email.value = document.frm_SubScribe.TXT_Email.value;
+    document.forms.frm_UNSub_LYRIS.submit()
+	  
+  }
+  else 
+  {
+	  alert("You must select subscribe or unsubscribe");
+  }
+//  return false;
+}
+
+
+</script>
+  
+  <!-- HTML5 shim, for IE6-8 support of HTML5 elements -->
+  <!--[if lt IE 9]>
       <script>document.createElement('footer');</script>
       <script src="/js/html5shiv.js"></script>
     <![endif]-->
-
-    <!-- Fav and touch icons -->
-  <style type="text/css" id="holderjs-style">.holderjs-fluid {font-size:16px;font-weight:bold;text-align:center;font-family:sans-serif;margin:0}</style>
+  <!-- Fav and touch icons -->
+  <style type="text/css" id="holderjs-style">
+  .holderjs-fluid {font-size:16px;font-weight:bold;text-align:center;font-family:sans-serif;margin:0}
+  </style>
   <!-- InstanceBeginEditable name="head" -->
-  <link href="/css/bootstrap-lightbox.min.css" rel="stylesheet">
   <!-- InstanceEndEditable -->
+  <!-- InstanceParam name="Menu" type="boolean" value="true" -->
   </head>
 
   <body>
@@ -95,9 +142,9 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
   <li>  <a href="/brp/hbrb/sun-protection.html">Sun  Protection</a>  </li>
   <li>  <a href="/brp/priority-areas/health-behaviors/hpv-vaccination.html">HPV  Vaccination</a>  </li>
   <li>  <a href="/brp/bbpsb/affective_science.html">Affect  and Emotion</a>  </li>
-  <li>  <a href="/brp/bbpsb/cognitive-changes/index.html">Cognition</a>  </li>
+  <li>  <a href="/brp/bbpsb/cognitive-changes.html">Cognition</a>  </li>
   <li>  <a href="/brp/hcirb/social-media.html">Social  Media</a>  </li>
-  <li><a href="/brp/srtb/big-data.html">Integrative Data Analysis</a> </li>
+  <li><a href="/brp/priority-areas/big-data.html">Integrative Data Analysis</a> </li>
 </ul>
                 </li>
                 <li class="dropdown">
@@ -119,7 +166,7 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
                   	<li><a href="/brp/research/index.html#pub">Publications, News, and Videos</a></li>
                   </ul>
                 </li>
-                <li class="dropdown active">
+                <li class="active dropdown">
                   <a href="/brp/about.html" class="hover-link">About BRP <b class="caret"></b></a>
                   <ul class="dropdown-menu">
                   	<li><a href="/brp/about.html#branches">Program Branches</a></li>
@@ -138,23 +185,85 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
           <div class="row-fluid">
           <div id="sidebar" class="span3">
               <div class="well sidebar-nav">
-                <ul class="nav nav-list">
-                  <li class="nav-header"><a href="/brp/about.html#brp">Behavioral Research In Cancer Prevention and Control</a></li>
-                  <li class="nav-header"><a href="/brp/about.html#branches">Program Branches</a></li>
-                  <li class="nav-header"><a href="/brp/about.html#staff">Program Staff</a></li>
-                </ul>
-              </div>
+
+                  <!-- InstanceBeginEditable name="Newsletter Menu" -->                                  
+                  <!-- InstanceEndEditable -->
+
+      <p class="comments">For questions,  comments, or suggestions for the BRP <br />
+          e-newsletter, please email <br />
+  <a href="mailto:ncidccpsbrpadvances@mail.nih.gov?subject=BRP%20e-newsletter%20feedback">NCI DCCPS BRP Scientific Advances (NIH/NCI)</a>. </p>
+  <div class="additional-text"><div id="NEI_SubForm" style="display: none">
+        <form id="frm_SubScribe" onSubmit="return Validate()" name="frm_SubScribe">
+            Use the following form to subscribe or unsubscribe from the newsletter.
+            <br />
+            <br />
+            <label for="TXT_Email">
+                Your e-mail:
+            </label>
+            <br />
+            <input type="text" name="TXT_Email" id="TXT_Email" size="28" />
+            <p>
+                <input name="RD_SubScribe" type="radio" id="RD_Sub" checked="true" value="SubScribe" />
+                <label for="RD_Sub">
+                    Subscribe</label>
+                <input name="RD_SubScribe" type="radio" id="RD_Unsub" value="UnSubScribe" />
+                <label for="RD_Unsub">
+                    Unsubscribe</label>
+            </p>
+            <p>
+                <label for="Submit" id="lyrissubmit">Submit</label>
+                    <input type="button" onClick="return SendToLyris()" name="Submit" id="Submit" value="Send" />
+                
+            </p>
+        </form>
+    </div>
+    <div id="Lyris_SubForm" style="display: block">
+        <form id="frm_SubScribe_LYRIS" name="frm_SubScribe_LYRIS" action="http://lists.icfwebservices.com/subscribe/subscribe.tml"
+            method="POST">
+
+                        <label for="email">
+                            Email:</label>
+
+                        <input type="text" name="email" id="email" value="" size="10">
+
+                        <input type="image" height="19" width="73" title="subscribe" alt="subscribe"
+                            src="http://lists.icfwebservices.com/img/english/button_subscribe.gif" name="subscribe_btn">
+
+            <input type="hidden" name="list" value="brpscientificnews">
+            <input type="hidden" name="confirm" value="none">
+            <input type="hidden" name="showconfirm" value="F">
+            <input type="hidden" name="url" value="http://cancercontrol.cancer.gov/brp/e-newsletter/thank-you.html">
+        </form>
+        <form id="frm_UNSub_LYRIS" name="frm_UNSub_LYRIS" action="http://lists.icfwebservices.com/subscribe/unsubscribe.tml"
+            method="GET">
+
+                        <label for="email">
+                            Email:</label>
+
+                        <input type="text" name="email" id="Text1" value="" size="10">
+
+                        <input type="image" height="19" width="84" title="unsubscribe" alt="unsubscribe"
+                            src="http://lists.icfwebservices.com/img/english/button_unsubscribe.gif"
+                            name="unsubscribe">
+
+            <input type="hidden" name="url" value="http://cancercontrol.cancer.gov/brp/e-newsletter/thank-you.html">
+            <input type="hidden" name="confirm" value="none">
+            <input type="hidden" name="showconfirm" value="F">
+            <input type="hidden" name="lists" value="brpscientificnews">
+        </form>
+    </div>
+	</div>
+
+            </div>
               <!--/.well -->
             <div class="newsHighlights">
             	<div>BRP Branches</div>
                 <p><a class="document" href="/brp/bbpsb/">Basic Biobehavioral and Psychological Sciences</a></p>
                 <p><a class="document" href="/brp/hbrb/">Health Behaviors</a></p>
                 <p><a class="document" href="/brp/hcirb/">Health Communication and Informatics</a></p>
-                <p><a class="document" href="/brp/srtb/">Science of Research and Technology</a></p>
                 <p><a class="document" href="/brp/tcrb/">Tobacco Control</a></p>
             </div>
-            <!-- InstanceBeginEditable name="SpecialLeftHandBox" -->
-			<!-- InstanceEndEditable -->
+
             </div>		
             <div id="content" class="span9">
                     <!-- InstanceBeginEditable name="Breadcrumbs" -->
@@ -162,14 +271,11 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
                 <div class="span12">
                   <ul class="breadcrumb">
                     <li class="home-breadcrumb"> <a href="/brp/index.html">Home</a> </li>
-                   <li class="parent">
-    <div class="heading"><a href="/brp/about.html">About BRP</a></div>       <div class="divider"><span>></span></div>
-  </li>
-                   <li class="parent">
-    <div class="heading"><a href="/brp/srtb/index.html">SRTB</a></div>       <div class="divider"><span>></span></div>
+                    <li class="parent">
+    <div class="heading"><a href="/brp/e-newsletter/index.html">Scientific News from BRP</a></div>       <div class="divider"><span>></span></div>
   </li>
                     <li class="active">
-                      <div class="heading">About Science of Research and Technology Branch (SRTB)</div>
+                      <div class="heading">Register for the Capstone Meeting of the Network on Biobehavioral Pathways in Cancer</div>
                       <div class="divider"><span>></span></div>
                     </li>
                   </ul>
@@ -178,59 +284,15 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
                 <!-- InstanceEndEditable -->
                 <div class="row-fluid">
            		  <!-- InstanceBeginEditable name="Main Content" -->
-                <div class="span12 listimage">
-                <h1>About Science of Research and Technology Branch (SRTB)</h1>
-                <div class="row-fluid">
-                	<div class="subsection span12">
-                    	<div class="program-areas-header bottom-border">Mission</div>
-                        <div class="row-fluid margin-bottom-list">
-							<p>The Science of Research and Technology Branch (SRTB) leads and supports the development and application of innovative research approaches, theories, methods, measures, analytic tools, and technologies to advance social and behavioral science in the context of cancer prevention and control.</p>
-                        </div>
-                    </div>
-                </div>
-                <div class="row-fluid">
-                	<div class="subsection span12">
-                    	<div class="program-areas-header bottom-border">Scientific priorities include, but are not limited to:</div>
-                        <div class="row-fluid margin-bottom-list">
-							<ul>
-                            	<li>Theory development, testing, and application</li>
-                                <li>Measure development and testing, particularly of antecedents to, changes in, and consequences of health behavior</li>
-                                <li>Technology development and application</li>
-                                <li>Methodological innovation, particularly in analytic approaches</li>
-                                <li>Data harmonization and research synthesis and</li>
-                                <li>Team science and cross-disciplinary approaches.</li>
-                            </ul>
-                            <p>These scientific priorities are achieved through support of grants, training programs, workshops, symposia, and conferences.</p>
-                            <p><a href="/brp/srtb/docs/NCI_DCCPS_SRTB_Flyer.pdf">Science of Research and Technology Branch (SRTB) Fact Sheet</a> (PDF), July 2014</p>
-                        </div>
-                    </div>
-                </div>
-                <div class="row-fluid">
-                	<div class="subsection span12">
-                    	<div class="program-areas-header bottom-border">Organizational Structure</div>
-                        <div class="row-fluid margin-bottom-list">
-							<ul>
-                            	<li><a href="http://staffprofiles.cancer.gov/brp/prgmStaffList.do?listCodeId=1532933&listType=stf">Meet our Staff!</a></li>
-                                <li><a href="/brp/about.html">About BRP</a></li>
-                            </ul>
-                        </div>
-                    </div>
-                </div>
-                <div class="row-fluid">
-                	<div class="subsection span12">
-                    	<div class="program-areas-header bottom-border">SRTB Grant Portfolio</div>
-                        <div class="row-fluid margin-bottom-list">
-                        	<ul>
-								<li><a href="http://maps.cancer.gov/overview/DCCPSGrants/grantlist.jsp?method=dynamic&program=brp&branch=SRTB&menu=program">Currently funded grants</a></li>
-								<li><a href="http://maps.cancer.gov/overview/DCCPSGrants/grantlist.jsp?method=dynamic&program=brp&status=archive&branch=srtb">Previously funded grants</a></li>
-                            </ul>
-                        </div>
-                    </div>
-                </div>
-        
-            </div>
-    
-               		  <!-- InstanceEndEditable -->
+                  <div class="span12">
+    <h1>Register for the Capstone Meeting of the Network on Biobehavioral Pathways in Cancer</h1>
+    <p>Five years  ago, a handful of cancer researchers with training in molecular biology,  psychology, public health, and related fields, set out to study the pathways  that link psychological, behavioral, and social factors to cancer. Of  particular interest was whether stress and other psychological phenomena caused  established tumors to progress and metastasize – and whether behaviors such as  exercise or social engagement improved cancer outcomes. The National Cancer  Institute (NCI) <a href="/brp/bbpsb/ncintwk-biopthwys.html">Network on  Biobehavioral Pathways in Cancer</a> was convened to support this emerging  transdisciplinary research area.</p>
+    <p>      On Friday,  September 16, 2016, Network researchers will gather at NCI-Shady Grove to  deliver their findings. <a href="http://www.cvent.com/events/nci-network-on-biobehavioral-pathways-in-cancer-capstone-meeting/event-summary-257064cf005f4103904f8604f066e7fb.aspx">View the  Capstone Agenda and Event Registration Page</a>. <a href="/exit_disclaimer.html"><img src="/images/Icon_External_Link.png" width="12" height="12" alt="exit disclaimer" /></a> To attend remotely via  webinar, use the <a href="https://cbiit.webex.com/mw3000/mywebex/default.do?nomenu=true&siteurl=cbiit&service=6&rnd=0.8395044879996405&main_url=https%3A%2F%2Fcbiit.webex.com%2Fec3000%2Feventcenter%2Fevent%2FeventAction.do%3FtheAction%3Ddetail%26%26%26EMK%3D4832534b00000002f3bd10746058b0b22d7be80b458203b21209b08f6fb82753adbdd456bd302892%26siteurl%3Dcbiit%26confViewID%3D3398437731%26encryptTicket%3DSDJTSwAAAAKnfardv7mJxszaEYGPi7AMg3_YcXJOxBuT1V9xIeWnoA2%26">WebEx  registration</a>. <a href="/exit_disclaimer.html"><img src="/images/Icon_External_Link.png" width="12" height="12" alt="exit disclaimer" /></a></p>
+    <p>      Small-scale  pilot projects to identify the relationship of behavior, psychology, and other  social influences to cancer biology were competitively selected for NCI support  via Leidos Biomedical Research, Inc. This culminating event on September 16  will include twelve expert presentations, a series of moderated panels, and a  lunch-hour poster session. Members of the research community are invited to  attend in-person for individual sessions or the full-day program; a webinar  option is also available for remote attendees.</p>
+    <p>      View the  Capstone Agenda and Event Registration Page at: <a href="http://www.cvent.com/events/nci-network-on-biobehavioral-pathways-in-cancer-capstone-meeting/event-summary-257064cf005f4103904f8604f066e7fb.aspx">http://www.cvent.com/d/4fqv4z</a>. <a href="/exit_disclaimer.html"><img src="/images/Icon_External_Link.png" width="12" height="12" alt="exit disclaimer" /></a> To  attend remotely via webinar, use the <a href="https://cbiit.webex.com/mw3000/mywebex/default.do?nomenu=true&siteurl=cbiit&service=6&rnd=0.8395044879996405&main_url=https%3A%2F%2Fcbiit.webex.com%2Fec3000%2Feventcenter%2Fevent%2FeventAction.do%3FtheAction%3Ddetail%26%26%26EMK%3D4832534b00000002f3bd10746058b0b22d7be80b458203b21209b08f6fb82753adbdd456bd302892%26siteurl%3Dcbiit%26confViewID%3D3398437731%26encryptTicket%3DSDJTSwAAAAKnfardv7mJxszaEYGPi7AMg3_YcXJOxBuT1V9xIeWnoA2%26">WebEx  registration</a>. <a href="/exit_disclaimer.html"><img src="/images/Icon_External_Link.png" width="12" height="12" alt="exit disclaimer" /></a></p>
+<div style="background-color:#004380; color:#fff; padding:15px;">Visit the <a href="/brp/e-newsletter/index.html" style="color:#fff;">archive page</a> to view other Scientific News from the Behavioral Research Program newsletters.</div>
+    </div>
+<!-- InstanceEndEditable -->
                               </div>
               <!--/row-->          
             </div>
@@ -273,7 +335,7 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
 </div>
        </div>
             <div class="last-updated">
-              <p class="center"><strong>Last Updated: <!-- InstanceBeginEditable name="Last Updated" -->October 2, 2015<!-- InstanceEndEditable --></strong></p>
+              <p class="center"><strong>Last Updated: <!-- InstanceBeginEditable name="Last Updated" -->September 12, 2016<!-- InstanceEndEditable --></strong></p>
        <a href="http://www.cancer.gov/contact" class="help-image"><img class="footer-help" src="/images/footer-help-logo.png" alt="help-logo" /></a><p class="can-numb"><strong>1-800-4-CANCER <br /> (1-800-422-6237)</strong></p>
      </div>
   </div><!--/row-->
@@ -367,7 +429,15 @@ $(document).ready(function(){
 
         
     <!-- InstanceBeginEditable name="Scripts" -->
-	<script src="/js/bootstrap.lightbox.min.js"></script>
+	
+	<script type="text/javascript">
+ var theObject = document.getElementById("NEI_SubForm")
+    theObject.style.display="block"
+
+ var theObject2 = document.getElementById("Lyris_SubForm")
+    theObject2.style.display="none"
+</script>
+
 	<!-- InstanceEndEditable -->
   </body>
 <!-- InstanceEnd --></html>
