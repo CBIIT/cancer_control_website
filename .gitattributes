@@ -558,6 +558,7 @@ brp/e-newsletter/may-2014.html -text
 brp/e-newsletter/notes-april-2016-funding-opportunities.html -text
 brp/e-newsletter/notes-april-2016.html -text
 brp/e-newsletter/notes-august-2016-more-spots-open.html -text
+brp/e-newsletter/notes-august-2016-webinar.html -text
 brp/e-newsletter/notes-feb-2016-expertise.html -text
 brp/e-newsletter/notes-feb-2016-interviews.html -text
 brp/e-newsletter/notes-feb-2016-sandpit.html -text
@@ -568,6 +569,7 @@ brp/e-newsletter/notes-may-2016-funding.html -text
 brp/e-newsletter/notes-may-2016-new-opportunity.html -text
 brp/e-newsletter/notes-may-2016-program-analyst.html -text
 brp/e-newsletter/notes-oct-2015.html -text
+brp/e-newsletter/notes-sept-2016-capstone.html -text
 brp/e-newsletter/oct-2015.html -text
 brp/e-newsletter/sept-2014.html -text
 brp/e-newsletter/subscribe.html -text
@@ -753,6 +755,17 @@ brp/presentations/DMSC_Speaker_Series_Malik_transcript.pdf -text
 brp/presentations/DMSC_Speaker_Series_Strusowski.pdf -text
 brp/presentations/DMSC_Speaker_Series_Strusowski.wmv -text
 brp/presentations/DMSC_Speaker_Series_Strusowski_transcript.pdf -text
+brp/priority-areas/big-data.html -text
+brp/priority-areas/docs/Executive-Summary_BigDATA.pdf -text
+brp/priority-areas/docs/NCI-Big-Data_Cobb.pdf -text
+brp/priority-areas/docs/NCI-Big-Data_Coffmann.pdf -text
+brp/priority-areas/docs/NCI-Big-Data_Collins.pdf -text
+brp/priority-areas/docs/NCI-Big-Data_Curran.pdf -text
+brp/priority-areas/docs/NCI-Big-Data_Dunton-Rivera_EMA_Dyn_Sys_Modeling.pdf -text
+brp/priority-areas/docs/NCI-Big-Data_Rivera_Dynamical_Systems_Modeling.pdf -text
+brp/priority-areas/docs/NCI-Big-Data_Rothman.pdf -text
+brp/priority-areas/docs/NCI-Big-Data_Spring-Dynamic-Interventions-to-NCI.pdf -text
+brp/priority-areas/docs/NCI-Big-Data_Tiro.pdf -text
 brp/priority-areas/health-behaviors/hpv-vaccination.html -text
 brp/priority-areas/index.html -text
 brp/research/constructs/NEMS-R.pdf -text svneol=unset#unset
@@ -842,28 +855,6 @@ brp/research/theories_project/windschitl.pdf -text
 brp/research/theories_project/wood_presentation.pdf -text
 brp/research/theories_project/zillmann_presentations.pdf -text
 brp/research/trainings.html -text
-brp/srtb/211eliminate-hd.html -text
-brp/srtb/SciTS/collaborations.html -text
-brp/srtb/SciTS/index.html -text
-brp/srtb/SciTS/study.html -text
-brp/srtb/SciTS/support.html -text
-brp/srtb/about.html -text
-brp/srtb/big-data.html -text
-brp/srtb/docs/Executive-Summary_BigDATA.pdf -text
-brp/srtb/docs/NCI-Big-Data_Cobb.pdf -text
-brp/srtb/docs/NCI-Big-Data_Coffmann.pdf -text
-brp/srtb/docs/NCI-Big-Data_Collins.pdf -text
-brp/srtb/docs/NCI-Big-Data_Curran.pdf -text
-brp/srtb/docs/NCI-Big-Data_Dunton-Rivera_EMA_Dyn_Sys_Modeling.pdf -text
-brp/srtb/docs/NCI-Big-Data_Rivera_Dynamical_Systems_Modeling.pdf -text
-brp/srtb/docs/NCI-Big-Data_Rothman.pdf -text
-brp/srtb/docs/NCI-Big-Data_Spring-Dynamic-Interventions-to-NCI.pdf -text
-brp/srtb/docs/NCI-Big-Data_Tiro.pdf -text
-brp/srtb/docs/NCI_DCCPS_SRTB_Flyer.pdf -text svneol=unset#unset
-brp/srtb/docs/SRTB-Strategic-Goals.pdf -text
-brp/srtb/index.html -text
-brp/srtb/key-initiatives.html -text
-brp/srtb/strategic-plan.html -text
 brp/tcrb/about.html -text
 brp/tcrb/ajhb_issue.html -text
 brp/tcrb/archive.html -text
@@ -1797,6 +1788,7 @@ images/nci-logo-full.png -text
 images/nci-vol-10178-150.gif -text
 images/new.gif -text
 images/nih-fda_tile.gif -text
+images/number-cancer-deaths.jpg -text
 images/ocs_banner.jpg -text
 images/ocs_flower.gif -text
 images/ocs_right.jpg -text

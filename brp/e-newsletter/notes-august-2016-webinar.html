@@ -1,36 +1,84 @@
-<!DOCTYPE html>
-<html lang="en"><!-- InstanceBegin template="/templates/BRP-about.dwt" codeOutsideHTMLIsLocked="false" -->
+﻿<!DOCTYPE html>
+<html lang="en"><!-- InstanceBegin template="/templates/BRP-newsletter.dwt" codeOutsideHTMLIsLocked="false" -->
   <head>
-<meta http-equiv="content-type" content="text/html; charset=UTF-8">
-    <meta charset="utf-8">
-    <!-- InstanceBeginEditable name="doctitle" -->
-    <title>Priority Areas - Behavioral Research Program</title>
-    <!-- InstanceEndEditable -->
-        <link rel="icon" type="image/jpeg" href="/images/favicon.ico">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta name="keywords" content="nci, dccps, Cancer Control and Population Sciences, cancer">
-    <meta name="author" content="">
-    <!-- InstanceBeginEditable name="metatags" -->
-    <meta name="description" content="" />
-	<!-- InstanceEndEditable -->
+  <meta http-equiv="content-type" content="text/html; charset=UTF-8">
+  <meta charset="utf-8">
+  <!-- InstanceBeginEditable name="doctitle" -->
+  <title>Webinar on Six Funding Opportunities in Behavioral Research now Online</title>
+  <!-- InstanceEndEditable -->
+  <link rel="icon" type="image/jpeg" href="/images/favicon.ico">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="keywords" content="nci, dccps, Cancer Control and Population Sciences, cancer">
+  <meta name="author" content="">
+  <!-- InstanceBeginEditable name="metatags" -->
+  <meta name="description" content="" />
+  <!-- InstanceEndEditable -->
+  <link href="../../css/style.css" rel="stylesheet">
+  <link href="../../css/bootstrap.css" rel="stylesheet">
+  <link href="../../css/bootstrap-responsive.css" rel="stylesheet">
+  <link href="../../css/bootstrap-nci.css" rel="stylesheet">
+  <link href="../css/brp-style.css" rel="stylesheet">
+  <link href="../../css/print.css" rel="stylesheet" media="print" />
+  
+  
+  <script type="text/javascript">
+function Validate()
+{
+	return false;
+}
 
-    <link href="../../css/style.css" rel="stylesheet">
-    <link href="../../css/bootstrap.css" rel="stylesheet">
-    <link href="../../css/bootstrap-responsive.css" rel="stylesheet">
-    <link href="../../css/bootstrap-nci.css" rel="stylesheet">
-    <link href="../css/brp-style.css" rel="stylesheet">
-    <link href="../../css/print.css" rel="stylesheet" media="print" />
+function SendToLyris()
+{
+  if (document.frm_SubScribe.TXT_Email.value == '')
+  {
+    alert ('You must enter an email address');
+    return false;
+  }
+  
+    apos=document.frm_SubScribe.TXT_Email.value.indexOf("@");
+  dotpos=document.frm_SubScribe.TXT_Email.value.lastIndexOf(".");
+  if (apos<1||dotpos-apos<2)
+    {
+		alert("You must enter a valid email address");
+    	return false;
+	}
 
-    <!-- HTML5 shim, for IE6-8 support of HTML5 elements -->
-    <!--[if lt IE 9]>
+
+  if (document.frm_SubScribe.RD_SubScribe[0].checked)
+  {
+	  document.frm_SubScribe_LYRIS.email.value = document.frm_SubScribe.TXT_Email.value;
+    document.forms.frm_SubScribe_LYRIS.submit()
+
+
+  }
+  else if (document.frm_SubScribe.RD_SubScribe[1].checked)
+  {
+	  document.frm_UNSub_LYRIS.email.value = document.frm_SubScribe.TXT_Email.value;
+    document.forms.frm_UNSub_LYRIS.submit()
+	  
+  }
+  else 
+  {
+	  alert("You must select subscribe or unsubscribe");
+  }
+//  return false;
+}
+
+
+</script>
+  
+  <!-- HTML5 shim, for IE6-8 support of HTML5 elements -->
+  <!--[if lt IE 9]>
       <script>document.createElement('footer');</script>
       <script src="/js/html5shiv.js"></script>
     <![endif]-->
-
-    <!-- Fav and touch icons -->
-  <style type="text/css" id="holderjs-style">.holderjs-fluid {font-size:16px;font-weight:bold;text-align:center;font-family:sans-serif;margin:0}</style>
+  <!-- Fav and touch icons -->
+  <style type="text/css" id="holderjs-style">
+  .holderjs-fluid {font-size:16px;font-weight:bold;text-align:center;font-family:sans-serif;margin:0}
+  </style>
   <!-- InstanceBeginEditable name="head" -->
   <!-- InstanceEndEditable -->
+  <!-- InstanceParam name="Menu" type="boolean" value="true" -->
   </head>
 
   <body>
@@ -94,9 +142,9 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
   <li>  <a href="/brp/hbrb/sun-protection.html">Sun  Protection</a>  </li>
   <li>  <a href="/brp/priority-areas/health-behaviors/hpv-vaccination.html">HPV  Vaccination</a>  </li>
   <li>  <a href="/brp/bbpsb/affective_science.html">Affect  and Emotion</a>  </li>
-  <li>  <a href="/brp/bbpsb/cognitive-changes/index.html">Cognition</a>  </li>
+  <li>  <a href="/brp/bbpsb/cognitive-changes.html">Cognition</a>  </li>
   <li>  <a href="/brp/hcirb/social-media.html">Social  Media</a>  </li>
-  <li><a href="/brp/srtb/big-data.html">Integrative Data Analysis</a> </li>
+  <li><a href="/brp/priority-areas/big-data.html">Integrative Data Analysis</a> </li>
 </ul>
                 </li>
                 <li class="dropdown">
@@ -118,7 +166,7 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
                   	<li><a href="/brp/research/index.html#pub">Publications, News, and Videos</a></li>
                   </ul>
                 </li>
-                <li class="dropdown active">
+                <li class="active dropdown">
                   <a href="/brp/about.html" class="hover-link">About BRP <b class="caret"></b></a>
                   <ul class="dropdown-menu">
                   	<li><a href="/brp/about.html#branches">Program Branches</a></li>
@@ -137,41 +185,97 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
           <div class="row-fluid">
           <div id="sidebar" class="span3">
               <div class="well sidebar-nav">
-                <ul class="nav nav-list">
-                  <li class="nav-header"><a href="/brp/about.html#brp">Behavioral Research In Cancer Prevention and Control</a></li>
-                  <li class="nav-header"><a href="/brp/about.html#branches">Program Branches</a></li>
-                  <li class="nav-header"><a href="/brp/about.html#staff">Program Staff</a></li>
-                </ul>
-              </div>
+
+                  <!-- InstanceBeginEditable name="Newsletter Menu" -->                                  
+                  <!-- InstanceEndEditable -->
+
+      <p class="comments">For questions,  comments, or suggestions for the BRP <br />
+          e-newsletter, please email <br />
+  <a href="mailto:ncidccpsbrpadvances@mail.nih.gov?subject=BRP%20e-newsletter%20feedback">NCI DCCPS BRP Scientific Advances (NIH/NCI)</a>. </p>
+  <div class="additional-text"><div id="NEI_SubForm" style="display: none">
+        <form id="frm_SubScribe" onSubmit="return Validate()" name="frm_SubScribe">
+            Use the following form to subscribe or unsubscribe from the newsletter.
+            <br />
+            <br />
+            <label for="TXT_Email">
+                Your e-mail:
+            </label>
+            <br />
+            <input type="text" name="TXT_Email" id="TXT_Email" size="28" />
+            <p>
+                <input name="RD_SubScribe" type="radio" id="RD_Sub" checked="true" value="SubScribe" />
+                <label for="RD_Sub">
+                    Subscribe</label>
+                <input name="RD_SubScribe" type="radio" id="RD_Unsub" value="UnSubScribe" />
+                <label for="RD_Unsub">
+                    Unsubscribe</label>
+            </p>
+            <p>
+                <label for="Submit" id="lyrissubmit">Submit</label>
+                    <input type="button" onClick="return SendToLyris()" name="Submit" id="Submit" value="Send" />
+                
+            </p>
+        </form>
+    </div>
+    <div id="Lyris_SubForm" style="display: block">
+        <form id="frm_SubScribe_LYRIS" name="frm_SubScribe_LYRIS" action="http://lists.icfwebservices.com/subscribe/subscribe.tml"
+            method="POST">
+
+                        <label for="email">
+                            Email:</label>
+
+                        <input type="text" name="email" id="email" value="" size="10">
+
+                        <input type="image" height="19" width="73" title="subscribe" alt="subscribe"
+                            src="http://lists.icfwebservices.com/img/english/button_subscribe.gif" name="subscribe_btn">
+
+            <input type="hidden" name="list" value="brpscientificnews">
+            <input type="hidden" name="confirm" value="none">
+            <input type="hidden" name="showconfirm" value="F">
+            <input type="hidden" name="url" value="http://cancercontrol.cancer.gov/brp/e-newsletter/thank-you.html">
+        </form>
+        <form id="frm_UNSub_LYRIS" name="frm_UNSub_LYRIS" action="http://lists.icfwebservices.com/subscribe/unsubscribe.tml"
+            method="GET">
+
+                        <label for="email">
+                            Email:</label>
+
+                        <input type="text" name="email" id="Text1" value="" size="10">
+
+                        <input type="image" height="19" width="84" title="unsubscribe" alt="unsubscribe"
+                            src="http://lists.icfwebservices.com/img/english/button_unsubscribe.gif"
+                            name="unsubscribe">
+
+            <input type="hidden" name="url" value="http://cancercontrol.cancer.gov/brp/e-newsletter/thank-you.html">
+            <input type="hidden" name="confirm" value="none">
+            <input type="hidden" name="showconfirm" value="F">
+            <input type="hidden" name="lists" value="brpscientificnews">
+        </form>
+    </div>
+	</div>
+
+            </div>
               <!--/.well -->
             <div class="newsHighlights">
             	<div>BRP Branches</div>
                 <p><a class="document" href="/brp/bbpsb/">Basic Biobehavioral and Psychological Sciences</a></p>
                 <p><a class="document" href="/brp/hbrb/">Health Behaviors</a></p>
                 <p><a class="document" href="/brp/hcirb/">Health Communication and Informatics</a></p>
-                <p><a class="document" href="/brp/srtb/">Science of Research and Technology</a></p>
                 <p><a class="document" href="/brp/tcrb/">Tobacco Control</a></p>
             </div>
-            <!-- InstanceBeginEditable name="SpecialLeftHandBox" -->
-			<!-- InstanceEndEditable -->
+
             </div>		
             <div id="content" class="span9">
                     <!-- InstanceBeginEditable name="Breadcrumbs" -->
                 <div class="row">
                 <div class="span12">
                   <ul class="breadcrumb">
-                    <li class="home-breadcrumb"> <a href="/brp/">Home</a> </li>
+                    <li class="home-breadcrumb"> <a href="/brp/index.html">Home</a> </li>
                     <li class="parent">
-    <div class="heading"><a href="/brp/about.html">About BRP</a></div>       <div class="divider"><span>></span></div>
-  </li>
-                   <li class="parent">
-    <div class="heading"><a href="/brp/srtb/index.html">SRTB</a></div>       <div class="divider"><span>></span></div>
-  </li>
-  <li class="parent">
-    <div class="heading"><a href="/brp/srtb/key-initiatives.html">Key Initiatives</a></div>       <div class="divider"><span>></span></div>
+    <div class="heading"><a href="/brp/e-newsletter/index.html">Scientific News from BRP</a></div>       <div class="divider"><span>></span></div>
   </li>
                     <li class="active">
-                      <div class="heading">Big Data</div>
+                      <div class="heading">Webinar on Six Funding Opportunities in Behavioral Research now Online</div>
                       <div class="divider"><span>></span></div>
                     </li>
                   </ul>
@@ -180,58 +284,13 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
                 <!-- InstanceEndEditable -->
                 <div class="row-fluid">
            		  <!-- InstanceBeginEditable name="Main Content" -->
-                  <div class="span12 listimage">
-    <h1>Big Data</h1>
-
-    <ul>
-      <li><a href="#background">Background</a></li>
-      <li><a href="#definition">Big Data Definition</a></li>
-      <li><a href="/brp/srtb/docs/Executive-Summary_BigDATA.pdf" target="_blank">September 2013 Big D.A.T.A. Workshop Executive Summary </a> (PDF)</li>
-      <li><a href="#presentations">September 2013 Big D.A.T.A. Workshop Executive  Presentations</a></li>
-      <li><a href="#contact">Contact</a></li>
-    </ul>
-<h2 id="background">Background</h2>
-<p>  The Science of Research and Technology Branch (SRTB) is invested in the  improvement of the scientific rigor with which health behavior theories are  tested and applied. SRTB encourages and supports the use of new data sources  and methods for theory testing. Information about behavior and its influences  from both prospective and archival collection methods is increasingly more  temporally dense and &ldquo;big&rdquo; (i.e., high in volume, variety, and velocity). These  &ldquo;big data&rdquo; require advanced analytic approaches, greater access, and more  opportunity for training and collaboration. In September 2013, SRTB developed  the <strong>Big D.A.T.A. (Data And Theory Advancement) </strong>workshop to<strong> </strong>complement  the <a href="https://datascience.nih.gov/bd2k#sthash.cYtVzHf0.dpbs">NIH Big Data to Knowledge (BD2K)</a> effort.</p>
-<p>The SRTB Big D.A.T.A. initiative convened experts in data analytics, systems  science, and theory development and testing in order to address a fundamental  question: <br />
-  <em>&ldquo;How can behavioral scientists contribute to and leverage  &ldquo;big data&rdquo; to advance health behavior theory in the context of cancer risk  reduction and improved disease outcomes?&rdquo;</em> Robust data sets and  accompanying models of dynamical systems present opportunities to substantively  test, refine, and improve health behavior theories. The goal of the SRTB Big D.A.T.A.  initiative is to stimulate new directions in theory development, testing, and  integration with the use of big data, dynamic systems modeling, and novel  measurement advances.</p>
-<h2 id="definition">Big Data Definition</h2>
-<p>  Big Data is a term that captures the opportunities and  challenges involved with accessing, managing, analyzing, and integrating  information within diverse datasets that are increasingly larger, more diverse,  and more complex. These datasets currently exceed the abilities of traditional  data management approaches.  The value of data from behavioral measures can be significantly amplified by  aggregating or integrating them with other data. <em>Adapted from: <a href="https://datascience.nih.gov/bd2k/about/what">https://datascience.nih.gov/bd2k/about/what</a>.</em></p>
-<h2><a href="/brp/srtb/docs/Executive-Summary_BigDATA.pdf" target="_blank">September 2013 Big D.A.T.A. Workshop Executive Summary </a> (PDF)</h2>
-<h2 id="presentations">September 2013 Big  D.A.T.A. Workshop Executive Presentations</h2>
-    <p><strong>Health Behavior Theory: Opportunities and Challenges</strong><br />
-      <a href="/brp/srtb/docs/NCI-Big-Data_Rothman.pdf" target="_blank">Alex Rothman, University of Minnesota</a> (PDF)<br />
-      <a href="/brp/srtb/docs/NCI-Big-Data_Tiro.pdf" target="_blank">Jasmin Tiro, University of Texas Southwestern</a> (PDF)<br />
-      Bob Evans, Google </p>
-    <p><strong>Systems Modeling: Opportunities and Challenges</strong><br />
-      Ross Hammond, The Brookings Institute <br />
-      <a href="/brp/srtb/docs/NCI-Big-Data_Rivera_Dynamical_Systems_Modeling.pdf" target="_blank">Daniel Rivera, Arizona State University </a> (PDF)<br />
-      Stephen Intille, Northeastern University </p>
-    <p><strong>Applying Dynamic Systems Modeling to Time-Intensive Data</strong><br />
-      <a href="/brp/srtb/docs/NCI-Big-Data_Dunton-Rivera_EMA_Dyn_Sys_Modeling.pdf" target="_blank">Daniel Rivera, Arizona State University, and Genevieve  Dunton, University of Southern California </a> (PDF)</p>
-    <p><strong>Social Network Data Analyses: Opportunities and  Challenges</strong><br />
-      Nosh Contractor, Northwestern University <br />
-      <a href="/brp/srtb/docs/NCI-Big-Data_Cobb.pdf" target="_blank">Nathan Cobb, MeYouHealth</a> (PDF)<br />
-      Holly Jimison, Northeastern University </p>
-    <p><strong>Big Data Mash-ups &amp; Statistical Modeling:  Opportunities and Challenges</strong><br />
-      <a href="/brp/srtb/docs/NCI-Big-Data_Curran.pdf" target="_blank">Patrick Curran, University of North Carolina at Chapel Hill </a> (PDF)<br />
-      <a href="/brp/srtb/docs/NCI-Big-Data_Coffmann.pdf" target="_blank">Donna Coffmann, Pennsylvania State University</a> (PDF)<br />
-      Eric Hekler, Arizona State University </p>
-    <p><strong>Dynamic Interventions: Opportunities and Challenges</strong><br />
-      <a href="/brp/srtb/docs/NCI-Big-Data_Collins.pdf" target="_blank">Linda Collins, Penn State University </a> (PDF)<br />
-      <a href="/brp/srtb/docs/NCI-Big-Data_Spring-Dynamic-Interventions-to-NCI.pdf" target="_blank">Bonnie Spring, Northwestern University </a> (PDF)<br />
-      Genevieve Dunton, University of Southern California </p>
-    <p><strong>Federal Panel Discussants </strong><br />
-      Wendy Nilsen, National Institutes of Health <br />
-      Misha Pavel, National Science Foundation<br />
-      Lynda Hardy, National Institutes of Nursing Research &amp;  BD2<br />
-      Damon Davis, U.S. Dept. of Health and Human Services </p>
-    <p><strong>Synopsis of &ldquo;International Workshop on New  Computationally-Enabled Theoretical Models to Support Health Behavior Change  and Maintenance&rdquo; </strong><br />
-      Donna Spruijt-Metz, University of Southern California</p>
-    <h2 id="contact">Contact</h2>
-    <p><a href="http://staffprofiles.cancer.gov/brp/prgmStaffProfile.do?contactId=1608&amp;bioType=stf">Richard    Moser</a><br />
-      240-276-6915<br />      <a href="mailto:moserr@mail.nih.gov">moserr@mail.nih.gov</a>              </p>
-                  </div>
-
+                  <div class="span12">
+    <h1>Webinar on Six Funding Opportunities in Behavioral Research now Online</h1>
+    <p>Thank you for  attending the August 12 Webinar to Address Six New Funding Opportunities in  Behavioral Research from the National Cancer Institute. The archived webinar is  now available at <a href="/funding-foa-applicants.html">http://cancercontrol.cancer.gov/funding-foa-applicants.html</a>.  For questions or comments, please email <a href="mailto:ncidccpsbrpadvances@mail.nih.gov">ncidccpsbrpadvances@mail.nih.gov</a>.</p>
+    <p>      The next  webinar will be on Wednesday, September 14, 2016, 11:00 a.m. –&nbsp;noon EST  and will focus specifically on <em>Leveraging  Cognitive Neuroscience Research to Improve Assessment of Cancer Treatment  Related Cognitive Impairment</em> <a href="http://grants.nih.gov/grants/guide/pa-files/PAR-16-212.html">PAR-16-212</a>&nbsp;(R01)  &amp;&nbsp;<a href="http://grants.nih.gov/grants/guide/pa-files/PAR-16-213.html">PAR-16-213</a>&nbsp;(R21).  Senior Scientist Dr. <a href="http://staffprofiles.cancer.gov/brp/prgmStaffProfile.do?contactId=3501713&bioType=stf">Jerry Suls</a> of the NCI Behavioral Research Program, will provide an overview of the new  funding opportunity aimed at improving the assessment of cognitive impairment  following cancer treatment for non-CNS malignancies in adults, sometimes  colloquially known as &ldquo;chemobrain.&rdquo;</p>
+    <p><a href="https://cbiit.webex.com/mw3000/mywebex/default.do?nomenu=true&siteurl=cbiit&service=6&rnd=0.8046708905630675&main_url=https%3A%2F%2Fcbiit.webex.com%2Fec3000%2Feventcenter%2Fevent%2FeventAction.do%3FtheAction%3Ddetail%26%26%26EMK%3D4832534b000000021897012c44d910f29ddea0eb794b93b614da727a3cd9cda2f8a4a0f4308cbcee%26siteurl%3Dcbiit%26confViewID%3D3397210054%26encryptTicket%3DSDJTSwAAAAJdGHIZBoQePvwEvqP77QAr9eU20mVS4bQnRtbHqf9ZBw2%26">Register for  the September 14 Webinar today!</a> <a href="/exit_disclaimer.html"><img src="/images/Icon_External_Link.png" width="12" height="12" alt="exit disclaimer" /></a>    </p>
+    <div style="background-color:#004380; color:#fff; padding:15px;">Visit the <a href="/brp/e-newsletter/index.html" style="color:#fff;">archive page</a> to view other Scientific News from the Behavioral Research Program newsletters.</div>
+    </div>
 <!-- InstanceEndEditable -->
                               </div>
               <!--/row-->          
@@ -275,7 +334,7 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
 </div>
        </div>
             <div class="last-updated">
-              <p class="center"><strong>Last Updated: <!-- InstanceBeginEditable name="Last Updated" --><span class="update">August 25, 2015</span><!-- InstanceEndEditable --></strong></p>
+              <p class="center"><strong>Last Updated: <!-- InstanceBeginEditable name="Last Updated" -->September 12, 2016<!-- InstanceEndEditable --></strong></p>
        <a href="http://www.cancer.gov/contact" class="help-image"><img class="footer-help" src="/images/footer-help-logo.png" alt="help-logo" /></a><p class="can-numb"><strong>1-800-4-CANCER <br /> (1-800-422-6237)</strong></p>
      </div>
   </div><!--/row-->
@@ -368,6 +427,16 @@ $(document).ready(function(){
 <script type="text/javascript" src="/JS/Omniture/WA_DCCPS_PageLoad.js"></script>
 
         
-    <!-- InstanceBeginEditable name="Scripts" --><!-- InstanceEndEditable -->
+    <!-- InstanceBeginEditable name="Scripts" -->
+	
+	<script type="text/javascript">
+ var theObject = document.getElementById("NEI_SubForm")
+    theObject.style.display="block"
+
+ var theObject2 = document.getElementById("Lyris_SubForm")
+    theObject2.style.display="none"
+</script>
+
+	<!-- InstanceEndEditable -->
   </body>
 <!-- InstanceEnd --></html>
