@@ -339,11 +339,11 @@
 		margin-left: 0; 
 		padding-bottom: 40px;
 	  }
-	  .publications img {
-		display: block;
+	  .carousel .item {
+		height: 260px;
 	  }
-	  .publications p {
-		padding-left: 70px; 
+	  .carousel img.splash {
+		height: 260px;
 	  }
 	  .content-bottom {
 		margin-top: 10px;  
