@@ -436,6 +436,7 @@ brp/bbpsb/docs/Tumor-Biology-Affective-Science-Presentation.pdf -text
 brp/bbpsb/docs/Vision-Research-Science-Agenda.pdf -text
 brp/bbpsb/docs/Vision-Research-Science-Workshop-Day-One_Transcript.pdf -text
 brp/bbpsb/docs/Vision-Research-Science-Workshop-Day-Two_Transcript.pdf -text
+brp/bbpsb/images/BBPSP_Fact_Sheet.jpg -text
 brp/bbpsb/images/Heuristic-framework-for-research-on-biobehavioral-risk-factor-influences-on-clinical-cancer-course.jpg -text
 brp/bbpsb/images/a_sood.jpg -text
 brp/bbpsb/images/complex.jpg -text
@@ -629,6 +630,7 @@ brp/hbrb/flashe-terms.aspx.vb -text
 brp/hbrb/flashe-webinar.html -text
 brp/hbrb/flashe.html -text
 brp/hbrb/images/FLASHE_Fact_Sheet.jpg -text
+brp/hbrb/images/Fact_Sheet.jpg -text
 brp/hbrb/images/TREC_logo.jpg -text
 brp/hbrb/images/bolger.jpg -text
 brp/hbrb/images/diet_comm.jpg -text
@@ -657,6 +659,7 @@ brp/hcirb/consumerhealth/index.html -text
 brp/hcirb/health_journal_research.html -text
 brp/hcirb/health_literacy.html -text
 brp/hcirb/hesse_cv.pdf -text
+brp/hcirb/images/Fact_Sheet.jpg -text
 brp/hcirb/images/popscigrid.jpg -text
 brp/hcirb/index.html -text
 brp/hcirb/key_initiatives.html -text
@@ -757,6 +760,7 @@ brp/priority-areas/docs/NCI-Big-Data_Spring-Dynamic-Interventions-to-NCI.pdf -te
 brp/priority-areas/docs/NCI-Big-Data_Tiro.pdf -text
 brp/priority-areas/health-behaviors/hpv-vaccination.html -text
 brp/priority-areas/index.html -text
+brp/research/211eliminate-hd.html -text
 brp/research/constructs/NEMS-R.pdf -text svneol=unset#unset
 brp/research/constructs/NEWS.pdf -text svneol=unset#unset
 brp/research/constructs/about-project.html -text
@@ -913,6 +917,7 @@ brp/tcrb/images/1.jpg -text
 brp/tcrb/images/2.jpg -text
 brp/tcrb/images/3.jpg -text
 brp/tcrb/images/4.jpg -text
+brp/tcrb/images/Fact_Sheet.jpg -text
 brp/tcrb/images/china-no-smoking-restaurant.jpg -text
 brp/tcrb/images/china-us-personnel.jpg -text
 brp/tcrb/images/espanolIcon.jpg -text
@@ -2583,9 +2588,11 @@ research-emphasis/global_health/images/footer.jpg -text
 research-emphasis/global_health/images/global_newsletter.gif -text
 research-emphasis/hd-contacts.html -text
 research-emphasis/health-disparities.html -text
+research-emphasis/images/bibbins-domingo.jpg -text
 research-emphasis/images/galea.jpg -text
 research-emphasis/images/ginsburg.jpg -text
 research-emphasis/images/khoury.jpg -text
+research-emphasis/images/riley.jpg -text
 research-emphasis/index.html -text
 research-emphasis/patterns-of-care.html -text
 research-emphasis/precision-medicine.html -text
