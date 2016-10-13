@@ -1666,6 +1666,7 @@ images/breadcrumb-divider-parents.png -text
 images/breadcrumb-divider.png -text
 images/breast-cancer-genomic-type-thumb.gif -text
 images/breast-cancer-genomic-type.gif -text
+images/breast-cancer-incidence-2008-2012.jpg -text
 images/breast_imaging.jpg -text
 images/brp-tree.gif -text
 images/brp_staff.jpg -text
@@ -1846,6 +1847,7 @@ images/twitter-bk.png -text
 images/twitter-icon.gif -text
 images/twitter-icon.png -text
 images/us_commit_global_health_cover.gif -text
+images/video-icon.png -text
 images/win-logo.gif -text
 images/wss-class-2012-thumbnail.jpg -text
 images/wss-class-2012.jpg -text
@@ -2305,6 +2307,8 @@ od/w_klein.html -text
 od/winn_cv.pdf -text
 pdf/ASCO-Survivorship-Care-Plan.pdf -text svneol=unset#unset
 pdf/Chambers-Presentation.pdf -text
+pdf/Cognitive_Neuroscience_FOA.pdf -text
+pdf/Cognitive_Neuroscience_webinar_transcript.pdf -text
 pdf/DCCPS-by-the-Numbers-FY-14-Progress-Report.pdf -text svneol=unset#unset
 pdf/FOA-webinar.pdf -text
 pdf/Galea_Slides.pdf -text
