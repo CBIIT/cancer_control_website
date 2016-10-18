@@ -1,0 +1,232 @@
+/* BASE = Base styles, variables, mixens, etc...*/
+/* General */
+/* Modules = Individual site compoentents*/
+
+body {
+    z-index:1;
+}
+
+#dv_results {
+    margin-left:0px;
+}
+
+.chkbox_label {
+        display: block;
+    margin-left: 20px !important;
+}
+
+.Checkbox_CancerSite {
+        float: left;
+    margin-left: -20px !important;
+    margin-right: 7px !important;
+    display:block;
+
+}
+.hiddenlabel {
+  position: absolute;
+  left: -5000px; }
+
+.width-50 {
+  width: 50%; }
+
+.width-75 {
+  width: 75%; }
+
+.width-85 {
+  width: 85%; }
+
+.width-90 {
+  width: 90%; }
+
+.width-100 {
+  width: 100%; }
+
+.linkbutton {
+  background: none !important;
+  border: none;
+  padding: 0 !important;
+  font: inherit;
+  cursor: pointer;
+  color: #007dbc; }
+  .linkbutton:hover {
+    text-decoration: underline;
+    color: #5a5a5a; }
+
+  
+#BTN_Export {
+    background-color: #007dbc;
+    background-image: none;
+    border: medium none;
+    color: #ffffff;
+    margin-top: -10px;
+    padding: 5px 15px;
+}
+#dv_counters {
+  margin-top: 5px;
+  margin-bottom: 10px; }
+
+#BTN_Search_Pubs {
+  margin-top: -8px; }
+
+.BTN_Search_Pubs_resultsPage {
+  margin-left: -11%; }
+
+.fl {
+  float: left;
+  display: inline-block;
+  width: 40%; }
+  @media (max-width: 767px) {
+    .fl {
+      width: 20%; } }
+
+.fr {
+  float: right;
+  display: inline-block;
+  width: 58%; }
+  @media (max-width: 767px) {
+    .fr {
+      width: 78%; } }
+
+.header-row {
+  width: 98%;
+  margin-left: 1%;
+  margin-bottom: 1em;
+  border-bottom: solid 1px #eeeeee; }
+  @media (max-width: 767px) {
+    .header-row {
+      width: 96%;
+      margin-left: 2%; } }
+
+#srch_rsults_top {
+  margin-top: 15px; }
+
+#numberofitemsfound {
+  padding-left: 0px; }
+
+#dv_filterOptions {
+    /*label {
+    font-weight: bold;
+}*/ }
+  @media (max-width: 767px) {
+    #dv_filterOptions {
+      padding-left: 15px; } }
+  #dv_filterOptions select {
+    width: 280px; }
+  #dv_filterOptions .dropdownfilter {
+    width: auto; }
+  #dv_filterOptions .filterLabel {
+    font-weight: bold;
+    padding-top:5px;
+  }
+
+#ItemsCount {
+  text-align: right;
+  min-height: 0px; }
+  #ItemsCount label {
+    display: inline; }
+  #ItemsCount #select_itemsperpage {
+    width: auto; }
+  @media (max-width: 767px) {
+    #ItemsCount {
+      padding: 0 15px; } }
+
+#LINK_Export_Dyn {
+  font-size: 1.25em; }
+
+@media (max-width: 767px) {
+  #dv_results li {
+    padding-right: 25px; } }
+#dv_results h3 {
+  line-height: 115%;
+  font-weight: 400;
+  margin-bottom: 0px; }
+
+#row_yearsfilter {
+  margin-left: 0px; }
+
+#divLink_export {
+  margin-top: 5px;
+  text-align: right; }
+
+.disabled_Nav_Links {
+  color: gray;
+  text-decoration: none; }
+  .disabled_Nav_Links:hover {
+    color: gray;
+    text-decoration: none; }
+
+.ENabled_Nav_Links {
+  color: #007dbc;
+  text-decoration: none; }
+  .ENabled_Nav_Links:hover {
+    color: #007dbc;
+    text-decoration: underline; }
+
+#TXT_SRCH {
+  padding-right: 30px; 
+   height: auto;
+}
+
+#navigation_Panel_RWB {
+  width: 100%;
+  text-align: center;
+    /*#dv_prev {
+
+    }*/ }
+  #navigation_Panel_RWB a {
+    font-size: 1.3em;
+    margin-right: 2em; }
+
+#HR_divider_RWB {
+  margin-top: 0px;
+  margin-bottom: 0px; }
+
+.filters-section {
+  display: block; }
+  @media (max-width: 767px) {
+    .filters-section {
+      display: none; } }
+
+#filters-btn {
+  display: none;
+  background-color: #00649A;
+  color: white;
+  background-image: none;
+  border: none;
+  box-shadow: none;
+  text-shadow: none;
+  z-index: 1; }
+  @media (max-width: 767px) {
+    #filters-btn {
+      display: inline-block; } }
+  #filters-btn:after {
+    content: "\2329";
+    transform: rotate(-90deg);
+    -webkit-transform: rotate(-90deg);
+    display: inline-block;
+    margin-left: 10px;
+    position: relative;
+    bottom: -3px;
+    transition: all .3s;
+    -webkit-transition: all .3s; }
+
+.filters-btn-active:after {
+  content: "\2329";
+  transform: rotate(90deg) !important;
+  -webkit-transform: rotate(90deg) !important;
+  bottom: 3px !important; }
+
+#div_TopNav_rwb {
+    display:none;
+}
+
+#navigation_Panel_RWB {
+    display:none;
+
+}
+
+
+
+#header-search input[type="text"] {
+    height: 42px;
+}
