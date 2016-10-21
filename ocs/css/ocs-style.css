@@ -109,6 +109,10 @@
 	list-style-image: url(../../images/tiny-arrow-ocs.png);
 }
 
+.lightbox-content .lightbox-caption {
+    margin-bottom: 9px;
+}
+
 @media (min-width: 767px) {
 	#header-search {
     	top: -110px;
