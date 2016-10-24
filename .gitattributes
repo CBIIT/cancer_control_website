@@ -1,6 +1,8 @@
 * text=auto !eol
 /404.html -text
 /AC_RunActiveContent.js -text
+App_Code/DB_Helper.vb -text
+App_Code/jquerydata.vb -text
 /DI-PAR-Orientation-Web-Posting-082806.pdf -text svneol=unset#unset
 /FLVPlayer_Progressive.swf -text
 /Halo_Skin_3.swf -text
