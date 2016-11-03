@@ -398,6 +398,18 @@ blockquote p {
   display: inline;
 }
 
+.modal {
+	position:fixed;
+    top: 10%;
+    z-index: 1050;
+    width:100%;
+	left:0;
+	right:0;
+	margin-left:auto;
+	margin-right:auto;
+	overflow:auto;
+	height: auto;
+}
 
 @media (max-width: 767px) {
     #sidebar {
@@ -413,9 +425,17 @@ blockquote p {
 	.breadcrumb {
 		margin-left:0px;
 	}
+	
 }
-
+@media (min-width: 979px) {
+.modal {
+    top: 10%;
+    z-index: 1050;
+    width: 960px;
+}
+}
 @media (max-width: 979px) {
+
 	
 .navbar-inner:before, .navbar-inner:after { padding-top:5px; }
 
