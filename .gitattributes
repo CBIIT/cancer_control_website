@@ -2340,6 +2340,7 @@ od/vision.html -text
 od/w_klein.html -text
 od/winn_cv.pdf -text
 pdf/ASCO-Survivorship-Care-Plan.pdf -text svneol=unset#unset
+pdf/Bibbin_Domingo-Presentation.pdf -text
 pdf/Chambers-Presentation.pdf -text
 pdf/Cognitive_Neuroscience_FOA.pdf -text
 pdf/Cognitive_Neuroscience_webinar_transcript.pdf -text
@@ -2352,6 +2353,7 @@ pdf/Khoury_Slides.pdf -text
 pdf/NCI_DCCPS_50_Ways.pdf -text
 pdf/RFAWebX.pdf -text
 pdf/RFA_Webinar_Transcript.pdf -text
+pdf/Riley-Presentation.pdf -text
 pdf/nci-tobacco-control-research-priorities-rpt-feb-2016.pdf -text
 pdf/ntrp0077.pdf -text
 /pie.htc -text
@@ -2629,7 +2631,9 @@ research-emphasis/health-disparities.html -text
 research-emphasis/images/bibbins-domingo.jpg -text
 research-emphasis/images/galea.jpg -text
 research-emphasis/images/ginsburg.jpg -text
+research-emphasis/images/hampel.jpg -text
 research-emphasis/images/khoury.jpg -text
+research-emphasis/images/knowles.jpg -text
 research-emphasis/images/riley.jpg -text
 research-emphasis/index.html -text
 research-emphasis/patterns-of-care.html -text
