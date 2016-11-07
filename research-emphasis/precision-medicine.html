@@ -189,12 +189,12 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
                 <div class="span12">
   <h1>Precision Medicine and Population Health</h1>
                       <ul class="nav nav-tabs">
-    					<li class="active"><a href="#background" data-toggle="tab">Background</a></li>
-                        <li><a href="#resources" data-toggle="tab">Resources</a></li>
-    					<li><a href="#publications" data-toggle="tab">Publications</a></li>
-                        <li id="stafftab"><a href="#staff" data-toggle="tab">Staff Listing</a></li>
-                        <li><a href="#research" data-toggle="tab">Research Opportunities</a></li>
-                        <li><a href="#events" data-toggle="tab"> Events</a></li>
+    					<li id="background-tab" class="active"><a href="#background" data-toggle="tab">Background</a></li>
+                        <li id="resources-tab"><a href="#resources" data-toggle="tab">Resources</a></li>
+    					<li id="publications-tab"><a href="#publications" data-toggle="tab">Publications</a></li>
+                        <li id="staff-tab"><a href="#staff" data-toggle="tab">Staff Listing</a></li>
+                        <li id="research-tab"><a href="#research" data-toggle="tab">Research Opportunities</a></li>
+                        <li id="events-tab"><a href="#events" data-toggle="tab"> Events</a></li>
     				  </ul>
                       <div id="TabContent" class="tab-content">
                       	<div id="background" class="tab-pane active">
@@ -346,8 +346,7 @@ In this session, we will  explore how &ldquo;precision&rdquo; public health appr
     <p><a href="../pdf/Riley-Presentation.pdf" target="_blank">Dr.  William Riley&rsquo;s presentation (PDF)<br />
     </a></p>
     <p><a href="../pdf/Bibbin_Domingo-Presentation.pdf" target="_blank">Dr.  Kirsten Bibbins-Domingo&rsquo;s presentation (PDF)</a></p>
-    <p>The Precision Medicine and Population Health (PMPH)  Interest Group in the Division of Cancer Control and Population Sciences at the  National Cancer Institute invites you to join Dr. William Riley and Dr. Kirsten  Bibbins-Domingo for the webinar, &quot;Precision Medicine and Population  Health: Beyond Genomics.&quot; </p>
-                         <p>In this session Dr. Riley will lead with a  presentation on precision medicine discussing its scope &ldquo;beyond genes, drugs  and diseases&rdquo; followed by Dr. Bibbins-Domingo discussing the concept of  precision public health as it has evolved recently as a result of a &ldquo;precision  public health summit&rdquo; sponsored by the Gates foundation at the University of  California at San Francisco in June 2016. The webinar will conclude with time  for discussion and Q&amp;A.</p>
+    <p>In this session Dr.  Riley  lead with a presentation on  precision medicine discussing its scope &ldquo;beyond genes, drugs and diseases&rdquo;  followed by Dr. Bibbins-Domingo discussing the concept of precision public  health as it has evolved recently as a result of a &ldquo;precision public health  summit&rdquo; sponsored by the Gates foundation at the University of California at  San Francisco in June 2016.</p>
                          <div class="row-fluid listimage">
                           <div class="span6">
                             <p><img width="142" height="192" src="images/riley.jpg" alt="William Riley, PhD" /></p>
@@ -378,7 +377,6 @@ In this session, we will  explore how &ldquo;precision&rdquo; public health appr
                           </div>
                       </div>
 
-                         <p>Questions? Please  contact <a href="mailto:NCIPrecMedPopHealth@mail.nih.gov">NCIPrecMedPopHealth@mail.nih.gov</a></p>
                 	</div>
                 	</div>
                 	</div>
@@ -551,7 +549,7 @@ In this session, we will  explore how &ldquo;precision&rdquo; public health appr
           </div>
            </div>
        <div class="last-updated">
-       <p class="center"><strong>Last Updated: <!-- InstanceBeginEditable name="Last Updated" -->September 27, 2016<!-- InstanceEndEditable --></strong></p>
+       <p class="center"><strong>Last Updated: <!-- InstanceBeginEditable name="Last Updated" -->November 7, 2016<!-- InstanceEndEditable --></strong></p>
        <a href="https://www.cancer.gov/contact" class="help-image"><img class="footer-help" src="/images/footer-help-logo.png" alt="help-logo" /></a><p class="can-numb"><strong>1-800-4-CANCER <br /> (1-800-422-6237)</strong></p>
        </div>
        </div><!--/row-->
@@ -639,6 +637,18 @@ $(document).ready(function(){
     <script src="../js/respond.min.js"></script>
 <script type="text/javascript" src="/JS/Omniture/WA_DCCPS_PageLoad.js"></script>
     <!-- InstanceBeginEditable name="Scripts" -->
+    <script type='text/javascript'>
+        $( document ).ready(function() {
+            var url = document.location.toString();
+			if (url.match('#')) {
+	
+				var urlhash = "#" + url.split('#')[1];
+				var urlhashtab = urlhash + "-tab";
+    			$('.nav-tabs a[href="' + urlhash + '"]').tab('show');
+			} ; 
+			$( urlhashtab ).addClass( "active" );
+        });
+    </script>	
 	<script src="/js/patient-centered.js"></script>
 		<script src="/js/jquery.rwdImageMaps.min.js"></script>
     <script>
