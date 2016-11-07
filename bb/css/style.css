@@ -660,11 +660,11 @@ img.right { float:right; padding:1em; }
   -ms-transform: translateX(-50%) scale(0);
   -o-transform: translateX(-50%) scale(0);
   transform: translateX(-50%) scale(0);
-  background: url("/bb/img/cd-icon-arrow-mobile.svg") no-repeat center center;
+  background: url("/bb/images/cd-icon-arrow-mobile.svg") no-repeat center center;
 }
 @media only screen and (min-width: 1170px) {
   .projects-container .cd-scroll {
-    background-image: url("/bb/img/cd-icon-arrow-desktop.svg");
+    background-image: url("/bb/images/cd-icon-arrow-desktop.svg");
   }
 }
 

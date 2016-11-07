@@ -1527,6 +1527,8 @@ css/bootstrap-nci.css -text
 css/bootstrap-responsive.css -text
 css/bootstrap.css -text
 css/bootstrap3.min.css -text
+css/buttons.dataTables.min.css -text
+css/datatables.min.css -text
 css/homepage.css -text
 css/native-style.css -text
 css/ncintwk-biopthwys.css -text
@@ -1863,17 +1865,23 @@ js/Omniture/s_code.js -text
 js/bootstrap.lightbox.min.js -text
 js/bootstrap.min.js -text
 js/bootstrap3.min.js -text
+js/buttons.flash.min.js -text
+js/dataTables.buttons.min.js -text
+js/datatables.min.js -text
 js/holder.js -text
 js/html5shiv.js -text
 js/jquery-1.10.1.min.js -text
 js/jquery-1.10.2.min.js -text
+js/jquery-1.12.4.min.js -text
 js/jquery-2.2.2.min.js -text
 js/jquery.cycle.all.latest.js -text
 js/jquery.rwdImageMaps.min.js -text
+js/jszip.min.js -text
 js/modernizr.min.js -text
 js/navigation-bootstrap3.js -text
 js/ocs-wheel.js -text
 js/patient-centered.js -text
+js/pdfmake.min.js -text
 js/respond.min.js -text
 js/responsive-tables.js -text
 js/twitter.js -text
@@ -2332,6 +2340,7 @@ od/vision.html -text
 od/w_klein.html -text
 od/winn_cv.pdf -text
 pdf/ASCO-Survivorship-Care-Plan.pdf -text svneol=unset#unset
+pdf/Bibbin_Domingo-Presentation.pdf -text
 pdf/Chambers-Presentation.pdf -text
 pdf/Cognitive_Neuroscience_FOA.pdf -text
 pdf/Cognitive_Neuroscience_webinar_transcript.pdf -text
@@ -2344,6 +2353,7 @@ pdf/Khoury_Slides.pdf -text
 pdf/NCI_DCCPS_50_Ways.pdf -text
 pdf/RFAWebX.pdf -text
 pdf/RFA_Webinar_Transcript.pdf -text
+pdf/Riley-Presentation.pdf -text
 pdf/nci-tobacco-control-research-priorities-rpt-feb-2016.pdf -text
 pdf/ntrp0077.pdf -text
 /pie.htc -text
@@ -2621,7 +2631,9 @@ research-emphasis/health-disparities.html -text
 research-emphasis/images/bibbins-domingo.jpg -text
 research-emphasis/images/galea.jpg -text
 research-emphasis/images/ginsburg.jpg -text
+research-emphasis/images/hampel.jpg -text
 research-emphasis/images/khoury.jpg -text
+research-emphasis/images/knowles.jpg -text
 research-emphasis/images/riley.jpg -text
 research-emphasis/index.html -text
 research-emphasis/patterns-of-care.html -text
