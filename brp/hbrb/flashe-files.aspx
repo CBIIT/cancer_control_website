@@ -46,7 +46,7 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
 	</div> <!-- end skipmenu -->
     
 	<div id="header-nci">
-    	    <a href="http://cancercontrol.cancer.gov/"> <img alt="National Cancer Institute" src="../../images/dccps-logo.png"> </a>
+    	    <a href="/"> <img alt="National Cancer Institute" src="../../images/dccps-logo.png"> </a>
     </div>
     <div id="header">
       <div id="cancercontrol-banner">
@@ -261,7 +261,7 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
       <li><strong>Where can  I find information on sampling procedures?</strong><br>
         You can download the <a href="#Methods">methodology report and data user&rsquo;s guide</a>.</li>
       <li><strong>Where can I find information about dyadic analysis?</strong><br>
-        Go  to the <a href="http://cancercontrol-stage.icfwebservices.com/brp/hbrb/flashe-dyadic-analysis.aspx">dyadic  analysis resource</a> page or view an <a href="http://cancercontrol-stage.icfwebservices.com/brp/hbrb/flashe-webinar.html">introductory  webinar</a>. </li>
+        Go  to the <a href="/brp/hbrb/flashe-dyadic-analysis.aspx">dyadic  analysis resource</a> page or view an <a href="/brp/hbrb/flashe-webinar.html">introductory  webinar</a>. </li>
     </ol>
     
         </div></div>

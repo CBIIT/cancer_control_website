@@ -46,7 +46,7 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
 	</div> <!-- end skipmenu -->
     
 	<div id="header-nci">
-    	    <a href="http://cancercontrol.cancer.gov/"> <img alt="National Cancer Institute" src="../../images/dccps-logo.png"> </a>
+    	    <a href="/"> <img alt="National Cancer Institute" src="../../images/dccps-logo.png"> </a>
     </div>
     <div id="header">
       <div id="cancercontrol-banner">
@@ -176,7 +176,7 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
       <li>Analyses  of large FLASHE domains usually produce reliable estimates, but analyses of  small domains may yield unreliable estimates, as indicated by their large  variances. The analyst should pay particular attention to the standard error  and coefficient of variation (relative standard error) for estimates of means,  proportions, and totals, and the analyst should report these when writing up  results. It is important that the analyst realizes that small sample sizes for  particular analyses will tend to result in unstable estimates. </li>
       <li>You  may receive periodic email updates from the FLASHE administrators.    </li>
     </ul>
-    <p>Other  related FLASHE documentation including survey, survey sources, codebook and  data user guide can be found at: <a href="/brp/hbrb/flashe.html">http://cancercontrol.cancer.gov/brp/hbrb/flashe.html </a></p>
+    <p>Other  related FLASHE documentation including survey, survey sources, codebook and  data user guide can be found at: <a href="/brp/hbrb/flashe.html">https://cancercontrol.cancer.gov/brp/hbrb/flashe.html </a></p>
     <p>
         <asp:CheckBox ID="chkAcceptTerm" runat="server" />
         <asp:Label ID="Label2" runat="server" AssociatedControlID="chkAcceptTerm" Text=" Marking this box indicates that I agree to comply with the above stated provisions."></asp:Label>
