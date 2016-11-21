@@ -164,8 +164,7 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
   <li>A short introduction to dyadic analysis  (<a href="/brp/hbrb/flashe-webinar.html">webinar</a>)</li>
 </ul>
 <h3>FLASHE-specific dyadic-analysis resources</h3>
-<ul><li>  FLASHE Dyadic constructs table &ndash; Diet (PDF) -  coming soon</li>
-  <li>    FLASHE Dyadic constructs table &ndash; Physical  activity (PDF)   -  coming soon</li>
+<ul>
   <li>    FLASHE Dyadic Analysis User&rsquo;s Guide and  Sample Code (<a href="docs/FLASHE-Dyadic-Data-Users-Guide.pdf">PDF</a>)</li>
 </ul>
 <h3>Acknowledgements</h3>
@@ -220,7 +219,7 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
              </div><!--/span-->
 </div>
             <div class="last-updated">
-              <p class="center"><strong>Last Updated: June 17, 2016</strong></p>
+              <p class="center"><strong>Last Updated: November 18, 2016</strong></p>
        <a href="https://www.cancer.gov/contact" class="help-image"><img class="footer-help" src="/images/footer-help-logo.png" alt="help-logo" /></a><p class="can-numb"><strong>1-800-4-CANCER <br /> (1-800-422-6237)</strong></p>
                 </div>
        </div><!--/row-->
