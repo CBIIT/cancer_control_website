@@ -202,7 +202,7 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
       <li>Item source and  reference list - Physical activity (<a href="docs/item-source-and-reference-list-physical-activity.pdf" target="_blank">PDF</a>)</li>
       </ul>
     <h2 id="Dyadic">Dyadic analysis resources</h2>
-    <p>FLASHE data can be used to conduct individual- or  dyadic-level analyses. Go to the <a href="/brp/hbrb/flashe-dyadic-analysis.aspx">dyadic  analysis resource</a> page or view an <a href="/brp/hbrb/flashe-webinar.html">introductory  webinar</a>.    </p>
+    <p>FLASHE data can be used to conduct individual- or dyadic-level analyses. The <a href="/brp/hbrb/flashe-dyadic-analysis.aspx">dyadic  analysis resource</a> page and <a href="/brp/hbrb/flashe-webinar.html">introductory  webinar</a> provide information on conducting dyadic analyses with FLASHE data.</p>
     <h2 id="Papers">FLASHE projects</h2>
 <p><strong>FLASHE Data Users &ndash; we want to hear from you!</strong> We encourage you to let  us know how you are using the FLASHE data by emailing <a href="mailto:nciflashe@mail.nih.gov">nciflashe@mail.nih.gov</a>. Your  responses, for example: a brief description of the project, or list of  presentations or manuscripts, will help us understand how the data are being  used and will not be shared with the public.</p>
 <h2 id="Contacts">Contacts</h2>
@@ -313,7 +313,7 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
              </div><!--/span-->
 </div>
             <div class="last-updated">
-              <p class="center"><strong>Last Updated: June 17, 2016</strong></p>
+              <p class="center"><strong>Last Updated: November 18, 2016</strong></p>
        <a href="https://www.cancer.gov/contact" class="help-image"><img class="footer-help" src="/images/footer-help-logo.png" alt="help-logo" /></a><p class="can-numb"><strong>1-800-4-CANCER <br /> (1-800-422-6237)</strong></p>
                 </div>
        </div><!--/row-->
