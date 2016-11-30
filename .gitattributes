@@ -14,12 +14,14 @@ IS/docs/Character_Strong_Dis_Implement_Access.doc -text
 IS/docs/ConsolidatedFinalReport.doc -text
 IS/docs/DAChambers-CV.pdf -text
 IS/docs/ExecSummaryCTIWGMtg.doc -text
+IS/docs/Klesges-CV.pdf -text
 IS/docs/WE-Norton-CV.pdf -text
 IS/docs/dod_PCP_presentation.ppt -text
 IS/docs/dod_clanton.ppt -text
 IS/docs/dod_dialogue_summary.ppt -text
 IS/docs/dod_introduction.ppt -text
 IS/e-newsletter/thank-you.html -text
+IS/funding-webinars.html -text
 IS/funding.html -text
 IS/images/S-Heurtin-Roberts.jpg -text
 IS/images/SCPtitle_header.gif -text
@@ -57,10 +59,13 @@ IS/images/is_funding_banner.jpg -text
 IS/images/is_research_banner.jpg -text
 IS/images/is_training_banner.jpg -text
 IS/images/jordan-tompkins.jpg -text
+IS/images/lisa-klesges.jpg -text
+IS/images/mindy-clyne.jpg -text
 IS/images/nci.jpg -text
 IS/images/nih-is-header-mobile.jpg -text
 IS/images/percy-laurry.jpg -text
 IS/images/planet-tile.jpg -text
+IS/images/prajakta-adsul.jpg -text
 IS/images/publications-banner.jpg -text
 IS/images/r2r-icon.png -text
 IS/images/r2r.png -text
@@ -137,10 +142,13 @@ IS/presentations/R2RGoing_to_scale_Glasgow_Sanchez.pdf -text
 IS/presentations/R2R_goingtoscale.pdf -text
 IS/presentations/Vinson-AEA-10-26-12-Using-REAIM.pdf -text svneol=unset#unset
 IS/staff.html -text
+IS/staff/Adsul.html -text
 IS/staff/Bernal.html -text
+IS/staff/Clyne.html -text
 IS/staff/Farrell.html -text
 IS/staff/Heurtin-Roberts.html -text
 IS/staff/Kennedy.html -text
+IS/staff/Klesges.html -text
 IS/staff/Neta.html -text
 IS/staff/Norton.html -text
 IS/staff/Percy-Laurry.html -text
@@ -151,7 +159,6 @@ IS/tools/index.html -text
 IS/tools/partnerships.html -text
 IS/tools/practice.html -text
 IS/tools/research.html -text
-IS/training-education/appendix-a.html -text
 IS/training-education/index.html -text
 Scripts/AC_RunActiveContent.js -text
 Scripts/expressInstall.swf -text
@@ -488,7 +495,6 @@ brp/docs/HCIRBPD.pdf -text
 brp/docs/HCIRB_PD.pdf -text
 brp/docs/Memoriam_SabraWooley.pdf -text
 brp/docs/NCI_Network_Factsheet.pdf -text
-brp/docs/OAD_analyst.pdf -text
 brp/docs/SGA_8562335.pdf -text
 brp/docs/SGA_8568274.pdf -text
 brp/docs/SGA_8574995.pdf -text
