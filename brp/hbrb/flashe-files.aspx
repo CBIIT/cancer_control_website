@@ -182,8 +182,11 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
       <li>Download parent  demographic data (<a href="/brp/hbrb/docs/Parent-Demographic-SAS.zip">SAS</a>, <a href="/brp/hbrb/docs/Parent-Demographic-SPSS.zip">SPSS</a>)</li>
       <li>Download parent diet data  (<a href="/brp/hbrb/docs/Parent-Diet-SAS.zip">SAS</a>, <a href="/brp/hbrb/docs/Parent-Diet-SPSS.zip">SPSS</a>)</li>
       <li>Download parent  physical activity data (coming soon!) </li>
+      </ul>
+    <p>A  multiply imputed dataset is provided to facilitate analyses with eight  variables in the parent physical activity survey that had a high percent of  missing data. More information can be found in the FLASHE data users guide and methodology report.</p>
+    <ul>
+      <li>Download  multiple imputation dataset (coming soon!)</li>
     </ul>
-
 <h2 id="Survey">Survey instruments</h2>
     <ul>
       <li>Adolescent demographic survey instrument  (<a href="/brp/hbrb/docs/Teen_Demo_PUF_Instrument.pdf" target="_blank">PDF</a>)</li>
@@ -313,7 +316,7 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
              </div><!--/span-->
 </div>
             <div class="last-updated">
-              <p class="center"><strong>Last Updated: November 18, 2016</strong></p>
+              <p class="center"><strong>Last Updated: December 12, 2016</strong></p>
        <a href="https://www.cancer.gov/contact" class="help-image"><img class="footer-help" src="/images/footer-help-logo.png" alt="help-logo" /></a><p class="can-numb"><strong>1-800-4-CANCER <br /> (1-800-422-6237)</strong></p>
                 </div>
        </div><!--/row-->
