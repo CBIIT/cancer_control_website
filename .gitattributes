@@ -1237,6 +1237,30 @@ brp/tcrb/monographs/20/mono20addhtml.htm -text
 brp/tcrb/monographs/20/mono20dropin.htm -text
 brp/tcrb/monographs/20/mono20email.htm -text
 brp/tcrb/monographs/20/monograph20.html -text
+brp/tcrb/monographs/21/docs/m21_1.pdf -text
+brp/tcrb/monographs/21/docs/m21_10.pdf -text
+brp/tcrb/monographs/21/docs/m21_11.pdf -text
+brp/tcrb/monographs/21/docs/m21_12.pdf -text
+brp/tcrb/monographs/21/docs/m21_13.pdf -text
+brp/tcrb/monographs/21/docs/m21_14.pdf -text
+brp/tcrb/monographs/21/docs/m21_15.pdf -text
+brp/tcrb/monographs/21/docs/m21_16.pdf -text
+brp/tcrb/monographs/21/docs/m21_17.pdf -text
+brp/tcrb/monographs/21/docs/m21_2.pdf -text
+brp/tcrb/monographs/21/docs/m21_3.pdf -text
+brp/tcrb/monographs/21/docs/m21_4.pdf -text
+brp/tcrb/monographs/21/docs/m21_5.pdf -text
+brp/tcrb/monographs/21/docs/m21_6.pdf -text
+brp/tcrb/monographs/21/docs/m21_7.pdf -text
+brp/tcrb/monographs/21/docs/m21_8.pdf -text
+brp/tcrb/monographs/21/docs/m21_9.pdf -text
+brp/tcrb/monographs/21/docs/m21_complete.pdf -text svneol=unset#unset
+brp/tcrb/monographs/21/docs/m21_exec_sum.pdf -text
+brp/tcrb/monographs/21/docs/m21_front_matter.pdf -text
+brp/tcrb/monographs/21/docs/m21_statistical_annex.pdf -text
+brp/tcrb/monographs/21/images/mono20cover.jpg -text
+brp/tcrb/monographs/21/index.html -text
+brp/tcrb/monographs/21/monograph21.html -text
 brp/tcrb/monographs/3/index.html -text
 brp/tcrb/monographs/3/m3_acknowledgment.pdf -text svneol=unset#unset
 brp/tcrb/monographs/3/m3_appendixa.pdf -text
@@ -1473,6 +1497,8 @@ brp/tcrb/tus-cps/results/data9899/table3.csv -text
 brp/tcrb/tus-cps/results/data9899/table3.html -text
 brp/tcrb/tus-cps/results/data9899/table4.csv -text
 brp/tcrb/tus-cps/results/data9899/table4.html -text
+brp/tcrb/tus-cps/surveys/A1_TUS-CPS-Questionnaire.docx -text
+brp/tcrb/tus-cps/surveys/A1_TUS-CPS-Questionnaire.pdf -text
 brp/tcrb/tus-cps/surveys/tus-cps_may2011_follow-up.doc -text
 brp/tcrb/tus-cps/surveys/tus-cps_may2011_follow-up.pdf -text
 brp/tcrb/tus-cps/surveys/tuscps_english_2010.doc -text
@@ -1909,6 +1935,7 @@ js/responsive-tables.js -text
 js/twitter.js -text
 locks/db-logs.lock -text
 locks/db.lock -text
+lynch-syndrome-workshop/index.html -text
 mli/400x215.flv -text
 mli/48342_v14.swf -text
 mli/Abstract_Submission_Guidelines.pdf -text
