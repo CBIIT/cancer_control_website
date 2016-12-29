@@ -330,7 +330,7 @@
                     </div>
                     <!--/span-->
                     <div class="span3">
-                        <p class="footer-header"><a href="http://grants.nih.gov/grants/guide/pa-files/PAR-14-260.html">Funding Opportunity (PAR-14-260)</a></p>
+                        <p class="footer-header"><a href="https://grants.nih.gov/grants/guide/pa-files/PAR-14-260.html">Funding Opportunity (PAR-14-260)</a></p>
                     </div>
                     <!--/span-->
                     <div class="span3">
@@ -387,7 +387,7 @@
                         <li><a href="/help.html">Help</a></li>
                     </ul>
                     <ul>
-                        <li><a href="http://www.hhs.gov/">U.S. Department of Health and Human Services</a></li>
+                        <li><a href="https://www.hhs.gov/">U.S. Department of Health and Human Services</a></li>
                         <li>|</li>
                         <li><a href="https://www.nih.gov/">National Institutes of Health</a></li>
                         <li>|</li>

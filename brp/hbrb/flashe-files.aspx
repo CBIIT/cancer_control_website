@@ -102,7 +102,7 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
                   	<li><a href="/brp/funding/index.html#apply">Apply for Grants</a></li>
                   	<li><a href="/brp/funding/index.html#sample">Sample  Grant Applications</a></li>
                   	<li><a href="/brp/funding/index.html#resources">Grantee Resources</a></li>
-                  	<li><a href="http://staffprofiles.cancer.gov/brp/granteeList.do">Featured Grantees</a></li>
+                  	<li><a href="https://staffprofiles.cancer.gov/brp/granteeList.do">Featured Grantees</a></li>
 </ul>
                 </li>
                 <li class="dropdown">
@@ -210,17 +210,17 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
 <p><strong>FLASHE Data Users &ndash; we want to hear from you!</strong> We encourage you to let  us know how you are using the FLASHE data by emailing <a href="mailto:nciflashe@mail.nih.gov">nciflashe@mail.nih.gov</a>. Your  responses, for example: a brief description of the project, or list of  presentations or manuscripts, will help us understand how the data are being  used and will not be shared with the public.</p>
 <h2 id="Contacts">Contacts</h2>
     <p>For more  information about the Family Life, Activity, Sun, Health, and Eating (FLASHE)  study, please contact: </p>
-    <p><a href="http://staffprofiles.cancer.gov/brp/prgmStaffProfile.do?contactId=1612&bioType=stf">Linda Nebeling, Ph.D.,  M.P.H., R.D</a>.<br>
+    <p><a href="https://staffprofiles.cancer.gov/brp/prgmStaffProfile.do?contactId=1612&bioType=stf">Linda Nebeling, Ph.D.,  M.P.H., R.D</a>.<br>
       Deputy Associate Director<br>
       Behavioral Research  Program<br>
       National Cancer Institute<br>
   <a href="mailto:linda.nebeling@nih.gov">linda.nebeling@nih.gov</a></p>
-<p><a href="http://staffprofiles.cancer.gov/brp/prgmStaffProfile.do?contactId=1439602&bioType=stf">April Oh, Ph.D., M.P.H</a>.<br>
+<p><a href="https://staffprofiles.cancer.gov/brp/prgmStaffProfile.do?contactId=1439602&bioType=stf">April Oh, Ph.D., M.P.H</a>.<br>
   Program Director<br>
   Health Communication and  Informatics Research Branch<br>
   National Cancer Institute<br>
   <a href="mailto:april.oh@nih.gov">april.oh@nih.gov</a></p>
-<p><a href="http://staffprofiles.cancer.gov/brp/prgmStaffProfile.do?contactId=6098881&bioType=flw">Laura Dwyer,  Ph.D.</a><br>
+<p><a href="https://staffprofiles.cancer.gov/brp/prgmStaffProfile.do?contactId=6098881&bioType=flw">Laura Dwyer,  Ph.D.</a><br>
   <a href="mailto:laura.dwyer@nih.gov">laura.dwyer@nih.gov</a></p>
 
 <h2 id="FAQ">FAQ</h2>
@@ -338,7 +338,7 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
                 <li><a href="/help.html">Help</a></li>
               </ul>
               <ul>
-                <li><a href="http://www.hhs.gov/">U.S. Department of Health and Human Services</a></li>
+                <li><a href="https://www.hhs.gov/">U.S. Department of Health and Human Services</a></li>
                 <li>|</li>
                 <li><a href="https://www.nih.gov/">National Institutes of Health</a></li>
                 <li>|</li>
