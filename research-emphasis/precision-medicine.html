@@ -163,6 +163,7 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
                   <li class="nav-header"><a href="/research-emphasis/quality-of-care.html">Patient-centered Communication &amp; Care Coordination</a></li>
                   <li class="nav-header"><a href="/research-emphasis/patterns-of-care.html">Patterns of Care</a></li>
                   <li class="nav-header"><a href="/research-emphasis/precision-medicine.html">Precision Medicine and Population Health </a></li>
+                  <li class="nav-header"><a href="/research-emphasis/lynch-syndrome.html">Prevention and Early Detection for Hereditary Cancer Syndromes</a></li>
                 </ul>
               </div>
               <!--/.well -->
@@ -189,7 +190,7 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
                 <div class="row-fluid">        		<!-- InstanceBeginEditable name="Main Content" -->
                 <div class="span12">
   <h1>Precision Medicine and Population Health</h1>
-                      <ul class="nav nav-tabs">
+                      <ul class="nav nav-tabs" id="tabs">
     					<li id="background-tab" class="active"><a href="#background" data-toggle="tab">Background</a></li>
                         <li id="resources-tab"><a href="#resources" data-toggle="tab">Resources</a></li>
     					<li id="publications-tab"><a href="#publications" data-toggle="tab">Publications</a></li>
@@ -565,6 +566,7 @@ In this session, we will  explore how &ldquo;precision&rdquo; public health appr
 <p><a href="/research-emphasis/quality-of-care.html">Patient-centered Communication &amp; Care Coordination</a></p>
 <p><a href="/research-emphasis/patterns-of-care.html">Patterns of Care</a></p>
 <p><a href="/research-emphasis/precision-medicine.html">Precision Medicine and Population Health</a></p>
+<p><a href="/research-emphasis/lynch-syndrome.html">Prevention and Early Detection for Hereditary Cancer Syndromes</a></p>
             </div>
              <!--/span-->
           </div>
@@ -681,6 +683,11 @@ $(document).ready(function(){
 		$('img[usemap]').rwdImageMaps();
 	});
 	
+	jQuery("#tabs").on("click", "a", function (e) {
+    	var href = this.href;
+    	window.location.hash = $(this).attr('href');
+    	e.preventDefault();
+	});
 	</script>
 	<!-- InstanceEndEditable -->
   </body>
