@@ -1261,6 +1261,7 @@ brp/tcrb/monographs/21/docs/m21_complete.pdf -text svneol=unset#unset
 brp/tcrb/monographs/21/docs/m21_exec_sum.pdf -text
 brp/tcrb/monographs/21/docs/m21_front_matter.pdf -text
 brp/tcrb/monographs/21/docs/m21_statistical_annex.pdf -text
+brp/tcrb/monographs/21/docs/monograph-flyer.pdf -text
 brp/tcrb/monographs/21/images/mono20cover.jpg -text
 brp/tcrb/monographs/21/index.html -text
 brp/tcrb/monographs/21/monograph21.html -text
@@ -2402,8 +2403,10 @@ pdf/DCCPS-by-the-Numbers-FY-14-Progress-Report.pdf -text svneol=unset#unset
 pdf/FOA-webinar.pdf -text
 pdf/Galea_Slides.pdf -text
 pdf/Ginsburg-Presentation.pdf -text
+pdf/Hampel-Lynch-Syndrome-Universal-Screening.pdf -text
 pdf/IRINAH-Spring-2016-newsletter.pdf -text
 pdf/Khoury_Slides.pdf -text
+pdf/Knowles-FH-cascade.pdf -text
 pdf/NCI_DCCPS_50_Ways.pdf -text
 pdf/RFAWebX.pdf -text
 pdf/RFA_Webinar_Transcript.pdf -text
@@ -2676,6 +2679,7 @@ research-emphasis/global_health/e-newsletter/2015-sept.html -text
 research-emphasis/global_health/e-newsletter/2016-jan.html -text
 research-emphasis/global_health/e-newsletter/2016-may.html -text
 research-emphasis/global_health/e-newsletter/2016-sept.html -text
+research-emphasis/global_health/e-newsletter/2017-jan.html -text
 research-emphasis/global_health/gh-archive.html -text
 research-emphasis/global_health/images/banner.jpg -text
 research-emphasis/global_health/images/footer.jpg -text
