@@ -67,7 +67,7 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
 
         <div class="navbar navbar-inverse">
         <div id="header-search">
-		<form method="get" action="http://search2.google.cit.nih.gov/search" name="search">
+		<form method="get" action="https://barney2.cit.nih.gov/search" name="search">
   	  <input type="hidden" name="site" value="DCCPS" />
   	  <input type="hidden" name="client" value="DCCPS_frontend" />
   	  <input type="hidden" name="proxystylesheet" value="DCCPS_frontend" />
@@ -153,7 +153,7 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
             <li class="nav-header"><a href="/brp/tcrb/tus-cps/translation/">TUS-CPS Translations into Other Languages</a></li>
             <li class="nav-header"><a href="/brp/tcrb/tus-cps/workshops/2009/">2009 Users' Workshop</a></li>
             <li class="nav-header"><a href="/brp/tcrb/tus-cps/workshops/2007/">2007 Users' Workshop</a></li>
-            <li class="nav-header"><a href="/brp/tcrb/tus-cps/TUS-CPS_fact_sheet.pdf" target="_blank">TUS-CPS Fact Sheet (PDF, 152 KB)</a></li>
+            <li class="nav-header"><a href="/brp/tcrb/tus-cps/TUS-CPS_fact_sheet.pdf" target="_blank">TUS-CPS Fact Sheet (PDF, 156 KB)</a></li>
 </ul>
               </div>
               <!--/.well -->
@@ -210,7 +210,185 @@ or other Web pages for these publications will be provided in the search results
       
       
 </div>
-           		  <!-- InstanceEndEditable -->
+
+<div class="component with_mult_opt">
+<span class="ps_varname"><label for="topic">Topic:</label></span> <span class="explanation">(hold CTRL while clicking to select multiple options, or to de-select an option)</span><br>
+<select multiple name="topic" id="topic" size="7">
+  <option value="RISK_ASSESS">Cancer Risk Assessment &amp; Prediction
+  <option value="GPR">Guidance &amp; Policy Research
+  <option value="ASSESS_RF">Methods for Assessing Risk Factors
+  <option value="MONITOR_RF">Monitoring Risk Factors
+  <option value="RES_METH">Research Methodology
+  <option value="TOBACCO">Tobacco
+  <option value="T_YA">&nbsp; &nbsp; &nbsp; Tobacco - Adolescent &amp; Young Adult
+  <option value="T_ATTITUDES">&nbsp; &nbsp; &nbsp; Tobacco - Attitudes
+  <option value="T_HEALTH_DIS">&nbsp; &nbsp; &nbsp; Tobacco - Health Disparities
+  <option value="T_ADVICE">&nbsp; &nbsp; &nbsp; Tobacco - Health Professional Advice
+  <option value="T_HOME_RESTR">&nbsp; &nbsp; &nbsp; Tobacco - Home Smoking Restrictions
+  <option value="T_COHORT">&nbsp; &nbsp; &nbsp; Tobacco - Longitudinal/Cohort Studies
+  <option value="T_MENTHOL">&nbsp; &nbsp; &nbsp; Tobacco - Menthol Cigarettes
+  <option value="T_MODELING">&nbsp; &nbsp; &nbsp; Tobacco - Modeling
+  <option value="T_OCCUP">&nbsp; &nbsp; &nbsp; Tobacco - Occupation
+  <option value="T_PRODUCTS">&nbsp; &nbsp; &nbsp; Tobacco - Other Tobacco Products
+  <option value="T_PROG_EVAL">&nbsp; &nbsp; &nbsp; Tobacco - Program Evaluation
+  <option value="T_QUIT">&nbsp; &nbsp; &nbsp; Tobacco - Quit Attempts/Smoking Cessation
+  <option value="T_CTRL_POL">&nbsp; &nbsp; &nbsp; Tobacco - Tobacco Control Policies
+  <option value="T_CTRL_PROG">&nbsp; &nbsp; &nbsp; Tobacco - Tobacco Control Programs
+  <option value="T_SECOND">&nbsp; &nbsp; &nbsp; Tobacco - Second-hand Smoke Exposure
+  <option value="T_SMOKELESS">&nbsp; &nbsp; &nbsp; Tobacco - Smokeless Tobacco
+  <option value="T_INIT">&nbsp; &nbsp; &nbsp; Tobacco - Smoking Initiation
+  <option value="T_WORK_RESTR">&nbsp; &nbsp; &nbsp; Tobacco - Workplace Smoking Restrictions
+</select>
+<br>&ensp; <input type="radio" name="topicOpt" id="topicopt_or"  value='or' checked> <label for="topicopt_or">OR</label>
+<br>&ensp; <input type="radio" name="topicOpt" id="topicopt_and" value='and'> <label for="topicopt_and">AND</label>
+</div>
+
+<div class="component with_mult_opt">
+<span class="ps_varname"><label for="site">Tumor Site:</label></span> <span class="explanation">(hold CTRL while clicking to select multiple options, or to de-select an option)</span><br>
+<select multiple name="site" id="site" size="3">
+  <option value="[BLANK]">All sites or no specific site
+  <option value="HEADNECK">Head and Neck
+  <option value="LUNG">Lung
+</select>
+<br>&ensp; <input type="radio" name="siteOpt" id="siteopt_or"  value='or' checked> <label for="siteopt_or">OR</label>
+<br>&ensp; <input type="radio" name="siteOpt" id="siteopt_and" value='and'> <label for="siteopt_and">AND</label>
+</div>
+
+<div class="component">
+<span class="ps_varname"><label for="kw">Keywords:</label></span> <span class="explanation"><a href="/brp/tcrb/tus-cps/help.html#keyword_author_title" target="_blank">(how this works)</a></span><br>
+<select name="kwOpt" id="kwopt" size="1" title="Choose how strict your search for keywords must be">
+  <option value="or" selected>at least one of these words:
+  <option value="and">all of these words:
+  <option value="exact">this exact phrase:
+</select>
+<input type="text" name="kw" id="kw" value="" size="30">
+</div>
+
+<div class="component">
+<span class="ps_varname"><label for="auth">Author:</label></span> <span class="explanation"><a href="/brp/tcrb/tus-cps/help.html#keyword_author_title" target="_blank">(how this works)</a></span><br>
+<select name="authOpt" size="1" title="Choose how strict your search for author names must be">
+  <option value="or">at least one of these words:
+  <option value="and" selected>all of these words:
+  <option value="exact">this exact phrase:
+</select>
+<input type="text" name="auth" id="auth" value="" size="30">
+</div>
+
+<div class="component">
+<span class="ps_varname"><label for="title">Title:</label></span> <span class="explanation"><a href="/brp/tcrb/tus-cps/help.html#keyword_author_title" target="_blank">(how this works)</a></span><br>
+<select name=titleOpt size="1" title="Choose how strict your search for title words must be">
+  <option value="or" selected>at least one of these words:
+  <option value="and">all of these words:
+  <option value="exact">this exact phrase:
+</select>
+<input type="text" name="title" id="title" value="" size="30">
+</div>
+
+<div class="component">
+<span class="ps_varname">Date Published:</span>
+<span class="explanation">(if searching by month, publications without a month will <u>NOT</u> be listed)</span>
+</div>
+
+<div class="component">
+<div class="indent"><span class="ps_varname"><label for="yrbegin">Start Year:</label></span>
+<input type="text" name="yrBegin" id="yrbegin" value="" size=5>
+<span class="ps_varname" style="margin-left:0.5em;"><label for="mobegin">Month:</label></span>
+<select name="moBegin" id="mobegin">
+  <option value=""></option>
+  <option value="01">January</option>
+  <option value="02">February</option>
+  <option value="03">March</option>
+  <option value="04">April</option>
+  <option value="05">May</option>
+  <option value="06">June</option>
+  <option value="07">July</option>
+  <option value="08">August</option>
+  <option value="09">September</option>
+  <option value="10">October</option>
+  <option value="11">November</option>
+  <option value="12">December</option>
+</select>
+</div>
+</div>
+
+<div class="component">
+<div class="indent">&ensp; <span class="ps_varname"><label for="yrend">End Year:</label></span>
+<input type=text name="yrEnd" id="yrend" value="" size=5>
+<span class="ps_varname" style="margin-left:0.5em;"><label for="moend">Month:</label></span>
+<select name="moEnd" id="moend">
+  <option value=""></option>
+  <option value="01">January</option>
+  <option value="02">February</option>
+  <option value="03">March</option>
+  <option value="04">April</option>
+  <option value="05">May</option>
+  <option value="06">June</option>
+  <option value="07">July</option>
+  <option value="08">August</option>
+  <option value="09">September</option>
+  <option value="10">October</option>
+  <option value="11">November</option>
+  <option value="12">December</option>
+</select>
+</div>
+</div>
+
+<div class="component">
+<span class="ps_varname"><label for="searchOpt">Search Options:</label></span>
+<span class="explanation"><a href="/brp/tcrb/tus-cps/help.html#multiple_fields">(how this works)</a></span><br>
+<input type=radio name="searchOpt" id="searchopt_and" value='and' checked><label for="searchopt_and">All fields must match the search criteria</label><br>
+<input type=radio name="searchOpt" id="searchopt_or"  value='or'><label for="searchopt_or">At least one field must match search criteria</label>
+</div>
+</div>
+</div>
+
+<div class="ps_formbox_container">
+<div class="ps_formbox">
+<div class="heading">Display Options</div>
+
+<div class="component">
+<span class="ps_varname"># Entries to display:</span>
+<input type="radio" name="EntryLimit" id="entrylimit_10"  value="10">        <label class="ps_form_radio" for="entrylimit_10" >10</label>
+<input type="radio" name="EntryLimit" id="entrylimit_25"  value="25">        <label class="ps_form_radio" for="entrylimit_25" >25</label>
+<input type="radio" name="EntryLimit" id="entrylimit_50"  value="50">        <label class="ps_form_radio" for="entrylimit_50" >50</label>
+<input type="radio" name="EntryLimit" id="entrylimit_100" value="100">       <label class="ps_form_radio" for="entrylimit_100">100</label>
+<input type="radio" name="EntryLimit" id="entrylimit_all" value="0" checked> <label class="ps_form_radio" for="entrylimit_all">All</label>
+</div>
+
+<div class="component">
+<span class="ps_varname"><label for="sortorder">Sort by:</label></span>
+<select name="sortOrder" id="sortorder">
+  <option value="date,author" selected="selected">Date, First Author
+  <option value="author">First Author
+  <option value="title">Title
+</select>
+</div>
+
+<div class="component">
+<input type="checkbox" name="showAbstract" id="showabstract" value='1'> <label for="showabstract">Display abstracts (if available)</label>
+</div>
+</div>
+</div>
+
+<input type=submit value=" Search "  name="submit">
+<input type=reset  value=" Reset " name="reset">
+</form>
+                <!-- End Main Content -->
+            </div>
+            <div class="span3 newsHighlights listimage">
+<h2>Items of Interest</h2>
+<ul>
+<li><a href="http://thedataweb.rm.census.gov/ftp/cps_ftp.html#cpssupps">Publicly  released data files: 2014-2015</a></li>
+<li><a href="http://www.cancermeetings.org/TUSCPSWebinar/presentations.cfm">Sept. 17 2013 TUS-CPS Webinar Presentations &amp; Recordings</a> <a href="/exit_disclaimer.html"><img src="/images/Icon_External_Link.png" width="12" height="12" alt="exit disclaimer" /></a></li>
+<li><a href="http://www.rwjf.org/en/library/research/2009/01/cigarette-smoking-prevalence-and-policies-in-50-states.html">Chartbook: Cigarette Smoking Prevalence &amp; Policies in 50 States</a> <a href="/exit_disclaimer.html"><img src="/images/Icon_External_Link.png" width="12" height="12" alt="exit disclaimer" /></a>
+  <ul>
+  <li><a href="http://www.impacteen.org/tobaccodata.htm">Accompanying codebook &amp; more information</a> <a href="/exit_disclaimer.html"><img src="/images/Icon_External_Link.png" width="12" height="12" alt="exit disclaimer" /></a></li>
+  </ul>
+</li>
+</ul>
+</div>
+
+<!-- InstanceEndEditable -->
                               </div>
               <!--/row-->          
             </div>
@@ -253,7 +431,7 @@ or other Web pages for these publications will be provided in the search results
 </div>
        </div>
             <div class="last-updated">
-              <p class="center"><strong>Last Updated: <!-- InstanceBeginEditable name="Last Updated" -->June 11, 2014<!-- InstanceEndEditable --></strong></p>
+              <p class="center"><strong>Last Updated: <!-- InstanceBeginEditable name="Last Updated" -->November 29, 2016<!-- InstanceEndEditable --></strong></p>
        <a href="https://www.cancer.gov/contact" class="help-image"><img class="footer-help" src="/images/footer-help-logo.png" alt="help-logo" /></a><p class="can-numb"><strong>1-800-4-CANCER <br /> (1-800-422-6237)</strong></p>
      </div>
   </div><!--/row-->
