@@ -390,6 +390,6 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
 
 	</script>
     <script src="../../js/respond.min.js"></script>
-<script type="text/javascript" src="/JS/Omniture/WA_DCCPS_PageLoad.js"></script>
+<script type="text/javascript" src="https://static.cancer.gov/webanalytics/WA_DCCPS_PageLoad.js"></script>
   </body>
 </html>
