@@ -1,0 +1,2911 @@
+
+@import "https://fonts.googleapis.com/css?family=Roboto+Condensed";
+footer {
+    background: #123e57 url("https://www.cancer.gov/publishedcontent/images/images/design-elements/background-graphics/hexagon_molecular_structure_footer.png") no-repeat scroll -30% 150px;
+    color: white;
+    padding: 1em 0;
+}
+footer h2 {
+    color: white;
+    font-family: Arial,sans-serif;
+    font-size: 1em;
+    font-weight: normal;
+    margin-bottom: 1em;
+    text-transform: uppercase;
+}
+footer a, footer a:hover, footer a:focus {
+    color: white;
+    font-weight: 700;
+}
+footer a:hover, footer a:focus {
+    text-decoration: underline;
+}
+footer .row {
+    margin: 1em auto;
+}
+footer li {
+    line-height: 1.1em;
+    margin-bottom: 1em;
+}
+footer .icon {
+    display: inline-block;
+}
+footer .icon.facebook {
+    background: rgba(0, 0, 0, 0) url("/images/nci-sprite.png") no-repeat scroll -132px -155px;
+    height: 17px;
+    width: 8px;
+}
+footer .icon.twitter {
+    background: rgba(0, 0, 0, 0) url("/images/nci-sprite.png") no-repeat scroll -123px -200px;
+    height: 16px;
+    width: 19px;
+}
+footer .icon.instagram {
+    background: rgba(0, 0, 0, 0) url("/images/nci-sprite.png") no-repeat scroll -125px -467px;
+    height: 18px;
+    width: 18px;
+}
+footer .icon.googleplus {
+    background: rgba(0, 0, 0, 0) url("/images/nci-sprite.png") no-repeat scroll -123px -245px;
+    height: 19px;
+    width: 19px;
+}
+footer .icon.pinterest {
+    background: rgba(0, 0, 0, 0) url("/images/nci-sprite.png") no-repeat scroll -127px -290px;
+    height: 19px;
+    width: 15px;
+}
+footer .icon.youtube {
+    background: rgba(0, 0, 0, 0) url("/images/nci-sprite.png") no-repeat scroll -126px -335px;
+    height: 21px;
+    width: 18px;
+}
+footer .icon.linkedin {
+    background: rgba(0, 0, 0, 0) url("/images/nci-sprite.png") no-repeat scroll -127px -425px;
+    height: 14px;
+    width: 14px;
+}
+footer .icon.rss {
+    background: rgba(0, 0, 0, 0) url("/images/nci-sprite.png") no-repeat scroll -127px -380px;
+    height: 16px;
+    width: 16px;
+}
+footer .icon.govdelivery {
+    background: rgba(0, 0, 0, 0) url("/images/nci-sprite.png") no-repeat scroll -126px -518px;
+    height: 18px;
+    width: 18px;
+}
+@media only screen and (max-width: 640px) {
+footer {
+    background-position: -120% 150px;
+}
+}
+@media only screen and (min-width: 641px) and (max-width: 1024px) {
+footer {
+    background-position: 130% 150px;
+}
+}
+.follow-us {
+    margin: 0.5em 0;
+}
+.follow-us li {
+    float: left;
+    margin-bottom: 0;
+    margin-left: 0;
+    margin-right: 0.9em;
+    text-indent: 0;
+}
+.follow-us img:hover, .follow-us img:focus {
+    opacity: 0.9;
+}
+.agencies {
+    clear: both;
+}
+.agencies ul {
+    text-align: center;
+}
+.agencies li {
+    background: rgba(0, 0, 0, 0) url("https://www.cancer.gov/publishedcontent/images/images/design-elements/background-graphics/agencies-divider.gif") no-repeat scroll right center;
+    display: inline-block;
+    margin-right: 0.25em;
+    padding-right: 0.5em;
+}
+.agencies li.last {
+    background: rgba(0, 0, 0, 0) none repeat scroll 0 0;
+    margin-right: 0;
+    padding-right: 0;
+}
+.tagline {
+    text-align: center;
+}
+@media only screen and (max-width: 1024px) {
+.footer-utility .columns {
+    width: 100%;
+}
+.agencies ul {
+    text-align: left;
+}
+.agencies ul li {
+    background: rgba(0, 0, 0, 0) none repeat scroll 0 0;
+    display: block;
+    margin-right: 0;
+    padding-right: 0;
+}
+}
+.main-content {
+    background: #f7f8f3 url("https://www.cancer.gov/publishedcontent/images/images/design-elements/background-graphics/hexagon_molecular_structure_body.png") no-repeat scroll 110% 600px;
+    padding: 0;
+}
+.main-content a {
+    color: #2b7bba;
+}
+.main-content a:hover, .main-content a:focus {
+    text-decoration: underline;
+}
+@media only screen and (max-width: 640px) {
+.main-content {
+    background: rgba(0, 0, 0, 0) none repeat scroll 0 0;
+}
+}
+.general-page-body-container a:hover, .general-page-body-container a:focus {
+    text-decoration: underline;
+}
+a.definition, a.definition:hover, a.definition:focus {
+    border-bottom: thin dotted;
+    color: #2e2e2e;
+    text-decoration: none;
+}
+a.definition:hover, a.definition:focus {
+    border-bottom: thin solid;
+}
+.general-page-body-container {
+    background: #fffffb none repeat scroll 0 0;
+    box-shadow: 10px 0 10px -7px rgba(0, 0, 0, 0.5), -10px 0 10px -7px rgba(0, 0, 0, 0.5);
+    padding-bottom: 1.5em;
+}
+.no-boxshadow .general-page-body-container {
+    border-left: 1px solid #cfd0cb;
+    border-right: 1px solid #cfd0cb;
+}
+.contentzone:first-child {
+    width: 100%;
+}
+@media only screen and (min-width: 1025px) {
+.contentzone {
+    padding-right: 3.125em;
+}
+.contentzone:first-child {
+    padding-left: 3.125em;
+}
+}
+footer .back-to-top {
+    bottom: 1em;
+    color: #2e2e2e;
+    display: none;
+    font-weight: bold;
+    padding: 10px 5px 0;
+    position: fixed;
+    right: 0.5em;
+    text-align: center;
+    text-decoration: none;
+    text-shadow: -1px -1px 0 #fff, 1px -1px 0 #fff, -1px 1px 0 #fff, 1px 1px 0 #fff;
+    z-index: 998;
+}
+footer .back-to-top::before {
+    background-color: #fff;
+    border: 4px solid #7fd0d1;
+    border-radius: 50%;
+    color: #7fd0d1;
+    content: "?";
+    display: block;
+    font-family: Flaticon;
+    font-size: 30px;
+    height: 55px;
+    line-height: 0.85;
+    padding: 10px;
+}
+footer .back-to-top:hover, footer .back-to-top:focus {
+    color: #2e2e2e;
+    text-decoration: none;
+}
+footer .back-to-top:hover::before {
+    background-position: -389px -80px;
+}
+.featured-zone {
+    background-color: #14819b;
+    margin-right: -1em;
+    overflow: hidden;
+    padding: 1em;
+}
+.featured-zone, .featured-zone h1, .featured-zone h2, .featured-zone h3, .featured-zone h4, .featured-zone .related-resources h6, .related-resources .featured-zone h6, .featured-zone a {
+    color: white;
+}
+.toc-container {
+    margin-right: -2em;
+    padding: 1em;
+}
+@media only screen and (max-width: 1024px) {
+.toc-container {
+    display: none;
+}
+.feature-zone-image img {
+    display: block;
+    margin: 0 auto;
+}
+.featured-zone {
+    margin-right: 0;
+}
+}
+@media only screen and (max-width: 640px) {
+.back-to-top {
+    display: none !important;
+}
+}
+#my-toc {
+    background-color: #fff;
+    overflow: hidden;
+    padding: 25px 0 30px 35px;
+}
+#my-toc h2 {
+    color: #606060;
+    font-size: 1.5em;
+    margin: 0 0 10px;
+}
+#my-toc h4, #my-toc .related-resources h6, .related-resources #my-toc h6 {
+    display: none;
+}
+#my-toc ul {
+    color: #2b7bba;
+    list-style-type: disc;
+    margin: 0 1em;
+}
+#my-toc li {
+    line-height: 20px;
+    margin-bottom: 5px;
+    margin-left: 0;
+    padding-left: 0;
+}
+#my-toc ul a {
+    color: #2b7bba;
+    font-weight: bold;
+}
+@media only screen and (min-width: 1025px) {
+#my-toc {
+    margin: 10px 0 0 10px;
+}
+}
+ol {
+    list-style-type: decimal;
+}
+ol.lower-alpha {
+    list-style-type: lower-alpha;
+}
+ol.lower-roman {
+    list-style-type: lower-roman;
+}
+ol.upper-alpha {
+    list-style-type: upper-alpha;
+}
+ol.upper-roman {
+    list-style-type: upper-roman;
+}
+.contentzone ul, .contentzone ol, .rawHtml ul, .rawHtml ol {
+    margin-bottom: 1em;
+}
+.contentzone ol li, .rawHtml ol li {
+    margin-left: 38px;
+}
+.contentzone li, .rawHtml li {
+    margin-bottom: 0.5em;
+    margin-left: 28px;
+    margin-top: 0.5em;
+}
+.contentzone li li, .rawHtml li li {
+    margin-left: 32px;
+}
+.contentzone ul.no-bullets > li, .contentzone ol.no-bullets > li, .rawHtml ul.no-bullets > li, .rawHtml ol.no-bullets > li {
+    margin-bottom: 30px;
+    margin-left: 0;
+    margin-top: 30px;
+}
+.contentzone ul.no-description > li, .contentzone ul.no-description > li {
+    margin-bottom: 4px;
+    margin-top: 4px;
+}
+.contentzone ul > li, .rawHtml ul > li {
+    list-style-type: none;
+}
+.contentzone ul > li::before, .rawHtml ul > li::before {
+    content: "•";
+    display: inline;
+    float: left;
+    font-size: 1.1em;
+    left: -0.5em;
+    line-height: 0.909091em;
+    margin: 0 -0.2em;
+    position: relative;
+    top: 0.25em;
+}
+ul.slick-dots, ul.no-bullets, .contentzone ul.no-bullets, .rawHtml ul.no-bullets, .card ul, ul.collaborators {
+    padding: 0;
+}
+ul.slick-dots > li, ul.no-bullets > li, .contentzone ul.no-bullets > li, .rawHtml ul.no-bullets > li, .card ul > li, ul.collaborators > li {
+    background: rgba(0, 0, 0, 0) none repeat scroll 0 0;
+    list-style-type: none;
+    padding: 0;
+}
+ul.slick-dots > li::before, ul.no-bullets > li::before, .contentzone ul.no-bullets > li::before, .rawHtml ul.no-bullets > li::before, .card ul > li::before, ul.collaborators > li::before {
+    content: none;
+    display: none;
+}
+ul.slick-dots ul, ul.no-bullets ul, .contentzone ul.no-bullets ul, .rawHtml ul.no-bullets ul, .card ul ul, ul.collaborators ul {
+    margin: 5px 0 8px;
+}
+ul.slick-dots ul > li, ul.no-bullets ul > li, .contentzone ul.no-bullets ul > li, .rawHtml ul.no-bullets ul > li, .card ul ul > li, ul.collaborators ul > li {
+    margin: 0 0 5px;
+    padding: 0 0 0 10px;
+}
+.toptoc ul > li::before {
+    content: none;
+    display: none;
+}
+table.no-bullet-padding ul {
+    margin: 0;
+    padding: 0;
+}
+table.no-bullet-padding ul > li {
+    margin: 0;
+    padding: 0 0 0 10px;
+}
+.key-facts {
+    background: #d7f9fa none repeat scroll 0 0;
+    float: right;
+    margin: 1em -1em 1em 1em;
+    padding: 0 1em;
+    width: 40%;
+}
+#cgvDate {
+    margin: 1.5em 0 1em;
+}
+.contentzone .document-dates {
+    margin-top: 1.5em;
+}
+.contentzone .document-dates ul > li {
+    display: block;
+    margin: 0;
+}
+.contentzone .document-dates ul > li::before {
+    content: none;
+    display: none;
+}
+.contentzone .document-dates.horizontal ul > li {
+    display: inline;
+}
+.contentzone .document-dates.horizontal ul > li::before {
+    content: "|";
+    display: inline;
+    float: none;
+    font-size: 1em;
+    left: 0;
+    margin: 0 0.4em;
+    position: relative;
+    top: -0.1em;
+}
+.contentzone .document-dates.horizontal ul > li:first-child::before {
+    content: none;
+    display: none;
+}
+.press-release-date-contact {
+    margin-bottom: 1em;
+}
+.press-release-date-contact .document-dates {
+    float: left;
+    margin-top: 0;
+}
+.press-release-date-contact .media-contact {
+    float: right;
+    text-align: right;
+}
+@media only screen and (max-width: 640px) {
+.press-release-date-contact .media-contact {
+    float: left;
+    text-align: left;
+    width: 100%;
+}
+}
+.press-release-date-contact .media-contact p {
+    margin: 0;
+}
+.press-release-date-contact.row.collapse {
+    margin-bottom: 1em;
+}
+.media-contact-info {
+    display: inline;
+}
+@media only screen and (max-width: 640px) {
+.media-contact-info {
+    display: block;
+}
+}
+@media only screen and (max-width: 1024px) {
+.contentzone .document-dates ul > li, .contentzone .document-dates.horizontal ul > li {
+    display: block;
+}
+.contentzone .document-dates ul > li::before, .contentzone .document-dates.horizontal ul > li::before {
+    content: none;
+    display: none;
+}
+}
+.article-citation li p {
+    display: inline;
+}
+hr.ps-divider {
+    -moz-border-bottom-colors: none;
+    -moz-border-left-colors: none;
+    -moz-border-right-colors: none;
+    -moz-border-top-colors: none;
+    border-color: #7d7d7d;
+    border-image: none;
+    border-style: solid;
+    border-width: 1px 0 0;
+}
+.cgvpressrelease hr.ps-divider {
+    display: none;
+}
+.public-use {
+    clear: both;
+    font-style: italic;
+    padding: 0;
+}
+.public-use, .syndication p {
+    margin-top: 0;
+}
+.syndication {
+    overflow: hidden;
+}
+@media only screen and (max-width: 1024px) {
+.syndication {
+    font-size: 0.875em;
+}
+}
+.syndication-image {
+    float: left;
+    margin: 0 0.7em 0.5em 0.5em;
+}
+#nvcgSlPublicUse, #nvcgSlSyndication {
+    border-top: 1px solid #7d7d7d;
+}
+#nvcgSlPublicUse + #nvcgSlSyndication {
+    border-top: medium none;
+}
+.hidden {
+    height: 1px;
+    left: -10000px;
+    overflow: hidden;
+    position: absolute;
+    top: auto;
+    width: 1px;
+}
+.hide-desktop {
+    display: none;
+}
+:-moz-placeholder {
+    color: #fff;
+}
+*::-moz-placeholder {
+    color: #fff;
+}
+.scrollable-y {
+    overflow-y: auto;
+}
+.scrollable-x {
+    overflow-x: auto;
+}
+.scrollable {
+    overflow: auto;
+}
+figure a.article-image-enlarge, a.infographic-view-full, a.video-view-full {
+    color: #fff;
+    font-weight: bold;
+    opacity: 0.9;
+    padding: 0.3125em 2.25em 0.3125em 1em;
+    position: absolute;
+    right: 0;
+    text-align: right;
+    text-transform: uppercase;
+    top: 0;
+}
+figure a.article-image-enlarge:hover, a.infographic-view-full:hover, a.video-view-full:hover, figure a.article-image-enlarge:focus, a.infographic-view-full:focus, a.video-view-full:focus {
+    background: #bb0e3d url("/images/enlarge.png") no-repeat scroll 90% 50%;
+    text-decoration: none;
+}
+figure {
+    margin-bottom: 10px;
+    overflow: hidden;
+    position: relative;
+}
+figure a.article-image-enlarge {
+    background: rgba(18, 62, 88, 0.7) url("/images/enlarge.png") no-repeat scroll 90% 50%;
+    font-size: 0.875em !important;
+}
+figure.image-right-small {
+    float: right;
+    margin: 0 0 2.5em 2.5em;
+    width: 25%;
+}
+figure.image-right-medium {
+    float: right;
+    margin: 0 0 2.5em 2.5em;
+    width: 40%;
+}
+figure.image-left-small {
+    float: left;
+    margin: 0 2.5em 2.5em 0;
+    width: 25%;
+}
+figure.image-left-medium {
+    float: left;
+    margin: 0 2.5em 2.5em 0;
+    width: 40%;
+}
+figure.image-center {
+    margin: 2.5em auto;
+    width: 75%;
+}
+figure.image-center img {
+    margin: 0 auto;
+}
+figure.image-center-full {
+    margin: 2.5em auto;
+    width: 100%;
+}
+figure.image-center-full img {
+    margin: 0 auto;
+}
+figure img {
+    display: block;
+    max-width: 100%;
+}
+@media only screen and (max-width: 640px) {
+figure.image-right-small, figure.image-left-small, figure.image-right-medium, figure.image-left-medium, figure.image-center {
+    float: none;
+    margin: 0 0 1em;
+    width: 100%;
+}
+}
+a.infographic-view-full {
+    background: #403f3f url("https://www.cancer.gov/publishedcontent/images/images/design-elements/buttons/white-arrow-view-infographic.png") no-repeat scroll 95% 50%;
+    color: #fff;
+}
+a.infographic-view-full:hover, a.infographic-view-full:focus {
+    background: #bb0e3d url("https://www.cancer.gov/publishedcontent/images/images/design-elements/buttons/white-arrow-view-infographic.png") no-repeat scroll 95% 50%;
+    color: #fff;
+    text-decoration: none;
+}
+a.video-view-full {
+    background: #403f3f url("https://www.cancer.gov/publishedcontent/images/images/design-elements/buttons/white-arrow-view-infographic.png") no-repeat scroll 95% 50%;
+    color: #fff;
+}
+a.video-view-full:hover, a.video-view-full:focus {
+    background: #bb0e3d url("https://www.cancer.gov/publishedcontent/images/images/design-elements/buttons/white-arrow-view-infographic.png") no-repeat scroll 95% 50%;
+    color: #fff;
+    text-decoration: none;
+}
+.centered-set {
+    text-align: center;
+}
+.centered-element {
+    display: inline-block;
+    max-width: 100%;
+    position: relative;
+}
+.centered-exempt {
+    text-align: left;
+}
+table figure {
+    display: table;
+    table-layout: fixed;
+}
+.caption-container {
+    background-color: #f5f5f5;
+    font-family: Montserrat,Arial,sans-serif;
+    font-size: 14px;
+    line-height: 1.5em;
+    margin-top: -0.3125em;
+    padding: 1.25em 0.9375em;
+    text-align: left;
+}
+.caption-container p {
+    margin: 0;
+}
+.caption-container .image-photo-credit {
+    font-size: 12px;
+}
+table figure img {
+    display: inline-block;
+    vertical-align: top;
+}
+.oar-staff-directory figure.image-left-small.centered-set {
+    margin: 0;
+}
+.public-archive-banner, .notification-banner div div {
+    background: #bb0e3d none repeat scroll 0 0;
+    color: white;
+    font-family: Montserrat,Arial,sans-serif;
+    font-size: 1.125em;
+    font-weight: bold;
+    line-height: 1.12;
+    margin-bottom: 1px;
+    padding: 1.28em;
+}
+.public-archive-banner a, .notification-banner div div a {
+    color: white;
+    text-decoration: underline;
+}
+.public-archive-banner p:first-child, .notification-banner div div p:first-child {
+    margin-top: 0;
+}
+.public-archive-banner p:last-child, .notification-banner div div p:last-child {
+    margin-bottom: 0;
+}
+.site-notification {
+    background-color: #bb0e3d;
+    margin-bottom: 1px;
+    margin-top: 1px;
+}
+.only-SI {
+    max-width:1200px;
+	margin:0 auto;
+}
+.site-notification .row {
+    padding: 1.4375em 1.5625em;
+}
+.site-notification .notification {
+    color: white;
+    font-family: Montserrat,Arial,sans-serif;
+    font-size: 1.125em;
+    font-weight: bold;
+    line-height: 1.11111em;
+}
+.site-notification .notification a {
+    background: rgba(0, 0, 0, 0) url("https://www.cancer.gov/publishedcontent/images/images/design-elements/buttons/small-off-cream-circle-arrow.png") no-repeat scroll 100% 50%;
+    color: white;
+    display: table;
+    font-size: 16px;
+    line-height: 1.25em;
+    overflow: visible;
+    padding-bottom: 0.01em;
+    padding-right: 2.5625em;
+}
+.site-notification .notification a:hover {
+    text-decoration: underline;
+}
+.row.banner-slot {
+    margin-top: 1.3em;
+}
+@media only screen and (max-width: 640px) {
+.site-notification .notification {
+    font-size: 0.75em;
+    line-height: 1.16667em;
+}
+}
+.ncilandingpage h1 {
+    margin-top: 0.58em;
+}
+.row .hero {
+    box-shadow: 0 11px 15.2px 0.8px rgba(0, 0, 0, 0.4);
+    margin-bottom: 1em;
+    padding-left: 0;
+    padding-right: 0;
+    position: relative;
+}
+.hero-inner-page {
+    margin-bottom: 1em;
+    padding-left: 0;
+    padding-right: 0;
+    position: relative;
+}
+.hero-text {
+    color: #fff;
+    font-size: 1.55em;
+    font-weight: bold;
+    left: 90px;
+    position: absolute;
+    top: 49px;
+    width: 23%;
+}
+.hero-text p {
+    font-weight: bold;
+    line-height: 1.1;
+    margin-top: 0.7em;
+}
+.hero-text a {
+    color: #fff;
+}
+.hero-text a:hover, .hero-text a:focus {
+    text-decoration: none;
+}
+@media only screen and (max-width: 1024px) {
+.hero-text {
+    background-color: rgba(10, 21, 28, 0.8);
+    bottom: 0;
+    color: white;
+    font-size: 1.2em;
+    font-weight: bold;
+    left: 0;
+    padding: 0 0.8em;
+    position: absolute;
+    top: auto;
+    width: 100%;
+}
+.hero-text p {
+    line-height: 1;
+    margin: 0.2em;
+}
+}
+.hero-call-to-action {
+    background: rgba(0, 0, 0, 0) url("https://www.cancer.gov/publishedcontent/images/images/design-elements/buttons/hero-arrow.png") no-repeat scroll right center;
+    display: inline-block;
+    font-size: 18px;
+    padding-right: 1em;
+    transition: padding-right 0.4s ease-in-out 0s;
+}
+.hero-call-to-action:hover, .hero-call-to-action:focus {
+    padding-right: 1.5em;
+}
+@media only screen and (max-width: 640px) {
+.hero-slot {
+    display: none;
+}
+}
+@media only screen and (min-width: 1025px) {
+.row.hero-slot {
+    max-width: 1350px;
+}
+.row .gutter {
+    margin-left: 2%;
+    width: 32%;
+}
+.row .large-6.gutter {
+    margin-left: 2%;
+    width: 48.5%;
+}
+.row .gutter:first-child {
+    margin-left: 0;
+}
+.nvcgSlLayoutGuideB .card:first-child {
+    margin-left: 2%;
+}
+}
+.body-banner {
+    max-width: 100%;
+    padding-left: 0;
+    padding-right: 0;
+}
+.feature-primary .featured-text a:hover, .feature-secondary a:hover, .topic-feature a:hover, .guide-card .card ul.cancer-types li a:hover, .guide-card .featured-card a.arrow-link-white:hover, a.arrow-link:hover, a.arrow-link-white:hover, .card-thumbnail h3 a:hover, .multimedia-slot .feature-card:hover, .multimedia h3 a:hover, .infographic-enlarge a:hover, .feature-primary .featured-text a:focus, .feature-secondary a:focus, .topic-feature a:focus, .guide-card .card ul.cancer-types li a:focus, .guide-card .featured-card a.arrow-link-white:focus:hover, a.arrow-link:focus, a.arrow-link-white:focus, .card-thumbnail h3 a:focus, .multimedia-slot .feature-card:focus, .multimedia h3 a:focus, .infographic-enlarge a:focus {
+    color: #bb0e3d;
+    text-decoration: none;
+}
+.card {
+    background-color: rgba(255, 255, 255, 0.8);
+    padding-top: 1em;
+}
+.card a:hover .image-hover, .card a:focus .image-hover {
+    background-color: #000;
+}
+.card a:hover .image-hover img, .card a:focus .image-hover img {
+    opacity: 0.8;
+}
+.card a:hover, .card a:focus {
+    text-decoration: none;
+}
+.card .equalheight > div, .card .equalheight > div > a {
+    height: 100%;
+}
+.card-row .card a {
+    color: #2e2e2e;
+}
+.card ul > li {
+    margin: 0;
+}
+.feature-primary .rawHtml, .feature-primary .rawHtml .featured-text {
+    height: 100%;
+}
+.feature-primary {
+    margin-bottom: 1em;
+}
+.feature-primary a, .feature-primary a h3 {
+    color: #fff;
+}
+.feature-primary h3 {
+    color: #fff;
+    font-size: 1.375em;
+    font-weight: normal;
+    line-height: 1.272;
+}
+.feature-primary p {
+    font-size: 1.125em;
+    line-height: 1.167em;
+    margin-bottom: 0;
+}
+.feature-primary .card {
+    background: #14819b none repeat scroll 0 0;
+}
+.feature-primary .featured-text {
+    background: #fff none repeat scroll 0 0;
+    color: #2b7bba !important;
+    padding: 15px;
+}
+.feature-primary .featured-text a {
+    color: #2b7bba;
+    padding: 0 !important;
+}
+.feature-primary .featured-text h3 {
+    color: #606060;
+}
+.feature-primary .featured-text p {
+    margin-bottom: 0.5em;
+    margin-top: 1em;
+}
+.feature-primary .columns {
+    padding: 0;
+}
+.feature-primary .columns a {
+    display: block;
+    padding: 1.875em;
+}
+@media only screen and (max-width: 1024px) {
+.feature-primary-title {
+    background: #14819b none repeat scroll 0 0;
+}
+.feature-primary-title h3 {
+    color: white;
+    font-size: 1.375em;
+    margin: 0;
+    padding: 0.625em 30px;
+}
+}
+@media only screen and (min-width: 1025px) {
+.feature-primary a:hover h3 {
+    color: white;
+}
+.feature-primary-title {
+    display: none;
+}
+}
+.feature-secondary {
+    margin-bottom: 1em;
+}
+.feature-secondary .card {
+    background: #fff none repeat scroll 0 0;
+}
+.feature-secondary h3 {
+    font-size: 1.375em;
+    line-height: 1.272;
+}
+.feature-secondary a h3 {
+    color: #2b7bba;
+    font-weight: normal;
+}
+.feature-secondary a:hover h3, .feature-secondary a:focus h3 {
+    color: #bb0e3d;
+}
+.feature-secondary p {
+    color: #2e2e2e;
+    font-size: 1.125em;
+    line-height: 1.167em;
+    margin-bottom: 0;
+}
+.feature-secondary .columns {
+    padding: 0;
+}
+.feature-secondary .columns a {
+    display: block;
+    padding: 1.875em;
+}
+@media only screen and (max-width: 640px) {
+.feature-primary, .topic-feature {
+    margin-bottom: 0;
+}
+.feature-primary .card {
+    background: #14819b none repeat scroll 0 0;
+}
+.feature-primary .columns a, .feature-secondary .columns a, .topic-feature.columns a {
+    overflow: auto;
+    padding-bottom: 15px;
+    padding-top: 15px;
+}
+.feature-primary .image-hover, .feature-secondary .image-hover, .topic-feature .image-hover {
+    float: left;
+    width: 30%;
+}
+.feature-primary h3, .feature-secondary h3 {
+    float: right;
+    font-size: 1.13em;
+    line-height: 1.111em;
+    margin-top: 0;
+    width: 70%;
+}
+.feature-primary a:hover h3, .feature-primary a:hover h3, .topic-feature a:hover {
+    color: white;
+}
+.feature-primary p, .feature-secondary p, .card-thumbnail img {
+    display: none;
+}
+.feature-primary h3, .feature-primary p, .feature-secondary h3, .feature-secondary p, .topic-feature h3, .topic-feature p, .other-sites-carousel h3, .row.card-thumbnail h4, .row.card-thumbnail .related-resources h6, .related-resources .row.card-thumbnail h6, .row.card-thumbnail h3, .row.card-thumbnail p {
+    padding-left: 15px;
+}
+.feature-primary .featured-text {
+    display: none;
+}
+}
+.topic-feature.card {
+    padding: 0;
+}
+.topic-feature {
+    background-color: #f6f6f6;
+    margin-bottom: 1em;
+}
+.topic-feature h3 {
+    font-size: 1.375em;
+    line-height: 1.272;
+}
+.topic-feature a {
+    display: block;
+    padding: 1.875em;
+}
+.topic-feature a h3 {
+    color: #2b7bba;
+    font-weight: normal;
+}
+.topic-feature a:hover h3, .topic-feature a:focus h3 {
+    color: #bb0e3d;
+}
+.topic-feature p {
+    color: #2e2e2e;
+    font-size: 1em;
+    line-height: 1.167em;
+    margin-bottom: 0;
+}
+.topic-feature .columns {
+    padding: 0;
+}
+.topic-feature .columns a {
+    display: block;
+    padding: 1.875em;
+}
+.guide-card {
+    margin-bottom: 1em;
+}
+.guide-card .card {
+    padding: 2.375em 2em 2.125em;
+}
+.guide-card .card ul {
+    margin-bottom: 0;
+}
+.guide-card .card h2 {
+    font-size: 1.5em;
+    margin-top: 0;
+}
+.guide-card .card a {
+    font-size: 1.125em;
+    line-height: 1.22222em;
+}
+.guide-card .card li {
+    margin-bottom: 0.5em;
+    margin-top: 0.5em;
+}
+.guide-card .card ul.cancer-types li {
+    background: rgba(0, 0, 0, 0) none repeat scroll 0 0;
+    float: left;
+    margin: 0;
+    padding-right: 0;
+    width: 2.5em;
+}
+.guide-card .card ul.cancer-types li a, .guide-card .card ul.cancer-types li span {
+    font-size: 1.375rem;
+    line-height: 2.046;
+}
+@media only screen and (max-width: 765px) {
+.guide-card .card {
+    width: 100%;
+}
+}
+.guide-card .featured-card {
+    background: #dbf2f8 none repeat scroll 0 0;
+}
+.guide-card .featured-card h3, .guide-card .featured-card a, .guide-card .featured-card a.arrow-link-white {
+    color: #2f2f2f;
+}
+@media only screen and (max-width: 640px) {
+.guide-card {
+    margin-bottom: 0;
+    margin-top: 0;
+    padding: 0;
+}
+.guide-card .card {
+    background: #1d5e86 none repeat scroll 0 0;
+    margin: 0;
+    padding-bottom: 0;
+    padding-top: 0;
+}
+.guide-card .card h2 {
+    font-size: 1.125em;
+    line-height: 1.111em;
+}
+.guide-card .card h3 {
+    background: rgba(0, 0, 0, 0) url("https://www.cancer.gov/publishedcontent/images/images/design-elements/buttons/small-arrow.png") no-repeat scroll 95% center;
+    border-bottom: 1px solid black;
+    color: white;
+    margin: 0;
+    padding: 0.3em 0.9375em;
+}
+.guide-card .card h3.last {
+    border-bottom: medium none;
+}
+.guide-card .featured-card {
+    background: #1d5e86 none repeat scroll 0 0;
+    margin: 0;
+    padding-bottom: 0;
+    padding-top: 0;
+}
+}
+a.arrow-link, a.arrow-link-white {
+    background: rgba(0, 0, 0, 0) url("https://www.cancer.gov/publishedcontent/images/images/design-elements/buttons/small-blue-circle-arrow.png") no-repeat scroll 100% 50%;
+    color: #2e2e2e;
+    display: block;
+    padding: 1px 2em 1px 0;
+    text-decoration: none;
+    width: 100%;
+}
+a.arrow-link:hover, a.arrow-link-white:hover {
+    background-image: url("https://www.cancer.gov/publishedcontent/images/images/design-elements/buttons/small-red-circle-arrow.png");
+}
+a.arrow-link-white {
+    background: rgba(0, 0, 0, 0) url("https://www.cancer.gov/publishedcontent/images/images/design-elements/buttons/small-off-cream-circle-arrow.png") no-repeat scroll right top;
+    padding-right: 1em;
+}
+@media only screen and (max-width: 640px) {
+a.arrow-link-white {
+    background: rgba(0, 0, 0, 0) url("https://www.cancer.gov/publishedcontent/images/images/design-elements/buttons/small-blue-circle-arrow.png") no-repeat scroll right top;
+}
+}
+a.learn-more {
+    margin-top: 1em;
+}
+.card-thumbnail .card-thumbnail {
+    margin-left: 0;
+    margin-right: 0;
+}
+.card-thumbnail {
+    background: #fff none repeat scroll 0 0;
+    padding-bottom: 1em;
+    padding-top: 1em;
+}
+.card-thumbnail h3 {
+    margin-top: 0.5em;
+}
+.card-thumbnail .small-2 {
+    margin-top: 1em;
+}
+.card-thumbnail .image-hover {
+    display: block;
+}
+.card-thumbnail .image-hover img {
+    width: 100%;
+}
+.card-thumbnail .image-hover:hover, .card-thumbnail .image-hover:focus {
+    background-color: #000;
+}
+.card-thumbnail .image-hover:hover > img, .card-thumbnail .image-hover:focus > img {
+    opacity: 0.8;
+}
+.card-thumbnail h3 {
+    font-weight: normal;
+}
+@media only screen and (max-width: 640px) {
+.card-thumbnail h3 {
+    font-size: 1.125em;
+    line-height: 1.111em;
+    margin-top: 0;
+}
+.card-thumbnail .small-2, .card-thumbnail .small-3 {
+    width: 0;
+}
+.card-thumbnail .small-10, .card-thumbnail .small-9 {
+    width: 100%;
+}
+.card, .card-thumbnail div {
+    padding-left: 0;
+    padding-right: 0;
+}
+}
+.multimedia-slot {
+    background: #099 none repeat scroll 0 0;
+    margin-bottom: 1em;
+    padding: 1em 0;
+}
+.multimedia-slot a:hover h3, .multimedia-slot a:focus h3 {
+    color: #bb0e3d;
+}
+.multimedia-slot .feature-card {
+    background: #fff none repeat scroll 0 0;
+    padding-bottom: 1em;
+}
+.multimedia-slot .feature-card h3, .multimedia-slot .feature-card p, .multimedia-slot .feature-card ul {
+    padding: 0 15px;
+}
+.multimedia-slot .feature-card h3 {
+    color: #2b7bba;
+    font-size: 1.375em;
+    font-weight: normal;
+    line-height: 1.272;
+}
+@media only screen and (max-width: 640px) {
+.multimedia-slot p, .multimedia-slot ul {
+    display: none;
+}
+.multimedia-slot .equalheight .slot-item {
+    margin-right: 15px;
+}
+.multimedia-slot .equalheight:last-child .slot-item {
+    margin-right: 0;
+}
+}
+@media only screen and (max-width: 1024px) {
+.multimedia-slot {
+    padding: 1em;
+}
+}
+@media only screen and (min-width: 1025px) {
+.equalheight {
+    overflow: hidden;
+}
+.equalheight .push-to-bottom-desktop {
+    height: 100%;
+}
+}
+.multimedia .card {
+    background: rgba(0, 0, 0, 0) none repeat scroll 0 0;
+    opacity: 1;
+    padding-left: 0;
+}
+.multimedia .card a {
+    color: #2e2e2e;
+}
+.multimedia .card:hover h3 {
+    color: #bb0e3d;
+}
+@media only screen and (max-width: 1024px) {
+.multimedia h3, .multimedia p {
+    padding-left: 15px;
+}
+}
+.multimedia-feature-card {
+    background: #fff none repeat scroll 0 0;
+    padding-bottom: 1em;
+    position: relative;
+}
+.multimedia-feature-card a {
+    color: #2e2e2e;
+}
+.multimedia-feature-card a::before {
+    background-color: #403f3f;
+    color: #ffffff;
+    padding: 0.62em;
+    position: absolute;
+    right: 0;
+    text-transform: uppercase;
+    transform: rotate(90deg) translate(100%, -1px);
+    transform-origin: right top 0;
+    z-index: 88;
+}
+.multimedia-feature-card h3 {
+    color: #2b7bba;
+    font-size: 1.375em;
+    font-weight: normal;
+    line-height: 1.272;
+}
+.multimedia-feature-card h3, .multimedia-feature-card p, .multimedia-feature-card ul {
+    padding: 0 15px;
+}
+.multimedia-feature-card.cgvInfographic.non-playable a::before {
+    content: "Infographic";
+}
+html[lang="es"] .multimedia-feature-card.cgvInfographic.non-playable a::before {
+    content: "Infografía";
+}
+.multimedia-feature-card.gloVideo.non-playable a::before {
+    content: "Video";
+}
+html[lang="es"] .multimedia-feature-card.gloVideo.non-playable a::before {
+    content: "Video";
+}
+.multimedia-feature-card.gloVideoCarousel.non-playable a::before {
+    content: "Video Playlist";
+}
+html[lang="es"] .multimedia-feature-card.gloVideoCarousel.non-playable a::before {
+    content: "Lista de reproducción de videos";
+}
+.multimedia-feature-card.non-playable a.mm-additional-info::before {
+    content: none;
+}
+html[lang="es"] .multimedia-feature-card.non-playable a.mm-additional-info::before {
+    content: none;
+}
+@media only screen and (max-width: 640px) {
+.multimedia-feature-card h3, .multimedia-slot .feature-card h3 {
+    font-size: 1em;
+    line-height: 1.125em;
+    overflow-wrap: break-word;
+}
+}
+.card > .slot-item {
+    height: 100%;
+}
+.multimedia-feature-card a, .multimedia .feature-card a {
+    display: block;
+}
+.multimedia-slot .equalheight .slot-item {
+    background-color: #fff;
+}
+.directors-row h3 {
+    color: #fff;
+}
+.infographic {
+    background: #fff none repeat scroll 0 0;
+    position: relative;
+}
+.infographic figcaption {
+    padding: 0.5em 1em;
+}
+.infographic-enlarge {
+    color: #fff;
+    position: absolute;
+    right: 0;
+    top: 0;
+}
+.infographic-enlarge a {
+    background: #403f3f url("https://www.cancer.gov/publishedcontent/images/images/design-elements/buttons/white-arrow-view-infographic.png") no-repeat scroll 95% 50%;
+    color: #fff;
+    display: block;
+    padding: 1em 2em 1em 1em;
+}
+.home-director-stories {
+    background: #fff none repeat scroll 0 0;
+    margin-top: -10px;
+    padding: 0.5em 1em 0.2em;
+}
+@media only screen and (max-width: 1024px) {
+.home-director-stories, .infographic {
+    background: rgba(0, 0, 0, 0) none repeat scroll 0 0;
+}
+}
+.feature-card .image-hover {
+    position: relative;
+}
+@media only screen and (max-width: 640px) {
+.accordion section {
+    clear: both;
+}
+}
+.ui-accordion-content .location-filter {
+    margin: 1em 0 2em;
+}
+.ui-accordion-content p:first-child, .ui-accordion-content h3:first-child {
+    margin-top: 0;
+}
+.ui-accordion-content p:last-child {
+    margin-bottom: 0;
+}
+@media only screen and (max-width: 640px) {
+.cthp-content .cthp-intro-multimedia h3, .cthp-content .cthp-overview h3 {
+    background: #624dd6 url("https://www.cancer.gov/publishedcontent/images/images/design-elements/background-graphics/CTHP-blue-purple-circles.jpg") repeat-x scroll 0 0 !important;
+}
+.cthp-content .cthp-intro-multimedia h3 span, .cthp-content .cthp-overview h3 span {
+    background: #4c34c3 none repeat scroll 0 0 !important;
+}
+.cthp-content .cthp-intro-multimedia h3.ui-state-active span, .cthp-content .cthp-overview h3.ui-state-active span {
+    background: #fff none repeat scroll 0 0 !important;
+    color: #4c34c3 !important;
+}
+.cthp-content .cthp-treatment h3 {
+    background: #2ec799 url("https://www.cancer.gov/publishedcontent/images/images/design-elements/background-graphics/CTHP-green-waves.jpg") repeat-x scroll 0 0 !important;
+}
+.cthp-content .cthp-treatment h3 span {
+    background: #119f7d none repeat scroll 0 0 !important;
+}
+.cthp-content .cthp-treatment h3.ui-state-active span {
+    background: #fff none repeat scroll 0 0 !important;
+    color: #119f7d !important;
+}
+.cthp-content .cthp-research h3.ui-accordion-header {
+    background: #0886d0 url("https://www.cancer.gov/publishedcontent/images/images/design-elements/background-graphics/CTHP-blue-gears.jpg") repeat-x scroll 0 0 !important;
+}
+.cthp-content .cthp-research h3 span {
+    background: #036eab none repeat scroll 0 0 !important;
+}
+.cthp-content .cthp-research h3.ui-state-active span {
+    background: #fff none repeat scroll 0 0 !important;
+    color: #036eab !important;
+}
+.cthp-content .cthp-causes h3.ui-accordion-header {
+    background: #7f3796 url("https://www.cancer.gov/publishedcontent/images/images/design-elements/background-graphics/CTHP-purple-squares.jpg") repeat-x scroll 0 0 !important;
+}
+.cthp-content .cthp-causes h3 span {
+    background: #753190 none repeat scroll 0 0 !important;
+}
+.cthp-content .cthp-causes h3.ui-state-active span {
+    background: #fff none repeat scroll 0 0 !important;
+    color: #753190 !important;
+}
+.cthp-content .cthp-genetics h3 {
+    background: #008eb0 url("https://www.cancer.gov/publishedcontent/images/images/design-elements/background-graphics/CTHP-blue-diamonds.jpg") repeat-x scroll 0 0 !important;
+}
+.cthp-content .cthp-genetics h3 span {
+    background: #248f92 none repeat scroll 0 0 !important;
+}
+.cthp-content .cthp-genetics h3.ui-state-active span {
+    background: #fff none repeat scroll 0 0 !important;
+    color: #248f92 !important;
+}
+.cthp-content .cthp-screening h3 {
+    background: #aa3d65 url("https://www.cancer.gov/publishedcontent/images/images/design-elements/background-graphics/CTHP-pink-triangles.jpg") repeat scroll 0 0 !important;
+}
+.cthp-content .cthp-screening h3 span {
+    background: #9e2f54 none repeat scroll 0 0 !important;
+}
+.cthp-content .cthp-screening h3.ui-state-active span {
+    background: #fff none repeat scroll 0 0 !important;
+    color: #9e2f54 !important;
+}
+.cthp-content .cthp-survival h3 {
+    background: #008eb0 url("https://www.cancer.gov/publishedcontent/images/images/design-elements/background-graphics/CTHP-yellow-squares.jpg") repeat-x scroll 0 0 !important;
+}
+.cthp-content .cthp-survival h3 span {
+    background: #b77704 none repeat scroll 0 0 !important;
+}
+.cthp-content .cthp-survival h3.ui-state-active span {
+    background: #fff none repeat scroll 0 0 !important;
+    color: #b77704 !important;
+}
+.cthp-content .cthp-general h3 {
+    background: #008eb0 url("https://www.cancer.gov/publishedcontent/images/images/design-elements/background-graphics/CTHP-blue-octagons.jpg") repeat-x scroll 0 0 !important;
+}
+.cthp-content .cthp-general h3 span {
+    background: #29768c none repeat scroll 0 0 !important;
+}
+.cthp-content .cthp-general h3.ui-state-active span {
+    background: #fff none repeat scroll 0 0 !important;
+    color: #29768c !important;
+}
+.cthp-content .cthp-pink-feature h3 {
+    background: #d544bb url("https://www.cancer.gov/publishedcontent/images/images/design-elements/background-graphics/pink-triangles.jpg") repeat-x scroll 0 0 !important;
+}
+.cthp-content .cthp-pink-feature h3 span {
+    background: #b9299b none repeat scroll 0 0 !important;
+}
+.cthp-content .cthp-pink-feature h3.ui-state-active span {
+    background: #fff none repeat scroll 0 0 !important;
+    color: #b9299b !important;
+}
+.cthp-content .cthp-yellow-feature h3 {
+    background: #e4cf34 url("https://www.cancer.gov/publishedcontent/images/images/design-elements/background-graphics/yellow-hexagons.jpg") repeat-x scroll 0 0 !important;
+}
+.cthp-content .cthp-yellow-feature h3 span {
+    background: #cbb218 none repeat scroll 0 0 !important;
+}
+.cthp-content .cthp-yellow-feature h3.ui-state-active span {
+    background: #fff none repeat scroll 0 0 !important;
+    color: #cbb218 !important;
+}
+.ui-accordion .ui-accordion-header {
+    margin: 0;
+}
+.ui-accordion .ui-accordion-header {
+    margin-left: -16px;
+    margin-right: -16px;
+}
+.ui-accordion div.ui-accordion-content {
+    margin: 0;
+    padding: 10px 0 5px;
+}
+.ncihome .ui-accordion .ui-accordion-header {
+    margin-left: -32px;
+    margin-right: -32px;
+    padding-top: 10px;
+}
+.ncihome .ui-accordion .ui-accordion-content {
+    margin-left: -32px;
+    margin-right: -32px;
+    padding: 10px 10px 10px 21px;
+}
+.ncilandingpage .ui-accordion .ui-accordion-header {
+    margin-left: -32px;
+    margin-right: -32px;
+}
+.ncilandingpage .ui-accordion .ui-accordion-content {
+    margin-left: -32px;
+    margin-right: -32px;
+    padding: 10px 10px 10px 21px;
+}
+.ncilandingpage .news .ui-accordion .ui-accordion-header {
+    margin-left: 0;
+    margin-right: 0;
+}
+.ncilandingpage .news .ui-accordion .ui-accordion-content {
+    margin-left: 0;
+    margin-right: 0;
+}
+.cgvcancertypehome .ui-accordion .ui-accordion-header {
+    margin-left: -32px;
+    margin-right: -32px;
+}
+.cgvcancertypehome .ui-accordion .ui-accordion-content {
+    margin-left: -12px;
+    margin-right: -12px;
+}
+.cgvfactsheet .ui-accordion .ui-accordion-header {
+    padding-left: 37px;
+}
+.cgvfactsheet .related-resources .ui-accordion-header {
+    padding-left: 22px;
+}
+#cgvCitationSl h6 {
+    padding-left: 22px;
+}
+.hide-otp-on-collapse {
+    display: none;
+}
+}
+td, th {
+    vertical-align: top;
+}
+table.table-default caption, figure.table figcaption, figure.table .emptyCaptionShim {
+    color: #606060;
+    font-family: Montserrat,Arial,sans-serif;
+    font-size: 1.375em;
+    font-weight: normal;
+    padding: 20px 0 10px;
+    text-align: left;
+}
+table.table-default {
+    border-collapse: collapse;
+    margin: 15px 0;
+}
+geneticsprofessional table.table-default caption {
+    white-space: nowrap;
+}
+table.table-default tr {
+    background-color: #fff;
+}
+table.table-default th {
+    background-color: #d0f1f2;
+    color: #2e2e2e;
+    font-family: Arial,sans-serif;
+    font-weight: bold;
+}
+table.table-default td, table.table-default th {
+    background-clip: padding-box;
+    border: 1px solid rgba(189, 189, 189, 0.28);
+    border-spacing: 0;
+    padding: 20px;
+}
+table.table-default td p:first-child, table.table-default th p:first-child {
+    margin-top: 0;
+}
+table.table-default td p:last-child, table.table-default th p:last-child {
+    margin-bottom: 0;
+}
+table.table-default ul {
+    padding-left: 4px;
+}
+table.table-default-center-td td {
+    text-align: center;
+}
+table.table-default.complex-table tr, body.pdqcancerinfosummary table.table-default tr, .summary-sections table.table-default tr {
+    background-color: #fff;
+}
+.scrollable.has-scroll {
+    overflow: hidden;
+    position: relative;
+}
+.scrollable.has-scroll::after {
+    border-radius: 10px 0 0 10px / 50% 0 0 50%;
+    box-shadow: -5px 0 10px rgba(0, 0, 0, 0.25);
+    content: "";
+    height: 100%;
+    left: 100%;
+    position: absolute;
+    top: 0;
+    width: 50px;
+}
+.scrollable.has-scroll > div {
+    overflow-x: auto;
+}
+figure.table {
+    margin: 0 0 15px;
+}
+figure.table .table-default {
+    margin: 0;
+}
+figure.table figcaption, figure.table .emptyCaptionShim {
+    font-size: 1.25em;
+    line-height: 1.4;
+}
+figure.table figcaption + a.article-image-enlarge, figure.table .emptyCaptionShim + a.article-image-enlarge {
+    top: 10px;
+}
+@media only screen and (max-width: 640px) {
+table .article-image-enlarge {
+    font-size: 7px;
+    margin-top: -5px;
+    padding-left: 3px !important;
+    padding-right: 24px !important;
+}
+}
+.ui-front {
+    z-index: 1001 !important;
+}
+.ui-dialog {
+    z-index: 1002 !important;
+}
+.table-enlarged .ui-dialog-titlebar {
+    display: none;
+}
+.table-enlarged .popup-close {
+    margin: 0.3125em 2.25em 0.3125em 1em;
+}
+.pdqcancerinfosummary table thead tr th {
+    text-align: center;
+}
+table tbody tr td a:hover {
+    color: #2795b6;
+    text-decoration: underline;
+}
+table tbody tr td figure a {
+    color: white !important;
+}
+.image-right-medium {
+    position: relative;
+}
+.bgWhite {
+    background-color: #fff;
+}
+.relatedcontent:hover a, .relatedcontent a:hover, .relatedcontent:focus a, .relatedcontent a:focus {
+    color: #bb0e3d;
+    text-decoration: none;
+}
+.relatedcontent a::after {
+    content: url("https://www.cancer.gov/publishedcontent/images/images/design-elements/buttons/small-red-circle-arrow.png");
+    padding-left: 7px;
+    padding-top: 7px;
+    position: relative;
+    top: 4px;
+    vertical-align: middle;
+}
+.relatedcontent:hover a::after, .relatedcontent:focus a::after {
+    content: url("https://www.cancer.gov/publishedcontent/images/images/design-elements/buttons/small-blue-circle-arrow.png");
+}
+.registerButton {
+	background-color:#15829d;
+	display:inline-block;
+	cursor:pointer;
+	color:#ffffff;
+	font-size:28px;
+	font-weight:bold;
+	padding:20px 31px;
+	text-decoration:none;
+	text-shadow:0px 1px 0px #2f6627;
+	margin-top:10px;
+}
+.registerButton.small {
+	font-size:14px;
+	padding:10px 16px;
+	margin-top:10px;
+}
+.registerButton:hover {
+	color:#ffffff;
+	text-decoration:none;
+}
+.registerButton:active {
+	color:#ffffff;
+	text-decoration:none;
+}
+@media only screen and (max-width: 640px) {
+.cthpCard > div > h3 + div:hover {
+    background-color: white;
+}
+}
+.cthpCard > div > h3 + div:hover img {
+    opacity: 0.8;
+}
+.cthp-fi-video figure, figure.cthp-mm-video-player, figure.cthp-mm-video-playlist {
+    margin-bottom: 0;
+}
+@media only screen and (min-width: 641px) {
+.cthp-breadcrumb {
+    padding-left: 0 !important;
+}
+}
+@media only screen and (min-width: 1025px) {
+.cthp-padding {
+    padding-left: 0.5em;
+}
+}
+@media only screen and (max-width: 640px) {
+.row .tp20 {
+    margin-top: 0;
+}
+}
+.page-options {
+    font-size: 16px;
+    margin: 1em 0;
+}
+.page-options ul {
+    background: transparent none repeat scroll 0 0;
+    margin: 0;
+    white-space: nowrap;
+}
+.page-options li {
+    display: inline-block;
+    margin: 0;
+}
+.page-options a {
+    display: block;
+    height: 100%;
+    width: 100%;
+}
+.page-options li::before {
+    content: none !important;
+    display: none !important;
+}
+@media only screen and (max-width: 1024px) {
+.cthp-desktop.page-options {
+    display: none;
+}
+.page-options li {
+    background-color: #2b7bba;
+    border-radius: 50%;
+    height: 35px;
+    margin: 0 0.875em 0 0;
+    width: 35px;
+}
+.page-options li a {
+    display: block;
+    position: relative;
+}
+.page-options li a::before {
+    color: #fff;
+    display: block;
+    font: 20px/1 Flaticon;
+    left: 50%;
+    margin: 0;
+    position: absolute;
+    text-rendering: auto;
+    top: 50%;
+    transform: translateX(-50%) translateY(-50%);
+}
+.page-options li:hover {
+    background-color: #bb0e3d;
+}
+.page-options .po-view-entire-document {
+    display: none;
+}
+.page-options .po-font-resize {
+    display: none;
+}
+.page-options .po-print {
+    display: none;
+}
+.page-options .po-email a::before {
+    content: "?";
+}
+.page-options .po-facebook a::before {
+    content: "?";
+}
+.page-options .po-twitter a::before {
+    content: "?";
+    left: 19px;
+    top: 19px;
+}
+.page-options .po-googleplus a::before {
+    content: "?";
+    left: 20px;
+    top: 19px;
+}
+.page-options .po-pinterest a::before {
+    content: "?";
+}
+}
+@media only screen and (min-width: 1025px) {
+.columns.page-options {
+    position: static;
+    right: 0;
+    top: 0;
+}
+.cthp-mobile.page-options {
+    display: none;
+}
+.page-options.cts-share {
+    float: none;
+    position: relative;
+    top: 0;
+}
+.page-options {
+    float: right;
+    margin-top: 1.25em;
+    position: absolute;
+    right: 0.875em;
+    top: -3.75em;
+}
+.page-options ul {
+    float: right;
+}
+.page-options li {
+    background: rgba(0, 0, 0, 0) url("/images/nci-sprite.png") no-repeat scroll 0 0;
+    height: 25px;
+    margin: 0 0 0 0.875em;
+    width: 25px;
+}
+.page-options .po-view-entire-document {
+    background: rgba(0, 0, 0, 0) url("/images/nci-sprite.png") no-repeat scroll 0 0;
+    height: 25px;
+    width: 25px;
+}
+.page-options .po-font-resize {
+    background: rgba(0, 0, 0, 0) url("/images/nci-sprite.png") no-repeat scroll -17px -16px;
+    height: 25px;
+    width: 22px;
+}
+.page-options .po-print {
+    background: rgba(0, 0, 0, 0) url("/images/nci-sprite.png") no-repeat scroll -16px -62px;
+    height: 25px;
+    width: 23px;
+}
+.page-options .po-email {
+    background: rgba(0, 0, 0, 0) url("/images/nci-sprite.png") no-repeat scroll -16px -105px;
+    height: 25px;
+    width: 23px;
+}
+.page-options .po-facebook {
+    background: rgba(0, 0, 0, 0) url("/images/nci-sprite.png") no-repeat scroll -25px -151px;
+    height: 25px;
+    width: 8px;
+}
+.page-options .po-twitter {
+    background: rgba(0, 0, 0, 0) url("/images/nci-sprite.png") no-repeat scroll -16px -195px;
+    height: 25px;
+    width: 19px;
+}
+.page-options .po-googleplus {
+    background: rgba(0, 0, 0, 0) url("/images/nci-sprite.png") no-repeat scroll -16px -241px;
+    height: 25px;
+    width: 19px;
+}
+.page-options .po-pinterest {
+    background: rgba(0, 0, 0, 0) url("/images/nci-sprite.png") no-repeat scroll -20px -287px;
+    height: 25px;
+    width: 15px;
+}
+}
+.no-resize {
+    font-size: initial !important;
+}
+.caption-container.no-resize {
+    background-color: #f5f5f5;
+    font-size: 14px !important;
+    line-height: 1.5em;
+}
+.no-resize-pdq-section {
+    font-size: 13px !important;
+}
+body.nciappmodulepage div.page-options .po-font-resize {
+    display: none;
+}
+.slick-slide .container {
+    background-color: #fff;
+    background-position: 0 0;
+    background-repeat: repeat;
+    display: block;
+    height: 14.25em;
+    position: relative;
+}
+.slick-slide .container:hover, .slick-slide .container:focus {
+    text-decoration: none;
+}
+.slick-slide .container:hover::before, .slick-slide .container:focus::before {
+    background-color: rgba(3, 3, 3, 0.2);
+    content: " ";
+    display: block;
+    height: 100%;
+    position: absolute;
+    width: 100%;
+}
+.carousel-title {
+    margin-bottom: 20px;
+    margin-top: 20px;
+}
+.arrows-for-other-nci-sites {
+    padding-right: 11px;
+    text-align: right;
+}
+.arrows-for-other-nci-sites div {
+    display: inline;
+}
+.arrows-for-other-nci-sites button {
+    background-color: transparent;
+    border: 0 none;
+    cursor: pointer;
+    display: inline;
+    height: 56px;
+    padding: 0;
+    width: 56px;
+}
+.site-name {
+    color: white;
+    font-family: Montserrat,Arial,sans-serif;
+    font-size: 1.45em;
+    font-weight: bold;
+    line-height: normal;
+    margin: 0;
+    padding: 15px;
+    text-transform: uppercase;
+}
+.slick-slide .site-link {
+    background: #403e3f url("https://www.cancer.gov/publishedcontent/images/images/design-elements/buttons/carousel-link-arrow.png") no-repeat scroll 95% 50%;
+    bottom: 0;
+    color: #fff;
+    display: block;
+    margin: 0;
+    padding: 12px 16px 12px 12px;
+    position: absolute;
+    width: 100%;
+}
+.spotlight-on-scientists .slick-track, .spotlight-on-scientists .slick-list {
+    height: 15em;
+}
+.other-nci-sites .slick-slide .container {
+    height: 16.25em;
+}
+.blue-circles {
+    background-image: url("https://www.cancer.gov/publishedcontent/images/images/design-elements/background-graphics/blue-circles.jpg");
+}
+.blue-dots {
+    background-image: url("https://www.cancer.gov/publishedcontent/images/images/design-elements/background-graphics/blue-dots.jpg");
+}
+.blue-triangles {
+    background-image: url("https://www.cancer.gov/publishedcontent/images/images/design-elements/background-graphics/blue-triangles.jpg");
+}
+.green-arrows {
+    background-image: url("https://www.cancer.gov/publishedcontent/images/images/design-elements/background-graphics/green-arrows.jpg");
+}
+.green-plaid {
+    background-image: url("https://www.cancer.gov/publishedcontent/images/images/design-elements/background-graphics/green-plaid.jpg");
+}
+.orange-plaid {
+    background-image: url("https://www.cancer.gov/publishedcontent/images/images/design-elements/background-graphics/orange-plaid.jpg");
+}
+.orange-waves {
+    background-image: url("https://www.cancer.gov/publishedcontent/images/images/design-elements/background-graphics/orange-waves.jpg");
+}
+.pink-triangles {
+    background-image: url("https://www.cancer.gov/publishedcontent/images/images/design-elements/background-graphics/pink-triangles.jpg");
+}
+.purple-circles {
+    background-image: url("https://www.cancer.gov/publishedcontent/images/images/design-elements/background-graphics/purple-circles.jpg");
+}
+.purple-triangles {
+    background-image: url("https://www.cancer.gov/publishedcontent/images/images/design-elements/background-graphics/purple-triangles.jpg");
+}
+.red-squares {
+    background-image: url("https://www.cancer.gov/publishedcontent/images/images/design-elements/background-graphics/red-squares.jpg");
+}
+.red-triangles {
+    background-image: url("https://www.cancer.gov/publishedcontent/images/images/design-elements/background-graphics/red-triangles.jpg");
+}
+.yellow-circles {
+    background-image: url("https://www.cancer.gov/publishedcontent/images/images/design-elements/background-graphics/yellow-circles.jpg");
+}
+.yellow-hexagons {
+    background-image: url("https://www.cancer.gov/publishedcontent/images/images/design-elements/background-graphics/yellow-hexagons.jpg");
+}
+.fuchsia-waves {
+    background-image: url("https://www.cancer.gov/publishedcontent/images/images/design-elements/background-graphics/fuchsia-waves.jpg");
+}
+.emerald-xes {
+    background-image: url("https://www.cancer.gov/publishedcontent/images/images/design-elements/background-graphics/emerald-xes.jpg");
+}
+.navy-squares {
+    background-image: url("https://www.cancer.gov/publishedcontent/images/images/design-elements/background-graphics/navy-squares.jpg");
+}
+.slate-grid {
+    background-image: url("https://www.cancer.gov/publishedcontent/images/images/design-elements/background-graphics/slate-grid.jpg");
+}
+@media only screen and (max-width: 1024px) {
+.slick-slide {
+    margin: 0 10px 0 0;
+}
+.slick-slide {
+    background-color: #000;
+}
+.slick-slide .container {
+    opacity: 0.5;
+}
+.slick-active {
+    background-color: #fff;
+}
+.slick-active .container {
+    opacity: 1;
+}
+.arrows-for-other-nci-sites .previous {
+    display: none;
+}
+.arrows-for-other-nci-sites .next {
+    position: absolute;
+    right: 20px;
+    top: 50%;
+    z-index: 800;
+}
+.arrows-for-other-nci-sites .next {
+    display: none;
+}
+.slick-dots {
+    display: none !important;
+}
+.public-use {
+    font-size: 0.875em;
+}
+}
+@media only screen and (min-width: 1025px) {
+.arrows-for-other-nci-sites .next {
+    background: transparent url("https://www.cancer.gov/publishedcontent/images/images/design-elements/buttons/blue-arrow-right.png") no-repeat scroll 0 0;
+}
+.arrows-for-other-nci-sites .next:hover {
+    background: transparent url("https://www.cancer.gov/publishedcontent/images/images/design-elements/buttons/red-arrow-right.png") no-repeat scroll 0 0;
+}
+.arrows-for-other-nci-sites .previous {
+    background: transparent url("https://www.cancer.gov/publishedcontent/images/images/design-elements/buttons/blue-arrow-left.png") no-repeat scroll 0 0;
+}
+.arrows-for-other-nci-sites .previous:hover {
+    background: transparent url("https://www.cancer.gov/publishedcontent/images/images/design-elements/buttons/red-arrow-left.png") no-repeat scroll 0 0;
+}
+.slick-slide .container {
+    margin: 0 11px;
+}
+}
+.hide {
+    display: none;
+}
+.shareBtn {
+    background: rgba(0, 0, 0, 0) url("https://www.cancer.gov/publishedcontent/images/images/design-elements/buttons/share_plus.png") no-repeat scroll left center;
+    color: #2b7bba;
+    cursor: pointer;
+    margin: 1.25em 0 0 2.4em;
+    padding-left: 1.875em;
+}
+@media only screen and (max-width: 1024px) {
+.shareBtn {
+    margin-top: 0;
+}
+}
+.shareBtnOpen {
+    background: rgba(0, 0, 0, 0) url("https://www.cancer.gov/publishedcontent/images/images/design-elements/buttons/share_minus.png") no-repeat scroll left center;
+    color: #2b7bba;
+    margin: 1.25em 0 0 2.4em;
+    padding-left: 1.875em;
+}
+.shareWindow {
+    background: rgba(0, 0, 0, 0) url("https://www.cancer.gov/publishedcontent/images/images/design-elements/background-graphics/share_bg.png") no-repeat scroll 0 0;
+    height: 62px;
+    margin-left: -2.8125em;
+    padding: 1.2em 0 1.2em 1.2em;
+    position: absolute;
+    width: 136px;
+    z-index: 14;
+}
+.shareWindow a {
+    text-decoration: none;
+}
+.section-head {
+    float: left;
+    width: 80%;
+}
+@media only screen and (max-width: 1024px) {
+.section-head {
+    float: none;
+    width: 100%;
+}
+}
+.shareComponent {
+    float: left;
+    width: 20%;
+}
+@media only screen and (max-width: 1024px) {
+.shareComponent {
+    float: right;
+    width: initial;
+}
+}
+.toptoc {
+    border-bottom: 12px solid #1c5e86;
+    float: right;
+    font-family: Montserrat,Arial,sans-serif;
+    font-size: 0.8em;
+    margin: 0 -1.2em 3em 2em;
+    width: 24%;
+}
+.toptoc h3 {
+    background-color: #1c5e86;
+    color: white;
+    font-size: 1em;
+    font-weight: bold;
+    margin: 0;
+    padding: 10px 12px;
+    text-transform: uppercase;
+}
+.toptoc ul {
+    line-height: 1.2em;
+    margin-bottom: 0;
+}
+.toptoc li {
+    background: rgba(0, 0, 0, 0) none repeat scroll 0 0;
+    border-bottom: 1px solid #d5d5d2;
+    list-style-type: none;
+    margin: 0;
+    z-index: 1;
+}
+.toptoc li::before {
+    content: none;
+    display: none;
+}
+.toptoc li.selected {
+    background: rgba(0, 0, 0, 0) url("https://www.cancer.gov/publishedcontent/images/images/design-elements/background-graphics/toptoc-active.gif") repeat-y scroll 0 0;
+    font-weight: bold;
+}
+.toptoc li > a {
+    color: #000000;
+    display: block;
+    padding: 0.5em 1em;
+}
+.toptoc li.viewall > a {
+    background: transparent url("/images/view-entire-summary.png") no-repeat scroll 1em 50%;
+    padding: 0.825em 1em 0.825em 2.5em;
+}
+.toptoc .enlarge-link {
+    display: none;
+}
+@media only screen and (max-width: 640px) {
+#pdq-toc-article nav.on-this-page, body.cgvfactsheet nav.on-this-page {
+    display: none;
+}
+}
+@media only screen and (max-width: 1024px) {
+#pdq-toc-article > .on-this-page {
+    display: block;
+}
+.pdq-sections .on-this-page {
+    display: none;
+}
+.toptoc {
+    display: none;
+}
+div#_toc_article {
+    display: none;
+}
+section.hide {
+    display: block;
+}
+}
+@media only screen and (min-width: 1025px) {
+.toptoc {
+    margin-right: -3.90625em;
+}
+section.hide, div.hide {
+    display: none;
+}
+section.show, div.show {
+    display: block;
+}
+}
+.next-link {
+    text-align: right;
+}
+.previous-next-links {
+    clear: both;
+}
+.enlarge-link {
+    color: #9c3303;
+    display: block;
+    text-align: right;
+    text-decoration: underline;
+}
+.large {
+    left: 0;
+    position: absolute;
+    right: 0;
+    width: 100%;
+}
+.pdq-link-enlarge {
+    color: #9c3303;
+    display: block;
+    margin: 20px 0 -10px;
+    text-align: right;
+    text-decoration: underline;
+}
+table .pdq-link-enlarge {
+    margin: 0;
+}
+.pdq-image-table-enlarge {
+    background: #fff none repeat scroll 0 0;
+    box-shadow: 0 0 5px 5px gray;
+    left: 10px;
+    margin-top: 20px;
+    position: absolute;
+    right: 10px;
+}
+.pdq-image-table-enlarge table caption {
+    padding: 20px 0 10px 10px;
+}
+table.table-default {
+    border-collapse: collapse;
+    margin: 15px 0;
+}
+tfoot.pdq-footer {
+    margin: 0;
+    padding: 10px;
+}
+tfoot.pdq-footer td {
+    background: #f5f5f5 none repeat scroll 0 0;
+    border: medium none;
+    font-family: Montserrat,Arial,sans-serif;
+    font-size: 14px;
+    font-style: italic;
+    line-height: 1.5em;
+    padding: 5px;
+}
+table tfoot {
+    background-color: #f5f5f5;
+    font-family: Montserrat,Arial,sans-serif;
+    font-size: 14px;
+    font-weight: normal;
+    line-height: 1.5em;
+}
+#accordion li > ul, .accordion li > ul, .key-points li > ul {
+    margin-bottom: 0;
+    padding-bottom: 0;
+}
+.pdq-list-title {
+    font-style: italic;
+    font-weight: bold;
+}
+.pdq-hp-patient-toggle a::after {
+    background: rgba(0, 0, 0, 0) url("/images/nci-sprite.png") no-repeat scroll -467px -217px;
+    content: "";
+    display: inline-block;
+    height: 20px;
+    margin-bottom: -5px;
+    margin-left: 10px;
+    width: 20px;
+}
+.pdq-hp-patient-toggle a:hover::after, .pdq-hp-patient-toggle a:focus::after {
+    background-position: -382px -217px;
+}
+.pdq-hp-patient-toggle a:hover, .pdq-hp-patient-toggle a:focus {
+    color: #bb0e3d;
+}
+.contentzone ul.PDQ-list {
+    padding-left: 0;
+}
+.contentzone ul.PDQ-list li::before {
+    content: none;
+}
+.contentzone ul.PDQ-list li {
+    background-image: none;
+    margin-left: 0;
+    padding-left: 0;
+}
+.contentzone ul.PDQ-list ul {
+    margin-top: 3px;
+    padding-left: 20px !important;
+}
+.contentzone .PDQ-list ul > li {
+    display: inline;
+}
+.contentzone ul.PDQ-list ul {
+    margin-left: 0;
+    padding-left: 0;
+}
+.contentzone .PDQ-list ul > li:first-child::before {
+    content: none;
+    display: none;
+}
+.contentzone .PDQ-list ul > li::before {
+    content: "|";
+    float: none;
+    padding-left: 20px;
+    padding-right: 5px;
+    top: 0;
+}
+ul.pdq-address-block li {
+    background: rgba(0, 0, 0, 0) none repeat scroll 0 0;
+    list-style-type: none;
+    margin-bottom: 0;
+    padding: 0;
+}
+.contentzone ul.pdq-address-block > li::before {
+    content: none;
+}
+.trial-sites h4, .trial-sites .related-resources h6, .related-resources .trial-sites h6 {
+    background: #e6e6e2 none repeat scroll 0 0;
+    padding: 3px 0;
+}
+.trial-sites h5 {
+    color: #993333;
+    font-size: 15px;
+    margin: 10px 0;
+}
+.trial-sites h6 {
+    font-style: normal;
+    margin: 5px 0 10px;
+}
+.trial-sites .two-columns {
+    margin: 0 30px;
+}
+.definition-term {
+    line-height: 1em;
+}
+.definition-term-image {
+    display: inline-block;
+    vertical-align: middle;
+}
+figure.definition-image {
+    display: block;
+    width: 25%;
+}
+table.drug-combination {
+    margin-left: 0;
+    width: 100%;
+}
+table.drug-combination td {
+    padding: 5px;
+}
+table.drug-combination td.drug-combo-letter {
+    font-weight: bold;
+    text-align: right;
+}
+.two-columns.brand-fda {
+    width: 60%;
+}
+.brand-fda .column1 {
+    font-weight: bold;
+}
+table.table-default tfoot td {
+    background: #f5f5f5 none repeat scroll 0 0;
+    border: medium none;
+    font-family: Montserrat,Arial,sans-serif;
+    font-size: 14px;
+    font-style: normal;
+    line-height: 1.5em;
+    margin: 0;
+    padding: 8px 10px;
+}
+form .row .clinical-trial-individual-result {
+    margin-bottom: 75px;
+}
+.row .row .ct-results-form {
+    margin: 60px 20px 30px 0;
+}
+form .row .view-content-for-container {
+    -moz-border-bottom-colors: none;
+    -moz-border-left-colors: none;
+    -moz-border-right-colors: none;
+    -moz-border-top-colors: none;
+    border-color: #00cccc #bdbdbd #bdbdbd;
+    border-image: none;
+    border-style: solid;
+    border-width: 4px 1px 1px;
+    padding: 10px;
+}
+.ct-results-help {
+    text-align: right;
+}
+.search-criteria-box {
+    border: 1px solid #bdbdbd;
+    display: inline-block;
+    margin: 0 0 30px;
+    padding: 10px 15px;
+}
+.ct-results-top-search-options {
+    margin-top: 30px;
+}
+.show-criteria-link a::after, .hide-criteria-link a::after {
+    background: rgba(0, 0, 0, 0) url("/images/nci-sprite.png") no-repeat scroll -460px -186px;
+    content: " ";
+    display: inline-block;
+    height: 5px;
+    margin-bottom: 2px;
+    margin-left: 5px;
+    padding: 0 10px;
+    position: relative;
+    width: 8px;
+}
+.show-criteria-link a {
+    color: #606060;
+}
+.hide-criteria-link {
+    border-bottom: 1px solid #bdbdbd;
+}
+.hide-criteria-link a {
+    color: #606060;
+}
+.hide-criteria-link a::after {
+    background-position: -488px -186px;
+}
+.clinicaltrials-results-criteria-display {
+    padding: 10px 0;
+}
+.ct-results-lower-control {
+    margin-bottom: 40px;
+}
+.ct-results-top-control {
+    margin: 10px 0 50px;
+}
+.ct-results-select-all, .ct-results-sort, .ct-results-show {
+    margin-right: 20px;
+}
+.cts-results-container .row .checkbox {
+    float: right;
+    line-height: 1.25;
+    margin-right: 0.5em;
+}
+@media only screen and (max-width: 1024px) {
+.cts-results-container .row .checkbox {
+    float: none;
+}
+}
+.study-site-city {
+    margin-left: 15px;
+}
+.study-site-name {
+    font-weight: bold;
+}
+ul.collaborators li {
+    margin-left: 0;
+}
+@media only screen and (min-width: 641px) {
+[data-display-excludedevice~="screen"] {
+    display: none !important;
+}
+}
+@media only screen and (max-width: 640px) {
+[data-display-excludedevice~="mobile"] {
+    display: none !important;
+}
+}
+.subscribeRSS {
+    margin-bottom: 10px;
+}
+.subscribeRSS a.blogRSS span {
+    display: inline-block;
+}
+.blog-comment-policy {
+    display: none;
+}
+.blog-post-publishing-info {
+    font-size: 12px;
+}
+p.blog-post-publishing-info {
+    margin-top: 0;
+}
+.blog.body-banner::before {
+    background-color: #403f3f;
+    color: #ffffff;
+    content: "Blog";
+    padding: 0.62em;
+    position: absolute;
+    right: 0;
+    text-transform: uppercase;
+    transform: rotate(90deg) translate(100%, -1px);
+    transform-origin: right top 0;
+    z-index: 88;
+}
+.blog-post {
+    padding-top: 16px;
+}
+.blog-post:first-child {
+    border-top: medium none;
+    margin-top: 0;
+    padding-top: 0;
+}
+.blog-post h3 {
+    float: left;
+    margin: 0;
+    width: 70%;
+}
+.blog-post h3.no-comments {
+    width: 100%;
+}
+.blog-post .post-info .post-title > a {
+    display: block;
+    float: right;
+}
+.blog-list .blog-post .post-info .post-title > a {
+    display: none;
+}
+.blog-post .post-thumb {
+    padding-left: 0;
+}
+.blog-post .post-thumb img {
+    max-width: 100%;
+}
+.cgvblogseries .list a.title {
+    font-size: 1.5em;
+}
+@media only screen and (max-width: 640px) {
+.post-thumb {
+    display: none;
+}
+}
+.blog-list {
+    margin-top: 24px;
+}
+.blog-pager {
+    border-top: 1px solid #bdbdbd;
+    padding-top: 24px;
+}
+.blog-pager a {
+    display: block;
+}
+.blog-pager a.newer {
+    float: right;
+}
+.blog-pager a.older {
+    float: left;
+}
+.post-title > h3 {
+    font-weight: normal;
+}
+.post-title a {
+    text-decoration: none;
+}
+.post-title a:hover, .post-title a:focus {
+    color: #bb0e3d;
+    text-decoration: none;
+}
+a.comment-count {
+    background: rgba(0, 0, 0, 0) url("/images/comment-icon.png") no-repeat scroll 0 0;
+    height: 22px;
+    padding-left: 26px;
+}
+.date-author {
+    padding-top: 10px;
+}
+.blog-post-older {
+    float: left;
+    padding-right: 0.3em;
+    width: 50%;
+}
+.blog-post-newer {
+    float: right;
+    padding-left: 0.3em;
+    text-align: right;
+    width: 50%;
+}
+.blog-post-older p, .blog-post-newer p {
+    margin-top: 0;
+}
+a.arrow-link.news-footer, a.news-footer.arrow-link-white {
+    display: inline;
+}
+.news-share {
+    margin-bottom: 10px;
+}
+.news-share ul {
+    margin-left: 23px;
+}
+.news-share ul li {
+    position: relative;
+}
+.news-share ul a[class^="news"]::before {
+    left: -26px;
+    position: absolute;
+    top: 8px;
+}
+.news-share a::before {
+    content: " ";
+    display: inline-block;
+    margin-right: 0.25em;
+}
+.news-share a.news-twitter::before {
+    background: rgba(0, 0, 0, 0) url("/images/nci-sprite.png") no-repeat scroll -17px -201px;
+    height: 16px;
+    width: 19px;
+}
+.news-share a.news-facebook::before {
+    background: rgba(0, 0, 0, 0) url("/images/nci-sprite.png") no-repeat scroll -20px -156px;
+    height: 17px;
+}
+.news-share a.news-youtube::before {
+    background: rgba(0, 0, 0, 0) url("/images/nci-sprite.png") no-repeat scroll -19px -336px;
+    height: 21px;
+    top: 0 !important;
+    width: 19px;
+}
+.news-share a.news-rss::before {
+    background: rgba(0, 0, 0, 0) url("/images/nci-sprite.png") no-repeat scroll -20px -381px;
+    height: 16px;
+    width: 19px;
+}
+.news-share a.news-govdelivery::before {
+    background: rgba(0, 0, 0, 0) url("/images/nci-sprite.png") no-repeat scroll -126px -563px;
+    height: 18px;
+    position: relative;
+    top: 6px !important;
+    width: 19px;
+}
+.news-share a.icon-exit-notification {
+    margin-bottom: 6px;
+    vertical-align: bottom;
+}
+@media only screen and (max-width: 640px) {
+.news-share {
+    margin: 0;
+}
+.news .list .general-list-item a.news-footer {
+    padding-left: 15px;
+}
+}
+.news .card {
+    padding-top: 0;
+}
+.news .list .general-list-item {
+    display: list-item;
+}
+.news .list li {
+    display: none;
+}
+@media only screen and (min-width: 641px) {
+.news .large-8.gutter {
+    width: 66%;
+}
+.news .card {
+    margin-bottom: 1em;
+    padding-left: 0.9375em;
+    padding-right: 0.9375em;
+}
+}
+.news .dynamic > .title {
+    font-size: 1.5em;
+    font-weight: bold;
+}
+#_toc_article {
+    width: inherit;
+}
+.key-points, .on-this-page {
+    margin: 0 0 2.5em 0.9375em;
+}
+.key-points ul, .on-this-page ul {
+    line-height: 1.5em;
+    margin: 0;
+    padding: 0;
+}
+.key-points li, .on-this-page li {
+    color: #2e2e2e;
+    line-height: 1.5em;
+    list-style-type: none;
+    margin-left: 28px;
+}
+.key-points li p, .on-this-page li p {
+    display: inline;
+}
+.key-points li li, .on-this-page li li {
+    margin-left: 32px;
+}
+@media only screen and (max-width: 1024px) {
+.key-facts, .key-points {
+    float: none;
+    margin-left: 0;
+    margin-right: 0;
+    width: 100%;
+}
+}
+@media only screen and (max-width: 640px) {
+div.pre-otp ~ .on-this-page {
+    display: none;
+}
+}
+.key-points h3, .on-this-page h6 {
+    display: block;
+    font-family: Montserrat,Arial,sans-serif;
+    font-size: 1.125em;
+    font-style: normal;
+    font-weight: bold;
+    line-height: 1.25em;
+    margin: 1.3em 0 0.75em;
+    text-transform: uppercase;
+}
+.on-this-page li::before {
+    color: #2b7bba;
+}
+div.institution-grouping {
+    clear: both;
+}
+div.institution-grouping > div {
+    clear: both;
+}
+div.institution-sidebar {
+    background: #eaebe6 none repeat scroll 0 0;
+    float: right;
+    margin: 0 0 12px 12px;
+    overflow: hidden;
+    width: 30%;
+}
+div.institution-sidebar div.institution-sidebar-content {
+    padding: 0 8px 8px;
+}
+div.institution {
+    border-top: 1px solid #bdbdbd;
+    clear: both;
+    padding: 15px 0 0;
+}
+div.institution-legend {
+    border-bottom: 1px dashed #bdbdbd;
+    padding: 4px 0 19px;
+}
+.institution-header {
+    color: #4d4d4d;
+    margin-bottom: 23px;
+}
+h2.institution-title {
+    font-size: 16px;
+}
+div.institution-content {
+    float: left;
+    margin: 0 0 10px;
+    padding: 0 0 0 33px;
+    width: 280px;
+}
+div.institution-grouping > div div:first-child {
+    margin-right: 15px;
+}
+div.institution-content p {
+    margin-top: 20px;
+}
+@media only screen and (max-width: 640px) {
+div.institution-sidebar {
+    margin: 0 0 1em;
+    width: 100%;
+}
+}
+div.ebook-info {
+    clear: left;
+    margin-bottom: 2em;
+    margin-left: 0;
+    margin-top: 2em;
+}
+div.ebook-cover {
+    float: left;
+    margin: 0 0 10px;
+}
+div.ebook-cover img {
+    margin-bottom: 10px;
+}
+div.ebook-title {
+    margin-left: 103px;
+}
+div.ebook-title h4, div.ebook-title .related-resources h6, .related-resources div.ebook-title h6 {
+    margin-top: 0;
+}
+.pub-buttons {
+    font-family: Montserrat,Arial,sans-serif;
+    overflow: auto;
+}
+.pub-buttons a {
+    border-radius: 2px;
+    box-shadow: 0 2px 4px 0 rgba(0, 0, 0, 0.05) inset;
+    color: #fff;
+    display: block;
+    float: left;
+    font-size: 13px;
+    font-weight: bold;
+    line-height: 24px;
+    margin-bottom: 15px;
+    margin-right: 15px;
+    min-width: 130px;
+    padding: 6px 15px 0;
+    text-decoration: none;
+}
+.pub-buttons a.lector {
+    line-height: 12px;
+    padding-bottom: 4px;
+}
+.pub-buttons a:hover {
+    text-decoration: none;
+}
+.pub-buttons a.html {
+    background-color: #82368c;
+}
+.pub-buttons a.pdf {
+    background-color: #bb0e3d;
+}
+.pub-buttons a.pdf:hover {
+    background-color: #8c0a2e;
+}
+.pub-buttons a.kindle {
+    background-color: #ff5f00;
+}
+.pub-buttons a.kindle:hover {
+    background-color: #cc4c00;
+}
+.pub-buttons a.epub, .pub-buttons a.lector {
+    background-color: #2a72a5;
+}
+.pub-buttons a.epub:hover, .pub-buttons a.lector:hover {
+    background-color: #20567c;
+}
+.pub-buttons a.free {
+    background-color: #2dc799;
+}
+.pub-buttons a.free:hover {
+    background-color: #249d79;
+}
+.pub-buttons a.icon {
+    height: 36px;
+    padding-left: 11px;
+}
+.pub-buttons a.icon.pdf {
+    padding-left: 36px;
+}
+.pub-buttons a.icon.kindle {
+    padding-left: 27px;
+}
+.pub-buttons a.icon.epub {
+    padding-left: 35px;
+}
+:lang(es) .pub-buttons a.icon.epub {
+    padding-left: 13px;
+}
+.pub-buttons a.icon span {
+    display: inline-block;
+    padding-left: 11px;
+    vertical-align: top;
+}
+.pub-buttons a.icon::before {
+    content: "";
+    display: inline-block;
+}
+.pub-buttons a.kindle.icon::before {
+    background: rgba(0, 0, 0, 0) url("/images/nci-sprite.png") no-repeat scroll -18px -509.5px;
+    height: 25px;
+    width: 21px;
+}
+.pub-buttons a.html.icon::before {
+    background: rgba(0, 0, 0, 0) url("/images/nci-sprite.png") no-repeat scroll -20px -584px;
+    height: 25px;
+    width: 23px;
+}
+.pub-buttons a.pdf.icon::before {
+    background: rgba(0, 0, 0, 0) url("/images/nci-sprite.png") no-repeat scroll -21px -472px;
+    height: 25px;
+    width: 17px;
+}
+.pub-buttons a.epub.icon::before, .pub-buttons a.lector.icon::before {
+    background: rgba(0, 0, 0, 0) url("/images/nci-sprite.png") no-repeat scroll -21px -547px;
+    height: 25px;
+    width: 17px;
+}
+.pub-buttons a.free.icon::before {
+    background: rgba(0, 0, 0, 0) url("/images/nci-sprite.png") no-repeat scroll -21px -624.5px;
+    height: 19px;
+    width: 17px;
+}
+.materials-to-share .column1 {
+    padding-top: 15px;
+    width: 25%;
+}
+.materials-to-share .column2 {
+    font-size: 0.875em;
+    padding-top: 10px;
+    width: 70%;
+}
+.materials-to-share .column2 .addthis_toolbox p {
+    margin-top: 5px;
+}
+.materials-to-share figure {
+    margin: 0 auto;
+}
+.materials-to-share .addthis_32x32_style .at300bs {
+    background: rgba(0, 0, 0, 0) url("https://www.cancer.gov/publishedcontent/images/images/design-elements/buttons/addthis_buttons_32.png") no-repeat scroll left 50%;
+    display: block;
+    height: 32px !important;
+    line-height: 32px !important;
+    margin-right: 5px;
+    overflow: hidden;
+    width: 32px !important;
+}
+.materials-to-share .addthis_32x32_style .at15t_facebook {
+    background-position: 0 -256px;
+}
+.materials-to-share .addthis_32x32_style .at15t_twitter {
+    background-position: 0 -1152px;
+}
+.materials-to-share .download-image {
+    padding-top: 15px;
+}
+.materials-to-share .download-image p {
+    margin-top: 0;
+    padding-top: 1px;
+}
+.materials-to-share .download-image span.download-infographic-button {
+    background-image: url("https://www.cancer.gov/publishedcontent/images/images/design-elements/buttons/download-button.png");
+    display: block;
+    float: left;
+    height: 32px;
+    margin: 0 7px 0 2px;
+    width: 32px;
+}
+.materials-to-share .two-columns.border-bottom {
+    border-bottom: 1px solid #bdbdbd;
+    padding-bottom: 20px;
+}
+.results dt, .results dd.pronunciation, .results dd.info-summary {
+    display: inline;
+    margin-bottom: 0;
+}
+.results dd.pronunciation, .results dd.info-summary {
+    margin-left: 0.5em;
+}
+.results dd.pronunciation > span, .results dd.info-summary > span {
+    margin-left: 0.25em;
+}
+.results dd {
+    margin-bottom: 1em;
+}
+.results h2, .results h3, .results h4, .results .related-resources h6, .related-resources .results h6 {
+    font-size: 1.25em;
+    line-height: 1.5em;
+    margin-bottom: 30px;
+    margin-top: 40px;
+}
+.results .results-count {
+    font-family: Montserrat,Arial,sans-serif;
+    font-size: 1.25em;
+    font-weight: bold;
+    line-height: 1.5em;
+}
+.results .result .row + .row {
+    margin-top: 1.25em;
+}
+.mtd_pronounce {
+    margin-left: 0.25em;
+}
+.results-pager {
+    margin-bottom: 5.3125em;
+}
+.results-pager .pagination span {
+    margin-left: 0;
+}
+.sitewide-results ul.no-bullets > li {
+    margin-bottom: 1.875em;
+    margin-top: 1.875em;
+}
+.sitewide-results .url {
+    display: table;
+    font-size: 0.875em;
+    word-break: break-all;
+}
+.sitewide-results.featured {
+    background: #dbf2f8 none repeat scroll 0 0;
+    overflow: auto;
+    padding: 2.5%;
+}
+.sitewide-results.featured h2 {
+    margin-top: 0;
+}
+.sitewide-results.featured .list-item .title {
+    font-size: 1em;
+}
+.sitewide-results.featured .list, .sitewide-results.featured .list-item {
+    margin-bottom: 0;
+}
