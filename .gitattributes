@@ -171,6 +171,7 @@ Scripts/random_images_left.js -text
 Scripts/random_images_nci.js -text
 Scripts/random_images_right.js -text
 Scripts/swfobject_modified.js -text
+accepted_fellows/index.html -text
 audio/RFAWebinar_8415.m4a -text
 bb/2004.pdf -text
 bb/2005_bb.pdf -text
@@ -215,12 +216,6 @@ bb/images/seer.jpg -text
 bb/index.html -text
 bb/js/main.js -text
 brp/about.html -text
-brp/accepted_fellows/documents/CRTA_Insurance_Application.pdf -text
-brp/accepted_fellows/documents/CRTA_Insurance_Waiver.pdf -text
-brp/accepted_fellows/documents/CRTA_Provisions_Document.pdf -text
-brp/accepted_fellows/documents/SF181.pdf -text svneol=unset#unset
-brp/accepted_fellows/documents/SF256.pdf -text svneol=unset#unset
-brp/accepted_fellows/index.html -text
 brp/archive/ceccr/ceccrII_crn.html -text
 brp/archive/ceccr/ceccrII_michigan.html -text
 brp/archive/ceccr/ceccrII_penn.html -text
