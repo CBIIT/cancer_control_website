@@ -479,7 +479,9 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
     <script>
       !function ($) {
         $(function(){
-          $('#myCarousel').carousel()
+          $('#myCarousel').carousel({
+                interval: 15000
+        })
         })
       }(window.jQuery)
 	  $('#playButton').click(function () {
@@ -525,11 +527,6 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
 	
 	// This adds thumbnail support to the carousel 
 	  jQuery(document).ready(function($) {
- 
-        $('#myCarousel').carousel({
-                interval: 12000
-        });
- 
         //Handles the carousel thumbnails
         $('[id^=carousel-selector-]').click( function(){
                 var id_selector = $(this).attr("id");
