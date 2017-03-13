@@ -507,6 +507,7 @@ brp/docs/SGA_8576040.pdf -text
 brp/docs/SGA_8619527.pdf -text
 brp/docs/Sandpit.pdf -text
 brp/docs/TCRB-SF-gov-2017.pdf -text
+brp/docs/Training-sheet.pdf -text svneol=unset#unset
 brp/docs/animal-models-ad.pdf -text
 brp/docs/neuroscience-ad.pdf -text
 brp/docs/pcc_monograph.pdf -text svneol=unset#unset
@@ -898,6 +899,7 @@ brp/tcrb/documents/MentholExecSumRprt4_10-16.pdf -text svneol=unset#unset
 brp/tcrb/documents/MergedArticles311-422.pdf -text svneol=unset#unset
 brp/tcrb/documents/MethnolExecSumRprt4_10-16.pdf -text svneol=unset#unset
 brp/tcrb/documents/NCI-AACR-Cancer-Patient-Tobacco-Use-Assessment-Task-Force.pdf -text
+brp/tcrb/documents/NCI-FOA-Flyer.pdf -text
 brp/tcrb/documents/TCIR_Factsheet.pdf -text
 brp/tcrb/documents/TCRBInternationalFactsheet.pdf -text
 brp/tcrb/documents/TCRB_Factsheet.pdf -text
@@ -959,6 +961,7 @@ brp/tcrb/images/2.jpg -text
 brp/tcrb/images/3.jpg -text
 brp/tcrb/images/4.jpg -text
 brp/tcrb/images/Fact_Sheet.jpg -text
+brp/tcrb/images/NCI-FOA-Flyer.jpg -text
 brp/tcrb/images/TCIR_Factsheet.jpg -text
 brp/tcrb/images/china-no-smoking-restaurant.jpg -text
 brp/tcrb/images/china-us-personnel.jpg -text
@@ -1629,6 +1632,7 @@ docs/Method_Measure_Behavior_Social_Sciences_1007.pdf -text svneol=unset#unset
 docs/MoserAACRFeb2009.ppt -text
 docs/Thumbs.db -text
 docs/Tob-HIV-LMICS-FOA-Webinar_2.3.2017.pdf -text
+docs/Webinar-on-Perception-and-Cognition.pdf -text
 docs/acknowledgementFAQs.pdf -text
 docs/acknowledgementLettertograntees.pdf -text
 /epidemiology.html -text
