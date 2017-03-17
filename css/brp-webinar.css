@@ -1,0 +1,37 @@
+.content-top .row-fluid .span12 {
+    width: 98.1158%
+}
+.white_RWB {
+    background-color: #ffffff;
+    padding: 0.5em;
+}
+.content-top {
+    background-color: #ececec;
+    border: 1px solid #cccccc;
+    padding: 10px;
+}
+.content-top h3 {
+	margin-top: 0;
+}
+.content-top h3 {
+	padding-bottom: 5px;
+}
+.content-top h3.panel-title {
+	font-weight:bold;
+}
+.triple-back {
+    background-color: #ffffff;
+    border: 1px solid #cccccc;
+    padding: 15px 15px 0;
+}
+.RWB-tripple {
+    /*height: 250px;*/
+    margin: 1% 0.75% !important;
+}
+.RWB-tripple h3 {
+    line-height: 1.3em;
+}
+.accordion-heading {
+	border:none;	
+}
+.accordion-group .accordion-heading a, .accordion-group .accordion-heading a.collapsed { margin-left:0; }
