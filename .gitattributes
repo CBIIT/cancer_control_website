@@ -13,6 +13,8 @@ IS/css/is-style.css -text
 IS/docs/Character_Strong_Dis_Implement_Access.doc -text
 IS/docs/ConsolidatedFinalReport.doc -text
 IS/docs/DAChambers-CV.pdf -text
+IS/docs/DCCPS-DI-PAR-Factsheet.pdf -text svneol=unset#unset
+IS/docs/DCCPS-IS-Factsheet.pdf -text svneol=unset#unset
 IS/docs/ExecSummaryCTIWGMtg.doc -text
 IS/docs/GI_1R01CA160327-01A1.pdf -text
 IS/docs/GI_1R01CA175329-01A1.pdf -text
@@ -26,6 +28,8 @@ IS/docs/dod_introduction.ppt -text
 IS/e-newsletter/thank-you.html -text
 IS/funding-webinars.html -text
 IS/funding.html -text
+IS/images/DCCPS-DI-PAR-Factsheet.jpg -text
+IS/images/DCCPS-IS-Factsheet.jpg -text
 IS/images/S-Heurtin-Roberts.jpg -text
 IS/images/SCPtitle_header.gif -text
 IS/images/about-banner.jpg -text
@@ -1604,6 +1608,7 @@ css/bootstrap-nci.css -text
 css/bootstrap-responsive.css -text
 css/bootstrap.css -text
 css/bootstrap3.min.css -text
+css/brp-webinar.css -text
 css/buttons.dataTables.min.css -text
 css/datatables.min.css -text
 css/homepage.css -text
@@ -1858,6 +1863,7 @@ images/minus.gif -text
 images/mlist1.gif -text
 images/mlist3.gif -text
 images/mm_spacer.gif -text
+images/moser_richard.jpg -text
 images/national-expenditures-between-2010-2020-thumb.png -text
 images/national-expenditures-between-2010-2020.png -text
 images/native-banner.jpg -text
