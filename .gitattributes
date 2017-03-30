@@ -497,6 +497,7 @@ brp/crosstalk.html -text
 brp/css/brp-style.css -text
 brp/css/homepage.css -text
 brp/decision-making.html -text
+brp/docs/BBPSB-Post-Bac-CRTA-Announcement.pdf -text
 brp/docs/BRP_Fact_Sheet-acc.pdf -text
 brp/docs/Flier_HBRB.pdf -text svneol=unset#unset
 brp/docs/HCIRBFactSheet.pdf -text svneol=unset#unset
@@ -540,6 +541,7 @@ brp/e-newsletter/images/abby-prestin.jpg -text
 brp/e-newsletter/images/abcd-study.jpg -text
 brp/e-newsletter/images/alesa-teague.jpg -text
 brp/e-newsletter/images/blake.jpg -text
+brp/e-newsletter/images/carolyn-reyes-guzman.jpg -text
 brp/e-newsletter/images/catherine-alfano.jpg -text
 brp/e-newsletter/images/cendrine-robinson.jpg -text
 brp/e-newsletter/images/david-ahern.jpg -text
@@ -547,13 +549,19 @@ brp/e-newsletter/images/erik-augustson.jpg -text
 brp/e-newsletter/images/estimated-cancer-by-age.jpg -text
 brp/e-newsletter/images/ferrer.jpg -text
 brp/e-newsletter/images/flashe.jpg -text
+brp/e-newsletter/images/glen-morgan.jpg -text
 brp/e-newsletter/images/greenmcdonald.jpg -text
 brp/e-newsletter/images/hintslogo.jpg -text
 brp/e-newsletter/images/infographic.png -text
+brp/e-newsletter/images/jenn-nguyen.jpg -text
 brp/e-newsletter/images/jerry-suls.jpg -text
 brp/e-newsletter/images/kimberly-woodhouse.jpg -text
+brp/e-newsletter/images/mark-parascandola.jpg -text
 brp/e-newsletter/images/melissa-trevino.jpg -text
+brp/e-newsletter/images/michele-bloch.jpg -text
+brp/e-newsletter/images/mimi-lising.jpg -text
 brp/e-newsletter/images/mindy-krakow.jpg -text
+brp/e-newsletter/images/monograph-21.jpg -text
 brp/e-newsletter/images/moonshot-panel.jpg -text
 brp/e-newsletter/images/moonshot-report.jpg -text
 brp/e-newsletter/images/moser.jpg -text
@@ -568,6 +576,7 @@ brp/e-newsletter/images/springboard-beyond.png -text
 brp/e-newsletter/images/srtb.jpg -text
 brp/e-newsletter/images/tanya-agurs-collins.jpg -text
 brp/e-newsletter/images/team-science-toolkit.jpg -text
+brp/e-newsletter/images/todd-horowitz.jpg -text
 brp/e-newsletter/images/william-klein.jpg -text
 brp/e-newsletter/images/yvonne-hunt.jpg -text
 brp/e-newsletter/index.html -text
@@ -588,6 +597,7 @@ brp/e-newsletter/notes-jan-2017-sandpit.html -text
 brp/e-newsletter/notes-jan-2017-tobacco-control.html -text
 brp/e-newsletter/notes-jan-2017-webinar-tobacco-hiv-research.html -text
 brp/e-newsletter/notes-june-2015.html -text
+brp/e-newsletter/notes-march-2017-webinar.html -text
 brp/e-newsletter/notes-may-2016-funding.html -text
 brp/e-newsletter/notes-may-2016-new-opportunity.html -text
 brp/e-newsletter/notes-may-2016-program-analyst.html -text
@@ -598,6 +608,7 @@ brp/e-newsletter/notes-sept-2016-smoking-cessation.html -text
 brp/e-newsletter/nov-2016.html -text
 brp/e-newsletter/oct-2015.html -text
 brp/e-newsletter/sept-2014.html -text
+brp/e-newsletter/spring-2017.html -text
 brp/e-newsletter/subscribe.html -text
 brp/e-newsletter/thank-you.html -text
 brp/funding/award.html -text
@@ -1682,6 +1693,7 @@ images/Annual-Report-to-the-Nation.jpg -text
 images/BRP_banner.jpg -text
 images/Breast_Cancer_in_Women_infographic.png -text
 images/Breast_Cancer_in_Women_infographic_thumb.png -text
+images/DCCPS-Survival-Rates-graph.png -text
 images/DCCPS-chart-june2014-800x600.jpg -text
 images/DCCPS-chart-june2014.jpg -text
 images/DCCPS-chart-may072014-large.jpg -text
@@ -1920,6 +1932,7 @@ images/smoothed-age-adjusted-death-rates-thumbnail.jpg -text
 images/smoothed-age-adjusted-death-rates.jpg -text
 images/spacer.gif -text
 images/srp_banner2.jpg -text
+images/stephanie-land.jpg -text
 images/strat_assist_science.gif -text
 images/tagline.gif -text
 images/thepc_cover.gif -text

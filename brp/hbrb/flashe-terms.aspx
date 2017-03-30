@@ -82,7 +82,7 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
             </button>
             <div class="nav-collapse collapse">
               <ul class="nav">
-                <li class="active"><a href="/brp/">BRP Home</a></li>
+                <li><a href="/brp/">BRP Home</a></li>
                 <li class="dropdown">
                   <a href="/brp/priority-areas/" class="hover-link">Priority Areas <b class="caret"></b></a>
                   <ul class="dropdown-menu">
@@ -100,6 +100,7 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
                   <a href="/brp/funding/" class="hover-link">Funding Opportunities <b class="caret"></b></a>
                   <ul class="dropdown-menu">
                   	<li><a href="/brp/funding/index.html#apply">Apply for Grants</a></li>
+                  	<li><a href="/funding-foa-applicants.html">Webinars</a></li>
                   	<li><a href="/brp/funding/index.html#sample">Sample  Grant Applications</a></li>
                   	<li><a href="/brp/funding/index.html#resources">Grantee Resources</a></li>
                   	<li><a href="https://staffprofiles.cancer.gov/brp/granteeList.do">Featured Grantees</a></li>
@@ -111,11 +112,12 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
                   	<li><a href="/brp/research/index.html#rt">Tools</a></li>
                   	<li><a href="/brp/research/index.html#pus">Surveys</a></li>
                   	<li><a href="/brp/research/index.html#rmd">Measures and Databases</a></li>
-                  	<li><a href="/brp/research/index.html#tcr">Tobacco Cessation Guides</a></li>
-                  	<li><a href="/brp/research/index.html#pub">Publications, News, and Videos</a></li>
+                  	<li><a href="/brp/research/index.html#tcr">Tobacco Cessation Resources</a></li>
+                    <li><a href="/funding-foa-applicants.html">Webinars and Videos</a></li>
+                  	<li><a href="/brp/research/index.html#pub">Publications and News</a></li>
                   </ul>
                 </li>
-                <li class="dropdown">
+                <li class="dropdown active">
                   <a href="/brp/about.html" class="hover-link">About BRP <b class="caret"></b></a>
                   <ul class="dropdown-menu">
                   	<li><a href="/brp/about.html#branches">Program Branches</a></li>
