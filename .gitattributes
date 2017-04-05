@@ -1485,10 +1485,11 @@ brp/tcrb/tus-cps/archive/tusuw_weyland.pdf -text
 brp/tcrb/tus-cps/archive/tusuw_willis1.pdf -text
 brp/tcrb/tus-cps/archive/tusuw_willis2.pdf -text svneol=unset#unset
 brp/tcrb/tus-cps/citation.html -text
-brp/tcrb/tus-cps/cps03_final.sas -text
-brp/tcrb/tus-cps/cps1011.sas -text
-brp/tcrb/tus-cps/cpsjan07_final.sas -text
-brp/tcrb/tus-cps/cpsmayaug06_final.sas -text
+brp/tcrb/tus-cps/cps03_final.txt -text
+brp/tcrb/tus-cps/cps1011.txt -text
+brp/tcrb/tus-cps/cps1415.txt -text
+brp/tcrb/tus-cps/cpsjan07_final.txt -text
+brp/tcrb/tus-cps/cpsmayaug06_final.txt -text
 brp/tcrb/tus-cps/future.html -text
 brp/tcrb/tus-cps/help.html -text
 brp/tcrb/tus-cps/images/tuscps_logo.gif -text
