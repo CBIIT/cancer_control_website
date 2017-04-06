@@ -1,0 +1,33 @@
+/* IE 9 Styles CSS Document */
+/* ------------------------------ Back to Top Button ------------------------------ */
+.flip-container {
+  -webkit-perspective: none;
+          perspective: none; }
+
+.flipper {
+  -webkit-transition: 0s;
+  transition: 0s;
+  -webkit-transform-style: none;
+          transform-style: none; }
+
+.back {
+  -webkit-transform: none;
+          transform: none; }
+
+.vertical.flip-container:hover .back {
+  -webkit-animation-delay: 0s;
+          animation-delay: 0s;
+  -webkit-animation: none;
+          animation: none;
+  z-index: 999; }
+
+.vertical.flip-container:hover .front {
+  z-index: 997; }
+
+.vertical.flip-container .flipper {
+  -webkit-transform-origin: none;
+          transform-origin: none; }
+
+.vertical.flip-container:hover .flipper {
+  -webkit-transform: none;
+          transform: none; }
