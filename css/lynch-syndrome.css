@@ -14,13 +14,12 @@
 .filterWrap label, .filterWrap input { margin-bottom: 0; }
 .filterWrap span { float: left; }
 
-.player iframe {width: 100%; height: auto; min-height:300px; background: #ccc; }
+.player iframe {width: 100%; height: auto; background: #ccc; }
 
 /* if JS is on, enhance */
 .js .player { display: block; }
 .js .playlist a { padding-left: 4em; background: url("/i/play_sprite.png") 13px -158px no-repeat; }
 .js .playlist a:hover, .js .playlist a:focus { background: #e6e6e6 url("/i/play_sprite.png") 13px 13px no-repeat; }
-
 
 .dataTable { width:100%; }
 
@@ -29,7 +28,11 @@
 .js .playlist a { padding-left: 4em; background: url("/i/play_sprite.png") 13px -158px no-repeat; }
 .js .playlist a:hover, .js .playlist a:focus { background: #e6e6e6 url("/i/play_sprite.png") 13px 13px no-repeat; }
 
-@media screen and (max-width: 47.99em) {
+@media (min-width: 768px) {
+.player iframe { min-height:360px; }
+}
+
+@media screen and (max-width: 768px) {
 	.playlist .time { text-align: left; }
 	.filterWrap span { float: none; }
 	.playlistWrap .dataTables_filter { text-align: left; padding-top: .65em; border-top: 1px dotted #ccc; }
