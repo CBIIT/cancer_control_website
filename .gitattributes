@@ -499,6 +499,7 @@ brp/crosstalk.html -text
 brp/css/brp-style.css -text
 brp/css/homepage.css -text
 brp/decision-making.html -text
+brp/docs/BBPSB-Fellow-May-2017.pdf -text
 brp/docs/BBPSB-Post-Bac-CRTA-Announcement.pdf -text
 brp/docs/BRP_Fact_Sheet-acc.pdf -text
 brp/docs/Flier_HBRB.pdf -text svneol=unset#unset
@@ -513,7 +514,6 @@ brp/docs/SGA_8574995.pdf -text
 brp/docs/SGA_8576040.pdf -text
 brp/docs/SGA_8619527.pdf -text
 brp/docs/Sandpit.pdf -text
-brp/docs/TCRB-SF-gov-2017.pdf -text
 brp/docs/Training-sheet.pdf -text svneol=unset#unset
 brp/docs/animal-models-ad.pdf -text
 brp/docs/neuroscience-ad.pdf -text
@@ -667,6 +667,8 @@ brp/hbrb/docs/Teen-Diet-SPSS.zip -text
 brp/hbrb/docs/Teen_Demo_PUF_Instrument.pdf -text
 brp/hbrb/docs/Teen_Diet_PUF_Instrument.pdf -text
 brp/hbrb/docs/Teen_PA_PUF_Instrument.pdf -text
+brp/hbrb/docs/Trans-NIH-Consortium-Agenda.pdf -text
+brp/hbrb/docs/Trans-NIH-Consortium-Meeting-Report.pdf -text
 brp/hbrb/docs/item-source-and-reference-list-diet.pdf -text
 brp/hbrb/docs/item-source-and-reference-list-physical-activity.pdf -text
 brp/hbrb/fab/docs/FAB_Codebook_v8.pdf -text
@@ -731,6 +733,7 @@ brp/images/Geoffrey-Williams.jpg -text
 brp/images/NCI-FLASHE-Conceptual-Model.jpg -text
 brp/images/NCI-FLASHE-Dyad-Competition-Rate.jpg -text
 brp/images/NCI-Network-Factsheet.png -text
+brp/images/Training-sheet.png -text
 brp/images/about-banner.png -text
 brp/images/barbara-biesecker.jpg -text
 brp/images/breadcrumb-divider-brp.png -text
@@ -2524,9 +2527,12 @@ pdf/IRINAH-Spring-2016-newsletter.pdf -text
 pdf/Khoury_Slides.pdf -text
 pdf/Knowles-FH-cascade.pdf -text
 pdf/NCI_DCCPS_50_Ways.pdf -text
+pdf/QandA-Perception-and-Cognition-Research.pdf -text
+pdf/QandA-Six-New-Funding-Opps-in-Behavioral-Research.pdf -text
 pdf/RFAWebX.pdf -text
 pdf/RFA_Webinar_Transcript.pdf -text
 pdf/Riley-Presentation.pdf -text
+pdf/Webinar-OAC-PA.pdf -text
 pdf/nci-tobacco-control-research-priorities-rpt-feb-2016.pdf -text
 pdf/ntrp0077.pdf -text
 /pie.htc -text
