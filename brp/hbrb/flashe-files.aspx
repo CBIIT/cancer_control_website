@@ -100,7 +100,6 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
                   <a href="/brp/funding/" class="hover-link">Funding Opportunities <b class="caret"></b></a>
                   <ul class="dropdown-menu">
                   	<li><a href="/brp/funding/index.html#apply">Apply for Grants</a></li>
-                  	<li><a href="/funding-foa-applicants.html">Webinars</a></li>
                   	<li><a href="/brp/funding/index.html#sample">Sample  Grant Applications</a></li>
                   	<li><a href="/brp/funding/index.html#resources">Grantee Resources</a></li>
                   	<li><a href="https://staffprofiles.cancer.gov/brp/granteeList.do">Featured Grantees</a></li>
@@ -112,9 +111,8 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
                   	<li><a href="/brp/research/index.html#rt">Tools</a></li>
                   	<li><a href="/brp/research/index.html#pus">Surveys</a></li>
                   	<li><a href="/brp/research/index.html#rmd">Measures and Databases</a></li>
-                  	<li><a href="/brp/research/index.html#tcr">Tobacco Cessation Resources</a></li>
-                    <li><a href="/funding-foa-applicants.html">Webinars and Videos</a></li>
-                  	<li><a href="/brp/research/index.html#pub">Publications and News</a></li>
+                  	<li><a href="/brp/research/index.html#tcr">Tobacco Cessation Guides</a></li>
+                  	<li><a href="/brp/research/index.html#pub">Publications, News, and Videos</a></li>
                   </ul>
                 </li>
                 <li class="dropdown active">
@@ -123,7 +121,8 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
                   	<li><a href="/brp/about.html#branches">Program Branches</a></li>
                     <li><a href="/brp/about.html#staff">Staff</a></li>
                     <li><a href="/brp/career_training.html">Career and Training</a></li>
-                    <li><a href="/brp/about.html#networks">Networks and Collaborations</a></li>      	
+                    <li><a href="/brp/about.html#networks">Networks and Collaborations</a></li>
+                    <li><a href="/brp/events.html">Events</a></li>
                   </ul>
                 </li>
 </ul>
@@ -147,7 +146,7 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
   <li class="parent">
     <div class="heading"><a href="/brp/hbrb/flashe.html">FLASHE</a></div>       <div class="divider"><span>></span></div>
   </li>
-                    <li class="active">
+                    <li>
                       <div class="heading">FLASHE Public Use Data Files and Supporting Documentation</div>
                       <div class="divider"><span>></span></div>
                     </li>
@@ -174,16 +173,16 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
     <p>Adolescents ages 12-17 were surveyed about their diet, physical activity, and demographics. The results are saved in separate data sets that can be linked across files using participant or dyad identification numbers.</p>
     <ul>
       <li>Download adolescent  demographic data (<a href="/brp/hbrb/docs/Teen-Demographic-SAS.zip">SAS</a>, <a href="/brp/hbrb/docs/Teen-Demographic-SPSS.zip">SPSS</a>)</li>
-      <li>Download adolescent diet  data (<a href="/brp/hbrb/docs/Teen-Diet-SAS.zip">SAS</a>, <a href="/brp/hbrb/docs/Teen-Diet-SPSS.zip">SPSS</a>)</li>
-      <li>Download adolescent  physical activity data (coming soon!)</li>
+      <li>Download adolescent diet  data (<a href="/brp/hbrb/docs/Teen-Diet-SAS.zip">SAS</a>, <a href="/brp/hbrb/docs/Teen-Diet-SPSS.zip">SPSS</a>) &ndash; Updated March 2017</li>
+      <li>Download adolescent  physical activity data (<a href="/brp/hbrb/docs/Teen-PA-SAS.zip">SAS</a>, <a href="/brp/hbrb/docs/Teen-PA-SPSS.zip">SPSS</a>) &ndash; Added March 2017</li>
       <li>Download adolescent  physical activity monitor data (coming soon!)</li>
     </ul>
     </ul>
     <p>Parents of adolescents were surveyed about diet, physical activity, and demographics. The results are saved in separate data sets that can be linked across files using participant or dyad identification numbers.</p>
     <ul>
       <li>Download parent  demographic data (<a href="/brp/hbrb/docs/Parent-Demographic-SAS.zip">SAS</a>, <a href="/brp/hbrb/docs/Parent-Demographic-SPSS.zip">SPSS</a>)</li>
-      <li>Download parent diet data  (<a href="/brp/hbrb/docs/Parent-Diet-SAS.zip">SAS</a>, <a href="/brp/hbrb/docs/Parent-Diet-SPSS.zip">SPSS</a>)</li>
-      <li>Download parent  physical activity data (coming soon!) </li>
+      <li>Download parent diet data  (<a href="/brp/hbrb/docs/Parent-Diet-SAS.zip">SAS</a>, <a href="/brp/hbrb/docs/Parent-Diet-SPSS.zip">SPSS</a>) &ndash; Updated March 2017</li>
+      <li>Download parent  physical activity data   (<a href="/brp/hbrb/docs/Parent-PA-SAS.zip">SAS</a>, <a href="/brp/hbrb/docs/Parent-PA-SPSS.zip">SPSS</a>) &ndash; Added March 2017</li>
       </ul>
     <p>A  multiply imputed dataset is provided to facilitate analyses with eight  variables in the parent physical activity survey that had a high percent of  missing data. More information can be found in the FLASHE data users guide and methodology report.</p>
     <ul>
@@ -247,8 +246,8 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
         </li>
       <li><strong> How can  these data be used for cancer control?</strong><br>
         The data can be used to identify significant associations in cancer-preventive health behaviors among parents and their adolescent children. Researchers and public health practitioners can use the findings to develop targeted health interventions.</li>
-      <li><strong> Who  funded this survey?<br>
-      </strong>The National Cancer Institute funded this study.  </li>
+      <li><strong>What is the funding statement for the FLASHE study?<br>
+      </strong>The FLASHE Study was funded by the National Cancer Institute (NCI) under contract number HHSN261201200039I issued to Westat, Inc.</li>
       <li><strong> Who  designed the survey?</strong><br>
         This survey was designed through extensive and thoughtful input from scientists  and program officials in the federal government, nonprofit organizations, and  several academic institutions.</li>
       <li><strong> Who conducted  the survey?</strong> <br>
@@ -318,7 +317,7 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
              </div><!--/span-->
 </div>
             <div class="last-updated">
-              <p class="center"><strong>Last Updated: December 12, 2016</strong></p>
+              <p class="center"><strong>Last Updated: March 23, 2017</strong></p>
        <a href="https://www.cancer.gov/contact" class="help-image"><img class="footer-help" src="/images/footer-help-logo.png" alt="help-logo" /></a><p class="can-numb"><strong>1-800-4-CANCER <br /> (1-800-422-6237)</strong></p>
                 </div>
        </div><!--/row-->

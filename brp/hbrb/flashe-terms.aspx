@@ -100,7 +100,6 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
                   <a href="/brp/funding/" class="hover-link">Funding Opportunities <b class="caret"></b></a>
                   <ul class="dropdown-menu">
                   	<li><a href="/brp/funding/index.html#apply">Apply for Grants</a></li>
-                  	<li><a href="/funding-foa-applicants.html">Webinars</a></li>
                   	<li><a href="/brp/funding/index.html#sample">Sample  Grant Applications</a></li>
                   	<li><a href="/brp/funding/index.html#resources">Grantee Resources</a></li>
                   	<li><a href="https://staffprofiles.cancer.gov/brp/granteeList.do">Featured Grantees</a></li>
@@ -112,9 +111,8 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
                   	<li><a href="/brp/research/index.html#rt">Tools</a></li>
                   	<li><a href="/brp/research/index.html#pus">Surveys</a></li>
                   	<li><a href="/brp/research/index.html#rmd">Measures and Databases</a></li>
-                  	<li><a href="/brp/research/index.html#tcr">Tobacco Cessation Resources</a></li>
-                    <li><a href="/funding-foa-applicants.html">Webinars and Videos</a></li>
-                  	<li><a href="/brp/research/index.html#pub">Publications and News</a></li>
+                  	<li><a href="/brp/research/index.html#tcr">Tobacco Cessation Guides</a></li>
+                  	<li><a href="/brp/research/index.html#pub">Publications, News, and Videos</a></li>
                   </ul>
                 </li>
                 <li class="dropdown active">
@@ -123,7 +121,8 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
                   	<li><a href="/brp/about.html#branches">Program Branches</a></li>
                     <li><a href="/brp/about.html#staff">Staff</a></li>
                     <li><a href="/brp/career_training.html">Career and Training</a></li>
-                    <li><a href="/brp/about.html#networks">Networks and Collaborations</a></li>      	
+                    <li><a href="/brp/about.html#networks">Networks and Collaborations</a></li>
+                    <li><a href="/brp/events.html">Events</a></li>
                   </ul>
                 </li>
 </ul>
@@ -147,7 +146,7 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
   <li class="parent">
     <div class="heading"><a href="/brp/hbrb/flashe.html">FLASHE</a></div>       <div class="divider"><span>></span></div>
   </li>
-                    <li class="active">
+                    <li>
                       <div class="heading">FLASHE Data Terms of Use</div>
                       <div class="divider"><span>></span></div>
                     </li>
