@@ -818,8 +818,8 @@ Run;
 
 /* Create Health Insurance Variables Based on Census Documentation   */
 /* More Information Available at the Following Web Sites:            */
-/*     http://www.census.gov/hhes/www/hlthins/hlthinsrecodevar.html  */
-/*     http://www.census.gov/hhes/www/hlthins/hlthinsvar.html        */
+/*     https://www.census.gov/hhes/www/hlthins/hlthinsrecodevar.html  */
+/*     https://www.census.gov/hhes/www/hlthins/hlthinsvar.html        */
 Data ASEC2007;
   Set ASEC2007;  
   If HI=1 | DEPHI=1 | PRIV=1 | DEPRIV=1 | OUT=1 Then COV_HI=1;
