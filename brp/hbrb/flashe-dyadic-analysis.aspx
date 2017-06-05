@@ -145,7 +145,7 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
   <li class="parent">
     <div class="heading"><a href="/brp/hbrb/flashe.html">FLASHE</a></div>       <div class="divider"><span>></span></div>
   </li>
-                    <li>
+                    <li class="active">
                       <div class="heading">FLASHE	Dyadic Analysis Resources</div>
                       <div class="divider"><span>></span></div>
                     </li>
@@ -161,7 +161,6 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
 <p>  FLASHE  incorporates the conceptualization of multilevel influences on multiple cancer-preventive  health behaviors into a dyadic design to facilitate numerous research questions  focused on either an individual (parent or adolescent) or the dyad (parent and adolescent).&nbsp;  The analysis of dyadic data is much more complicated than the analysis of data  from individuals. &nbsp;To support data users who are interested in conducting  dyadic analyses, we have provided the following resources:</p>
 <h3>Presentations and Webinars</h3>
 <ul>
-  <li>NCI hosted short-course on dyadic analyses  (PDF) -  coming soon</li>
   <li>A short introduction to dyadic analysis  (<a href="/brp/hbrb/flashe-webinar.html">webinar</a>)</li>
 </ul>
 <h3>FLASHE-specific dyadic-analysis resources</h3>
