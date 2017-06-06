@@ -146,7 +146,7 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
   <li class="parent">
     <div class="heading"><a href="/brp/hbrb/flashe.html">FLASHE</a></div>       <div class="divider"><span>></span></div>
   </li>
-                    <li>
+                    <li class="active">
                       <div class="heading">FLASHE Data Terms of Use</div>
                       <div class="divider"><span>></span></div>
                     </li>

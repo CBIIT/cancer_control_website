@@ -173,16 +173,16 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
     <p>Adolescents ages 12-17 were surveyed about their diet, physical activity, and demographics. The results are saved in separate data sets that can be linked across files using participant or dyad identification numbers.</p>
     <ul>
       <li>Download adolescent  demographic data (<a href="/brp/hbrb/docs/Teen-Demographic-SAS.zip">SAS</a>, <a href="/brp/hbrb/docs/Teen-Demographic-SPSS.zip">SPSS</a>)</li>
-      <li>Download adolescent diet  data (<a href="/brp/hbrb/docs/Teen-Diet-SAS.zip">SAS</a>, <a href="/brp/hbrb/docs/Teen-Diet-SPSS.zip">SPSS</a>)</li>
-      <li>Download adolescent  physical activity data (coming soon!)</li>
+      <li>Download adolescent diet  data (<a href="/brp/hbrb/docs/Teen-Diet-SAS.zip">SAS</a>, <a href="/brp/hbrb/docs/Teen-Diet-SPSS.zip">SPSS</a>) &ndash; Updated March 2017</li>
+      <li>Download adolescent  physical activity data (<a href="/brp/hbrb/docs/Teen-PA-SAS.zip">SAS</a>, <a href="/brp/hbrb/docs/Teen-PA-SPSS.zip">SPSS</a>) &ndash; Added March 2017</li>
       <li>Download adolescent  physical activity monitor data (coming soon!)</li>
     </ul>
     </ul>
     <p>Parents of adolescents were surveyed about diet, physical activity, and demographics. The results are saved in separate data sets that can be linked across files using participant or dyad identification numbers.</p>
     <ul>
       <li>Download parent  demographic data (<a href="/brp/hbrb/docs/Parent-Demographic-SAS.zip">SAS</a>, <a href="/brp/hbrb/docs/Parent-Demographic-SPSS.zip">SPSS</a>)</li>
-      <li>Download parent diet data  (<a href="/brp/hbrb/docs/Parent-Diet-SAS.zip">SAS</a>, <a href="/brp/hbrb/docs/Parent-Diet-SPSS.zip">SPSS</a>)</li>
-      <li>Download parent  physical activity data (coming soon!) </li>
+      <li>Download parent diet data  (<a href="/brp/hbrb/docs/Parent-Diet-SAS.zip">SAS</a>, <a href="/brp/hbrb/docs/Parent-Diet-SPSS.zip">SPSS</a>) &ndash; Updated March 2017</li>
+      <li>Download parent  physical activity data   (<a href="/brp/hbrb/docs/Parent-PA-SAS.zip">SAS</a>, <a href="/brp/hbrb/docs/Parent-PA-SPSS.zip">SPSS</a>) &ndash; Added March 2017</li>
       </ul>
     <p>A  multiply imputed dataset is provided to facilitate analyses with eight  variables in the parent physical activity survey that had a high percent of  missing data. More information can be found in the FLASHE data users guide and methodology report.</p>
     <ul>
@@ -246,8 +246,8 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
         </li>
       <li><strong> How can  these data be used for cancer control?</strong><br>
         The data can be used to identify significant associations in cancer-preventive health behaviors among parents and their adolescent children. Researchers and public health practitioners can use the findings to develop targeted health interventions.</li>
-      <li><strong> Who  funded this survey?<br>
-      </strong>The National Cancer Institute funded this study.  </li>
+      <li><strong>What is the funding statement for the FLASHE study?<br>
+      </strong>The FLASHE Study was funded by the National Cancer Institute (NCI) under contract number HHSN261201200039I issued to Westat, Inc.</li>
       <li><strong> Who  designed the survey?</strong><br>
         This survey was designed through extensive and thoughtful input from scientists  and program officials in the federal government, nonprofit organizations, and  several academic institutions.</li>
       <li><strong> Who conducted  the survey?</strong> <br>
