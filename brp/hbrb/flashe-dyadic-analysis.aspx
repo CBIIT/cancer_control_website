@@ -30,15 +30,11 @@ var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(hm
   <style type="text/css" id="holderjs-style">.holderjs-fluid {font-size:16px;font-weight:bold;text-align:center;font-family:sans-serif;margin:0}</style>
   </head>
 <body>
-<!-- Google Tag Manager -->
-<noscript><iframe src="//www.googletagmanager.com/ns.html?id=GTM-NMGZRC"
-height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
-<script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
-new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
-j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
-'//www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
-})(window,document,'script','dataLayer','GTM-NMGZRC');</script>
-<!-- End Google Tag Manager -->
+<!-- Google Tag Manager (noscript) -->
+<noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-NMGZRC"
+height="0" width="0" style="display:none;visibility:hidden" title="Google Tag Manager"></iframe></noscript>
+<!-- End Google Tag Manager (noscript) -->
+<!-- skip navigation of site -->
   	<div id="skipmenu">
 	<a href="#skip" class="skippy">Skip Navigation</a>
 	<a id="top"></a>
@@ -156,7 +152,7 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
 		<a name="skip"></a>
             <div class="row-fluid">
     <div class="listimage">
-    <h1>FLASHE	Dyadic Analysis Resources</h1>
+    <h1>FLASHE	Dyadic Analysis Resources</h1><!-- InstanceEndEditable --><!-- InstanceBeginEditable name="Main Content" -->
 <p>Individuals who are part of a close relationship &ndash; such as a parent and child &ndash; may influence each another. Such individuals may also express similarity in their thoughts, behavior, or affect. The FLASHE study is designed to capture this type of interdependence and homogeneity. </p>
 <p>  FLASHE  incorporates the conceptualization of multilevel influences on multiple cancer-preventive  health behaviors into a dyadic design to facilitate numerous research questions  focused on either an individual (parent or adolescent) or the dyad (parent and adolescent).&nbsp;  The analysis of dyadic data is much more complicated than the analysis of data  from individuals. &nbsp;To support data users who are interested in conducting  dyadic analyses, we have provided the following resources:</p>
 <h3>Presentations and Webinars</h3>
@@ -255,7 +251,7 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
         </div>
       </footer>
 
-    <script src="../../js/jquery-1.10.1.min.js"></script>
+    <script src="../../js/jquery-1.12.4.min.js"></script>
     <script src="../../js/bootstrap.min.js"></script>
     <script>
       !function ($) {
