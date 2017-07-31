@@ -5,16 +5,20 @@
 <head>
     <meta http-equiv="content-type" content="text/html; charset=UTF-8">
     <meta charset="utf-8">
-    <!-- InstanceBeginEditable name="doctitle" -->
+<!-- Google Tag Manager -->
+<script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
+new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
+j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
+'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
+})(window,document,'script','dataLayer','GTM-NMGZRC ');</script>
+<!-- End Google Tag Manager -->
+
     <title>Intervention Research to Improve Native American Health (IRINAH) - National Cancer Institute - Cancer Control and Population Sciences</title>
-    <!-- InstanceEndEditable -->
     <link rel="icon" type="image/jpeg" href="/images/favicon.ico">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta name="keywords" content="nci, dccps, Cancer Control and Population Sciences, cancer">
     <meta name="author" content="">
-    <!-- InstanceBeginEditable name="metatags" -->
     <meta name="description" content="" />
-    <!-- InstanceEndEditable -->
 
     <link href="../css/style.css" rel="stylesheet">
     <link href="../css/bootstrap.css" rel="stylesheet">
@@ -39,8 +43,6 @@
             margin: 0;
         }
     </style>
-    <!-- InstanceBeginEditable name="head" -->
-    <!-- InstanceEndEditable -->
 
     <!-- RWB 8/31/2016 Custom code for the search ==-->
 
@@ -58,7 +60,12 @@
 </head>
 
 <body>
-    <div id="skipmenu">
+<!-- Google Tag Manager (noscript) -->
+<noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-NMGZRC"
+height="0" width="0" style="display:none;visibility:hidden" title="Google Tag Manager"></iframe></noscript>
+<!-- End Google Tag Manager (noscript) -->
+<!-- skip navigation of site -->
+  	<div id="skipmenu">
         <a href="#skip" class="skippy">Skip Navigation</a>
         <a id="top"></a>
     </div>
@@ -144,8 +151,6 @@
             </div>
             <!-- /.navbar-inner -->
             <div id="topbanner">
-                <!-- InstanceBeginEditable name="Top Banner" -->
-                <!-- InstanceEndEditable -->
             </div>
         </div>
         <!-- /.navbar -->
@@ -239,10 +244,7 @@
                         <!--/.well -->
                     </div>
                     <div id="content" class="span9">
-                        <!-- InstanceBeginEditable name="Breadcrumbs" -->
-                        <!-- InstanceEndEditable -->
                         <div class="row-fluid">
-                            <!-- InstanceBeginEditable name="Main Content" -->
                             <div class="span12">
 
                                 <h1 id="hyp_home_searchResults">Literature Database: Cancer Interventions</h1>
@@ -301,7 +303,6 @@
 
 
                                 </div>
-                                <!-- InstanceEndEditable -->
                             </div>
                             <!--/row-->
                         </div>
@@ -359,8 +360,7 @@
                 <div class="last-updated">
                     <p class="center">
                         <strong>Last Updated:
-                        <!-- InstanceBeginEditable name="Last Updated" -->
-                            June 17, 2015<!-- InstanceEndEditable --></strong>
+                            June 17, 2015</strong>
                     </p>
                     <a href="https://www.cancer.gov/contact" class="help-image">
                         <img class="footer-help" src="/images/footer-help-logo.png" alt="help-logo" /></a><p class="can-numb">
@@ -403,7 +403,7 @@
         </div>
     </footer>
     <!-- javascript -->
-    <%--<script src="../js/jquery-1.10.1.min.js"></script>--%>
+    <%--<script src="../js/jquery-1.12.4.min.js"></script>--%>
     <script src="../js/bootstrap.min.js"></script>
     <script src="../js/respond.min.js"></script>
 
@@ -458,23 +458,5 @@
 
 
     <script type="text/javascript" src="/JS/Omniture/WA_DCCPS_PageLoad.js"></script>
-
-    <script>
-        (function (i, s, o, g, r, a, m) {
-            i['GoogleAnalyticsObject'] = r; i[r] = i[r] || function () {
-                (i[r].q = i[r].q || []).push(arguments)
-            }, i[r].l = 1 * new Date(); a = s.createElement(o),
-            m = s.getElementsByTagName(o)[0]; a.async = 1; a.src = g; m.parentNode.insertBefore(a, m)
-        })(window, document, 'script', '//www.google-analytics.com/analytics.js', 'ga');
-
-        ga('create', 'UA-47020801-1', 'cancer.gov');
-        ga('send', 'pageview');
-        ga('set', 'anonymizeIp', true);
-
-    </script>
-
-    <!-- InstanceBeginEditable name="Scripts" -->
-    <!-- InstanceEndEditable -->
 </body>
-<!-- InstanceEnd -->
 </html>

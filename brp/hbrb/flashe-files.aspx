@@ -31,15 +31,11 @@ var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(hm
   <style type="text/css" id="holderjs-style">.holderjs-fluid {font-size:16px;font-weight:bold;text-align:center;font-family:sans-serif;margin:0}</style>
   </head>
 <body>
-<!-- Google Tag Manager -->
-<noscript><iframe src="//www.googletagmanager.com/ns.html?id=GTM-NMGZRC"
-height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
-<script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
-new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
-j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
-'//www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
-})(window,document,'script','dataLayer','GTM-NMGZRC');</script>
-<!-- End Google Tag Manager -->
+<!-- Google Tag Manager (noscript) -->
+<noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-NMGZRC"
+height="0" width="0" style="display:none;visibility:hidden" title="Google Tag Manager"></iframe></noscript>
+<!-- End Google Tag Manager (noscript) -->
+<!-- skip navigation of site -->
   	<div id="skipmenu">
 	<a href="#skip" class="skippy">Skip Navigation</a>
 	<a id="top"></a>
@@ -177,7 +173,7 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
       <li>Download adolescent  physical activity data (coming soon!)</li>
       <li>Download adolescent  physical activity monitor data (coming soon!)</li>
     </ul>
-    </ul>
+    
     <p>Parents of adolescents were surveyed about diet, physical activity, and demographics. The results are saved in separate data sets that can be linked across files using participant or dyad identification numbers.</p>
     <ul>
       <li>Download parent  demographic data (<a href="/brp/hbrb/docs/Parent-Demographic-SAS.zip">SAS</a>, <a href="/brp/hbrb/docs/Parent-Demographic-SPSS.zip">SPSS</a>)</li>
@@ -236,9 +232,9 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
         To view the sample size, see the <a data-toggle="lightbox" href="#demoLightbox2">FLASHE  flowchart</a>.
         
         <div id="demoLightbox2" class="lightbox hide fade" tabindex="-1" role="dialog" aria-hidden="true">
-  <div class='lightbox-header'><button type="button" class="close" data-dismiss="lightbox" aria-hidden="true">&times;</button>
+  <div class="lightbox-header"><button type="button" class="close" data-dismiss="lightbox" aria-hidden="true">×</button>
 </div>
-    <div class='lightbox-content'>
+    <div class="lightbox-content">
     <img src="/brp/images/NCI-FLASHE-Dyad-Competition-Rate.jpg" alt="This model is guided by ecological and behavioral psychosocial frameworks and theories">
     <div class="lightbox-caption"><p><strong>FLASHE flow diagram</strong></p></div>
     </div>
@@ -263,7 +259,7 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
       <li><strong>Will I be  contacted by the National Cancer Institute in the future?</strong><br>
         We might send emails when updates to the FLASHE dataset are available.</li>
       <li><strong>Where can  I find information on sampling procedures?</strong><br>
-        You can download the <a href="#Methods">methodology report and data user&rsquo;s guide</a>.</li>
+        You can download the <a href="#Methods">methodology report and data user’s guide</a>.</li>
       <li><strong>Where can I find information about dyadic analysis?</strong><br>
         Go  to the <a href="/brp/hbrb/flashe-dyadic-analysis.aspx">dyadic  analysis resource</a> page or view an <a href="/brp/hbrb/flashe-webinar.html">introductory  webinar</a>. </li>
     </ol>
@@ -353,7 +349,7 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
         </div>
       </footer>
 
-    <script src="../../js/jquery-1.10.1.min.js"></script>
+    <script src="../../js/jquery-1.12.4.min.js"></script>
     <script src="../../js/bootstrap.min.js"></script>
     <script src="../../js/bootstrap.lightbox.min.js"></script>
     <script>
