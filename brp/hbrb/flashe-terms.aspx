@@ -32,7 +32,7 @@ var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(hm
   </head>
 <body>
 <!-- Google Tag Manager (noscript) -->
-<noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-NMGZRC"
+<noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-P5PMZ88"
 height="0" width="0" style="display:none;visibility:hidden" title="Google Tag Manager"></iframe></noscript>
 <!-- End Google Tag Manager (noscript) -->
 <!-- skip navigation of site -->
@@ -260,8 +260,6 @@ height="0" width="0" style="display:none;visibility:hidden" title="Google Tag Ma
                 <li><a href="https://www.cancer.gov/policies/accessibility">Accessibility</a></li>
                 <li>|</li>
                 <li><a href="https://www.cancer.gov/policies/foia">FOIA</a></li>
-                <li>|</li>
-                <li><a href="/help.html">Help</a></li>
               </ul>
               <ul>
                 <li><a href="https://www.hhs.gov/">U.S. Department of Health and Human Services</a></li>
@@ -278,7 +276,7 @@ height="0" width="0" style="display:none;visibility:hidden" title="Google Tag Ma
         </div>
       </footer>
 
-    <script src="../../js/jquery-1.12.4.min.js"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
     <script src="../../js/bootstrap.min.js"></script>
     <script src="../../js/bootstrap.lightbox.min.js"></script>
     <script>
