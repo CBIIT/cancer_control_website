@@ -31,7 +31,7 @@ var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(hm
   </head>
 <body>
 <!-- Google Tag Manager (noscript) -->
-<noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-NMGZRC"
+<noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-P5PMZ88"
 height="0" width="0" style="display:none;visibility:hidden" title="Google Tag Manager"></iframe></noscript>
 <!-- End Google Tag Manager (noscript) -->
 <!-- skip navigation of site -->
@@ -152,7 +152,7 @@ height="0" width="0" style="display:none;visibility:hidden" title="Google Tag Ma
 		<a name="skip"></a>
             <div class="row-fluid">
     <div class="listimage">
-    <h1>FLASHE	Dyadic Analysis Resources</h1>
+    <h1>FLASHE	Dyadic Analysis Resources</h1><!-- InstanceEndEditable --><!-- InstanceBeginEditable name="Main Content" -->
 <p>Individuals who are part of a close relationship &ndash; such as a parent and child &ndash; may influence each another. Such individuals may also express similarity in their thoughts, behavior, or affect. The FLASHE study is designed to capture this type of interdependence and homogeneity. </p>
 <p>  FLASHE  incorporates the conceptualization of multilevel influences on multiple cancer-preventive  health behaviors into a dyadic design to facilitate numerous research questions  focused on either an individual (parent or adolescent) or the dyad (parent and adolescent).&nbsp;  The analysis of dyadic data is much more complicated than the analysis of data  from individuals. &nbsp;To support data users who are interested in conducting  dyadic analyses, we have provided the following resources:</p>
 <h3>Presentations and Webinars</h3>
@@ -233,8 +233,6 @@ height="0" width="0" style="display:none;visibility:hidden" title="Google Tag Ma
                 <li><a href="https://www.cancer.gov/policies/accessibility">Accessibility</a></li>
                 <li>|</li>
                 <li><a href="https://www.cancer.gov/policies/foia">FOIA</a></li>
-                <li>|</li>
-                <li><a href="/help.html">Help</a></li>
               </ul>
               <ul>
                 <li><a href="https://www.hhs.gov/">U.S. Department of Health and Human Services</a></li>
@@ -251,7 +249,7 @@ height="0" width="0" style="display:none;visibility:hidden" title="Google Tag Ma
         </div>
       </footer>
 
-    <script src="../../js/jquery-1.12.4.min.js"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
     <script src="../../js/bootstrap.min.js"></script>
     <script>
       !function ($) {

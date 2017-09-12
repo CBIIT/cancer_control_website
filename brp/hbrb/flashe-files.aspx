@@ -32,7 +32,7 @@ var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(hm
   </head>
 <body>
 <!-- Google Tag Manager (noscript) -->
-<noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-NMGZRC"
+<noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-P5PMZ88"
 height="0" width="0" style="display:none;visibility:hidden" title="Google Tag Manager"></iframe></noscript>
 <!-- End Google Tag Manager (noscript) -->
 <!-- skip navigation of site -->
@@ -153,7 +153,7 @@ height="0" width="0" style="display:none;visibility:hidden" title="Google Tag Ma
 		<a name="skip"></a>
             <div class="row-fluid">
     <div class="listimage">
-    <h1>FLASHE Public Use Data Files and Supporting  Documentation </h1>
+    <h1>FLASHE Public Use Data Files and Supporting  Documentation </h1><!-- InstanceEndEditable --><!-- InstanceBeginEditable name="Main Content" -->
 <p>This page contains data files (available in SAS and SPSS formats), survey  instruments, and other documentation to assist you in analyzing FLASHE data.</p>
 <ul>
   <li><a href="#Adolescent">Adolescent and parent data</a></li>
@@ -169,16 +169,16 @@ height="0" width="0" style="display:none;visibility:hidden" title="Google Tag Ma
     <p>Adolescents ages 12-17 were surveyed about their diet, physical activity, and demographics. The results are saved in separate data sets that can be linked across files using participant or dyad identification numbers.</p>
     <ul>
       <li>Download adolescent  demographic data (<a href="/brp/hbrb/docs/Teen-Demographic-SAS.zip">SAS</a>, <a href="/brp/hbrb/docs/Teen-Demographic-SPSS.zip">SPSS</a>)</li>
-      <li>Download adolescent diet  data (<a href="/brp/hbrb/docs/Teen-Diet-SAS.zip">SAS</a>, <a href="/brp/hbrb/docs/Teen-Diet-SPSS.zip">SPSS</a>)</li>
-      <li>Download adolescent  physical activity data (coming soon!)</li>
+      <li>Download adolescent diet  data (<a href="/brp/hbrb/docs/Teen-Diet-SAS.zip">SAS</a>, <a href="/brp/hbrb/docs/Teen-Diet-SPSS.zip">SPSS</a>) &ndash; Updated March 2017</li>
+      <li>Download adolescent  physical activity data (<a href="/brp/hbrb/docs/Teen-PA-SAS.zip">SAS</a>, <a href="/brp/hbrb/docs/Teen-PA-SPSS.zip">SPSS</a>) &ndash; Added March 2017</li>
       <li>Download adolescent  physical activity monitor data (coming soon!)</li>
     </ul>
-    
+    </ul>
     <p>Parents of adolescents were surveyed about diet, physical activity, and demographics. The results are saved in separate data sets that can be linked across files using participant or dyad identification numbers.</p>
     <ul>
       <li>Download parent  demographic data (<a href="/brp/hbrb/docs/Parent-Demographic-SAS.zip">SAS</a>, <a href="/brp/hbrb/docs/Parent-Demographic-SPSS.zip">SPSS</a>)</li>
-      <li>Download parent diet data  (<a href="/brp/hbrb/docs/Parent-Diet-SAS.zip">SAS</a>, <a href="/brp/hbrb/docs/Parent-Diet-SPSS.zip">SPSS</a>)</li>
-      <li>Download parent  physical activity data (coming soon!) </li>
+      <li>Download parent diet data  (<a href="/brp/hbrb/docs/Parent-Diet-SAS.zip">SAS</a>, <a href="/brp/hbrb/docs/Parent-Diet-SPSS.zip">SPSS</a>) &ndash; Updated March 2017</li>
+      <li>Download parent  physical activity data   (<a href="/brp/hbrb/docs/Parent-PA-SAS.zip">SAS</a>, <a href="/brp/hbrb/docs/Parent-PA-SPSS.zip">SPSS</a>) &ndash; Added March 2017</li>
       </ul>
     <p>A  multiply imputed dataset is provided to facilitate analyses with eight  variables in the parent physical activity survey that had a high percent of  missing data. More information can be found in the FLASHE data users guide and methodology report.</p>
     <ul>
@@ -232,9 +232,9 @@ height="0" width="0" style="display:none;visibility:hidden" title="Google Tag Ma
         To view the sample size, see the <a data-toggle="lightbox" href="#demoLightbox2">FLASHE  flowchart</a>.
         
         <div id="demoLightbox2" class="lightbox hide fade" tabindex="-1" role="dialog" aria-hidden="true">
-  <div class="lightbox-header"><button type="button" class="close" data-dismiss="lightbox" aria-hidden="true">×</button>
+  <div class='lightbox-header'><button type="button" class="close" data-dismiss="lightbox" aria-hidden="true">&times;</button>
 </div>
-    <div class="lightbox-content">
+    <div class='lightbox-content'>
     <img src="/brp/images/NCI-FLASHE-Dyad-Competition-Rate.jpg" alt="This model is guided by ecological and behavioral psychosocial frameworks and theories">
     <div class="lightbox-caption"><p><strong>FLASHE flow diagram</strong></p></div>
     </div>
@@ -242,8 +242,8 @@ height="0" width="0" style="display:none;visibility:hidden" title="Google Tag Ma
         </li>
       <li><strong> How can  these data be used for cancer control?</strong><br>
         The data can be used to identify significant associations in cancer-preventive health behaviors among parents and their adolescent children. Researchers and public health practitioners can use the findings to develop targeted health interventions.</li>
-      <li><strong> Who  funded this survey?<br>
-      </strong>The National Cancer Institute funded this study.  </li>
+      <li><strong>What is the funding statement for the FLASHE study?<br>
+      </strong>The FLASHE Study was funded by the National Cancer Institute (NCI) under contract number HHSN261201200039I issued to Westat, Inc.</li>
       <li><strong> Who  designed the survey?</strong><br>
         This survey was designed through extensive and thoughtful input from scientists  and program officials in the federal government, nonprofit organizations, and  several academic institutions.</li>
       <li><strong> Who conducted  the survey?</strong> <br>
@@ -259,7 +259,7 @@ height="0" width="0" style="display:none;visibility:hidden" title="Google Tag Ma
       <li><strong>Will I be  contacted by the National Cancer Institute in the future?</strong><br>
         We might send emails when updates to the FLASHE dataset are available.</li>
       <li><strong>Where can  I find information on sampling procedures?</strong><br>
-        You can download the <a href="#Methods">methodology report and data user’s guide</a>.</li>
+        You can download the <a href="#Methods">methodology report and data user&rsquo;s guide</a>.</li>
       <li><strong>Where can I find information about dyadic analysis?</strong><br>
         Go  to the <a href="/brp/hbrb/flashe-dyadic-analysis.aspx">dyadic  analysis resource</a> page or view an <a href="/brp/hbrb/flashe-webinar.html">introductory  webinar</a>. </li>
     </ol>
@@ -331,8 +331,6 @@ height="0" width="0" style="display:none;visibility:hidden" title="Google Tag Ma
                 <li><a href="https://www.cancer.gov/policies/accessibility">Accessibility</a></li>
                 <li>|</li>
                 <li><a href="https://www.cancer.gov/policies/foia">FOIA</a></li>
-                <li>|</li>
-                <li><a href="/help.html">Help</a></li>
               </ul>
               <ul>
                 <li><a href="https://www.hhs.gov/">U.S. Department of Health and Human Services</a></li>
@@ -349,7 +347,7 @@ height="0" width="0" style="display:none;visibility:hidden" title="Google Tag Ma
         </div>
       </footer>
 
-    <script src="../../js/jquery-1.12.4.min.js"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
     <script src="../../js/bootstrap.min.js"></script>
     <script src="../../js/bootstrap.lightbox.min.js"></script>
     <script>
@@ -461,3 +459,4 @@ height="0" width="0" style="display:none;visibility:hidden" title="Google Tag Ma
 <script type="text/javascript" src="https://static.cancer.gov/webanalytics/WA_DCCPS_PageLoad.js"></script>
   </body>
 </html>
+
