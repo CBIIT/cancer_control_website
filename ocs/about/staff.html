@@ -175,7 +175,7 @@ Survivorship Research</a></li>
 
 					<h2>Survivorship Program Contacts at NCI</h2>
 					<p>The Cancer Survivorship image below provides quick links to program directors who specialize in different areas of cancer survivorship. If you are not able to identify an individual in your area of interest, please contact <a href="/ocs/about/director-page.html" style="color: #003399;" >Dr. Julia Rowland</a>, Director, Office of Cancer Survivorship, at <a href="mailto:rowlandj@mail.nih.gov">rowlandj@mail.nih.gov</a> or 240-276-6827.</p>
-					<img src="../Images/ocs-wheel.gif" alt="Survivorship Program Contacts at NCI" usemap="#survivorship"/>
+					<div style="max-width:600px"><img src="../Images/ocs-wheel.gif" alt="Survivorship Program Contacts at NCI" style="max-width:100%; height:auto;" usemap="#survivorship"/></div>
 					<map name="survivorship">
 						<area shape="poly" class="tooltip" id="physical-symptoms" alt="Physical Symptoms &amp; Conditions" coords="205,18,236,8,267,3,298,2,329,3,362,8,382,14,395,18,357,121,339,116,322,113,300,135,277,113,260,116,242,121" href="#scroll">
 						<area shape="poly" class="tooltip" id="psycho-social" alt="Physcho-social Concerns" coords="410,23,372,126,389,133,404,143,406,173,438,171,449,184,460,200,554,146,538,119,515,93,488,67,461,48,437,34" href="#scroll">
@@ -339,7 +339,7 @@ $(document).ready(function(){
 		<script src="../../js/ocs-wheel.js"></script>
 		<script src="../../js/jquery.rwdImageMaps.min.js"></script>
     <script>
-    $(document).ready(function() {
+    $(document).ready(function(e) {
         $('img[usemap]').rwdImageMaps();
     });
 	</script><!-- InstanceEndEditable -->
