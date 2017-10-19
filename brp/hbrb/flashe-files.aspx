@@ -169,16 +169,16 @@ height="0" width="0" style="display:none;visibility:hidden" title="Google Tag Ma
     <p>Adolescents ages 12-17 were surveyed about their diet, physical activity, and demographics. The results are saved in separate data sets that can be linked across files using participant or dyad identification numbers.</p>
     <ul>
       <li>Download adolescent  demographic data (<a href="/brp/hbrb/docs/Teen-Demographic-SAS.zip">SAS</a>, <a href="/brp/hbrb/docs/Teen-Demographic-SPSS.zip">SPSS</a>)</li>
-      <li>Download adolescent diet  data (<a href="/brp/hbrb/docs/Teen-Diet-SAS.zip">SAS</a>, <a href="/brp/hbrb/docs/Teen-Diet-SPSS.zip">SPSS</a>) &ndash; Updated March 2017</li>
-      <li>Download adolescent  physical activity data (<a href="/brp/hbrb/docs/Teen-PA-SAS.zip">SAS</a>, <a href="/brp/hbrb/docs/Teen-PA-SPSS.zip">SPSS</a>) &ndash; Added March 2017</li>
+      <li>Download adolescent diet  data (<a href="/brp/hbrb/docs/Teen-Diet-SAS.zip">SAS</a>, <a href="/brp/hbrb/docs/Teen-Diet-SPSS.zip">SPSS</a>) &ndash; Updated October 2017</li>
+      <li>Download adolescent  physical activity data (<a href="/brp/hbrb/docs/Teen-PA-SAS.zip">SAS</a>, <a href="/brp/hbrb/docs/Teen-PA-SPSS.zip">SPSS</a>) &ndash; Added October 2017</li>
       <li>Download adolescent  physical activity monitor data (coming soon!)</li>
     </ul>
     </ul>
-    <p>Parents of adolescents were surveyed about diet, physical activity, and demographics. The results are saved in separate data sets that can be linked across files using participant or dyad identification numbers.</p>
+<p>Parents of adolescents were surveyed about diet, physical activity, and demographics. The results are saved in separate data sets that can be linked across files using participant or dyad identification numbers.</p>
     <ul>
       <li>Download parent  demographic data (<a href="/brp/hbrb/docs/Parent-Demographic-SAS.zip">SAS</a>, <a href="/brp/hbrb/docs/Parent-Demographic-SPSS.zip">SPSS</a>)</li>
-      <li>Download parent diet data  (<a href="/brp/hbrb/docs/Parent-Diet-SAS.zip">SAS</a>, <a href="/brp/hbrb/docs/Parent-Diet-SPSS.zip">SPSS</a>) &ndash; Updated March 2017</li>
-      <li>Download parent  physical activity data   (<a href="/brp/hbrb/docs/Parent-PA-SAS.zip">SAS</a>, <a href="/brp/hbrb/docs/Parent-PA-SPSS.zip">SPSS</a>) &ndash; Added March 2017</li>
+      <li>Download parent diet data  (<a href="/brp/hbrb/docs/Parent-Diet-SAS.zip">SAS</a>, <a href="/brp/hbrb/docs/Parent-Diet-SPSS.zip">SPSS</a>) &ndash; Updated October 2017</li>
+      <li>Download parent  physical activity data   (<a href="/brp/hbrb/docs/Parent-PA-SAS.zip">SAS</a>, <a href="/brp/hbrb/docs/Parent-PA-SPSS.zip">SPSS</a>) &ndash; Added October 2017</li>
       </ul>
     <p>A  multiply imputed dataset is provided to facilitate analyses with eight  variables in the parent physical activity survey that had a high percent of  missing data. More information can be found in the FLASHE data users guide and methodology report.</p>
     <ul>
@@ -313,7 +313,7 @@ height="0" width="0" style="display:none;visibility:hidden" title="Google Tag Ma
              </div><!--/span-->
 </div>
             <div class="last-updated">
-              <p class="center"><strong>Last Updated: March 23, 2017</strong></p>
+              <p class="center"><strong>Last Updated: October 4, 2017</strong></p>
        <a href="https://www.cancer.gov/contact" class="help-image"><img class="footer-help" src="/images/footer-help-logo.png" alt="help-logo" /></a><p class="can-numb"><strong>1-800-4-CANCER <br /> (1-800-422-6237)</strong></p>
                 </div>
        </div><!--/row-->
