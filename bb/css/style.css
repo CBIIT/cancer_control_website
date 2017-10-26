@@ -578,10 +578,10 @@ img.right { float:right; padding:1em; }
   .cd-title p {
     display: block;
   }
-  .vision h2 { border-bottom: 5px solid #D4C75A; }
-  .enabling h2 { border-bottom: 5px solid #B35AD4; }
-  .investments h2 { border-bottom: 5px solid #D55959; }
-  .signature h2 { border-bottom: 5px solid #5A88D4; }
+  #priority h2 { border-bottom: 5px solid #D4C75A; }
+  #enabling h2 { border-bottom: 5px solid #B35AD4; }
+  #investments h2 { border-bottom: 5px solid #D55959; }
+  #signature h2 { border-bottom: 5px solid #5A88D4; }
 }
 @media only screen and (min-width: 1170px) {
   .cd-title h2 {

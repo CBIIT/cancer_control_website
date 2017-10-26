@@ -22,6 +22,12 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
 	<title>2017 Overview and Highlights</title>
 </head>
 <body>
+<!-- skip navigation of site -->
+<a id="skipNav" class="sr-only sr-only-focusable" href="#main-content">
+	<div class="container">
+		<span class="skiplink-text">Skip to main content</span>
+	</div> <!-- close container -->
+</a>
 <div id="header-nci">
     	    <a href="/"> <img alt="National Cancer Institute" src="/images/dccps-logo.png" style="width:100%; max-width:662px; height:auto"> </a>
 
@@ -29,14 +35,14 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
       	<h1><a href="/bb/" class="page-title">2017 Overview and Highlights</a></h1>
     </div>
   </div>
-	<div class="projects-container">
+	<div id="main-content" class="projects-container">
 		<ul>
-        <li class="cd-single-project first" id="director" tabindex="0">
+        <li id="director" class="cd-single-project first" tabindex="0">
 				<div class="cd-title">
 					<h2>Message from the Director</h2>
 				</div> <!-- .cd-title -->
 
-				<div class="cd-project-info"  tabindex="0">
+				<div class="cd-project-info">
 					
                     
                     <div class="row">
@@ -65,8 +71,12 @@ through a number of webinars and workshops.</p>
 				<div class="cd-project-info leadership">
 					
             <div style="max-width:1009px"><img src="/bb/images/OrgChart.jpg" alt="Organization chart of DCCPS, with 4 research programs" usemap="#imagemap" class="org-chart" style="max-width:100%; height:auto;"></div>
-            <map name="imagemap"><area shape="rect" coords="770,20,906,256" href="/od/srinivasan.html" alt="Dr. Shobha Sirnivasan, Health Disparities Research Coordinator"><area shape="rect" coords="547,20,682,256" href="../IS/chambers.html" alt="Deputy Director for Implementation Science. Dr. David Chambers"><area shape="rect" coords="322,20,458,256" href="../od/dep_director_dw.html" alt="Deputy Director. Dr. Deborah Winn"><area shape="rect" coords="996,20,1132,256" href="/ocs/" alt="Office of Cancer Survivorship. Open.">
-              <area shape="rect" coords="96,20,231,258" href="../od/director_rc.html" alt="Office of the Director. Dr. Robert Croyle, Director">
+            <map name="imagemap">
+            <area shape="rect" coords="96,20,231,258" href="../od/director_rc.html" alt="Office of the Director. Dr. Robert Croyle, Director">
+            <area shape="rect" coords="322,20,458,256" href="../od/dep_director_dw.html" alt="Deputy Director. Dr. Deborah Winn">
+            <area shape="rect" coords="547,20,682,256" href="../IS/chambers.html" alt="Deputy Director for Implementation Science. Dr. David Chambers">
+            <area shape="rect" coords="770,20,906,256" href="/od/srinivasan.html" alt="Dr. Shobha Sirnivasan, Health Disparities Research Coordinator">
+            <area shape="rect" coords="996,20,1132,256" href="/ocs/" alt="Office of Cancer Survivorship. Open.">
             </map>
             <ul id="myTab" class="nav nav-pills nav-justified">
   <li id="egrp"><a href="#tab_a" data-toggle="pill"><span>Epidemiology and Genomics Research Program</span></a></li>
@@ -78,26 +88,46 @@ through a number of webinars and workshops.</p>
 <div class="tab-content">
         <div class="tab-pane" id="tab_a">
             <img src="/bb/images/OrgChart-EGRP.jpg"  usemap="#imagemap-egrp" class="org-chart" alt="Epidemiology and Genomics Research Program" style="max-width:100%; height:auto;">
-            <map name="imagemap-egrp"><area shape="rect" coords="99,327,260,493" href="https://epi.grants.cancer.gov/staff/verma.html" alt="Methods and technologies: Dr. Mukesh Verma, Branch Chief"><area shape="rect" coords="318,327,432,508" href="https://epi.grants.cancer.gov/staff/ellison.html" alt="Environmental Epidemiology: Dr. Gray Ellison, Acting Branch Chief"><area shape="rect" coords="501,327,640,493" href="https://epi.grants.cancer.gov/staff/gillanders.html" alt="Genomic Epidemiology: Dr. Elizabeth Gillanders, Branch Chief"><area shape="rect" coords="692,327,848,508" href="https://epi.grants.cancer.gov/staff/freedman.html" alt="Clinical and Translational Epidemiology: Dr. Andrew Freedman, Branch Chief"><area shape="rect" coords="887,327,1032,496" href="https://epi.grants.cancer.gov/staff/krebs-smith.html" alt="Risk Factor Assessment: Dr. Susan Krebs-Smith, Branch Chief"><area shape="rect" coords="819,146,1029,257" href="https://www.nidcr.nih.gov/imagegallery/people/EHarris.htm" alt="Dr. Emily Harris, Deputy Associate Director">
-              <area shape="rect" coords="514,117,792,259" href="https://epi.grants.cancer.gov/oad/" alt="Kathy Helzlsouer, M.D., M.H.S., Associate Director">
+            <map name="imagemap-egrp">
+            <area shape="rect" coords="514,117,792,259" href="https://epi.grants.cancer.gov/oad/" alt="Kathy Helzlsouer, M.D., M.H.S., Associate Director">
+            <area shape="rect" coords="819,146,1029,257" href="https://www.nidcr.nih.gov/imagegallery/people/EHarris.htm" alt="Dr. Emily Harris, Deputy Associate Director">            
+            <area shape="rect" coords="99,327,260,493" href="https://epi.grants.cancer.gov/staff/verma.html" alt="Methods and technologies: Dr. Mukesh Verma, Branch Chief">
+            <area shape="rect" coords="318,327,432,508" href="https://epi.grants.cancer.gov/staff/ellison.html" alt="Environmental Epidemiology: Dr. Gray Ellison, Acting Branch Chief">
+            <area shape="rect" coords="501,327,640,493" href="https://epi.grants.cancer.gov/staff/gillanders.html" alt="Genomic Epidemiology: Dr. Elizabeth Gillanders, Branch Chief">
+            <area shape="rect" coords="692,327,848,508" href="https://epi.grants.cancer.gov/staff/freedman.html" alt="Clinical and Translational Epidemiology: Dr. Andrew Freedman, Branch Chief">
+            <area shape="rect" coords="887,327,1032,496" href="https://epi.grants.cancer.gov/staff/krebs-smith.html" alt="Risk Factor Assessment: Dr. Susan Krebs-Smith, Branch Chief">
             </map>
       </div>
         <div class="tab-pane" id="tab_b">
           <img src="/bb/images/OrgChart-SRP.jpg"  usemap="#imagemap-srp" class="org-chart" alt="Surveillance Research Program" style="max-width:100%; height:auto;">
-            <map name="imagemap-srp"><area shape="rect" coords="199,326,336,508" href="https://surveillance.cancer.gov/about/bios/negoita.html" alt="Data Quality, Analysis, and Interpretation: Dr. Serban Negoita, Branch Chief"><area shape="rect" coords="398,326,545,509" href="https://surveillance.cancer.gov/about/bios/fearnp.html" alt="Surveillance Informatics: Dr. Paul Fearn, Branch Chief"><area shape="rect" coords="611,330,728,497" href="https://surveillance.cancer.gov/about/bios/mariottoa.html" alt="Data Analysis: Dr. Angela Mariotto, Branch Chief"><area shape="rect" coords="808,328,926,511" href="https://surveillance.cancer.gov/about/bios/feuerr.html" alt="Statistical Methods and Modeling: Dr. Eric Feuer, Branch Chief"><area shape="rect" coords="818,148,1050,259" href="https://surveillance.cancer.gov/about/bios/cronink.html" alt="Dr. Kathleen Cronin, Deputy Associate Director">
-              <area shape="rect" coords="514,118,768,258" href="https://surveillance.cancer.gov/about/bios/penberthyl.html" alt="Dr. Lynne Penberthy, Associate Director">
+            <map name="imagemap-srp">
+            <area shape="rect" coords="514,118,768,258" href="https://surveillance.cancer.gov/about/bios/penberthyl.html" alt="Dr. Lynne Penberthy, Associate Director">
+            <area shape="rect" coords="818,148,1050,259" href="https://surveillance.cancer.gov/about/bios/cronink.html" alt="Dr. Kathleen Cronin, Deputy Associate Director">
+            <area shape="rect" coords="199,326,336,508" href="https://surveillance.cancer.gov/about/bios/negoita.html" alt="Data Quality, Analysis, and Interpretation: Dr. Serban Negoita, Branch Chief">
+            <area shape="rect" coords="398,326,545,509" href="https://surveillance.cancer.gov/about/bios/fearnp.html" alt="Surveillance Informatics: Dr. Paul Fearn, Branch Chief">
+            <area shape="rect" coords="611,330,728,497" href="https://surveillance.cancer.gov/about/bios/mariottoa.html" alt="Data Analysis: Dr. Angela Mariotto, Branch Chief">
+            <area shape="rect" coords="808,328,926,511" href="https://surveillance.cancer.gov/about/bios/feuerr.html" alt="Statistical Methods and Modeling: Dr. Eric Feuer, Branch Chief">
             </map>
         </div>
         <div class="tab-pane" id="tab_c">
             <img src="/bb/images/OrgChart-BRP.jpg"  usemap="#imagemap-brp" class="org-chart" alt="Behavioral Research Program" style="max-width:100%; height:auto;">
-            <map name="imagemap-brp"><area shape="rect" coords="197,327,351,509" href="/brp/bbpsb/" alt="Basic Biobehavioral and Psychological Sciences: Dr. Paige Green, Branch Chief"><area shape="rect" coords="401,328,536,509" href="/brp/hbrb/" alt="Health Behaviors Research: Dr. Susan Czajkowski, Branch Chief"><area shape="rect" coords="584,328,741,509" href="/brp/hcirb/" alt="Health Communication and Informatics Research: Dr. Bradford Hesse, Branch Chief"><area shape="rect" coords="806,328,910,509" href="/brp/tcrb/" alt="Tobacco Control Research: Dr. Michele Bloch, Branch Chief"><area shape="rect" coords="819,147,1041,258" href="/brp/" alt="Dr. Linda Nebeling, Deputy Associate Director">
-              <area shape="rect" coords="514,118,769,259" href="/brp/" alt="Dr. William Klein, Associate Director">
+            <map name="imagemap-brp">
+            <area shape="rect" coords="514,118,769,259" href="/brp/" alt="Dr. William Klein, Associate Director">
+            <area shape="rect" coords="819,147,1041,258" href="/brp/" alt="Dr. Linda Nebeling, Deputy Associate Director">
+            <area shape="rect" coords="197,327,351,509" href="/brp/bbpsb/" alt="Basic Biobehavioral and Psychological Sciences: Dr. Paige Green, Branch Chief">
+            <area shape="rect" coords="401,328,536,509" href="/brp/hbrb/" alt="Health Behaviors Research: Dr. Susan Czajkowski, Branch Chief">
+            <area shape="rect" coords="584,328,741,509" href="/brp/hcirb/" alt="Health Communication and Informatics Research: Dr. Bradford Hesse, Branch Chief">
+            <area shape="rect" coords="806,328,910,509" href="/brp/tcrb/" alt="Tobacco Control Research: Dr. Michele Bloch, Branch Chief">
             </map>
       </div>
         <div class="tab-pane" id="tab_d">
           <img src="/bb/images/OrgChart-HDRP.jpg"  usemap="#imagemap-hdrp" class="org-chart" alt="Healthcare Delivery Research Program" style="max-width:100%; height:auto;">
-            <map name="imagemap-hdrp"><area shape="rect" coords="303,327,446,508" href="https://healthcaredelivery.cancer.gov/about/staff/bios/doriarose.html" alt="Healthcare Assessment Research: Dr. Paul Doria-ROse, Acting Branch Chief"><area shape="rect" coords="498,327,641,508" href="https://healthcaredelivery.cancer.gov/about/staff/bios/kobrin.html" alt="Health Systems and Interventions Research: Dr. Sarah Kobrin, Acting Branch Chief"><area shape="rect" coords="702,327,839,493" href="https://healthcaredelivery.cancer.gov/about/staff/bios/smith.html" alt="Outcomes Research: Dr. Ashley Wilder Smith, Branch Chief"><area shape="rect" coords="818,146,1042,258" href="https://healthcaredelivery.cancer.gov/about/staff/bios/geiger.html" alt="Dr. Ann Geiger, Deputy Associate Director">
-              <area shape="rect" coords="514,117,770,258" href="https://healthcaredelivery.cancer.gov/about/staff/bios/jacobsen.html" alt="Dr. Paul Jacobsen, Associate Director">
+            <map name="imagemap-hdrp">
+            <area shape="rect" coords="514,117,770,258" href="https://healthcaredelivery.cancer.gov/about/staff/bios/jacobsen.html" alt="Dr. Paul Jacobsen, Associate Director">
+            <area shape="rect" coords="818,146,1042,258" href="https://healthcaredelivery.cancer.gov/about/staff/bios/geiger.html" alt="Dr. Ann Geiger, Deputy Associate Director">            
+            <area shape="rect" coords="303,327,446,508" href="https://healthcaredelivery.cancer.gov/about/staff/bios/doriarose.html" alt="Healthcare Assessment Research: Dr. Paul Doria-ROse, Acting Branch Chief">
+            <area shape="rect" coords="498,327,641,508" href="https://healthcaredelivery.cancer.gov/about/staff/bios/kobrin.html" alt="Health Systems and Interventions Research: Dr. Sarah Kobrin, Acting Branch Chief">
+            <area shape="rect" coords="702,327,839,493" href="https://healthcaredelivery.cancer.gov/about/staff/bios/smith.html" alt="Outcomes Research: Dr. Ashley Wilder Smith, Branch Chief">
             </map>
         </div>
         </div>
@@ -108,18 +138,18 @@ through a number of webinars and workshops.</p>
 					<h2>Additional Information</h2>
 				</div> <!-- .cd-title -->
 
-				<div class="cd-project-info"  tabindex="0">
+				<div class="cd-project-info">
 					<div class="row">
   <div class="col-lg-6 col-md-5 col-xs-5">
         	
             <div class="row">
                     	<div class="col-lg-6 col-md-6">
             
-            <a target="_blank" href="docs/NCI-DCCPS-Overview-and-Highlights-2017.pdf"><img src="/bb/images/cover.jpg" class="footer-logos" alt="Department of Health and Human Services, National Institute of Health and National Cancer Institute logos" style="width:100%;"></a></div>
+            <a target="_blank" href="docs/NCI-DCCPS-Overview-and-Highlights-2017.pdf"><img src="/bb/images/cover.jpg" class="footer-logos" alt="Division of Cancer Control and Population Sciences 2017 Overview and Highlights" style="width:100%;"></a></div>
             <div class="col-lg-6 col-md-6">
     <p class="pdf-download"><a target="_blank" href="docs/NCI-DCCPS-Overview-and-Highlights-2017.pdf"><strong>Download PDF of the 2017<br>
             Overview and Highlights</strong> [2.9MB]</a></p>
-            <h4>Archives</h4>
+            <h3>Archives of Previous Overview and Highlights</h3>
             <ul class="archivelist">
             	<li><a href="docs/NCI-DCCPS-Overview-and-Highlights-2016.pdf">2016</a></li>
             	<li><a href="docs/NCI-DCCPS-Overview-and-Highlights-2015.pdf">2015</a></li>
@@ -134,7 +164,7 @@ through a number of webinars and workshops.</p>
             </div>
       	</div>
         <div class="col-lg-3 col-md-4 col-xs-4">
-        	<h4>Contact Us</h4>
+        	<h3>Contact Us</h3>
             <p>BG 9609 MSC 9760<br>
             9609 Medical Center Drive<br>
             Bethesda, MD 20892-9760<br>
@@ -146,13 +176,13 @@ through a number of webinars and workshops.</p>
             Monday through Friday<br>
             8:00 a.m. to 8:00 p.m. ET</p>
 			
-            <p class="twitter-link"><iframe frameborder="0" id="twitter-widget-0" scrolling="no" allowtransparency="true" class="twitter-share-button twitter-share-button-rendered twitter-tweet-button" style="position: static; visibility: visible; width: 74px; height: 28px;" title="Twitter Tweet Button" src="http://platform.twitter.com/widgets/tweet_button.b212c8422d3b3079acc6183618b32f10.en.html#dnt=false&amp;id=twitter-widget-0&amp;lang=en&amp;original_referer=http%3A%2F%2Fdccps.localhost%2Fbb%2F&amp;size=l&amp;text=2015%20Overview%20and%20Highlights%3A%20Advancing%20Cancer%20Control%20in%20the%20Next%20Decade&amp;time=1456949339784&amp;type=share&amp;url=http%3A%2F%2Fdccps.localhost%2Fbb%2F&amp;via=NCICancerCtrl"></iframe> <script>!function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0],p=/^http:/.test(d.location)?'http':'https';if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src=p+'://platform.twitter.com/widgets.js';fjs.parentNode.insertBefore(js,fjs);}}(document, 'script', 'twitter-wjs');</script></p>
+            <p class="twitter-link"><iframe frameborder="0" id="twitter-widget-0" scrolling="no" allowtransparency="true" class="twitter-share-button twitter-share-button-rendered twitter-tweet-button" style="width: 74px; height: 28px;" title="Twitter Tweet Button" src="http://platform.twitter.com/widgets/tweet_button.b212c8422d3b3079acc6183618b32f10.en.html#dnt=false&amp;id=twitter-widget-0&amp;lang=en&amp;original_referer=http%3A%2F%2Fdccps.localhost%2Fbb%2F&amp;size=l&amp;text=2015%20Overview%20and%20Highlights%3A%20Advancing%20Cancer%20Control%20in%20the%20Next%20Decade&amp;time=1456949339784&amp;type=share&amp;url=http%3A%2F%2Fdccps.localhost%2Fbb%2F&amp;via=NCICancerCtrl"></iframe> <script>!function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0],p=/^http:/.test(d.location)?'http':'https';if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src=p+'://platform.twitter.com/widgets.js';fjs.parentNode.insertBefore(js,fjs);}}(document, 'script', 'twitter-wjs');</script></p>
         </div>
         <div class="col-lg-3 col-md-3 col-xs-3">
         <a target="_blank" href="https://www.hhs.gov"><img alt="Department of Health and Human Services, National Institute of Health and National Cancer Institute logos" class="footer-logos" src="/bb/images/hhs-nih-nci.png"></a>
-        	<h4>Additional Links</h4>
+        	<h3>Additional Links</h3>
             <ul class="list-unstyled">    
-                <li><a target="_blank" href="https://www.cancer.gov/policies">Privacy Policy</a>&nbsp;&nbsp;|&nbsp;&nbsp;<a target="_blank" href="https://www.cancer.gov/policies/foia">FOIA</a></li>
+              <li><a target="_blank" href="https://www.cancer.gov/policies">Privacy Policy</a>&nbsp;&nbsp;|&nbsp;&nbsp;<a target="_blank" href="https://www.cancer.gov/policies/foia">FOIA</a></li>
                 <li><a target="_blank" href="https://www.hhs.gov">U.S. Department of Health and Human Services</a></li>
                 <li><a target="_blank" href="https://www.nih.gov">National Institutes of Health</a></li>
                 <li><a target="_blank" href="https://www.cancer.gov">National Cancer Institute</a></li>
@@ -170,7 +200,8 @@ Areas</h2>
 					
 				</div> <!-- .cd-title -->
 
-				<div class="cd-project-info"  tabindex="0">
+				<div class="cd-project-info">
+
     <section class="module content">
       <div class="container">
         <p>In this Overview and Highlights, DCCPS features division-wide priority areas that are responsive to NIH and NCI priorities and provide immense opportunities for advancement. However, DCCPS is not focusing on these priorities to the exclusion of other important areas of work. The division continues to invest in research across the cancer control continuum. Most of the grants we fund are investigator-initiated, not in response to a specific funding opportunity announcement. Potential grant applicants are encouraged to contact one of our program directors, whose contact information can be found on our website (<a href="https://cancercontrol.cancer.gov/">https://cancercontrol.cancer.gov/</a>).</p>
@@ -360,7 +391,7 @@ Researchers</h2>
 					
 				</div> <!-- .cd-title -->
 
-				<div class="cd-project-info"  tabindex="0">
+				<div class="cd-project-info">
 					<p>In addition to encouraging innovative scientific ideas for researchers through investigator-initiated applications and omnibus<br />
 					  solicitations, DCCPS develops and participates in NIH funding opportunities aimed at stimulating new directions in specific<br />
 					  research to examine, discover, and test methodologies to improve public health. The following are examples of recent<br />
@@ -423,7 +454,7 @@ Researchers</h2>
 					
 				</div> <!-- .cd-title -->
 
-				<div class="cd-project-info"  tabindex="0">
+				<div class="cd-project-info">
 				  <p>Researchers funded by DCCPS have advanced the science to improve public health for nearly two decades, and we celebrate their scientific advances and research accomplishments in cancer control and population sciences. Major programmatic areas include epidemiology and genomics research, behavioral research, health care delivery research, surveillance research, and survivorship research.</p>
 <p>In fiscal year 2016, DCCPS funded 668 grants valued at more than $378 million, supporting work in the United States and internationally to reduce risk, incidence, and deaths from cancer, and to enhance quality of life for cancer survivors. While the majority of DCCPS funding is for investigator-initiated research project grants, the division also uses a variety of strategies to support and stimulate research such as multi-component specialized research centers and cancer epidemiology cohorts.</p>
 <p>Learn more about the DCCPS grant portfolio and funding trends at <a href="https://maps.cancer.gov/overview/index.jsp">maps.cancer.gov/overview/</a>.</p>
@@ -444,7 +475,7 @@ Numbers</h2>
 					
 				</div> <!-- .cd-title -->
 
-				<div class="cd-project-info"  tabindex="0">
+				<div class="cd-project-info">
                 <p>As a window into the many ways DCCPS provides 
                   return on investment, we highlight here just a few snapshots of progress from the past year.</p>
 
@@ -494,7 +525,7 @@ Numbers</h2>
 	<div class="col-md-3 stat-number"><p>28,654</p></div>
 </div>
 <div class="row bynumbers-blue">
-	<div class="col-md-2 bynumicon"><div class="icon-7"></div></div>
+	<div class="col-md-2 bynumicon"><div class="icon-7" title="TREC (Transdisciplinary Research on Energetics and Cancer Centers)"></div></div>
 	<div class="col-md-7">
 		<p>More than 1,000 peer-reviewed publications have resulted from the Transdisciplinary Research on Energetics and Cancer Centers initiative. TREC fosters collaboration across multiple disciplines and projects, from the biology, genomics, and genetics of energy balance to behavioral, sociocultural, and environmental influences upon nutrition, physical activity, weight, energetics, and cancer risk.</p>
 	</div>
@@ -508,21 +539,21 @@ Numbers</h2>
 	<div class="col-md-3 stat-number"><p>15.5 Million</p></div>
 </div>
 <div class="row bynumbers-red">
-	<div class="col-md-2 bynumicon"><div class="icon-9"></div></div>
+	<div class="col-md-2 bynumicon"><div class="icon-9" title="Facebook Live Event"></div></div>
 	<div class="col-md-7">
 		<p>The NCI Facebook Live Event “Cancer Survivorship: The Importance of Research,” featuring experts and research from the Office of Cancer Survivorship, was NCI’s most successful Facebook event to date, with more than 300,000 viewers.</p>
 	</div>
 	<div class="col-md-3 stat-number"><p>300 Thousand</p></div>
 </div>
 <div class="row bynumbers-blue2">
-	<div class="col-md-2 bynumicon"><div class="icon-10"></div></div>
+	<div class="col-md-2 bynumicon"><div class="icon-10" title="Health Information National Trends Survey (HINTS)"></div></div>
 	<div class="col-md-7">
 		<p>As of FY 2016, 360 peer-reviewed publications had used data from the Health Information National Trends Survey (HINTS), which monitors changes in the rapidly evolving fields of health communication and health information technology.</p>
 	</div>
 	<div class="col-md-3 stat-number"><p>360</p></div>
 </div>
 <div class="row bynumbers-cyan">
-	<div class="col-md-2 bynumicon"><div class="icon-11"></div></div>
+	<div class="col-md-2 bynumicon"><div class="icon-11" title="NCCOR National Collaborative on Childhood Obesity Research"></div></div>
 	<div class="col-md-7">
 		<p>The searchable online registry of the National Collaborative on Childhood Obesity Research annotated and included 1,207 validation studies of measures of diet, weight, and their environmental determinants. DCCPS staff developed the registry.</p>
 	</div>
@@ -536,7 +567,7 @@ Numbers</h2>
 	<div class="col-md-3 stat-number"><p>86.5%</p></div>
 </div>
 <div class="row bynumbers-darkblue">
-	<div class="col-md-2 bynumicon"><div class="icon-13"></div></div>
+	<div class="col-md-2 bynumicon"><div class="icon-13" title="SmokefreeTXT"></div></div>
 	<div class="col-md-7">
 		<p>Over a 7-month period in FY 2016, Smokefree.gov hosted more than 3 million web visits, which represented a 140% year-over-year increase compared to the same period in 2015. The Smokefree.gov initiative includes 15 smoking cessation and healthy lifestyle text message programs, reaching adult smokers and other audiences such as teens, pregnant women and new mothers, veterans, and Spanish speakers. All programs can be used in research studies, and individual- and aggregate-level data are available.</p>
 	</div>
@@ -550,7 +581,7 @@ Numbers</h2>
 	<div class="col-md-3 stat-number"><p>1 Trillion</p></div>
 </div>
 <div class="row bynumbers-green">
-	<div class="col-md-2 bynumicon"><div class="icon-15"></div></div>
+	<div class="col-md-2 bynumicon"><div class="icon-15" title="PROSPR - Population-based Research Optimizing Screening through Personalized Regimens"></div></div>
 	<div class="col-md-7">
 		<p>The current Population-based Research Optimizing Screening through Personalized Regimens (PROSPR) central data repository includes detailed screening process data on more than 6 million people cared for in 3,650 facilities by more than 50 thousand physicians and their staff across a wide variety of health care systems.</p>
 	</div>
@@ -638,8 +669,7 @@ Numbers</h2>
 <script src="/js/navigation-bootstrap3.js"></script>
 <script src="/js/jquery.rwdImageMaps.min.js"></script>
 
-    <script>	
-
+    <script>
 	$(document).ready(function(e) {
     $('img[usemap]').rwdImageMaps();
 	

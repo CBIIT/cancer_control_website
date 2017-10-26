@@ -1,5 +1,4 @@
-jQuery(document).ready(function($){
-	
+    jQuery(document).ready(function($){
 	//check if background-images have been loaded and show list items
 	$('.cd-single-project').bgLoaded({
 	  	afterLoaded : function(){
@@ -13,7 +12,15 @@ jQuery(document).ready(function($){
 			toggle = !selectedProject.hasClass('is-full-width');
 		if(toggle) toggleProject($(this), $('.projects-container'), toggle);
 	});
-
+	
+	$('.cd-single-project').on('keydown', function(event){
+		if(event.which == 13) 
+		{
+			var selectedProject = $(this),
+				toggle = !selectedProject.hasClass('is-full-width');
+			if(toggle) toggleProject($(this), $('.projects-container'), toggle);
+		}
+	});
 
   if(window.location.href.indexOf('#director') != -1) {
 		var selectedProject = $(this),
@@ -76,15 +83,13 @@ jQuery(document).ready(function($){
 		if(bool) {
 			//expand project
 			container.addClass('project-is-open');
-			project.addClass('is-full-width');
-			project.siblings('li').removeClass('is-loaded');
-			project.siblings('li').addClass('is-not-full-width');
+			project.addClass('is-full-width').siblings('li').removeClass('is-loaded');
 		} else {
 			//check media query
 			var mq = window.getComputedStyle(document.querySelector('.projects-container'), '::before').getPropertyValue('content').replace(/"/g, "").replace(/'/g, ""),
 				delay = ( mq == 'mobile' ) ? 100 : 0;
+
 			container.removeClass('project-is-open');
-			project.siblings('li').removeClass('is-not-full-width');
 			//fade out project
 			project.animate({opacity: 0}, 100, function(){
 				project.removeClass('is-loaded');
