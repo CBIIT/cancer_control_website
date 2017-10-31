@@ -84,7 +84,7 @@ float:right;
 }
 
 .cd-project-info blockquote.green-bar {
-	border-color:#569225;
+	border-color:#0D851F;
 }
 
 .cd-project-info blockquote.red-bar {
@@ -241,17 +241,17 @@ Main Components
 }
 
 .projects-container .cd-single-project:first-of-type {
-  background-color:#FFC21E;
+  background-color:#1978B8;
 }
 .projects-container .cd-single-project:nth-of-type(2) {
-  background-color:#569225;
+  background-color:#0D851F;
   top: 10vh;
 }
 .projects-container .cd-single-project:nth-of-type(2)::after {
-  background-color:#569225;
+  background-color:#0D851F;
 }
 .projects-container .cd-single-project:nth-of-type(2)::before {
-  background-color:#569225;
+  background-color:#0D851F;
 }
 .projects-container .cd-single-project:nth-of-type(3) {
   background-color:#643CCB;
