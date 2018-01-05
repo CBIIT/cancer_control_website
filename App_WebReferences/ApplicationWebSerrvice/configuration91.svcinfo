@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
-<SavedWcfConfigurationInformation xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" Version="9.1" CheckSum="aCLDJZ7JrGFuJ7R3hFd6K59pgZY=">
+<SavedWcfConfigurationInformation xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" Version="9.1" CheckSum="Yxk2N/XO7TWkaCRZ4+g0qQsK4yE=">
   <bindingConfigurations>
     <bindingConfiguration bindingType="basicHttpBinding" name="IS_ApplicationsSoap">
       <properties>
@@ -221,10 +221,10 @@
     </bindingConfiguration>
   </bindingConfigurations>
   <endpoints>
-    <endpoint name="IS_ApplicationsSoap" contract="ApplicationWebSerrvice.IS_ApplicationsSoap" bindingType="basicHttpBinding" address="https://cyberseminar-stage.icfwebservices.com/application_WS/IS_Applications.asmx" bindingConfiguration="IS_ApplicationsSoap">
+    <endpoint name="IS_ApplicationsSoap" contract="ApplicationWebSerrvice.IS_ApplicationsSoap" bindingType="basicHttpBinding" address="https://cyberseminar.cancercontrolplanet.org/application_WS/IS_Applications.asmx" bindingConfiguration="IS_ApplicationsSoap">
       <properties>
         <property path="/address" isComplexType="false" isExplicitlyDefined="true" clrType="System.Uri, System, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
-          <serializedValue>https://cyberseminar-stage.icfwebservices.com/application_WS/IS_Applications.asmx</serializedValue>
+          <serializedValue>https://cyberseminar.cancercontrolplanet.org/application_WS/IS_Applications.asmx</serializedValue>
         </property>
         <property path="/behaviorConfiguration" isComplexType="false" isExplicitlyDefined="false" clrType="System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
           <serializedValue />
