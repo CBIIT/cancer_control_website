@@ -77,11 +77,12 @@ Partial Class IS_training_education_tidirc_application
         Dim AnItem As ListItem
         For Each AnItem In TXT_Race.Items
             If AnItem.Selected Then
-                If BLNFirst <> True Then
-                    TempString = TempString & ", "
+                If BLNFirst = True Then
+                    TempString = AnItem.Text
                     BLNFirst = False
+                Else
+                    TempString = TempString & ", " & AnItem.Text
                 End If
-                TempString = TempString & ", " & AnItem.Text
             End If
         Next
 
