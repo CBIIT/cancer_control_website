@@ -170,7 +170,7 @@ height="0" width="0" style="display:none;visibility:hidden" title="Google Tag Ma
            		  <div class="span12">
                   <h1>TIDIRC Application</h1>
 
-                         <p>To apply for TIDIRC, please complete the following application by February 10, 2018 at 12:00PM ET.</p>
+                         <p>To apply for TIDIRC, please complete the following application by February 9, 2018 at 12 p.m. NOON ET.</p>
                   <div id="thankyou" runat="server"></div>
     <form id="form1" runat="server">
         <div>
@@ -268,7 +268,7 @@ height="0" width="0" style="display:none;visibility:hidden" title="Google Tag Ma
             <asp:Button ID="BTN_UploadClicked" runat="server" Text="Submit Application" />
 
             <br />
-            <p>All application documents must be submitted electronically by February 10, 2018&nbsp;at 12:00PM ET.</p></div>
+            <p>All application documents must be submitted electronically by February 9, 2018 at 12 p.m. NOON ET.</p></div>
     </form>
 </div><!--/span-->
                               </div><!--/row-->          
