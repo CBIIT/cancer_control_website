@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9" xmlns:video="http://www.google.com/schemas/sitemap-video/1.1">
+<url>
+<loc>https://cancercontrol.cancer.gov/cr-communication-videos.html</loc>
+<changefreq>monthly</changefreq>
+<priority>1.0</priority>
+<video:video>
+<video:player_loc allow_embed="yes">https://www.youtube.com/embed/JLRCh8tWwzY</video:player_loc>
+<video:thumbnail_loc>http://i3.ytimg.com/vi/JLRCh8tWwzY/maxresdefault.jpg</video:thumbnail_loc>
+<video:title>Addressing Cancer Disparities Among American Indian and Alaska Native Populations</video:title>
+<video:description>The three researchers featured in this video receive funding from NCI to conduct research among American Indian and Alaska Native populations</video:description>
+<video:tag>tag</video:tag>
+<video:tag>tag</video:tag>
+<video:tag>tag</video:tag>
+<video:category>category</video:category>
+</video:video>
+</url>
+<url>
+<loc>https://cancercontrol.cancer.gov/cr-communication-videos.html</loc>
+<changefreq>monthly</changefreq>
+<priority>1.0</priority>
+<video:video>
+<video:player_loc allow_embed="yes">https://www.youtube.com/embed/CINZ_iP9Gr4</video:player_loc>
+<video:thumbnail_loc>http://i3.ytimg.com/vi/CINZ_iP9Gr4/maxresdefault.jpg</video:thumbnail_loc>
+<video:title>Behavioral Research In Cancer Prevention and Control</video:title>
+<video:description>The Behavioral Research Program (BRP) is within the National Cancer Institute’s Division of Cancer Control and Population Sciences</video:description>
+<video:tag>tag</video:tag>
+<video:tag>tag</video:tag>
+<video:tag>tag</video:tag>
+<video:category>category</video:category>
+</video:video>
+</url>
+<url>
+<loc>https://cancercontrol.cancer.gov/cr-communication-videos.html</loc>
+<changefreq>monthly</changefreq>
+<priority>1.0</priority>
+<video:video>
+<video:player_loc allow_embed="yes">https://www.youtube.com/embed/VKIVGiAexY4?ecver=1</video:player_loc>
+<video:thumbnail_loc>http://i3.ytimg.com/vi/VKIVGiAexY4/maxresdefault.jpg</video:thumbnail_loc>
+<video:title>Biobehavioral and Psychological Sciences at NCI: Bridging Visual Perception and Attention</video:title>
+<video:description>Dr. Todd Horowitz, Program Director at the National Cancer Institute (NCI) describes the innovative research he conducts in cancer prevention and how to get involved with his work or similar initiatives at the NCI.</video:description>
+<video:tag>tag</video:tag>
+<video:tag>tag</video:tag>
+<video:tag>tag</video:tag>
+<video:category>category</video:category>
+</video:video>
+</url>
+<url>
+<loc>https://cancercontrol.cancer.gov/cr-communication-videos.html</loc>
+<changefreq>monthly</changefreq>
+<priority>1.0</priority>
+<video:video>
+<video:player_loc allow_embed="yes">https://www.youtube.com/embed/6lCuu854EkQ</video:player_loc>
+<video:thumbnail_loc>http://i3.ytimg.com/vi/6lCuu854EkQ/maxresdefault.jpg</video:thumbnail_loc>
+<video:title>Building Bridges to Maximize Functioning</video:title>
+<video:description>Lynne Padgett, Program Director at the National Cancer Institute (NCI) describes the innovative research she is involved with in cancer research and how to get involved with her work or similar initiatives at the NCI.</video:description>
+<video:tag>tag</video:tag>
+<video:tag>tag</video:tag>
+<video:tag>tag</video:tag>
+<video:category>category</video:category>
+</video:video>
+</url>
+<url>
+<loc>https://cancercontrol.cancer.gov/cr-communication-videos.html</loc>
+<changefreq>monthly</changefreq>
+<priority>1.0</priority>
+<video:video>
+<video:player_loc allow_embed="yes">https://www.youtube.com/embed/vZrMdPpNeeU</video:player_loc>
+<video:thumbnail_loc>http://i3.ytimg.com/vi/vZrMdPpNeeU/maxresdefault.jpg</video:thumbnail_loc>
+<video:title>Cancer Epidemiology and Genomics Research – Kathy J. Helzlsouer, M.D., M.H.S.</video:title>
+<video:description>In October 2015, Kathy J. Helzlsouer, M.D., M.H.S., joined NCI’s Division of Cancer Control and Population Sciences (DCCPS) as Associate Director for the Epidemiology and Genomics Research Program (EGRP).</video:description>
+<video:tag>tag</video:tag>
+<video:tag>tag</video:tag>
+<video:tag>tag</video:tag>
+<video:category>category</video:category>
+</video:video>
+</url>
+</urlset>
