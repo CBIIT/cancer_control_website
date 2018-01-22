@@ -1,4 +1,4 @@
-<!DOCTYPE html>
+﻿<!DOCTYPE html>
 <html lang="en"><head>
 <meta http-equiv="content-type" content="text/html; charset=UTF-8">
     <meta charset="utf-8">
@@ -26,52 +26,6 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
     <link href="/brp/css/brp-style.css" rel="stylesheet">
     <link href="../css/bootstrap-lightbox.min.css" rel="stylesheet">
     <link href="../css/print.css" rel="stylesheet" media="print" />
-    
-  <script type="text/javascript">
-function Validate()
-{
-	return false;
-}
-
-function SendToLyris()
-{
-  if (document.frm_SubScribe.TXT_Email.value == '')
-  {
-    alert ('You must enter an email address');
-    return false;
-  }
-  
-    apos=document.frm_SubScribe.TXT_Email.value.indexOf("@");
-  dotpos=document.frm_SubScribe.TXT_Email.value.lastIndexOf(".");
-  if (apos<1||dotpos-apos<2)
-    {
-		alert("You must enter a valid email address");
-    	return false;
-	}
-
-
-  if (document.frm_SubScribe.RD_SubScribe[0].checked)
-  {
-	  document.frm_SubScribe_LYRIS.email.value = document.frm_SubScribe.TXT_Email.value;
-    document.forms.frm_SubScribe_LYRIS.submit()
-
-
-  }
-  else if (document.frm_SubScribe.RD_SubScribe[1].checked)
-  {
-	  document.frm_UNSub_LYRIS.email.value = document.frm_SubScribe.TXT_Email.value;
-    document.forms.frm_UNSub_LYRIS.submit()
-	  
-  }
-  else 
-  {
-	  alert("You must select subscribe or unsubscribe");
-  }
-//  return false;
-}
-
-
-</script>
 
 <script type="text/javascript">
 (function() {
@@ -185,6 +139,18 @@ height="0" width="0" style="display:none;visibility:hidden" title="Google Tag Ma
           </div><!-- /.navbar-inner -->
         </div><!-- /.navbar -->
 		<a name="skip"></a>
+        
+        <br>
+       <div class="row-fluid">
+    <div class="span12">
+<div class="alert alert-error">
+<p>Because of a lapse in       government funding, the information on this website may not be up to date,       transactions submitted via the website may not be processed, and the       agency may not be able to respond to inquiries until appropriations are       enacted.</p>
+<p>  The NIH Clinical Center (the research hospital of NIH) is open. For more       details about its operating status, please visit <a href="http://cc.nih.gov/" target="_blank">cc.nih.gov</a>.</p>
+<p>  Updates regarding government operating status and resumption of normal       operations can be found at <a href="http://www.usa.gov/" target="_blank">USA.gov</a>.</p>
+</div>
+</div>
+</div>
+        
     <!-- Carousel
     ================================================== -->
     <div id="myCarousel" class="carousel slide">
@@ -342,62 +308,13 @@ height="0" width="0" style="display:none;visibility:hidden" title="Google Tag Ma
           </div>
             <div class="additional-text branches-right"><div id="NEI_SubForm" style="display: none">
             <h2 id="newsHeader">Subscribe for Updates</h2>
-        <form id="frm_SubScribe" onSubmit="return Validate()" name="frm_SubScribe">
-            Enter your email address to subscribe or unsubscribe from the newsletter.
-			<br />
-            <br />
-            <label for="TXT_Email">Your e-mail:</label><br>
-
-            <input type="text" name="TXT_Email" id="TXT_Email" size="28" />
-            <p class="newsSubmit">
-                <label for="Submit" id="lyrissubmit">Submit</label>
-                    <input type="button" onClick="return SendToLyris()" name="Submit" value="Submit" id="Submit" />
-                
-            </p>
-            <p>
-                <input name="RD_SubScribe" type="radio" id="RD_Sub" checked="true" value="SubScribe" />
-                <label for="RD_Sub">
-                    Subscribe</label>
-                <input name="RD_SubScribe" type="radio" id="RD_Unsub" value="UnSubScribe" />
-                <label for="RD_Unsub">
-                    Unsubscribe</label>
-            </p>
-        </form>
-    </div>
-    <div id="Lyris_SubForm" style="display: block">
-        <form id="frm_SubScribe_LYRIS" name="frm_SubScribe_LYRIS" action="https://lists.icfwebservices.com/subscribe/subscribe.tml"
-            method="POST">
-
-                        <label for="email">
-                            Email:</label>
-
-                        <input type="text" name="email" id="email" value="" size="10">
-
-                        <input type="image" height="19" width="73" title="subscribe" alt="subscribe"
-                            src="https://lists.icfwebservices.com/img/english/button_subscribe.gif" name="subscribe_btn">
-
-            <input type="hidden" name="list" value="brpscientificnews">
-            <input type="hidden" name="confirm" value="none">
-            <input type="hidden" name="showconfirm" value="F">
-            <input type="hidden" name="url" value="https://cancercontrol.cancer.gov/brp/e-newsletter/thank-you.html">
-        </form>
-        <form id="frm_UNSub_LYRIS" name="frm_UNSub_LYRIS" action="https://lists.icfwebservices.com/subscribe/unsubscribe.tml"
-            method="get">
-
-                        <label for="email">
-                            Email:</label>
-
-                        <input type="text" name="email" id="Text1" value="" size="10">
-
-                        <input type="image" height="19" width="84" title="unsubscribe" alt="unsubscribe"
-                            src="https://lists.icfwebservices.com/img/english/button_unsubscribe.gif"
-                            name="unsubscribe">
-
-            <input type="hidden" name="url" value="https://cancercontrol.cancer.gov/brp/e-newsletter/thank-you.html">
-            <input type="hidden" name="confirm" value="none">
-            <input type="hidden" name="showconfirm" value="F">
-            <input type="hidden" name="lists" value="brpscientificnews">
-        </form>
+                <p>Enter your email to manage your email preferences.</p>
+                                                            <!-- Lyris Subscribe -->
+                                                            <iframe id="myframe" title="signup form" scrolling="no" src="/brp/e-newsletter/subscribe-BRP.aspx">
+                                                                You
+                                                                must enable frames in order to use the signup form
+                                                            </iframe>
+                                                            <!-- Lyris Subscribe -->
     </div>
     </div>
     <div class="branches-right">
@@ -587,13 +504,29 @@ height="0" width="0" style="display:none;visibility:hidden" title="Google Tag Ma
 <script type="text/javascript" src="https://static.cancer.gov/webanalytics/WA_DCCPS_PageLoad.js"></script>
 
 
-	<script type="text/javascript">
- var theObject = document.getElementById("NEI_SubForm")
-    theObject.style.display="block"
+<script type="text/javascript">
+                var theObject = document.getElementById("NEI_SubForm")
+                    theObject.style.display="block"
 
- var theObject2 = document.getElementById("Lyris_SubForm")
-    theObject2.style.display="none"
-</script>
+                $(function () {
+                    setIFrameSize();
+                    $(window).resize(function () {
+                        setIFrameSize();
+                    });
+                });
+
+                function setIFrameSize() {
+                    var windowSize = $(window).width();
+                    var parentDivWidth = $("#myframe").parent().width();
+                    $("#myframe")[0].setAttribute("width", parentDivWidth);
+                    if (windowSize <= 1023 && windowSize >= 480) {
+                        $("#myframe")[0].setAttribute("height", "170");
+                    }
+                    else {
+                        $("#myframe")[0].setAttribute("height", "148");
+                    }
+                }
+      </script>
 
 
   </body>
