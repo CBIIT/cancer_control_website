@@ -13,12 +13,12 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
 })(window,document,'script','dataLayer','GTM-P5PMZ88 ');</script>
 <!-- End Google Tag Manager -->
 
-    <title>Intervention Research to Improve Native American Health (IRINAH) - National Cancer Institute - Cancer Control and Population Sciences</title>
+    <title>IRINAH Literature Database | DCCPS/NCI/NIH</title>
     <link rel="icon" type="image/jpeg" href="/images/favicon.ico">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta name="keywords" content="nci, dccps, Cancer Control and Population Sciences, cancer">
     <meta name="author" content="">
-    <meta name="description" content="" />
+    <meta name="description" content="Review a searchable database of citations for cancer control intervention research with American Indian, Alaska Native, and Native Hawaiian and First Nations populations." />
 
     <link href="../css/style.css" rel="stylesheet">
     <link href="../css/bootstrap.css" rel="stylesheet">
