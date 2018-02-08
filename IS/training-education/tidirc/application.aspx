@@ -3,6 +3,7 @@
 <!DOCTYPE html>
 <html lang="en">
   <head>
+  <!-- <script src="//assets.adobedtm.com/f1bfa9f7170c81b1a9a9ecdcc6c5215ee0b03c84/satelliteLib-339f9157d73ce92dfb58c341869b41fef294030a.js"></script> -->
 <meta http-equiv="content-type" content="text/html; charset=UTF-8">
     <meta charset="utf-8">
 <!-- Google Tag Manager -->
@@ -170,10 +171,11 @@ height="0" width="0" style="display:none;visibility:hidden" title="Google Tag Ma
            		  <div class="span12">
                   <h1>TIDIRC Application</h1>
 
-                         <p>To apply for TIDIRC, please complete the following application by February 9, 2018 at 12 p.m. NOON ET.</p>
+                         <p class="alert alert-error" style="color:#000;">The 2018 application period is closed. Please come back in early 2019 to apply for the next training. 2018 applicants will be notified of their acceptance status by March 7, 2018. </p>
+                         <p>For questions concerning the training or application process, please review the <a href="/IS/training-education/tidirc/faqs.html">FAQ page</a> or contact the Implementation Science Team at <a href="mailto:NCIdccpsISteam@mail.nih.gov">NCIdccpsISteam@mail.nih.gov</a>.</p>
                   <div id="thankyou" runat="server"></div>
     <form id="form1" runat="server">
-        <div>
+        <!--<div>
             <div class="row-fluid">
                 <div class="span6">
                     <asp:Label ID="Label1" runat="server" AssociatedControlID="TXT_FirstName" Text="First Name:"></asp:Label> <asp:TextBox ID="TXT_FirstName" runat="server"></asp:TextBox><br /> 
@@ -264,10 +266,10 @@ height="0" width="0" style="display:none;visibility:hidden" title="Google Tag Ma
         <asp:Label ID="Label21" runat="server" AssociatedControlID="UP_ConceptPaper_File" Text="Concept Paper To Upload:"></asp:Label> <asp:FileUpload ID="UP_ConceptPaper_File" runat="server" /> <asp:RequiredFieldValidator ID="RequiredFieldValidator18" runat="server" ControlToValidate="UP_ConceptPaper_File" Display="Dynamic" ErrorMessage="Please add an attachment." CssClass="alert"></asp:RequiredFieldValidator> 
          <asp:RegularExpressionValidator ID="RegularExpressionValidator6" ValidationExpression="([a-zA-Z0-9\s_\\.\-:])+(.doc|.docx|.pdf)$" ControlToValidate="UP_ConceptPaper_File" runat="server" ForeColor="Red" ErrorMessage="Please select a valid Word or PDF File file." Display="Dynamic" CssClass="alert" /><br />
         <br /><br />
+        
             <asp:Button ID="BTN_UploadClicked" runat="server" Text="Submit Application" />
-
-            <br />
-            <p>All application documents must be submitted electronically by February 9, 2018 at 12 p.m. NOON ET.</p></div>
+            </div>
+            -->
     </form>
 </div><!--/span-->
                               </div><!--/row-->          
@@ -303,7 +305,7 @@ height="0" width="0" style="display:none;visibility:hidden" title="Google Tag Ma
              </div>
        </div>
             <div class="last-updated">
-              <p class="center"><strong>Last Updated: January 10, 2018</strong></p>
+              <p class="center"><strong>Last Updated: February 9, 2018</strong></p>
        <a href="https://www.cancer.gov/contact" class="help-image"><img class="footer-help" src="/images/footer-help-logo.png" alt="help-logo" /></a><p class="can-numb"><strong>1-800-4-CANCER <br /> (1-800-422-6237)</strong></p>
      </div>
        </div><!--/row-->
@@ -439,5 +441,6 @@ height="0" width="0" style="display:none;visibility:hidden" title="Google Tag Ma
 <script type="text/javascript" src="https://static.cancer.gov/webanalytics/WA_DCCPS_PageLoad.js"></script>
 
     
+<!-- <script type="text/javascript">_satellite.pageBottom();</script> -->
 </body>
 </html>
