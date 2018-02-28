@@ -3,7 +3,7 @@
 <!DOCTYPE html>
 <html lang="en">
   <head>
-  <!-- <script src="//assets.adobedtm.com/f1bfa9f7170c81b1a9a9ecdcc6c5215ee0b03c84/satelliteLib-339f9157d73ce92dfb58c341869b41fef294030a.js"></script> -->
+  <script src="//assets.adobedtm.com/f1bfa9f7170c81b1a9a9ecdcc6c5215ee0b03c84/satelliteLib-339f9157d73ce92dfb58c341869b41fef294030a.js"></script>
 <meta http-equiv="content-type" content="text/html; charset=UTF-8">
     <meta charset="utf-8">
 <!-- Google Tag Manager -->
@@ -441,6 +441,6 @@ height="0" width="0" style="display:none;visibility:hidden" title="Google Tag Ma
 <script type="text/javascript" src="https://static.cancer.gov/webanalytics/WA_DCCPS_PageLoad.js"></script>
 
     
-<!-- <script type="text/javascript">_satellite.pageBottom();</script> -->
+<script type="text/javascript">_satellite.pageBottom();</script>
 </body>
 </html>

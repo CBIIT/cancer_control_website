@@ -1,6 +1,7 @@
-<!DOCTYPE html>
+﻿<!DOCTYPE html>
 <html lang="en"><!-- InstanceBegin template="/templates/BRP-about.dwt" codeOutsideHTMLIsLocked="false" -->
   <head>
+<script src="//assets.adobedtm.com/f1bfa9f7170c81b1a9a9ecdcc6c5215ee0b03c84/satelliteLib-339f9157d73ce92dfb58c341869b41fef294030a.js"></script>
 <meta http-equiv="content-type" content="text/html; charset=UTF-8">
     <meta charset="utf-8">
 <!-- Google Tag Manager -->
@@ -38,49 +39,6 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
     <!-- Fav and touch icons -->
   <style type="text/css" id="holderjs-style">.holderjs-fluid {font-size:16px;font-weight:bold;text-align:center;font-family:sans-serif;margin:0}</style>
   <!-- InstanceBeginEditable name="head" -->
-  <script language="JavaScript">
-function Validate()
-{
-	return false;
-}
-
-function SendToLyris()
-{
-  if (document.frm_SubScribe.TXT_Email.value == '')
-  {
-    alert ('You must enter an email address');
-    return false;
-  }
-  
-    apos=document.frm_SubScribe.TXT_Email.value.indexOf("@");
-  dotpos=document.frm_SubScribe.TXT_Email.value.lastIndexOf(".");
-  if (apos<1||dotpos-apos<2)
-    {
-		alert("You must enter a valid email address");
-    	return false;
-	}
-
-
-  if (document.frm_SubScribe.RD_SubScribe[0].checked)
-  {
-	  document.frm_SubScribe_LYRIS.email.value = document.frm_SubScribe.TXT_Email.value;
-    document.forms.frm_SubScribe_LYRIS.submit()
-
-
-  }
-  else if (document.frm_SubScribe.RD_SubScribe[1].checked)
-  {
-	  document.frm_UNSub_LYRIS.email.value = document.frm_SubScribe.TXT_Email.value;
-    document.forms.frm_UNSub_LYRIS.submit()
-	  
-  }
-  else 
-  {
-	  alert("You must select subscribe or unsubscribe");
-  }
-//  return false;
-}
-</script>
   <!-- InstanceEndEditable -->
   </head>
 
@@ -226,66 +184,12 @@ height="0" width="0" style="display:none;visibility:hidden" title="Google Tag Ma
            		  <!-- InstanceBeginEditable name="Header" -->
 <h1>Scientific News from the Behavioral Research Program (BRP)</h1><!-- InstanceEndEditable -->
            		  <!-- InstanceBeginEditable name="Main Content" -->
-<p>Receive updates on  funding opportunities, extramural scientific advances, career and training opportunities, research tools, initiatives, and events sponsored by the program.</p>
+<p>Receive updates on funding opportunities, scientific advances, career and training opportunities, research tools, initiatives, and program-sponsored events.</p>
+                     <p>Manage your email preferences below:</p>
 <!-- Lyris Subscribe -->
-
- <div class="additional-text"><div style="display: block;" id="NEI_SubForm">
-        <form name="frm_SubScribe" onsubmit="return Validate()" id="frm_SubScribe">
-            Provide your email address, select subscribe or unsubscribe, and click the send button.
-            <br>
-            <br>
-            <label for="TXT_Email">
-                Your e-mail:
-            </label>
-            <br>
-            <input type="text" size="28" id="TXT_Email" name="TXT_Email">
-            <p>
-                <input type="radio" value="SubScribe" checked="true" id="RD_Sub" name="RD_SubScribe">
-                <label for="RD_Sub">
-                    Subscribe</label><br>
-                <input type="radio" value="UnSubScribe" id="RD_Unsub" name="RD_SubScribe">
-                <label for="RD_Unsub">
-                    Unsubscribe</label>
-            </p>
-            <p>
-                <label>
-                    <input type="button" value="Send" name="Submit" onclick="return SendToLyris()">
-                </label>
-            </p>
-        </form>
-    </div>
-    <div style="display: none;" id="Lyris_SubForm">
-        <form method="POST" action="https://lists.icfwebservices.com/subscribe/subscribe.tml" name="frm_SubScribe_LYRIS" id="frm_SubScribe_LYRIS">
-            
-                        <label for="email">
-                            Email:</label>
-                    
-                        <input type="text" size="10" value="" id="email" name="email">
-                    
-                        <input width="73" type="image" height="19" class="pull-left" name="subscribe_btn" src="https://lists.icfwebservices.com/img/english/button_subscribe.gif" alt="subscribe" title="subscribe">
-                    
-            <input type="hidden" value="brpscientificnews" name="list">
-            <input type="hidden" value="none" name="confirm">
-            <input type="hidden" value="F" name="showconfirm">
-            <input type="hidden" name="url" value="https://cancercontrol.cancer.gov/brp/e-newsletter/thank-you.html">
-        </form>
-        <form method="get" action="https://lists.icfwebservices.com/subscribe/unsubscribe.tml" name="frm_UNSub_LYRIS" id="frm_UNSub_LYRIS">
-            
-                        <label for="email">
-                            Email:</label>
-                    
-                        <input type="text" size="10" value="" id="Text1" name="email">
-                    
-                        <input width="84" type="image" height="19" name="unsubscribe" src="https://lists.icfwebservices.com/img/english/button_unsubscribe.gif" alt="unsubscribe" title="unsubscribe">
-                    
-            <input type="hidden" name="url" value="https://cancercontrol.cancer.gov/brp/e-newsletter/thank-you.html">
-            <input type="hidden" value="none" name="confirm">
-            <input type="hidden" value="F" name="showconfirm">
-            <input type="hidden" value="brpscientificnews" name="lists">
-        </form>
-    </div></div>
-
-
+<iframe title="signup form" scrolling="no" frameborder="0" align="bottom" marginwidth="0"
+                    marginheight="0" src="/brp/e-newsletter/subscribe-BRP.aspx" width="300" height="188">You
+                    must enable frames in order to use the signup form </iframe>
 <!-- Lyris Subscribe --><!-- InstanceEndEditable -->
                               </div><!--/span-->
               </div><!--/row-->          
@@ -425,11 +329,9 @@ $(document).ready(function(){
     <script language="JavaScript">
  var theObject = document.getElementById("NEI_SubForm")
     theObject.style.display="block"
-
- var theObject2 = document.getElementById("Lyris_SubForm")
-    theObject2.style.display="none"
 </script>
 	
 	<!-- InstanceEndEditable -->
-  </body>
+  <script type="text/javascript">_satellite.pageBottom();</script>
+</body>
 <!-- InstanceEnd --></html>

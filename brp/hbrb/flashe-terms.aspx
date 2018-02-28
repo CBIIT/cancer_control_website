@@ -1,7 +1,9 @@
 <%@ Page Language="VB" AutoEventWireup="false" CodeFile="flashe-terms.aspx.vb" Inherits="terms" %>
 
 <!DOCTYPE html>
-<html lang="en"><head>
+<html lang="en">
+<head>
+<script src="//assets.adobedtm.com/f1bfa9f7170c81b1a9a9ecdcc6c5215ee0b03c84/satelliteLib-339f9157d73ce92dfb58c341869b41fef294030a.js"></script>
     <title>Behavioral Research Program - Cancer Control and Population Sciences</title>
     <link rel="icon" 
       type="image/jpeg" 
@@ -16,6 +18,26 @@
     <link href="../css/brp-style.css" rel="stylesheet">
     <link href="../../css/bootstrap-lightbox.min.css" rel="stylesheet">
     
+        <style type="text/css">
+        .input-append {
+            max-width:300px;
+        }
+        label {
+            display: inline;
+        }
+        .newsSubmit { float: right; }
+        .radiobutton {display:inline;}
+        .input-append, .input-prepend {
+            width: 100%;
+        }
+        .input-append input#txtemailTerms {
+            width:50%;
+        }
+        .input-append input#btnSubmit {
+            width:40%;
+        }
+    </style>
+
 <script type="text/javascript">
 (function() {
 var hm = document.createElement('script'); hm.type ='text/javascript'; hm.async = true;
@@ -154,7 +176,6 @@ height="0" width="0" style="display:none;visibility:hidden" title="Google Tag Ma
             <div class="row-fluid">
     <div class="listimage">
     <h1>FLASHE  Data Terms of Use </h1>
-    <form id="form1" runat="server">
 <p>      It  is of utmost importance to ensure the confidentiality of survey participants.  Every effort has been made to exclude identifying information on individual  respondents from the computer files. Some demographic information such as sex,  race, etc., has been included for research purposes. The National Cancer  Institute expects that users of the data set will adhere to the strictest  standards of ethical conduct for the analysis and reporting of collected survey  data. It is mandatory that all research results be presented/published in a manner  that protects the integrity of the data and ensures the confidentiality of  participants. In order for the Family Life, Activity, Sun, Health, and Eating  Survey (FLASHE) to provide a public-use or another version of data to you, it  is necessary that you agree to the following provisions. </p>
     <ul>
       <li>You  will not present/publish data in which an individual can be identified.  Publication of small cell sizes should be avoided. </li>
@@ -174,24 +195,25 @@ height="0" width="0" style="display:none;visibility:hidden" title="Google Tag Ma
       <li>You  may receive periodic email updates from the FLASHE administrators.    </li>
     </ul>
     <p>Other  related FLASHE documentation including survey, survey sources, codebook and  data user guide can be found at: <a href="/brp/hbrb/flashe.html">https://cancercontrol.cancer.gov/brp/hbrb/flashe.html </a></p>
+    <form id="form1" runat="server">
     <p>
         <asp:CheckBox ID="chkAcceptTerm" runat="server" />
         <asp:Label ID="Label2" runat="server" AssociatedControlID="chkAcceptTerm" Text=" Marking this box indicates that I agree to comply with the above stated provisions."></asp:Label>
-        <asp:CustomValidator ID="CustomValidator1" runat="server" Display="Dynamic" ErrorMessage="&lt;br/&gt;Please check the box to proceed."
-            ForeColor="Red"></asp:CustomValidator>
+        <asp:CustomValidator ID="CustomValidator1" runat="server" Display="Dynamic" ErrorMessage="Please check the box to proceed."
+            CssClass="alert"></asp:CustomValidator>
     </p>
-    <p>
         <asp:Label ID="Label1" runat="server" AssociatedControlID="txtemailTerms" Text="Please enter your email:"></asp:Label>
+        <br />
+        <div class="input-append">
         <asp:TextBox ID="txtemailTerms" runat="server"></asp:TextBox>
+            <asp:Button ID="btnSubmit" runat="server" Text="Accept" class="btn" type="button" />
+            </div>
+
         <asp:RequiredFieldValidator ID="RequiredFieldValidator1" runat="server" ControlToValidate="txtemailTerms"
-            Display="Dynamic" ErrorMessage="&lt;br/&gt;Please enter an email address." ForeColor="Red"></asp:RequiredFieldValidator>
+            Display="Dynamic" ErrorMessage="Please enter an email address." CssClass="alert"></asp:RequiredFieldValidator>
         <asp:RegularExpressionValidator ID="RegularExpressionValidator1" runat="server" ControlToValidate="txtemailTerms"
-            Display="Dynamic" ErrorMessage="&lt;br/&gt;Please enter a valid email address."
-            ForeColor="Red" ValidationExpression="\w+([-+.']\w+)*@\w+([-.]\w+)*\.\w+([-.]\w+)*"></asp:RegularExpressionValidator>
-    </p>
-    <p>
-        <asp:Button ID="btnSubmit" runat="server" Text="Accept" />
-    </p>
+            Display="Dynamic" ErrorMessage="Please enter a valid email address."
+             CssClass="alert" ValidationExpression="\w+([-+.']\w+)*@\w+([-.]\w+)*\.\w+([-.]\w+)*"></asp:RegularExpressionValidator>
     </form>
         </div></div>
         
@@ -386,5 +408,6 @@ height="0" width="0" style="display:none;visibility:hidden" title="Google Tag Ma
 	</script>
     <script src="../../js/respond.min.js"></script>
 <script type="text/javascript" src="https://static.cancer.gov/webanalytics/WA_DCCPS_PageLoad.js"></script>
-  </body>
+  <script type="text/javascript">_satellite.pageBottom();</script>
+</body>
 </html>

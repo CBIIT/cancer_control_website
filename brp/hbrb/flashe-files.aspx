@@ -1,7 +1,9 @@
 <%@ Page Language="VB" AutoEventWireup="false" CodeFile="flashe-files.aspx.vb" Inherits="dataset" %>
 
 <!DOCTYPE html>
-<html lang="en"><head>
+<html lang="en">
+<head>
+<script src="//assets.adobedtm.com/f1bfa9f7170c81b1a9a9ecdcc6c5215ee0b03c84/satelliteLib-339f9157d73ce92dfb58c341869b41fef294030a.js"></script>
     <title>Behavioral Research Program - Cancer Control and Population Sciences</title>
     <link rel="icon" 
       type="image/jpeg" 
@@ -457,6 +459,7 @@ height="0" width="0" style="display:none;visibility:hidden" title="Google Tag Ma
 	</script>
     <script src="../../js/respond.min.js"></script>
 <script type="text/javascript" src="https://static.cancer.gov/webanalytics/WA_DCCPS_PageLoad.js"></script>
-  </body>
+  <script type="text/javascript">_satellite.pageBottom();</script>
+</body>
 </html>
 
