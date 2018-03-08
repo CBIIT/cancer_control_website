@@ -1,0 +1,173 @@
+.navbar-inverse .nav .active > a, .navbar-inverse .nav .active > a:hover, .navbar-inverse .nav .active > a:focus {
+	background-color: #0072a2;
+    background-image: linear-gradient(to bottom, #333, #0072a2);
+    color: #ffffff;
+}
+
+.navbar .nav > li > a {
+	padding: 12px 52px;	
+}
+
+.breadcrumb { clear:both; }
+
+.program-areas-header {
+	color: #424242;
+}
+
+#content .listimage ul li {
+	list-style-image: url("/brp/images/featured-icon.png");
+	color: #424242;
+}
+
+#content .listimage ul li a {
+	/*color: #424242;*/ /* CD: Not sure if we should have this */
+}
+
+.margin-bottom-list {
+	margin-bottom: 20px;
+}
+
+#content h2 {
+	padding-left: 0;
+}
+
+.video-container {
+    position: relative;
+    padding-bottom: 56.25%;
+    padding-top: 30px; height: 0; overflow: hidden;
+}
+ 
+.video-container iframe,
+.video-container object,
+.video-container embed {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 90%;
+    height: 90%;
+}
+
+#sidebar .comments, #sidebar .additional-text {
+	padding:1em;
+}
+
+.constantContact .fsBody {
+    color: #333;
+    font: 1em/1.4 "Open Sans",Helvetica,Arial,sans-serif;
+    margin: 0;
+}
+.constantContact .fsRow.fsFieldRow.fsLastRow {
+    margin: 0;
+}
+.subscribeWrap {
+    background: none repeat scroll 0 0 #fff;
+    border: 1px solid #e6eeee;
+    float: right;
+    margin: 0 0 0 2em;
+    padding: 0.5em;
+    width: 50%;
+}
+.constantContact {
+    padding: 1em;
+}
+.constantContact .fsBody .fsForm {
+    background: none repeat scroll 0 0 rgba(0, 0, 0, 0);
+    border: medium none;
+    margin: 0;
+}
+.constantContact .fsBody .fsRowBody {
+    padding: 0;
+}
+.constantContact .fsFieldFocused {
+    background: none repeat scroll 0 0 rgba(0, 0, 0, 0);
+    border-radius: 3px;
+}
+.fsPage .fsLabel {
+    display: none !important;
+}
+.constantContact label {
+    background: url("/brp/images/icn-signup.jpg") no-repeat scroll left center rgba(0, 0, 0, 0);
+    color: #333;
+    font-weight: bold;
+    letter-spacing: 0.04em;
+    padding-left: 1.5em;
+    text-transform: uppercase;
+}
+.constantContact div.fsError {
+    border-radius: 3px;
+    color: #333;
+    font-size: 0.9em;
+    margin: 0.5em 0;
+    padding: 0.5em;
+}
+.constantContact .fsValidationError {
+    background: none repeat scroll 0 0 rgba(0, 0, 0, 0) !important;
+}
+.profileBox {
+	float: left;
+	padding: 15px;
+	border: 1px solid #CCCCCC;
+	width: 12%;
+	margin-right: 10px;
+}
+.newsHighlights {
+	border: 1px solid #CCCCCC;	
+}
+
+#content .newsHighlights h2, #sidebar .newsHighlights h2 {
+    background: #0072a2 none repeat scroll 0 0;
+    border-bottom: 1px solid #cccccc;
+    color: #ffffff;
+    font-size: 19px;
+    line-height: 1.5;
+    margin-top: 0;
+    padding: 10px;
+    text-align: center;
+}
+
+#content .newsHighlights div, #sidebar .newsHighlights div {
+	color: #FFFFFF;
+	background: #0072a2;
+	padding: 10px;
+	margin-bottom: 0.5em;
+	border-bottom: 1px solid #CCCCCC;	
+	line-height: 1.5;
+	font-size: 19px;
+	text-align: center;
+}
+#sidebar .newsHighlights div {
+	background-image: url("/brp/images/tree-icon.png");
+	background-repeat: no-repeat;
+}
+.newsHighlights p {
+	padding: 0 10px;
+}
+
+.subsection a {
+	color: #007DBC;	
+}
+
+.thickborder {
+    background-color: #ececec;
+    border: 1px solid #cccccc;
+    padding: 10px;
+}
+
+.thickborder-content {
+    background-color: #ffffff;
+    border: 1px solid #cccccc;
+    padding: 15px 15px 0;
+}
+
+@media (max-width: 1200px) { 
+  #main-container .navbar .nav > li > a {
+		padding: 12px 30px;	
+	}
+}
+
+@media (min-width: 767px) {
+	#header-search {
+    	top: -110px;
+	}
+	.video-caption { margin-top:-30px; }
+}

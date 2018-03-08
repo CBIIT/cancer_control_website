@@ -1,0 +1,27 @@
+@charset "UTF-8";
+/* IE 9 Styles CSS Document */
+/* ------------------------------ Back to Top Button ------------------------------ */
+.flip-container {
+    perspective: none;
+}
+.flipper {
+	transition: 0s;
+	transform-style: none;
+}
+.back {
+	transform: none;
+}
+.vertical.flip-container:hover .back {
+	animation-delay: 0s;
+	animation: none;
+	z-index: 999;
+}
+.vertical.flip-container:hover .front {
+    z-index: 997;
+}
+.vertical.flip-container .flipper {
+	transform-origin: none;
+}
+.vertical.flip-container:hover .flipper {
+	transform: none;
+}
