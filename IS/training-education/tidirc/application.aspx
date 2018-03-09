@@ -357,7 +357,7 @@
 <div class="container">
 	<div class="row">
 		<div class="col-lg-12">
-			<p class="update"><span class="bold">Last Updated:</span> February 9, 2018</p>
+			<p class="update"><span class="bold">Last Updated:</span> March 8, 2018</p>
 		</div> <!-- /.col-lg-12 -->
 	</div> 
 </div> <!-- /.container -->
