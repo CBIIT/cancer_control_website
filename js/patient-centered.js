@@ -23,7 +23,7 @@ var terms = [
 		'term': 'surveillance-research',
 		'title': 'Surveillance Research',
 		'definition': '',
-		'contacts': '<table summary="Contact information for Research platforms." class="table table-striped table-bordered table-condensed responsive"><thead><tr><th scope="col">Staff Member</th><th scope="col">Email</th></tr></thead><tbody><tr><td><a href="https://epi.grants.cancer.gov/staff/rivera.html">Donna Rivera</a></td><td><a href="https://epi.grants.cancer.gov/staff/rivera.html">donna.rivera@nih.gov</a></td></tr></tbody></table>'
+		'contacts': '<table summary="Contact information for Research platforms." class="table table-striped table-bordered table-condensed responsive"><thead><tr><th scope="col">Staff Member</th><th scope="col">Email</th></tr></thead><tbody><tr><td><a href="https://surveillance.cancer.gov/about/bios/riverad.html">Donna Rivera</a></td><td><a href="https://surveillance.cancer.gov/about/bios/riverad.html">donna.rivera@nih.gov</a></td></tr></tbody></table>'
 	}, {
 		'term': 'survivorship-research',
 		'title': 'Survivorship Research',
