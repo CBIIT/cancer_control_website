@@ -6,7 +6,7 @@
 <head runat="server">
     <meta http-equiv="X-UA-Compatible" content="IE=9,10,11" />
     <meta name="viewport" content="width=device-width, initial-scale=1" />
-    <title></title>
+    <title>IS Subscription</title>
 
 <link href="/IS/css/bootstrap.min.css" rel="stylesheet">
 <!-- Google Fonts Source Sans & Merriweather -->
