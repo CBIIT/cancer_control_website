@@ -13,7 +13,7 @@ Partial Class brp_e_newsletter_Subscribe
 
             If strreturn = "1" Then
                 'Good Susbscribe
-                form1.Style.Add("display", "none")
+                frm_SubScribe.Style.Add("display", "none")
                 thankyou.InnerHtml = "<p class='alert alert-success'>Email address was successfully subscribed.</p>"
             ElseIf strreturn = "2" Then
                 'Already a member
@@ -31,7 +31,7 @@ Partial Class brp_e_newsletter_Subscribe
                 thankyou.InnerHtml = "<p class='alert alert-danger'>This email address was not found.</p>"
             ElseIf strreturn = "1" Then
                 'Good UN-Susbscribe
-                form1.Style.Add("display", "none")
+                frm_SubScribe.Style.Add("display", "none")
                 thankyou.InnerHtml = "<p class='alert alert-success'>This email address was successfully un-subscribed.</p>"
             Else
                 '#3 - unknown reason for unsubscibe 
