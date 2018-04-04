@@ -14,17 +14,17 @@
 <!-- Disable tap highlight on IE -->
 <meta name="msapplication-tap-highlight" content="no">
 <!-- Default Favicons -->
-<link rel="icon" type="image/x-icon" href="favicon.ico">
-<link rel="icon" type="image/png" href="favicon.png">
+<link rel="icon" type="image/x-icon" href="/favicon.ico">
+<link rel="icon" type="image/png" href="/favicon.png">
 <!-- Add to homescreen for Chrome on Android -->
 <meta name="mobile-web-app-capable" content="yes">
 <meta name="application-name" content="DCCPS">
-<link rel="icon" sizes="192x192" href="images/touch/chrome-touch-icon-192x192.png">
+<link rel="icon" sizes="192x192" href="/images/touch/chrome-touch-icon-192x192.png">
 <!-- Add to homescreen for Safari on iOS -->
 <meta name="apple-mobile-web-app-capable" content="yes">
 <meta name="apple-mobile-web-app-status-bar-style" content="default">
 <meta name="apple-mobile-web-app-title" content="DCCPS">
-<link rel="apple-touch-icon" href="images/touch/apple-touch-icon.png">
+<link rel="apple-touch-icon" href="/images/touch/apple-touch-icon.png">
 <!-- Bootstrap -->
 <link href="../../../css/bootstrap.min.css" rel="stylesheet">
 <!-- Google Fonts Source Sans & Merriweather -->
@@ -394,7 +394,6 @@
 				<li><a href="https://www.cancer.gov/policies/disclaimer">Disclaimer</a></li>
 				<li><a href="https://www.cancer.gov/policies/accessibility">Accessibility</a></li>
 				<li><a href="https://www.cancer.gov/policies/foia">FOIA</a></li>
-				<li><a href="/help.html">Help</a></li>
 			</ul>
 		</div> 
 		<div class="col-md-3">
