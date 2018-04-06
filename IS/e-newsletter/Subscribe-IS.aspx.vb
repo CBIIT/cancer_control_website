@@ -8,7 +8,7 @@ Partial Class brp_e_newsletter_Subscribe
         Dim strreturn As String = ""
 
         If Me.RD_Sub.Checked Then
-            strreturn = ws.SubscribeTo_cancercontrolplanet(txtemailTerms.Text)
+            strreturn = ws.SubscribeTo_nci_implementationscience(txtemailTerms.Text)
             'Response.Write("RD_Sub=checked" & returnvalue)
 
             If strreturn = "1" Then
@@ -23,7 +23,7 @@ Partial Class brp_e_newsletter_Subscribe
         End If
 
         If Me.RD_Unsub.Checked Then
-            strreturn = ws.UNSubscribeTo_cancercontrolplanet(txtemailTerms.Text)
+            strreturn = ws.UNSubscribeTo_nci_implementationscience(txtemailTerms.Text)
             'Response.Write("RD_Unsub=checked" & returnvalue)
 
             If strreturn = "0" Then

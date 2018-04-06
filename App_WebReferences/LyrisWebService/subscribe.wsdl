@@ -232,6 +232,34 @@
           </s:sequence>
         </s:complexType>
       </s:element>
+      <s:element name="SubscribeTo_nci_implementationscience">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="objemail" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="SubscribeTo_nci_implementationscienceResponse">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="SubscribeTo_nci_implementationscienceResult" type="s:string" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="UNSubscribeTo_nci_implementationscience">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="objemail" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="UNSubscribeTo_nci_implementationscienceResponse">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="UNSubscribeTo_nci_implementationscienceResult" type="s:string" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
     </s:schema>
   </wsdl:types>
   <wsdl:message name="SubscribeToNciHintsUsersSoapIn">
@@ -330,6 +358,18 @@
   <wsdl:message name="UNSubscribeTo_trecSoapOut">
     <wsdl:part name="parameters" element="tns:UNSubscribeTo_trecResponse" />
   </wsdl:message>
+  <wsdl:message name="SubscribeTo_nci_implementationscienceSoapIn">
+    <wsdl:part name="parameters" element="tns:SubscribeTo_nci_implementationscience" />
+  </wsdl:message>
+  <wsdl:message name="SubscribeTo_nci_implementationscienceSoapOut">
+    <wsdl:part name="parameters" element="tns:SubscribeTo_nci_implementationscienceResponse" />
+  </wsdl:message>
+  <wsdl:message name="UNSubscribeTo_nci_implementationscienceSoapIn">
+    <wsdl:part name="parameters" element="tns:UNSubscribeTo_nci_implementationscience" />
+  </wsdl:message>
+  <wsdl:message name="UNSubscribeTo_nci_implementationscienceSoapOut">
+    <wsdl:part name="parameters" element="tns:UNSubscribeTo_nci_implementationscienceResponse" />
+  </wsdl:message>
   <wsdl:portType name="SubscribeSoap">
     <wsdl:operation name="SubscribeToNciHintsUsers">
       <wsdl:input message="tns:SubscribeToNciHintsUsersSoapIn" />
@@ -394,6 +434,14 @@
     <wsdl:operation name="UNSubscribeTo_trec">
       <wsdl:input message="tns:UNSubscribeTo_trecSoapIn" />
       <wsdl:output message="tns:UNSubscribeTo_trecSoapOut" />
+    </wsdl:operation>
+    <wsdl:operation name="SubscribeTo_nci_implementationscience">
+      <wsdl:input message="tns:SubscribeTo_nci_implementationscienceSoapIn" />
+      <wsdl:output message="tns:SubscribeTo_nci_implementationscienceSoapOut" />
+    </wsdl:operation>
+    <wsdl:operation name="UNSubscribeTo_nci_implementationscience">
+      <wsdl:input message="tns:UNSubscribeTo_nci_implementationscienceSoapIn" />
+      <wsdl:output message="tns:UNSubscribeTo_nci_implementationscienceSoapOut" />
     </wsdl:operation>
   </wsdl:portType>
   <wsdl:binding name="SubscribeSoap" type="tns:SubscribeSoap">
@@ -542,6 +590,24 @@
         <soap:body use="literal" />
       </wsdl:output>
     </wsdl:operation>
+    <wsdl:operation name="SubscribeTo_nci_implementationscience">
+      <soap:operation soapAction="http://tempuri.org/SubscribeTo_nci_implementationscience" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="UNSubscribeTo_nci_implementationscience">
+      <soap:operation soapAction="http://tempuri.org/UNSubscribeTo_nci_implementationscience" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
   </wsdl:binding>
   <wsdl:binding name="SubscribeSoap12" type="tns:SubscribeSoap">
     <soap12:binding transport="http://schemas.xmlsoap.org/soap/http" />
@@ -682,6 +748,24 @@
     </wsdl:operation>
     <wsdl:operation name="UNSubscribeTo_trec">
       <soap12:operation soapAction="http://tempuri.org/UNSubscribeTo_trec" style="document" />
+      <wsdl:input>
+        <soap12:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="SubscribeTo_nci_implementationscience">
+      <soap12:operation soapAction="http://tempuri.org/SubscribeTo_nci_implementationscience" style="document" />
+      <wsdl:input>
+        <soap12:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="UNSubscribeTo_nci_implementationscience">
+      <soap12:operation soapAction="http://tempuri.org/UNSubscribeTo_nci_implementationscience" style="document" />
       <wsdl:input>
         <soap12:body use="literal" />
       </wsdl:input>
