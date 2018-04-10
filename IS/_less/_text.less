@@ -1,0 +1,239 @@
+/* LESS Document _text.less */
+body {
+  	font-family: "Source Sans Pro", "Helvetica Neue", Helvetica, Arial, "sans-serif";
+	font-size: 18px;
+	font-weight:300;
+}
+h1 {
+	font-family: "Merriweather", "Times New Roman", Times, Georgia, serif;
+	font-size:36px;
+	font-weight:300;
+	color:@mediumgray;
+}
+h1.error-title {
+	font-family: "Source Sans Pro", "Helvetica Neue", Helvetica, Arial, "sans-serif";
+	font-size:24px;
+	font-weight:600;
+	line-height:28px;
+	margin-top:0px;
+	margin-bottom:5px;
+	color:#000000;
+}
+h2 {
+	font-family: "Source Sans Pro", "Helvetica Neue", Helvetica, Arial, "sans-serif";
+	font-size:28px;
+	font-weight:600;
+	line-height:32px;
+}
+.white-row h2,
+.lightgray-row h2 {
+	text-align: center;
+	text-transform: uppercase;
+	margin-bottom:20px;
+}
+.darkblue-row h2 {
+	text-align: center;
+	text-transform: uppercase;
+	color:@white;
+	margin-bottom:20px;
+}
+.darkblue-row .callout-box p {
+	color: black;
+}
+h3 {
+	font-family: "Source Sans Pro", "Helvetica Neue", Helvetica, Arial, "sans-serif";
+	font-size:20px;
+	font-weight:700;
+	line-height:24px;
+}
+.title-area h3 {
+	margin:0px;
+	height: 24px;
+	overflow: hidden;
+}
+.card h3 {
+	margin:0px;
+}
+h4 {
+	font-family: "Source Sans Pro", "Helvetica Neue", Helvetica, Arial, "sans-serif";
+	font-size:18px;
+	font-weight:700;
+	line-height:22px;
+}
+.first {
+	margin-top:0px;
+}
+.staff-title {
+	font-family: "Source Sans Pro", "Helvetica Neue", Helvetica, Arial, "sans-serif";
+	font-size:14px;
+	font-weight:400;
+	line-height:18px;
+	margin: 0px 0px 15px;
+	text-transform: uppercase;
+	letter-spacing: 0.05em;
+}
+.university {
+	font-family: "Source Sans Pro", "Helvetica Neue", Helvetica, Arial, "sans-serif";
+	font-size: 16px;
+	font-weight: 700;
+	line-height: 18px;
+	margin: 0px 0px 5px;
+}
+p {
+	font-family: "Source Sans Pro", "Helvetica Neue", Helvetica, Arial, "sans-serif";
+	font-size: 18px;
+	font-weight:300;
+	a {
+		text-decoration: underline;
+	}
+}
+p.intro {
+	font-family: "Source Sans Pro", "Helvetica Neue", Helvetica, Arial, "sans-serif";
+	font-size: 22px;
+	line-height: 1.6;
+	font-weight:300;
+}
+.extra-space p {
+	margin-bottom:20px;
+}
+ul.inline-links,
+ol.inline-links {
+	a {
+		text-decoration: underline;
+	}
+}
+ul.list-unstyled>li {
+	margin-bottom:8px;
+}
+ul.list-unstyled>li:last-child {
+	margin-bottom:0px;	
+}
+.title-icon-wrapper h2 {
+	padding-left:12px;
+	font-family: "Source Sans Pro", "Helvetica Neue", Helvetica, Arial, "sans-serif";
+	font-size:30px;
+	font-weight:700;
+	text-transform: uppercase;
+	line-height:36px;
+	text-align: center;
+	color:@darkblue;
+	margin:0px;
+	letter-spacing: 0.02em;
+	display:table-cell;
+	vertical-align: middle;
+}
+@media (max-width: 550px) {
+	.title-icon-wrapper h2 {
+		font-size:24px;
+		line-height:1.42;
+	}
+}
+@media (max-width: 450px) {
+	.title-icon-wrapper h2 {
+		font-size:20px;
+	}
+}
+.homepage {
+	h3 {
+		font-family: "Source Sans Pro", "Helvetica Neue", Helvetica, Arial, "sans-serif";
+		font-size:20px;
+		font-weight:700;
+		line-height:24px;
+		color:@darkblue;
+		margin:0px;
+	}
+	h3.research-group-header {
+		text-align: center;
+		font-size:26px;
+		font-weight:700;
+		line-height:24px;
+		text-transform: uppercase;
+		margin-bottom: 20px;
+	}
+	.title-area h3 {
+		color:@white;
+	}
+	a.box p.date {
+		font-family: "Source Sans Pro", "Helvetica Neue", Helvetica, Arial, "sans-serif";
+		font-size:16px;
+		font-weight:300;
+		line-height:20px;
+		color:@darkgray;
+		margin-bottom:0px;
+		b {
+			font-size:14px;
+			font-weight:700;
+			color:@darkgray;
+			text-transform: uppercase;
+			letter-spacing: 0.05em;
+		}
+	}
+	.transparent-box p {
+		font-size:24px;
+		line-height: 36px;
+		font-weight:300;
+		color:#ffffff;
+		b {
+			font-weight:600;
+		}
+	}
+}
+b, strong, .bold {
+	font-weight: 600;
+}
+.caption {
+	font-size:15px;
+	font-weight:300;
+	font-style: italic;
+	margin-bottom:0px;
+	padding:10px;
+}
+/* ------------------------------ Quote Area ------------------------------  */
+blockquote {
+	font-family: "Merriweather", "Times New Roman", Times, Georgia, serif;
+	font-size:28px;
+	font-weight:300;
+	font-style: italic;
+	line-height:32px;
+	color:@darkgray;
+	border-left:none;
+	margin-bottom:10px;
+	position: relative;
+}
+blockquote.small-quote {
+	font-family: "Merriweather", "Times New Roman", Times, Georgia, serif;
+	font-size:18px;
+	font-weight:300;
+	font-style: italic;
+	line-height:26px;
+	color:@darkgray;
+	border-left:none;
+	margin-bottom:5px;
+	position: relative;
+	padding-left:8px;
+	padding-bottom:5px;
+}
+blockquote::before{
+  	content: "\201C";
+	position: absolute;
+  	left: -2px;
+}
+blockquote::after{
+	content: "";
+}
+cite {
+	font-size:18px;
+	line-height:20px;
+	font-style: normal;
+	padding: 10px 20px;
+	display: block;
+	position: relative;
+}
+cite::before{
+  	content: "\2013";
+	position: absolute;
+  	left: 5px;
+}
+cite::after{
+	content: "";
+}
