@@ -232,10 +232,18 @@
 				<li>Item source and reference list - Diet (<a href="docs/item-source-and-reference-list-diet.pdf" target="_blank">PDF</a>)</li>
 				<li>Item source and reference list - Physical activity (<a href="docs/item-source-and-reference-list-physical-activity.pdf" target="_blank">PDF</a>)</li>
 			</ul>
+			<h2 id="GeoFLASHE">GeoFLASHE data and  resources</h2>
+            <p>GeoFLASHE data are  neighborhood characteristics calculated for use with FLASHE survey data. These  data are available for data users to merge with FLASHE survey data to conduct  analyses examining neighborhood characteristics and behavior.</p>
+            <ul class="inline-links">
+              <li>Codebook (<a href="docs/FLASHE-GeoData-Codebook-revised-GeoFLASHE5.bNCI1.xlsx" target="_blank">XLS</a>)</li>
+              <li>GeoFLASHE methods report  (<a href="docs/GeoFLASHE-Methods-Report-NCI.pdf" target="_blank">PDF</a>) </li>
+              <li>GeoFLASHE data (SPSS, SAS  file)  (coming soon!)</li>
+            </ul>
 			<h2 id="Dyadic">Dyadic analysis resources</h2>
 			<p>FLASHE data can be used to conduct individual- or dyadic-level analyses. The <a href="/brp/hbrb/flashe-dyadic-analysis.aspx">dyadic analysis resource</a> page and <a href="/brp/hbrb/flashe-webinar.html">introductory webinar</a> provide information on conducting dyadic analyses with FLASHE data.</p>
-			<h2 id="Papers">FLASHE projects</h2>
-			<p><strong>FLASHE Data Users &ndash; we want to hear from you!</strong> We encourage you to let us know how you are using the FLASHE data by emailing <a href="mailto:nciflashe@mail.nih.gov">nciflashe@mail.nih.gov</a>. Your responses, for example: a brief description of the project, or list of presentations or manuscripts, will help us understand how the data are being used and will not be shared with the public.</p>
+			<h2 id="Papers">Share your FLASHE projects</h2>
+			<p><strong>FLASHE Data Users &ndash; tell us  how you are using FLASHE data!</strong></p>
+			<p>Your responses will help  us understand how the data are being used. Please email a brief description of  your project and/ or a list of presentations or manuscripts to <a href="mailto:nciflashe@mail.nih.gov">nciflashe@mail.nih.gov</a>. Your responses will not be shared  with the public. </p>
 			<h2 id="Contacts">Contacts</h2>
 			<p>For more information about the Family Life, Activity, Sun, Health, and Eating (FLASHE) study, please contact: </p>
 			<p><a href="https://staffprofiles.cancer.gov/brp/prgmStaffProfile.do?contactId=1612&amp;bioType=stf">Linda Nebeling, Ph.D., M.P.H., R.D</a>.<br>
@@ -249,6 +257,9 @@
 				National Cancer Institute<br>
 				<a href="mailto:april.oh@nih.gov">april.oh@nih.gov</a></p>
 			<p><a href="https://staffprofiles.cancer.gov/brp/prgmStaffProfile.do?contactId=6098881&amp;bioType=flw">Laura Dwyer, Ph.D.</a><br>
+				Contractor &ndash; Cape Fox Facilities  Services<br>
+				Behavioral Research Program<br>
+				National Cancer Institute <br>
 				<a href="mailto:laura.dwyer@nih.gov">laura.dwyer@nih.gov</a></p>
 			<h2 id="FAQ">FAQ</h2>
 			<ol class="inline-links">
@@ -318,7 +329,7 @@
 <div class="container">
 	<div class="row">
 		<div class="col-lg-12">
-			<p class="update"><span class="bold">Last Updated:</span> August 8, 2017</p>
+			<p class="update"><span class="bold">Last Updated:</span> April 9, 2018</p>
 		</div> <!-- /.col-lg-12 -->
 	</div> <!-- /.row -->
 </div> <!-- /.container -->
