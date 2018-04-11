@@ -137,10 +137,7 @@ Current Cigarette Smoking Status By Gender and Age Group
 |45-64    | 65,021|  59,847,003|  80.72| 15,589|  14,291,634|  19.28| 80,610|  74,138,637| 100.00|
 |---------+-------+------------+-------+-------+------------+-------+-------+------------+-------|
 |65+      | 37,224|  32,538,765|  91.81|  3,381|   2,901,080|   8.19| 40,605|  35,439,845| 100.00|
---------------------------------------------------------------------------------------------------
-
-
-Tobacco Use Supplement to The Current Population Survey
+--------------------------------------------------------------------------------------------------Tobacco Use Supplement to The Current Population Survey
 May 2006, August 2006 and January 2007 Combined
 Interviewed, Adults, Ages 18 and Over
 Self Respondents Only
@@ -806,10 +803,7 @@ Run;
 
 Proc Sort Data=Per_2007;
   By Seq;
-Run;
-
-
-Data ASEC2007;
+Run;Data ASEC2007;
   Merge HH_2007
         Per_2007(In=IN1);
   By Seq;
@@ -865,10 +859,7 @@ Proc Freq Data=ASEC2007;
   Title2 "Adults Ages 18 to 64";
   Where (18<=A_Age<=64);
   Table HIC_Stat;
-Run; 
-
-
-Data ASEC2007;
+Run; Data ASEC2007;
   Set ASEC2007;
   If H_MIS In (3,4,7,8);
   HRMIS_B=H_MIS; 
@@ -922,10 +913,7 @@ Data AJan2007;
   If InTUS & InAsec;
   If PESex=A_Sex;
   If (PEAge=A_Age) | (PEAge=(A_Age-1));
-Run;
-
-
-Proc Freq Data=AJan2007;
+Run;Proc Freq Data=AJan2007;
   Title1 "January 2007 Tobacco Use Supplement to the Current Population Survey Merged With";
   Title2 "2007 Annual Social and Economic (ASEC) Supplement";
   Title3 "Adults Ages 18 to 64";
