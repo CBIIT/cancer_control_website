@@ -25,7 +25,7 @@
 	margin-top: -10px;
 }
 .navbar-inverse .nav > li > a {
-	color: #04859D;
+	color: #025A6A;
 }
 .navbar .nav li a:hover {
 	background-color: #04859D;
@@ -60,7 +60,7 @@
 }
 
 .nav .dropdown-menu > li > a {
-	color: #04859D;
+	color: #025A6A;
 }
 
 .nav .dropdown li a:hover {
@@ -70,7 +70,7 @@
 	color: #696559;
 }
 .navbar-inverse .nav-collapse .dropdown-menu a {
-	color: #04859D;
+	color: #025A6A;
 }
 .navbar-inverse .btn-navbar, .navbar-inverse .btn-navbar:hover, .navbar-inverse .btn-navbar:focus {
 	background-color: #04859D;
@@ -97,7 +97,7 @@
 	background: url(../../images/breadcrumb-divider-parents-ocs.png) no-repeat scroll;
 }
 .breadcrumb a {
-	color: #04859D;
+	color: #025A6A;
 }
 .span9 .breadcrumb li, .span12 .breadcrumb li {
 	background: none repeat scroll 0 0 #abcfd5;
@@ -121,7 +121,7 @@
 
 @media (max-width: 767px) {
   .navbar-inverse .nav-collapse .nav > li > a {
-    color: #04859D;
+    color: #025A6A;
   }
 }
 
