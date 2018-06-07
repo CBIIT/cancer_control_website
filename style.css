@@ -182,7 +182,6 @@ a { color: #0073bb; }
 #foot-row1 {/*top section of the footer*/
 	border-top: 10px solid #710007;
 	font-size: 80%;
-	color: #999999;
 	padding: 10px 0 20px 0;
 	text-align: center;
 }
@@ -218,7 +217,6 @@ a { color: #0073bb; }
 .update {
 	font-size: 80%;
 	font-weight: bold;
-	color: #999999;
 	padding: 10px 0 10px 0;
 	text-align: center;
 }

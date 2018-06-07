@@ -31,9 +31,11 @@ $(document).ready(function () {
 // Lightbox
 	$('.magnify').click(function() {
 		$(this).next('.modal').css({'display':'block'});
+		$('body').css({ transform: "inherit" });
 	});
 	$('.close').click(function() {
 		$(this).parent('.modal').css({'display':'none'});
+		$("body").removeAttr("style").attr("transform","inherit");
 	});
 // Data and Tools landing page accordion and open collapseTwo anchor on funding-opportunities.html
 	var h = location.hash.substr(1);
