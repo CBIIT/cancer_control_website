@@ -198,7 +198,7 @@ height="0" width="0" style="display:none;visibility:hidden" title="Google Tag Ma
                          <div id="result">
                             <span id="wordCount">250</span> word(s) remaining.
                         </div>
-						<asp:RegularExpressionValidator Display="Dynamic" ControlToValidate="TXT_Bio" ID="RegularExpressionValidator7" ValidationExpression="^\w+(?:\s+\S+){0,249}$" runat="server" ErrorMessage="Maximum 250 words allowed." CssClass="alert alert-danger"></asp:RegularExpressionValidator>
+						<asp:RegularExpressionValidator Display="Dynamic" ControlToValidate="TXT_Bio" ID="RegularExpressionValidator7" ValidationExpression="^\s*(\S+\s+|\S+$){0,250}$" runat="server" ErrorMessage="Maximum 250 words allowed." CssClass="alert alert-danger"></asp:RegularExpressionValidator>
                     </div> 
                 </div>
                 <hr>
