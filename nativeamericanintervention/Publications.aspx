@@ -106,17 +106,13 @@ height="0" width="0" style="display:none;visibility:hidden" title="Google Tag Ma
 
         <div class="navbar navbar-inverse">
             <div id="header-search" class="native">
-                <form method="get" action="https://barney2.cit.nih.gov/search" name="search">
-                    <input type="hidden" name="site" value="DCCPS" />
-                    <input type="hidden" name="client" value="DCCPS_frontend" />
-                    <input type="hidden" name="proxystylesheet" value="DCCPS_frontend" />
-                    <input type="hidden" name="output" value="xml_no_dtd" />
-                    <input type="hidden" name="filter" value="0" />
-                    <input type="hidden" name="getfields" value="*" />
-                    <label for="searchbox">Search: </label>
-                    <input id="searchbox" type="text" name="q" size="15" maxlength="255" class="htextf" placeholder="Search" />
-                    <input type="image" src="../images/hbutton-new.gif" class="hbutton" name="btnG" id="btnG" alt="Search" />
-                </form>
+                <form method="get" action="https://websrch.cit.nih.gov/sps/DCCPS/results.html?" name="search">
+						<input type="hidden" name="output" value="xml_no_dtd">
+						<input type="hidden" name="getfields" value="*">
+						<label for="searchbox" class="sr-only">Search: </label>
+						<input id="searchbox" type="text" name="query" size="15" maxlength="255" class="form-control" placeholder="SEARCH">
+						<input type="image" src="/images/magnifying_glass_2x.png" class="go-button" name="btnG" id="btnG" alt="Search">
+                    </form>
             </div>
             <div class="navbar-inner">
                 <!-- Responsive Navbar Part 1: Button for triggering responsive navbar (not covered in tutorial). Include responsive CSS to utilize. -->

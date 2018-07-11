@@ -194,17 +194,13 @@ height="0" width="0" style="display:none;visibility:hidden" title="Google Tag Ma
 			<!-- Collect the nav links, forms, and other content for toggling -->
 			<nav id="navbar-responsive" class="navbar-collapse collapse" role="navigation" aria-expanded="false">
 				<div class="form-group dccps-search">
-					<form class="navbar-form" method="get" action="https://barney2.cit.nih.gov/search" name="search">
-						<input name="site" value="DCCPS" type="hidden">
-						<input name="client" value="DCCPS_frontend" type="hidden">
-						<input name="proxystylesheet" value="DCCPS_frontend" type="hidden">
-						<input name="output" value="xml_no_dtd" type="hidden">
-						<input name="filter" value="0" type="hidden">
-						<input name="getfields" value="*" type="hidden">
+					<form class="navbar-form" method="get" action="https://websrch.cit.nih.gov/sps/DCCPS/results.html?" name="search">
+						<input type="hidden" name="output" value="xml_no_dtd">
+						<input type="hidden" name="getfields" value="*">
 						<label for="searchbox" class="sr-only">Search: </label>
-						<input id="searchbox" name="q" size="15" maxlength="255" class="form-control" placeholder="SEARCH" type="text">
-						<input src="images/magnifying_glass_2x.png" class="go-button" name="btnG" id="btnG" alt="Search" type="image">
-					</form>
+						<input id="searchbox" type="text" name="query" size="15" maxlength="255" class="form-control" placeholder="SEARCH">
+						<input type="image" src="/images/magnifying_glass_2x.png" class="go-button" name="btnG" id="btnG" alt="Search">
+                    </form>
 				</div> <!-- /.form-group -->
 				<ul class="nav navbar-nav">
 					<li class="active"><a href="/index.html">Home</a></li>
@@ -767,17 +763,13 @@ Robert Croyle explains how NCI is working with partners to better understand and
 			<!-- Collect the nav links, forms, and other content for toggling -->
 			<nav id="navbar-responsive" class="navbar-collapse collapse" role="navigation" aria-expanded="false">
 				<div class="form-group dccps-search">
-					<form class="navbar-form" method="get" action="https://barney2.cit.nih.gov/search" name="search">
-						<input name="site" value="DCCPS" type="hidden">
-						<input name="client" value="DCCPS_frontend" type="hidden">
-						<input name="proxystylesheet" value="DCCPS_frontend" type="hidden">
-						<input name="output" value="xml_no_dtd" type="hidden">
-						<input name="filter" value="0" type="hidden">
-						<input name="getfields" value="*" type="hidden">
+					<form class="navbar-form" method="get" action="https://websrch.cit.nih.gov/sps/DCCPS/results.html?" name="search">
+						<input type="hidden" name="output" value="xml_no_dtd">
+						<input type="hidden" name="getfields" value="*">
 						<label for="searchbox" class="sr-only">Search: </label>
-						<input id="searchbox" name="q" size="15" maxlength="255" class="form-control" placeholder="SEARCH" type="text">
-						<input src="images/magnifying_glass_2x.png" class="go-button" name="btnG" id="btnG" alt="Search" type="image">
-					</form>
+						<input id="searchbox" type="text" name="query" size="15" maxlength="255" class="form-control" placeholder="SEARCH">
+						<input type="image" src="/images/magnifying_glass_2x.png" class="go-button" name="btnG" id="btnG" alt="Search">
+                    </form>
 				</div> <!-- /.form-group -->
 				<ul class="nav navbar-nav">
 					<li class="active"><a href="/brp/">BRP Home</a></li>
