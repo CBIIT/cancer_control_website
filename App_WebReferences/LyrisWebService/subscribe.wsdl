@@ -2,6 +2,16 @@
 <wsdl:definitions xmlns:soap="http://schemas.xmlsoap.org/wsdl/soap/" xmlns:soapenc="http://schemas.xmlsoap.org/soap/encoding/" xmlns:tm="http://microsoft.com/wsdl/mime/textMatching/" xmlns:mime="http://schemas.xmlsoap.org/wsdl/mime/" xmlns:tns="http://tempuri.org/" xmlns:http="http://schemas.xmlsoap.org/wsdl/http/" xmlns:s="http://www.w3.org/2001/XMLSchema" xmlns:soap12="http://schemas.xmlsoap.org/wsdl/soap12/" targetNamespace="http://tempuri.org/" xmlns:wsdl="http://schemas.xmlsoap.org/wsdl/">
   <wsdl:types>
     <s:schema elementFormDefault="qualified" targetNamespace="http://tempuri.org/">
+      <s:element name="RW_Confirm">
+        <s:complexType />
+      </s:element>
+      <s:element name="RW_ConfirmResponse">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="RW_ConfirmResult" type="s:string" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
       <s:element name="SubscribeToNciHintsUsers">
         <s:complexType>
           <s:sequence>
@@ -262,6 +272,12 @@
       </s:element>
     </s:schema>
   </wsdl:types>
+  <wsdl:message name="RW_ConfirmSoapIn">
+    <wsdl:part name="parameters" element="tns:RW_Confirm" />
+  </wsdl:message>
+  <wsdl:message name="RW_ConfirmSoapOut">
+    <wsdl:part name="parameters" element="tns:RW_ConfirmResponse" />
+  </wsdl:message>
   <wsdl:message name="SubscribeToNciHintsUsersSoapIn">
     <wsdl:part name="parameters" element="tns:SubscribeToNciHintsUsers" />
   </wsdl:message>
@@ -371,6 +387,10 @@
     <wsdl:part name="parameters" element="tns:UNSubscribeTo_nci_implementationscienceResponse" />
   </wsdl:message>
   <wsdl:portType name="SubscribeSoap">
+    <wsdl:operation name="RW_Confirm">
+      <wsdl:input message="tns:RW_ConfirmSoapIn" />
+      <wsdl:output message="tns:RW_ConfirmSoapOut" />
+    </wsdl:operation>
     <wsdl:operation name="SubscribeToNciHintsUsers">
       <wsdl:input message="tns:SubscribeToNciHintsUsersSoapIn" />
       <wsdl:output message="tns:SubscribeToNciHintsUsersSoapOut" />
@@ -446,6 +466,15 @@
   </wsdl:portType>
   <wsdl:binding name="SubscribeSoap" type="tns:SubscribeSoap">
     <soap:binding transport="http://schemas.xmlsoap.org/soap/http" />
+    <wsdl:operation name="RW_Confirm">
+      <soap:operation soapAction="http://tempuri.org/RW_Confirm" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
     <wsdl:operation name="SubscribeToNciHintsUsers">
       <soap:operation soapAction="http://tempuri.org/SubscribeToNciHintsUsers" style="document" />
       <wsdl:input>
@@ -611,6 +640,15 @@
   </wsdl:binding>
   <wsdl:binding name="SubscribeSoap12" type="tns:SubscribeSoap">
     <soap12:binding transport="http://schemas.xmlsoap.org/soap/http" />
+    <wsdl:operation name="RW_Confirm">
+      <soap12:operation soapAction="http://tempuri.org/RW_Confirm" style="document" />
+      <wsdl:input>
+        <soap12:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
     <wsdl:operation name="SubscribeToNciHintsUsers">
       <soap12:operation soapAction="http://tempuri.org/SubscribeToNciHintsUsers" style="document" />
       <wsdl:input>

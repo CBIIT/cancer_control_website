@@ -1,7 +1,53 @@
 <?xml version="1.0" encoding="utf-8"?>
-<wsdl:definitions xmlns:soap="http://schemas.xmlsoap.org/wsdl/soap/" xmlns:soapenc="http://schemas.xmlsoap.org/soap/encoding/" xmlns:tm="http://microsoft.com/wsdl/mime/textMatching/" xmlns:mime="http://schemas.xmlsoap.org/wsdl/mime/" xmlns:tns="http://tempuri.org/" xmlns:http="http://schemas.xmlsoap.org/wsdl/http/" xmlns:s="http://www.w3.org/2001/XMLSchema" xmlns:soap12="http://schemas.xmlsoap.org/wsdl/soap12/" targetNamespace="http://tempuri.org/" xmlns:wsdl="http://schemas.xmlsoap.org/wsdl/">
+<wsdl:definitions xmlns:soap="http://schemas.xmlsoap.org/wsdl/soap/" xmlns:soapenc="http://schemas.xmlsoap.org/soap/encoding/" xmlns:tm="http://microsoft.com/wsdl/mime/textMatching/" xmlns:mime="http://schemas.xmlsoap.org/wsdl/mime/" xmlns:tns="http://tempuri.org/" xmlns:s1="http://tempuri.org/AbstractTypes" xmlns:http="http://schemas.xmlsoap.org/wsdl/http/" xmlns:s="http://www.w3.org/2001/XMLSchema" xmlns:soap12="http://schemas.xmlsoap.org/wsdl/soap12/" targetNamespace="http://tempuri.org/" xmlns:wsdl="http://schemas.xmlsoap.org/wsdl/">
   <wsdl:types>
     <s:schema elementFormDefault="qualified" targetNamespace="http://tempuri.org/">
+      <s:element name="CAA_Registration">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="FK_Event" type="s:string" />
+            <s:element minOccurs="0" maxOccurs="1" name="FirstName" type="s:string" />
+            <s:element minOccurs="0" maxOccurs="1" name="LastName" type="s:string" />
+            <s:element minOccurs="0" maxOccurs="1" name="Degree" type="s:string" />
+            <s:element minOccurs="0" maxOccurs="1" name="Title" type="s:string" />
+            <s:element minOccurs="0" maxOccurs="1" name="Organization" type="s:string" />
+            <s:element minOccurs="0" maxOccurs="1" name="Address1" type="s:string" />
+            <s:element minOccurs="0" maxOccurs="1" name="Address2" type="s:string" />
+            <s:element minOccurs="0" maxOccurs="1" name="City" type="s:string" />
+            <s:element minOccurs="0" maxOccurs="1" name="State" type="s:string" />
+            <s:element minOccurs="0" maxOccurs="1" name="Zip" type="s:string" />
+            <s:element minOccurs="0" maxOccurs="1" name="Phone" type="s:string" />
+            <s:element minOccurs="0" maxOccurs="1" name="Email" type="s:string" />
+            <s:element minOccurs="0" maxOccurs="1" name="AA_Name" type="s:string" />
+            <s:element minOccurs="0" maxOccurs="1" name="AA_Phone" type="s:string" />
+            <s:element minOccurs="0" maxOccurs="1" name="AA_Email" type="s:string" />
+            <s:element minOccurs="0" maxOccurs="1" name="Bio" type="s:string" />
+            <s:element minOccurs="1" maxOccurs="1" name="BLN_AttendingDinner" type="s:boolean" />
+            <s:element minOccurs="1" maxOccurs="1" name="BLN_Photo_Consent" type="s:boolean" />
+            <s:element minOccurs="1" maxOccurs="1" name="BLN_Presentation_Consent" type="s:boolean" />
+            <s:element minOccurs="0" maxOccurs="1" name="bytes_Headshot_File" type="s:base64Binary" />
+            <s:element minOccurs="0" maxOccurs="1" name="Headshot_ContentType" type="s:string" />
+            <s:element minOccurs="0" maxOccurs="1" name="Headshot_Filename" type="s:string" />
+            <s:element minOccurs="0" maxOccurs="1" name="BoxLunchDay1" type="s:string" />
+            <s:element minOccurs="0" maxOccurs="1" name="BeverageDay1" type="s:string" />
+            <s:element minOccurs="0" maxOccurs="1" name="SandwichDay1" type="s:string" />
+            <s:element minOccurs="0" maxOccurs="1" name="CheeseDay1" type="s:string" />
+            <s:element minOccurs="0" maxOccurs="1" name="SnackDay1" type="s:string" />
+            <s:element minOccurs="0" maxOccurs="1" name="BoxLunchDay2" type="s:string" />
+            <s:element minOccurs="0" maxOccurs="1" name="BeverageDay2" type="s:string" />
+            <s:element minOccurs="0" maxOccurs="1" name="SandwichDay2" type="s:string" />
+            <s:element minOccurs="0" maxOccurs="1" name="CheeseDay2" type="s:string" />
+            <s:element minOccurs="0" maxOccurs="1" name="SnackDay2" type="s:string" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="CAA_RegistrationResponse">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="CAA_RegistrationResult" type="s:string" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
       <s:element name="Insert_Application">
         <s:complexType>
           <s:sequence>
@@ -46,24 +92,1062 @@
           </s:sequence>
         </s:complexType>
       </s:element>
+      <s:element name="ImplementationScience_List_IS_Categories">
+        <s:complexType />
+      </s:element>
+      <s:element name="ImplementationScience_List_IS_CategoriesResponse">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="ImplementationScience_List_IS_CategoriesResult">
+              <s:complexType>
+                <s:sequence>
+                  <s:element ref="s:schema" />
+                  <s:any />
+                </s:sequence>
+              </s:complexType>
+            </s:element>
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="ImplementationScience_List_IS_Years">
+        <s:complexType />
+      </s:element>
+      <s:element name="ImplementationScience_List_IS_YearsResponse">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="ImplementationScience_List_IS_YearsResult">
+              <s:complexType>
+                <s:sequence>
+                  <s:element ref="s:schema" />
+                  <s:any />
+                </s:sequence>
+              </s:complexType>
+            </s:element>
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="ImplementationScience_List_IS_Presenters">
+        <s:complexType />
+      </s:element>
+      <s:element name="ImplementationScience_List_IS_PresentersResponse">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="ImplementationScience_List_IS_PresentersResult">
+              <s:complexType>
+                <s:sequence>
+                  <s:element ref="s:schema" />
+                  <s:any />
+                </s:sequence>
+              </s:complexType>
+            </s:element>
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="ImplementationScience_List_IS_Series">
+        <s:complexType />
+      </s:element>
+      <s:element name="ImplementationScience_List_IS_SeriesResponse">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="ImplementationScience_List_IS_SeriesResult">
+              <s:complexType>
+                <s:sequence>
+                  <s:element ref="s:schema" />
+                  <s:any />
+                </s:sequence>
+              </s:complexType>
+            </s:element>
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="ImplementationScience_list_scienceresearchwebinars_Current">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="FK_PresenterListings" type="s:string" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="ImplementationScience_list_scienceresearchwebinars_CurrentResponse">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="ImplementationScience_list_scienceresearchwebinars_CurrentResult">
+              <s:complexType>
+                <s:sequence>
+                  <s:element ref="s:schema" />
+                  <s:any />
+                </s:sequence>
+              </s:complexType>
+            </s:element>
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="ImplementationScience_list_scienceresearchwebinars_future">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="FK_PresenterListings" type="s:string" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="ImplementationScience_list_scienceresearchwebinars_futureResponse">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="ImplementationScience_list_scienceresearchwebinars_futureResult">
+              <s:complexType>
+                <s:sequence>
+                  <s:element ref="s:schema" />
+                  <s:any />
+                </s:sequence>
+              </s:complexType>
+            </s:element>
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="ImplementationScience_list_scienceresearchwebinars_Archive">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="FK_PresenterListings" type="s:string" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="ImplementationScience_list_scienceresearchwebinars_ArchiveResponse">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="ImplementationScience_list_scienceresearchwebinars_ArchiveResult">
+              <s:complexType>
+                <s:sequence>
+                  <s:element ref="s:schema" />
+                  <s:any />
+                </s:sequence>
+              </s:complexType>
+            </s:element>
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="ImplementationScience_list_Presenters_ForEvent">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="FK_Webinar" type="s:string" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="ImplementationScience_list_Presenters_ForEventResponse">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="ImplementationScience_list_Presenters_ForEventResult">
+              <s:complexType>
+                <s:sequence>
+                  <s:element ref="s:schema" />
+                  <s:any />
+                </s:sequence>
+              </s:complexType>
+            </s:element>
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="ImplementationScience_GetEvent">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="PK_Webinar" type="s:string" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="ImplementationScience_GetEventResponse">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="ImplementationScience_GetEventResult">
+              <s:complexType>
+                <s:sequence>
+                  <s:element ref="s:schema" />
+                  <s:any />
+                </s:sequence>
+              </s:complexType>
+            </s:element>
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="ImplementationScience_Register">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="PK_Webinar" type="s:string" />
+            <s:element minOccurs="0" maxOccurs="1" name="FirstName" type="s:string" />
+            <s:element minOccurs="0" maxOccurs="1" name="LastName" type="s:string" />
+            <s:element minOccurs="0" maxOccurs="1" name="EmailAddy" type="s:string" />
+            <s:element minOccurs="0" maxOccurs="1" name="Organization" type="s:string" />
+            <s:element minOccurs="0" maxOccurs="1" name="howdidyouhear" type="s:string" />
+            <s:element minOccurs="0" maxOccurs="1" name="Numberparticipants" type="s:string" />
+            <s:element minOccurs="1" maxOccurs="1" name="WantsToSubscribe" type="s:boolean" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="ImplementationScience_RegisterResponse">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="ImplementationScience_RegisterResult" type="s:string" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="JSON_ImplementationScience_List_IS_Categories">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="str_CallBack" type="s:string" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="JSON_ImplementationScience_List_IS_CategoriesResponse">
+        <s:complexType />
+      </s:element>
+      <s:element name="JSON_ImplementationScience_list_ALL_Archive_webinars">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="str_CallBack" type="s:string" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="JSON_ImplementationScience_list_ALL_Archive_webinarsResponse">
+        <s:complexType />
+      </s:element>
+      <s:element name="JSON_ImplementationScience_list_FUTURE_webinars">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="str_CallBack" type="s:string" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="JSON_ImplementationScience_list_FUTURE_webinarsResponse">
+        <s:complexType />
+      </s:element>
+      <s:element name="JSON_ImplementationScience_list_CURRENT_webinars">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="str_CallBack" type="s:string" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="JSON_ImplementationScience_list_CURRENT_webinarsResponse">
+        <s:complexType />
+      </s:element>
+      <s:element name="IS_GetThumbnail">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="PK_Webinar" type="s:string" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="IS_GetThumbnailResponse">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="IS_GetThumbnailResult">
+              <s:complexType>
+                <s:sequence>
+                  <s:any minOccurs="0" maxOccurs="unbounded" namespace="http://www.w3.org/2001/XMLSchema" processContents="lax" />
+                  <s:any minOccurs="1" namespace="urn:schemas-microsoft-com:xml-diffgram-v1" processContents="lax" />
+                </s:sequence>
+              </s:complexType>
+            </s:element>
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="string" nillable="true" type="s:string" />
+      <s:element name="DataSet" nillable="true">
+        <s:complexType>
+          <s:sequence>
+            <s:element ref="s:schema" />
+            <s:any />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="DataTable" nillable="true">
+        <s:complexType>
+          <s:sequence>
+            <s:any minOccurs="0" maxOccurs="unbounded" namespace="http://www.w3.org/2001/XMLSchema" processContents="lax" />
+            <s:any minOccurs="1" namespace="urn:schemas-microsoft-com:xml-diffgram-v1" processContents="lax" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+    </s:schema>
+    <s:schema targetNamespace="http://tempuri.org/AbstractTypes">
+      <s:import namespace="http://schemas.xmlsoap.org/soap/encoding/" />
+      <s:complexType name="StringArray">
+        <s:complexContent mixed="false">
+          <s:restriction base="soapenc:Array">
+            <s:sequence>
+              <s:element minOccurs="0" maxOccurs="unbounded" name="String" type="s:string" />
+            </s:sequence>
+          </s:restriction>
+        </s:complexContent>
+      </s:complexType>
     </s:schema>
   </wsdl:types>
+  <wsdl:message name="CAA_RegistrationSoapIn">
+    <wsdl:part name="parameters" element="tns:CAA_Registration" />
+  </wsdl:message>
+  <wsdl:message name="CAA_RegistrationSoapOut">
+    <wsdl:part name="parameters" element="tns:CAA_RegistrationResponse" />
+  </wsdl:message>
   <wsdl:message name="Insert_ApplicationSoapIn">
     <wsdl:part name="parameters" element="tns:Insert_Application" />
   </wsdl:message>
   <wsdl:message name="Insert_ApplicationSoapOut">
     <wsdl:part name="parameters" element="tns:Insert_ApplicationResponse" />
   </wsdl:message>
+  <wsdl:message name="ImplementationScience_List_IS_CategoriesSoapIn">
+    <wsdl:part name="parameters" element="tns:ImplementationScience_List_IS_Categories" />
+  </wsdl:message>
+  <wsdl:message name="ImplementationScience_List_IS_CategoriesSoapOut">
+    <wsdl:part name="parameters" element="tns:ImplementationScience_List_IS_CategoriesResponse" />
+  </wsdl:message>
+  <wsdl:message name="ImplementationScience_List_IS_YearsSoapIn">
+    <wsdl:part name="parameters" element="tns:ImplementationScience_List_IS_Years" />
+  </wsdl:message>
+  <wsdl:message name="ImplementationScience_List_IS_YearsSoapOut">
+    <wsdl:part name="parameters" element="tns:ImplementationScience_List_IS_YearsResponse" />
+  </wsdl:message>
+  <wsdl:message name="ImplementationScience_List_IS_PresentersSoapIn">
+    <wsdl:part name="parameters" element="tns:ImplementationScience_List_IS_Presenters" />
+  </wsdl:message>
+  <wsdl:message name="ImplementationScience_List_IS_PresentersSoapOut">
+    <wsdl:part name="parameters" element="tns:ImplementationScience_List_IS_PresentersResponse" />
+  </wsdl:message>
+  <wsdl:message name="ImplementationScience_List_IS_SeriesSoapIn">
+    <wsdl:part name="parameters" element="tns:ImplementationScience_List_IS_Series" />
+  </wsdl:message>
+  <wsdl:message name="ImplementationScience_List_IS_SeriesSoapOut">
+    <wsdl:part name="parameters" element="tns:ImplementationScience_List_IS_SeriesResponse" />
+  </wsdl:message>
+  <wsdl:message name="ImplementationScience_list_scienceresearchwebinars_CurrentSoapIn">
+    <wsdl:part name="parameters" element="tns:ImplementationScience_list_scienceresearchwebinars_Current" />
+  </wsdl:message>
+  <wsdl:message name="ImplementationScience_list_scienceresearchwebinars_CurrentSoapOut">
+    <wsdl:part name="parameters" element="tns:ImplementationScience_list_scienceresearchwebinars_CurrentResponse" />
+  </wsdl:message>
+  <wsdl:message name="ImplementationScience_list_scienceresearchwebinars_futureSoapIn">
+    <wsdl:part name="parameters" element="tns:ImplementationScience_list_scienceresearchwebinars_future" />
+  </wsdl:message>
+  <wsdl:message name="ImplementationScience_list_scienceresearchwebinars_futureSoapOut">
+    <wsdl:part name="parameters" element="tns:ImplementationScience_list_scienceresearchwebinars_futureResponse" />
+  </wsdl:message>
+  <wsdl:message name="ImplementationScience_list_scienceresearchwebinars_ArchiveSoapIn">
+    <wsdl:part name="parameters" element="tns:ImplementationScience_list_scienceresearchwebinars_Archive" />
+  </wsdl:message>
+  <wsdl:message name="ImplementationScience_list_scienceresearchwebinars_ArchiveSoapOut">
+    <wsdl:part name="parameters" element="tns:ImplementationScience_list_scienceresearchwebinars_ArchiveResponse" />
+  </wsdl:message>
+  <wsdl:message name="ImplementationScience_list_Presenters_ForEventSoapIn">
+    <wsdl:part name="parameters" element="tns:ImplementationScience_list_Presenters_ForEvent" />
+  </wsdl:message>
+  <wsdl:message name="ImplementationScience_list_Presenters_ForEventSoapOut">
+    <wsdl:part name="parameters" element="tns:ImplementationScience_list_Presenters_ForEventResponse" />
+  </wsdl:message>
+  <wsdl:message name="ImplementationScience_GetEventSoapIn">
+    <wsdl:part name="parameters" element="tns:ImplementationScience_GetEvent" />
+  </wsdl:message>
+  <wsdl:message name="ImplementationScience_GetEventSoapOut">
+    <wsdl:part name="parameters" element="tns:ImplementationScience_GetEventResponse" />
+  </wsdl:message>
+  <wsdl:message name="ImplementationScience_RegisterSoapIn">
+    <wsdl:part name="parameters" element="tns:ImplementationScience_Register" />
+  </wsdl:message>
+  <wsdl:message name="ImplementationScience_RegisterSoapOut">
+    <wsdl:part name="parameters" element="tns:ImplementationScience_RegisterResponse" />
+  </wsdl:message>
+  <wsdl:message name="JSON_ImplementationScience_List_IS_CategoriesSoapIn">
+    <wsdl:part name="parameters" element="tns:JSON_ImplementationScience_List_IS_Categories" />
+  </wsdl:message>
+  <wsdl:message name="JSON_ImplementationScience_List_IS_CategoriesSoapOut">
+    <wsdl:part name="parameters" element="tns:JSON_ImplementationScience_List_IS_CategoriesResponse" />
+  </wsdl:message>
+  <wsdl:message name="JSON_ImplementationScience_list_ALL_Archive_webinarsSoapIn">
+    <wsdl:part name="parameters" element="tns:JSON_ImplementationScience_list_ALL_Archive_webinars" />
+  </wsdl:message>
+  <wsdl:message name="JSON_ImplementationScience_list_ALL_Archive_webinarsSoapOut">
+    <wsdl:part name="parameters" element="tns:JSON_ImplementationScience_list_ALL_Archive_webinarsResponse" />
+  </wsdl:message>
+  <wsdl:message name="JSON_ImplementationScience_list_FUTURE_webinarsSoapIn">
+    <wsdl:part name="parameters" element="tns:JSON_ImplementationScience_list_FUTURE_webinars" />
+  </wsdl:message>
+  <wsdl:message name="JSON_ImplementationScience_list_FUTURE_webinarsSoapOut">
+    <wsdl:part name="parameters" element="tns:JSON_ImplementationScience_list_FUTURE_webinarsResponse" />
+  </wsdl:message>
+  <wsdl:message name="JSON_ImplementationScience_list_CURRENT_webinarsSoapIn">
+    <wsdl:part name="parameters" element="tns:JSON_ImplementationScience_list_CURRENT_webinars" />
+  </wsdl:message>
+  <wsdl:message name="JSON_ImplementationScience_list_CURRENT_webinarsSoapOut">
+    <wsdl:part name="parameters" element="tns:JSON_ImplementationScience_list_CURRENT_webinarsResponse" />
+  </wsdl:message>
+  <wsdl:message name="IS_GetThumbnailSoapIn">
+    <wsdl:part name="parameters" element="tns:IS_GetThumbnail" />
+  </wsdl:message>
+  <wsdl:message name="IS_GetThumbnailSoapOut">
+    <wsdl:part name="parameters" element="tns:IS_GetThumbnailResponse" />
+  </wsdl:message>
+  <wsdl:message name="CAA_RegistrationHttpGetIn">
+    <wsdl:part name="FK_Event" type="s:string" />
+    <wsdl:part name="FirstName" type="s:string" />
+    <wsdl:part name="LastName" type="s:string" />
+    <wsdl:part name="Degree" type="s:string" />
+    <wsdl:part name="Title" type="s:string" />
+    <wsdl:part name="Organization" type="s:string" />
+    <wsdl:part name="Address1" type="s:string" />
+    <wsdl:part name="Address2" type="s:string" />
+    <wsdl:part name="City" type="s:string" />
+    <wsdl:part name="State" type="s:string" />
+    <wsdl:part name="Zip" type="s:string" />
+    <wsdl:part name="Phone" type="s:string" />
+    <wsdl:part name="Email" type="s:string" />
+    <wsdl:part name="AA_Name" type="s:string" />
+    <wsdl:part name="AA_Phone" type="s:string" />
+    <wsdl:part name="AA_Email" type="s:string" />
+    <wsdl:part name="Bio" type="s:string" />
+    <wsdl:part name="BLN_AttendingDinner" type="s:string" />
+    <wsdl:part name="BLN_Photo_Consent" type="s:string" />
+    <wsdl:part name="BLN_Presentation_Consent" type="s:string" />
+    <wsdl:part name="bytes_Headshot_File" type="s1:StringArray" />
+    <wsdl:part name="Headshot_ContentType" type="s:string" />
+    <wsdl:part name="Headshot_Filename" type="s:string" />
+    <wsdl:part name="BoxLunchDay1" type="s:string" />
+    <wsdl:part name="BeverageDay1" type="s:string" />
+    <wsdl:part name="SandwichDay1" type="s:string" />
+    <wsdl:part name="CheeseDay1" type="s:string" />
+    <wsdl:part name="SnackDay1" type="s:string" />
+    <wsdl:part name="BoxLunchDay2" type="s:string" />
+    <wsdl:part name="BeverageDay2" type="s:string" />
+    <wsdl:part name="SandwichDay2" type="s:string" />
+    <wsdl:part name="CheeseDay2" type="s:string" />
+    <wsdl:part name="SnackDay2" type="s:string" />
+  </wsdl:message>
+  <wsdl:message name="CAA_RegistrationHttpGetOut">
+    <wsdl:part name="Body" element="tns:string" />
+  </wsdl:message>
+  <wsdl:message name="Insert_ApplicationHttpGetIn">
+    <wsdl:part name="FirstName" type="s:string" />
+    <wsdl:part name="LastName" type="s:string" />
+    <wsdl:part name="Title" type="s:string" />
+    <wsdl:part name="Organization" type="s:string" />
+    <wsdl:part name="Address1" type="s:string" />
+    <wsdl:part name="Address2" type="s:string" />
+    <wsdl:part name="City" type="s:string" />
+    <wsdl:part name="State" type="s:string" />
+    <wsdl:part name="Zip" type="s:string" />
+    <wsdl:part name="Phone" type="s:string" />
+    <wsdl:part name="Email" type="s:string" />
+    <wsdl:part name="Race" type="s:string" />
+    <wsdl:part name="Race_Other" type="s:string" />
+    <wsdl:part name="AreYouHispanic" type="s:string" />
+    <wsdl:part name="Gender" type="s:string" />
+    <wsdl:part name="InvestigatorLevel" type="s:string" />
+    <wsdl:part name="FieldOfExpertise" type="s:string" />
+    <wsdl:part name="VAAffiliation" type="s:string" />
+    <wsdl:part name="VADetails" type="s:string" />
+    <wsdl:part name="bytes_PersonalStatement_File" type="s1:StringArray" />
+    <wsdl:part name="PersonalStatement_ContentType" type="s:string" />
+    <wsdl:part name="PersonalStatement_Filename" type="s:string" />
+    <wsdl:part name="bytes_LettersOfRec_File" type="s1:StringArray" />
+    <wsdl:part name="LettersOfRec_ContentType" type="s:string" />
+    <wsdl:part name="LettersOfRec_Filename" type="s:string" />
+    <wsdl:part name="bytes_Curriculum_File" type="s1:StringArray" />
+    <wsdl:part name="Curriculum_ContentType" type="s:string" />
+    <wsdl:part name="Curriculum_Filename" type="s:string" />
+    <wsdl:part name="bytes_ConceptPaper_File" type="s1:StringArray" />
+    <wsdl:part name="ConceptPaper_ContentType" type="s:string" />
+    <wsdl:part name="ConceptPaper_Filename" type="s:string" />
+  </wsdl:message>
+  <wsdl:message name="Insert_ApplicationHttpGetOut">
+    <wsdl:part name="Body" element="tns:string" />
+  </wsdl:message>
+  <wsdl:message name="ImplementationScience_List_IS_CategoriesHttpGetIn" />
+  <wsdl:message name="ImplementationScience_List_IS_CategoriesHttpGetOut">
+    <wsdl:part name="Body" element="tns:DataSet" />
+  </wsdl:message>
+  <wsdl:message name="ImplementationScience_List_IS_YearsHttpGetIn" />
+  <wsdl:message name="ImplementationScience_List_IS_YearsHttpGetOut">
+    <wsdl:part name="Body" element="tns:DataSet" />
+  </wsdl:message>
+  <wsdl:message name="ImplementationScience_List_IS_PresentersHttpGetIn" />
+  <wsdl:message name="ImplementationScience_List_IS_PresentersHttpGetOut">
+    <wsdl:part name="Body" element="tns:DataSet" />
+  </wsdl:message>
+  <wsdl:message name="ImplementationScience_List_IS_SeriesHttpGetIn" />
+  <wsdl:message name="ImplementationScience_List_IS_SeriesHttpGetOut">
+    <wsdl:part name="Body" element="tns:DataSet" />
+  </wsdl:message>
+  <wsdl:message name="ImplementationScience_list_scienceresearchwebinars_CurrentHttpGetIn">
+    <wsdl:part name="FK_PresenterListings" type="s:string" />
+  </wsdl:message>
+  <wsdl:message name="ImplementationScience_list_scienceresearchwebinars_CurrentHttpGetOut">
+    <wsdl:part name="Body" element="tns:DataSet" />
+  </wsdl:message>
+  <wsdl:message name="ImplementationScience_list_scienceresearchwebinars_futureHttpGetIn">
+    <wsdl:part name="FK_PresenterListings" type="s:string" />
+  </wsdl:message>
+  <wsdl:message name="ImplementationScience_list_scienceresearchwebinars_futureHttpGetOut">
+    <wsdl:part name="Body" element="tns:DataSet" />
+  </wsdl:message>
+  <wsdl:message name="ImplementationScience_list_scienceresearchwebinars_ArchiveHttpGetIn">
+    <wsdl:part name="FK_PresenterListings" type="s:string" />
+  </wsdl:message>
+  <wsdl:message name="ImplementationScience_list_scienceresearchwebinars_ArchiveHttpGetOut">
+    <wsdl:part name="Body" element="tns:DataSet" />
+  </wsdl:message>
+  <wsdl:message name="ImplementationScience_list_Presenters_ForEventHttpGetIn">
+    <wsdl:part name="FK_Webinar" type="s:string" />
+  </wsdl:message>
+  <wsdl:message name="ImplementationScience_list_Presenters_ForEventHttpGetOut">
+    <wsdl:part name="Body" element="tns:DataSet" />
+  </wsdl:message>
+  <wsdl:message name="ImplementationScience_GetEventHttpGetIn">
+    <wsdl:part name="PK_Webinar" type="s:string" />
+  </wsdl:message>
+  <wsdl:message name="ImplementationScience_GetEventHttpGetOut">
+    <wsdl:part name="Body" element="tns:DataSet" />
+  </wsdl:message>
+  <wsdl:message name="ImplementationScience_RegisterHttpGetIn">
+    <wsdl:part name="PK_Webinar" type="s:string" />
+    <wsdl:part name="FirstName" type="s:string" />
+    <wsdl:part name="LastName" type="s:string" />
+    <wsdl:part name="EmailAddy" type="s:string" />
+    <wsdl:part name="Organization" type="s:string" />
+    <wsdl:part name="howdidyouhear" type="s:string" />
+    <wsdl:part name="Numberparticipants" type="s:string" />
+    <wsdl:part name="WantsToSubscribe" type="s:string" />
+  </wsdl:message>
+  <wsdl:message name="ImplementationScience_RegisterHttpGetOut">
+    <wsdl:part name="Body" element="tns:string" />
+  </wsdl:message>
+  <wsdl:message name="JSON_ImplementationScience_List_IS_CategoriesHttpGetIn">
+    <wsdl:part name="str_CallBack" type="s:string" />
+  </wsdl:message>
+  <wsdl:message name="JSON_ImplementationScience_List_IS_CategoriesHttpGetOut" />
+  <wsdl:message name="JSON_ImplementationScience_list_ALL_Archive_webinarsHttpGetIn">
+    <wsdl:part name="str_CallBack" type="s:string" />
+  </wsdl:message>
+  <wsdl:message name="JSON_ImplementationScience_list_ALL_Archive_webinarsHttpGetOut" />
+  <wsdl:message name="JSON_ImplementationScience_list_FUTURE_webinarsHttpGetIn">
+    <wsdl:part name="str_CallBack" type="s:string" />
+  </wsdl:message>
+  <wsdl:message name="JSON_ImplementationScience_list_FUTURE_webinarsHttpGetOut" />
+  <wsdl:message name="JSON_ImplementationScience_list_CURRENT_webinarsHttpGetIn">
+    <wsdl:part name="str_CallBack" type="s:string" />
+  </wsdl:message>
+  <wsdl:message name="JSON_ImplementationScience_list_CURRENT_webinarsHttpGetOut" />
+  <wsdl:message name="IS_GetThumbnailHttpGetIn">
+    <wsdl:part name="PK_Webinar" type="s:string" />
+  </wsdl:message>
+  <wsdl:message name="IS_GetThumbnailHttpGetOut">
+    <wsdl:part name="Body" element="tns:DataTable" />
+  </wsdl:message>
+  <wsdl:message name="CAA_RegistrationHttpPostIn">
+    <wsdl:part name="FK_Event" type="s:string" />
+    <wsdl:part name="FirstName" type="s:string" />
+    <wsdl:part name="LastName" type="s:string" />
+    <wsdl:part name="Degree" type="s:string" />
+    <wsdl:part name="Title" type="s:string" />
+    <wsdl:part name="Organization" type="s:string" />
+    <wsdl:part name="Address1" type="s:string" />
+    <wsdl:part name="Address2" type="s:string" />
+    <wsdl:part name="City" type="s:string" />
+    <wsdl:part name="State" type="s:string" />
+    <wsdl:part name="Zip" type="s:string" />
+    <wsdl:part name="Phone" type="s:string" />
+    <wsdl:part name="Email" type="s:string" />
+    <wsdl:part name="AA_Name" type="s:string" />
+    <wsdl:part name="AA_Phone" type="s:string" />
+    <wsdl:part name="AA_Email" type="s:string" />
+    <wsdl:part name="Bio" type="s:string" />
+    <wsdl:part name="BLN_AttendingDinner" type="s:string" />
+    <wsdl:part name="BLN_Photo_Consent" type="s:string" />
+    <wsdl:part name="BLN_Presentation_Consent" type="s:string" />
+    <wsdl:part name="bytes_Headshot_File" type="s1:StringArray" />
+    <wsdl:part name="Headshot_ContentType" type="s:string" />
+    <wsdl:part name="Headshot_Filename" type="s:string" />
+    <wsdl:part name="BoxLunchDay1" type="s:string" />
+    <wsdl:part name="BeverageDay1" type="s:string" />
+    <wsdl:part name="SandwichDay1" type="s:string" />
+    <wsdl:part name="CheeseDay1" type="s:string" />
+    <wsdl:part name="SnackDay1" type="s:string" />
+    <wsdl:part name="BoxLunchDay2" type="s:string" />
+    <wsdl:part name="BeverageDay2" type="s:string" />
+    <wsdl:part name="SandwichDay2" type="s:string" />
+    <wsdl:part name="CheeseDay2" type="s:string" />
+    <wsdl:part name="SnackDay2" type="s:string" />
+  </wsdl:message>
+  <wsdl:message name="CAA_RegistrationHttpPostOut">
+    <wsdl:part name="Body" element="tns:string" />
+  </wsdl:message>
+  <wsdl:message name="Insert_ApplicationHttpPostIn">
+    <wsdl:part name="FirstName" type="s:string" />
+    <wsdl:part name="LastName" type="s:string" />
+    <wsdl:part name="Title" type="s:string" />
+    <wsdl:part name="Organization" type="s:string" />
+    <wsdl:part name="Address1" type="s:string" />
+    <wsdl:part name="Address2" type="s:string" />
+    <wsdl:part name="City" type="s:string" />
+    <wsdl:part name="State" type="s:string" />
+    <wsdl:part name="Zip" type="s:string" />
+    <wsdl:part name="Phone" type="s:string" />
+    <wsdl:part name="Email" type="s:string" />
+    <wsdl:part name="Race" type="s:string" />
+    <wsdl:part name="Race_Other" type="s:string" />
+    <wsdl:part name="AreYouHispanic" type="s:string" />
+    <wsdl:part name="Gender" type="s:string" />
+    <wsdl:part name="InvestigatorLevel" type="s:string" />
+    <wsdl:part name="FieldOfExpertise" type="s:string" />
+    <wsdl:part name="VAAffiliation" type="s:string" />
+    <wsdl:part name="VADetails" type="s:string" />
+    <wsdl:part name="bytes_PersonalStatement_File" type="s1:StringArray" />
+    <wsdl:part name="PersonalStatement_ContentType" type="s:string" />
+    <wsdl:part name="PersonalStatement_Filename" type="s:string" />
+    <wsdl:part name="bytes_LettersOfRec_File" type="s1:StringArray" />
+    <wsdl:part name="LettersOfRec_ContentType" type="s:string" />
+    <wsdl:part name="LettersOfRec_Filename" type="s:string" />
+    <wsdl:part name="bytes_Curriculum_File" type="s1:StringArray" />
+    <wsdl:part name="Curriculum_ContentType" type="s:string" />
+    <wsdl:part name="Curriculum_Filename" type="s:string" />
+    <wsdl:part name="bytes_ConceptPaper_File" type="s1:StringArray" />
+    <wsdl:part name="ConceptPaper_ContentType" type="s:string" />
+    <wsdl:part name="ConceptPaper_Filename" type="s:string" />
+  </wsdl:message>
+  <wsdl:message name="Insert_ApplicationHttpPostOut">
+    <wsdl:part name="Body" element="tns:string" />
+  </wsdl:message>
+  <wsdl:message name="ImplementationScience_List_IS_CategoriesHttpPostIn" />
+  <wsdl:message name="ImplementationScience_List_IS_CategoriesHttpPostOut">
+    <wsdl:part name="Body" element="tns:DataSet" />
+  </wsdl:message>
+  <wsdl:message name="ImplementationScience_List_IS_YearsHttpPostIn" />
+  <wsdl:message name="ImplementationScience_List_IS_YearsHttpPostOut">
+    <wsdl:part name="Body" element="tns:DataSet" />
+  </wsdl:message>
+  <wsdl:message name="ImplementationScience_List_IS_PresentersHttpPostIn" />
+  <wsdl:message name="ImplementationScience_List_IS_PresentersHttpPostOut">
+    <wsdl:part name="Body" element="tns:DataSet" />
+  </wsdl:message>
+  <wsdl:message name="ImplementationScience_List_IS_SeriesHttpPostIn" />
+  <wsdl:message name="ImplementationScience_List_IS_SeriesHttpPostOut">
+    <wsdl:part name="Body" element="tns:DataSet" />
+  </wsdl:message>
+  <wsdl:message name="ImplementationScience_list_scienceresearchwebinars_CurrentHttpPostIn">
+    <wsdl:part name="FK_PresenterListings" type="s:string" />
+  </wsdl:message>
+  <wsdl:message name="ImplementationScience_list_scienceresearchwebinars_CurrentHttpPostOut">
+    <wsdl:part name="Body" element="tns:DataSet" />
+  </wsdl:message>
+  <wsdl:message name="ImplementationScience_list_scienceresearchwebinars_futureHttpPostIn">
+    <wsdl:part name="FK_PresenterListings" type="s:string" />
+  </wsdl:message>
+  <wsdl:message name="ImplementationScience_list_scienceresearchwebinars_futureHttpPostOut">
+    <wsdl:part name="Body" element="tns:DataSet" />
+  </wsdl:message>
+  <wsdl:message name="ImplementationScience_list_scienceresearchwebinars_ArchiveHttpPostIn">
+    <wsdl:part name="FK_PresenterListings" type="s:string" />
+  </wsdl:message>
+  <wsdl:message name="ImplementationScience_list_scienceresearchwebinars_ArchiveHttpPostOut">
+    <wsdl:part name="Body" element="tns:DataSet" />
+  </wsdl:message>
+  <wsdl:message name="ImplementationScience_list_Presenters_ForEventHttpPostIn">
+    <wsdl:part name="FK_Webinar" type="s:string" />
+  </wsdl:message>
+  <wsdl:message name="ImplementationScience_list_Presenters_ForEventHttpPostOut">
+    <wsdl:part name="Body" element="tns:DataSet" />
+  </wsdl:message>
+  <wsdl:message name="ImplementationScience_GetEventHttpPostIn">
+    <wsdl:part name="PK_Webinar" type="s:string" />
+  </wsdl:message>
+  <wsdl:message name="ImplementationScience_GetEventHttpPostOut">
+    <wsdl:part name="Body" element="tns:DataSet" />
+  </wsdl:message>
+  <wsdl:message name="ImplementationScience_RegisterHttpPostIn">
+    <wsdl:part name="PK_Webinar" type="s:string" />
+    <wsdl:part name="FirstName" type="s:string" />
+    <wsdl:part name="LastName" type="s:string" />
+    <wsdl:part name="EmailAddy" type="s:string" />
+    <wsdl:part name="Organization" type="s:string" />
+    <wsdl:part name="howdidyouhear" type="s:string" />
+    <wsdl:part name="Numberparticipants" type="s:string" />
+    <wsdl:part name="WantsToSubscribe" type="s:string" />
+  </wsdl:message>
+  <wsdl:message name="ImplementationScience_RegisterHttpPostOut">
+    <wsdl:part name="Body" element="tns:string" />
+  </wsdl:message>
+  <wsdl:message name="JSON_ImplementationScience_List_IS_CategoriesHttpPostIn">
+    <wsdl:part name="str_CallBack" type="s:string" />
+  </wsdl:message>
+  <wsdl:message name="JSON_ImplementationScience_List_IS_CategoriesHttpPostOut" />
+  <wsdl:message name="JSON_ImplementationScience_list_ALL_Archive_webinarsHttpPostIn">
+    <wsdl:part name="str_CallBack" type="s:string" />
+  </wsdl:message>
+  <wsdl:message name="JSON_ImplementationScience_list_ALL_Archive_webinarsHttpPostOut" />
+  <wsdl:message name="JSON_ImplementationScience_list_FUTURE_webinarsHttpPostIn">
+    <wsdl:part name="str_CallBack" type="s:string" />
+  </wsdl:message>
+  <wsdl:message name="JSON_ImplementationScience_list_FUTURE_webinarsHttpPostOut" />
+  <wsdl:message name="JSON_ImplementationScience_list_CURRENT_webinarsHttpPostIn">
+    <wsdl:part name="str_CallBack" type="s:string" />
+  </wsdl:message>
+  <wsdl:message name="JSON_ImplementationScience_list_CURRENT_webinarsHttpPostOut" />
+  <wsdl:message name="IS_GetThumbnailHttpPostIn">
+    <wsdl:part name="PK_Webinar" type="s:string" />
+  </wsdl:message>
+  <wsdl:message name="IS_GetThumbnailHttpPostOut">
+    <wsdl:part name="Body" element="tns:DataTable" />
+  </wsdl:message>
   <wsdl:portType name="IS_ApplicationsSoap">
+    <wsdl:operation name="CAA_Registration">
+      <wsdl:input message="tns:CAA_RegistrationSoapIn" />
+      <wsdl:output message="tns:CAA_RegistrationSoapOut" />
+    </wsdl:operation>
     <wsdl:operation name="Insert_Application">
       <wsdl:input message="tns:Insert_ApplicationSoapIn" />
       <wsdl:output message="tns:Insert_ApplicationSoapOut" />
     </wsdl:operation>
+    <wsdl:operation name="ImplementationScience_List_IS_Categories">
+      <wsdl:input message="tns:ImplementationScience_List_IS_CategoriesSoapIn" />
+      <wsdl:output message="tns:ImplementationScience_List_IS_CategoriesSoapOut" />
+    </wsdl:operation>
+    <wsdl:operation name="ImplementationScience_List_IS_Years">
+      <wsdl:input message="tns:ImplementationScience_List_IS_YearsSoapIn" />
+      <wsdl:output message="tns:ImplementationScience_List_IS_YearsSoapOut" />
+    </wsdl:operation>
+    <wsdl:operation name="ImplementationScience_List_IS_Presenters">
+      <wsdl:input message="tns:ImplementationScience_List_IS_PresentersSoapIn" />
+      <wsdl:output message="tns:ImplementationScience_List_IS_PresentersSoapOut" />
+    </wsdl:operation>
+    <wsdl:operation name="ImplementationScience_List_IS_Series">
+      <wsdl:input message="tns:ImplementationScience_List_IS_SeriesSoapIn" />
+      <wsdl:output message="tns:ImplementationScience_List_IS_SeriesSoapOut" />
+    </wsdl:operation>
+    <wsdl:operation name="ImplementationScience_list_scienceresearchwebinars_Current">
+      <wsdl:input message="tns:ImplementationScience_list_scienceresearchwebinars_CurrentSoapIn" />
+      <wsdl:output message="tns:ImplementationScience_list_scienceresearchwebinars_CurrentSoapOut" />
+    </wsdl:operation>
+    <wsdl:operation name="ImplementationScience_list_scienceresearchwebinars_future">
+      <wsdl:input message="tns:ImplementationScience_list_scienceresearchwebinars_futureSoapIn" />
+      <wsdl:output message="tns:ImplementationScience_list_scienceresearchwebinars_futureSoapOut" />
+    </wsdl:operation>
+    <wsdl:operation name="ImplementationScience_list_scienceresearchwebinars_Archive">
+      <wsdl:input message="tns:ImplementationScience_list_scienceresearchwebinars_ArchiveSoapIn" />
+      <wsdl:output message="tns:ImplementationScience_list_scienceresearchwebinars_ArchiveSoapOut" />
+    </wsdl:operation>
+    <wsdl:operation name="ImplementationScience_list_Presenters_ForEvent">
+      <wsdl:input message="tns:ImplementationScience_list_Presenters_ForEventSoapIn" />
+      <wsdl:output message="tns:ImplementationScience_list_Presenters_ForEventSoapOut" />
+    </wsdl:operation>
+    <wsdl:operation name="ImplementationScience_GetEvent">
+      <wsdl:input message="tns:ImplementationScience_GetEventSoapIn" />
+      <wsdl:output message="tns:ImplementationScience_GetEventSoapOut" />
+    </wsdl:operation>
+    <wsdl:operation name="ImplementationScience_Register">
+      <wsdl:input message="tns:ImplementationScience_RegisterSoapIn" />
+      <wsdl:output message="tns:ImplementationScience_RegisterSoapOut" />
+    </wsdl:operation>
+    <wsdl:operation name="JSON_ImplementationScience_List_IS_Categories">
+      <wsdl:input message="tns:JSON_ImplementationScience_List_IS_CategoriesSoapIn" />
+      <wsdl:output message="tns:JSON_ImplementationScience_List_IS_CategoriesSoapOut" />
+    </wsdl:operation>
+    <wsdl:operation name="JSON_ImplementationScience_list_ALL_Archive_webinars">
+      <wsdl:input message="tns:JSON_ImplementationScience_list_ALL_Archive_webinarsSoapIn" />
+      <wsdl:output message="tns:JSON_ImplementationScience_list_ALL_Archive_webinarsSoapOut" />
+    </wsdl:operation>
+    <wsdl:operation name="JSON_ImplementationScience_list_FUTURE_webinars">
+      <wsdl:input message="tns:JSON_ImplementationScience_list_FUTURE_webinarsSoapIn" />
+      <wsdl:output message="tns:JSON_ImplementationScience_list_FUTURE_webinarsSoapOut" />
+    </wsdl:operation>
+    <wsdl:operation name="JSON_ImplementationScience_list_CURRENT_webinars">
+      <wsdl:input message="tns:JSON_ImplementationScience_list_CURRENT_webinarsSoapIn" />
+      <wsdl:output message="tns:JSON_ImplementationScience_list_CURRENT_webinarsSoapOut" />
+    </wsdl:operation>
+    <wsdl:operation name="IS_GetThumbnail">
+      <wsdl:input message="tns:IS_GetThumbnailSoapIn" />
+      <wsdl:output message="tns:IS_GetThumbnailSoapOut" />
+    </wsdl:operation>
+  </wsdl:portType>
+  <wsdl:portType name="IS_ApplicationsHttpGet">
+    <wsdl:operation name="CAA_Registration">
+      <wsdl:input message="tns:CAA_RegistrationHttpGetIn" />
+      <wsdl:output message="tns:CAA_RegistrationHttpGetOut" />
+    </wsdl:operation>
+    <wsdl:operation name="Insert_Application">
+      <wsdl:input message="tns:Insert_ApplicationHttpGetIn" />
+      <wsdl:output message="tns:Insert_ApplicationHttpGetOut" />
+    </wsdl:operation>
+    <wsdl:operation name="ImplementationScience_List_IS_Categories">
+      <wsdl:input message="tns:ImplementationScience_List_IS_CategoriesHttpGetIn" />
+      <wsdl:output message="tns:ImplementationScience_List_IS_CategoriesHttpGetOut" />
+    </wsdl:operation>
+    <wsdl:operation name="ImplementationScience_List_IS_Years">
+      <wsdl:input message="tns:ImplementationScience_List_IS_YearsHttpGetIn" />
+      <wsdl:output message="tns:ImplementationScience_List_IS_YearsHttpGetOut" />
+    </wsdl:operation>
+    <wsdl:operation name="ImplementationScience_List_IS_Presenters">
+      <wsdl:input message="tns:ImplementationScience_List_IS_PresentersHttpGetIn" />
+      <wsdl:output message="tns:ImplementationScience_List_IS_PresentersHttpGetOut" />
+    </wsdl:operation>
+    <wsdl:operation name="ImplementationScience_List_IS_Series">
+      <wsdl:input message="tns:ImplementationScience_List_IS_SeriesHttpGetIn" />
+      <wsdl:output message="tns:ImplementationScience_List_IS_SeriesHttpGetOut" />
+    </wsdl:operation>
+    <wsdl:operation name="ImplementationScience_list_scienceresearchwebinars_Current">
+      <wsdl:input message="tns:ImplementationScience_list_scienceresearchwebinars_CurrentHttpGetIn" />
+      <wsdl:output message="tns:ImplementationScience_list_scienceresearchwebinars_CurrentHttpGetOut" />
+    </wsdl:operation>
+    <wsdl:operation name="ImplementationScience_list_scienceresearchwebinars_future">
+      <wsdl:input message="tns:ImplementationScience_list_scienceresearchwebinars_futureHttpGetIn" />
+      <wsdl:output message="tns:ImplementationScience_list_scienceresearchwebinars_futureHttpGetOut" />
+    </wsdl:operation>
+    <wsdl:operation name="ImplementationScience_list_scienceresearchwebinars_Archive">
+      <wsdl:input message="tns:ImplementationScience_list_scienceresearchwebinars_ArchiveHttpGetIn" />
+      <wsdl:output message="tns:ImplementationScience_list_scienceresearchwebinars_ArchiveHttpGetOut" />
+    </wsdl:operation>
+    <wsdl:operation name="ImplementationScience_list_Presenters_ForEvent">
+      <wsdl:input message="tns:ImplementationScience_list_Presenters_ForEventHttpGetIn" />
+      <wsdl:output message="tns:ImplementationScience_list_Presenters_ForEventHttpGetOut" />
+    </wsdl:operation>
+    <wsdl:operation name="ImplementationScience_GetEvent">
+      <wsdl:input message="tns:ImplementationScience_GetEventHttpGetIn" />
+      <wsdl:output message="tns:ImplementationScience_GetEventHttpGetOut" />
+    </wsdl:operation>
+    <wsdl:operation name="ImplementationScience_Register">
+      <wsdl:input message="tns:ImplementationScience_RegisterHttpGetIn" />
+      <wsdl:output message="tns:ImplementationScience_RegisterHttpGetOut" />
+    </wsdl:operation>
+    <wsdl:operation name="JSON_ImplementationScience_List_IS_Categories">
+      <wsdl:input message="tns:JSON_ImplementationScience_List_IS_CategoriesHttpGetIn" />
+      <wsdl:output message="tns:JSON_ImplementationScience_List_IS_CategoriesHttpGetOut" />
+    </wsdl:operation>
+    <wsdl:operation name="JSON_ImplementationScience_list_ALL_Archive_webinars">
+      <wsdl:input message="tns:JSON_ImplementationScience_list_ALL_Archive_webinarsHttpGetIn" />
+      <wsdl:output message="tns:JSON_ImplementationScience_list_ALL_Archive_webinarsHttpGetOut" />
+    </wsdl:operation>
+    <wsdl:operation name="JSON_ImplementationScience_list_FUTURE_webinars">
+      <wsdl:input message="tns:JSON_ImplementationScience_list_FUTURE_webinarsHttpGetIn" />
+      <wsdl:output message="tns:JSON_ImplementationScience_list_FUTURE_webinarsHttpGetOut" />
+    </wsdl:operation>
+    <wsdl:operation name="JSON_ImplementationScience_list_CURRENT_webinars">
+      <wsdl:input message="tns:JSON_ImplementationScience_list_CURRENT_webinarsHttpGetIn" />
+      <wsdl:output message="tns:JSON_ImplementationScience_list_CURRENT_webinarsHttpGetOut" />
+    </wsdl:operation>
+    <wsdl:operation name="IS_GetThumbnail">
+      <wsdl:input message="tns:IS_GetThumbnailHttpGetIn" />
+      <wsdl:output message="tns:IS_GetThumbnailHttpGetOut" />
+    </wsdl:operation>
+  </wsdl:portType>
+  <wsdl:portType name="IS_ApplicationsHttpPost">
+    <wsdl:operation name="CAA_Registration">
+      <wsdl:input message="tns:CAA_RegistrationHttpPostIn" />
+      <wsdl:output message="tns:CAA_RegistrationHttpPostOut" />
+    </wsdl:operation>
+    <wsdl:operation name="Insert_Application">
+      <wsdl:input message="tns:Insert_ApplicationHttpPostIn" />
+      <wsdl:output message="tns:Insert_ApplicationHttpPostOut" />
+    </wsdl:operation>
+    <wsdl:operation name="ImplementationScience_List_IS_Categories">
+      <wsdl:input message="tns:ImplementationScience_List_IS_CategoriesHttpPostIn" />
+      <wsdl:output message="tns:ImplementationScience_List_IS_CategoriesHttpPostOut" />
+    </wsdl:operation>
+    <wsdl:operation name="ImplementationScience_List_IS_Years">
+      <wsdl:input message="tns:ImplementationScience_List_IS_YearsHttpPostIn" />
+      <wsdl:output message="tns:ImplementationScience_List_IS_YearsHttpPostOut" />
+    </wsdl:operation>
+    <wsdl:operation name="ImplementationScience_List_IS_Presenters">
+      <wsdl:input message="tns:ImplementationScience_List_IS_PresentersHttpPostIn" />
+      <wsdl:output message="tns:ImplementationScience_List_IS_PresentersHttpPostOut" />
+    </wsdl:operation>
+    <wsdl:operation name="ImplementationScience_List_IS_Series">
+      <wsdl:input message="tns:ImplementationScience_List_IS_SeriesHttpPostIn" />
+      <wsdl:output message="tns:ImplementationScience_List_IS_SeriesHttpPostOut" />
+    </wsdl:operation>
+    <wsdl:operation name="ImplementationScience_list_scienceresearchwebinars_Current">
+      <wsdl:input message="tns:ImplementationScience_list_scienceresearchwebinars_CurrentHttpPostIn" />
+      <wsdl:output message="tns:ImplementationScience_list_scienceresearchwebinars_CurrentHttpPostOut" />
+    </wsdl:operation>
+    <wsdl:operation name="ImplementationScience_list_scienceresearchwebinars_future">
+      <wsdl:input message="tns:ImplementationScience_list_scienceresearchwebinars_futureHttpPostIn" />
+      <wsdl:output message="tns:ImplementationScience_list_scienceresearchwebinars_futureHttpPostOut" />
+    </wsdl:operation>
+    <wsdl:operation name="ImplementationScience_list_scienceresearchwebinars_Archive">
+      <wsdl:input message="tns:ImplementationScience_list_scienceresearchwebinars_ArchiveHttpPostIn" />
+      <wsdl:output message="tns:ImplementationScience_list_scienceresearchwebinars_ArchiveHttpPostOut" />
+    </wsdl:operation>
+    <wsdl:operation name="ImplementationScience_list_Presenters_ForEvent">
+      <wsdl:input message="tns:ImplementationScience_list_Presenters_ForEventHttpPostIn" />
+      <wsdl:output message="tns:ImplementationScience_list_Presenters_ForEventHttpPostOut" />
+    </wsdl:operation>
+    <wsdl:operation name="ImplementationScience_GetEvent">
+      <wsdl:input message="tns:ImplementationScience_GetEventHttpPostIn" />
+      <wsdl:output message="tns:ImplementationScience_GetEventHttpPostOut" />
+    </wsdl:operation>
+    <wsdl:operation name="ImplementationScience_Register">
+      <wsdl:input message="tns:ImplementationScience_RegisterHttpPostIn" />
+      <wsdl:output message="tns:ImplementationScience_RegisterHttpPostOut" />
+    </wsdl:operation>
+    <wsdl:operation name="JSON_ImplementationScience_List_IS_Categories">
+      <wsdl:input message="tns:JSON_ImplementationScience_List_IS_CategoriesHttpPostIn" />
+      <wsdl:output message="tns:JSON_ImplementationScience_List_IS_CategoriesHttpPostOut" />
+    </wsdl:operation>
+    <wsdl:operation name="JSON_ImplementationScience_list_ALL_Archive_webinars">
+      <wsdl:input message="tns:JSON_ImplementationScience_list_ALL_Archive_webinarsHttpPostIn" />
+      <wsdl:output message="tns:JSON_ImplementationScience_list_ALL_Archive_webinarsHttpPostOut" />
+    </wsdl:operation>
+    <wsdl:operation name="JSON_ImplementationScience_list_FUTURE_webinars">
+      <wsdl:input message="tns:JSON_ImplementationScience_list_FUTURE_webinarsHttpPostIn" />
+      <wsdl:output message="tns:JSON_ImplementationScience_list_FUTURE_webinarsHttpPostOut" />
+    </wsdl:operation>
+    <wsdl:operation name="JSON_ImplementationScience_list_CURRENT_webinars">
+      <wsdl:input message="tns:JSON_ImplementationScience_list_CURRENT_webinarsHttpPostIn" />
+      <wsdl:output message="tns:JSON_ImplementationScience_list_CURRENT_webinarsHttpPostOut" />
+    </wsdl:operation>
+    <wsdl:operation name="IS_GetThumbnail">
+      <wsdl:input message="tns:IS_GetThumbnailHttpPostIn" />
+      <wsdl:output message="tns:IS_GetThumbnailHttpPostOut" />
+    </wsdl:operation>
   </wsdl:portType>
   <wsdl:binding name="IS_ApplicationsSoap" type="tns:IS_ApplicationsSoap">
     <soap:binding transport="http://schemas.xmlsoap.org/soap/http" />
+    <wsdl:operation name="CAA_Registration">
+      <soap:operation soapAction="http://tempuri.org/CAA_Registration" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
     <wsdl:operation name="Insert_Application">
       <soap:operation soapAction="http://tempuri.org/Insert_Application" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="ImplementationScience_List_IS_Categories">
+      <soap:operation soapAction="http://tempuri.org/ImplementationScience_List_IS_Categories" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="ImplementationScience_List_IS_Years">
+      <soap:operation soapAction="http://tempuri.org/ImplementationScience_List_IS_Years" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="ImplementationScience_List_IS_Presenters">
+      <soap:operation soapAction="http://tempuri.org/ImplementationScience_List_IS_Presenters" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="ImplementationScience_List_IS_Series">
+      <soap:operation soapAction="http://tempuri.org/ImplementationScience_List_IS_Series" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="ImplementationScience_list_scienceresearchwebinars_Current">
+      <soap:operation soapAction="http://tempuri.org/ImplementationScience_list_scienceresearchwebinars_Current" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="ImplementationScience_list_scienceresearchwebinars_future">
+      <soap:operation soapAction="http://tempuri.org/ImplementationScience_list_scienceresearchwebinars_future" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="ImplementationScience_list_scienceresearchwebinars_Archive">
+      <soap:operation soapAction="http://tempuri.org/ImplementationScience_list_scienceresearchwebinars_Archive" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="ImplementationScience_list_Presenters_ForEvent">
+      <soap:operation soapAction="http://tempuri.org/ImplementationScience_list_Presenters_ForEvent" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="ImplementationScience_GetEvent">
+      <soap:operation soapAction="http://tempuri.org/ImplementationScience_GetEvent" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="ImplementationScience_Register">
+      <soap:operation soapAction="http://tempuri.org/ImplementationScience_Register" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="JSON_ImplementationScience_List_IS_Categories">
+      <soap:operation soapAction="http://tempuri.org/JSON_ImplementationScience_List_IS_Categories" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="JSON_ImplementationScience_list_ALL_Archive_webinars">
+      <soap:operation soapAction="http://tempuri.org/JSON_ImplementationScience_list_ALL_Archive_webinars" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="JSON_ImplementationScience_list_FUTURE_webinars">
+      <soap:operation soapAction="http://tempuri.org/JSON_ImplementationScience_list_FUTURE_webinars" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="JSON_ImplementationScience_list_CURRENT_webinars">
+      <soap:operation soapAction="http://tempuri.org/JSON_ImplementationScience_list_CURRENT_webinars" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="IS_GetThumbnail">
+      <soap:operation soapAction="http://tempuri.org/IS_GetThumbnail" style="document" />
       <wsdl:input>
         <soap:body use="literal" />
       </wsdl:input>
@@ -74,6 +1158,15 @@
   </wsdl:binding>
   <wsdl:binding name="IS_ApplicationsSoap12" type="tns:IS_ApplicationsSoap">
     <soap12:binding transport="http://schemas.xmlsoap.org/soap/http" />
+    <wsdl:operation name="CAA_Registration">
+      <soap12:operation soapAction="http://tempuri.org/CAA_Registration" style="document" />
+      <wsdl:input>
+        <soap12:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
     <wsdl:operation name="Insert_Application">
       <soap12:operation soapAction="http://tempuri.org/Insert_Application" style="document" />
       <wsdl:input>
@@ -83,6 +1176,437 @@
         <soap12:body use="literal" />
       </wsdl:output>
     </wsdl:operation>
+    <wsdl:operation name="ImplementationScience_List_IS_Categories">
+      <soap12:operation soapAction="http://tempuri.org/ImplementationScience_List_IS_Categories" style="document" />
+      <wsdl:input>
+        <soap12:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="ImplementationScience_List_IS_Years">
+      <soap12:operation soapAction="http://tempuri.org/ImplementationScience_List_IS_Years" style="document" />
+      <wsdl:input>
+        <soap12:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="ImplementationScience_List_IS_Presenters">
+      <soap12:operation soapAction="http://tempuri.org/ImplementationScience_List_IS_Presenters" style="document" />
+      <wsdl:input>
+        <soap12:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="ImplementationScience_List_IS_Series">
+      <soap12:operation soapAction="http://tempuri.org/ImplementationScience_List_IS_Series" style="document" />
+      <wsdl:input>
+        <soap12:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="ImplementationScience_list_scienceresearchwebinars_Current">
+      <soap12:operation soapAction="http://tempuri.org/ImplementationScience_list_scienceresearchwebinars_Current" style="document" />
+      <wsdl:input>
+        <soap12:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="ImplementationScience_list_scienceresearchwebinars_future">
+      <soap12:operation soapAction="http://tempuri.org/ImplementationScience_list_scienceresearchwebinars_future" style="document" />
+      <wsdl:input>
+        <soap12:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="ImplementationScience_list_scienceresearchwebinars_Archive">
+      <soap12:operation soapAction="http://tempuri.org/ImplementationScience_list_scienceresearchwebinars_Archive" style="document" />
+      <wsdl:input>
+        <soap12:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="ImplementationScience_list_Presenters_ForEvent">
+      <soap12:operation soapAction="http://tempuri.org/ImplementationScience_list_Presenters_ForEvent" style="document" />
+      <wsdl:input>
+        <soap12:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="ImplementationScience_GetEvent">
+      <soap12:operation soapAction="http://tempuri.org/ImplementationScience_GetEvent" style="document" />
+      <wsdl:input>
+        <soap12:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="ImplementationScience_Register">
+      <soap12:operation soapAction="http://tempuri.org/ImplementationScience_Register" style="document" />
+      <wsdl:input>
+        <soap12:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="JSON_ImplementationScience_List_IS_Categories">
+      <soap12:operation soapAction="http://tempuri.org/JSON_ImplementationScience_List_IS_Categories" style="document" />
+      <wsdl:input>
+        <soap12:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="JSON_ImplementationScience_list_ALL_Archive_webinars">
+      <soap12:operation soapAction="http://tempuri.org/JSON_ImplementationScience_list_ALL_Archive_webinars" style="document" />
+      <wsdl:input>
+        <soap12:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="JSON_ImplementationScience_list_FUTURE_webinars">
+      <soap12:operation soapAction="http://tempuri.org/JSON_ImplementationScience_list_FUTURE_webinars" style="document" />
+      <wsdl:input>
+        <soap12:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="JSON_ImplementationScience_list_CURRENT_webinars">
+      <soap12:operation soapAction="http://tempuri.org/JSON_ImplementationScience_list_CURRENT_webinars" style="document" />
+      <wsdl:input>
+        <soap12:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="IS_GetThumbnail">
+      <soap12:operation soapAction="http://tempuri.org/IS_GetThumbnail" style="document" />
+      <wsdl:input>
+        <soap12:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+  </wsdl:binding>
+  <wsdl:binding name="IS_ApplicationsHttpGet" type="tns:IS_ApplicationsHttpGet">
+    <http:binding verb="GET" />
+    <wsdl:operation name="CAA_Registration">
+      <http:operation location="/CAA_Registration" />
+      <wsdl:input>
+        <http:urlEncoded />
+      </wsdl:input>
+      <wsdl:output>
+        <mime:mimeXml part="Body" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="Insert_Application">
+      <http:operation location="/Insert_Application" />
+      <wsdl:input>
+        <http:urlEncoded />
+      </wsdl:input>
+      <wsdl:output>
+        <mime:mimeXml part="Body" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="ImplementationScience_List_IS_Categories">
+      <http:operation location="/ImplementationScience_List_IS_Categories" />
+      <wsdl:input>
+        <http:urlEncoded />
+      </wsdl:input>
+      <wsdl:output>
+        <mime:mimeXml part="Body" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="ImplementationScience_List_IS_Years">
+      <http:operation location="/ImplementationScience_List_IS_Years" />
+      <wsdl:input>
+        <http:urlEncoded />
+      </wsdl:input>
+      <wsdl:output>
+        <mime:mimeXml part="Body" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="ImplementationScience_List_IS_Presenters">
+      <http:operation location="/ImplementationScience_List_IS_Presenters" />
+      <wsdl:input>
+        <http:urlEncoded />
+      </wsdl:input>
+      <wsdl:output>
+        <mime:mimeXml part="Body" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="ImplementationScience_List_IS_Series">
+      <http:operation location="/ImplementationScience_List_IS_Series" />
+      <wsdl:input>
+        <http:urlEncoded />
+      </wsdl:input>
+      <wsdl:output>
+        <mime:mimeXml part="Body" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="ImplementationScience_list_scienceresearchwebinars_Current">
+      <http:operation location="/ImplementationScience_list_scienceresearchwebinars_Current" />
+      <wsdl:input>
+        <http:urlEncoded />
+      </wsdl:input>
+      <wsdl:output>
+        <mime:mimeXml part="Body" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="ImplementationScience_list_scienceresearchwebinars_future">
+      <http:operation location="/ImplementationScience_list_scienceresearchwebinars_future" />
+      <wsdl:input>
+        <http:urlEncoded />
+      </wsdl:input>
+      <wsdl:output>
+        <mime:mimeXml part="Body" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="ImplementationScience_list_scienceresearchwebinars_Archive">
+      <http:operation location="/ImplementationScience_list_scienceresearchwebinars_Archive" />
+      <wsdl:input>
+        <http:urlEncoded />
+      </wsdl:input>
+      <wsdl:output>
+        <mime:mimeXml part="Body" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="ImplementationScience_list_Presenters_ForEvent">
+      <http:operation location="/ImplementationScience_list_Presenters_ForEvent" />
+      <wsdl:input>
+        <http:urlEncoded />
+      </wsdl:input>
+      <wsdl:output>
+        <mime:mimeXml part="Body" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="ImplementationScience_GetEvent">
+      <http:operation location="/ImplementationScience_GetEvent" />
+      <wsdl:input>
+        <http:urlEncoded />
+      </wsdl:input>
+      <wsdl:output>
+        <mime:mimeXml part="Body" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="ImplementationScience_Register">
+      <http:operation location="/ImplementationScience_Register" />
+      <wsdl:input>
+        <http:urlEncoded />
+      </wsdl:input>
+      <wsdl:output>
+        <mime:mimeXml part="Body" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="JSON_ImplementationScience_List_IS_Categories">
+      <http:operation location="/JSON_ImplementationScience_List_IS_Categories" />
+      <wsdl:input>
+        <http:urlEncoded />
+      </wsdl:input>
+      <wsdl:output />
+    </wsdl:operation>
+    <wsdl:operation name="JSON_ImplementationScience_list_ALL_Archive_webinars">
+      <http:operation location="/JSON_ImplementationScience_list_ALL_Archive_webinars" />
+      <wsdl:input>
+        <http:urlEncoded />
+      </wsdl:input>
+      <wsdl:output />
+    </wsdl:operation>
+    <wsdl:operation name="JSON_ImplementationScience_list_FUTURE_webinars">
+      <http:operation location="/JSON_ImplementationScience_list_FUTURE_webinars" />
+      <wsdl:input>
+        <http:urlEncoded />
+      </wsdl:input>
+      <wsdl:output />
+    </wsdl:operation>
+    <wsdl:operation name="JSON_ImplementationScience_list_CURRENT_webinars">
+      <http:operation location="/JSON_ImplementationScience_list_CURRENT_webinars" />
+      <wsdl:input>
+        <http:urlEncoded />
+      </wsdl:input>
+      <wsdl:output />
+    </wsdl:operation>
+    <wsdl:operation name="IS_GetThumbnail">
+      <http:operation location="/IS_GetThumbnail" />
+      <wsdl:input>
+        <http:urlEncoded />
+      </wsdl:input>
+      <wsdl:output>
+        <mime:mimeXml part="Body" />
+      </wsdl:output>
+    </wsdl:operation>
+  </wsdl:binding>
+  <wsdl:binding name="IS_ApplicationsHttpPost" type="tns:IS_ApplicationsHttpPost">
+    <http:binding verb="POST" />
+    <wsdl:operation name="CAA_Registration">
+      <http:operation location="/CAA_Registration" />
+      <wsdl:input>
+        <mime:content type="application/x-www-form-urlencoded" />
+      </wsdl:input>
+      <wsdl:output>
+        <mime:mimeXml part="Body" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="Insert_Application">
+      <http:operation location="/Insert_Application" />
+      <wsdl:input>
+        <mime:content type="application/x-www-form-urlencoded" />
+      </wsdl:input>
+      <wsdl:output>
+        <mime:mimeXml part="Body" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="ImplementationScience_List_IS_Categories">
+      <http:operation location="/ImplementationScience_List_IS_Categories" />
+      <wsdl:input>
+        <mime:content type="application/x-www-form-urlencoded" />
+      </wsdl:input>
+      <wsdl:output>
+        <mime:mimeXml part="Body" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="ImplementationScience_List_IS_Years">
+      <http:operation location="/ImplementationScience_List_IS_Years" />
+      <wsdl:input>
+        <mime:content type="application/x-www-form-urlencoded" />
+      </wsdl:input>
+      <wsdl:output>
+        <mime:mimeXml part="Body" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="ImplementationScience_List_IS_Presenters">
+      <http:operation location="/ImplementationScience_List_IS_Presenters" />
+      <wsdl:input>
+        <mime:content type="application/x-www-form-urlencoded" />
+      </wsdl:input>
+      <wsdl:output>
+        <mime:mimeXml part="Body" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="ImplementationScience_List_IS_Series">
+      <http:operation location="/ImplementationScience_List_IS_Series" />
+      <wsdl:input>
+        <mime:content type="application/x-www-form-urlencoded" />
+      </wsdl:input>
+      <wsdl:output>
+        <mime:mimeXml part="Body" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="ImplementationScience_list_scienceresearchwebinars_Current">
+      <http:operation location="/ImplementationScience_list_scienceresearchwebinars_Current" />
+      <wsdl:input>
+        <mime:content type="application/x-www-form-urlencoded" />
+      </wsdl:input>
+      <wsdl:output>
+        <mime:mimeXml part="Body" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="ImplementationScience_list_scienceresearchwebinars_future">
+      <http:operation location="/ImplementationScience_list_scienceresearchwebinars_future" />
+      <wsdl:input>
+        <mime:content type="application/x-www-form-urlencoded" />
+      </wsdl:input>
+      <wsdl:output>
+        <mime:mimeXml part="Body" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="ImplementationScience_list_scienceresearchwebinars_Archive">
+      <http:operation location="/ImplementationScience_list_scienceresearchwebinars_Archive" />
+      <wsdl:input>
+        <mime:content type="application/x-www-form-urlencoded" />
+      </wsdl:input>
+      <wsdl:output>
+        <mime:mimeXml part="Body" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="ImplementationScience_list_Presenters_ForEvent">
+      <http:operation location="/ImplementationScience_list_Presenters_ForEvent" />
+      <wsdl:input>
+        <mime:content type="application/x-www-form-urlencoded" />
+      </wsdl:input>
+      <wsdl:output>
+        <mime:mimeXml part="Body" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="ImplementationScience_GetEvent">
+      <http:operation location="/ImplementationScience_GetEvent" />
+      <wsdl:input>
+        <mime:content type="application/x-www-form-urlencoded" />
+      </wsdl:input>
+      <wsdl:output>
+        <mime:mimeXml part="Body" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="ImplementationScience_Register">
+      <http:operation location="/ImplementationScience_Register" />
+      <wsdl:input>
+        <mime:content type="application/x-www-form-urlencoded" />
+      </wsdl:input>
+      <wsdl:output>
+        <mime:mimeXml part="Body" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="JSON_ImplementationScience_List_IS_Categories">
+      <http:operation location="/JSON_ImplementationScience_List_IS_Categories" />
+      <wsdl:input>
+        <mime:content type="application/x-www-form-urlencoded" />
+      </wsdl:input>
+      <wsdl:output />
+    </wsdl:operation>
+    <wsdl:operation name="JSON_ImplementationScience_list_ALL_Archive_webinars">
+      <http:operation location="/JSON_ImplementationScience_list_ALL_Archive_webinars" />
+      <wsdl:input>
+        <mime:content type="application/x-www-form-urlencoded" />
+      </wsdl:input>
+      <wsdl:output />
+    </wsdl:operation>
+    <wsdl:operation name="JSON_ImplementationScience_list_FUTURE_webinars">
+      <http:operation location="/JSON_ImplementationScience_list_FUTURE_webinars" />
+      <wsdl:input>
+        <mime:content type="application/x-www-form-urlencoded" />
+      </wsdl:input>
+      <wsdl:output />
+    </wsdl:operation>
+    <wsdl:operation name="JSON_ImplementationScience_list_CURRENT_webinars">
+      <http:operation location="/JSON_ImplementationScience_list_CURRENT_webinars" />
+      <wsdl:input>
+        <mime:content type="application/x-www-form-urlencoded" />
+      </wsdl:input>
+      <wsdl:output />
+    </wsdl:operation>
+    <wsdl:operation name="IS_GetThumbnail">
+      <http:operation location="/IS_GetThumbnail" />
+      <wsdl:input>
+        <mime:content type="application/x-www-form-urlencoded" />
+      </wsdl:input>
+      <wsdl:output>
+        <mime:mimeXml part="Body" />
+      </wsdl:output>
+    </wsdl:operation>
   </wsdl:binding>
   <wsdl:service name="IS_Applications">
     <wsdl:port name="IS_ApplicationsSoap" binding="tns:IS_ApplicationsSoap">
@@ -90,6 +1614,12 @@
     </wsdl:port>
     <wsdl:port name="IS_ApplicationsSoap12" binding="tns:IS_ApplicationsSoap12">
       <soap12:address location="https://cyberseminar.cancercontrolplanet.org/application_WS/IS_Applications.asmx" />
+    </wsdl:port>
+    <wsdl:port name="IS_ApplicationsHttpGet" binding="tns:IS_ApplicationsHttpGet">
+      <http:address location="https://cyberseminar.cancercontrolplanet.org/application_WS/IS_Applications.asmx" />
+    </wsdl:port>
+    <wsdl:port name="IS_ApplicationsHttpPost" binding="tns:IS_ApplicationsHttpPost">
+      <http:address location="https://cyberseminar.cancercontrolplanet.org/application_WS/IS_Applications.asmx" />
     </wsdl:port>
   </wsdl:service>
 </wsdl:definitions>
