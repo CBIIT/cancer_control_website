@@ -112,17 +112,13 @@ height="0" width="0" style="display:none;visibility:hidden" title="Google Tag Ma
 			<!-- Collect the nav links, forms, and other content for toggling -->
 			<nav id="navbar-responsive" class="navbar-collapse collapse" role="navigation" aria-expanded="false">
 				<div class="form-group dccps-search">
-					<form class="navbar-form" method="get" action="https://barney2.cit.nih.gov/search" name="search">
-						<input type="hidden" name="site" value="DCCPS">
-						<input type="hidden" name="client" value="DCCPS_frontend">
-						<input type="hidden" name="proxystylesheet" value="DCCPS_frontend">
+                    <form class="navbar-form" method="get" action="https://websrch.cit.nih.gov/sps/DCCPS/results.html?" name="search">
 						<input type="hidden" name="output" value="xml_no_dtd">
-						<input type="hidden" name="filter" value="0">
 						<input type="hidden" name="getfields" value="*">
 						<label for="searchbox" class="sr-only">Search: </label>
-						<input id="searchbox" type="text" name="q" size="15" maxlength="255" class="form-control" placeholder="SEARCH">
-						<input type="image" src="../../../images/magnifying_glass_2x.png" class="go-button" name="btnG" id="btnG" alt="Search">
-					</form>
+						<input id="searchbox" type="text" name="query" size="15" maxlength="255" class="form-control" placeholder="SEARCH">
+						<input type="image" src="/images/magnifying_glass_2x.png" class="go-button" name="btnG" id="btnG" alt="Search">
+                    </form>
 				</div> <!-- /.form-group -->
 				<ul class="nav navbar-nav">
 					<li><a href="/brp/">BRP Home</a></li>
@@ -1258,9 +1254,9 @@ height="0" width="0" style="display:none;visibility:hidden" title="Google Tag Ma
             </tr>
         </table>
         <a id="10"></a>
-        <h2 id="tbl10Desc">10. Appendix 3: Barrier-based Exercise Self-Efficacy</h2>
+        <h2>10. Appendix 3: Barrier-based Exercise Self-Efficacy</h2>
+		<p id="tbl10Desc"><strong>Confidence Scale</strong></p>
         <table class="table table-striped table-bordered table-condensed responsive" aria-describedby="tbl10Desc">
-            <caption>Confidence Scale</caption>
             <tr>
                 <th style="text-align:center;" scope="col">0 percent </th>
                 <th style="text-align:center;" scope="col">10 percent </th>

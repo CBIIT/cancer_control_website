@@ -29,12 +29,12 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
 <!-- Add to homescreen for Chrome on Android -->
 <meta name="mobile-web-app-capable" content="yes">
 <meta name="application-name" content="DCCPS">
-<link rel="icon" sizes="192x192" href="/images/touch/chrome-touch-icon-192x192.png">
+<link rel="icon" sizes="192x192" href="images/touch/chrome-touch-icon-192x192.png">
 <!-- Add to homescreen for Safari on iOS -->
 <meta name="apple-mobile-web-app-capable" content="yes">
 <meta name="apple-mobile-web-app-status-bar-style" content="default">
 <meta name="apple-mobile-web-app-title" content="DCCPS">
-<link rel="apple-touch-icon" href="../images/touch/apple-touch-icon.png">
+<link rel="apple-touch-icon" href="images/touch/apple-touch-icon.png">
 <!-- Bootstrap -->
 <link href="../../../css/bootstrap.min.css" rel="stylesheet">
 <!-- Google Fonts Source Sans & Merriweather -->
@@ -113,17 +113,13 @@ height="0" width="0" style="display:none;visibility:hidden" title="Google Tag Ma
 			<!-- Collect the nav links, forms, and other content for toggling -->
 			<nav id="navbar-responsive" class="navbar-collapse collapse" role="navigation" aria-expanded="false">
 				<div class="form-group dccps-search">
-					<form class="navbar-form" method="get" action="https://barney2.cit.nih.gov/search" name="search">
-						<input type="hidden" name="site" value="DCCPS">
-						<input type="hidden" name="client" value="DCCPS_frontend">
-						<input type="hidden" name="proxystylesheet" value="DCCPS_frontend">
+                    <form class="navbar-form" method="get" action="https://websrch.cit.nih.gov/sps/DCCPS/results.html?" name="search">
 						<input type="hidden" name="output" value="xml_no_dtd">
-						<input type="hidden" name="filter" value="0">
 						<input type="hidden" name="getfields" value="*">
 						<label for="searchbox" class="sr-only">Search: </label>
-						<input id="searchbox" type="text" name="q" size="15" maxlength="255" class="form-control" placeholder="SEARCH">
-						<input type="image" src="../../../images/magnifying_glass_2x.png" class="go-button" name="btnG" id="btnG" alt="Search">
-					</form>
+						<input id="searchbox" type="text" name="query" size="15" maxlength="255" class="form-control" placeholder="SEARCH">
+						<input type="image" src="/images/magnifying_glass_2x.png" class="go-button" name="btnG" id="btnG" alt="Search">
+                    </form>
 				</div> <!-- /.form-group -->
                 <!-- InstanceBeginEditable name="navigation" -->
                             <ul class="nav navbar-nav">
@@ -202,9 +198,8 @@ height="0" width="0" style="display:none;visibility:hidden" title="Google Tag Ma
 		</div> <!-- /.col-lg-12 -->
 	</div> <!-- /.row -->
 </div> <!-- /.container -->
-</div> 
-<!-- /.page-breadcrumb -->
-  <!-- InstanceBeginEditable name="Main Content" -->
+</div> <!-- /.page-breadcrumb -->
+        <!-- InstanceBeginEditable name="Main Content" -->
 	<div class="container">
 		<div class="row">	
 			<div class="col-sm-1">
