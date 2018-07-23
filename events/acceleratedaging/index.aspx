@@ -107,16 +107,27 @@ height="0" width="0" style="display:none;visibility:hidden" title="Google Tag Ma
         <div class="col-md-12">
             <form id="form1" runat="server" class="form-caa">
 			<!--<asp:Literal ID="LIT_FK_Event" Text="1" runat="server"></asp:Literal>-->
-			<div class="row">
+			
+            <div class="row">
+				<div class="col-sm-9">
+					<p><strong>Registration is now closed, please contact <a href="mailto:Jennifer.guida@nih.gov">Jennifer.guida@nih.gov</a> for questions.</strong></p>
+				</div>
+				<div class="col-sm-3">
+					<img src="/images/caa-logo.jpg" alt="Dispatches from Implementation Science at NCI" class="img-responsive" style="padding: 5px 0px 25px;">
+				</div>
+            </div>
+            <!--
+            <div class="row">
 				<div class="col-sm-9">
 					<p><strong>Participation in this working think tank is by  invitation only, and invitations are non-transferable. To register, complete  the form below.<br></strong></p>
 				<p><b>*</b> Indicates required field</p>
-				</div> <!-- /.col-sm-9 -->
+				</div>
 				<div class="col-sm-3">
 					<img src="/images/caa-logo.jpg" alt="Dispatches from Implementation Science at NCI" class="img-responsive" style="padding: 5px 0px 25px;">
-				</div> <!-- /.col-sm-3 -->
+				</div>
             </div>
             <br>
+			
             <div class="row">
 					<div class="col-md-6">
 						<asp:Label ID="Label1" runat="server" AssociatedControlID="TXT_FirstName" Text="First Name *"></asp:Label>
@@ -320,6 +331,7 @@ height="0" width="0" style="display:none;visibility:hidden" title="Google Tag Ma
                         <asp:Button ID="BTN_UploadClicked" class="btn btn-default btn-inline" runat="server" Text="Submit" />
                     </div>
                 </div>
+				-->
                 <div class="spacer-20"></div>
     </form>
         </div> <!-- /.col-md-9 -->
