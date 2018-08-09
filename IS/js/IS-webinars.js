@@ -11,17 +11,17 @@ var selectedYears = '|';
 var selectedPresenters = '|';
 var selectedSeries = '|';
 
-//var GetAllArchivedWebinars_url = "https://cyberseminar.cancercontrolplanet.org/application_WS/IS_Applications.asmx/JSON_ImplementationScience_list_ALL_Archive_webinars";
-//var GetAllCurrentWebinars_url = "https://cyberseminar.cancercontrolplanet.org/application_WS/IS_Applications.asmx/JSON_ImplementationScience_list_CURRENT_webinars";
-//var GetAllFutureWebinars_url = "https://cyberseminar.cancercontrolplanet.org/application_WS/IS_Applications.asmx/JSON_ImplementationScience_list_FUTURE_webinars";
+var GetAllArchivedWebinars_url = "https://cyberseminar.cancercontrolplanet.org/application_WS/IS_Applications.asmx/JSON_ImplementationScience_list_ALL_Archive_webinars";
+var GetAllCurrentWebinars_url = "https://cyberseminar.cancercontrolplanet.org/application_WS/IS_Applications.asmx/JSON_ImplementationScience_list_CURRENT_webinars";
+var GetAllFutureWebinars_url = "https://cyberseminar.cancercontrolplanet.org/application_WS/IS_Applications.asmx/JSON_ImplementationScience_list_FUTURE_webinars";
 
 //var GetAllArchivedWebinars_url = "http://cyberseminar_local.com/application_WS/IS_Applications.asmx/JSON_ImplementationScience_list_ALL_Archive_webinars";
 //var GetAllCurrentWebinars_url = "http://cyberseminar_local.com/application_WS/IS_Applications.asmx/JSON_ImplementationScience_list_CURRENT_webinars";
 //var GetAllFutureWebinars_url = "http://cyberseminar_local.com/application_WS/IS_Applications.asmx/JSON_ImplementationScience_list_FUTURE_webinars";
 
-var GetAllArchivedWebinars_url = "https://cyberseminar-stage.icfwebservices.com/application_WS/IS_Applications.asmx/JSON_ImplementationScience_list_ALL_Archive_webinars";
-var GetAllCurrentWebinars_url = "https://cyberseminar-stage.icfwebservices.com/application_WS/IS_Applications.asmx/JSON_ImplementationScience_list_CURRENT_webinars";
-var GetAllFutureWebinars_url = "https://cyberseminar-stage.icfwebservices.com/application_WS/IS_Applications.asmx/JSON_ImplementationScience_list_FUTURE_webinars";
+//var GetAllArchivedWebinars_url = "https://cyberseminar-stage.icfwebservices.com/application_WS/IS_Applications.asmx/JSON_ImplementationScience_list_ALL_Archive_webinars";
+//var GetAllCurrentWebinars_url = "https://cyberseminar-stage.icfwebservices.com/application_WS/IS_Applications.asmx/JSON_ImplementationScience_list_CURRENT_webinars";
+//var GetAllFutureWebinars_url = "https://cyberseminar-stage.icfwebservices.com/application_WS/IS_Applications.asmx/JSON_ImplementationScience_list_FUTURE_webinars";
 
 
 //https://stackoverflow.com/questions/14221429/how-can-i-produce-jsonp-from-an-asp-net-web-service-for-cross-domain-calls

@@ -275,7 +275,7 @@
                     <ItemTemplate>
                             <div class="col-sm-2">
                                 <div runat="server" visible='<%# (Eval("ext").ToString() IsNot "") %>'>
-                                    <img src='<%# "https://cyberseminar-stage.icfwebservices.com/application_WS/ViewPresenterImage.aspx?ID=" & Eval("PK_Presenter") %>' style="width: 100%; height: auto">
+                                    <img src='<%# "https://cyberseminar.cancercontrolplanet.org/application_WS/ViewPresenterImage.aspx?ID=" & Eval("PK_Presenter") %>' style="width: 100%; height: auto">
                                 </div>
                                 <div runat="server" visible='<%# (Eval("ext").ToString() Is "") %>'>
                                     <img src="/IS/images/no-photo.jpg" style="width: 100%; height: auto">
