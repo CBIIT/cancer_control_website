@@ -873,7 +873,7 @@
   <priority>0.51</priority>
 </url>
 <url>
-  <loc>https://cancercontrol.cancer.gov/brp/decision-making.html</loc>
+  <loc>https://cancercontrol.cancer.gov/brp/archive/decision-making.html</loc>
   <lastmod>2018-04-06T21:29:08+00:00</lastmod>
   <priority>0.51</priority>
 </url>
@@ -1829,11 +1829,6 @@
 </url>
 <url>
   <loc>https://cancercontrol.cancer.gov/IS/staff/Norton.html</loc>
-  <lastmod>2018-05-04T14:08:01+00:00</lastmod>
-  <priority>0.51</priority>
-</url>
-<url>
-  <loc>https://cancercontrol.cancer.gov/IS/staff/Tompkins.html</loc>
   <lastmod>2018-05-04T14:08:01+00:00</lastmod>
   <priority>0.51</priority>
 </url>
