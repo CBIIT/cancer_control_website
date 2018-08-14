@@ -1,63 +1,51 @@
     jQuery(document).ready(function($){
 	//check if background-images have been loaded and show list items
-	$('.cd-single-project').bgLoaded({
+	$('.projects-container li').bgLoaded({
 	  	afterLoaded : function(){
 	   		showCaption($('.projects-container li').eq(0));
 	  	}
 	});
 
+	var selectedProject = "";
+	var toggle = "";
+
 	//open project
 	$('.cd-single-project').on('click', function(){
-		var selectedProject = $(this),
+		selectedProject = $(this),
 			toggle = !selectedProject.hasClass('is-full-width');
-		if(toggle) toggleProject($(this), $('.projects-container'), toggle);
+		if(toggle) toggleProject(selectedProject, $('.projects-container'), toggle);
 	});
 	
 	$('.cd-single-project').on('keydown', function(event){
-		if(event.which == 13) 
+		if(event.which === 13) 
 		{
-			var selectedProject = $(this),
+			selectedProject = $(this),
 				toggle = !selectedProject.hasClass('is-full-width');
-			if(toggle) toggleProject($(this), $('.projects-container'), toggle);
+			if(toggle) toggleProject(selectedProject, $('.projects-container'), toggle);
 		}
 	});
 
-  if(window.location.href.indexOf('#director') != -1) {
-		var selectedProject = $(this),
-			toggle = !selectedProject.hasClass('is-full-width');
-		if(toggle) toggleProject($(document.getElementById('director')), $('.projects-container'), toggle);
+  if(window.location.href.indexOf('#director') !== -1) {
+		toggleProject($(document.getElementById('director')), $('.projects-container'), true);
   }
-  if(window.location.href.indexOf('#leadership') != -1) {
-		var selectedProject = $(this),
-			toggle = !selectedProject.hasClass('is-full-width');
-		if(toggle) toggleProject($(document.getElementById('leadership')), $('.projects-container'), toggle);
+  if(window.location.href.indexOf('#leadership') !== -1) {
+		toggleProject($(document.getElementById('leadership')), $('.projects-container'), true);
   }
-  if(window.location.href.indexOf('#additional') != -1) {
-		var selectedProject = $(this),
-			toggle = !selectedProject.hasClass('is-full-width');
-		if(toggle) toggleProject($(document.getElementById('additional')), $('.projects-container'), toggle);
+  if(window.location.href.indexOf('#additional') !== -1) {
+		toggleProject($(document.getElementById('additional')), $('.projects-container'), true);
   }
-  if(window.location.href.indexOf('#priority') != -1) {
-		var selectedProject = $(this),
-			toggle = !selectedProject.hasClass('is-full-width');
-		if(toggle) toggleProject($(document.getElementById('priority')), $('.projects-container'), toggle);
+  if(window.location.href.indexOf('#priority') !== -1) {
+		toggleProject($(document.getElementById('priority')), $('.projects-container'), true);
   }
-  if(window.location.href.indexOf('#enabling') != -1) {
-		var selectedProject = $(this),
-			toggle = !selectedProject.hasClass('is-full-width');
-		if(toggle) toggleProject($(document.getElementById('enabling')), $('.projects-container'), toggle);
+  if(window.location.href.indexOf('#enabling') !== -1) {
+		toggleProject($(document.getElementById('enabling')), $('.projects-container'), true);
   }
-  if(window.location.href.indexOf('#investments') != -1) {
-		var selectedProject = $(this),
-			toggle = !selectedProject.hasClass('is-full-width');
-		if(toggle) toggleProject($(document.getElementById('investments')), $('.projects-container'), toggle);
+  if(window.location.href.indexOf('#investments') !== -1) {
+		toggleProject($(document.getElementById('investments')), $('.projects-container'), true);
   }
-  if(window.location.href.indexOf('#signature') != -1) {
-		var selectedProject = $(this),
-			toggle = !selectedProject.hasClass('is-full-width');
-		if(toggle) toggleProject($(document.getElementById('signature')), $('.projects-container'), toggle);
+  if(window.location.href.indexOf('#signature') !== -1) {
+		toggleProject($(document.getElementById('signature')), $('.projects-container'), true);
   }
-
 
 	//close project
 	$('.projects-container .cd-close').on('click', function(){
@@ -83,11 +71,11 @@
 		if(bool) {
 			//expand project
 			container.addClass('project-is-open');
-			project.addClass('is-full-width').siblings('li').removeClass('is-loaded');
+			project.addClass('is-full-width');
 		} else {
 			//check media query
-			var mq = window.getComputedStyle(document.querySelector('.projects-container'), '::before').getPropertyValue('content').replace(/"/g, "").replace(/'/g, ""),
-				delay = ( mq == 'mobile' ) ? 100 : 0;
+			var mq = window.getComputedStyle(document.querySelector('.projects-container'), '::before').getPropertyValue('content'),
+				delay = ( mq === 'mobile' ) ? 50 : 0;
 
 			container.removeClass('project-is-open');
 			//fade out project
@@ -99,7 +87,7 @@
 				}, delay);
 				setTimeout(function(){
 					showCaption($('.projects-container li').eq(0));
-				}, 100);
+				}, 50);
 			});		
 		}
 	}

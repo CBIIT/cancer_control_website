@@ -217,9 +217,6 @@ Main Components
 .projects-container > ul {
 	background-color:#fff;	
 }
-.projects-container.project-is-open .cd-single-project {
-	position: fixed;
-}
 .projects-container .cd-single-project::after {
   /* background image */
   content: '';
