@@ -39,55 +39,6 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
 <link href="https://fonts.googleapis.com/css?family=Merriweather:300,300i|Source+Sans+Pro:300,300i,400,400i,600,600i,700,700i" rel="stylesheet">
 <!-- Styles.css is compiled from LESS files -->
 <link href="../css/styles.css" rel="stylesheet">
-<!-- Pager styles -->
-<style type="text/css">
-    #pager {
-        background-color: #f2f2f2;
-        border: 1px solid #ccc;
-        margin: 20px 0px;
-        padding: 15px 20px;
-    }
-    #pager .showing {
-        text-align: center;
-        font-weight: bold;
-        margin-bottom: 20px;
-    }
-    #pager .pager {
-        float:left;
-    }
-    #pager .options {
-        float:right;
-        margin: 20px 0;
-    }
-    #pager .options .perPage {
-        height: 34px;
-        padding: 6px 12px;
-        font-size: 14px;
-        line-height: 1.42857143;
-        color: #555;
-        background-color: #fff;
-        background-image: none;
-        border: 1px solid #ccc;
-        border-radius: 3px;
-    }
-    #pager .pager .btn {
-        text-decoration: none;
-        background-color: #fff;
-        border: 1px solid #ddd;
-    }
-    #pager .pager .btn:focus,
-    #pager .pager .btn:hover {
-        text-decoration: none;
-        background-color: #fff;
-        border: 1px solid #2f70a8;
-        color:#2f70a8;
-    }
-    #pager .pager .btn.current {
-        background-color: #183a57;
-        color:#fff;
-        border: 1px solid #183a57;
-    }
-</style>
 <!--[if lte IE 9]>
 	<link href="../css/ie-styles-min.css" rel="stylesheet" type="text/css">
 <![endif]-->
@@ -517,7 +468,7 @@ height="0" width="0" style="display:none;visibility:hidden" title="Google Tag Ma
 <script src="/IS/js/bootstrap-hover-dropdown.min.js"></script>
 <!-- Custom jQuery -->
 <script src="/IS/js/scripts-min.js"></script>
-<script src="/IS/js/IS-webinars.js"></script>
+<script src="/IS/js/IS-webinars.min.js"></script>
 <script src="/IS/js/simplePaging1.0.js"></script>
 <script src='https://ajax.microsoft.com/ajax/jquery.templates/beta1/jquery.tmpl.min.js'></script>
 
