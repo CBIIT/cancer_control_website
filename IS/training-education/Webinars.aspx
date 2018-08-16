@@ -15,10 +15,10 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
 })(window,document,'script','dataLayer','GTM-P5PMZ88');</script>
 <!-- End Google Tag Manager -->
 <!-- SEO -->
-<meta name="description" content="">
+<meta name="description" content="Register for upcoming webinars and view archived sessions from the Advanced Topics in Implementation Science webinar series and Research to Reality.">
 <meta name="keywords" content="">
 <meta name="author" content="National Cancer Institute, Division of Cancer Control and Population Science">
-<title>Webinars | Training &amp; Education | IS | DCCPS/NCI/NIH</title>
+<title>Webinars | IS | DCCPS/NCI/NIH</title>
 <!-- Disable tap highlight on IE -->
 <meta name="msapplication-tap-highlight" content="no">
 <!-- Default Favicons -->

@@ -8,9 +8,9 @@
 <meta http-equiv="X-UA-Compatible" content="IE=edge">
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <!-- SEO -->
-    <meta name="description" content="Training and Education Page" />
+    <meta name="description" content="Application for the Training Institute for Dissemination and Implementation Research in Cancer (TIDIRC)." />
 <meta name="author" content="National Cancer Institute, Division of Cancer Control and Population Science">
-    <title>TIDIRC Application Details - TIDIRC - Implementation Science</title>
+    <title>TIDIRC Application Details | IS | DCCPS/NCI/NIH</title>
 <!-- Disable tap highlight on IE -->
 <meta name="msapplication-tap-highlight" content="no">
 <!-- Default Favicons -->

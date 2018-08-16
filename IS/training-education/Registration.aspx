@@ -18,7 +18,7 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
 <meta name="description" content="">
 <meta name="keywords" content="">
 <meta name="author" content="National Cancer Institute, Division of Cancer Control and Population Science">
-<title>Webinar Registration | Training &amp; Education | IS | DCCPS/NCI/NIH</title>
+<title>Webinar Registration | IS | DCCPS/NCI/NIH</title>
 <!-- Disable tap highlight on IE -->
 <meta name="msapplication-tap-highlight" content="no">
 <!-- Default Favicons -->

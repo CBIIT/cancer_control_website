@@ -22,8 +22,7 @@
     <meta name="keywords" content="">
     <meta name="author" content="National Cancer Institute, Division of Cancer Control and Population Science">
     <title>
-        <asp:Literal ID="WEBINAR_topic_pagetitle" runat="server"></asp:Literal>
-        | Webinars | Training &amp; Education | IS | DCCPS/NCI/NIH</title>
+        <asp:Literal ID="WEBINAR_topic_pagetitle" runat="server"></asp:Literal> Webinar | IS | DCCPS/NCI/NIH</title>
     <!-- Disable tap highlight on IE -->
     <meta name="msapplication-tap-highlight" content="no">
     <!-- Default Favicons -->
