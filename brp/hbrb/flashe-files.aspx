@@ -182,7 +182,7 @@
                     <li><a href="/brp/hbrb/index.html">HBRB</a></li>
 					<li><a href="/brp/hbrb/key-initiatives.html">Key Initiatives</a></li>
                     <li><a href="/brp/hbrb/flashe.html">FLASHE</a></li>
-                    <li>FLASHE Data Terms of Use</li>
+                    <li>FLASHE Public Use Data Files and Supporting  Documentation </li>
                   </ul> 
 		</div> <!-- /.col-lg-12 -->
 	</div> <!-- /.row -->
@@ -231,9 +231,9 @@
 			<h2 id="GeoFLASHE">GeoFLASHE data and  resources</h2>
             <p>GeoFLASHE data are  neighborhood characteristics calculated for use with FLASHE survey data. These  data are available for data users to merge with FLASHE survey data to conduct  analyses examining neighborhood characteristics and behavior.</p>
             <ul class="inline-links">
-              <li>Codebook (<a href="docs/FLASHE-GeoData-Codebook-revised-GeoFLASHE5.bNCI1.xlsx" target="_blank">XLS</a>)</li>
+              <li>Codebook (<a href="docs/FLASHE-GeoData-Codebook-revised-GeoFLASHE5.bNCI2.xlsx" target="_blank">XLS</a>)</li>
               <li>GeoFLASHE methods report  (<a href="docs/GeoFLASHE-Methods-Report-NCI.pdf" target="_blank">PDF</a>) </li>
-              <li>GeoFLASHE data (SPSS, SAS  file)  (coming soon!)</li>
+              <li>GeoFLASHE data (<a href="docs/geoFLASHE-SPSS.zip">SPSS</a>, <a href="docs/geoFLASHE-SAS.zip">SAS</a>) &ndash; Added August 2018</li>
             </ul>
 			<h2 id="Dyadic">Dyadic analysis resources</h2>
 			<p>FLASHE data can be used to conduct individual- or dyadic-level analyses. The <a href="/brp/hbrb/flashe-dyadic-analysis.aspx">dyadic analysis resource</a> page and <a href="/brp/hbrb/flashe-webinar.html">introductory webinar</a> provide information on conducting dyadic analyses with FLASHE data.</p>
@@ -325,7 +325,7 @@
 <div class="container">
 	<div class="row">
 		<div class="col-lg-12">
-			<p class="update"><span class="bold">Last Updated:</span> April 9, 2018</p>
+			<p class="update"><span class="bold">Last Updated:</span> August 14, 2018</p>
 		</div> <!-- /.col-lg-12 -->
 	</div> <!-- /.row -->
 </div> <!-- /.container -->
