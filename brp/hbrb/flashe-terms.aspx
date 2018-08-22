@@ -116,7 +116,8 @@
 							<li class="landing-page-link"><a href="/brp/funding/">Funding Opportunities <span class="sr-only">Landing Page</span></a></li>
 							<li><a href="/brp/funding/funding-opportunities.html">Apply for Behavioral Grants</a></li>
 							<li><a href="/brp/funding/sample-application.html">Sample Grant Applications</a></li>
-							<li><a href="https://staffprofiles.cancer.gov/brp/granteeList.do">Featured Grantees</a></li>
+							<a href="/brp/archive/funding-conf.html">Conference: The Science of Research on Discrimination and Health</a></li>
+							<li><a href="/brp/archive/publications.html">Highlighted Publications</a></li>
 						</ul>
 					</li>
 					<li class="dropdown">
