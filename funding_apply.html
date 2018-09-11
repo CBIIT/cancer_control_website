@@ -53,17 +53,23 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
 <![endif]-->
 	
 	<style type="text/css">
-		.four-column-table th:nth-child(1) {
+		table th:nth-child(1) {
 			width:38%;
 		}
-		.four-column-table th:nth-child(2) {
-			width:17%;
-		}
-		.four-column-table th:nth-child(3) {
+		table th:nth-child(2), table th:nth-child(3) {
 			width:18%;
 		}
-		.four-column-table th:nth-child(4) {
-			width:27%;
+		table th:nth-child(4) {
+			width:26%;
+		}
+		.three-column-table th:nth-child(1) {
+			width:56%;
+		}
+		.three-column-table th:nth-child(2) {
+			width:18%;
+		}
+		.three-column-table th:nth-child(3) {
+			width:26%;
 		}
 	</style>
 	
@@ -296,9 +302,9 @@ height="0" width="0" style="display:none;visibility:hidden" title="Google Tag Ma
             <table class="table table-striped table-bordered table-condensed three-column-table" aria-describedby="pofa">
               <thead>
                 <tr>
-                  <th scope="col" style="width:50%;">Title</th>
-                  <th scope="col" style="width:25%;">Announcement # / Mechanism(s)</th>
-                  <th scope="col" style="width:25%;">Expiration Date</th>
+                  <th scope="col">Title</th>
+                  <th scope="col">Announcement # / Mechanism(s)</th>
+                  <th scope="col">Expiration Date</th>
                 </tr>
               </thead>
               <tbody>
@@ -323,7 +329,7 @@ height="0" width="0" style="display:none;visibility:hidden" title="Google Tag Ma
           </div>
           <h2 id="ocs">Cancer Survivorship</h2>
           <div class="table-responsive">
-            <table class="table table-striped table-bordered table-condensed four-column-table" aria-describedby="ocs">
+            <table class="table table-striped table-bordered table-condensed" aria-describedby="ocs">
               <thead>
                 <tr>
                   <th scope="col">Title</th>
@@ -356,7 +362,7 @@ height="0" width="0" style="display:none;visibility:hidden" title="Google Tag Ma
           </div>
           <h2 id="egrp">Epidemiology and Genomics Research</h2>
           <div class="table-responsive">
-            <table class="table table-striped table-bordered table-condensed four-column-table" aria-describedby="egrp">
+            <table class="table table-striped table-bordered table-condensed" aria-describedby="egrp">
               <thead>
                 <tr>
                   <th scope="col">Title</th>
@@ -552,7 +558,7 @@ height="0" width="0" style="display:none;visibility:hidden" title="Google Tag Ma
           </div>
           <h2 id="hdr">Healthcare Delivery Research</h2>
           <div class="table-responsive">
-            <table class="table table-striped table-bordered table-condensed four-column-table" aria-describedby="hdr">
+            <table class="table table-striped table-bordered table-condensed" aria-describedby="hdr">
               <thead>
                 <tr>
                   <th scope="col">Title</th>
@@ -664,7 +670,7 @@ height="0" width="0" style="display:none;visibility:hidden" title="Google Tag Ma
           </div>
           <h2 id="hd">Health Disparities</h2>
           <div class="table-responsive">
-            <table class="table table-striped table-bordered table-condensed four-column-table" aria-describedby="hd">
+            <table class="table table-striped table-bordered table-condensed" aria-describedby="hd">
               <thead>
                 <tr>
                   <th scope="col">Title</th>
@@ -756,7 +762,7 @@ height="0" width="0" style="display:none;visibility:hidden" title="Google Tag Ma
           </div>
           <h2 id="is">Implementation Science</h2>
           <div class="table-responsive">
-            <table class="table table-striped table-bordered table-condensed four-column-table" aria-describedby="is">
+            <table class="table table-striped table-bordered table-condensed" aria-describedby="is">
               <thead>
                 <tr>
                   <th scope="col">Title</th>
@@ -785,7 +791,7 @@ height="0" width="0" style="display:none;visibility:hidden" title="Google Tag Ma
           </div>
           <h2 id="srp">Surveillance Research</h2>
           <div class="table-responsive">
-            <table class="table table-striped table-bordered table-condensed four-column-table" aria-describedby="srp">
+            <table class="table table-striped table-bordered table-condensed" aria-describedby="srp">
               <thead>
                 <tr>
                   <th scope="col">Title</th>
@@ -826,7 +832,7 @@ height="0" width="0" style="display:none;visibility:hidden" title="Google Tag Ma
           </div>
           <h2 id="bbpsb">Basic Biobehavioral and Psychological Sciences</h2>
           <div class="table-responsive">
-            <table class="table table-striped table-bordered table-condensed four-column-table" aria-describedby="bbpsb">
+            <table class="table table-striped table-bordered table-condensed" aria-describedby="bbpsb">
               <thead>
                 <tr>
                   <th scope="col">Title</th>
@@ -930,7 +936,7 @@ height="0" width="0" style="display:none;visibility:hidden" title="Google Tag Ma
           </div>
           <h2 id="hbrb">Health Behaviors Research</h2>
           <div class="table-responsive">
-            <table class="table table-striped table-bordered table-condensed four-column-table" aria-describedby="hbrb">
+            <table class="table table-striped table-bordered table-condensed" aria-describedby="hbrb">
               <thead>
                 <tr>
                   <th scope="col">Title</th>
@@ -1004,7 +1010,7 @@ height="0" width="0" style="display:none;visibility:hidden" title="Google Tag Ma
           </div>
           <h2 id="hcirb">Health Communication and Informatics Research</h2>
           <div class="table-responsive">
-            <table class="table table-striped table-bordered table-condensed four-column-table" aria-describedby="hcirb">
+            <table class="table table-striped table-bordered table-condensed" aria-describedby="hcirb">
               <thead>
                 <tr>
                   <th scope="col">Title</th>
@@ -1067,7 +1073,7 @@ height="0" width="0" style="display:none;visibility:hidden" title="Google Tag Ma
           </div>
           <h2 id="tcrb">Tobacco Control Research</h2>
           <div class="table-responsive">
-            <table class="table table-striped table-bordered table-condensed four-column-table" aria-describedby="tcrb">
+            <table class="table table-striped table-bordered table-condensed" aria-describedby="tcrb">
               <thead>
                 <tr>
                   <th scope="col">Title</th>
