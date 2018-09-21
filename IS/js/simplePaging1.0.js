@@ -150,8 +150,9 @@
                 '</div>';
 
         html += '<div class="options" style="text-align: center; margin-bottom: 10px;">' +
+                    '<label class="sr-only" for="paging-select">Show number of webinars per page </label>' +
                     '<span>Show </span>' +
-                    '<select class="perPage">';
+                    '<select class="perPage" id="paging-select">';
 
         for (var i = 0; i < options.length; i++) {
             if (options[i] == itemsPerPage) {
