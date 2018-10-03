@@ -277,7 +277,7 @@
                                     <img alt="" src='<%# "https://cyberseminar.cancercontrolplanet.org/application_WS/ViewPresenterImage.aspx?ID=" & Eval("PK_Presenter") %>' style="width: 100%; height: auto">
                                 </div>
                                 <div runat="server" visible='<%# (Eval("ext").ToString() Is "") %>'>
-                                    <img src="/IS/images/no-photo.jpg" style="width: 100%; height: auto">
+                                    <img src="/IS/images/no-photo.jpg" alt="" style="width: 100%; height: auto">
                                 </div>
                                 <h3><%# Eval("PresenterName") %></h3>
                                 <div runat="server" visible='<%# (Eval("Organization").ToString() IsNot "") %>'>
