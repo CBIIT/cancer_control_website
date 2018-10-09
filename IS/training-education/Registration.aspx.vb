@@ -1,4 +1,6 @@
 ﻿Imports System.Globalization
+
+Imports AESEncrypt.AESEncrypt
 Partial Class IS_webinars
     Inherits System.Web.UI.Page
 
@@ -59,14 +61,12 @@ Partial Class IS_webinars
 
         Dim strreturn As String = ""
 
-        strreturn = WS.ImplementationScience_Register(varID, txtfirstname.Text, txtlastname.Text, txtemail.Text, txtorg.Text, txtmoi.Text, txtparticipants.Text, CK_Sub.Text)
+        strreturn = WS.ImplementationScience_Register(varID, txtfirstname.Text, txtlastname.Text, txtemail.Text, txtorg.Text, txtmoi.Text, txtparticipants.Text, CBool(CK_Sub.Checked))
 
-        If strreturn = "1" Then
-            'Good Registration?
-			Response.Redirect("~/IS/training-education/Webinars.aspx")
-        ElseIf strreturn = "2" Then
-            'Bad Registration?
-        End If
+        Response.Redirect("~/IS/training-education/thank-you.html")
 
+    End Sub
+    Protected Sub BTN_Cancel_Click(sender As Object, e As EventArgs) Handles BTN_Cancel.Click
+        Response.Redirect("~/IS/training-education/Webinars.aspx")
     End Sub
 End Class
