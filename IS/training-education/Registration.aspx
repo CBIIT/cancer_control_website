@@ -328,8 +328,8 @@ height="0" width="0" style="display:none;visibility:hidden" title="Google Tag Ma
                 </td>
             </tr>
                 <tr>
-                <td class="cells" colspan="3" align="center">
-                    <asp:CheckBox ID="CK_Sub" Checked="true" Text=" I’d like to receive future webinar invitations and monthly newsletters from the Implementation Science Team." runat="server" />
+                <td class="cells" colspan="3" class="center" style="display:none;">
+                    <asp:CheckBox ID="CK_Sub" Checked="false" Text=" I’d like to receive future webinar invitations and monthly newsletters from the Implementation Science Team." runat="server" />
                 </td>
 
                 </tr>

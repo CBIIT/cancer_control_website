@@ -63,7 +63,18 @@ Partial Class IS_webinars
 
         strreturn = WS.ImplementationScience_Register(varID, txtfirstname.Text, txtlastname.Text, txtemail.Text, txtorg.Text, txtmoi.Text, txtparticipants.Text, CBool(CK_Sub.Checked))
 
-        Response.Redirect("~/IS/training-education/thank-you.html")
+        If strreturn = "0" Then
+            'Good Registration?
+            'Response.Write("<h1>==" & strreturn & "=== added</h1>")
+            Response.Redirect("~/IS/training-education/thank-you.html")
+        ElseIf strreturn = "1" Then
+            'Good Registration?
+            'Response.Write("<h1>==" & strreturn & "=== added</h1>")
+            Response.Redirect("~/IS/training-education/thank-you.html")
+        Else
+            'Response.Write("<h1>==" & strreturn & "=== added</h1>")
+            Response.Redirect("~/IS/training-education/Webinars.aspx")
+        End If
 
     End Sub
     Protected Sub BTN_Cancel_Click(sender As Object, e As EventArgs) Handles BTN_Cancel.Click
