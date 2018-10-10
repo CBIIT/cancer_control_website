@@ -132,7 +132,7 @@ height="0" width="0" style="display:none;visibility:hidden" title="Google Tag Ma
                                 <a class="dropdown-toggle" data-toggle="dropdown" data-hover="dropdown" tabindex="0">Training &amp; Education<span class="sr-only">Open Dropdown</span><b class="caret"></b></a>
                                 <ul class="dropdown-menu">
                                     <li class="landing-page-link active"><a href="/IS/training-education/index.html">Training &amp; Education <span class="sr-only">Training &amp; Education</span></a></li>
-                                    <li class="active"><a href="/IS/training-education/Webinars.aspx">Webinars</a></l>
+                                    <li class="active"><a href="/IS/training-education/Webinars.aspx">Webinars</a></li>
                                 </ul>
                             </li>
                             <li class="dropdown">
@@ -195,14 +195,14 @@ height="0" width="0" style="display:none;visibility:hidden" title="Google Tag Ma
         <div class="col-md-12">
         <h3 class="first"><asp:Literal ID="WEBINAR_topic_title" runat="server"></asp:Literal></h3>
         <br>
-          <table width="98%" border="0" cellspacing="0" cellpadding="0" class="table">
+          <table style="width:98%" border="0" class="table">
             <tr>
-                <th width="42%" class="cells" scope="col">
+                <th style="width:42%" class="cells" scope="col">
                     <span class="register">Register</span>
                 </th>
-                <th width="4%" scope="col">
+                <th style="width:4%" scope="col">
                 </th>
-                <th width="54%" scope="col">
+                <th style="width:54%" scope="col">
                     <span class="required">* Required fields</span>
                 </th>
             </tr>
@@ -328,13 +328,13 @@ height="0" width="0" style="display:none;visibility:hidden" title="Google Tag Ma
                 </td>
             </tr>
                 <tr>
-                <td class="cells" colspan="3" class="center" style="display:none;">
+                <td class="cells center" colspan="3" style="display:none;">
                     <asp:CheckBox ID="CK_Sub" Checked="false" Text=" I’d like to receive future webinar invitations and monthly newsletters from the Implementation Science Team." runat="server" />
                 </td>
 
                 </tr>
             <tr>
-                <td class="cells" colspan="3" align="center">
+                <td class="cells center" colspan="3">
                     <asp:Button ID="btnregister" CssClass="btn btn-default btn-inline" runat="server" Text="Register Now!" />
                     <asp:Button ID="BTN_Cancel" CssClass="btn btn-default btn-inline" CausesValidation="false" runat="server"
                         Text="Cancel" />
