@@ -66,11 +66,11 @@ Partial Class IS_webinars
         If strreturn = "0" Then
             'Good Registration?
             'Response.Write("<h1>==" & strreturn & "=== added</h1>")
-            Response.Redirect("~/IS/training-education/thank-you.html")
+            Response.Redirect("~/IS/training-education/thank-you.aspx?ID=" & varID)
         ElseIf strreturn = "1" Then
             'Good Registration?
             'Response.Write("<h1>==" & strreturn & "=== added</h1>")
-            Response.Redirect("~/IS/training-education/thank-you.html")
+            Response.Redirect("~/IS/training-education/thank-you.aspx?ID=" & varID)
         Else
             'Response.Write("<h1>==" & strreturn & "=== added</h1>")
             Response.Redirect("~/IS/training-education/Webinars.aspx")
