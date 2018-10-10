@@ -213,9 +213,7 @@ Partial Class IS_webinars
         Return strDetails.ToString
     End Function
 
-    Private Function Output_Google_AddToCalendar(ByVal title As String, ByVal date_start As Date, ByVal date_end As Date, ByVal websiteURL As String,
-                                           ByVal websiteName As String, ByVal guests As String, ByVal details As String, ByVal location As String,
-                                           ByVal busy As Boolean) As String
+    Private Function Output_Google_AddToCalendar(ByVal title As String, ByVal date_start As String, ByVal date_end As String, ByVal websiteURL As String, ByVal websiteName As String, ByVal guests As String, ByVal details As String, ByVal location As String, ByVal busy As Boolean) As String
 
         Dim str_start As String = String.Format("{0:yyyyMMdd\THHmmss}", date_start)
         Dim str_end As String = String.Format("{0:yyyyMMdd\THHmmss}", date_end)
@@ -290,8 +288,7 @@ Partial Class IS_webinars
 
     Protected Sub BTN_AddtoOutlook_Click(sender As Object, e As EventArgs) Handles BTN_AddtoOutlook.Click
 
-        Download_Outlook_AddToCalendar(LBL_SeminarName, LIT_Starttime,
-                                        LIT_endtime, OutlookHTMLDetails())
+        Download_Outlook_AddToCalendar(LBL_SeminarName, LIT_Starttime, LIT_endtime, OutlookHTMLDetails())
 
     End Sub
 
