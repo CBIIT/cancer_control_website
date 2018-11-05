@@ -1,5 +1,6 @@
 ﻿Imports System.Data
 Imports System.Data.SqlClient
+Imports System.Net
 
 Partial Class IS_webinars
     Inherits System.Web.UI.Page
@@ -8,6 +9,8 @@ Partial Class IS_webinars
 
     Protected Sub Page_Load(sender As Object, e As EventArgs) Handles Me.Load
 
+		System.Net.ServicePointManager.SecurityProtocol = SecurityProtocolType.Tls12
+		
         Dim WS As New ApplicationWebSerrvice.S_ApplicationsSoapClient
 
         Dim varID As String = Server.HtmlEncode(Request.QueryString("ID"))

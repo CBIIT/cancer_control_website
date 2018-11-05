@@ -1,5 +1,5 @@
-﻿
-Imports System.Globalization
+﻿Imports System.Globalization
+Imports System.Net
 
 Partial Class WS_Testing_Default
     Inherits System.Web.UI.Page
@@ -7,6 +7,8 @@ Partial Class WS_Testing_Default
 
     Protected Sub Page_Load(sender As Object, e As EventArgs) Handles Me.Load
 
+		System.Net.ServicePointManager.SecurityProtocol = SecurityProtocolType.Tls12
+		
         If Not Page.IsPostBack Then
 
 

@@ -1,12 +1,11 @@
-﻿
-Imports Microsoft.VisualBasic
+﻿Imports Microsoft.VisualBasic
 Imports System
 Imports System.Configuration
 Imports System.Data.SqlClient
 Imports System.Data
 Imports System.Globalization
-
 Imports System.IO
+Imports System.Net
 
 Imports AESEncrypt.AESEncrypt
 
@@ -37,6 +36,8 @@ Partial Class CAA_Testing_testReg
                 bytes_Headshot_File = br.ReadBytes(DirectCast(fs.Length, Long))
             End Using
         End Using
+
+		System.Net.ServicePointManager.SecurityProtocol = SecurityProtocolType.Tls12
 
         Dim WS As New ApplicationWebSerrvice.S_ApplicationsSoapClient
 

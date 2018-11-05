@@ -1,4 +1,5 @@
 ﻿Imports System.Globalization
+Imports System.Net
 
 Imports AESEncrypt.AESEncrypt
 Partial Class IS_webinars
@@ -6,6 +7,8 @@ Partial Class IS_webinars
 
     Protected Sub Page_Load(sender As Object, e As EventArgs) Handles Me.Load
 
+		System.Net.ServicePointManager.SecurityProtocol = SecurityProtocolType.Tls12
+		
         Dim WS As New ApplicationWebSerrvice.S_ApplicationsSoapClient
 
         Dim varID As String = Server.HtmlEncode(Request.QueryString("ID"))
