@@ -149,7 +149,8 @@ height="0" width="0" style="display:none;visibility:hidden" title="Google Tag Ma
                                 <ul class="dropdown-menu">
                                     <li class="landing-page-link"><a href="/IS/about.html">About IS<span class="sr-only">Landing Page</span></a></li>
                                     <li><a href="/IS/staff.html">Staff</a></li>
-                                    <li><a href="/IS/blog/index.html">Blog</a></li>
+									<li><a href="/IS/blog/index.html">Blog</a></li>
+									<li><a href="/IS/career.html">Careers</a></li>
                                 </ul>
                             </li>
                         </ul>
