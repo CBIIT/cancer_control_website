@@ -196,7 +196,7 @@
 	<div class="row">
 		<div class="col-md-9 col-md-push-3">
         	<p>Individuals who are part of a close relationship &ndash; such as a parent and child &ndash; may influence each another. Such individuals may also express similarity in their thoughts, behavior, or affect. The FLASHE study is designed to capture this type of interdependence and homogeneity. </p>
-			<p>FLASHE incorporates the conceptualization of multilevel influences on multiple cancer-preventive  health behaviors into a dyadic design to facilitate numerous research questions focused on either an individual (parent or adolescent) or the dyad (parent and adolescent). The analysis of dyadic data is much more complicated than the analysis of data from individuals. &nbsp;To support data users who are interested in conducting  dyadic analyses, we have provided the following resources:</p>
+			<p>FLASHE incorporates the conceptualization of multilevel influences on multiple cancer-preventive  health behaviors into a dyadic design to facilitate numerous research questions focused on either an individual (parent or adolescent) or the dyad (parent and adolescent). The analysis of dyadic data is much more complicated than the analysis of data from individuals. To support data users who are interested in conducting  dyadic analyses, we have provided the following resources:</p>
 			<h3>Presentations and Webinars</h3>
 			<ul>
 			  <li>A short introduction to dyadic analysis (<a href="/brp/hbrb/flashe-webinar.html">webinar</a>)</li>
