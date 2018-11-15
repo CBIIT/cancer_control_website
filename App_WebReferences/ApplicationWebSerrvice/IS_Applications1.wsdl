@@ -82,6 +82,10 @@
             <s:element minOccurs="0" maxOccurs="1" name="bytes_ConceptPaper_File" type="s:base64Binary" />
             <s:element minOccurs="0" maxOccurs="1" name="ConceptPaper_ContentType" type="s:string" />
             <s:element minOccurs="0" maxOccurs="1" name="ConceptPaper_Filename" type="s:string" />
+            <s:element minOccurs="0" maxOccurs="1" name="FOE" type="s:string" />
+            <s:element minOccurs="0" maxOccurs="1" name="Country" type="s:string" />
+            <s:element minOccurs="0" maxOccurs="1" name="FK_Event" type="s:string" />
+            <s:element minOccurs="0" maxOccurs="1" name="DocLevelCredentials" type="s:string" />
           </s:sequence>
         </s:complexType>
       </s:element>
@@ -550,6 +554,10 @@
     <wsdl:part name="bytes_ConceptPaper_File" type="s1:StringArray" />
     <wsdl:part name="ConceptPaper_ContentType" type="s:string" />
     <wsdl:part name="ConceptPaper_Filename" type="s:string" />
+    <wsdl:part name="FOE" type="s:string" />
+    <wsdl:part name="Country" type="s:string" />
+    <wsdl:part name="FK_Event" type="s:string" />
+    <wsdl:part name="DocLevelCredentials" type="s:string" />
   </wsdl:message>
   <wsdl:message name="Insert_ApplicationHttpGetOut">
     <wsdl:part name="Body" element="tns:string" />
@@ -705,6 +713,10 @@
     <wsdl:part name="bytes_ConceptPaper_File" type="s1:StringArray" />
     <wsdl:part name="ConceptPaper_ContentType" type="s:string" />
     <wsdl:part name="ConceptPaper_Filename" type="s:string" />
+    <wsdl:part name="FOE" type="s:string" />
+    <wsdl:part name="Country" type="s:string" />
+    <wsdl:part name="FK_Event" type="s:string" />
+    <wsdl:part name="DocLevelCredentials" type="s:string" />
   </wsdl:message>
   <wsdl:message name="Insert_ApplicationHttpPostOut">
     <wsdl:part name="Body" element="tns:string" />
