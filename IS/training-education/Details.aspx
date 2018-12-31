@@ -42,7 +42,7 @@
     <!-- Google Fonts Source Sans & Merriweather -->
     <link href="https://fonts.googleapis.com/css?family=Merriweather:300,300i|Source+Sans+Pro:300,300i,400,400i,600,600i,700,700i" rel="stylesheet">
     <!-- Styles.css is compiled from LESS files -->
-    <link href="../css/styles.css" rel="stylesheet">
+    <link href="../css/styles-min.css" rel="stylesheet">
     <!--[if lte IE 9]>
 	<link href="../css/ie-styles-min.css" rel="stylesheet" type="text/css">
 <![endif]-->
