@@ -112,7 +112,7 @@ Partial Class IS_training_education_tidirc_application
 
     Protected Sub BTN_UploadClicked_Click(sender As Object, e As EventArgs) Handles BTN_UploadClicked.Click
 
-		System.Net.ServicePointManager.SecurityProtocol = SecurityProtocolType.Tls12
+        System.Net.ServicePointManager.SecurityProtocol = SecurityProtocolType.Tls12
 		
         If Page.IsValid Then
 
@@ -298,6 +298,10 @@ Partial Class IS_training_education_tidirc_application
 
         End If
 
+    End Sub
+
+    Protected Sub BTN_Cancel_Click(sender As Object, e As EventArgs) Handles BTN_Cancel.Click
+        Response.Redirect("~/IS/training-education/tidirc/index.html")
     End Sub
 
 End Class

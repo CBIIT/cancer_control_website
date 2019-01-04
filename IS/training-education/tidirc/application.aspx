@@ -390,7 +390,8 @@
 						<asp:CustomValidator ID="CustomValidator4" runat="server" ControlToValidate="UP_ConceptPaper_File" Display="Dynamic" ErrorMessage="File size should not be greater than 1 MB." CssClass="alert alert-danger" OnServerValidate="CustomValidator4_ServerValidate"></asp:CustomValidator>
 						
 						<hr>
-						<asp:Button ID="BTN_UploadClicked" class="btn btn-default btn-inline" runat="server" Text="Submit Application" /><br>
+						<asp:Button ID="BTN_UploadClicked" class="btn btn-default btn-inline" runat="server" Text="Submit Application" /> <br>
+                        <asp:Button ID="BTN_Cancel" CssClass="btn btn-default btn-inline" CausesValidation="false" runat="server" Text="Cancel" /> <br>
 						<div class="spacer-20"></div>
 					</div> 
 				</div>

@@ -291,7 +291,7 @@ height="0" width="0" style="display:none;visibility:hidden" title="Google Tag Ma
 		<div class="col-md-3 col-md-pull-9">
 			<h3>Filters</h3>
 			<div id="webinar-filters" class="accordion-group">
-				<div class="accordion-heading">
+				<div class="accordion-heading" id="category-heading">
 					<a class="btn btn-accordion accordion-toggle collapsed" data-toggle="collapse" data-target="#category" tabindex="0" aria-controls="collapse">
 						<div class="accordion-icon"><span class="glyphicon glyphicon-plus"></span></div>
 						<div class="accordion-title">Category</div>
@@ -310,7 +310,7 @@ height="0" width="0" style="display:none;visibility:hidden" title="Google Tag Ma
                     </asp:Repeater>
 					</div> <!-- /.accordion-inner -->
 				</div> <!-- /.accordion-body -->
-				<div class="accordion-heading">
+				<div class="accordion-heading" id="year-heading">
 					<a class="btn btn-accordion accordion-toggle collapsed" data-toggle="collapse" data-target="#year" tabindex="0" aria-controls="collapse">
 						<div class="accordion-icon"><span class="glyphicon glyphicon-plus"></span></div>
 						<div class="accordion-title">Year</div>
@@ -329,7 +329,7 @@ height="0" width="0" style="display:none;visibility:hidden" title="Google Tag Ma
                         </asp:Repeater>
 					</div> <!-- /.accordion-inner -->
 				</div> <!-- /.accordion-body -->
-				<div class="accordion-heading">
+				<div class="accordion-heading" id="presenter-heading">
 					<a class="btn btn-accordion accordion-toggle collapsed" data-toggle="collapse" data-target="#presenter" tabindex="0" aria-controls="collapse">
 						<div class="accordion-icon"><span class="glyphicon glyphicon-plus"></span></div>
 						<div class="accordion-title">Presenter</div>
@@ -348,7 +348,7 @@ height="0" width="0" style="display:none;visibility:hidden" title="Google Tag Ma
                         </asp:Repeater>
 					</div> <!-- /.accordion-inner -->
 				</div> <!-- /.accordion-body -->
-				<div class="accordion-heading">
+				<div class="accordion-heading" id="series-heading">
 					<a class="btn btn-accordion accordion-toggle collapsed" data-toggle="collapse" data-target="#series" tabindex="0" aria-controls="collapse">
 						<div class="accordion-icon"><span class="glyphicon glyphicon-plus"></span></div>
 						<div class="accordion-title">Series</div>
