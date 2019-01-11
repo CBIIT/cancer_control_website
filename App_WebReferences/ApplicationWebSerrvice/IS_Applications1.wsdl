@@ -38,6 +38,8 @@
             <s:element minOccurs="0" maxOccurs="1" name="SandwichDay2" type="s:string" />
             <s:element minOccurs="0" maxOccurs="1" name="CheeseDay2" type="s:string" />
             <s:element minOccurs="0" maxOccurs="1" name="SnackDay2" type="s:string" />
+            <s:element minOccurs="0" maxOccurs="1" name="EmailTitle" type="s:string" />
+            <s:element minOccurs="0" maxOccurs="1" name="EmailDate" type="s:string" />
           </s:sequence>
         </s:complexType>
       </s:element>
@@ -518,6 +520,8 @@
     <wsdl:part name="SandwichDay2" type="s:string" />
     <wsdl:part name="CheeseDay2" type="s:string" />
     <wsdl:part name="SnackDay2" type="s:string" />
+    <wsdl:part name="EmailTitle" type="s:string" />
+    <wsdl:part name="EmailDate" type="s:string" />
   </wsdl:message>
   <wsdl:message name="CAA_RegistrationHttpGetOut">
     <wsdl:part name="Body" element="tns:string" />
@@ -677,6 +681,8 @@
     <wsdl:part name="SandwichDay2" type="s:string" />
     <wsdl:part name="CheeseDay2" type="s:string" />
     <wsdl:part name="SnackDay2" type="s:string" />
+    <wsdl:part name="EmailTitle" type="s:string" />
+    <wsdl:part name="EmailDate" type="s:string" />
   </wsdl:message>
   <wsdl:message name="CAA_RegistrationHttpPostOut">
     <wsdl:part name="Body" element="tns:string" />

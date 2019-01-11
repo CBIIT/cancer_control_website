@@ -37,7 +37,7 @@ Partial Class CAA_Testing_testReg
             End Using
         End Using
 
-		System.Net.ServicePointManager.SecurityProtocol = SecurityProtocolType.Tls12
+        System.Net.ServicePointManager.SecurityProtocol = SecurityProtocolType.Tls12
 
         Dim WS As New ApplicationWebSerrvice.S_ApplicationsSoapClient
 
@@ -57,6 +57,10 @@ Partial Class CAA_Testing_testReg
         Dim SandwichDay2 As String = ""
         Dim CheeseDay2 As String = ""
         Dim SnackDay2 As String = ""
+
+        Dim FK_Event_String As String = "2"
+        Dim EmailTitle As String = "Strategies to Prevent or Remediate Cancer- and Treatment-Associated Aging"
+        Dim EmailDate As String = "February 11-12, 2019"
 
         If RDList_BoxLunchDay1.Text = "TRUE" Then
             BoxLunchDay1 = RDList_BoxLunchDay1.Text
@@ -99,11 +103,15 @@ Partial Class CAA_Testing_testReg
         End If
 
         'strResult = WS.CAA_Registration(LIT_FK_Event.Text, AES_Encrypt(TXT_FirstName.Text), AES_Encrypt(TXT_LastName.Text), AES_Encrypt(TXT_Degree.Text), AES_Encrypt(TXT_Title.Text), AES_Encrypt(TXT_Organization.Text), AES_Encrypt(TXT_Address1), AES_Encrypt(TXT_Address2), AES_Encrypt(TXT_City), AES_Encrypt(TXT_State), AES_Encrypt(TXT_Zip), AES_Encrypt(TXT_Phone.Text), AES_Encrypt(TXT_Email.Text), AES_Encrypt(TXT_AA_Name.Text), AES_Encrypt(TXT_AA_Phone.Text), AES_Encrypt(TXT_AA_Email.Text), AES_Encrypt(TXT_Bio.Text), CBool(RDList_AttendingDinner), CBool(RDList_Photo_Consent.SelectedValue), CBool(RDList_Presentation_Consent.SelectedValue), bytes_Headshot_File, Headshot_ContentType, Headshot_Filename)
-        strResult = WS.CAA_Registration(LIT_FK_Event.Text, AES_Encrypt(TXT_FirstName.Text), AES_Encrypt(TXT_LastName.Text), AES_Encrypt(TXT_Degree.Text), AES_Encrypt(TXT_Title.Text), AES_Encrypt(TXT_Organization.Text), AES_Encrypt(TXT_Address1), AES_Encrypt(TXT_Address2), AES_Encrypt(TXT_City), AES_Encrypt(TXT_State), AES_Encrypt(TXT_Zip), AES_Encrypt(TXT_Phone.Text), AES_Encrypt(TXT_Email.Text), AES_Encrypt(TXT_AA_Name.Text), AES_Encrypt(TXT_AA_Phone.Text), AES_Encrypt(TXT_AA_Email.Text), AES_Encrypt(TXT_Bio.Text), CBool(RDList_AttendingDinner), CBool(RDList_Photo_Consent.SelectedValue), CBool(RDList_Presentation_Consent.SelectedValue), bytes_Headshot_File, Headshot_ContentType, Headshot_Filename, BoxLunchDay1, BeverageDay1, SandwichDay1, CheeseDay1, SnackDay1, BoxLunchDay2, BeverageDay2, SandwichDay2, CheeseDay2, SnackDay2)
+        strResult = WS.CAA_Registration(FK_Event_String, AES_Encrypt(TXT_FirstName.Text), AES_Encrypt(TXT_LastName.Text), AES_Encrypt(TXT_Degree.Text), AES_Encrypt(TXT_Title.Text), AES_Encrypt(TXT_Organization.Text), AES_Encrypt(TXT_Address1), AES_Encrypt(TXT_Address2), AES_Encrypt(TXT_City), AES_Encrypt(TXT_State), AES_Encrypt(TXT_Zip), AES_Encrypt(TXT_Phone.Text), AES_Encrypt(TXT_Email.Text), AES_Encrypt(TXT_AA_Name.Text), AES_Encrypt(TXT_AA_Phone.Text), AES_Encrypt(TXT_AA_Email.Text), AES_Encrypt(TXT_Bio.Text), CBool(RDList_AttendingDinner), CBool(RDList_Photo_Consent.SelectedValue), CBool(RDList_Presentation_Consent.SelectedValue), bytes_Headshot_File, Headshot_ContentType, Headshot_Filename, BoxLunchDay1, BeverageDay1, SandwichDay1, CheeseDay1, SnackDay1, BoxLunchDay2, BeverageDay2, SandwichDay2, CheeseDay2, SnackDay2, EmailTitle, EmailDate)
 
         'Response.Write("<h1>==" & strResult & "=== added</h1>")
         Response.Redirect("~/events/acceleratedaging/thankyou.html")
 
+    End Sub
+
+    Protected Sub BTN_Cancel_Click(sender As Object, e As EventArgs) Handles BTN_Cancel.Click
+        Response.Redirect("~/events/acceleratedaging/")
     End Sub
 
 End Class
