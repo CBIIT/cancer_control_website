@@ -26,15 +26,18 @@ Partial Class brp_e_newsletter_Subscribe
             strreturn = ws.UNSubscribeTo_nci_implementationscience(txtemailTerms.Text)
             'Response.Write("RD_Unsub=checked" & returnvalue)
 
-            If strreturn = "0" Then
-                'Not Found  
-                thankyou.InnerHtml = "<p class='alert alert-danger'>This email address was not found.</p>"
-            ElseIf strreturn = "1" Then
-                'Good UN-Susbscribe
+            If strreturn = "1" Then
+                'Good Unsusbscribe
                 frm_SubScribe.Style.Add("display", "none")
                 thankyou.InnerHtml = "<p class='alert alert-success'>This email address was successfully un-subscribed.</p>"
+            ElseIf strreturn = "2" Then
+                'Not Found  
+                thankyou.InnerHtml = "<p class='alert alert-danger'>This email address was not found.</p>"
+            ElseIf strreturn = "3" Then
+                'Already Unsusbscribe 
+                thankyou.InnerHtml = "<p class='alert alert-danger'>This email address has already been un-subscribed.</p>"
             Else
-                '#3 - unknown reason for unsubscibe 
+                'Unknown reason for unsubscibe 
                 thankyou.InnerHtml = "<p class='alert alert-danger'>Unknown error. Please try again.</p>"
             End If
 
