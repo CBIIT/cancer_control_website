@@ -178,7 +178,7 @@
 		<div class="col-md-9 col-md-push-3">                 
 			<p class="intro">The  2019 application period is closed.  Applicants  will be notified of their acceptance status by February 8, 2019.</p>
 			<p class="intro">For questions concerning the training or application process, please review the <a href="/IS/training-education/tidirc/faqs.html">FAQ page</a> or contact the Implementation Science Team at <a href="mailto:NCIdccpsISteam@mail.nih.gov">NCIdccpsISteam@mail.nih.gov</a>.</p>
-			<div id="thankyou" runat="server"></div>
+			<div id="thankyou" class="email-validation-message" runat="server"></div>
 			<!--<form id="form1" runat="server">
 				<div class="row">
 					<div class="col-md-12 required-statement">
