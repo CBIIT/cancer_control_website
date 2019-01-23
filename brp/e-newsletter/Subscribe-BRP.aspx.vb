@@ -3,6 +3,8 @@ Partial Class brp_e_newsletter_Subscribe
     Inherits System.Web.UI.Page
 
     Protected Sub btnSubmit_Click(sender As Object, e As EventArgs) Handles btnSubmit.Click
+        System.Net.ServicePointManager.SecurityProtocol = SecurityProtocolType.Tls12
+
         Dim ws As New LyrisWebService.SubscribeSoapClient
 
         Dim strreturn As String = ""

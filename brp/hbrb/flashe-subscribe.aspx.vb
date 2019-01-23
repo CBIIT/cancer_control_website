@@ -7,6 +7,8 @@ Partial Class subscribe
     Dim AcceptTerm As Boolean = False
 
     Protected Sub btnSubmit_Click(ByVal sender As Object, ByVal e As System.EventArgs) Handles btnSubmit.Click
+        System.Net.ServicePointManager.SecurityProtocol = SecurityProtocolType.Tls12
+
         Dim ws As New LyrisWebService.SubscribeSoapClient
 
         Dim strreturn As String = ""
