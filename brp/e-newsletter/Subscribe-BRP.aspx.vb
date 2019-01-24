@@ -34,10 +34,10 @@ Partial Class brp_e_newsletter_Subscribe
             ElseIf strreturn = "1" Then
                 'Good UN-Susbscribe
                 frm_SubScribe.Style.Add("display", "none")
-                thankyou.InnerHtml = "<p class='alert alert-success'>This email address was successfully un-subscribed.</p>"
+                thankyou.InnerHtml = "<p class='alert alert-success'>This email address was successfully unsubscribed.</p>"
             ElseIf strreturn = "3" Then
                 'Already Unsusbscribe 
-                thankyou.InnerHtml = "<p class='alert alert-danger'>This email address has already been un-subscribed.</p>"
+                thankyou.InnerHtml = "<p class='alert alert-danger'>This email address has already been unsubscribed.</p>"
             Else
                 '#3 - unknown reason for unsubscibe 
                 thankyou.InnerHtml = "<p class='alert alert-danger'>Unknown error. Please try again.</p>"
