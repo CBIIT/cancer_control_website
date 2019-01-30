@@ -62,47 +62,20 @@ Partial Class CAA_Testing_testReg
         Dim EmailTitle As String = "Strategies to Prevent or Remediate Cancer- and Treatment-Associated Aging"
         Dim EmailDate As String = "February 11-12, 2019"
 
-        If RDList_BoxLunchDay1.Text = "TRUE" Then
-            BoxLunchDay1 = RDList_BoxLunchDay1.Text
-            BeverageDay1 = DDList_BeverageDay1.Text
-            SandwichDay1 = DDList_SandwichDay1.Text
-            CheeseDay1 = DDList_CheeseDay1.Text
-            SnackDay1 = DDList_SnackDay1.Text
-        Else
-            BoxLunchDay1 = "N/A"
-            BeverageDay1 = "N/A"
-            SandwichDay1 = "N/A"
-            CheeseDay1 = "N/A"
-            SnackDay1 = "N/A"
-        End If
+        BoxLunchDay1 = "N/A"
+        BeverageDay1 = "N/A"
+        SandwichDay1 = "N/A"
+        CheeseDay1 = "N/A"
+        SnackDay1 = "N/A"
+        CheeseDay1 = "N/A"
 
-        If DDList_SandwichDay1.Text = "Roasted seasonal vegetables, fresh mozzarella, lettuce and tomato (cheese is optional)" Then
-            CheeseDay1 = DDList_CheeseDay1.Text
-        Else
-            CheeseDay1 = "N/A"
-        End If
+        BoxLunchDay2 = "FALSE"
+        BeverageDay2 = "N/A"
+        SandwichDay2 = "N/A"
+        CheeseDay2 = "N/A"
+        SnackDay2 = "N/A"
+        CheeseDay2 = "N/A"
 
-        If RDList_BoxLunchDay2.Text = "TRUE" Then
-            BoxLunchDay2 = RDList_BoxLunchDay2.Text
-            BeverageDay2 = DDList_BeverageDay2.Text
-            SandwichDay2 = DDList_SandwichDay2.Text
-            CheeseDay2 = DDList_CheeseDay2.Text
-            SnackDay2 = DDList_SnackDay2.Text
-        Else
-            BoxLunchDay2 = "FALSE"
-            BeverageDay2 = "N/A"
-            SandwichDay2 = "N/A"
-            CheeseDay2 = "N/A"
-            SnackDay2 = "N/A"
-        End If
-
-        If DDList_SandwichDay2.Text = "Roasted seasonal vegetables, fresh mozzarella, lettuce and tomato (cheese is optional)" Then
-            CheeseDay2 = DDList_CheeseDay2.Text
-        Else
-            CheeseDay2 = "N/A"
-        End If
-
-        'strResult = WS.CAA_Registration(LIT_FK_Event.Text, AES_Encrypt(TXT_FirstName.Text), AES_Encrypt(TXT_LastName.Text), AES_Encrypt(TXT_Degree.Text), AES_Encrypt(TXT_Title.Text), AES_Encrypt(TXT_Organization.Text), AES_Encrypt(TXT_Address1), AES_Encrypt(TXT_Address2), AES_Encrypt(TXT_City), AES_Encrypt(TXT_State), AES_Encrypt(TXT_Zip), AES_Encrypt(TXT_Phone.Text), AES_Encrypt(TXT_Email.Text), AES_Encrypt(TXT_AA_Name.Text), AES_Encrypt(TXT_AA_Phone.Text), AES_Encrypt(TXT_AA_Email.Text), AES_Encrypt(TXT_Bio.Text), CBool(RDList_AttendingDinner), CBool(RDList_Photo_Consent.SelectedValue), CBool(RDList_Presentation_Consent.SelectedValue), bytes_Headshot_File, Headshot_ContentType, Headshot_Filename)
         strResult = WS.CAA_Registration(FK_Event_String, AES_Encrypt(TXT_FirstName.Text), AES_Encrypt(TXT_LastName.Text), AES_Encrypt(TXT_Degree.Text), AES_Encrypt(TXT_Title.Text), AES_Encrypt(TXT_Organization.Text), AES_Encrypt(TXT_Address1), AES_Encrypt(TXT_Address2), AES_Encrypt(TXT_City), AES_Encrypt(TXT_State), AES_Encrypt(TXT_Zip), AES_Encrypt(TXT_Phone.Text), AES_Encrypt(TXT_Email.Text), AES_Encrypt(TXT_AA_Name.Text), AES_Encrypt(TXT_AA_Phone.Text), AES_Encrypt(TXT_AA_Email.Text), AES_Encrypt(TXT_Bio.Text), CBool(RDList_AttendingDinner), CBool(RDList_Photo_Consent.SelectedValue), CBool(RDList_Presentation_Consent.SelectedValue), bytes_Headshot_File, Headshot_ContentType, Headshot_Filename, BoxLunchDay1, BeverageDay1, SandwichDay1, CheeseDay1, SnackDay1, BoxLunchDay2, BeverageDay2, SandwichDay2, CheeseDay2, SnackDay2, EmailTitle, EmailDate)
 
         'Response.Write("<h1>==" & strResult & "=== added</h1>")
