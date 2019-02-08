@@ -107,7 +107,13 @@ height="0" width="0" style="display:none;visibility:hidden" title="Google Tag Ma
         <div class="col-md-12">
             <form id="form1" runat="server" class="form-caa">
 			<!--<asp:Literal ID="LIT_FK_Event" Text="2" runat="server"></asp:Literal>-->
-			
+			<div class="row">
+				<div class="col-sm-9">
+					<p><strong>Thank you for your interest in the Strategies to Prevent or Remediate Cancer- and Treatment-Associated Aging think tank meeting. Registration for this event has closed.</strong> </p>
+				</div>
+            </div>
+				
+			<!--
             <div class="row">
 				<div class="col-sm-9">
 					<p><strong>Participation in this working think tank is by  invitation only, and invitations are non-transferable. To register, complete  the form below.<br></strong></p>
@@ -230,6 +236,7 @@ height="0" width="0" style="display:none;visibility:hidden" title="Google Tag Ma
                         <asp:Button ID="BTN_Cancel" CssClass="btn btn-default btn-inline" CausesValidation="false" runat="server" Text="Cancel" />
                     </div>
                 </div>
+				-->
                 <div class="spacer-20"></div>
     </form>
         </div> <!-- /.col-md-9 -->
@@ -298,7 +305,7 @@ height="0" width="0" style="display:none;visibility:hidden" title="Google Tag Ma
 			<div class="row">
 				<div class="col-lg-12">
 				  <p class="tagline">NIH...Turning Discovery Into Health<sup>®</sup></p>
-					<p class="update"><span class="bold">Last Updated:</span>January 9, 2019</p>
+					<p class="update"><span class="bold">Last Updated:</span>February 8, 2019</p>
 				</div> <!-- /.col-lg-12 -->
 			</div> <!-- /.row -->
 		</div><!-- /.col-md-8 .col-md-offset-1 -->
