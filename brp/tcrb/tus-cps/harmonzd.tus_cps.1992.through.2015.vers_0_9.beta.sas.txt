@@ -1,0 +1,497 @@
+/********************************************************************************/;
+/* Program: harmonzd.tus_cps.1992.through.2015.vers_0_9.beta.sas                */;
+/*    Date: February 2019                                                       */;
+/*                                                                              */;
+/* Purpose: SAS program to create permanent SAS dataset from the 1992-2015      */;
+/*          harmonized data file.                                               */;
+/*                                                                              */;
+/*   Notes: The Filename, Libname and Include statements need to be modified    */;
+/*          to match location of the data files and the format progam.          */;
+/*                                                                              */;
+/* Modifications                                                                */;
+/*                                                                              */;
+/********************************************************************************/;
+Filename Harmon "<directory>harmonzd.tus_cps.1992.through.2015.vers_0_9.beta.dat";
+Libname  MyLib  "<directory>";
+
+%Include "<directory>harmonzd.tus_cps.1992.through.2015.vers_0_9.beta.formats.sas";
+
+Data MyLib.Harmon;
+  Infile Harmon;
+  Input @001 SURWAVE  1.
+        @002 SURMONTH 2. 
+        @004 SURYEAR  4.       
+        @008 FAMINC   2.
+        @010 HHNUM    2.
+        @012 REGION   1.
+        @013 FIPS     2.
+        @015 STATE    $Char20.
+        @035 STCOUNTY 5.
+        @040 METSTAT  1.
+        @041 AGE      2.
+        @043 SEX      1.
+        @044 RACE92   1.
+        @045 RACE03   2.
+        @047 HISPAN   1.
+        @048 MARITAL  2.
+        @050 EDU      2.
+        @052 EMPLSTAT 2.
+        @054 NATVTY   3.
+        @057 NATVTYM  3.
+        @060 NATVTYF  3.
+        @063 CITIZEN  1.
+        @064 YEARINUS 3.
+        @071 RECORDID $Char22.
+        @093 QSTNUM   5.
+        @098 OCCURNUM 2.
+        @100 CIG100   2.
+        @102 CIGAGE   2.
+        @104 CIGAGEX  2.
+        @106 CGSTCRY  3.
+        @109 CGSTCRYX 3.
+        @112 CIGNOW   2.
+        @114 CIGSTAT  2.
+        @116 CPDD     2.
+        @118 CPDD20   2.
+        @120 CIGDAY   2.
+        @122 CIGDAY20 2.
+        @124 CPDS     2.
+        @126 CIGTYPE  2.
+        @128 TTFC     4.
+        @132 TTFC30   2.
+        @134 BUYCIG   2.
+        @136 BUYPKCR  2.
+        @138 PRICELPK 4.
+        @142 PRICELCR 5.
+        @147 CIGWHERE 2.
+        @149 CIGSTATE 2.
+        @151 CIGINDRS 2.
+        @153 CIGOTWAY 2.
+        @155 SNGLCIG  2.
+        @157 SNGLPRCE 4.
+        @161 SNGLWHER 2.
+        @163 SNGLSTCT 3.
+        @166 YRSSMKDC 2.
+        @168 YRSSMKDG 2.
+        @170 YRSSMKDH 3.
+        @173 MENTHREG 2.
+        @175 MENTHGRP 2.
+        @177 MENTHOL  2.
+        @179 SDEVRDLY 2.
+        @181 SDEVRCIG 2.
+        @183 SDYRSDLY 4.
+        @187 SDYRSMKC 2.
+        @189 SDYRSMKG 2.
+        @191 CIGSTA12 2.
+        @193 CPDD12   2.
+        @195 CIGDAY12 2.
+        @197 CPDS12   2.
+        @199 EVSTP1DD 2.
+        @201 PYSTP1DD 2.
+        @203 XPYSTPDN 2.
+        @205 XPYSTPDC 2.
+        @207 PYMLTDU  5.
+        @212 PYMLTD   4.
+        @216 EVTRYQD  2.
+        @218 PYTRYQD  2.
+        @220 EVSTP1DS 2.
+        @222 PYSTP1DS 2.
+        @224 XPYSTPSN 4.
+        @228 XPYSTPSC 2.
+        @230 PYMLTHSU 5.
+        @235 PYMLTHS  4.
+        @239 EVTRYQS  2.
+        @241 PYTRYQS  2.
+        @243 PYQUITSD 2.
+        @245 EVTRYQCS 2.
+        @247 PYMLTLSU 6.
+        @253 PYMLTLS  4.
+        @257 PYQTNRT1 2.
+        @259 PYQTNRT2 2.
+        @261 PYQTNRT3 2.
+        @263 PYQTNRT4 2.
+        @265 PYQTHLP1 2.
+        @267 PYQTHLP2 2.
+        @269 PYQTHLP3 2.
+        @271 PYQTHLP4 2.
+        @273 PYQTHLP5 2.
+        @275 PYQTHLP6 2.
+        @277 PYQTHLP7 2.
+        @279 PYQHLP7A 2.
+        @281 PYQTPTN1 2.
+        @283 PYQTPTN2 2.
+        @285 PYQTPTN3 2.
+        @287 PYQTPTN4 2.
+        @289 PYQPTN4A 2.
+        @291 DOCSEEN  2.
+        @293 DOCADVYR 2.
+        @295 DOCADVQL 2.
+        @297 DOCADVEV 2.
+        @299 DDSSEEN  2.
+        @301 DDSADVYR 2.
+        @303 DDSADVQL 2.
+        @305 DDSADVEV 2.
+        @307 INTQT6MO 2.
+        @309 INTQT30D 2.
+        @311 INTRQUIT 2.
+        @313 QUITSUCS 2.
+        @315 FMEVRDLY 2.
+        @317 FMYRSDLY 5.
+        @322 FMEVRCIG 2.
+        @324 FMYRSMKC 2.
+        @326 FMYRSMKG 2.
+        @328 FMLOTQT  5.
+        @333 FMCGST12 2.
+        @335 FMCPDD12 2.
+        @337 FMCIGD12 2.
+        @339 FMCPDS12 2.
+        @341 FMMNTHUB 2.
+        @343 FMMNTHRG 2.
+        @345 FMMNTHGP 2.
+        @347 FMQTNRT1 2.
+        @349 FMQTNRT2 2.
+        @351 FMQTNRT3 2.
+        @353 FMQTNRT4 2.
+        @355 FMQTHLP1 2.
+        @357 FMQTHLP2 2.
+        @359 FMQTHLP3 2.
+        @361 FMQTHLP4 2.
+        @363 FMQTHLP5 2.
+        @365 FMQTHLP6 2.
+        @367 FMQTHLP7 2.
+        @369 FMQHLP7A 2.
+        @371 FMQTPTN1 2.
+        @373 FMQTPTN2 2.
+        @375 FMQTPTN3 2.
+        @377 FMQTPTN4 2.
+        @379 FMQPTN4A 2.
+        @381 FMDOCSEE 2.
+        @383 FMDOCADV 2.
+        @385 FMTTFC   4.
+        @389 FMTTFC30 2.
+        @391 PIPEEVER 2.
+        @393 CIGREVER 2.
+        @395 CHEWEVER 2.
+        @397 SNFFEVER 2.
+        @399 HOOKEVER 2.
+        @401 SMKLEVER 2.
+        @403 PIPENOW  2.
+        @405 CIGRNOW  2.
+        @407 CHEWNOW  2.
+        @409 SNFFNOW  2.
+        @411 HOOKNOW  2.
+        @413 SMKLNOW  2.
+        @415 PIPENOW2 2.
+        @417 CIGRNOW2 2.
+        @419 CHEWNOW2 2.
+        @421 SNFFNOW2 2.
+        @423 HOOKNOW2 2.
+        @425 SMKLNOW2 2.
+        @427 PIPECURR 2.
+        @429 CIGRCURR 2.
+        @431 CHEWCURR 2.
+        @433 SNFFCURR 2.
+        @435 HOOKCURR 2.
+        @437 SMKLCURR 2.
+        @439 PIPESTAT 2.
+        @441 CIGRSTAT 2.
+        @443 CHEWSTAT 2.
+        @445 SNFFSTAT 2.
+        @447 HOOKSTAT 2.
+        @449 SMKLSTAT 2.
+        @451 PIPEDAY  2.
+        @453 CIGRDAY  2.
+        @455 CHEWDAY  2.
+        @457 SNFFDAY  2.
+        @459 HOOKDAY  2.
+        @461 SMKLDAY  2.
+        @463 PIPELOTQ 4.
+        @467 CIGRLOTQ 4.
+        @471 HOOKLOTQ 4.
+        @475 SMKLLOTQ 4.
+        @479 PIPEYRS  2.
+        @481 CIGRYRS  2.
+        @483 HOOKYRS  2.
+        @485 SMKLYRS  2.
+        @487 WKAREA92 2.
+        @489 WKAREA03 2.
+        @491 WKINDPLC 2.
+        @493 WKSTATE  2.
+        @495 WKAREA10 2.
+        @497 WKINDPL1 2.
+        @499 WKSTATE1 2.
+        @501 WKINDPL2 2.
+        @503 WKSTATE2 2.
+        @505 WKPOLICY 2.
+        @507 WKPOLIND 2.
+        @509 WKPOLWRK 2.
+        @511 WORKBAN  2.
+        @513 WKSTPSMK 2.
+        @515 WKSMK2WK 2.
+        @517 ATSMKRST 2.
+        @519 ATSMKHSP 2.
+        @521 ATSMKIWA 2.
+        @523 ATSMKBAR 2.
+        @525 ATSMKISP 2.
+        @527 ATSMKISM 2.
+        @529 ATSMKPLY 2.
+        @531 ATSMKCAS 2.
+        @533 ATSMCARO 2.
+        @535 ATSMCARC 2.
+        @537 HMSMKPOL 2.
+        @539 ATMINBUY 2.
+        @541 ATSAMPLE 2.
+        @543 ATTOBADV 2.
+        @545 SRWEIGHT 10.;
+
+  If YEARINUS Not In (.,-1) Then YEARINUS=YEARINUS/10;
+  If PRICELPK Not In (.,-9,-3,-2,-1) Then PRICELPK=PRICELPK/100;
+  If PRICELCR Not In (.,-9,-3,-2,-1) Then PRICELCR=PRICELCR/100;
+  If SNGLPRCE Not In (.,-9,-3,-2,-1) Then SNGLPRCE=SNGLPRCE/100;
+  If SDYRSDLY Not In (.,-9,-3,-2,-1) Then SDYRSDLY=SDYRSDLY/100;
+  If FMYRSDLY Not In (.,-9,-3,-2,-1) Then FMYRSDLY=FMYRSDLY/100;
+  If FMLOTQT Not In (.,-9,-3,-2,-1) Then FMLOTQT=FMLOTQT/100;
+  If XPYSTPSN Not In (.,-9,-3,-2,-1) Then XPYSTPSN=XPYSTPSN/100;
+  If PYMLTHS Not In (.,-9,-3,-2,-1) Then PYMLTHS=PYMLTHS/100;
+  If PYMLTLSU Not In (.,-9,-3,-2,-1) Then PYMLTLSU=PYMLTLSU/100;
+  If PYMLTLS Not In (.,-9,-3,-2,-1) Then PYMLTLS=PYMLTLS/100;
+  If PYMLTHSU Not In (.,-9,-3,-2,-1) Then PYMLTHSU=PYMLTHSU/100;
+  If PYMLTD Not In (.,-9,-3,-2,-1) Then PYMLTD=PYMLTD/100;
+  If PYMLTDU Not In (.,-9,-3,-2,-1) Then PYMLTDU=PYMLTDU/100;
+  If CIGRLOTQ Not In (.,-99,-9,-3,-2,-1) Then CIGRLOTQ=CIGRLOTQ/100;
+  If PIPELOTQ Not In (.,-99,-9,-3,-2,-1) Then PIPELOTQ=PIPELOTQ/100;
+  If HOOKLOTQ Not In (.,-99,-9,-3,-2,-1) Then HOOKLOTQ=HOOKLOTQ/100;
+  If SMKLLOTQ Not In (.,-99,-9,-3,-2,-1) Then SMKLLOTQ=SMKLLOTQ/100;
+  SRWEIGHT=SRWEIGHT/10000;
+  
+  Attrib SurWave Label = "Survey wave" Format=SurWaveF.;
+  Attrib SurMonth Label = "Survey month" Format=SurMontF.;
+  Attrib SurYear Label = "Survey year";
+  Attrib FamInc Label = "Family income" Format=FamIncF.; 
+  Attrib HHNum Label = "Number of persons in household";
+  Attrib Region Label = "Region" Format=RegionF.;
+  Attrib FIPS Label = "State (FIPS Code)" Format=FIPSF.;
+  Attrib State Label = "State"; 
+  Attrib StCounty Label = "State/County" Format=StCountF.;
+  Attrib MetStat Label = "Metropolitan status" Format=MetStatF.;
+  Attrib Age Label = "Age" Format=AgeF.;
+  Attrib Sex Label = "Sex" Format=SexF.;
+  Attrib Race92 Label = "Race (1992-2002)" Format=Race92F.;
+  Attrib Race03 Label = "Race (2003 and later)" Format=Race03F.;
+  Attrib Hispan Label = "Hispanic or non-Hispanic" Format=HispanF.;
+  Attrib Marital Label = "Marital status" Format=MaritalF.;
+  Attrib Edu Label = "Highest level of school completed or degree received" Format=EduF.;
+  Attrib EmplStat Label = "Employment status" Format=EmplStaF.;
+  Attrib Natvty  Label = "Country of birth" Format=NatvtyF.;
+  Attrib NatvtyM Label = "Mother's country of birth" Format=NatvtyF.;
+  Attrib NatvtyF Label = "Father's Country of birth" Format=NatvtyF.;
+  Attrib Citizen Label = "Citizenship status" Format=CitizenF.;
+  Attrib YearInUS Label = "Years in U.S." Format=YEARINUF.;
+  Attrib RecordID Label = "Record ID (Unique within survey month)";
+  Attrib QSTNUM Label = "Unique household identifier (Unique within survey month)";
+  Attrib OCCURNUM Label = "Unique person identifier (Unique within survey month)";
+  Attrib Cig100 Label = "Smoked 100 cigarettes in entire life" Format=YesNoF.;
+  Attrib CigAge Label = "Age first started smoking cigarettes fairly regularly" Format=CigAgeF.;
+  Attrib CIGAGEX Label = "Age first started smoking cigarettes (never smoked regularly)" Format=CIGAGEXF.;
+  Attrib CgStCry Label = "State or country lived when first smoked part or all of a cigarette" Format=CgStCryF.;
+  Attrib CgStCryX Label = "State or country lived when first smoked part or all of a cigarette (never smoked regularly)" Format=CgStCryF.;
+  Attrib CigNow Label = "Now smoke cigarettes every day, some days or not at all" Format=CigNowF.;
+  Attrib CIGSTAT Label = "Current cigarette smoking status" Format=CigStatF.;
+  Attrib CPDD Label = "Number of cigarettes smoke a day (every day smokers)" Format=CPDDF.;
+  Attrib CPDD20 Label = "On average, now smoke more or less than 20 cigarettes each day (every day smokers*)" Format=CPDD20F.;
+  Attrib CIGDAY Label = "On how many of the past 30 days did you smoke cigarettes (some day smokers)" Format=CIGDAYF.;
+  Attrib CIGDAY20 Label = "Would you say you smoked on at least 12 days in the past 30 days (some day smokers*)" Format=CIGDAY2F.;
+  Attrib CPDS Label = "On days smoked, number of cigarettes smoke a day (some day smokers)" Format=CPDSF.;
+  Attrib CigType Label = "Type of cigarette (menthol/non-menthol, current smokers)" Format=CigTypeF.;
+  Attrib TTFC Label = "Time to first cigarette, minutes (current smokers)" Format=TTFCF.;
+  Attrib TTFC30 Label = "Smoke first cigarette of the day within first 30 minutes (current smokers)" Format=TTFC30F.;
+  Attrib BUYCIG Label = "Do you usually buy your own cigarettes? (current smokers)" Format=BUYCIGF.;
+  Attrib BUYPKCR Label = "Do you usually buy your cigarettes by the pack or by the carton? (current smokers)" Format=BUYPKCRF.;
+  Attrib PRICELPK Label = "Price paid for last pack of cigarettes (current smokers)";
+  Attrib PRICELCR Label = "Price paid for last carton of cigarettes (current smokers)";
+  Attrib CIGWHERE Label = "Where last (pack/carton) purchased (current smokers)" Format=CIGWHERF.;
+  Attrib CIGSTATE Label = "State where purchased last (pack/carton) (current smokers)" Format=CIGStF.; 
+  Attrib CIGINDRS Label = "Buy last (pack/carton) of cigarettes from an Indian reservation (current smokers)" Format=CIGINDRF.;
+  Attrib CIGOTWAY Label = "Other way purchased last (pack/carton) of cigarettes (current smokers)" Format=CIGOTWAF.;
+  Attrib SNGLCIG Label = "In the last 2 months, have you bought (or traded for) any single or individual cigarette (current smokers)" Format=SNGLCIGF.;
+  Attrib SNGLPRCE Label = "Price paid for last  single or individual cigarette (current smokers)";
+  Attrib SNGLWHER Label = "Where last single or individual cigarette purchased (current smokers)" Format=SNGLWHEF.;
+  Attrib SNGLSTCT Label = "State (or country) where purchased last single or individual cigarette (current smokers)" Format=SNGLSTCF.;
+  Attrib YRSSMKDC Label = "Number of years smoked every day (every day smokers)" Format=YRSSMKCF.;
+  Attrib YRSSMKDG Label = "For how long have you smoked every day (every day smokers)" Format=YRSSMKGF.;
+  Attrib YRSSMKDH Label = "Number of years smoked every day (harmonized, every day smokers)" Format=YRSSMKCF.;
+  Attrib MENTHREG Label = "Have you ever smoked menthol cigarettes for 6 months or more (current smokers)" Format=MENTHREF.;
+  Attrib MENTHGRP Label = "For how long (have you smoked/did you smoke) menthol cigarettes (current smokers)" Format=MENTHGRF.;
+  Attrib MENTHOL  Label = "Menthol use (constructed, current smokers" Format=MENTHOLF.;
+  Attrib SDEVRDLY Label = "Ever smoked cigarettes every day for at least 6 months (some day smokers)" Format=SDEVRDLF.;
+  Attrib SDEVRCIG Label = "When you last smoked every day, on average how many cigarettes did you smoke daily (some day smokers)" Format=SDEVRCIF.;
+  Attrib SDYRSDLY Label = "Years since smoked every day (some day smokers)" Format=SDYRSDLF.;
+  Attrib SDYRSMKC Label = "Years smoked every day (some day smokers)" Format=SDYRSMCF.;
+  Attrib SDYRSMKG Label = "For how long have you smoked every day? (some day smokers)" Format=SDYRSMGF.;
+  Attrib CIGSTA12 Label = "Around this time 12 months ago, were you smoking cigarettes every day, some days or not at all? (current smokers)" Format=CIGSTA1F.;
+  Attrib CPDD12 Label = "Around this time 12 months ago, number of cigarettes smoked a day (current smoker, every day smokers 12 months ago)" Format=CPDDF.;
+  Attrib CIGDAY12 Label = "Around this time 12 months ago, number of the past 30 days smoked cigarettes (some day smokers 12 months ago)" Format=CIGDAYF.;
+  Attrib CPDS12 Label = "Around this time 12 months ago, number of cigarettes smoked a day (current smoker, some day smokers 12 months ago)" Format=CPDSF.;
+  Attrib EVSTP1DD Label = "Have you ever stopped smoking for one day or longer because you were trying to quit smoking? (every day smokers)" Format=EVSTP1DF.;
+  Attrib PYSTP1DD Label = "During the past 12 months, have you stopped smoking for one day or longer because you were trying to quit smoking? (every day smokers)" Format=PYSTP1DF.;
+  Attrib XPYSTPDN Label = "How many times during the past 12 months have you stopped smoking for one day or longer because you were trying to quit smoking? (every day smokers)" Format=XPYSTPNF.;
+  Attrib XPYSTPDC Label = "How many times during the past 12 months have you stopped smoking for one day or longer because you were trying to quit smoking? (every day smokers)" Format=XPYSTPCF.;
+  Attrib PYMLTD   Label = "During the past 12 months, what is the longest length of time you stopped smoking because you were trying to quit smoking? (every day smokers, number of months)" Format=PYMLTDF.;
+  Attrib PYMLTDU  Label = "During the past 12 months, what is the longest length of time you stopped smoking because you were trying to quit smoking? (every day smokers, number of months, not truncated)" Format=PYMLTDF.;
+  Attrib PYQUITSD Label = "During the past 12 months, have you tried to quit smoking completely? (some days smokers, < 12 days)" Format=PYQUITSF.;
+  Attrib EVTRYQCS Label = "Have you ever tried to quit smoking completely? (some days smokers, < 12 days)" Format=EVTRQCF.;
+  Attrib PYMLTLS  Label = "During the past 12 months, what is the longest length of time you stopped smoking because you were trying to quit smoking? (some days smokers, < 12 days, number of months)" Format=PYMLTLSF.;
+  Attrib PYMLTLSU Label = "During the past 12 months, what is the longest length of time you stopped smoking because you were trying to quit smoking? (some days smokers, < 12 days, number of months, not truncated)" Format=PYMLTLSF.;
+  Attrib EVSTP1DS Label = "Have you ever stopped smoking for one day or longer because you were trying to quit smoking? (some days smokers, 12+ days)" Format=EVSTP1DF.;
+  Attrib PYSTP1DS Label = "During the past 12 months, have you stopped smoking for one day or longer because you were trying to quit smoking? (some days smokers, 12+ days)" Format=PYSTP1DF.;
+  Attrib XPYSTPSN Label = "How many times during the past 12 months have you stopped smoking for one day or longer because you were trying to quit smoking? (some days smokers, 12+ days)" Format=XPYSTPNF.;
+  Attrib XPYSTPSC Label = "How many times during the past 12 months have you stopped smoking for one day or longer because you were trying to quit smoking? (some days smokers, 12+ days)" Format=XPYSTPCF.;
+  Attrib PYMLTHS  Label = "During the past 12 months, what is the longest length of time you stopped smoking because you were trying to quit smoking? (some days smokers, 12+ days, number of months)" Format=PYMLTHSF.;
+  Attrib PYMLTHSU Label = "During the past 12 months, what is the longest length of time you stopped smoking because you were trying to quit smoking? (some days smokers, 12+ days, number of months, not truncated)" Format=PYMLTHSF.;
+  Attrib EVTRYQD  Label = "Have you ever made a serious attempt to stop smoking because you were trying to quit - even if you stopped for less than a day? (every day smokers)" Format=EVTRYQDF.;
+  Attrib PYTRYQD  Label = "During the past 12 months, have you made a serious attempt to stop smoking because you were trying to quit <even if you stopped for less than a day>? (every day smokers)" Format=PYTRYQDF.;
+  Attrib EVTRYQS  Label = "Have you ever made a serious attempt to stop smoking because you were trying to quit - even if you stopped for less than a day? (some days smokers, 12+ days)" Format=EVTRYQDF.;
+  Attrib PYTRYQS  Label = "During the past 12 months, have you made a serious attempt to stop smoking because you were trying to quit <even if you stopped for less than a day>? (some days smokers, 12+ days)" Format=PYTRYQSF.;
+  Attrib PYQTNRT1 Label = "Thinking back to the (last time/time) you tried to quit smoking in the past 12 months. Did you use a nicotine patch?" Format=PYQTNRTF.;
+  Attrib PYQTNRT2 Label = "Thinking back to the (last time/time) you tried to quit smoking in the past 12 months. Did you use a nicotine gum or nicotine lozenge?" Format=PYQTNRTF.;
+  Attrib PYQTNRT3 Label = "Thinking back to the (last time/time) you tried to quit smoking in the past 12 months. Did you use a nicotine nasal spray or nicotine inhaler?" Format=PYQTNRTF.;
+  Attrib PYQTNRT4 Label = "Thinking back to the (last time/time) you tried to quit smoking in the past 12 months. Did you use a prescription pill?" Format=PYQTNRTF.;
+  Attrib PYQTHLP1 Label = "Thinking back to the (last time/time) you tried to quit smoking in the past 12 months. Did you use a telephone help line or quit line?" Format=PYQTHLPF.;
+  Attrib PYQTHLP2 Label = "Thinking back to the (last time/time) you tried to quit smoking in the past 12 months. Did you use a stop smoking clinic, class or support group?" Format=PYQTHLPF.;
+  Attrib PYQTHLP3 Label = "Thinking back to the (last time/time) you tried to quit smoking in the past 12 months. Did you use one-on-one counseling?" Format=PYQTHLPF.;
+  Attrib PYQTHLP4 Label = "Thinking back to the (last time/time) you tried to quit smoking in the past 12 months. Did you use help or support from friends or family?" Format=PYQTHLPF.;
+  Attrib PYQTHLP5 Label = "Thinking back to the (last time/time) you tried to quit smoking in the past 12 months. Did you use the internet or World Wide Web/web-based program?" Format=PYQTHLPF.;
+  Attrib PYQTHLP6 Label = "Thinking back to the (last time/time) you tried to quit smoking in the past 12 months. Did you use books, pamphlets, videos or other materials?" Format=PYQTHLPF.;
+  Attrib PYQTHLP7 Label = "Thinking back to the (last time/time) you tried to quit smoking in the past 12 months. Did you use acupuncture or hypnosis?" Format=PYQTHLPF.;
+  Attrib PYQHLP7A Label = "Thinking back to the (last time/time) you tried to quit smoking in the past 12 months. Which did you use acupuncture or hypnosis or both?" Format=PYQHLP7F.;
+  Attrib PYQTPTN1 Label = "The (last time/time) you tried to quit smoking in the past 12 months. Did you try to quit by gradually cutting back on cigarettes?" Format=PYQTPTNF.;
+  Attrib PYQTPTN2 Label = "The (last time/time) you tried to quit smoking in the past 12 months. Did you try to quit by switching to chewing tobacco, snuff, <snus>, cigars or pipes?" Format=PYQTPTNF.;
+  Attrib PYQTPTN3 Label = "The (last time/time) you tried to quit smoking in the past 12 months. Did you switch to a 'lighter' cigarette in order to try to quit?" Format=PYQTPTNF.;
+  Attrib PYQTPTN4 Label = "The (last time/time) you tried to quit smoking in the past 12 months. Did you try to give up cigarettes all at once?" Format=PYQTPTNF.;
+  Attrib PYQPTN4A Label = "The (last time/time) you tried to quit smoking in the past 12 months. When you tried to quit all at once, would you say you tried to quit 'cold turkey'" Format=PYQPTN4F.;
+  Attrib DOCSEEN  Label = "In the past year/12 months have you seen a medical doctor?" Format=DOCSEENF.;
+  Attrib DOCADVYR Label = "During the past year/12 months, did any medical doctor advise you to stop smoking?" Format=DOCADVYF.;
+  Attrib DOCADVQL Label = "In the past 12 months, when a medical doctor advised you to quit smoking, did the doctor also suggest that you call or use a telephone help line or quit line?" Format=DOCADVQF.;
+  Attrib DOCADVEV Label = "Has a medical doctor ever advised you to stop smoking?" Format=DOCADVEF.;
+  Attrib DDSSEEN  Label = "In the past year/12 months have you seen a dentist?" Format=DDSSEENF.;
+  Attrib DDSADVYR Label = "During the past year/12 months, did any dentist advise you to stop smoking?" Format=DDSADVYF.;
+  Attrib DDSADVQL Label = "In the past 12 months, when a dentist advised you to quit smoking, did the dentist also suggest that you call or use a telephone help line or quit line?" Format=DDSADVQF.;
+  Attrib DDSADVEV Label = "Has a dentist ever advised you to stop smoking?" Format=DDSADVEF.;
+  Attrib INTQT6MO Label = "Are you seriously considering stopping/quitting smoking within the next 6 months?" Format=INTQT6MF.;
+  Attrib INTQT30D Label = "Are you planning to stop/quit within the next 30 days?" Format=INTQT30F.;
+  Attrib INTRQUIT Label = "Overall, on a scale from 1 to 10 where 1 is not at all interested and 10 is extremely interested, how interested are you in quitting smoking?" Format=INTRQUIF.;
+  Attrib QUITSUCS Label = "If you did try to quit smoking altogether in the next 6 months, how likely do you think you would be to succeed..." Format=QUITSUCF.;
+  Attrib FMEVRDLY Label = "Ever smoked cigarettes every day for at least 6 months (former smokers)" Format=FMEVRDLF.;   
+  Attrib FMYRSDLY Label = "Years since smoked every day (former smokers who smoked every day for at least 6 months)" Format=FMYRSDLF.;
+  Attrib FMEVRCIG Label = "When you last smoked every day, on average how many cigarettes did you smoke daily? (former smokers who smoked every day for at least 6 months)" Format=FMEVRCIF.;
+  Attrib FMYRSMKC Label = "Years smoked every day (former smokers who smoked every day for at least 6 months)" Format=FMYRSMCF.;
+  Attrib FMYRSMKG Label = "Years smoked every day (former smokers who smoked every day for at least 6 months)" Format=FMYRSMGF.;
+  Attrib FMLOTQT  Label = "About how long has it been since you completely stopped smoking cigarettes (years, former smokers)" Format=FMLOTQTF.;
+  Attrib FMCGST12 Label = "Around this time 12 months ago, were you smoking cigarettes every day, some days or not at all? (former smokers who quit within the past year)" Format=FMCGST1F.;
+  Attrib FMCPDD12 Label = "Around this time 12 months ago, on the average, about how many cigarettes did you smoke each day? (former smokers who quit within the past year, every day smokers around 12 months ago)" Format=FMCPDD1F.;
+  Attrib FMCIGD12 Label = "Around this time 12 months ago, on how many of 30 days in the month did you smoke cigarettes? (former smokers who quit within the past year, some day smokers around 12 months ago)" Format=FMCIGD1F.;
+  Attrib FMCPDS12 Label = "On the average, on those days, how many cigarettes did you usually smoke each day? (former smokers who quit within the past year, some day smokers around 12 months ago)" Format=FMCPDS1F.;
+  Attrib FMMNTHUB Label = "Type of cigarette (menthol/non-menthol, former smokers who quit within the past 5 years)" Format=FMMNTHUF.;
+  Attrib FMMNTHRG Label = "Ever smoked menthol cigarettes (former smokers who quit within the past 5 years)" Format=FMMNTHRF.;
+  Attrib FMMNTHGP Label = "How long did you smoke menthol cigarettes (former smokers who quit within the past 5 years and smoked menthol)" Format=FMMNTHGF.;  
+  Attrib FMQTNRT1 Label = "When you quit smoking completely did you use a nicotine patch (former smokers who quit within the past 3 years)?" Format=FMQTNRTF.;
+  Attrib FMQTNRT2 Label = "When you quit smoking completely did you use a nicotine gum or nicotine lozenge? (former smokers who quit within the past 3 years)" Format=FMQTNRTF.;
+  Attrib FMQTNRT3 Label = "When you quit smoking completely did you use a nicotine nasal spray or nicotine inhaler? (former smokers who quit within the past 3 years)" Format=FMQTNRTF.;
+  Attrib FMQTNRT4 Label = "When you quit smoking completely did you use a prescription pill? (former smokers who quit within the past 3 years)" Format=FMQTNRTF.;
+  Attrib FMQTHLP1 Label = "When you quit smoking completely did you use a telephone help line or quit line? (former smokers who quit within the past 3 years)" Format=FMQTHLPF.;
+  Attrib FMQTHLP2 Label = "When you quit smoking completely did you use a stop smoking clinic, class or support group? (former smokers who quit within the past 3 years)" Format=FMQTHLPF.;
+  Attrib FMQTHLP3 Label = "When you quit smoking completely did you use one-on-one counseling? (former smokers who quit within the past 3 years)" Format=FMQTHLPF.;
+  Attrib FMQTHLP4 Label = "When you quit smoking completely did you use help or support from friends or family? (former smokers who quit within the past 3 years)" Format=FMQTHLPF.;
+  Attrib FMQTHLP5 Label = "When you quit smoking completely did you use the internet or World Wide Web/web-based program? (former smokers who quit within the past 3 years)" Format=FMQTHLPF.;
+  Attrib FMQTHLP6 Label = "When you quit smoking completely did you use books, pamphlets, videos or other materials? (former smokers who quit within the past 3 years)" Format=FMQTHLPF.;
+  Attrib FMQTHLP7 Label = "When you quit smoking completely did you use acupuncture or hypnosis? (former smokers who quit within the past 3 years)" Format=FMQTHLPF.;
+  Attrib FMQHLP7A Label = "When you quit smoking completely which did you use acupuncture or hypnosis or both? (former smokers who quit within the past 3 years)" Format=FMQHLP7F.;
+  Attrib FMQTPTN1 Label = "When you quit smoking completely did you try to quit by gradually cutting back on cigarettes? (former smokers who quit within the past 3 years)" Format=PYQTPTNF.;
+  Attrib FMQTPTN2 Label = "When you quit smoking completely did you try to quit by switching to chewing tobacco, snuff, <snus>, cigars or pipes? (former smokers who quit within the past 3 years)" Format=PYQTPTNF.;
+  Attrib FMQTPTN3 Label = "When you quit smoking completely did you switch to a 'lighter' cigarette in order to try to quit? (former smokers who quit within the past 3 years)" Format=PYQTPTNF.;
+  Attrib FMQTPTN4 Label = "When you quit smoking completely did you try to give up cigarettes all at once? (former smokers who quit within the past 3 years)" Format=PYQTPTNF.;
+  Attrib FMQPTN4A Label = "When you quit smoking completely, when you tried to quit all at once, would you say you tried to quit 'cold turkey'? (former smokers who quit within the past 3 years)" Format=PYQPTN4F.;
+  Attrib FMDOCSEE Label = "In the 12 months before you completely quit smoking did you see a medical doctor? (former smokers who quit within the past 3 years)" Format=FMDOCSEF.;
+  Attrib FMDOCADV Label = "During the 12 months before you completely quit smoking, did any medical doctor advise you to stop smoking? (former smokers who quit within the past 3 years)" Format=FMDOCADF.;
+  Attrib FMTTFC   Label = "During the year before your quit smoking, time to first cigarette, minutes (former smokers who quit within the past 3 years)" Format=FMTTFCF.;  
+  Attrib FMTTFC30 Label = "During the year before your quit smoking, smoke first cigarette of the day within first 30 minutes (former smokers who quit within the past 3 years)" Format=FMTTFC3F.;
+  Attrib PIPEEVER Label = "Ever used pipes <regular pipe filled with tobacco>?" Format=OTPEVERF.;
+  Attrib CIGREVER Label = "Ever used cigars <regular cigar, cigarillos or little filtered cigars>?" Format=OTPEVERF.;
+  Attrib CHEWEVER Label = "Ever used chewing tobacco?" Format=OTPEVERF.;
+  Attrib SNFFEVER Label = "Ever used snuff?" Format=OTPEVERF.;
+  Attrib HOOKEVER Label = "Ever used a water or hookah pipe filled with tobacco?" Format=OTPEVERF.;
+  Attrib SMKLEVER Label = "Ever used smokeless tobacco?" Format=OTPEVERF.;
+  Attrib PIPENow  Label = "Now use pipes <regular pipe filled with tobacco>?" Format=OTPNowF.;
+  Attrib CIGRNow  Label = "Now use cigars <regular cigar, cigarillos or little filtered cigars>?" Format=OTPNowF.;
+  Attrib CHEWNow  Label = "Now use chewing tobacco?" Format=OTPNowF.;
+  Attrib SNFFNow  Label = "Now use snuff?" Format=OTPNowF.;
+  Attrib HOOKNow  Label = "Now use a water or hookah pipe filled with tobacco?" Format=OTPNowF.;
+  Attrib SMKLNow  Label = "Now use smokeless tobacco?"  Format=OTPNowF.;
+  Attrib PIPENow2 Label = "Now use pipes <regular pipe filled with tobacco>?" Format=OTPNow2F.;
+  Attrib CIGRNow2 Label = "Now use cigars <regular cigar, cigarillos or little filtered cigars>?" Format=OTPNow2F.;
+  Attrib CHEWNow2 Label = "Now use chewing tobacco?" Format=OTPNow2F.;
+  Attrib SNFFNow2 Label = "Now use snuff?" Format=OTPNow2F.;
+  Attrib HOOKNow2 Label = "Now use a water or hookah pipe filled with tobacco?" Format=OTPNow2F.;
+  Attrib SMKLNow2 Label = "Now use smokeless tobacco?" Format=OTPNow2F.;
+  Attrib PIPECURR Label = "Current pipe <regular pipe filled with tobacco> use status" Format=OTPCurrF.;
+  Attrib CIGRCURR Label = "Current cigar <regular cigar, cigarillos or little filtered cigars> use status" Format=OTPCurrF.;
+  Attrib CHEWCURR Label = "Current chewing tobacco use status" Format=OTPCurrF.;
+  Attrib SNFFCURR Label = "Current snuff use status" Format=OTPCurrF.;
+  Attrib HOOKCURR Label = "Current water or hookah pipe filled with tobacco use status" Format=OTPCurrF.;
+  Attrib SMKLCURR Label = "Current smokeless tobacco use status" Format=OTPCurrF.;
+  Attrib PIPESTAT Label = "Current pipe <regular pipe filled with tobacco> use status" Format=OTPStatF.;
+  Attrib CIGRSTAT Label = "Current cigar <regular cigar, cigarillos or little filtered cigars> use status" Format=OTPStatF.;
+  Attrib CHEWSTAT Label = "Current chewing tobacco use status" Format=OTPStatF.;
+  Attrib SNFFSTAT Label = "Current snuff use status" Format=OTPStatF.;
+  Attrib HOOKSTAT Label = "Current water or hookah pipe filled with tobacco use status" Format=OTPStatF.;
+  Attrib SMKLSTAT Label = "Current smokeless tobacco use status" Format=OTPStatF.;
+  Attrib PIPEDAY  Label = "On how many of the past 30 days did you use pipes? (some day users)" Format=OTPDAYF.;
+  Attrib CIGRDAY  Label = "On how many of the past 30 days did you use cigars? (some day users)" Format=OTPDAYF.;
+  Attrib CHEWDAY  Label = "On how many of the past 30 days did you use chewing tobacco? (some day users)" Format=OTPDAYF.;
+  Attrib SNFFDAY  Label = "On how many of the past 30 days did you use snuff? (some day users)" Format=OTPDAYF.;
+  Attrib HOOKDAY  Label = "On how many of the past 30 days did you use a water or hookah pipe filled with tobacco? (some day users)" Format=OTPDAYF.;
+  Attrib SMKLDAY  Label = "On how many of the past 30 days did you use smokeless tobacco? (some day users)" Format=OTPDAYF.;
+  Attrib PIPELOTQ Label = "About how long has it been since you completely quit smoking a regular pipe filled with tobacco? (years, former pipe smokers)" Format=OTPLOTQF.;
+  Attrib CIGRLOTQ Label = "About how long has it been since you completely quit smoking cigars, cigarillos or little filtered cigars? (years, former cigar smokers)" Format=OTPLOTQF.;
+  Attrib HOOKLOTQ Label = "About how long has it been since you completely quit smoking a water or hookah pipe filled with tobacco? (years, former hookah smokers)" Format=OTPLOTQF.;
+  Attrib SMKLLOTQ Label = "About how long has it been since you completely quit using smokeless tobacco? (years, former smokeless users)" Format=OTPLOTQF.;
+  Attrib PIPEYRS  Label = "In total, how many years (have you smoked/did you smoke) a regular pipe filled with tobacco? (ever pipe smokers)" Format=OTPYrsF.;
+  Attrib CIGRYRS  Label = "In total, how many years (have you smoked/did you smoke) cigars or cigarillos or little filtered cigars? (ever cigar smokers)" Format=OTPYrsF.;
+  Attrib HOOKYRS  Label = "In total, how many years (have you smoked/did you smoke) a water or hookah pipe filled with tobacco? (ever hookah smokers)" Format=OTPYrsF.;
+  Attrib SMKLYRS  Label = "In total, how many years (have you used/did you use) smokeless tobacco? (ever smokeless users)" Format=OTPYrsF.;
+  Attrib WKAREA92 Label = "Which of these best describes the area in which you work most of the time? (1992-2002 only)" Format=WKAREA9F.;
+  Attrib WKAREA03 Label = "Which of these best describes the area in which you work most of the time? (2003-2007 only)" Format=WKAREA0F.;
+  Attrib WKINDPLC Label = "Indoor place mainly work (2003-2007 only)" Format=WKINDPLF.;
+  Attrib WKSTATE  Label = "In which state, do you work on your main job or business (2003-2007 only)" Format=WKSTATEF.;
+  Attrib WKAREA10 Label = "Do you mainly work indoors or outdoors? (2010-2015 only)" Format=WKAREA1F.;
+  Attrib WKINDPL1 Label = "Indoor place mainly work (2010-2015 only)" Format=WKINDPLF.;
+  Attrib WKSTATE1 Label = "In which state do you work (2010-2015 only)" Format=WKSTATEF.;
+  Attrib WKINDPL2 Label = "Indoor place mainly work (2010-2015 only)" Format=WKINDPLF.;
+  Attrib WKSTATE2 Label = "In which state do you work on your main indoor job or business (2010-2015 only)" Format=WKSTATEF.;
+  Attrib WKPOLICY Label = "Does your place of work have an official policy that restricts smoking in any way?" Format=WKPOLICF.;
+  Attrib WKPOLIND Label = "Smoking policy for indoor public or common areas such as lobbies, rest rooms and lunch rooms" Format=WKPOLINF.;
+  Attrib WKPOLWRK Label = "Smoking policy for work areas" Format=WKPOLWRF.;
+  Attrib WORKBAN  Label = "Smoking policy at work (constructed)" Format=WORKBANF.;
+  Attrib WKSTPSMK Label = "Within the past 12 months, has your employer offered any stop smoking program or help to quit smoking" Format=WKSTPSMF.;
+  Attrib WKSMK2WK Label = "During the past two weeks has anyone smoked in the area in which you work?" Format=WKSMK2WF.;
+  Attrib ATSMKRST Label = "In restaurants, do you think that smoking should be:" Format=ATSMKF.;
+  Attrib ATSMKHSP Label = "In hospitals, do you think that smoking should be:" Format=ATSMKF.;
+  Attrib ATSMKIWA Label = "In indoor work areas, do you think that smoking should be:" Format=ATSMKF.;
+  Attrib ATSMKBAR Label = "In bars and cocktail lounges (and clubs), do you think that smoking should be:" Format=ATSMKF.;
+  Attrib ATSMKISP Label = "In indoor sporting events, do you think that smoking should be:" Format=ATSMKF.;
+  Attrib ATSMKISM Label = "In indoor shopping malls, do you think that smoking should be:" Format=ATSMKF.;
+  Attrib ATSMKPLY Label = "On outdoor children's - playgrounds and sports fields, do you think that smoking should be:" Format=ATSMKF.;
+  Attrib ATSMKCAS Label = "Inside casinos, do you think that smoking should be:" Format=ATSMKF.;
+  Attrib ATSMCARO Label = "Inside a car, when there are other people present, do you think that smoking should..." Format=ATSMCARF.;
+  Attrib ATSMCARC Label = "If children are present inside the car, do you think that smoking should..." Format=ATSMCARF.;
+  Attrib HMSMKPOL Label = "Home smoking rules" Format=HMSMKPOF.;
+  Attrib ATMINBUY Label = "In your opinion, how easy is it for minors to buy cigarettes and other tobacco products in your community?" Format=ATMINBUF.;
+  Attrib ATSAMPLE Label = "Do you think that giving away free sample by tobacco companies should be:" Format=ATSAMPLF.;
+  Attrib ATTOBADV Label = "Do you think advertising of tobacco products should be:" Format=ATTOBADF.;   
+  Attrib SRWeight Label = "Self Response Weight";
+Run;
+
+Proc Contents Data=MyLib.Harmon VarNum;
+  Title1 "Tobacco Use Supplement to the Current Population Survey";
+  Title2 "Hamonized Data File: harmonzd.tus_cps.1992.through.2015.vers_0_9.beta.dat";    
+Run;
