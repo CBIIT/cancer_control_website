@@ -1732,16 +1732,16 @@
   </wsdl:binding>
   <wsdl:service name="IS_Applications">
     <wsdl:port name="IS_ApplicationsSoap" binding="tns:IS_ApplicationsSoap">
-      <soap:address location="https://rw-cyberseminar-dev.icfwebservices.com/application_WS/IS_Applications.asmx" />
+      <soap:address location="https://cyberseminar.cancercontrolplanet.org/application_WS/IS_Applications.asmx" />
     </wsdl:port>
     <wsdl:port name="IS_ApplicationsSoap12" binding="tns:IS_ApplicationsSoap12">
-      <soap12:address location="https://rw-cyberseminar-dev.icfwebservices.com/application_WS/IS_Applications.asmx" />
+      <soap12:address location="https://cyberseminar.cancercontrolplanet.org/application_WS/IS_Applications.asmx" />
     </wsdl:port>
     <wsdl:port name="IS_ApplicationsHttpGet" binding="tns:IS_ApplicationsHttpGet">
-      <http:address location="https://rw-cyberseminar-dev.icfwebservices.com/application_WS/IS_Applications.asmx" />
+      <http:address location="https://cyberseminar.cancercontrolplanet.org/application_WS/IS_Applications.asmx" />
     </wsdl:port>
     <wsdl:port name="IS_ApplicationsHttpPost" binding="tns:IS_ApplicationsHttpPost">
-      <http:address location="https://rw-cyberseminar-dev.icfwebservices.com/application_WS/IS_Applications.asmx" />
+      <http:address location="https://cyberseminar.cancercontrolplanet.org/application_WS/IS_Applications.asmx" />
     </wsdl:port>
   </wsdl:service>
 </wsdl:definitions>
