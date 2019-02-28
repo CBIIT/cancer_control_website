@@ -65,7 +65,7 @@ Partial Class IS_webinars
 
         Dim strreturn As String = ""
 
-        strreturn = WS.ImplementationScience_Register(varID, txtfirstname.Text, txtlastname.Text, txtemail.Text, txtorg.Text, txtmoi.Text, txtparticipants.Text, CBool(CK_Sub.Checked))
+        strreturn = WS.ImplementationScience_Register(varID, AES_Encrypt(txtfirstname.Text), AES_Encrypt(txtlastname.Text), AES_Encrypt(txtemail.Text), AES_Encrypt(txtorg.Text), AES_Encrypt(txtmoi.Text), txtparticipants.Text, CBool(CK_Sub.Checked))
 
         If strreturn = "0" Then
             'Good Registration?

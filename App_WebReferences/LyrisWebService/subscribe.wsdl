@@ -272,11 +272,11 @@
       </s:element>
     </s:schema>
   </wsdl:types>
-  <wsdl:message name="RW_ConfirmSoapIn">
-    <wsdl:part name="parameters" element="tns:RW_Confirm" />
+  <wsdl:message name="Insert_ApplicationSoapIn">
+    <wsdl:part name="parameters" element="tns:Insert_Application" />
   </wsdl:message>
-  <wsdl:message name="RW_ConfirmSoapOut">
-    <wsdl:part name="parameters" element="tns:RW_ConfirmResponse" />
+  <wsdl:message name="Insert_ApplicationSoapOut">
+    <wsdl:part name="parameters" element="tns:Insert_ApplicationResponse" />
   </wsdl:message>
   <wsdl:message name="SubscribeToNciHintsUsersSoapIn">
     <wsdl:part name="parameters" element="tns:SubscribeToNciHintsUsers" />
@@ -387,9 +387,9 @@
     <wsdl:part name="parameters" element="tns:UNSubscribeTo_nci_implementationscienceResponse" />
   </wsdl:message>
   <wsdl:portType name="SubscribeSoap">
-    <wsdl:operation name="RW_Confirm">
-      <wsdl:input message="tns:RW_ConfirmSoapIn" />
-      <wsdl:output message="tns:RW_ConfirmSoapOut" />
+    <wsdl:operation name="Insert_Application">
+      <wsdl:input message="tns:Insert_ApplicationSoapIn" />
+      <wsdl:output message="tns:Insert_ApplicationSoapOut" />
     </wsdl:operation>
     <wsdl:operation name="SubscribeToNciHintsUsers">
       <wsdl:input message="tns:SubscribeToNciHintsUsersSoapIn" />
@@ -466,8 +466,8 @@
   </wsdl:portType>
   <wsdl:binding name="SubscribeSoap" type="tns:SubscribeSoap">
     <soap:binding transport="http://schemas.xmlsoap.org/soap/http" />
-    <wsdl:operation name="RW_Confirm">
-      <soap:operation soapAction="http://tempuri.org/RW_Confirm" style="document" />
+    <wsdl:operation name="Insert_Application">
+      <soap:operation soapAction="http://tempuri.org/Insert_Application" style="document" />
       <wsdl:input>
         <soap:body use="literal" />
       </wsdl:input>
@@ -640,8 +640,8 @@
   </wsdl:binding>
   <wsdl:binding name="SubscribeSoap12" type="tns:SubscribeSoap">
     <soap12:binding transport="http://schemas.xmlsoap.org/soap/http" />
-    <wsdl:operation name="RW_Confirm">
-      <soap12:operation soapAction="http://tempuri.org/RW_Confirm" style="document" />
+    <wsdl:operation name="Insert_Application">
+      <soap12:operation soapAction="http://tempuri.org/Insert_Application" style="document" />
       <wsdl:input>
         <soap12:body use="literal" />
       </wsdl:input>
