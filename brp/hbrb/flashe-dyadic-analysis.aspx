@@ -127,11 +127,11 @@
 							<li><a href="/brp/tcrb/">Tobacco</a></li>
 							<li><a href="/brp/hbrb/dietary_behaviors.html">Diet, Weight and Physical Activity</a></li>
 							<li><a href="/brp/hbrb/sun-protection.html">Sun Protection</a></li>
-							<li><a href="/brp/priority-areas/health-behaviors/hpv-vaccination.html">HPV Vaccination</a></li>
 							<li><a href="/brp/bbpsb/affective_science.html">Affect and Emotion</a></li>
 							<li><a href="/brp/bbpsb/cognitive-changes.html">Cognition</a></li>
 							<li><a href="/brp/hcirb/social-media.html">Social Media</a></li>
 							<li><a href="/brp/priority-areas/big-data.html">Integrative Data Analysis and Big Data</a></li>
+							<li><a href="/brp/bbpsb/aging-trajectories.html">Aging Trajectories in Cancer Survivors</a></li>
 						</ul>
 					</li>
                     <li><a href="/brp/research/index.html">Data and Tools</a></li>
