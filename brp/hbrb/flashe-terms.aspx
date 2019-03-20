@@ -16,17 +16,17 @@
 <!-- Disable tap highlight on IE -->
 <meta name="msapplication-tap-highlight" content="no">
 <!-- Default Favicons -->
-<link rel="icon" type="image/x-icon" href="favicon.ico">
-<link rel="icon" type="image/png" href="favicon.png">
+<link rel="icon" type="image/x-icon" href="/favicon.ico">
+<link rel="icon" type="image/png" href="/favicon.png">
 <!-- Add to homescreen for Chrome on Android -->
 <meta name="mobile-web-app-capable" content="yes">
 <meta name="application-name" content="DCCPS">
-<link rel="icon" sizes="192x192" href="images/touch/chrome-touch-icon-192x192.png">
+<link rel="icon" sizes="192x192" href="/images/touch/chrome-touch-icon-192x192.png">
 <!-- Add to homescreen for Safari on iOS -->
 <meta name="apple-mobile-web-app-capable" content="yes">
 <meta name="apple-mobile-web-app-status-bar-style" content="default">
 <meta name="apple-mobile-web-app-title" content="DCCPS">
-<link rel="apple-touch-icon" href="images/touch/apple-touch-icon.png">
+<link rel="apple-touch-icon" href="/images/touch/apple-touch-icon.png">
 <!-- Bootstrap -->
 <link href="../css/bootstrap.min.css" rel="stylesheet">
 <!-- Google Fonts Source Sans & Merriweather -->
@@ -132,6 +132,7 @@
 							<li><a href="/brp/hcirb/social-media.html">Social Media</a></li>
 							<li><a href="/brp/priority-areas/big-data.html">Integrative Data Analysis and Big Data</a></li>
 							<li><a href="/brp/bbpsb/aging-trajectories.html">Aging Trajectories in Cancer Survivors</a></li>
+							<li><a href="/brp/bbpsb/cognitive-changes/perception.html">Perception, Attention and Cognition</a></li>
 						</ul>
 					</li>
                     <li><a href="/brp/research/index.html">Data and Tools</a></li>
@@ -354,11 +355,11 @@
 <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
 <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
 <!-- Include all compiled plugins (below), or include individual files as needed -->
-<script src="../brp/js/bootstrap.min.js"></script>
+<script src="/brp/js/bootstrap.min.js"></script>
 <!-- Dropdown Hover or Click: https://github.com/CWSpear/bootstrap-hover-dropdown -->
-<script src="../brp/js/bootstrap-hover-dropdown.min.js"></script>
+<script src="/brp/js/bootstrap-hover-dropdown.min.js"></script>
 <!-- Custom jQuery -->
-<script src="../brp/js/scripts-min.js"></script>
+<script src="/brp/js/scripts-min.js"></script>
 <!-- Web Analytics -->
 <script type="text/javascript" src="https://static.cancer.gov/webanalytics/WA_DCCPS_PageLoad.js"></script>
 <script type="text/javascript">_satellite.pageBottom();</script>
