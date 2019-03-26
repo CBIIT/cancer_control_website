@@ -18,7 +18,7 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
     <meta name="description" content="Learn more about the public use data resources available through DCCPS and its partners.">
 <meta name="keywords" content="cancer research, research, surveillance, epidemiology, genomics, health services, implementation science, health care grants, grant funding, cancer expertise, scientific, science, cancer control, behavioral science, cancer survivorship, public health, quality of cancer care, federal government, communication, anthropology, outcomes research, psychometrics, medical genetics, health psychology, economics, social work, policy analysis, geography, family medicine, tobacco control, population science, Division of Cancer Control and  Population Sciences, DCCPS, National Cancer Institute, NCI, National Institutes of Health, NIH">
 <meta name="author" content="National Cancer Institute, Division of Cancer Control and Population Science">
-    <title>Meeting Registration | Cancer and Accelerated Aging: Advancing Research for Healthier Survivors | DCCPS/NCI/NIH</title>
+    <title>Meeting Registration | Cancer Survivorship Investigators Meeting | DCCPS/NCI/NIH</title>
 <!-- Disable tap highlight on IE -->
 <meta name="msapplication-tap-highlight" content="no">
 <!-- Default Favicons -->
@@ -32,7 +32,7 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
 <meta name="apple-mobile-web-app-capable" content="yes">
 <meta name="apple-mobile-web-app-status-bar-style" content="default">
 <meta name="apple-mobile-web-app-title" content="DCCPS">
-<link rel="apple-touch-icon" href="../survivorship-investigator/images/touch/apple-touch-icon.png">
+<link rel="apple-touch-icon" href="/images/touch/apple-touch-icon.png">
 <!-- Bootstrap -->
 <link href="/css/bootstrap.min.css" rel="stylesheet">
 <!-- Google Fonts Source Sans & Merriweather -->
@@ -98,7 +98,7 @@ height="0" width="0" style="display:none;visibility:hidden" title="Google Tag Ma
 		<div class="col-lg-12">
               <ol class="breadcrumb">
                     <li><a href="/index.html">DCCPS Home</a></li>
-                    <li><a href="../survivorship-investigator/index.html">Cancer Survivorship Investigator Meeting</a></li>
+                    <li><a href="../survivorship-investigator/index.html">Cancer Survivorship Investigators Meeting</a></li>
                     <li>Meeting Registration</li>
               </ol>
 		</div> <!-- /.col-lg-12 -->

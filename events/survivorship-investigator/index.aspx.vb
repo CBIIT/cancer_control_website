@@ -23,7 +23,7 @@ Partial Class CAA_Testing_testReg
         Dim WS As New ApplicationWebSerrvice.S_ApplicationsSoapClient
 
         Dim FK_Event_String As String = "1"
-        Dim EmailTitle As String = "Cancer Survivorship Investigator Meeting"
+        Dim EmailTitle As String = "Cancer Survivorship Investigators Meeting"
         Dim EmailDate As String = "April 8, 2019"
 
         strResult = WS.Survivorship_Registration(FK_Event_String, AES_Encrypt(TXT_FirstName.Text), AES_Encrypt(TXT_LastName.Text), AES_Encrypt(TXT_Degree.Text), AES_Encrypt(TXT_Organization.Text), AES_Encrypt(TXT_Email.Text), AES_Encrypt(TXT_Phone.Text), EmailTitle, EmailDate)
