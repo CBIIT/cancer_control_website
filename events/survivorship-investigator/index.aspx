@@ -106,9 +106,13 @@ height="0" width="0" style="display:none;visibility:hidden" title="Google Tag Ma
     <div class="row">
         <div class="col-md-12">
             <form id="form1" runat="server" class="form-caa">
-
+			<div class="row">
+				<div class="col-sm-12">
+					<p><strong>Thank you for your interest in the Cancer Survivorship Investigators Meeting. Registration for this event has closed.</strong> </p>
+				</div>
+            </div>
             <!--<asp:Literal ID="LIT_FK_Event" Text="2" runat="server"></asp:Literal>-->
-			
+			<!--
             <div class="row">
 				<div class="col-sm-12">
 					<p><strong>Participation in this event is by invitation only, and invitations are non-transferable. To register, please complete the form below. </strong></p>
@@ -163,6 +167,7 @@ height="0" width="0" style="display:none;visibility:hidden" title="Google Tag Ma
                     </div>
                 </div>
                 <div class="spacer-20"></div>
+-->
     </form>
         </div> <!-- /.col-md-9 -->
 	</div> <!-- close /.row -->
@@ -230,7 +235,7 @@ height="0" width="0" style="display:none;visibility:hidden" title="Google Tag Ma
 			<div class="row">
 				<div class="col-lg-12">
 				  <p class="tagline">NIH...Turning Discovery Into Health<sup>®</sup></p>
-					<p class="update"><span class="bold">Last Updated:</span>February 27, 2019</p>
+					<p class="update"><span class="bold">Last Updated:</span>April 5, 2019</p>
 				</div> <!-- /.col-lg-12 -->
 			</div> <!-- /.row -->
 		</div><!-- /.col-md-8 .col-md-offset-1 -->
