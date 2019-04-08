@@ -15,7 +15,7 @@ $(document).ready(function () {
 		}
 	});
 // Random homepage hero image	
-	var images = ["IS-homepage-1.png","IS-homepage-2.png","IS-homepage-3.png"];
+	var images = ["IS-homepage-1.jpg","IS-homepage-2.jpg","IS-homepage-3.jpg","IS-homepage-4.jpg"];
 	$('#random-image').css({'background-image': 'url(images/' + images[Math.floor(Math.random() * images.length)] + ')'});
 // Accordion enter key and +/- toggle	
 	$('.btn-accordion').keypress(function (e) {
