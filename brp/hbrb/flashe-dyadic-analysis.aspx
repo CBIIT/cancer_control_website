@@ -16,17 +16,17 @@
 <!-- Disable tap highlight on IE -->
 <meta name="msapplication-tap-highlight" content="no">
 <!-- Default Favicons -->
-<link rel="icon" type="image/x-icon" href="favicon.ico">
-<link rel="icon" type="image/png" href="favicon.png">
+<link rel="icon" type="image/x-icon" href="/favicon.ico">
+<link rel="icon" type="image/png" href="/favicon.png">
 <!-- Add to homescreen for Chrome on Android -->
 <meta name="mobile-web-app-capable" content="yes">
 <meta name="application-name" content="DCCPS">
-<link rel="icon" sizes="192x192" href="images/touch/chrome-touch-icon-192x192.png">
+<link rel="icon" sizes="192x192" href="/images/touch/chrome-touch-icon-192x192.png">
 <!-- Add to homescreen for Safari on iOS -->
 <meta name="apple-mobile-web-app-capable" content="yes">
 <meta name="apple-mobile-web-app-status-bar-style" content="default">
 <meta name="apple-mobile-web-app-title" content="DCCPS">
-<link rel="apple-touch-icon" href="images/touch/apple-touch-icon.png">
+<link rel="apple-touch-icon" href="/images/touch/apple-touch-icon.png">
 <!-- Bootstrap -->
 <link href="../css/bootstrap.min.css" rel="stylesheet">
 <!-- Google Fonts Source Sans & Merriweather -->
@@ -116,7 +116,8 @@
 							<li class="landing-page-link"><a href="/brp/funding/">Funding Opportunities <span class="sr-only">Landing Page</span></a></li>
 							<li><a href="/brp/funding/funding-opportunities.html">Apply for Behavioral Grants</a></li>
 							<li><a href="/brp/funding/sample-application.html">Sample Grant Applications</a></li>
-							<li><a href="https://staffprofiles.cancer.gov/brp/granteeList.do">Featured Grantees</a></li>
+							<a href="/brp/archive/funding-conf.html">Conference: The Science of Research on Discrimination and Health</a></li>
+							<li><a href="/brp/archive/publications.html">Highlighted Publications</a></li>
 						</ul>
 					</li>
 					<li class="dropdown">
@@ -124,13 +125,14 @@
 						<ul class="dropdown-menu">
 							<li class="landing-page-link"><a href="/brp/priority-areas/">Priority Areas <span class="sr-only">Landing Page</span></a></li>
 							<li><a href="/brp/tcrb/">Tobacco</a></li>
-							<li><a href="/brp/hbrb/dietary_behaviors.html">Diet, Weight and Physical Activity</a></li>
+							<li><a href="/brp/hbrb/dietary_behaviors.html">Diet, Weight, and Physical Activity</a></li>
 							<li><a href="/brp/hbrb/sun-protection.html">Sun Protection</a></li>
-							<li><a href="/brp/priority-areas/health-behaviors/hpv-vaccination.html">HPV Vaccination</a></li>
 							<li><a href="/brp/bbpsb/affective_science.html">Affect and Emotion</a></li>
 							<li><a href="/brp/bbpsb/cognitive-changes.html">Cognition</a></li>
 							<li><a href="/brp/hcirb/social-media.html">Social Media</a></li>
 							<li><a href="/brp/priority-areas/big-data.html">Integrative Data Analysis and Big Data</a></li>
+							<li><a href="/brp/bbpsb/aging-trajectories.html">Aging Trajectories in Cancer Survivors</a></li>
+							<li><a href="/brp/bbpsb/cognitive-changes/perception.html">Perception, Attention, and Cognition</a></li>
 						</ul>
 					</li>
                     <li><a href="/brp/research/index.html">Data and Tools</a></li>
@@ -195,7 +197,7 @@
 	<div class="row">
 		<div class="col-md-9 col-md-push-3">
         	<p>Individuals who are part of a close relationship &ndash; such as a parent and child &ndash; may influence each another. Such individuals may also express similarity in their thoughts, behavior, or affect. The FLASHE study is designed to capture this type of interdependence and homogeneity. </p>
-			<p>FLASHE incorporates the conceptualization of multilevel influences on multiple cancer-preventive  health behaviors into a dyadic design to facilitate numerous research questions focused on either an individual (parent or adolescent) or the dyad (parent and adolescent). The analysis of dyadic data is much more complicated than the analysis of data from individuals. &nbsp;To support data users who are interested in conducting  dyadic analyses, we have provided the following resources:</p>
+			<p>FLASHE incorporates the conceptualization of multilevel influences on multiple cancer-preventive  health behaviors into a dyadic design to facilitate numerous research questions focused on either an individual (parent or adolescent) or the dyad (parent and adolescent). The analysis of dyadic data is much more complicated than the analysis of data from individuals. To support data users who are interested in conducting  dyadic analyses, we have provided the following resources:</p>
 			<h3>Presentations and Webinars</h3>
 			<ul>
 			  <li>A short introduction to dyadic analysis (<a href="/brp/hbrb/flashe-webinar.html">webinar</a>)</li>
@@ -324,11 +326,11 @@
 <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
 <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
 <!-- Include all compiled plugins (below), or include individual files as needed -->
-<script src="../brp/js/bootstrap.min.js"></script>
+<script src="/brp/js/bootstrap.min.js"></script>
 <!-- Dropdown Hover or Click: https://github.com/CWSpear/bootstrap-hover-dropdown -->
-<script src="../brp/js/bootstrap-hover-dropdown.min.js"></script>
+<script src="/brp/js/bootstrap-hover-dropdown.min.js"></script>
 <!-- Custom jQuery -->
-<script src="../brp/js/scripts-min.js"></script>
+<script src="/brp/js/scripts-min.js"></script>
 <!-- Web Analytics -->
 <script type="text/javascript" src="https://static.cancer.gov/webanalytics/WA_DCCPS_PageLoad.js"></script>
 <script type="text/javascript">_satellite.pageBottom();</script>

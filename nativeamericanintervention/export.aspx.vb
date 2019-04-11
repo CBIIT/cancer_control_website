@@ -2,7 +2,7 @@
 Imports System.Data
 Imports System.Configuration
 Imports System.Data.SqlClient
-
+Imports System.Net
 
 Partial Class nativeamericanintervention_export
     Inherits System.Web.UI.Page
@@ -10,6 +10,9 @@ Partial Class nativeamericanintervention_export
 
 
     Protected Sub Page_Load(sender As Object, e As EventArgs) Handles Me.Load
+		
+		System.Net.ServicePointManager.SecurityProtocol = SecurityProtocolType.Tls12
+		
         If Not Page.IsPostBack Then
             'http://www.aspsnippets.com/Articles/Write-data-to-Excel-file-xls-and-xlsx-in-ASPNet.aspx
 

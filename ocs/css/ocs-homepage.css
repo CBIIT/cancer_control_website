@@ -92,12 +92,11 @@
 	}
 	
 	.publications h2 {
-		background-color: #04859D;
+		background-color: #008391;
     	color: #FFFFFF;
     	font-family: Helvetica,Arial,"Lucida Grande",sans-serif;
     	font-size: 1.4em;
     	font-weight: 600;
-    	padding: 0 15px;
 		text-align: center;
 		line-height: 1.2;
 		padding: 10px 0;
@@ -334,7 +333,7 @@
 			background-image: linear-gradient(to bottom, #DCEBF8, #F6FBFF);
 			background-repeat: repeat-x;
 			border-color: rgba(0, 0, 0, 0.1) rgba(0, 0, 0, 0.1) rgba(0, 0, 0, 0.25);
-			color: #096598;
+			color: #025A6A;
 			font-size: 14px;
 			border-image: none;
 			border-radius: 4px;
@@ -348,7 +347,7 @@
 		.btn-info.active,
 		.btn-info.disabled,
 		.btn-info[disabled] {
-		  color: #096598;
+		  color: #025A6A;
 		  background-color: #ffffffs;
 		  *background-color: #dcebf8;
 		}

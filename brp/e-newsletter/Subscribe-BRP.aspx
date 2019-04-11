@@ -29,7 +29,7 @@
 </head>
 <body class="homepage">
 <div class="form-container">
-    <div id="thankyou" runat="server"></div>
+    <div id="thankyou" class="email-validation-message" runat="server"></div>
     <form id="frm_SubScribe" runat="server">
 								<div class="form-group">
 									<asp:Label ID="Label1" runat="server" AssociatedControlID="txtemailTerms" Text="Email Address" class="email-label"></asp:Label>

@@ -18,7 +18,7 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
     <meta name="description" content="Learn more about the public use data resources available through DCCPS and its partners.">
 <meta name="keywords" content="cancer research, research, surveillance, epidemiology, genomics, health services, implementation science, health care grants, grant funding, cancer expertise, scientific, science, cancer control, behavioral science, cancer survivorship, public health, quality of cancer care, federal government, communication, anthropology, outcomes research, psychometrics, medical genetics, health psychology, economics, social work, policy analysis, geography, family medicine, tobacco control, population science, Division of Cancer Control and  Population Sciences, DCCPS, National Cancer Institute, NCI, National Institutes of Health, NIH">
 <meta name="author" content="National Cancer Institute, Division of Cancer Control and Population Science">
-    <title>Register for the Measuring Aging and Identifying Aging Phenotypes in Cancer Survivors Think Tank | Cancer and Accelerated Aging: Advancing Research for Healthier Survivors | DCCPS/NCI/NIH</title>
+    <title>Meeting Registration | Cancer and Accelerated Aging: Advancing Research for Healthier Survivors | DCCPS/NCI/NIH</title>
 <!-- Disable tap highlight on IE -->
 <meta name="msapplication-tap-highlight" content="no">
 <!-- Default Favicons -->
@@ -88,7 +88,7 @@ height="0" width="0" style="display:none;visibility:hidden" title="Google Tag Ma
 	<div class="container">
 		<div class="row">
 			<div class="col-lg-12">
-				<h1>Register for the Measuring Aging and Identifying Aging Phenotypes in Cancer Survivors Think Tank</h1>
+				<h1>Meeting Registration</h1>
 			</div> <!-- /.col-lg-12 -->
 		</div> <!-- close /.row -->
 	</div> <!-- close /.container -->
@@ -97,26 +97,34 @@ height="0" width="0" style="display:none;visibility:hidden" title="Google Tag Ma
 	<div class="row">
 		<div class="col-lg-12">
               <ol class="breadcrumb">
-                    <li><a href="/index.html">Home</a></li>
-                    <li><a href="index.html">Measuring Aging and Identifying Aging Phenotypes in Cancer Survivors</a></li>
-                    <li>Register for the Think Tank Meeting</li>
+                    <li><a href="/index.html">DCCPS Home</a></li>
+                    <li><a href="index.html">Strategies to Prevent or Remediate Cancer- and Treatment-Associated Aging</a></li>
+                    <li>Meeting Registration</li>
               </ol>
 		</div> <!-- /.col-lg-12 -->
 	</div> <!-- close /.row -->
     <div class="row">
         <div class="col-md-12">
             <form id="form1" runat="server" class="form-caa">
-			<!--<asp:Literal ID="LIT_FK_Event" Text="1" runat="server"></asp:Literal>-->
+			<!--<asp:Literal ID="LIT_FK_Event" Text="2" runat="server"></asp:Literal>-->
 			<div class="row">
+				<div class="col-sm-9">
+					<p><strong>Thank you for your interest in the Strategies to Prevent or Remediate Cancer- and Treatment-Associated Aging think tank meeting. Registration for this event has closed.</strong> </p>
+				</div>
+            </div>
+				
+			<!--
+            <div class="row">
 				<div class="col-sm-9">
 					<p><strong>Participation in this working think tank is by  invitation only, and invitations are non-transferable. To register, complete  the form below.<br></strong></p>
 				<p><b>*</b> Indicates required field</p>
-				</div> <!-- /.col-sm-9 -->
+				</div>
 				<div class="col-sm-3">
 					<img src="/images/caa-logo.jpg" alt="Dispatches from Implementation Science at NCI" class="img-responsive" style="padding: 5px 0px 25px;">
-				</div> <!-- /.col-sm-3 -->
+				</div>
             </div>
             <br>
+			
             <div class="row">
 					<div class="col-md-6">
 						<asp:Label ID="Label1" runat="server" AssociatedControlID="TXT_FirstName" Text="First Name *"></asp:Label>
@@ -182,7 +190,7 @@ height="0" width="0" style="display:none;visibility:hidden" title="Google Tag Ma
                 <hr>
                 <div class="row">
                     <div class="col-md-12">
-                        <p><b>Speakers and Steering Committee members, please upload the following:</b></p>
+                        <p><b>Speakers, if you have not already emailed these to us, please upload the following:</b></p>
                     </div>
                 </div>
 				<div class="row">
@@ -204,7 +212,7 @@ height="0" width="0" style="display:none;visibility:hidden" title="Google Tag Ma
                 <hr>
                 <div class="row">
                     <div class="col-md-6">
-                        <asp:Label ID="Label14" runat="server" AssociatedControlID="RDList_Photo_Consent" Text="I consent to be photographed while attending the Measuring Aging and Identifying Aging Phenotypes in Cancer Survivors event. I further authorize that the photographs may be published. *"></asp:Label>
+                        <asp:Label ID="Label14" runat="server" AssociatedControlID="RDList_Photo_Consent" Text="I consent to be photographed while attending the Strategies to Prevent or Remediate Cancer- and Treatment-Associated Aging event. I further authorize that the photographs may be published. *"></asp:Label>
                         <asp:RadioButtonList ID="RDList_Photo_Consent" runat="server">
                             <asp:ListItem Text="Yes" Value="TRUE" />
                             <asp:ListItem Text="No" Value="FALSE" />
@@ -221,105 +229,14 @@ height="0" width="0" style="display:none;visibility:hidden" title="Google Tag Ma
                         </div>
 				</div>
                 <hr>
-                <div class="row">
-                    <div class="col-md-12"><strong>Boxed lunches are available for pre-order at a cost of $13 per day. They will include a sandwich, chips, a beverage, and either whole fruit or a cookie (your choice). Note: For day 2, please plan to bring a lunch if you do not select the boxed option.</strong><br><br></div>
-                </div>
-                <div class="row">
-                    <div class="col-md-6">
-                        <asp:Label ID="Label5" runat="server" AssociatedControlID="RDList_BoxLunchDay1" Text="Will you purchase a boxed lunch for Day 1?"></asp:Label>
-                        <asp:RadioButtonList ID="RDList_BoxLunchDay1" runat="server">
-                            <asp:ListItem Text="Yes" Value="TRUE" />
-                            <asp:ListItem Text="No" Value="FALSE" />
-                        </asp:RadioButtonList>
-                        <asp:RequiredFieldValidator ID="RequiredFieldValidator6" runat="server" ControlToValidate="RDList_BoxLunchDay1" Display="Dynamic" ErrorMessage="Please select yes or no if you will purchase a boxed lunch for Day 1?" CssClass="alert alert-danger"></asp:RequiredFieldValidator> 
-                        <br>
-                        <div id="LunchDay1Selection">
-                        <asp:Label ID="Label6" runat="server" AssociatedControlID="DDList_BeverageDay1" Text="Select beverage (day 1):"></asp:Label>
-                        <br>
-                        <asp:DropDownList ID="DDList_BeverageDay1" runat="server">
-                            <asp:ListItem Text="Diet Coke" Value="Diet Coke" />
-                            <asp:ListItem Text="Coke" Value="Coke" />
-                            <asp:ListItem Text="Bottled water" Value="Bottled water" />
-                            <asp:ListItem Text="Sparkling lime water" Value="Sparkling lime water" />
-                        </asp:DropDownList>
-                        <br>
-                        <br>
-                        <asp:Label ID="Label7" runat="server" AssociatedControlID="DDList_SandwichDay1" Text="Select sandwich (day 1):"></asp:Label>
-                        <br>
-                        <asp:DropDownList ID="DDList_SandwichDay1" runat="server" Width="100%">
-                            <asp:ListItem Text="Oven roasted roast beef and cheddar cheese" Value="Oven roasted roast beef and cheddar cheese" />
-                            <asp:ListItem Text="Smoked ham and Swiss cheese" Value="Smoked ham and Swiss cheese" />
-                            <asp:ListItem Text="Oven roasted turkey and American cheese" Value="Oven roasted turkey and American cheese" />
-                            <asp:ListItem Text="Chunky chicken and tuna salad" Value="Chunky chicken and tuna salad" />
-                            <asp:ListItem Text="Roasted seasonal vegetables, fresh mozzarella, lettuce and tomato (cheese is optional)" Value="Roasted seasonal vegetables, fresh mozzarella, lettuce and tomato (cheese is optional)" />
-                        </asp:DropDownList>
-                        <br>
-                        <asp:Label ID="Label24" runat="server" AssociatedControlID="DDList_CheeseDay2" Text="If 'Roasted seasonal vegetables, fresh mozzarella, lettuce and tomato' is selected, would you like cheese?"></asp:Label>
-                        <br>
-                        <asp:DropDownList ID="DDList_CheeseDay1" runat="server">
-                            <asp:ListItem Text="Yes" Value="TRUE" />
-                            <asp:ListItem Text="No" Value="FALSE" />
-                        </asp:DropDownList>
-                        <br>
-                        <br>
-                        <asp:Label ID="Label8" runat="server" AssociatedControlID="DDList_SnackDay1" Text="Select fruit or cookie (day 1):"></asp:Label>
-                        <br>    
-                        <asp:DropDownList ID="DDList_SnackDay1" runat="server">
-                            <asp:ListItem Text="Fruit" Value="Fruit" />
-                            <asp:ListItem Text="Cookie" Value="Cookie" />
-                        </asp:DropDownList> 
-                            </div>
-                    </div>
-                    <div class="col-md-6"><asp:Label ID="Label9" runat="server" AssociatedControlID="RDList_BoxLunchDay2" Text="Will you purchase a boxed lunch for Day 2?"></asp:Label>
-                        <asp:RadioButtonList ID="RDList_BoxLunchDay2" runat="server">
-                            <asp:ListItem Text="Yes" Value="TRUE" />
-                            <asp:ListItem Text="No" Value="FALSE" />
-                        </asp:RadioButtonList>
-                        <asp:RequiredFieldValidator ID="RequiredFieldValidator7" runat="server" ControlToValidate="RDList_BoxLunchDay2" Display="Dynamic" ErrorMessage="Please select yes or no if you will purchase a boxed lunch for Day 2?" CssClass="alert alert-danger"></asp:RequiredFieldValidator> 
-                        <br>
-                        <div id="LunchDay2Selection">
-                        <asp:Label ID="Label13" runat="server" AssociatedControlID="DDList_BeverageDay2" Text="Select beverage (day 2):"></asp:Label>
-                        <br>
-                        <asp:DropDownList ID="DDList_BeverageDay2" runat="server">
-                            <asp:ListItem Text="Diet Coke" Value="Diet Coke" />
-                            <asp:ListItem Text="Coke" Value="Coke" />
-                            <asp:ListItem Text="Bottled water" Value="Bottled water" />
-                            <asp:ListItem Text="Sparkling lime water" Value="Sparkling lime water" />
-                        </asp:DropDownList> 
-                        <br>
-                        <br>
-                        <asp:Label ID="Label21" runat="server" AssociatedControlID="DDList_SandwichDay2" Text="Select sandwich (day 2):"></asp:Label>
-                        <br>
-                        <asp:DropDownList ID="DDList_SandwichDay2" runat="server" Width="100%">
-                            <asp:ListItem Text="Oven roasted roast beef and cheddar cheese" Value="Oven roasted roast beef and cheddar cheese" />
-                            <asp:ListItem Text="Smoked ham and Swiss cheese" Value="Smoked ham and Swiss cheese" />
-                            <asp:ListItem Text="Oven roasted turkey and American cheese" Value="Oven roasted turkey and American cheese" />
-                            <asp:ListItem Text="Chunky chicken and tuna salad" Value="Chunky chicken and tuna salad" />
-                            <asp:ListItem Text="Roasted seasonal vegetables, fresh mozzarella, lettuce and tomato (cheese is optional)" Value="Roasted seasonal vegetables, fresh mozzarella, lettuce and tomato (cheese is optional)" />
-                        </asp:DropDownList>
-                        <br>
-                        <asp:Label ID="Label23" runat="server" AssociatedControlID="DDList_CheeseDay2" Text="If 'Roasted seasonal vegetables, fresh mozzarella, lettuce and tomato' is selected, would you like cheese?"></asp:Label>
-                        <br>
-                        <asp:DropDownList ID="DDList_CheeseDay2" runat="server">
-                            <asp:ListItem Text="Yes" Value="TRUE" />
-                            <asp:ListItem Text="No" Value="FALSE" />
-                        </asp:DropDownList> 
-                        <br>
-                        <br>
-                        <asp:Label ID="Label22" runat="server" AssociatedControlID="DDList_SnackDay2" Text="Select fruit or cookie (day 2):"></asp:Label>
-                        <br>
-                        <asp:DropDownList ID="DDList_SnackDay2" runat="server">
-                            <asp:ListItem Text="Fruit" Value="Fruit" />
-                            <asp:ListItem Text="Cookie" Value="Cookie" />
-                        </asp:DropDownList> 
-                            </div>
-                    </div>
-                </div>
+
                 <div class="row">
                     <div class="col-md-12">
                         <asp:Button ID="BTN_UploadClicked" class="btn btn-default btn-inline" runat="server" Text="Submit" />
+                        <asp:Button ID="BTN_Cancel" CssClass="btn btn-default btn-inline" CausesValidation="false" runat="server" Text="Cancel" />
                     </div>
                 </div>
+				-->
                 <div class="spacer-20"></div>
     </form>
         </div> <!-- /.col-md-9 -->
@@ -388,7 +305,7 @@ height="0" width="0" style="display:none;visibility:hidden" title="Google Tag Ma
 			<div class="row">
 				<div class="col-lg-12">
 				  <p class="tagline">NIH...Turning Discovery Into Health<sup>®</sup></p>
-					<p class="update"><span class="bold">Last Updated:</span>July 2, 2018</p>
+					<p class="update"><span class="bold">Last Updated:</span>February 8, 2019</p>
 				</div> <!-- /.col-lg-12 -->
 			</div> <!-- /.row -->
 		</div><!-- /.col-md-8 .col-md-offset-1 -->

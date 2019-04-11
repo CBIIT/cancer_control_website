@@ -2,13 +2,27 @@
 <wsdl:definitions xmlns:soap="http://schemas.xmlsoap.org/wsdl/soap/" xmlns:soapenc="http://schemas.xmlsoap.org/soap/encoding/" xmlns:tm="http://microsoft.com/wsdl/mime/textMatching/" xmlns:mime="http://schemas.xmlsoap.org/wsdl/mime/" xmlns:tns="http://tempuri.org/" xmlns:http="http://schemas.xmlsoap.org/wsdl/http/" xmlns:s="http://www.w3.org/2001/XMLSchema" xmlns:soap12="http://schemas.xmlsoap.org/wsdl/soap12/" targetNamespace="http://tempuri.org/" xmlns:wsdl="http://schemas.xmlsoap.org/wsdl/">
   <wsdl:types>
     <s:schema elementFormDefault="qualified" targetNamespace="http://tempuri.org/">
-      <s:element name="RW_Confirm">
-        <s:complexType />
-      </s:element>
-      <s:element name="RW_ConfirmResponse">
+      <s:element name="Insert_Application">
         <s:complexType>
           <s:sequence>
-            <s:element minOccurs="0" maxOccurs="1" name="RW_ConfirmResult" type="s:string" />
+            <s:element minOccurs="0" maxOccurs="1" name="PubTitle" type="s:string" />
+            <s:element minOccurs="0" maxOccurs="1" name="Journal" type="s:string" />
+            <s:element minOccurs="0" maxOccurs="1" name="PrimaryAuthor" type="s:string" />
+            <s:element minOccurs="0" maxOccurs="1" name="AllAuthors" type="s:string" />
+            <s:element minOccurs="0" maxOccurs="1" name="AuthorEmail" type="s:string" />
+            <s:element minOccurs="0" maxOccurs="1" name="PublishMonth" type="s:string" />
+            <s:element minOccurs="0" maxOccurs="1" name="PublishYear" type="s:string" />
+            <s:element minOccurs="0" maxOccurs="1" name="FileName" type="s:string" />
+            <s:element minOccurs="0" maxOccurs="1" name="bytes_FileData" type="s:base64Binary" />
+            <s:element minOccurs="0" maxOccurs="1" name="ContentType" type="s:string" />
+            <s:element minOccurs="0" maxOccurs="1" name="CreationDate" type="s:string" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="Insert_ApplicationResponse">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="Insert_ApplicationResult" type="s:string" />
           </s:sequence>
         </s:complexType>
       </s:element>
@@ -270,13 +284,41 @@
           </s:sequence>
         </s:complexType>
       </s:element>
+      <s:element name="SubscribeTo_TUSCPS">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="objemail" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="SubscribeTo_TUSCPSResponse">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="SubscribeTo_TUSCPSResult" type="s:string" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="UNSubscribeTo_TUSCPS">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="objemail" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="UNSubscribeTo_TUSCPSResponse">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="UNSubscribeTo_TUSCPSResult" type="s:string" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
     </s:schema>
   </wsdl:types>
-  <wsdl:message name="RW_ConfirmSoapIn">
-    <wsdl:part name="parameters" element="tns:RW_Confirm" />
+  <wsdl:message name="Insert_ApplicationSoapIn">
+    <wsdl:part name="parameters" element="tns:Insert_Application" />
   </wsdl:message>
-  <wsdl:message name="RW_ConfirmSoapOut">
-    <wsdl:part name="parameters" element="tns:RW_ConfirmResponse" />
+  <wsdl:message name="Insert_ApplicationSoapOut">
+    <wsdl:part name="parameters" element="tns:Insert_ApplicationResponse" />
   </wsdl:message>
   <wsdl:message name="SubscribeToNciHintsUsersSoapIn">
     <wsdl:part name="parameters" element="tns:SubscribeToNciHintsUsers" />
@@ -386,10 +428,22 @@
   <wsdl:message name="UNSubscribeTo_nci_implementationscienceSoapOut">
     <wsdl:part name="parameters" element="tns:UNSubscribeTo_nci_implementationscienceResponse" />
   </wsdl:message>
+  <wsdl:message name="SubscribeTo_TUSCPSSoapIn">
+    <wsdl:part name="parameters" element="tns:SubscribeTo_TUSCPS" />
+  </wsdl:message>
+  <wsdl:message name="SubscribeTo_TUSCPSSoapOut">
+    <wsdl:part name="parameters" element="tns:SubscribeTo_TUSCPSResponse" />
+  </wsdl:message>
+  <wsdl:message name="UNSubscribeTo_TUSCPSSoapIn">
+    <wsdl:part name="parameters" element="tns:UNSubscribeTo_TUSCPS" />
+  </wsdl:message>
+  <wsdl:message name="UNSubscribeTo_TUSCPSSoapOut">
+    <wsdl:part name="parameters" element="tns:UNSubscribeTo_TUSCPSResponse" />
+  </wsdl:message>
   <wsdl:portType name="SubscribeSoap">
-    <wsdl:operation name="RW_Confirm">
-      <wsdl:input message="tns:RW_ConfirmSoapIn" />
-      <wsdl:output message="tns:RW_ConfirmSoapOut" />
+    <wsdl:operation name="Insert_Application">
+      <wsdl:input message="tns:Insert_ApplicationSoapIn" />
+      <wsdl:output message="tns:Insert_ApplicationSoapOut" />
     </wsdl:operation>
     <wsdl:operation name="SubscribeToNciHintsUsers">
       <wsdl:input message="tns:SubscribeToNciHintsUsersSoapIn" />
@@ -463,11 +517,19 @@
       <wsdl:input message="tns:UNSubscribeTo_nci_implementationscienceSoapIn" />
       <wsdl:output message="tns:UNSubscribeTo_nci_implementationscienceSoapOut" />
     </wsdl:operation>
+    <wsdl:operation name="SubscribeTo_TUSCPS">
+      <wsdl:input message="tns:SubscribeTo_TUSCPSSoapIn" />
+      <wsdl:output message="tns:SubscribeTo_TUSCPSSoapOut" />
+    </wsdl:operation>
+    <wsdl:operation name="UNSubscribeTo_TUSCPS">
+      <wsdl:input message="tns:UNSubscribeTo_TUSCPSSoapIn" />
+      <wsdl:output message="tns:UNSubscribeTo_TUSCPSSoapOut" />
+    </wsdl:operation>
   </wsdl:portType>
   <wsdl:binding name="SubscribeSoap" type="tns:SubscribeSoap">
     <soap:binding transport="http://schemas.xmlsoap.org/soap/http" />
-    <wsdl:operation name="RW_Confirm">
-      <soap:operation soapAction="http://tempuri.org/RW_Confirm" style="document" />
+    <wsdl:operation name="Insert_Application">
+      <soap:operation soapAction="http://tempuri.org/Insert_Application" style="document" />
       <wsdl:input>
         <soap:body use="literal" />
       </wsdl:input>
@@ -637,11 +699,29 @@
         <soap:body use="literal" />
       </wsdl:output>
     </wsdl:operation>
+    <wsdl:operation name="SubscribeTo_TUSCPS">
+      <soap:operation soapAction="http://tempuri.org/SubscribeTo_TUSCPS" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="UNSubscribeTo_TUSCPS">
+      <soap:operation soapAction="http://tempuri.org/UNSubscribeTo_TUSCPS" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
   </wsdl:binding>
   <wsdl:binding name="SubscribeSoap12" type="tns:SubscribeSoap">
     <soap12:binding transport="http://schemas.xmlsoap.org/soap/http" />
-    <wsdl:operation name="RW_Confirm">
-      <soap12:operation soapAction="http://tempuri.org/RW_Confirm" style="document" />
+    <wsdl:operation name="Insert_Application">
+      <soap12:operation soapAction="http://tempuri.org/Insert_Application" style="document" />
       <wsdl:input>
         <soap12:body use="literal" />
       </wsdl:input>
@@ -804,6 +884,24 @@
     </wsdl:operation>
     <wsdl:operation name="UNSubscribeTo_nci_implementationscience">
       <soap12:operation soapAction="http://tempuri.org/UNSubscribeTo_nci_implementationscience" style="document" />
+      <wsdl:input>
+        <soap12:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="SubscribeTo_TUSCPS">
+      <soap12:operation soapAction="http://tempuri.org/SubscribeTo_TUSCPS" style="document" />
+      <wsdl:input>
+        <soap12:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="UNSubscribeTo_TUSCPS">
+      <soap12:operation soapAction="http://tempuri.org/UNSubscribeTo_TUSCPS" style="document" />
       <wsdl:input>
         <soap12:body use="literal" />
       </wsdl:input>

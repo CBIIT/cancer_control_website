@@ -11,7 +11,7 @@
 <link href="/IS/css/bootstrap.min.css" rel="stylesheet">
 <!-- Google Fonts Source Sans & Merriweather -->
 <link href="https://fonts.googleapis.com/css?family=Merriweather:300,300i|Source+Sans+Pro:300,300i,400,400i,600,600i,700,700i" rel="stylesheet">
-<link href="/IS/css/styles.css" rel="stylesheet">
+<link href="/IS/css/styles-min.css" rel="stylesheet">
 <style type="text/css">
 	.homepage .form-container {
     	padding: 10px 0px 0px 0px;
@@ -29,7 +29,7 @@
 </head>
 <body class="homepage">
 <div class="form-container">
-    <div id="thankyou" runat="server"></div>
+    <div id="thankyou" class="email-validation-message" runat="server"></div>
     <form id="frm_SubScribe" runat="server">
 								<div class="form-group">
 									<asp:Label ID="Label1" runat="server" AssociatedControlID="txtemailTerms" Text="Email Address" class="email-label"></asp:Label>

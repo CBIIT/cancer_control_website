@@ -11,7 +11,7 @@
 /*          to be modified to match where the data are stored.                  */;
 /*                                                                              */;
 /* Modifications                                                                */;
-/*                                                                              */;
+/*   02/11/2019: Correction to column positions for PEH10B4 and PEH10B6.        */;
 /*                                                                              */;
 /********************************************************************************/;
 Filename CPSFeb03  "data\cpsfeb03.dat" Lrecl=1386;
@@ -409,7 +409,11 @@ Libname  CPS "data\.";
           @1145 PEH8B    2.
           @1147 (PEH91-PEH94) (2.)
           @1155 (PEH10A1-PEH10A7) (2.)
-          @1169 (PEH10B1-PEH10B7) (2.)
+          @1169 (PEH10B1-PEH10B3) (2.)
+          @1175 PEH10B6  2.
+          @1177 PEH10B5  2.
+          @1179 PEH10B4  2.
+          @1181 PEH10B7  2.          
           @1183 PEH10B7A 2.
           @1185 (PEH10C1-PEH10C4) (2.)
           @1193 PEH10C4A 2.

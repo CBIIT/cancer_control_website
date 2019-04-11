@@ -3,6 +3,8 @@ Partial Class brp_e_newsletter_Subscribe
     Inherits System.Web.UI.Page
 
     Protected Sub btnSubmit_Click(sender As Object, e As EventArgs) Handles btnSubmit.Click
+        System.Net.ServicePointManager.SecurityProtocol = SecurityProtocolType.Tls12
+
         Dim ws As New LyrisWebService.SubscribeSoapClient
 
         Dim strreturn As String = ""
@@ -33,7 +35,10 @@ Partial Class brp_e_newsletter_Subscribe
             ElseIf strreturn = "1" Then
                 'Good UN-Susbscribe
                 frm_SubScribe.Style.Add("display", "none")
-                thankyou.InnerHtml = "<p class='alert alert-success'>This email address was successfully un-subscribed.</p>"
+                thankyou.InnerHtml = "<p class='alert alert-success'>This email address was successfully unsubscribed.</p>"
+            ElseIf strreturn = "3" Then
+                'Already Unsusbscribe 
+                thankyou.InnerHtml = "<p class='alert alert-danger'>This email address has already been unsubscribed.</p>"
             Else
                 '#3 - unknown reason for unsubscibe 
                 thankyou.InnerHtml = "<p class='alert alert-danger'>Unknown error. Please try again.</p>"

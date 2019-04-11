@@ -15,11 +15,3 @@
 
 User-agent: *
 Crawl-delay: 10
-Disallow: /css/
-Disallow: /bb/css/
-Disallow: /bb/js/
-Disallow: /IS/css/
-Disallow: /js/
-Disallow: /ocs/css/
-Disallow: /brp/css/
-Disallow: /brp/js/
