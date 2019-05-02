@@ -12,6 +12,15 @@
 <!-- Google Fonts Source Sans & Merriweather -->
 <link href="https://fonts.googleapis.com/css?family=Merriweather:300,300i|Source+Sans+Pro:300,300i,400,400i,600,600i,700,700i" rel="stylesheet">
 <link href="/IS/css/styles-min.css" rel="stylesheet">
+<style type="text/css">
+    #frm_SubScribe #txtemailTerms {
+		display: inline-block;
+		max-width: 215px;
+	}
+	#frm_SubScribe #btnSubmit {
+		display: inline-block;
+	}
+</style>
 <!--[if lte IE 9]>
 	<link href="/brp/css/ie-styles-min.css" rel="stylesheet" type="text/css">
 <![endif]-->
@@ -28,7 +37,7 @@
     <form id="frm_SubScribe" runat="server">
 								<div class="form-group">
 									<asp:Label ID="Label1" runat="server" AssociatedControlID="txtemailTerms" Text="Email Address" class="email-label"></asp:Label>
-                                    <asp:TextBox ID="txtemailTerms" runat="server" class="form-control"  size="28" type="text"></asp:TextBox>
+                                    <asp:TextBox ID="txtemailTerms" runat="server" class="form-control"  size="28" type="text" placeholder="example@email.com"></asp:TextBox>
                                     <asp:Button ID="btnSubmit" runat="server" Text="Submit" class="btn btn-default" type="button" />
 								<div class="email-validation-message">
 										<asp:RequiredFieldValidator ID="RequiredFieldValidator1" runat="server" ControlToValidate="txtemailTerms"
@@ -49,6 +58,5 @@
 			$('span.form-radio input:radio');
 		});
 	</script>
-            
 </body>
 </html>
