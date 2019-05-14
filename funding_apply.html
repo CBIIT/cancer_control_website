@@ -1,5 +1,5 @@
 ﻿<!doctype html>
-<html lang="en"><!-- InstanceBegin template="/Templates/inner-fund.dwt" codeOutsideHTMLIsLocked="false" -->
+<html lang="en"><!-- InstanceBegin template="/Templates/inner-landingpage.dwt" codeOutsideHTMLIsLocked="false" -->
 <head>
 <script src="//assets.adobedtm.com/f1bfa9f7170c81b1a9a9ecdcc6c5215ee0b03c84/satelliteLib-339f9157d73ce92dfb58c341869b41fef294030a.js"></script>
 <meta charset="UTF-8">
@@ -16,7 +16,7 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
 <!-- InstanceBeginEditable name="metatags" -->
     <meta name="description" content="View a listing of funding opportunities that are currently accepting applications.">
   <!-- InstanceEndEditable -->
-<meta name="keywords" content="cancer research, research, surveillance, epidemiology, genomics, health services, implementation science, health care grants, grant funding, cancer expertise, scientific, science, cancer control, behavioral science, cancer survivorship, public health, quality of cancer care, federal government, communication, anthropology, outcomes research, psychometrics, medical genetics, health psychology, economics, social work, policy analysis, geography, family medicine, tobacco control, population science, Division of Cancer Control and  Population Sciences, DCCPS, National Cancer Institute, NCI, National Institutes of Health, NIH">
+<meta name="keywords" content="cancer research, research, surveillance, epidemiology, genomics, health services, implementation science, healthcare grants, grant funding, cancer expertise, scientific, science, cancer control, behavioral science, cancer survivorship, public health, quality of cancer care, federal government, communication, anthropology, outcomes research, psychometrics, medical genetics, health psychology, economics, social work, policy analysis, geography, family medicine, tobacco control, population science, Division of Cancer Control and  Population Sciences, DCCPS, National Cancer Institute, NCI, National Institutes of Health, NIH">
 <meta name="author" content="National Cancer Institute, Division of Cancer Control and Population Science">
 <!-- InstanceBeginEditable name="doctitle" -->
     <title>Apply for Cancer Control Grants | DCCPS/NCI/NIH</title>
@@ -48,23 +48,13 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
 <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
 <![endif]-->
   <!-- InstanceBeginEditable name="head" -->
+	
+	<link href="/css/datatables.min.css" rel="stylesheet">
+	<link href="/css/funding.css" rel="stylesheet">
     <!--[if lte IE 9]>
 	<link href="./css/ie-styles-min.css" rel="stylesheet" type="text/css">
 <![endif]-->
-	<style type="text/css">
-		table th:nth-child(1) {
-			width:38%;
-		}
-		.three-column-table th:nth-child(1) {
-			width:56%;
-		}
-		table th:nth-child(2), table th:nth-child(3), .three-column-table th:nth-child(2) {
-			width:18%;
-		}
-		table th:nth-child(4), .three-column-table th:nth-child(3) {
-			width:26%;
-		}
-	</style>
+	
   <!-- InstanceEndEditable -->
 </head>
 
@@ -124,17 +114,19 @@ height="0" width="0" style="display:none;visibility:hidden" title="Google Tag Ma
                     </form>
 				</div> <!-- /.form-group -->
 				<ul class="nav navbar-nav">
+					<!-- InstanceBeginEditable name="navigation" -->
+				<ul class="nav navbar-nav">
 					<li><a href="/index.html">Home</a></li>
 					<li class="dropdown">
 						<a class="dropdown-toggle" data-toggle="dropdown" data-hover="dropdown" tabindex="0">Program Areas <span class="sr-only">Open Dropdown</span><b class="caret"></b></a>
 						<ul class="dropdown-menu">
-							<li class="landing-page-link"><a href="program_areas.html">Program Areas <span class="sr-only">Landing Page</span></a></li>
-							<li><a href="brp/">Behavioral Research</a></li>
+							<li class="landing-page-link"><a href="/program_areas.html">Program Areas <span class="sr-only">Landing Page</span></a></li>
+							<li><a href="/brp/">Behavioral Research</a></li>
 							<li><a href="https://epi.grants.cancer.gov/">Epidemiology &amp; Genomics</a></li>
 							<li><a href="https://healthcaredelivery.cancer.gov/">Healthcare Delivery Research</a></li>
-							<li><a href="IS/">Implementation Science</a></li>
+							<li><a href="/IS/">Implementation Science</a></li>
 							<li><a href="https://surveillance.cancer.gov/">Surveillance</a></li>
-							<li><a href="ocs/">Survivorship</a></li>
+							<li><a href="/ocs/">Survivorship</a></li>
 						</ul>
 					</li>
 					<li class="dropdown">
@@ -143,57 +135,57 @@ height="0" width="0" style="display:none;visibility:hidden" title="Google Tag Ma
 							<li class="landing-page-link"><a href="/current_research.html">Research Portfolios <span class="sr-only">Landing Page</span></a></li>
 							<li><a href="https://maps.cancer.gov/overview/DCCPSGrants/grantlist.jsp?method=dynamic&amp;division=dccps&amp;menu=division">Active Grants</a></li>
 							<li><a href="https://maps.cancer.gov/overview/map/index.jsp">Maps of Awarded Grants</a></li>
-							<li><a href="research_initiative.html">Research Initiatives</a></li>
+							<li><a href="/research_initiative.html">Research Initiatives</a></li>
 							<li><a href="https://maps.cancer.gov/overview/index.jsp">Funding History &amp; Trends</a></li>
 						</ul>
 					</li>
-					<!-- InstanceBeginEditable name="navigation" -->
 					<li class="dropdown active">
 						<a class="dropdown-toggle" data-toggle="dropdown" data-hover="dropdown" tabindex="0">Funding Opportunities <span class="sr-only">Open Dropdown</span><b class="caret"></b></a>
 						<ul class="dropdown-menu">
-							<li class="landing-page-link"><a href="funding.html">Funding Opportunities <span class="sr-only">Landing Page</span></a></li>
-							<li class="active"><a href="funding_apply.html">Funding Announcements</a></li>
-							<li><a href="funding_career.html">Training &amp; Career Development</a></li>
-							<li><a href="funding_info.html">How to Apply</a></li>
-							<li><a href="policy_info.html">Grant Policies</a></li>
-							<li><a href="new_grantees/index.html">For New Grantees</a></li>
-							<li><a href="funding_archive.html">Archives</a></li>
+							<li class="landing-page-link"><a href="/funding.html">Funding Opportunities <span class="sr-only">Landing Page</span></a></li>
+							<li class="active"><a href="/funding_apply.html">Funding Announcements</a></li>
+							<li><a href="/funding_career.html">Training &amp; Career Development</a></li>
+							<li><a href="/funding_info.html">How to Apply</a></li>
+							<li><a href="/policy_info.html">Grant Policies</a></li>
+							<li><a href="/new_grantees/index.html">For New Grantees</a></li>
+							<li><a href="/funding_archive.html">Archives</a></li>
 						</ul>
 					</li>
-					<!-- InstanceEndEditable -->
 					<li class="dropdown">
 						<a class="dropdown-toggle" data-toggle="dropdown" data-hover="dropdown" tabindex="0">Publications &amp; Data <span class="sr-only">Open Dropdown</span><b class="caret"></b></a>
 						<ul class="dropdown-menu">
-							<li class="landing-page-link"><a href="cancer_resources.html">Publications &amp; Data <span class="sr-only">Landing Page</span></a></li>
+							<li class="landing-page-link"><a href="/cancer_resources.html">Publications &amp; Data <span class="sr-only">Landing Page</span></a></li>
 							<li><a href="https://publications.nci.nih.gov/">Cancer Control Publications (CC Pubs)</a></li>
-							<li><a href="cr-tracking.html">Tracking the Cancer Burden</a></li>
-							<li><a href="cr-reports.html">Reports about DCCPS</a></li>
-							<li><a href="cr-dataset.html">DCCPS Public Data Sets &amp; Analyses</a></li>
-							<li><a href="cr-pub-funded-init.html">Publications from DCCPS-Funded Initiatives</a></li>
-							<li><a href="cr-pub-funded-datasets.html">Publications from DCCPS-Funded Data Sets</a></li>
-							<li><a href="cr-communication-videos.html">Video Archive</a></li>
-							<li><a href="infographics.html">Infographic Archive</a></li>
+							<li><a href="/cr-tracking.html">Tracking the Cancer Burden</a></li>
+							<li><a href="/cr-reports.html">Reports about DCCPS</a></li>
+							<li><a href="/cr-dataset.html">DCCPS Public Data Sets &amp; Analyses</a></li>
+							<li><a href="/cr-pub-funded-init.html">Publications from DCCPS-Funded Initiatives</a></li>
+							<li><a href="/cr-pub-funded-datasets.html">Publications from DCCPS-Funded Data Sets</a></li>
+							<li><a href="/cr-communication-videos.html">Video Archive</a></li>
+							<li><a href="/infographics.html">Infographic Archive</a></li>
 						</ul>
 					</li>
 					<li class="dropdown">
 						<a class="dropdown-toggle" data-toggle="dropdown" data-hover="dropdown" tabindex="0">Research Emphasis <span class="sr-only">Open Dropdown</span><b class="caret"></b></a>
 						<ul class="dropdown-menu">
-							<li class="landing-page-link"><a href="research-emphasis/index.html">Research Emphasis <span class="sr-only">Landing Page</span></a></li>
-							<li><a href="research-emphasis/health-disparities.html">Health Disparities</a></li>
-							<li><a href="research-emphasis/rural.html">Rural Cancer Control</a></li>
-							<li><a href="research-emphasis/supplement.html">Cancer Control at NCI-Designated Cancer Centers</a></li>
-							<li><a href="research-emphasis/moonshot.html">Cancer Moonshot</a></li>
+							<li class="landing-page-link"><a href="/research-emphasis/index.html">Research Emphasis <span class="sr-only">Landing Page</span></a></li>
+							<li><a href="/research-emphasis/health-disparities.html">Health Disparities</a></li>
+							<li><a href="/research-emphasis/rural.html">Rural Cancer Control</a></li>
+							<li><a href="/research-emphasis/supplement.html">Cancer Control at NCI-Designated Cancer Centers</a></li>
+							<li><a href="/research-emphasis/moonshot.html">Cancer Moonshot</a></li>
 						</ul>
 					</li>
 					<li class="dropdown">
 						<a class="dropdown-toggle" data-toggle="dropdown" data-hover="dropdown" tabindex="0">About DCCPS <span class="sr-only">Open Dropdown</span><b class="caret"></b></a>
 						<ul class="dropdown-menu">
-							<li class="landing-page-link"><a href="od/index.html">About DCCPS <span class="sr-only">Landing Page</span></a></li>
-							<li><a href="od/aboutcc.html">About Cancer Control</a></li>
-							<li><a href="od/aboutdiv.html">About the Division</a></li>
-							<li><a href="od/fellowship-opportunities.html">Fellowship Opportunities</a></li>
+							<li class="landing-page-link"><a href="/od/index.html">About DCCPS <span class="sr-only">Landing Page</span></a></li>
+							<li><a href="/od/aboutcc.html">About Cancer Control</a></li>
+							<li><a href="/od/aboutdiv.html">About the Division</a></li>
+                            <li><a href="/od/fellowship-opportunities.html">Fellowship Opportunities</a></li>
 						</ul>
 					</li>
+				</ul>
+					<!-- InstanceEndEditable -->
 				</ul>
 			</nav>	
 		</div> <!-- close /.col-lg-12 -->
@@ -203,7 +195,7 @@ height="0" width="0" style="display:none;visibility:hidden" title="Google Tag Ma
 </header>
 
 <main id="main-content" class="subpages" role="main" tabindex="-1">
-<div class="fundingopportunities-band"></div>
+<!-- InstanceBeginEditable name="ColorBand" --><div class="fundingopportunities-band"></div><!-- InstanceEndEditable -->
 <div class="page-title">
 	<div class="container">
 		<div class="row">
@@ -227,172 +219,353 @@ height="0" width="0" style="display:none;visibility:hidden" title="Google Tag Ma
             <!-- InstanceEndEditable -->
 		</div> <!-- /.col-lg-12 -->
 	</div> <!-- close /.row -->
+</div> <!-- close /.container -->
+<!-- InstanceBeginEditable name="Content" -->
+<div class="container">
+  <div class="row">
+    <div class="col-md-12">
+      <p class="intro">The Division of Cancer Control and Population Sciences funds a large portfolio of grants and contracts. The portfolio currently includes approximately 800 grants valued at nearly $450 million. Here we provide a listing of funding opportunities that are currently accepting applications. Please visit this page regularly as new funding opportunities are added upon approval by NCI.</p>
+      <p class="intro">For information on the portfolio of over 800 grants, please go to <a href="current_research.html">Research Portfolios</a> section of this website.</p>
+      <hr>
+    </div>
+  </div>
+</div>
+<div>
+  <div class="container">
     <div class="row">
-    	<div class="col-md-3">
-			<div class="sidebar-nav">
-				<h2 class="hidden-xs hidden-sm">Section Menu</h2>
-				<div class="navbar-header">
-					<button class="navbar-toggle collapsed" type="button" data-toggle="collapse" data-target="#section-menu-responsive" aria-controls="section-menu-responsive" aria-expanded="false">
-						<div class="nav-hamburger">
-							<span class="sr-only">Toggle Section Menu</span>
-							<span class="glyphicon glyphicon-th"></span>
-						</div> <!-- /.nav-hamburger -->
-						<div class="nav-menu-title">Section Menu</div>
-					</button>
-				</div> <!-- /.navbar-header -->
-				<nav id="section-menu-responsive" class="navbar-collapse collapse" role="navigation" aria-expanded="false">
-					<ul class="nav">
-						<!-- InstanceBeginEditable name="Sidebar" -->
-						<li class="active"><a href="funding_apply.html">Funding Announcements</a></li>
-						<li><a href="funding_career.html">Training &amp; Career Development</a></li>
-						<li><a href="funding_info.html">How to Apply</a></li>
-						<li><a href="policy_info.html">Grant Policies</a></li>
-						<li><a href="new_grantees/index.html">For New Grantees</a></li>
-						<li><a href="funding_archive.html">Archives</a></li>
-						<!-- InstanceEndEditable -->
-					</ul>
-				</nav>
-			</div> <!-- /.sidebar -->
-		</div> <!-- /.col-md-3 -->
-        <div class="col-md-9">
-        <!-- InstanceBeginEditable name="Main-Content" -->
-        <p>The Division of Cancer Control and Population Sciences funds a large portfolio of grants and contracts. The portfolio currently includes approximately 800 grants valued at nearly $450 million. Here we provide a listing of funding opportunities that are currently accepting applications. Please visit this page regularly as new funding opportunities are added upon approval by NCI.</p>
-        <p>For information on the portfolio of over 800 grants, please go to <a href="current_research.html">Research Portfolios</a> section of this website.</p>
-        <h2>Announcements Are Available Online for the Following Areas:</h2>
-        <div class="row">
-          <div class="col-md-6">
-            <ul class="nav nav-pills nav-stacked">
-              <li><a href="#pofa">Parent and Omnibus Funding Announcements</a></li>
-              <li><a href="#ocs">Cancer Survivorship</a></li>
-              <li><a href="#egrp">Epidemiology and Genomics Research</a></li>
-              <li><a href="#hdr">Healthcare Delivery Research</a></li>
-              <li><a href="#hd">Health Disparities</a></li>
-              <li><a href="#is">Implementation Science</a></li>
-              <li><a href="#srp">Surveillance Research</a></li>
-            </ul>
+      <div class="col-md-3">
+        <h3>Filters</h3>
+        <div class="btn btn-default btn-inline showhide-filters"><span class="sr-only">Show/Hide </span>Filters</div>
+        <div id="webinar-filters" class="accordion-group">
+          <div class="accordion-heading" id="category-heading"> <a class="btn btn-accordion accordion-toggle" data-toggle="collapse" data-target="#category" tabindex="0" aria-controls="collapse" aria-expanded="true">
+            <div class="accordion-icon"><span class="glyphicon glyphicon-plus glyphicon-minus"></span></div>
+            <div class="accordion-title">Research Categories</div>
+            </a> <a class="infographic-area magnify" style="background-color:#fff;">
+              <div class="question-icon"></div>
+              </a> <!-- /.infographic-area -->
+            <div class="modal"> <span class="close cursor">&times;</span>
+              <div class="modal-content">
+                <p>DCCPS has the lead responsibility at NCI for supporting research in surveillance, epidemiology, healthcare delivery, behavioral science, and cancer survivorship. Use this filter to search for funding announcements by research topic.</p>
+              </div> <!-- /.modal-content -->
+            </div> <!-- /.modal -->
+          </div> <!-- /.accordion-heading -->
+          <div id="category" class="accordion-body collapse in" aria-expanded="true">
+            <div class="accordion-inner">
+              <div>
+                <input id="CKCategory_1" value="Cancer Survivorship" type="checkbox" name="category" />
+                <label for="CKCategory_1">Cancer Survivorship</label>
+              </div>
+              <div>
+                <input id="CKCategory_2" value="Epidemiology and Genomics Research" type="checkbox" name="category" />
+                <label for="CKCategory_2">Epidemiology and Genomics Research</label>
+              </div>
+              <div>
+                <input id="CKCategory_3" value="Healthcare Delivery Research" type="checkbox" name="category" />
+                <label for="CKCategory_3">Healthcare Delivery Research</label>
+              </div>
+              <div>
+                <input id="CKCategory_4" value="Health Disparities" type="checkbox" name="category" />
+                <label for="CKCategory_4">Health Disparities</label>
+              </div>
+              <div>
+                <input id="CKCategory_5" value="Surveillance Research" type="checkbox" name="category" />
+                <label for="CKCategory_5">Surveillance Research</label>
+              </div>
+              <div>
+                <input id="CKCategory_6" value="Basic Biobehavioral and Psychological Sciences" type="checkbox" name="category" />
+                <label for="CKCategory_6">Basic Biobehavioral and Psychological Sciences</label>
+              </div>
+              <div>
+                <input id="CKCategory_7" value="Implementation Science" type="checkbox" name="category" />
+                <label for="CKCategory_7">Implementation Science</label>
+              </div>
+              <div>
+                <input id="CKCategory_8" value="Health Behaviors Research" type="checkbox" name="category" />
+                <label for="CKCategory_8">Health Behaviors Research</label>
+              </div>
+              <div>
+                <input id="CKCategory_9" value="Health Communication and Informatics Research" type="checkbox" name="category" />
+                <label for="CKCategory_9">Health Communication and Informatics Research</label>
+              </div>
+              <div>
+                <input id="CKCategory_10" value="Tobacco Control Research" type="checkbox" name="category" />
+                <label for="CKCategory_10">Tobacco Control Research</label>
+              </div>
+            </div> <!-- /.accordion-inner -->
+          </div> <!-- /.accordion-body -->
+          <div class="accordion-heading" id="funding-heading"> <a class="btn btn-accordion accordion-toggle" data-toggle="collapse" data-target="#funding" tabindex="0" aria-controls="collapse" aria-expanded="true">
+            <div class="accordion-icon"><span class="glyphicon glyphicon-plus glyphicon-minus"></span></div>
+            <div class="accordion-title">Type of Funding</div>
+            </a> <a class="infographic-area magnify" style="background-color:#fff;">
+              <div class="question-icon"></div>
+              </a> <!-- /.infographic-area -->
+            <div class="modal"> <span class="close cursor">&times;</span>
+              <div class="modal-content">
+                <p>The DCCPS portfolio of grants and contracts includes a variety of funding opportunity types. See below for a description of each announcement type. </p>
+                <ul class="inline-links">
+                  <li>Program Announcement (PA): Identifies areas of increased priority and/or emphasis on particular funding mechanisms for a specific area of science</li>
+                  <li>PAR: A PA with special receipt, referral and/or review considerations, as described in the PAR announcement</li>
+                  <li>PAS: A PA that includes specific set-aside funds as described in the PAS announcement</li>
+                  <li>Request for Application (RFA): Identifies a more narrowly defined area for which one or more NIH institutes have set aside funds for awarding grants</li>
+                  <li>Parent Announcements: Broad funding opportunity announcements allowing applicants to submit investigator-initiated applications for specific <a href="https://grants.nih.gov/grants/funding/funding_program.htm">activity codes</a>. They are open for up to 3 years and use <a href="https://grants.nih.gov/grants/how-to-apply-application-guide/due-dates-and-submission-policies/due-dates.htm">standard due dates</a>.</li>
+                </ul>
+              </div> <!-- /.modal-content -->
+            </div> <!-- /.modal -->
+          </div> <!-- /.accordion-heading -->
+          <div id="funding" class="accordion-body collapse in" aria-expanded="true">
+            <div class="accordion-inner">
+              <div>
+                <input id="CKCtype_PA" value="PA-" type="checkbox" name="funding" />
+                <label for="CKCtype_PA">PA</label>
+              </div>
+              <div>
+                <input id="CKCtype_PAR" value="PAR-" type="checkbox" name="funding" />
+                <label for="CKCtype_PAR">PAR</label>
+              </div>
+              <div>
+                <input id="CKCtype_PAS" value="PAS-" type="checkbox" name="funding" />
+                <label for="CKCtype_PAS">PAS</label>
+              </div>
+              <div>
+                <input id="CKCtype_RFA" value="RFA-" type="checkbox" name="funding" />
+                <label for="CKCtype_RFA">RFA</label>
+              </div>
+              <div>
+                <input id="CKCtype_Parent_Announcements" value="Parent Announcement" type="checkbox" name="funding" />
+                <label for="CKCtype_Parent_Announcements">Parent Announcements</label>
+              </div>
+            </div> <!-- /.accordion-inner -->
+          </div> <!-- /.accordion-body -->
+          <div class="accordion-heading" id="activity-heading"> <a class="btn btn-accordion accordion-toggle" data-toggle="collapse" data-target="#activity" tabindex="0" aria-controls="collapse" aria-expanded="true">
+            <div class="accordion-icon"><span class="glyphicon glyphicon-plus glyphicon-minus"></span></div>
+            <div class="accordion-title">Activity Code</div>
+            </a> <a class="infographic-area magnify" style="background-color:#fff;">
+              <div class="question-icon"></div>
+              </a> <!-- /.infographic-area -->
+            <div class="modal"> <span class="close cursor">&times;</span>
+              <div class="modal-content">
+                <p>DCCPS uses activity codes (e.g., R01, R21, etc.) to differentiate the research-related programs we support. NIH provides a <a href="https://grants.nih.gov/grants/funding/funding_program.htm">full list of activity codes</a> and descriptions.</p>
+              </div> <!-- /.modal-content -->
+            </div> <!-- /.modal -->
+          </div> <!-- /.accordion-heading -->
+          <div id="activity" class="accordion-body collapse in" aria-expanded="true">
+            <div class="accordion-inner">
+              <div>
+                <input id="CKactivity_R01" value="R01" type="checkbox" name="activity" />
+                <label for="CKactivity_R01">R01</label>
+              </div>
+              <div>
+                <input id="CKactivity_R03" value="R03" type="checkbox" name="activity" />
+                <label for="CKactivity_R03">R03</label>
+              </div>
+              <div>
+                <input id="CKactivity_R15" value="R15" type="checkbox" name="activity" />
+                <label for="CKactivity_R15">R15</label>
+              </div>
+              <div>
+                <input id="CKactivity_R21" value="R21" type="checkbox" name="activity" />
+                <label for="CKactivity_R21">R21</label>
+              </div>
+              <div>
+                <input id="CKactivity_U01" value="U01" type="checkbox" name="activity" />
+                <label for="CKactivity_U01">U01</label>
+              </div>
+              <div>
+                <input id="CKactivity_U24" value="U24" type="checkbox" name="activity" />
+                <label for="CKactivity_U24">U24</label>
+              </div>
+              <div>
+                <input id="CKactivity_R33" value="R33" type="checkbox" name="activity" />
+                <label for="CKactivity_R33">R33</label>
+              </div>
+              <div>
+                <input id="CKactivity_UG3" value="UG3" type="checkbox" name="activity" />
+                <label for="CKactivity_UG3">UG3</label>
+              </div>
+              <div>
+                <input id="CKactivity_UH3" value="UH3" type="checkbox" name="activity" />
+                <label for="CKactivity_UH3">UH3</label>
+              </div>
+              <div>
+                <input id="CKactivity_P50" value="P50" type="checkbox" name="activity" />
+                <label for="CKactivity_P50">P50</label>
+              </div>
+            </div> <!-- /.accordion-inner -->
+          </div> <!-- /.accordion-body -->
+          <div class="accordion-heading" id="type-heading"> <a class="btn btn-accordion accordion-toggle" data-toggle="collapse" data-target="#type" tabindex="0" aria-controls="collapse" aria-expanded="true">
+            <div class="accordion-icon"><span class="glyphicon glyphicon-plus glyphicon-minus"></span></div>
+            <div class="accordion-title">Type of Research</div>
+            </a> <a class="infographic-area magnify" style="background-color:#fff;">
+              <div class="question-icon"></div>
+              </a> <!-- /.infographic-area -->
+            <div class="modal"> <span class="close cursor">&times;</span>
+              <div class="modal-content">
+                <p>Relevant Funding Opportunity Announcements (FOAs) supported by DCCPS indicate whether clinical trials are Required, Optional or Not Allowed. Applications involving one or more clinical trials must be submitted through a FOA that explicitly states one of the following in the title and in Section II: Clinical Trial Required or Clinical Trial Optional. Learn more about <a href="https://grants.nih.gov/policy/clinical-trials.htm">NIH clinical trial requirements for grants</a>.</p>
+              </div> <!-- /.modal-content -->
+            </div> <!-- /.modal -->
           </div>
-          <div class="col-md-6">
-            <ul class="nav nav-pills nav-stacked">
-              <li><a href="#bbpsb">Basic Biobehavioral and Psychological Sciences</a></li>
-              <li><a href="#hbrb">Health Behaviors Research</a></li>
-              <li><a href="#hcirb">Health Communication and Informatics Research</a></li>
-              <li><a href="#tcrb">Tobacco Control Research</a></li>
-              <li><a href="/r03-program.html">FOAs with an R03 Component</a></li>
-              <li><a href="/r21-program.html">FOAs with an R21 Component</a></li>
-              <li><a href="/funding-clinical.html">FOAs for Clinical Trials</a></li>
-            </ul>
-          </div>
+          <div id="type" class="accordion-body collapse in" aria-expanded="true">
+            <div class="accordion-inner">
+              <div>
+                <input id="PKtype_1" value="Clinical Trials" type="checkbox" name="type" />
+                <label for="PKtype_1">Clinical Trials</label>
+              </div>
+              <div>
+                <input id="PKtype_2" value="Not Clinical Trials" type="checkbox" name="type" />
+                <label for="PKtype_2">Not Clinical Trials</label>
+              </div>
+            </div>
+          </div> <!-- /.accordion-body -->
         </div>
+      </div> <!-- /.col-md-3 -->
+      <div class="col-md-9">
         <div class="row">
-          <h2 id="pofa">Parent and Omnibus Funding Announcements</h2>
-          <p>All applications must be submitted in response to an FOA in the <a href="https://grants.nih.gov/funding/index.htm">NIH Guide to Grants and Contracts</a>.</p>
-          <div class="table-responsive">
-            <table class="table table-striped table-bordered table-condensed three-column-table" aria-describedby="pofa">
+          <div class="col-md-12">
+            <button tabindex="0" id="btnCopy" class="buttons-email buttons-html5 btn btn-default btn-inline" type="button"><span>Email Results <span class="email-icon"></span></span></button>
+            <label for="txtInputDisabled" style="display:none">URL that can copied be shared</label>
+            <input type="text" id="txtInputDisabled" disabled="disabled" value="URL that can copied be shared" class="sr-only" />
+            <table id="example" class="table table-striped table-bordered table-condensed blue-header" summary="Funding Opportunities">
               <thead>
                 <tr>
                   <th scope="col">Title</th>
-                  <th scope="col">Announcement # / Mechanism(s)</th>
+                  <th scope="col">Announcement&nbsp;# / Mechanism(s)</th>
+                  <th scope="col">Activity Code</th>
+                  <th scope="col">Clinical Research</th>
                   <th scope="col">Expiration Date</th>
+                  <th scope="col">Program Contact</th>
+                  <th scope="col">Research Categories</th>
+                  <th scope="col">Type of Research</th>
                 </tr>
               </thead>
               <tbody>
                 <tr>
-					<th scope="row">Modular R01s in Cancer Control and Population Sciences</th>
-					<td><a href="https://grants.nih.gov/grants/guide/pa-files/PAR-18-869.html">PAR-18-869</a> (R01 Clinical Trial Optional) </td>
-					<td>March 9, 2021 </td>
-			    </tr>
-				  <tr>
-					<th scope="row">Cancer Prevention and Control Clinical Trials Grant Program</th>
-					<td><a href="https://grants.nih.gov/grants/guide/pa-files/PAR-18-559.html">PAR-18-559</a> (R01 Clinical Trial Required) </td>
-					<td>January 8, 2021 </td>
-				  </tr>
-			    <tr>
-					<th scope="row">Academic Research Enhancement Award</th>
-					<td><a href="https://grants.nih.gov/grants/guide/pa-files/PA-18-343.html">PA-18-343</a> (R15 Clinical Trial Required)</td>
-					<td>January 8, 2021</td>
+                  <th scope="row">Modular R01s in Cancer Control and Population Sciences</th>
+                  <td><a href="https://grants.nih.gov/grants/guide/pa-files/PAR-18-869.html">PAR-18-869</a> <span class="sr-only">Parent Announcement</span></td>
+                  <td>R01</td>
+                  <td>Clinical Trial Optional</td>
+                  <td>March 9, 2021</td>
+                  <td>&nbsp;</td>
+                  <td>Parent and Omnibus Funding Announcements</td>
+                  <td>Clinical Trials</td>
+                </tr>
+                <tr>
+                  <th scope="row">Cancer Prevention and Control Clinical Trials Grant Program</th>
+                  <td><a href="https://grants.nih.gov/grants/guide/pa-files/PAR-18-559.html">PAR-18-559</a> <span class="sr-only">Parent Announcement</span></td>
+                  <td>R01</td>
+                  <td>Clinical Trial Required</td>
+                  <td>January 8, 2021</td>
+                  <td>&nbsp;</td>
+                  <td>Parent and Omnibus Funding Announcements</td>
+                  <td>Clinical Trials</td>
+                </tr>
+                <tr>
+                  <th scope="row">Academic Research Enhancement Award</th>
+                  <td><a href="https://grants.nih.gov/grants/guide/pa-files/PA-18-343.html">PA-18-343</a> <span class="sr-only">Parent Announcement</span></td>
+                  <td>R15</td>
+                  <td>Clinical Trial Required</td>
+                  <td>January 8, 2021</td>
+                  <td>&nbsp;</td>
+                  <td>Parent and Omnibus Funding Announcements</td>
+                  <td>Clinical Trials</td>
                 </tr>
                 <tr>
                   <th scope="row">NIH Research Project Grant</th>
-                  <td><a href="https://grants.nih.gov/grants/guide/pa-files/PA-18-484.html">PA-18-484</a> (Parent R01 Clinical Trial Not Allowed)</td>
+                  <td><a href="https://grants.nih.gov/grants/guide/pa-files/PA-18-484.html">PA-18-484</a> <span class="sr-only">Parent Announcement</span></td>
+                  <td>Parent R01</td>
+                  <td>Clinical Trial Not Allowed</td>
                   <td>January 8, 2021</td>
+                  <td>&nbsp;</td>
+                  <td>Parent and Omnibus Funding Announcements</td>
+                  <td>Clinical Trials</td>
                 </tr>
                 <tr>
                   <th scope="row">NCI Small Grants Program for Cancer Research</th>
-                  <td><a href="https://grants.nih.gov/grants/guide/pa-files/PAR-18-021.html">PAR-18-021</a> (R03 Clinical Trial Optional)</td>
+                  <td><a href="https://grants.nih.gov/grants/guide/pa-files/PAR-18-021.html">PAR-18-021</a> <span class="sr-only">Parent Announcement</span></td>
+                  <td>R03</td>
+                  <td>Clinical Trial Optional</td>
                   <td>January 8, 2020</td>
+                  <td>&nbsp;</td>
+                  <td>Parent and Omnibus Funding Announcements</td>
+                  <td>Clinical Trials</td>
                 </tr>
-                <tr>
-                  <th scope="row" colspan="3"><a href="https://sbir.nih.gov/">Small Business Innovation Research (SBIR) and Small Business Technology Transfer (STTR) Programs at the National Institutes of Health</a></th>
-                </tr>
-              </tbody>
-            </table>
-          </div>
-          <h2 id="ocs">Cancer Survivorship</h2>
-          <div class="table-responsive">
-            <table class="table table-striped table-bordered table-condensed" aria-describedby="ocs">
-              <thead>
-                <tr>
-                  <th scope="col">Title</th>
-                  <th scope="col">Announcement # / Mechanism(s)</th>
-                  <th scope="col">Expiration Date</th>
-                  <th scope="col">Program Contact</th>
-                </tr>
-              </thead>
-              <tbody>
                 <tr>
                   <th scope="row">Physical Activity and Weight Control Interventions Among Cancer Survivors: Effects on Biomarkers of Prognosis and Survival</th>
-                  <td><a href="https://grants.nih.gov/grants/guide/pa-files/PAR-18-893.html">PAR-18-893</a> (R01 Clinical Trial  Optional)<br>
-                    <a href="https://grants.nih.gov/grants/guide/pa-files/PAR-18-892.html">PAR-18-892</a> (R21 Clinical Trial Optional)</td>
+                  <td><a href="https://grants.nih.gov/grants/guide/pa-files/PAR-18-893.html">PAR-18-893</a></td>
+                  <td>R01</td>
+                  <td>Clinical Trial Optional</td>
                   <td>September 8, 2021</td>
                   <td><a href="https://staffprofiles.cancer.gov/brp/prgmStaffProfile.do?contactId=51678&amp;bioType=stf">Frank Perna</a><br>
                     240-276-6782<br>
                     <a href="mailto:pernafm@mail.nih.gov">pernafm@mail.nih.gov</a></td>
+                  <td>Cancer Survivorship</td>
+                  <td>Clinical Trials</td>
                 </tr>
-				<tr>
-                  <th scope="row">Improving Outcomes for Pediatric, Adolescent and  Young Adult Cancer Survivors</th>
-                  <td><a href="https://grants.nih.gov/grants/guide/rfa-files/RFA-CA-19-033.html">RFA-CA-19-033</a> (U01 Clinical Trial Required)</td>
-                  <td>January 4, 2020</td>
-                  <td><a href="https://healthcaredelivery.cancer.gov/about/staff/bios/mitchell.html">Sandra Mitchell</a><br>
-					240-276-6929<br>
-					<a href="mailto:mitchlls@mail.nih.gov">mitchlls@mail.nih.gov<br>
-					<br>
-					</a><a href="https://epi.grants.cancer.gov/staff/daee.html">Danielle Daee</a><br>
-					240-276-5744<br>
-					<a href="mailto:daeed@mail.nih.gov">daeed@mail.nih.gov</a></td>
-                </tr>
-              </tbody>
-            </table>
-          </div>
-          <h2 id="egrp">Epidemiology and Genomics Research</h2>
-          <div class="table-responsive">
-            <table class="table table-striped table-bordered table-condensed" aria-describedby="egrp">
-              <thead>
                 <tr>
-                  <th scope="col">Title</th>
-                  <th scope="col">Announcement # / Mechanism(s)</th>
-                  <th scope="col">Expiration Date</th>
-                  <th scope="col">Program Contact</th>
+                  <th scope="row">Physical Activity and Weight Control Interventions Among Cancer Survivors: Effects on Biomarkers of Prognosis and Survival</th>
+                  <td><a href="https://grants.nih.gov/grants/guide/pa-files/PAR-18-892.html">PAR-18-892</a></td>
+                  <td>R21</td>
+                  <td>Clinical Trial Optional</td>
+                  <td>September 8, 2021</td>
+                  <td><a href="https://staffprofiles.cancer.gov/brp/prgmStaffProfile.do?contactId=51678&amp;bioType=stf">Frank Perna</a><br>
+                    240-276-6782<br>
+                    <a href="mailto:pernafm@mail.nih.gov">pernafm@mail.nih.gov</a></td>
+                  <td>Cancer Survivorship</td>
+                  <td>Clinical Trials</td>
                 </tr>
-              </thead>
-              <tbody>
                 <tr>
-                  <th scope="row">Improving Outcomes in Cancer Treatment-Related  Cardiotoxicity</th>
-                  <td><a href="https://grants.nih.gov/grants/guide/pa-files/PA-19-112.html">PA-19-112</a> (R01 Clinical Trial Optional) <br>
-                    <a href="https://grants.nih.gov/grants/guide/pa-files/PA-19-111.html">PA-19-111</a> (R21 Clinical Trial Optional) </td>
+					<th scope="row">HLA and KIR Region Genomics in Immune-Mediated Diseases</th>
+					<td><a href="https://grants.nih.gov/grants/guide/rfa-files/RFA-AI-19-041.html">RFA-AI-19-041</a></td>
+					<td>U01</td>
+					<td>Clinical Trial Not Allowed</td>
+					<td>October 9, 2021</td>
+					<td><a href="https://epi.grants.cancer.gov/staff/carrick.html">Danielle Carrick</a><br>
+						240-276-6749<br>
+						<a href="mailto:carrick@mail.nih.gov">carrick@mail.nih.gov</a></td>
+					  <td>Epidemiology and Genomics Research</td>
+					  <td>Clinical Trials</td>
+                </tr>
+                <tr>
+                <th scope="row">Exploratory Grants in Cancer Epidemiology and Genomics Research</th>
+                <td><a href="https://grants.nih.gov/grants/guide/pa-files/PAR-19-277.html">PAR-19-277</a></td>
+                <td>R21</td>
+                <td>Clinical Trial Optional</td>
+                <td>October 9, 2021</td>
+                <td><a href="https://epi.grants.cancer.gov/staff/verma.html">Mukesh Verma</a><br />
+                  240-276-6889<br />
+                  <a href="mailto:vermam@mail.nih.gov">vermam@mail.nih.gov</a></td>
+                  <td>Epidemiology and Genomics Research</td>
+                  <td>Clinical Trials</td>
+                </tr>
+                <tr>
+                  <th scope="row">Improving Outcomes in Cancer Treatment-Related Cardiotoxicity</th>
+                  <td><a href="https://grants.nih.gov/grants/guide/pa-files/PA-19-112.html">PA-19-112</a></td>
+                  <td>R01</td>
+                  <td>Clinical Trial Optional</td>
                   <td>January 8, 2022</td>
                   <td><a href="https://epi.grants.cancer.gov/staff/shelburne.html">Nonniekaye Shelburne</a><br>
                     240-276-6897 <br>
                     <a href="mailto:nshelburne@mail.nih.gov">nshelburne@mail.nih.gov</a></td>
+                  <td>Epidemiology and Genomics Research</td>
+                  <td>Clinical Trials</td>
+                </tr>
+                <tr>
+                  <th scope="row">Improving Outcomes in Cancer Treatment-Related Cardiotoxicity</th>
+                  <td><a href="https://grants.nih.gov/grants/guide/pa-files/PA-19-111.html">PA-19-111</a></td>
+                  <td>R21</td>
+                  <td>Clinical Trial Optional</td>
+                  <td>January 8, 2022</td>
+                  <td><a href="https://epi.grants.cancer.gov/staff/shelburne.html">Nonniekaye Shelburne</a><br>
+                    240-276-6897 <br>
+                    <a href="mailto:nshelburne@mail.nih.gov">nshelburne@mail.nih.gov</a></td>
+                  <td>Epidemiology and Genomics Research</td>
+                  <td>Clinical Trials</td>
                 </tr>
                 <tr>
                   <th scope="row">Diet and Physical Activity Assessment Methodology</th>
-                  <td><a href="https://grants.nih.gov/grants/guide/pa-files/PAR-18-857.html">PAR-18-857</a> (R21 Clinical Trial Not Allowed)<br>
-                    <br>
-                    <a href="https://grants.nih.gov/grants/guide/pa-files/PA-18-856.html">PA-18-856</a> (R01 Clinical Trial Not Allowed)</td>
-                  <td>September 08, 2021 (R21)<br>
-                    <br>
-                    <br>
-                    September 08, 2021 (R01)</td>
+                  <td><a href="https://grants.nih.gov/grants/guide/pa-files/PAR-18-857.html">PAR-18-857</a></td>
+                  <td>R21<br></td>
+                  <td>Clinical Trial Not Allowed</td>
+                  <td>September 8, 2021</td>
                   <td><a href="https://epi.grants.cancer.gov/staff/subar.html">Amy Subar</a><br>
                     301-594-0831 <br>
                     <a href="mailto:subara@mail.nih.gov">subara@mail.nih.gov</a><br>
@@ -400,49 +573,166 @@ height="0" width="0" style="display:none;visibility:hidden" title="Google Tag Ma
                     <a href="https://epi.grants.cancer.gov/staff/troiano.html">Richard Troiano</a><br>
                     240-276-6916<br>
                     <a href="mailto:troianor@mail.nih.gov">troianor@mail.nih.gov</a></td>
+                  <td>Epidemiology and Genomics Research</td>
+                  <td>Not Clinical Trials</td>
+                </tr>
+                <tr>
+                  <th scope="row">Diet and Physical Activity Assessment Methodology</th>
+                  <td><a href="https://grants.nih.gov/grants/guide/pa-files/PA-18-856.html">PA-18-856</a></td>
+                  <td>R01</td>
+                  <td>Clinical Trial Not Allowed</td>
+                  <td>September 08, 2021</td>
+                  <td><a href="https://epi.grants.cancer.gov/staff/subar.html">Amy Subar</a><br>
+                    301-594-0831 <br>
+                    <a href="mailto:subara@mail.nih.gov">subara@mail.nih.gov</a><br>
+                    <br>
+                    <a href="https://epi.grants.cancer.gov/staff/troiano.html">Richard Troiano</a><br>
+                    240-276-6916<br>
+                    <a href="mailto:troianor@mail.nih.gov">troianor@mail.nih.gov</a></td>
+                  <td>Epidemiology and Genomics Research</td>
+                  <td>Not Clinical Trials</td>
                 </tr>
                 <tr>
                   <th scope="row">Age-related Microbiota Changes and their Implications in Chronic Disease Prevention, Treatment and Progression Announcement Numbers</th>
-                  <td><a href="https://grants.nih.gov/grants/guide/pa-files/PA-18-738.html">PA-18-738</a> (R01 Clinical  Trial Optional)<br>
-                    <a href="https://grants.nih.gov/grants/guide/pa-files/PA-18-739.html">PA-18-739</a> (R21 Clinical  Trial Optional)</td>
+                  <td><a href="https://grants.nih.gov/grants/guide/pa-files/PA-18-738.html">PA-18-738</a></td>
+                  <td>R01</td>
+                  <td>Clinical Trial Optional</td>
                   <td>May 8, 2021</td>
                   <td><a href="https://epi.grants.cancer.gov/staff/lam.html">Tram Lam </a><br>
                     240-276-6967<br>
                     <a href="mailto:lamt@mail.nih.gov">lamt@mail.nih.gov</a></td>
+                  <td>Epidemiology and Genomics Research</td>
+                  <td>Clinical Trials</td>
+                </tr>
+                <tr>
+                  <th scope="row">Age-related Microbiota Changes and their Implications in Chronic Disease Prevention, Treatment and Progression Announcement Numbers</th>
+                  <td><a href="https://grants.nih.gov/grants/guide/pa-files/PA-18-739.html">PA-18-739</a></td>
+                  <td>R21</td>
+                  <td>Clinical Trial Optional</td>
+                  <td>May 8, 2021</td>
+                  <td><a href="https://epi.grants.cancer.gov/staff/lam.html">Tram Lam </a><br>
+                    240-276-6967<br>
+                    <a href="mailto:lamt@mail.nih.gov">lamt@mail.nih.gov</a></td>
+                  <td>Epidemiology and Genomics Research</td>
+                  <td>Clinical Trials</td>
                 </tr>
                 <tr>
                   <th scope="row">Epidemiologic Research on Emerging Risk Factors and Liver Cancer Susceptibility</th>
-                  <td><a href="https://grants.nih.gov/grants/guide/pa-files/PA-18-677.html">PA-18-677</a> (R01 Clinical Trial Not Allowed)<br />
-                    <a href="https://grants.nih.gov/grants/guide/pa-files/PA-18-678.html">PA-18-678</a> (R21 Clinical Trial Not Allowed)</td>
+                  <td><a href="https://grants.nih.gov/grants/guide/pa-files/PA-18-677.html">PA-18-677</a></td>
+                  <td>R01</td>
+                  <td>Clinical Trial Not Allowed</td>
                   <td>May 8, 2021</td>
                   <td><a href="https://epi.grants.cancer.gov/staff/lam.html">Tram Lam </a><br>
                     240-276-6967<br>
                     <a href="mailto:lamt@mail.nih.gov">lamt@mail.nih.gov</a></td>
+                  <td>Epidemiology and Genomics Research</td>
+                  <td>Not Clinical Trials</td>
                 </tr>
                 <tr>
-                  <th scope="row">Early-life Factors and  Cancer Development Later in Life</th>
-                  <td><a href="https://grants.nih.gov/grants/guide/pa-files/pa-18-531.html">PA-18-531</a> (R03 Clinical Trial Not Allowed)<br />
-                    <a href="https://grants.nih.gov/grants/guide/pa-files/pa-18-529.html">PA-18-529</a> (R01 Clinical Trial Not Allowed)<br />
-                    <a href="https://grants.nih.gov/grants/guide/pa-files/pa-18-532.html">PA-18-532</a> (R21 Clinical Trial Not Allowed)</td>
+                  <th scope="row">Epidemiologic Research on Emerging Risk Factors and Liver Cancer Susceptibility</th>
+                  <td><a href="https://grants.nih.gov/grants/guide/pa-files/PA-18-678.html">PA-18-678</a></td>
+                  <td>R21</td>
+                  <td>Clinical Trial Not Allowed</td>
+                  <td>May 8, 2021</td>
+                  <td><a href="https://epi.grants.cancer.gov/staff/lam.html">Tram Lam </a><br>
+                    240-276-6967<br>
+                    <a href="mailto:lamt@mail.nih.gov">lamt@mail.nih.gov</a></td>
+                  <td>Epidemiology and Genomics Research</td>
+                  <td>Not Clinical Trials</td>
+                </tr>
+                <tr>
+                  <th scope="row">Early-life Factors and Cancer Development Later in Life</th>
+                  <td><a href="https://grants.nih.gov/grants/guide/pa-files/pa-18-531.html">PA-18-531</a></td>
+                  <td>R03</td>
+                  <td>Clinical Trial Not Allowed</td>
                   <td>January 8, 2021</td>
                   <td><a href="https://epi.grants.cancer.gov/staff/mahabir.html">Somdat Mahabir</a><br>
                     240-276-6941<br>
                     <a href="mailto:Mahabir@mail.nih.gov">Mahabir@mail.nih.gov</a></td>
+                  <td>Epidemiology and Genomics Research</td>
+                  <td>Not Clinical Trials</td>
+                </tr>
+                <tr>
+                  <th scope="row">Early-life Factors and Cancer Development Later in Life</th>
+                  <td><a href="https://grants.nih.gov/grants/guide/pa-files/pa-18-529.html">PA-18-529</a></td>
+                  <td>R01</td>
+                  <td>Clinical Trial Not Allowed</td>
+                  <td>January 8, 2021</td>
+                  <td><a href="https://epi.grants.cancer.gov/staff/mahabir.html">Somdat Mahabir</a><br>
+                    240-276-6941<br>
+                    <a href="mailto:Mahabir@mail.nih.gov">Mahabir@mail.nih.gov</a></td>
+                  <td>Epidemiology and Genomics Research</td>
+                  <td>Not Clinical Trials</td>
+                </tr>
+                <tr>
+                  <th scope="row">Early-life Factors and Cancer Development Later in Life</th>
+                  <td><a href="https://grants.nih.gov/grants/guide/pa-files/pa-18-532.html">PA-18-532</a></td>
+                  <td>R21</td>
+                  <td>Clinical Trial Not Allowed</td>
+                  <td>January 8, 2021</td>
+                  <td><a href="https://epi.grants.cancer.gov/staff/mahabir.html">Somdat Mahabir</a><br>
+                    240-276-6941<br>
+                    <a href="mailto:Mahabir@mail.nih.gov">Mahabir@mail.nih.gov</a></td>
+                  <td>Epidemiology and Genomics Research</td>
+                  <td>Not Clinical Trials</td>
                 </tr>
                 <tr>
                   <th scope="row">Ethical, Legal, and Social Implications (ELSI) of Genomics Research Grant Program</th>
-                  <td><a href="https://grants.nih.gov/grants/guide/pa-files/PA-17-444.html">PA-17-444</a> (R01)<br>
-                    <a href="https://grants.nih.gov/grants/guide/pa-files/PA-17-446.html">PA-17-446</a> (R21)<br>
-                    <a href="https://grants.nih.gov/grants/guide/pa-files/PA-17-445.html">PA-17-445</a> (R03)</td>
+                  <td><a href="https://grants.nih.gov/grants/guide/pa-files/PA-17-444.html">PA-17-444</a></td>
+                  <td>R01</td>
+                  <td>&nbsp;</td>
                   <td>September 8, 2020</td>
                   <td><a href="https://epi.grants.cancer.gov/staff/caga-anan.html">Charlisse Caga-anan</a><br>
                     240-276-6738 <br>
                     <a href="mailto:charlisse.caga-anan@nih.gov" target="_top">charlisse.caga-anan@nih.gov</a><br></td>
+                  <td>Epidemiology and Genomics Research</td>
+                  <td>Not Clinical Trials</td>
+                </tr>
+				<tr>
+                  <th scope="row">Improving Outcomes for Pediatric, Adolescent and Young Adult Cancer Survivors</th>
+                  <td><a href="https://grants.nih.gov/grants/guide/rfa-files/RFA-CA-19-033.html">RFA-CA-19-033</a></td>
+                  <td>U01</td>
+                  <td>Clinical Trial Optional</td>
+                  <td>January 4, 2020</td>
+                  <td><a href="https://healthcaredelivery.cancer.gov/about/staff/bios/mitchell.html">Sandra Mitchell</a><br>
+					  240-276-6929<br>
+					  <a href="mailto:mitchlls@mail.nih.gov">mitchlls@mail.nih.gov<br>
+						  <br>
+						  </a><a href="https://epi.grants.cancer.gov/staff/daee.html">Danielle Daee</a><br>
+					  240-276-5744<br>
+					  <a href="mailto:daeed@mail.nih.gov">daeed@mail.nih.gov</a></td>
+                  <td>Epidemiology and Genomics Research</td>
+                  <td>Clinical Trials</td>
+                </tr>
+                <tr>
+                  <th scope="row">Ethical, Legal, and Social Implications (ELSI) of Genomics Research Grant Program</th>
+                  <td><a href="https://grants.nih.gov/grants/guide/pa-files/PA-17-446.html">PA-17-446</a></td>
+                  <td>R21</td>
+                  <td>&nbsp;</td>
+                  <td>September 8, 2020</td>
+                  <td><a href="https://epi.grants.cancer.gov/staff/caga-anan.html">Charlisse Caga-anan</a><br>
+                    240-276-6738 <br>
+                    <a href="mailto:charlisse.caga-anan@nih.gov" target="_top">charlisse.caga-anan@nih.gov</a><br></td>
+                  <td>Epidemiology and Genomics Research</td>
+                  <td>Not Clinical Trials</td>
+                </tr>
+                <tr>
+                  <th scope="row">Ethical, Legal, and Social Implications (ELSI) of Genomics Research Grant Program</th>
+                  <td><a href="https://grants.nih.gov/grants/guide/pa-files/PA-17-445.html">PA-17-445</a></td>
+                  <td>R03</td>
+                  <td>&nbsp;</td>
+                  <td>September 8, 2020</td>
+                  <td><a href="https://epi.grants.cancer.gov/staff/caga-anan.html">Charlisse Caga-anan</a><br>
+                    240-276-6738 <br>
+                    <a href="mailto:charlisse.caga-anan@nih.gov" target="_top">charlisse.caga-anan@nih.gov</a><br></td>
+                  <td>Epidemiology and Genomics Research</td>
+                  <td>Not Clinical Trials</td>
                 </tr>
                 <tr>
                   <th scope="row"> HIV and Hepatitis B Co-Infection: Advancing HBV Functional Cure through Clinical Research</th>
-                  <td><a href="https://grants.nih.gov/grants/guide/pa-files/PA-17-279.html">PAR-17-279</a> (R01)<br>
-                    <a href="https://grants.nih.gov/grants/guide/pa-files/PA-17-278.html">PA-17-278</a> (R21) </td>
+                  <td><a href="https://grants.nih.gov/grants/guide/pa-files/PA-17-279.html">PAR-17-279</a></td>
+                  <td>R01</td>
+                  <td>&nbsp;</td>
                   <td>May 8, 2020</td>
                   <td>Rebecca Liddell Huppi<br>
                     301-496-4995<br>
@@ -451,57 +741,122 @@ height="0" width="0" style="display:none;visibility:hidden" title="Google Tag Ma
                     <a href="https://epi.grants.cancer.gov/staff/verma.html">Mukesh Verma</a><br>
                     240-276-6889 <br>
                     <a href="mailto:vermam@mail.nih.gov">vermam@mail.nih.gov</a></td>
+                  <td>Epidemiology and Genomics Research</td>
+                  <td>Not Clinical Trials</td>
+                </tr>
+                <tr>
+                  <th scope="row"> HIV and Hepatitis B Co-Infection: Advancing HBV Functional Cure through Clinical Research</th>
+                  <td><a href="https://grants.nih.gov/grants/guide/pa-files/PA-17-278.html">PA-17-278</a></td>
+                  <td>R21</td>
+                  <td>&nbsp;</td>
+                  <td>May 8, 2020</td>
+                  <td>Rebecca Liddell Huppi<br>
+                    301-496-4995<br>
+                    <a href="mailto:liddellr@exchange.nih.gov">liddellr@exchange.nih.gov</a><br>
+                    <br>
+                    <a href="https://epi.grants.cancer.gov/staff/verma.html">Mukesh Verma</a><br>
+                    240-276-6889 <br>
+                    <a href="mailto:vermam@mail.nih.gov">vermam@mail.nih.gov</a></td>
+                  <td>Epidemiology and Genomics Research</td>
+                  <td>Not Clinical Trials</td>
                 </tr>
                 <tr>
                   <th scope="row">Secondary Analysis and Integration of Existing Data to Elucidate the Genetic Architecture of Cancer Risk and Related Outcomes</th>
-                  <td><a href="https://grants.nih.gov/grants/guide/pa-files/PA-17-239.html">PA-17-239</a> (R01)<br>
-                    <a href="https://grants.nih.gov/grants/guide/pa-files/PA-17-243.html">PA-17-243</a> (R21)</td>
+                  <td><a href="https://grants.nih.gov/grants/guide/pa-files/PA-17-239.html">PA-17-239</a></td>
+                  <td>R01</td>
+                  <td>&nbsp;</td>
                   <td>May 8, 2020</td>
-                  <td><a href="https://epi.grants.cancer.gov/staff/rotunno.html">Melissa  Rotunno</a><br>
+                  <td><a href="https://epi.grants.cancer.gov/staff/rotunno.html">Melissa Rotunno</a><br>
                     240-276-7245 <br>
                     <a href="mailto:rotunnom@mail.nih.gov">rotunnom@mail.nih.gov</a></td>
+                  <td>Epidemiology and Genomics Research</td>
+                  <td>Not Clinical Trials</td>
+                </tr>
+                <tr>
+                  <th scope="row">Secondary Analysis and Integration of Existing Data to Elucidate the Genetic Architecture of Cancer Risk and Related Outcomes</th>
+                  <td><a href="https://grants.nih.gov/grants/guide/pa-files/PA-17-243.html">PA-17-243</a></td>
+                  <td>R21</td>
+                  <td>&nbsp;</td>
+                  <td>May 8, 2020</td>
+                  <td><a href="https://epi.grants.cancer.gov/staff/rotunno.html">Melissa Rotunno</a><br>
+                    240-276-7245 <br>
+                    <a href="mailto:rotunnom@mail.nih.gov">rotunnom@mail.nih.gov</a></td>
+                  <td>Epidemiology and Genomics Research</td>
+                  <td>Not Clinical Trials</td>
                 </tr>
                 <tr>
                   <th scope="row">Core Infrastructure and Methodological Research for Cancer Epidemiology Cohorts</th>
-                  <td><a href="https://grants.nih.gov/grants/guide/pa-files/PAR-17-233.html">PAR-17-233</a> (U01)</td>
+                  <td><a href="https://grants.nih.gov/grants/guide/pa-files/PAR-17-233.html">PAR-17-233</a></td>
+                  <td>U01</td>
+                  <td>&nbsp;</td>
                   <td>May 8, 2020</td>
                   <td><a href="https://epi.grants.cancer.gov/staff/watters.html">Joanne Elena</a><br>
                     240-276-6818<br>
                     <a href="mailto:joanne.elena@nih.gov">joanne.elena@nih.gov</a></td>
+                  <td>Epidemiology and Genomics Research</td>
+                  <td>Not Clinical Trials</td>
                 </tr>
                 <tr>
                   <th scope="row"> Genomic Community Resources</th>
-                  <td><a href="https://grants.nih.gov/grants/guide/pa-files/PAR-17-273.html">PAR-17-273</a> (U24) </td>
+                  <td><a href="https://grants.nih.gov/grants/guide/pa-files/PAR-17-273.html">PAR-17-273</a></td>
+                  <td>U24</td>
+                  <td>&nbsp;</td>
                   <td>January 26, 2020</td>
                   <td><a href="mailto:divir@mail.nih.gov">Leah Mechanic</a><br>
                     240-276-6847<br>
                     <a href="mailto:mechanil@mail.nih.gov">mechanil@mail.nih.gov</a></td>
+                  <td>Epidemiology and Genomics Research</td>
+                  <td>Not Clinical Trials</td>
                 </tr>
                 <tr>
-                  <th scope="row">Addressing the Etiology of Health Disparities and  Health Advantages Among Immigrant Populations</th>
-                  <td><a href="https://grants.nih.gov/grants/guide/pa-files/PA-17-041.html">PA-17-041</a> (R01)<br>
-                    <a href="https://grants.nih.gov/grants/guide/pa-files/PA-17-042.html">PA-17-042</a> (R21)</td>
+                  <th scope="row">Addressing the Etiology of Health Disparities and Health Advantages Among Immigrant Populations</th>
+                  <td><a href="https://grants.nih.gov/grants/guide/pa-files/PA-17-041.html">PA-17-041</a></td>
+                  <td>R01</td>
+                  <td>&nbsp;</td>
                   <td>January 8, 2020</td>
                   <td><a href="https://epi.grants.cancer.gov/staff/lam.html">Tram Lam </a><br>
                     240-276-6967<br>
                     <a href="mailto:lamt@mail.nih.gov">lamt@mail.nih.gov<br>
                       <br>
-                    </a><a href="https://epi.grants.cancer.gov/staff/martin.html">Damali Martin</a><br>
+                      </a><a href="https://epi.grants.cancer.gov/staff/martin.html">Damali Martin</a><br>
                     240-276-6746 <br>
                     <a href="mailto:martinda@mail.nih.gov">martinda@mail.nih.gov</a></td>
+                  <td>Epidemiology and Genomics Research</td>
+                  <td>Not Clinical Trials</td>
+                </tr>
+                <tr>
+                  <th scope="row">Addressing the Etiology of Health Disparities and Health Advantages Among Immigrant Populations</th>
+                  <td><a href="https://grants.nih.gov/grants/guide/pa-files/PA-17-042.html">PA-17-042</a></td>
+                  <td>R21</td>
+                  <td>&nbsp;</td>
+                  <td>January 8, 2020</td>
+                  <td><a href="https://epi.grants.cancer.gov/staff/lam.html">Tram Lam </a><br>
+                    240-276-6967<br>
+                    <a href="mailto:lamt@mail.nih.gov">lamt@mail.nih.gov<br>
+                      <br>
+                      </a><a href="https://epi.grants.cancer.gov/staff/martin.html">Damali Martin</a><br>
+                    240-276-6746 <br>
+                    <a href="mailto:martinda@mail.nih.gov">martinda@mail.nih.gov</a></td>
+                  <td>Epidemiology and Genomics Research</td>
+                  <td>Not Clinical Trials</td>
                 </tr>
                 <tr>
                   <th scope="row">Clinical and Epidemiological Research on Chronic Disease in the Caribbean</th>
-                  <td><a href="https://grants.nih.gov/grants/guide/pa-files/PAR-17-470.html">PAR-17-470</a> (R01)</td>
-                  <td>November 16, 2019 </td>
+                  <td><a href="https://grants.nih.gov/grants/guide/pa-files/PAR-17-470.html">PAR-17-470</a></td>
+                  <td>R01</td>
+                  <td>&nbsp;</td>
+                  <td>November 16, 2019</td>
                   <td><a href="https://epi.grants.cancer.gov/staff/martin.html">Damali Martin</a><br>
                     240-276-6746 <br>
                     <a href="mailto:martinda@mail.nih.gov">martinda@mail.nih.gov</a></td>
+                  <td>Epidemiology and Genomics Research</td>
+                  <td>Not Clinical Trials</td>
                 </tr>
                 <tr>
                   <th scope="row">&quot;High&quot; or &quot;Medium&quot; Priority AIDS Research on Non-AIDS-defining or AIDS-defining Cancers</th>
-                  <td><a href="https://grants.nih.gov/grants/guide/pa-files/PA-16-426.html">PA-16-426</a> (R01)<br>
-                    <a href="https://grants.nih.gov/grants/guide/pa-files/PA-16-425.html">PA-16-425</a> (R21) </td>
+                  <td><a href="https://grants.nih.gov/grants/guide/pa-files/PA-16-426.html">PA-16-426</a></td>
+                  <td>R01</td>
+                  <td>&nbsp;</td>
                   <td>September 8, 2019</td>
                   <td>Elizabeth Read-Connole<br>
                     240-276-6226 <br>
@@ -510,280 +865,415 @@ height="0" width="0" style="display:none;visibility:hidden" title="Google Tag Ma
                     <a href="https://epi.grants.cancer.gov/staff/verma.html">Mukesh Verma</a><br>
                     240-276-6889 <br>
                     <a href="mailto:vermam@mail.nih.gov">vermam@mail.nih.gov</a></td>
+                  <td>Epidemiology and Genomics Research</td>
+                  <td>Not Clinical Trials</td>
                 </tr>
                 <tr>
-                  <th scope="row">Secondary Analyses of Alcohol and Chronic  Disease</th>
-                  <td><a href="https://grants.nih.gov/grants/guide/pa-files/PA-16-395.html">PA-16-395</a> (R01)<br>
-                    <a href="https://grants.nih.gov/grants/guide/pa-files/PA-16-394.html">PA-16-394</a> (R03)<br></td>
-                  <td>September  8, 2019</td>
+                  <th scope="row">&quot;High&quot; or &quot;Medium&quot; Priority AIDS Research on Non-AIDS-defining or AIDS-defining Cancers</th>
+                  <td><a href="https://grants.nih.gov/grants/guide/pa-files/PA-16-425.html">PA-16-425</a></td>
+                  <td>R21</td>
+                  <td>&nbsp;</td>
+                  <td>September 8, 2019</td>
+                  <td>Elizabeth Read-Connole<br>
+                    240-276-6226 <br>
+                    <a href="mailto:bconnole@mail.nih.gov">bconnole@mail.nih.gov</a><br>
+                    <br>
+                    <a href="https://epi.grants.cancer.gov/staff/verma.html">Mukesh Verma</a><br>
+                    240-276-6889 <br>
+                    <a href="mailto:vermam@mail.nih.gov">vermam@mail.nih.gov</a></td>
+                  <td>Epidemiology and Genomics Research</td>
+                  <td>Not Clinical Trials</td>
+                </tr>
+                <tr>
+                  <th scope="row">Secondary Analyses of Alcohol and Chronic Disease</th>
+                  <td><a href="https://grants.nih.gov/grants/guide/pa-files/PA-16-395.html">PA-16-395</a><br></td>
+                  <td>R01<br></td>
+                  <td>&nbsp;</td>
+                  <td>September 8, 2019</td>
                   <td><a href="https://epi.grants.cancer.gov/staff/mahabir.html">Somdat Mahabir</a><br>
                     240-276-6941<br>
                     <a href="mailto:mahabir@mail.nih.gov">mahabir@mail.nih.gov</a></td>
+                  <td>Epidemiology and Genomics Research</td>
+                  <td>Not Clinical Trials</td>
                 </tr>
                 <tr>
-					<th scope="row">Administrative Supplements to Promote Data Sharing in Cancer Epidemiology Studies</th>
-					<td><a href="https://grants.nih.gov/grants/guide/notice-files/NOT-CA-19-031.html">NOT-CA-19-031</a></td>
-					<td>May 15, 2019 </td>
-					<td><a href="https://epi.grants.cancer.gov/staff/daee.html">Danielle Daee</a><br>
-					  240-276-5744 <br>
-					<a href="mailto:Danielle.Daee@nih.gov">Danielle.Daee@nih.gov</a></td>
+                  <th scope="row">Secondary Analyses of Alcohol and Chronic Disease</th>
+                  <td><a href="https://grants.nih.gov/grants/guide/pa-files/PA-16-394.html">PA-16-394</a><br></td>
+                  <td>R03</td>
+                  <td>&nbsp;</td>
+                  <td>September 8, 2019</td>
+                  <td><a href="https://epi.grants.cancer.gov/staff/mahabir.html">Somdat Mahabir</a><br>
+                    240-276-6941<br>
+                    <a href="mailto:mahabir@mail.nih.gov">mahabir@mail.nih.gov</a></td>
+                  <td>Epidemiology and Genomics Research</td>
+                  <td>Not Clinical Trials</td>
                 </tr>
-                <tr>
-					<th scope="row">Administrative Supplements for Geospatial, Multilevel, and Contextual Approaches in Cancer Control and Population Sciences</th>
-					<td><a href="https://grants.nih.gov/grants/guide/notice-files/NOT-CA-19-029.html">NOT-CA-19-029</a></td>
-					<td>May 15, 2019</td>
-					<td><a href="https://epi.grants.cancer.gov/staff/ghazarian.html">Armen Ghazarian</a><br>
-					  240-276-7305<br>
-					<a href="mailto:ghazarianaa@mail.nih.gov">ghazarianaa@mail.nih.gov</a></td>
-                </tr>
-                <tr>
-                  <th scope="row">Exploratory  Grants in Cancer Epidemiology and Genomics Research</th>
-                  <td><a href="https://grants.nih.gov/grants/guide/pa-files/PA-16-175.html">PA-16-175</a> (R21)</td>
-                  <td>May 8, 2019</td>
-                  <td><a href="https://epi.grants.cancer.gov/staff/verma.html">Mukesh Verma</a><br>
-                    240-276-6889 <br>
-                    <a href="mailto:vermam@mail.nih.gov">vermam@mail.nih.gov</a></td>
-                </tr>
-              </tbody>
-            </table>
-          </div>
-          <h2 id="hdr">Healthcare Delivery Research</h2>
-          <div class="table-responsive">
-            <table class="table table-striped table-bordered table-condensed" aria-describedby="hdr">
-              <thead>
-                <tr>
-                  <th scope="col">Title</th>
-                  <th scope="col">Announcement # / Mechanism(s)</th>
-                  <th scope="col">Expiration Date</th>
-                  <th scope="col">Program Contact</th>
-                </tr>
-              </thead>
-              <tbody>
                 <tr>
                   <th scope="row">End-of-Life and Palliative Needs of Adolescents and Young Adults (AYA) with Serious Illnesses</th>
-                  <td><a href="https://grants.nih.gov/grants/guide/pa-files/PAR-19-136.html">PAR-19-136</a> (R01 Clinical Trial Optional)<br />
-                    <a href="https://grants.nih.gov/grants/guide/pa-files/PAR-19-153.html">PAR-19-153</a> (R21 Clinical Trial Optional)</td>
+                  <td><a href="https://grants.nih.gov/grants/guide/pa-files/PAR-19-136.html">PAR-19-136</a></td>
+                  <td>R01</td>
+                  <td>Clinical Trial Optional</td>
                   <td>January 8, 2022</td>
                   <td><a href="https://healthcaredelivery.cancer.gov/about/staff/bios/smith.html">Ashley Wilder Smith</a><br>
                     240-276-6714<br>
                     <a href="mailto:smithas@mail.nih.gov">smithas@mail.nih.gov</a></td>
+                  <td>Healthcare Delivery Research</td>
+                  <td>Clinical Trials</td>
+                </tr>
+                <tr>
+                  <th scope="row">End-of-Life and Palliative Needs of Adolescents and Young Adults (AYA) with Serious Illnesses</th>
+                  <td><a href="https://grants.nih.gov/grants/guide/pa-files/PAR-19-153.html">PAR-19-153</a></td>
+                  <td>R21</td>
+                  <td>Clinical Trial Optional</td>
+                  <td>January 8, 2022</td>
+                  <td><a href="https://healthcaredelivery.cancer.gov/about/staff/bios/smith.html">Ashley Wilder Smith</a><br>
+                    240-276-6714<br>
+                    <a href="mailto:smithas@mail.nih.gov">smithas@mail.nih.gov</a></td>
+                  <td>Healthcare Delivery Research</td>
+                  <td>Clinical Trials</td>
                 </tr>
                 <tr>
                   <th scope="row"> Increasing Uptake of Evidence-Based Screening in Diverse Adult Populations</th>
-                  <td><a href="https://grants.nih.gov/grants/guide/pa-files/PA-18-932.html">PA-18-932</a> (R01 Clinical Trial Optional) </td>
+                  <td><a href="https://grants.nih.gov/grants/guide/pa-files/PA-18-932.html">PA-18-932</a></td>
+                  <td>R01</td>
+                  <td>Clinical Trial Optional</td>
                   <td>January 8, 2022</td>
                   <td><a href="https://healthcaredelivery.cancer.gov/about/staff/bios/breslau.html">Erica Breslau</a><br>
-					  240-276-6773 <br>
-					  <a href="mailto:breslaue@mail.nih.gov">breslaue@mail.nih.gov</a></td>
+                    240-276-6773 <br>
+                    <a href="mailto:breslaue@mail.nih.gov">breslaue@mail.nih.gov</a></td>
+                  <td>Healthcare Delivery Research</td>
+                  <td>Clinical Trials</td>
                 </tr>
                 <tr>
                   <th scope="row">Using Information Technology to Support Systematic Screening and Treatment of Depression in Cancer</th>
-                  <td><a href="https://grants.nih.gov/grants/guide/pa-files/PA-18-492.html">PA-18-492</a> (R21 Clinical Trial Optional)<br />
-                    <a href="https://grants.nih.gov/grants/guide/pa-files/PA-18-493.html">PA-18-493</a> (R01 Clinical Trial Optional)</td>
+                  <td><a href="https://grants.nih.gov/grants/guide/pa-files/PA-18-492.html">PA-18-492</a></td>
+                  <td>R21</td>
+                  <td>Clinical Trial Optional</td>
                   <td>May 8, 2021</td>
                   <td><a href="https://healthcaredelivery.cancer.gov/about/staff/bios/randhawa.html">Gurvaneet Randhawa</a><br />
                     240-276-6940 <br />
                     <a href="mailto:gurvaneet.randhawa@nih.gov">gurvaneet.randhawa@nih.gov</a></td>
+                  <td>Healthcare Delivery Research</td>
+                  <td>Clinical Trials</td>
+                </tr>
+                <tr>
+                  <th scope="row">Using Information Technology to Support Systematic Screening and Treatment of Depression in Cancer</th>
+                  <td><a href="https://grants.nih.gov/grants/guide/pa-files/PA-18-493.html">PA-18-493</a></td>
+                  <td>R01</td>
+                  <td>Clinical Trial Optional</td>
+                  <td>May 8, 2021</td>
+                  <td><a href="https://healthcaredelivery.cancer.gov/about/staff/bios/randhawa.html">Gurvaneet Randhawa</a><br />
+                    240-276-6940 <br />
+                    <a href="mailto:gurvaneet.randhawa@nih.gov">gurvaneet.randhawa@nih.gov</a></td>
+                  <td>Healthcare Delivery Research</td>
+                  <td>Clinical Trials</td>
                 </tr>
                 <tr>
                   <th scope="row">Multilevel Interventions in Cancer Care Delivery: Follow-up to Abnormal Screening Tests</th>
-                  <td><a href="https://grants.nih.gov/grants/guide/pa-files/PA-17-495.html">PA-17-495</a> (R01 Clinical Trial Optional)</td>
+                  <td><a href="https://grants.nih.gov/grants/guide/pa-files/PA-17-495.html">PA-17-495</a></td>
+                  <td>R01</td>
+                  <td>Clinical Trial Optional</td>
                   <td>January 8, 2021</td>
-                  <td><a href="https://healthcaredelivery.cancer.gov/about/staff/bios/breslau.html">Erica  Breslau</a><br>
+                  <td><a href="https://healthcaredelivery.cancer.gov/about/staff/bios/breslau.html">Erica Breslau</a><br>
                     240-276-6773<br>
                     <a href="mailto:breslaue@mail.nih.gov">breslaue@mail.nih.gov</a></td>
+                  <td>Healthcare Delivery Research</td>
+                  <td>Clinical Trials</td>
                 </tr>
                 <tr>
                   <th scope="row">Reducing Overscreening for Breast, Cervical, and Colorectal Cancers among Older Adults</th>
-                  <td><a href="https://grants.nih.gov/grants/guide/pa-files/PA-18-005.html">PA-18-005</a> (R01 Clinical Trial Optional)<br />
-                    <a href="https://grants.nih.gov/grants/guide/pa-files/PA-18-015.html">PA-18-015</a> (R21 Clinical Trial Optional)     </td>
+                  <td><a href="https://grants.nih.gov/grants/guide/pa-files/PA-18-005.html">PA-18-005</a></td>
+                  <td>R01</td>
+                  <td>Clinical Trial Optional</td>
                   <td>January 8, 2020</td>
-                  <td><a href="https://healthcaredelivery.cancer.gov/about/staff/bios/breslau.html">Erica  Breslau</a><br>
+                  <td><a href="https://healthcaredelivery.cancer.gov/about/staff/bios/breslau.html">Erica Breslau</a><br>
                     240-276-6773<br>
                     <a href="mailto:breslaue@mail.nih.gov">breslaue@mail.nih.gov</a></td>
+                  <td>Healthcare Delivery Research</td>
+                  <td>Clinical Trials</td>
+                </tr>
+                <tr>
+                  <th scope="row">Reducing Overscreening for Breast, Cervical, and Colorectal Cancers among Older Adults</th>
+                  <td><a href="https://grants.nih.gov/grants/guide/pa-files/PA-18-015.html">PA-18-015</a> </td>
+                  <td>R21</td>
+                  <td>Clinical Trial Optional   </td>
+                  <td>January 8, 2020</td>
+                  <td><a href="https://healthcaredelivery.cancer.gov/about/staff/bios/breslau.html">Erica Breslau</a><br>
+                    240-276-6773<br>
+                    <a href="mailto:breslaue@mail.nih.gov">breslaue@mail.nih.gov</a></td>
+                  <td>Healthcare Delivery Research</td>
+                  <td>Clinical Trials</td>
                 </tr>
                 <tr>
                   <th scope="row">Palliative Care Needs of Individuals with Rare Advanced Diseases and Their Family Caregivers</th>
-                  <td><a href="https://grants.nih.gov/grants/guide/pa-files/PA-18-149.html">PA-18-149</a> (R01 Clinical Trial Optional)<br />
-                    <a href="https://grants.nih.gov/grants/guide/pa-files/PA-18-167.html">PA-18-167</a> (R21 Clinical Trial Optional)</td>
+                  <td><a href="https://grants.nih.gov/grants/guide/pa-files/PA-18-149.html">PA-18-149</a></td>
+                  <td>R01</td>
+                  <td>Clinical Trial Optional</td>
                   <td>January 8, 2020</td>
                   <td><a href="https://healthcaredelivery.cancer.gov/about/staff/bios/mollica.html">Michelle Mollica</a><br />
                     240-276-7621<br />
                     <a href="mailto:mollicama@mail.nih.gov">mollicama@mail.nih.gov</a></td>
+                  <td>Healthcare Delivery Research</td>
+                  <td>Clinical Trials</td>
+                </tr>
+                <tr>
+                  <th scope="row">Palliative Care Needs of Individuals with Rare Advanced Diseases and Their Family Caregivers</th>
+                  <td><a href="https://grants.nih.gov/grants/guide/pa-files/PA-18-167.html">PA-18-167</a></td>
+                  <td>R21</td>
+                  <td>Clinical Trial Optional</td>
+                  <td>January 8, 2020</td>
+                  <td><a href="https://healthcaredelivery.cancer.gov/about/staff/bios/mollica.html">Michelle Mollica</a><br />
+                    240-276-7621<br />
+                    <a href="mailto:mollicama@mail.nih.gov">mollicama@mail.nih.gov</a></td>
+                  <td>Healthcare Delivery Research</td>
+                  <td>Clinical Trials</td>
                 </tr>
                 <tr>
                   <th scope="row">Methodology and Measurement in the Behavioral and Social Sciences</th>
-                  <td><a href="https://grants.nih.gov/grants/guide/pa-files/PAR-18-352.html">PAR-18-352</a> (R01 Clinical Trial Optional)<br>
-                    <a href="https://grants.nih.gov/grants/guide/pa-files/PAR-18-378.html">PAR-18-378</a> (R21 Clinical Trial Optional)</td>
+                  <td><a href="https://grants.nih.gov/grants/guide/pa-files/PAR-18-352.html">PAR-18-352</a></td>
+                  <td>R01</td>
+                  <td>Clinical Trial Optional</td>
                   <td>September 8, 2019</td>
                   <td><a href="https://healthcaredelivery.cancer.gov/about/staff/bios/mitchell.html">Sandra Mitchell</a><br>
                     240-276-6929<br>
                     <a href="mailto:mitchellsa@cc.nih.gov">mitchellsa@cc.nih.gov </a></td>
+                  <td>Healthcare Delivery Research</td>
+                  <td>Clinical Trials</td>
+                </tr>
+                <tr>
+                  <th scope="row">Methodology and Measurement in the Behavioral and Social Sciences</th>
+                  <td><a href="https://grants.nih.gov/grants/guide/pa-files/PAR-18-378.html">PAR-18-378</a></td>
+                  <td>R21</td>
+                  <td>Clinical Trial Optional</td>
+                  <td>September 8, 2019</td>
+                  <td><a href="https://healthcaredelivery.cancer.gov/about/staff/bios/mitchell.html">Sandra Mitchell</a><br>
+                    240-276-6929<br>
+                    <a href="mailto:mitchellsa@cc.nih.gov">mitchellsa@cc.nih.gov </a></td>
+                  <td>Healthcare Delivery Research</td>
+                  <td>Clinical Trials</td>
                 </tr>
                 <tr>
                   <th scope="row">Research Infrastructure Development for Interdisciplinary Aging Studies</th>
-                  <td><a href="https://grants.nih.gov/grants/guide/pa-files/PAR-16-367.html">PAR-16-367</a> (R21/R33)</td>
+                  <td><a href="https://grants.nih.gov/grants/guide/pa-files/PAR-16-367.html">PAR-16-367</a></td>
+                  <td>R21/R33</td>
+                  <td>&nbsp;</td>
                   <td>September 8, 2019</td>
                   <td><a href="https://healthcaredelivery.cancer.gov/about/staff/bios/breslau.html">Erica Breslau</a><br>
                     240-276-6773 <br>
                     <a href="mailto:breslaue@mail.nih.gov">breslaue@mail.nih.gov</a></td>
+                  <td>Healthcare Delivery Research</td>
+                  <td>Not Clinical Trials</td>
                 </tr>
                 <tr>
                   <th scope="row">Advanced-Stage Development and Utilization of Research Infrastructure for Interdisciplinary Aging Studies</th>
-                  <td><a href="https://grants.nih.gov/grants/guide/pa-files/PAR-16-368.html">PAR-16-368</a> (R33)</td>
+                  <td><a href="https://grants.nih.gov/grants/guide/pa-files/PAR-16-368.html">PAR-16-368</a></td>
+                  <td>R33</td>
+                  <td>&nbsp;</td>
                   <td>September 8, 2019</td>
                   <td><a href="https://healthcaredelivery.cancer.gov/about/staff/bios/breslau.html">Erica Breslau</a><br>
                     240-276-6773 <br>
                     <a href="mailto:breslaue@mail.nih.gov">breslaue@mail.nih.gov</a></td>
+                  <td>Healthcare Delivery Research</td>
+                  <td>Not Clinical Trials</td>
                 </tr>
                 <tr>
                   <th scope="row">Linking the Provider Recommendation to Adolescent HPV Vaccine Uptake</th>
-                  <td><a href="https://grants.nih.gov/grants/guide/pa-files/PAR-18-008.html">PAR-18-008</a> (R01 Clinical Trial Optional)<br />
-                    <a href="https://grants.nih.gov/grants/guide/pa-files/PAR-16-337.html">PAR-16-337</a> (R03)<br>
-                    <a href="https://grants.nih.gov/grants/guide/pa-files/PAR-18-019.html">PAR-18-019</a> (R21 Clinical Trial Optional)</td>
-                  <td>July 6, 2019 (R01)<br>
-                    July 17, 2019 (R03 and R21)</td>
+                  <td><a href="https://grants.nih.gov/grants/guide/pa-files/PAR-18-008.html">PAR-18-008</a></td>
+                  <td>R01</td>
+                  <td>Clinical Trial Optional</td>
+                  <td>July 6, 2019</td>
                   <td><a href="https://healthcaredelivery.cancer.gov/about/staff/bios/kobrin.html">Sarah Kobrin</a><br>
                     240-276-6931<br>
                     <a href="mailto:kobrins@mail.nih.gov">kobrins@mail.nih.gov</a></td>
+                  <td>Healthcare Delivery Research</td>
+                  <td>Clinical Trials</td>
+                </tr>
+                <tr>
+                  <th scope="row">Linking the Provider Recommendation to Adolescent HPV Vaccine Uptake</th>
+                  <td><a href="https://grants.nih.gov/grants/guide/pa-files/PAR-16-337.html">PAR-16-337</a></td>
+                  <td>R03</td>
+                  <td>&nbsp;</td>
+                  <td> July 17, 2019</td>
+                  <td><a href="https://healthcaredelivery.cancer.gov/about/staff/bios/kobrin.html">Sarah Kobrin</a><br>
+                    240-276-6931<br>
+                    <a href="mailto:kobrins@mail.nih.gov">kobrins@mail.nih.gov</a></td>
+                  <td>Healthcare Delivery Research</td>
+                  <td>Not Clinical Trials</td>
+                </tr>
+                <tr>
+                  <th scope="row">Linking the Provider Recommendation to Adolescent HPV Vaccine Uptake</th>
+                  <td><a href="https://grants.nih.gov/grants/guide/pa-files/PAR-18-019.html">PAR-18-019</a></td>
+                  <td>R21</td>
+                  <td>Clinical Trial Optional</td>
+                  <td>July 17, 2019</td>
+                  <td><a href="https://healthcaredelivery.cancer.gov/about/staff/bios/kobrin.html">Sarah Kobrin</a><br>
+                    240-276-6931<br>
+                    <a href="mailto:kobrins@mail.nih.gov">kobrins@mail.nih.gov</a></td>
+                  <td>Healthcare Delivery Research</td>
+                  <td>Clinical Trials</td>
                 </tr>
                 <tr>
                   <th scope="row">Optimizing the Management and Outcomes for Cancer Survivors Transitioning to Follow-up Care</th>
-                  <td><a href="https://grants.nih.gov/grants/guide/rfa-files/RFA-CA-19-035.html">RFA-CA-19-035</a> (R01 Clinical Trial Required)</td>
+                  <td><a href="https://grants.nih.gov/grants/guide/rfa-files/RFA-CA-19-035.html">RFA-CA-19-035</a></td>
+                  <td>R01</td>
+                  <td>Clinical Trial Required</td>
                   <td>June 29, 2019</td>
                   <td><a href="https://healthcaredelivery.cancer.gov/about/staff/bios/mollica.html">Michelle Mollica</a><br>
                     240-276-7621 <br>
-					  <a href="mailto:mollicama@mail.nih.gov">mollicama@mail.nih.gov</a></td>
-                </tr>
-                <tr>
-                  <th scope="row">Intervening with Cancer Caregivers to Improve Patient Health Outcomes and Optimize Health Care Utilization</th>
-                  <td><a href="https://grants.nih.gov/grants/guide/pa-files/PAR-18-246.html">PAR-18-246</a> (R01 Clinical Trial Optional)<br>
-                    <a href="https://grants.nih.gov/grants/guide/pa-files/PAR-18-247.html">PAR-18-247</a> (R21 Clinical Trial Optional)</td>
-                  <td>April 12, 2019</td>
-                  <td><a href="https://healthcaredelivery.cancer.gov/about/staff/bios/mollica.html">Michelle Mollica</a><br />
-                    240-276-7621<br />
                     <a href="mailto:mollicama@mail.nih.gov">mollicama@mail.nih.gov</a></td>
+                  <td>Healthcare Delivery Research</td>
+                  <td>Clinical Trials</td>
                 </tr>
                 <tr>
-                  <th scope="row">Accelerating Colorectal Cancer Screening and follow-up through Implementation Science (ACCSIS, Second Wave)</th>
-                  <td><a href="https://grants.nih.gov/grants/guide/rfa-files/RFA-CA-19-018.html">RFA-CA-19-018</a> (UG3/UH3 Clinical Trial Required)</td>
-                  <td>February 12, 2019</td>
-                  <td><a href="https://healthcaredelivery.cancer.gov/about/staff/bios/kobrin.html">Sarah Kobrin</a><br>
-                    240-276-6931 <br>
-                  <a href="mailto:sarah.kobrin@nih.gov">sarah.kobrin@nih.gov</a></td>
+                  <th scope="row">Mechanisms of Disparities in Etiology and Outcomes of Lung Cancer in the U.S.: The Role of Risk and Protective Factors</th>
+                  <td><a href="https://grants.nih.gov/grants/guide/pa-files/PAR-19-018.html">PAR-19-018</a></td>
+                  <td>R01</td>
+                  <td>Clinical Trial Not Allowed</td>
+                  <td>March 5, 2021</td>
+                  <td><a href="https://epi.grants.cancer.gov/staff/martin.html">Damali Martin</a><br>
+                    240-276-6746<br>
+                    <a href="mailto:martinda@mail.nih.gov">martinda@mail.nih.gov</a></td>
+                  <td>Health Disparities</td>
+                  <td>Not Clinical Trials</td>
                 </tr>
-              </tbody>
-            </table>
-          </div>
-          <h2 id="hd">Health Disparities</h2>
-          <div class="table-responsive">
-            <table class="table table-striped table-bordered table-condensed" aria-describedby="hd">
-              <thead>
                 <tr>
-                  <th scope="col">Title</th>
-                  <th scope="col">Announcement # / Mechanism(s)</th>
-                  <th scope="col">Expiration Date</th>
-                  <th scope="col">Program Contact</th>
-                </tr>
-              </thead>
-              <tbody>
-				  <tr>
-				 <th scope="row">Mechanisms of Disparities in Etiology and Outcomes of Lung Cancer in the U.S.: The Role of Risk and Protective Factors</th>
-				 <td><a href="https://grants.nih.gov/grants/guide/pa-files/PAR-19-018.html">PAR-19-018</a> (R01 Clinical Trial Not Allowed)<br>
-					 <a href="https://grants.nih.gov/grants/guide/pa-files/PAR-19-019.html">PAR-19-019</a> (R21 Clinical Trial Not Allowed)
-				 </td>
-				 <td>March 5, 2021</td>
-				 <td><a href="https://epi.grants.cancer.gov/staff/martin.html">Damali Martin</a><br>
-					 240-276-6746<br>
-					 <a href="mailto:martinda@mail.nih.gov">martinda@mail.nih.gov</a></td>
+                  <th scope="row">Mechanisms of Disparities in Etiology and Outcomes of Lung Cancer in the U.S.: The Role of Risk and Protective Factors</th>
+                  <td><a href="https://grants.nih.gov/grants/guide/pa-files/PAR-19-019.html">PAR-19-019</a></td>
+                  <td>R21</td>
+                  <td>Clinical Trial Not Allowed</td>
+                  <td>March 5, 2021</td>
+                  <td><a href="https://epi.grants.cancer.gov/staff/martin.html">Damali Martin</a><br>
+                    240-276-6746<br>
+                    <a href="mailto:martinda@mail.nih.gov">martinda@mail.nih.gov</a></td>
+                  <td>Health Disparities</td>
+                  <td>Not Clinical Trials</td>
                 </tr>
                 <tr>
                   <th scope="row">Academic Research Enhancement Award</th>
-                  <td><a href="https://grants.nih.gov/grants/guide/pa-files/PA-18-504.html">PA-18-504</a> (Parent R15)</td>
+                  <td><a href="https://grants.nih.gov/grants/guide/pa-files/PA-18-504.html">PA-18-504</a></td>
+                  <td>Parent R15</td>
+                  <td>&nbsp;</td>
                   <td>January 8, 2021</td>
                   <td><a href="/od/srinivasan.html">Shobha Srinivasan</a><br />
                     240-276-6938<br />
                     <a href="mailto:ss688k@nih.gov">ss688k@nih.gov</a></td>
+                  <td>Health Disparities</td>
+                  <td>Not Clinical Trials</td>
                 </tr>
                 <tr>
                   <th scope="row">Administrative Supplements to Support Cancer Disparity Collaborative Research</th>
-                  <td><a href="https://grants.nih.gov/grants/guide/pa-files/PA-18-842.html">PA-18-842</a> (Clinical Trial Optional)</td>
-                  <td>September  11, 2020</td>
+                  <td><a href="https://grants.nih.gov/grants/guide/pa-files/PA-18-842.html">PA-18-842</a></td>
+                  <td>&nbsp;</td>
+                  <td>Clinical Trial Optional</td>
+                  <td>September 11, 2020</td>
                   <td><a href="https://epi.grants.cancer.gov/staff/martin.html">Damali Martin</a><br>
                     240-276-6746<br>
                     <a href="mailto:martinda@mail.nih.gov">martinda@mail.nih.gov</a></td>
+                  <td>Health Disparities</td>
+                  <td>Clinical Trials</td>
                 </tr>
                 <tr>
-                  <th scope="row">Intervention Research to Improve Native American Health  (R01 Clinical Trial Optional)<br>
-                    <br>
-                    Research to Improve Native American Health (R21  Clinical Trials Optional)</th>
-                  <td><a href="https://grants.nih.gov/grants/guide/pa-files/PAR-17-496.html">PAR-17-496</a> (R01)<br>
-                    <br>
-                    <br>
-                    <a href="https://grants.nih.gov/grants/guide/pa-files/PAR-17-464.html">PAR-17-464</a> (R21)</td>
+                  <th scope="row">Intervention Research to Improve Native American Health</th>
+                  <td><a href="https://grants.nih.gov/grants/guide/pa-files/PAR-17-496.html">PAR-17-496</a></td>
+                  <td>R01</td>
+                  <td>&nbsp;</td>
                   <td>May 15, 2020</td>
                   <td><a href="/od/srinivasan.html">Shobha Srinivasan</a><br>
                     240-276-6938<br>
                     <a href="mailto:ss688k@nih.gov">ss688k@nih.gov</a></td>
+                  <td>Health Disparities</td>
+                  <td>Not Clinical Trials</td>
+                </tr>
+                <tr>
+                  <th scope="row"> Research to Improve Native American Health (R21 Clinical Trials Optional)</th>
+                  <td><a href="https://grants.nih.gov/grants/guide/pa-files/PAR-17-464.html">PAR-17-464</a></td>
+                  <td>R21</td>
+                  <td>&nbsp;</td>
+                  <td>May 15, 2020</td>
+                  <td><a href="/od/srinivasan.html">Shobha Srinivasan</a><br>
+                    240-276-6938<br>
+                    <a href="mailto:ss688k@nih.gov">ss688k@nih.gov</a></td>
+                  <td>Health Disparities</td>
+                  <td>Not Clinical Trials</td>
                 </tr>
                 <tr>
                   <th scope="row">Addressing Health Disparities through Effective Interventions Among Immigrant Populations</th>
-                  <td><a href="https://grants.nih.gov/grants/guide/pa-files/PA-18-284.html">PA-18-284</a> (R01 Clinical Trial Optional)<br>
-                    <a href="https://grants.nih.gov/grants/guide/pa-files/PA-18-285.html">PA-18-285</a> (R21 Clinical Trial Optional)</td>
+                  <td><a href="https://grants.nih.gov/grants/guide/pa-files/PA-18-284.html">PA-18-284</a></td>
+                  <td>R01</td>
+                  <td>Clinical Trial Optional</td>
                   <td>January 8, 2020</td>
                   <td><a href="/od/srinivasan.html">Shobha Srinivasan</a><br>
                     240-276-6938<br>
                     <a href="mailto:ss688k@nih.gov">ss688k@nih.gov</a></td>
+                  <td>Health Disparities</td>
+                  <td>Clinical Trials</td>
+                </tr>
+                <tr>
+                  <th scope="row">Addressing Health Disparities through Effective Interventions Among Immigrant Populations</th>
+                  <td><a href="https://grants.nih.gov/grants/guide/pa-files/PA-18-285.html">PA-18-285</a></td>
+                  <td> R21</td>
+                  <td>Clinical Trial Optional</td>
+                  <td>January 8, 2020</td>
+                  <td><a href="/od/srinivasan.html">Shobha Srinivasan</a><br>
+                    240-276-6938<br>
+                    <a href="mailto:ss688k@nih.gov">ss688k@nih.gov</a></td>
+                  <td>Health Disparities</td>
+                  <td>Clinical Trials</td>
                 </tr>
                 <tr>
                   <th scope="row">Collaborative Minority Health and Health Disparities Research with Tribal Epidemiology Centers</th>
-                  <td><a href="https://grants.nih.gov/grants/guide/pa-files/PAR-17-483.html">PAR-17-483</a> (R21)<br>
-                    <a href="https://grants.nih.gov/grants/guide/pa-files/PAR-17-484.html">PAR-17-484</a> (R01)</td>
+                  <td><a href="https://grants.nih.gov/grants/guide/pa-files/PAR-17-483.html">PAR-17-483</a></td>
+                  <td>R21</td>
+                  <td>&nbsp;</td>
                   <td>December 5, 2019</td>
                   <td><a href="/od/srinivasan.html">Shobha Srinivasan</a><br>
                     240-276-6938<br>
                     <a href="mailto:ss688k@nih.gov">ss688k@nih.gov</a></td>
+                  <td>Health Disparities</td>
+                  <td>Not Clinical Trials</td>
+                </tr>
+                <tr>
+                  <th scope="row">Collaborative Minority Health and Health Disparities Research with Tribal Epidemiology Centers</th>
+                  <td><a href="https://grants.nih.gov/grants/guide/pa-files/PAR-17-484.html">PAR-17-484</a></td>
+                  <td>R01</td>
+                  <td>&nbsp;</td>
+                  <td>December 5, 2019</td>
+                  <td><a href="/od/srinivasan.html">Shobha Srinivasan</a><br>
+                    240-276-6938<br>
+                    <a href="mailto:ss688k@nih.gov">ss688k@nih.gov</a></td>
+                  <td>Health Disparities</td>
+                  <td>Not Clinical Trials</td>
                 </tr>
                 <tr>
                   <th scope="row">Surgical Disparities Research</th>
-                  <td><a href="https://grants.nih.gov/grants/guide/pa-files/PAR-18-288.html">PAR-18-288</a> (R01 Clinical Trial Optional)<br>
-                    <a href="https://grants.nih.gov/grants/guide/pa-files/PAR-18-289.html">PAR-18-289</a><br>
-                    (R21 Clinical Trial Optional)</td>
+                  <td><a href="https://grants.nih.gov/grants/guide/pa-files/PAR-18-288.html">PAR-18-288</a></td>
+                  <td>R01</td>
+                  <td>Clinical Trial Optional</td>
                   <td>June 8, 2019</td>
                   <td><a href="https://healthcaredelivery.cancer.gov/about/staff/bios/adjei.html">Brenda A. Adjei</a><br>
                     240-276-6185<br>
                     <a href="mailto:adjeiba@mail.nih.gov">adjeiba@mail.nih.gov</a></td>
+                  <td>Health Disparities</td>
+                  <td>Clinical Trials</td>
                 </tr>
                 <tr>
-                  <th scope="row">Mechanisms of Disparities in Chronic Liver Diseases  and Cancer</th>
-                  <td><a href="https://grants.nih.gov/grants/guide/pa-files/PAR-17-150.html">PAR-17-150</a> (R21)<br>
-                    <a href="https://grants.nih.gov/grants/guide/pa-files/PAR-17-151.html">PAR-17-151</a>(R01)</td>
-                  <td>April 5, 2019</td>
-                  <td><a href="https://epi.grants.cancer.gov/staff/lam.html">Tram Lam </a><br>
-                    240-276-6967<br>
-                    <a href="mailto:lamt@mail.nih.gov">lamt@mail.nih.gov</a></td>
+                  <th scope="row">Surgical Disparities Research</th>
+                  <td><a href="https://grants.nih.gov/grants/guide/pa-files/PAR-18-289.html">PAR-18-289</a></td>
+                  <td>R21</td>
+                  <td>Clinical Trial Optional</td>
+                  <td>June 8, 2019</td>
+                  <td><a href="https://healthcaredelivery.cancer.gov/about/staff/bios/adjei.html">Brenda A. Adjei</a><br>
+                    240-276-6185<br>
+                    <a href="mailto:adjeiba@mail.nih.gov">adjeiba@mail.nih.gov</a></td>
+                  <td>Health Disparities</td>
+                  <td>Clinical Trials</td>
                 </tr>
-              </tbody>
-            </table>
-          </div>
-          <h2 id="is">Implementation Science</h2>
-          <div class="table-responsive">
-            <table class="table table-striped table-bordered table-condensed" aria-describedby="is">
-              <thead>
                 <tr>
-                  <th scope="col">Title</th>
-                  <th scope="col">Announcement # / Mechanism(s)</th>
-                  <th scope="col">Expiration Date</th>
-                  <th scope="col">Program Contact</th>
-                </tr>
-              </thead>
-              <tbody>
-                <tr>
-                  <th scope="row">Dissemination and Implementation  Research in Health (Domestic and International Funding Opportunity)</th>
-                  <td><a href="https://grants.nih.gov/grants/guide/pa-files/PAR-18-007.html">PAR-18-007</a> (R01 Clinical Trial Optional)<br>
-                    <a href="https://grants.nih.gov/grants/guide/pa-files/PAR-18-017.html">PAR-18-017</a> (R21 Clinical Trial Optional)<br>
-                    <a href="https://grants.nih.gov/grants/guide/pa-files/PAR-16-237.html">PAR-16-237</a> (R03)</td>
-                  <td>May 8, 2019</td>
+                  <th scope="row">Dissemination and Implementation Research in Health (Domestic and International Funding Opportunity)</th>
+                  <td><a href="https://grants.nih.gov/grants/guide/pa-files/PAR-19-274.html">PAR-19-274</a></td>
+                  <td>R01</td>
+                  <td>Clinical Trial Optional</td>
+                  <td>May 8, 2022</td>
                   <td><a href="/IS/staff/Neta.html">Gila Neta</a><br>
                     240-276-6785<br>
                     <a href="mailto:glasgowre@mail.nih.gov">netagil@mail.nih.gov</a><br>
@@ -791,145 +1281,202 @@ height="0" width="0" style="display:none;visibility:hidden" title="Google Tag Ma
                     <a href="https://researchtoreality.cancer.gov/node/152">Cynthia A. Vinson</a><br>
                     240-276-6745 <br>
                     <a href="mailto:cvinson@mail.nih.gov" target="_top">cvinson@mail.nih.gov</a></td>
+                  <td>Implementation Science</td>
+                  <td>Clinical Trials</td>
                 </tr>
                 <tr>
-					<th scope="row">Implementation Science for Cancer Control: Advanced Centers</th>
-					<td><a href="https://grants.nih.gov/grants/guide/rfa-files/RFA-CA-19-005.html">RFA-CA-19-005</a> (P50 Clinical Trial Optional)<br>
-					  <a href="https://grants.nih.gov/grants/guide/rfa-files/RFA-CA-19-006.html">RFA-CA-19-006</a> (P50 Clinical Trial Optional)</td>
-					<td>February 12, 2019</td>
-					<td><a href="https://staffprofiles.cancer.gov/brp/prgmStaffProfile.do?contactId=1439602&bioType=stf">April Oh</a><br>
-					  240-276-670<br>
-					  <a href="mailto:ohay@mail.nih.gov">ohay@mail.nih.gov </a><br><br>
-					  <a href="/IS/staff/Vinson.html">Cynthia Vinson</a><br>
-						240-276-6745<br>
-						<a href="mailto:cvinson@mail.nih.gov">cvinson@mail.nih.gov </a></td>
-                  </tr>
-              </tbody>
-            </table>
-          </div>
-          <h2 id="srp">Surveillance Research</h2>
-          <div class="table-responsive">
-            <table class="table table-striped table-bordered table-condensed" aria-describedby="srp">
-              <thead>
-                <tr>
-                  <th scope="col">Title</th>
-                  <th scope="col">Announcement # / Mechanism(s)</th>
-                  <th scope="col">Expiration Date</th>
-                  <th scope="col">Program Contact</th>
+                  <th scope="row">Dissemination and Implementation Research in Health (Domestic and International Funding Opportunity)</th>
+                  <td><a href="https://grants.nih.gov/grants/guide/pa-files/PAR-19-275.html">PAR-19-275</a></td>
+                  <td>R21</td>
+                  <td>Clinical Trial Optional</td>
+                  <td>May 8, 2022</td>
+                  <td><a href="/IS/staff/Neta.html">Gila Neta</a><br>
+                    240-276-6785<br>
+                    <a href="mailto:glasgowre@mail.nih.gov">netagil@mail.nih.gov</a><br>
+                    <br>
+                    <a href="https://researchtoreality.cancer.gov/node/152">Cynthia A. Vinson</a><br>
+                    240-276-6745 <br>
+                    <a href="mailto:cvinson@mail.nih.gov" target="_top">cvinson@mail.nih.gov</a></td>
+                  <td>Implementation Science</td>
+                  <td>Clinical Trials</td>
                 </tr>
-              </thead>
-              <tbody>
+                <tr>
+                  <th scope="row">Dissemination and Implementation Research in Health (Domestic and International Funding Opportunity)</th>
+                  <td><a href="https://grants.nih.gov/grants/guide/pa-files/PAR-19-276.html">PAR-19-276</a></td>
+                  <td>R03</td>
+                  <td>&nbsp;</td>
+                  <td>May 8, 2022</td>
+                  <td><a href="/IS/staff/Neta.html">Gila Neta</a><br>
+                    240-276-6785<br>
+                    <a href="mailto:glasgowre@mail.nih.gov">netagil@mail.nih.gov</a><br>
+                    <br>
+                    <a href="https://researchtoreality.cancer.gov/node/152">Cynthia A. Vinson</a><br>
+                    240-276-6745 <br>
+                    <a href="mailto:cvinson@mail.nih.gov" target="_top">cvinson@mail.nih.gov</a></td>
+                  <td>Implementation Science</td>
+                  <td>Not Clinical Trials</td>
+                </tr>
                 <tr>
                   <th scope="row">Integration of Individual Residential Histories into Cancer Research</th>
-                  <td><a href="https://grants.nih.gov/grants/guide/pa-files/PA-17-298.html">PA-17-298</a> (R01)<br>
-                    <a href="https://grants.nih.gov/grants/guide/pa-files/PA-17-295.html">PA-17-295</a> (R21)</td>
-                  <td>September 8, 2020 </td>
+                  <td><a href="https://grants.nih.gov/grants/guide/pa-files/PA-17-298.html">PA-17-298</a></td>
+                  <td>R01</td>
+                  <td>&nbsp;</td>
+                  <td>September 8, 2020</td>
                   <td><a href="https://surveillance.cancer.gov/about/bios/tatalovichz.html">Zaria Tatalovich</a><br>
                     240-276-6976<br>
                     <a href="mailto:tatalovichzp@mail.nih.gov">tatalovichzp@mail.nih.gov</a></td>
+                  <td>Surveillance Research</td>
+                  <td>Not Clinical Trials</td>
+                </tr>
+                <tr>
+                  <th scope="row">Integration of Individual Residential Histories into Cancer Research</th>
+                  <td><a href="https://grants.nih.gov/grants/guide/pa-files/PA-17-295.html">PA-17-295</a></td>
+                  <td>R21</td>
+                  <td>&nbsp;</td>
+                  <td>September 8, 2020</td>
+                  <td><a href="https://surveillance.cancer.gov/about/bios/tatalovichz.html">Zaria Tatalovich</a><br>
+                    240-276-6976<br>
+                    <a href="mailto:tatalovichzp@mail.nih.gov">tatalovichzp@mail.nih.gov</a></td>
+                  <td>Surveillance Research</td>
+                  <td>Not Clinical Trials</td>
                 </tr>
                 <tr>
                   <th scope="row">Leveraging Population-based Cancer Registry Data to Study Health Disparities</th>
-                  <td><a href="https://grants.nih.gov/grants/guide/pa-files/PA-17-289.html">PA-17-289</a> (R01)<br>
-                    <a href="https://grants.nih.gov/grants/guide/pa-files/PA-17-288.html">PA-17-288</a> (R21)</td>
-                  <td>September 8, 2020 </td>
-                  <td><a href="https://surveillance.cancer.gov/about/bios/howladern.html">Nadia  Howlader</a><br>
+                  <td><a href="https://grants.nih.gov/grants/guide/pa-files/PA-17-289.html">PA-17-289</a></td>
+                  <td>R01</td>
+                  <td>&nbsp;</td>
+                  <td>September 8, 2020</td>
+                  <td><a href="https://surveillance.cancer.gov/about/bios/howladern.html">Nadia Howlader</a><br>
                     240-276-6891<br>
                     <a href="mailto:howladern@mail.nih.gov">howladern@mail.nih.gov</a></td>
+                  <td>Surveillance Research</td>
+                  <td>Not Clinical Trials</td>
                 </tr>
                 <tr>
-                  <th scope="row">New Informatics Tools and Methods to Enhance U.S. Cancer Surveillance and Research</th>
-                  <td><a href="https://grants.nih.gov/grants/guide/pa-files/PAR-16-349.html">PAR-16-349</a> (UG3/UH3)</td>
-                  <td>April 17, 2019 </td>
-                  <td><a href="https://surveillance.cancer.gov/about/bios/howladern.html">Nadia  Howlader</a><br>
+                  <th scope="row">Leveraging Population-based Cancer Registry Data to Study Health Disparities</th>
+                  <td><a href="https://grants.nih.gov/grants/guide/pa-files/PA-17-288.html">PA-17-288</a></td>
+                  <td>R21</td>
+                  <td>&nbsp;</td>
+                  <td>September 8, 2020</td>
+                  <td><a href="https://surveillance.cancer.gov/about/bios/howladern.html">Nadia Howlader</a><br>
                     240-276-6891<br>
                     <a href="mailto:howladern@mail.nih.gov">howladern@mail.nih.gov</a></td>
+                  <td>Surveillance Research</td>
+                  <td>Not Clinical Trials</td>
                 </tr>
-              </tbody>
-            </table>
-          </div>
-          <h2 id="bbpsb">Basic Biobehavioral and Psychological Sciences</h2>
-          <div class="table-responsive">
-            <table class="table table-striped table-bordered table-condensed" aria-describedby="bbpsb">
-              <thead>
                 <tr>
-                  <th scope="col">Title</th>
-                  <th scope="col">Announcement # / Mechanism(s)</th>
-                  <th scope="col">Expiration Date</th>
-                  <th scope="col">Program Contact</th>
-                </tr>
-              </thead>
-              <tbody>
-                <tr>
-                  <th scope="row">Oral Anticancer Agents: Utilization, Adherence, and  Health Care Delivery</th>
-                  <td><a href="https://grants.nih.gov/grants/guide/pa-files/PA-18-004.html">PA-18-004</a> (R01 Clinical Trial Optional)<br>
-                    <a href="https://grants.nih.gov/grants/guide/pa-files/PA-18-014.html">PA-18-014</a> (R21 Clinical Trial Optional)</td>
+                  <th scope="row">Oral Anticancer Agents: Utilization, Adherence, and Health Care Delivery</th>
+                  <td><a href="https://grants.nih.gov/grants/guide/pa-files/PA-18-004.html">PA-18-004</a></td>
+                  <td>R01</td>
+                  <td>Clinical Trial Optional</td>
                   <td>January 8, 2020</td>
                   <td><a href="https://staffprofiles.cancer.gov/brp/prgmStaffProfile.do?contactId=1618">Wendy Nelson</a><br>
                     240-276-6971<br>
                     <a href="mailto:nelsonw@mail.nih.gov">nelsonw@mail.nih.gov</a></td>
+                  <td>Basic Biobehavioral and Psychological Sciences</td>
+                  <td>Clinical Trials</td>
+                </tr>
+                <tr>
+                  <th scope="row">Oral Anticancer Agents: Utilization, Adherence, and Health Care Delivery</th>
+                  <td><a href="https://grants.nih.gov/grants/guide/pa-files/PA-18-014.html">PA-18-014</a></td>
+                  <td>R21</td>
+                  <td>Clinical Trial Optional</td>
+                  <td>January 8, 2020</td>
+                  <td><a href="https://staffprofiles.cancer.gov/brp/prgmStaffProfile.do?contactId=1618">Wendy Nelson</a><br>
+                    240-276-6971<br>
+                    <a href="mailto:nelsonw@mail.nih.gov">nelsonw@mail.nih.gov</a></td>
+                  <td>Basic Biobehavioral and Psychological Sciences</td>
+                  <td>Clinical Trials</td>
                 </tr>
                 <tr>
                   <th scope="row">Fundamental Mechanisms of Affective and Decisional Processes in Cancer Control</th>
-                  <td><a href="https://grants.nih.gov/grants/guide/pa-files/PAR-18-681.html">PAR-18-681</a> (R01 Clinical Trial Optional)</td>
+                  <td><a href="https://grants.nih.gov/grants/guide/pa-files/PAR-18-681.html">PAR-18-681</a></td>
+                  <td>R01</td>
+                  <td>Clinical Trial Optional</td>
                   <td>October 12, 2019</td>
                   <td><a href="https://staffprofiles.cancer.gov/brp/prgmStaffProfile.do?contactId=1439021&amp;bioType=stf">Rebecca    Ferrer</a><br>
                     301-852-1167 <br>
                     <a href="mailto:rebecca.ferrer@nih.gov">rebecca.ferrer@nih.gov</a></td>
+                  <td>Basic Biobehavioral and Psychological Sciences</td>
+                  <td>Clinical Trials</td>
                 </tr>
                 <tr>
                   <th scope="row">Perception and Cognition Research to Inform Cancer Image Interpretation</th>
-                  <td><a href="https://grants.nih.gov/grants/guide/pa-files/PAR-18-640.html">PAR-18-640</a> (R01 Clinical Trial Optional)<br />
-                    <a href="https://grants.nih.gov/grants/guide/pa-files/PAR-18-641.html">PAR-18-641</a> (R21 Clinical Trial Optional)</td>
+                  <td><a href="https://grants.nih.gov/grants/guide/pa-files/PAR-18-640.html">PAR-18-640</a></td>
+                  <td>R01</td>
+                  <td>Clinical Trial Optional</td>
                   <td>September 27, 2019</td>
                   <td><a href="https://staffprofiles.cancer.gov/brp/prgmStaffProfile.do?contactId=2550070&amp;bioType=stf">Todd Horowitz</a><br>
                     240-276-6963<br>
                     <a href="mailto:horowitzts@mail.nih.gov">horowitzts@mail.nih.gov</a></td>
+                  <td>Basic Biobehavioral and Psychological Sciences</td>
+                  <td>Clinical Trials</td>
+                </tr>
+                <tr>
+                  <th scope="row">Perception and Cognition Research to Inform Cancer Image Interpretation</th>
+                  <td><a href="https://grants.nih.gov/grants/guide/pa-files/PAR-18-641.html">PAR-18-641</a></td>
+                  <td>R21</td>
+                  <td>Clinical Trial Optional</td>
+                  <td>September 27, 2019</td>
+                  <td><a href="https://staffprofiles.cancer.gov/brp/prgmStaffProfile.do?contactId=2550070&amp;bioType=stf">Todd Horowitz</a><br>
+                    240-276-6963<br>
+                    <a href="mailto:horowitzts@mail.nih.gov">horowitzts@mail.nih.gov</a></td>
+                  <td>Basic Biobehavioral and Psychological Sciences</td>
+                  <td>Clinical Trials</td>
                 </tr>
                 <tr>
                   <th scope="row">Neural Regulation of Cancer</th>
-                  <td><a href="https://grants.nih.gov/grants/guide/pa-files/PAR-16-245.html">PAR-16-245</a> (R01)<br>
-                    <a href="https://grants.nih.gov/grants/guide/pa-files/PAR-16-246.html">PAR-16-246</a> (R21)</td>
+                  <td><a href="https://grants.nih.gov/grants/guide/pa-files/PAR-16-245.html">PAR-16-245</a></td>
+                  <td>R01</td>
+                  <td>&nbsp;</td>
                   <td>June 28, 2019</td>
                   <td><a href="https://staffprofiles.cancer.gov/brp/prgmStaffProfile.do?contactId=8579&amp;bioType=stf">Paige  Green</a><br>
                     240-276-6899<br>
                     <a href="mailto:paige.green@nih.gov">paige.green@nih.gov</a></td>
+                  <td>Basic Biobehavioral and Psychological Sciences</td>
+                  <td>Not Clinical Trials</td>
                 </tr>
                 <tr>
-                  <th scope="row">Predicting Behavioral Responses to Population-Level Cancer Control Strategies</th>
-                  <td><a href="https://grants.nih.gov/grants/guide/pa-files/PAR-18-024.html">PAR-18-024</a> (R21 Clinical Trial Optional)</td>
-                  <td>April 12, 2019</td>
-                  <td><a href="https://staffprofiles.cancer.gov/brp/prgmStaffProfile.do?contactId=1439021&amp;bioType=stf">Rebecca    Ferrer</a><br>
-                    301-852-1167 <br>
-                    <a href="mailto:rebecca.ferrer@nih.gov">rebecca.ferrer@nih.gov</a></td>
+                  <th scope="row">Neural Regulation of Cancer</th>
+                  <td><a href="https://grants.nih.gov/grants/guide/pa-files/PAR-16-246.html">PAR-16-246</a></td>
+                  <td>R21</td>
+                  <td>&nbsp;</td>
+                  <td>June 28, 2019</td>
+                  <td><a href="https://staffprofiles.cancer.gov/brp/prgmStaffProfile.do?contactId=8579&amp;bioType=stf">Paige  Green</a><br>
+                    240-276-6899<br>
+                    <a href="mailto:paige.green@nih.gov">paige.green@nih.gov</a></td>
+                  <td>Basic Biobehavioral and Psychological Sciences</td>
+                  <td>Not Clinical Trials</td>
                 </tr>
-                <tr>
-                  <th scope="row">Leveraging Cognitive Neuroscience Research to Improve Assessment of Cancer Treatment Related Cognitive Impairment</th>
-                  <td><a href="https://grants.nih.gov/grants/guide/pa-files/PAR-18-605.html">PAR-18-605</a> (R01 Clinical  Trial Optional)<br>
-                    <a href="https://grants.nih.gov/grants/guide/pa-files/PAR-18-606.html">PAR-18-606</a> (R21 Clinical  Trial Optional)</td>
-                  <td>April 12, 2019</td>
-                  <td><a href="https://staffprofiles.cancer.gov/brp/prgmStaffProfile.do?contactId=3501713">Jerry Suls</a><br>
-                    240-276-6811<br>
-                    <a href="mailto:jerry.suls@nih.gov">jerry.suls@nih.gov</a></td>
+				<tr>
+                  <th scope="row">Nutrition and Alcohol-Related Health Outcomes</th>
+                  <td><a href="https://grants.nih.gov/grants/guide/pa-files/pa-17-211.html">PA-17-211</a></td>
+                  <td>R01</td>
+                  <td>&nbsp;</td>
+                  <td>May 8, 2020</td>
+                  <td><a href="https://staffprofiles.cancer.gov/brp/prgmStaffProfile.do?contactId=1478&bioType=stf">Tanya  Agurs-Collins</a><br>
+					  240-276-6956<br>
+					  <a href="mailto:collinsta@mail.nih.gov">collinsta@mail.nih.gov</a></td>
+                  <td>Health Behaviors Research</td>
+                  <td>Not Clinical Trials</td>
                 </tr>
-              </tbody>
-            </table>
-          </div>
-          <h2 id="hbrb">Health Behaviors Research</h2>
-          <div class="table-responsive">
-            <table class="table table-striped table-bordered table-condensed" aria-describedby="hbrb">
-              <thead>
-                <tr>
-                  <th scope="col">Title</th>
-                  <th scope="col">Announcement # / Mechanism(s)</th>
-                  <th scope="col">Expiration Date</th>
-                  <th scope="col">Program Contact</th>
+				<tr>
+                  <th scope="row">Nutrition and Alcohol-Related Health Outcomes</th>
+                  <td><a href="https://grants.nih.gov/grants/guide/notice-files/NOT-CA-19-012.html">NOT-CA-19-012</a></td>
+                  <td></td>
+                  <td></td>
+                  <td>May 8, 2020</td>
+                  <td><a href="https://staffprofiles.cancer.gov/brp/prgmStaffProfile.do?contactId=1478&bioType=stf">Tanya  Agurs-Collins</a><br>
+					  240-276-6956<br>
+					  <a href="mailto:collinsta@mail.nih.gov">collinsta@mail.nih.gov</a></td>
+                  <td>Health Behaviors Research</td>
+                  <td>Not Clinical Trials</td>
                 </tr>
-              </thead>
-              <tbody>
                 <tr>
                   <th scope="row">Time-Sensitive Obesity Policy and Program Evaluation</th>
-                  <td><a href="https://grants.nih.gov/grants/guide/pa-files/PAR-18-854.html">PAR-18-854</a> (R01)</td>
+                  <td><a href="https://grants.nih.gov/grants/guide/pa-files/PAR-18-854.html">PAR-18-854</a></td>
+                  <td>R01</td>
+                  <td>&nbsp;</td>
                   <td>September 11, 2021</td>
                   <td><a href="https://staffprofiles.cancer.gov/brp/prgmStaffProfile.do?contactId=1456&amp;bioType=stf">David Berrigan</a><br>
                     240-276-6752<br>
@@ -938,173 +1485,218 @@ height="0" width="0" style="display:none;visibility:hidden" title="Google Tag Ma
                     <a href="https://epi.grants.cancer.gov/staff/reedy.html">Jill Reedy</a><br>
                     240-276-6812<br>
                     <a href="mailto:reedyj@mail.nih.gov">reedyj@mail.nih.gov</a></td>
+                  <td>Health Behaviors Research</td>
+                  <td>Not Clinical Trials</td>
                 </tr>
                 <tr>
                   <th scope="row">Exploratory/Developmental Clinical Research Grants in Obesity</th>
-                  <td><a href="https://grants.nih.gov/grants/guide/pa-files/PA-18-720.html">PA-18-720</a> (R21  Clinical Trial Optional)</td>
+                  <td><a href="https://grants.nih.gov/grants/guide/pa-files/PA-18-720.html">PA-18-720</a></td>
+                  <td>R21</td>
+                  <td>Clinical Trial Optional</td>
                   <td>May 8, 2021</td>
                   <td><a href="https://staffprofiles.cancer.gov/brp/prgmStaffProfile.do?contactId=1478&amp;bioType=stf">Tanya    Agurs-Collins</a><br>
                     240-276-6956<br>
-                    <a href="mailto:collinsta@mail.nih.gov">collinsta@mail.nih.gov</a>  </td>
+                    <a href="mailto:collinsta@mail.nih.gov">collinsta@mail.nih.gov</a> </td>
+                  <td>Health Behaviors Research</td>
+                  <td>Clinical Trials</td>
                 </tr>
                 <tr>
                   <th scope="row">Testing Interventions for Health-Enhancing Physical Activity</th>
-                  <td><a href="https://grants.nih.gov/grants/guide/pa-files/PAR-18-324.html">PAR-18-324</a> (R01  - Clinical Trial Optional)<br>
-                    <a href="https://grants.nih.gov/grants/guide/pa-files/PAR-18-307.html">PAR-18-307</a> (R21/R33  Clinical Trial Optional)</td>
+                  <td><a href="https://grants.nih.gov/grants/guide/pa-files/PAR-18-324.html">PAR-18-324</a></td>
+                  <td>R01</td>
+                  <td>Clinical Trial Optional</td>
                   <td>January 8, 2021</td>
                   <td><a href="https://staffprofiles.cancer.gov/brp/prgmStaffProfile.do?contactId=51678&bioType=stf">Frank  Perna</a><br>
                     240-276-6782<br>
                     <a href="mailto:pernafm@mail.nih.gov">pernafm@mail.nih.gov</a></td>
+                  <td>Health Behaviors Research</td>
+                  <td>Clinical Trials</td>
                 </tr>
                 <tr>
-                  <th scope="row">Nutrition and Alcohol-Related Health Outcomes</th>
-                  <td><a href="https://grants.nih.gov/grants/guide/pa-files/pa-17-211.html">PA-17-211</a> (R01)<br>
-                  <a href="https://grants.nih.gov/grants/guide/notice-files/NOT-CA-19-012.html">NOT-CA-19-012</a></td>
-                  <td>May 8, 2020</td>
-                  <td><a href="https://staffprofiles.cancer.gov/brp/prgmStaffProfile.do?contactId=1478&bioType=stf">Tanya  Agurs-Collins</a><br>
-					  240-276-6956<br>
-					  <a href="mailto:collinsta@mail.nih.gov">collinsta@mail.nih.gov</a></td>
+                  <th scope="row">Testing Interventions for Health-Enhancing Physical Activity</th>
+                  <td><a href="https://grants.nih.gov/grants/guide/pa-files/PAR-18-307.html">PAR-18-307</a></td>
+                  <td>R21/R33</td>
+                  <td>Clinical Trial Optional</td>
+                  <td>January 8, 2021</td>
+                  <td><a href="https://staffprofiles.cancer.gov/brp/prgmStaffProfile.do?contactId=51678&bioType=stf">Frank  Perna</a><br>
+                    240-276-6782<br>
+                    <a href="mailto:pernafm@mail.nih.gov">pernafm@mail.nih.gov</a></td>
+                  <td>Health Behaviors Research</td>
+                  <td>Clinical Trials</td>
                 </tr>
-                <tr>
-                  <th scope="row">Population Health Interventions: Integrating Individual and Group Level Evidence</th>
-                  <td><a href="https://grants.nih.gov/grants/guide/pa-files/PA-18-385.html">PA-18-385</a> (R01 Clinical Trial Optional)<br>
-                    <a href="https://grants.nih.gov/grants/guide/pa-files/PA-18-356.html">PA-18-356</a> (R01 Clinical Trials Not Allowed)<br>
-                    <a href="https://grants.nih.gov/grants/guide/pa-files/PA-18-407.html">PA-18-407</a> (R21 Clinical Trial Optional)<br>
-                    <a href="https://grants.nih.gov/grants/guide/pa-files/PA-18-406.html">PA-18-406</a> (R21 Clinical Trials Not Allowed)</td>
-                  <td>May 8, 2019</td>
-                  <td><a href="https://staffprofiles.cancer.gov/brp/prgmStaffProfile.do?contactId=1456&amp;bioType=stf">David  Berrigan</a><br>
-                    240-276-6752<br>
-                    <a href="mailto:berrigand@mail.nih.gov">berrigand@mail.nih.gov</a></td>
-                </tr>
-                <tr>
-                  <th scope="row">Stimulating Innovations in Behavioral Intervention Research for Cancer Prevention and Control</th>
-                  <td><a href="https://grants.nih.gov/grants/guide/pa-files/PAR-18-018.html">PAR-18-018</a> (R21 Clinical Trial Optional)</td>
-                  <td>May 8, 2019</td>
-                  <td><a href="https://staffprofiles.cancer.gov/brp/prgmStaffProfile.do?contactId=1478&amp;bioType=stf">Tanya    Agurs-Collins</a><br>
-                    240-276-6956<br>
-                    <a href="mailto:collinsta@mail.nih.gov">collinsta@mail.nih.gov</a>  </td>
-                </tr>
-                <tr>
-                  <th scope="row"> Obesity Policy Evaluation Research</th>
-                  <td><a href="https://grants.nih.gov/grants/guide/pa-files/PA-16-165.html">PA-16-165</a> (R01)</td>
-                  <td>May 8, 2019</td>
-                  <td><a href="https://staffprofiles.cancer.gov/brp/prgmStaffProfile.do?contactId=1456&amp;bioType=stf">David Berrigan</a><br>
-                    240-276-6752<br>
-                    <a href="mailto:David.Berrigan@nih.gov">David.Berrigan@nih.gov</a><br>
-                    <br>
-                    <a href="https://epi.grants.cancer.gov/staff/reedy.html">Jill Reedy</a><br>
-                    240-276-6812<br></td>
-                </tr>
-              </tbody>
-            </table>
-          </div>
-          <h2 id="hcirb">Health Communication and Informatics Research</h2>
-          <div class="table-responsive">
-            <table class="table table-striped table-bordered table-condensed" aria-describedby="hcirb">
-              <thead>
-                <tr>
-                  <th scope="col">Title</th>
-                  <th scope="col">Announcement # / Mechanism(s)</th>
-                  <th scope="col">Expiration Date</th>
-                  <th scope="col">Program Contact</th>
-                </tr>
-              </thead>
-              <tbody>
                 <tr>
                   <th scope="row">End-of-Life and Palliative Care Health Literacy: Improving Outcomes in Serious, Advanced Illness</th>
-                  <td><a href="https://grants.nih.gov/grants/guide/pa-files/PA-18-498.html">PA-18-498</a> (R01 Clinical Trial Optional)<br>
-                    <a href="https://grants.nih.gov/grants/guide/pa-files/PA-18-499.html">PA-18-499</a> (R21  Clinical Trial Optional)</td>
+                  <td><a href="https://grants.nih.gov/grants/guide/pa-files/PA-18-498.html">PA-18-498</a></td>
+                  <td>R01</td>
+                  <td>Clinical Trial Optional</td>
                   <td>May 8, 2021</td>
                   <td><a href="https://staffprofiles.cancer.gov/brp/prgmStaffProfile.do?contactId=993308&bioType=stf">Sylvia  Chou</a> <br>
                     240-276-6954<br>
                     <a href="mailto:chouws@mail.nih.gov">chouws@mail.nih.gov</a></td>
+                  <td>Health Communication and Informatics Research</td>
+                  <td>Clinical Trials</td>
                 </tr>
                 <tr>
-				 <th scope="row">Leveraging Health Information Technology (Health IT) to Address Minority Health and Health Disparities</th>
-				 <td><a href="https://grants.nih.gov/grants/guide/pa-files/PAR-19-093.html">PAR-19-093</a> (R01  Clinical Trial Optional)</td>
-				 <td>March 5, 2021</td>
-				 <td><a href="https://staffprofiles.cancer.gov/brp/prgmStaffProfile.do?contactId=1439602&name=April-Oh&bioType=stf">April Oh</a><br>
-					 240-276-6709<br>
-				  <a href="mailto:april.oh@nih.gov">april.oh@nih.gov</a></td>
+                  <th scope="row">End-of-Life and Palliative Care Health Literacy: Improving Outcomes in Serious, Advanced Illness</th>
+                  <td><a href="https://grants.nih.gov/grants/guide/pa-files/PA-18-499.html">PA-18-499</a></td>
+                  <td>R21</td>
+                  <td>Clinical Trial Optional</td>
+                  <td>May 8, 2021</td>
+                  <td><a href="https://staffprofiles.cancer.gov/brp/prgmStaffProfile.do?contactId=993308&bioType=stf">Sylvia  Chou</a> <br>
+                    240-276-6954<br>
+                    <a href="mailto:chouws@mail.nih.gov">chouws@mail.nih.gov</a></td>
+                  <td>Health Communication and Informatics Research</td>
+                  <td>Clinical Trials</td>
+                </tr>
+                <tr>
+                  <th scope="row">Leveraging Health Information Technology (Health IT) to Address Minority Health and Health Disparities</th>
+                  <td><a href="https://grants.nih.gov/grants/guide/pa-files/PAR-19-093.html">PAR-19-093</a></td>
+                  <td>R01</td>
+                  <td>Clinical Trial Optional</td>
+                  <td>March 5, 2021</td>
+                  <td><a href="https://staffprofiles.cancer.gov/brp/prgmStaffProfile.do?contactId=1439602&name=April-Oh&bioType=stf">April Oh</a><br>
+                    240-276-6709<br>
+                    <a href="mailto:april.oh@nih.gov">april.oh@nih.gov</a></td>
+                  <td>Health Communication and Informatics Research</td>
+                  <td>Clinical Trials</td>
                 </tr>
                 <tr>
                   <th scope="row">Cancer-Related Behavioral Research through Integrating Existing Data</th>
-                  <td><a href="https://grants.nih.gov/grants/guide/pa-files/PAR-16-256.html">PAR-16-256</a> (R01)<br>
-                    <a href="https://grants.nih.gov/grants/guide/pa-files/PAR-16-255.html">PAR-16-255</a> (R21)</td>
+                  <td><a href="https://grants.nih.gov/grants/guide/pa-files/PAR-16-256.html">PAR-16-256</a></td>
+                  <td>R01</td>
+                  <td>&nbsp;</td>
                   <td>June 15, 2019</td>
                   <td><a href="https://staffprofiles.cancer.gov/brp/prgmStaffProfile.do?contactId=1608&amp;bioType=stf">Rick Moser</a><br>
                     240-276-6915 <br>
                     <a href="mailto:moserr@mail.nih.gov">moserr@mail.nih.gov </a></td>
+                  <td>Health Communication and Informatics Research</td>
+                  <td>Not Clinical Trials</td>
+                </tr>
+                <tr>
+                  <th scope="row">Cancer-Related Behavioral Research through Integrating Existing Data</th>
+                  <td><a href="https://grants.nih.gov/grants/guide/pa-files/PAR-16-255.html">PAR-16-255</a></td>
+                  <td>R21</td>
+                  <td>&nbsp;</td>
+                  <td>June 15, 2019</td>
+                  <td><a href="https://staffprofiles.cancer.gov/brp/prgmStaffProfile.do?contactId=1608&amp;bioType=stf">Rick Moser</a><br>
+                    240-276-6915 <br>
+                    <a href="mailto:moserr@mail.nih.gov">moserr@mail.nih.gov </a></td>
+                  <td>Health Communication and Informatics Research</td>
+                  <td>Not Clinical Trials</td>
                 </tr>
                 <tr>
                   <th scope="row">Innovative Approaches to Studying Cancer Communication in the New Media Environment</th>
-                  <td><a href="https://grants.nih.gov/grants/guide/pa-files/PAR-18-638.html">PAR-18-638</a> (R01 Clinical Trial Optional)<br>
-                    <a href="https://grants.nih.gov/grants/guide/pa-files/PAR-18-639.html">PAR-18-639</a> (R21 Clinical Trial Optional)</td>
+                  <td><a href="https://grants.nih.gov/grants/guide/pa-files/PAR-18-638.html">PAR-18-638</a></td>
+                  <td>R01</td>
+                  <td>Clinical Trial Optional</td>
                   <td>June 14, 2019</td>
                   <td><a href="https://staffprofiles.cancer.gov/brp/prgmStaffProfile.do?contactId=599385">Kelly  Blake</a><br>
                     240-281-5934 <br>
                     <a href="mailto:kelly.blake@nih.gov">kelly.blake@nih.gov</a></td>
+                  <td>Health Communication and Informatics Research</td>
+                  <td>Clinical Trials</td>
                 </tr>
                 <tr>
-                  <th scope="row" colspan="3"><a href="https://grants.nih.gov/grants/guide/notice-files/NOT-OD-13-041.html">NIH Guide Notice on NIH-NSF joint funding opportunity, &quot;Smart and Connected Health&quot;</a></th>
-                  <td><a href="https://staffprofiles.cancer.gov/brp/prgmStaffProfile.do?contactId=1439602&name=April-Oh&bioType=stf">April Oh</a><br>
-					  240-276-6709<br>
-					  <a href="mailto:april.oh@nih.gov">april.oh@nih.gov</a></td>
+                  <th scope="row">Innovative Approaches to Studying Cancer Communication in the New Media Environment</th>
+                  <td><a href="https://grants.nih.gov/grants/guide/pa-files/PAR-18-639.html">PAR-18-639</a></td>
+                  <td>R21</td>
+                  <td>Clinical Trial Optional</td>
+                  <td>June 14, 2019</td>
+                  <td><a href="https://staffprofiles.cancer.gov/brp/prgmStaffProfile.do?contactId=599385">Kelly  Blake</a><br>
+                    240-281-5934 <br>
+                    <a href="mailto:kelly.blake@nih.gov">kelly.blake@nih.gov</a></td>
+                  <td>Health Communication and Informatics Research</td>
+                  <td>Clinical Trials</td>
                 </tr>
-              </tbody>
-            </table>
-          </div>
-          <h2 id="tcrb">Tobacco Control Research</h2>
-          <div class="table-responsive">
-            <table class="table table-striped table-bordered table-condensed" aria-describedby="tcrb">
-              <thead>
-                <tr>
-                  <th scope="col">Title</th>
-                  <th scope="col">Announcement # / Mechanism(s)</th>
-                  <th scope="col">Expiration Date</th>
-                  <th scope="col">Program Contact</th>
-                </tr>
-              </thead>
-              <tbody>
                 <tr>
                   <th scope="row">Mechanism for Time-Sensitive Drug Abuse Research</th>
-                  <td><a href="https://grants.nih.gov/grants/guide/pa-files/PAR-19-064.html">PAR-19-064</a> (R21 Clinical Trial Optional)<br>
-                  <a href="https://grants.nih.gov/grants/guide/notice-files/NOT-CA-19-015.html" target="_blank">NOT-CA-19-015</a></td>
+                  <td><a href="https://grants.nih.gov/grants/guide/pa-files/PAR-19-064.html">PAR-19-064</a></td>
+                  <td>R21</td>
+                  <td>Clinical Trial Optional</td>
                   <td>November 9, 2021</td>
                   <td><a href="https://staffprofiles.cancer.gov/brp/prgmStaffProfile.do?contactId=599385&name=Kelly-Blake&bioType=stf">Kelly Blake</a><br>
                     240-281-5934<br>
                     <a href="mailto:kelly.blake@nih.gov">kelly.blake@nih.gov</a></td>
+                  <td>Tobacco Control Research</td>
+                  <td>Clinical Trials</td>
                 </tr>
-				<tr>
+                <tr>
+                  <th scope="row">Mechanism for Time-Sensitive Drug Abuse Research</th>
+                  <td><a href="https://grants.nih.gov/grants/guide/notice-files/NOT-CA-19-015.html" target="_blank">NOT-CA-19-015</a></td>
+                  <td>&nbsp;</td>
+                  <td>&nbsp;</td>
+                  <td>November 9, 2021</td>
+                  <td><a href="https://staffprofiles.cancer.gov/brp/prgmStaffProfile.do?contactId=599385&name=Kelly-Blake&bioType=stf">Kelly Blake</a><br>
+                    240-281-5934<br>
+                    <a href="mailto:kelly.blake@nih.gov">kelly.blake@nih.gov</a></td>
+                  <td>Tobacco Control Research</td>
+                  <td>Not Clinical Trials</td>
+                </tr>
+                <tr>
                   <th scope="row">Accelerating the Pace of Child Health Research Using Existing Data from the Adolescent Brain Cognitive Development (ABCD) Study</th>
-                  <td><a href="https://grants.nih.gov/grants/guide/pa-files/PAR-19-162.html">PAR-19-162</a> (R01 Clinical  Trial Not Allowed)<br>                  
-                  <a href="https://grants.nih.gov/grants/guide/pa-files/par-19-163.html">PAR-19-163</a> (R21 Clinical  Trial Not Allowed)                  </td>
+                  <td><a href="https://grants.nih.gov/grants/guide/pa-files/PAR-19-162.html">PAR-19-162</a></td>
+                  <td>R01</td>
+                  <td>Clinical  Trial Not Allowed</td>
                   <td>September 8, 2021</td>
                   <td><a href="https://staffprofiles.cancer.gov/brp/prgmStaffProfile.do?contactId=1462212&bioType=flw">Annette Kaufman</a><br>
                     240-276-6706<br>
                     <a href="mailto:kaufmana@mail.nih.gov">kaufmana@mail.nih.gov</a></td>
-				</tr>
-				<tr>
-				  <th scope="row">Tobacco Regulatory Science</th>
-                  <td><a href="http://grants.nih.gov/grants/guide/rfa-files/RFA-OD-19-019.html">RFA-OD-19-019</a> (R01 Clinical Trial Optional)</td>
+                  <td>Tobacco Control Research</td>
+                  <td>Not Clinical Trials</td>
+                </tr>
+                <tr>
+                  <th scope="row">Accelerating the Pace of Child Health Research Using Existing Data from the Adolescent Brain Cognitive Development (ABCD) Study</th>
+                  <td><a href="https://grants.nih.gov/grants/guide/pa-files/par-19-163.html">PAR-19-163</a></td>
+                  <td>R21</td>
+                  <td>Clinical  Trial Not Allowed</td>
+                  <td>September 8, 2021</td>
+                  <td><a href="https://staffprofiles.cancer.gov/brp/prgmStaffProfile.do?contactId=1462212&bioType=flw">Annette Kaufman</a><br>
+                    240-276-6706<br>
+                    <a href="mailto:kaufmana@mail.nih.gov">kaufmana@mail.nih.gov</a></td>
+                  <td>Tobacco Control Research</td>
+                  <td>Not Clinical Trials</td>
+                </tr>
+                <tr>
+                  <th scope="row">Tobacco Regulatory Science</th>
+                  <td><a href="http://grants.nih.gov/grants/guide/rfa-files/RFA-OD-19-019.html">RFA-OD-19-019</a></td>
+                  <td>R01</td>
+                  <td>Clinical Trial Optional</td>
                   <td>February 14, 2021</td>
                   <td><a href="https://staffprofiles.cancer.gov/brp/prgmStaffProfile.do?contactId=22444270&amp;bioType=stf">Rachel Grana Mayne</a><br>
                     240-276-5899<br>
                     <a href="mailto:rachel.mayne@nih.gov">rachel.mayne@nih.gov</a></td>
-				</tr>
+                  <td>Tobacco Control Research</td>
+                  <td>Clinical Trials</td>
+                </tr>
                 <tr>
                   <th scope="row">Multi-Site Studies for System-Level Implementation of Substance Use Prevention and Treatment Services</th>
-                  <td><a href="https://grants.nih.gov/grants/guide/pa-files/PAR-18-222.html">PAR-18-222</a> (R01  Clinical Trial Optional)<br>
-                    <a href="https://grants.nih.gov/grants/guide/pa-files/PAR-16-455.html">PAR-16-455</a> (R01)</td>
+                  <td><a href="https://grants.nih.gov/grants/guide/pa-files/PAR-18-222.html">PAR-18-222</a></td>
+                  <td>R01</td>
+                  <td>Clinical Trial Optional</td>
                   <td>November 14, 2020</td>
                   <td><a href="https://staffprofiles.cancer.gov/brp/prgmStaffProfile.do?contactId=1458&name=Michele-Bloch&bioType=stf">Michele Bloch</a><br>
-                  240-276-6878<br>
-                  <a href="mailto:blochm@mail.nih.gov">blochm@mail.nih.gov</a></td>
+                    240-276-6878<br>
+                    <a href="mailto:blochm@mail.nih.gov">blochm@mail.nih.gov</a></td>
+                  <td>Tobacco Control Research</td>
+                  <td>Clinical Trials</td>
+                </tr>
+                <tr>
+                  <th scope="row">Multi-Site Studies for System-Level Implementation of Substance Use Prevention and Treatment Services</th>
+                  <td><a href="https://grants.nih.gov/grants/guide/pa-files/PAR-16-455.html">PAR-16-455</a></td>
+                  <td>R01</td>
+                  <td>&nbsp;</td>
+                  <td>November 14, 2020</td>
+                  <td><a href="https://staffprofiles.cancer.gov/brp/prgmStaffProfile.do?contactId=1458&name=Michele-Bloch&bioType=stf">Michele Bloch</a><br>
+                    240-276-6878<br>
+                    <a href="mailto:blochm@mail.nih.gov">blochm@mail.nih.gov</a></td>
+                  <td>Tobacco Control Research</td>
+                  <td>Not Clinical Trials</td>
                 </tr>
                 <tr>
                   <th scope="row">Electronic Nicotine Delivery Systems (ENDS): Population, Clinical and Applied Prevention Research</th>
-                  <td><a href="https://grants.nih.gov/grants/guide/pa-files/PAR-18-847.html">PAR-18-847</a> (R01 Clinical Trial Optional)<br>
-                  <a href="https://grants.nih.gov/grants/guide/pa-files/PAR-18-848.html">PAR-18-848</a> (R21 Clinical Trial Optional)</td>
+                  <td><a href="https://grants.nih.gov/grants/guide/pa-files/PAR-18-847.html">PAR-18-847</a></td>
+                  <td>R01</td>
+                  <td>Clinical Trial Optional</td>
                   <td>June 28, 2020</td>
                   <td>For cancer-related FOA questions: <br>
                     <a href="https://staffprofiles.cancer.gov/brp/prgmStaffProfile.do?contactId=22444270&bioType=stf">Rachel Grana Mayne</a><br>
@@ -1116,11 +1708,33 @@ height="0" width="0" style="display:none;visibility:hidden" title="Google Tag Ma
                     Office of Disease Prevention (ODP) <br>
                     301-480-1161<br>
                     <a href="mailto:dionne.godette@nih.gov">dionne.godette@nih.gov</a></td>
+                  <td>Tobacco Control Research</td>
+                  <td>Clinical Trials</td>
+                </tr>
+                <tr>
+                  <th scope="row">Electronic Nicotine Delivery Systems (ENDS): Population, Clinical and Applied Prevention Research</th>
+                  <td><a href="https://grants.nih.gov/grants/guide/pa-files/PAR-18-848.html">PAR-18-848</a></td>
+                  <td>R21</td>
+                  <td>Clinical Trial Optional</td>
+                  <td>June 28, 2020</td>
+                  <td>For cancer-related FOA questions: <br>
+                    <a href="https://staffprofiles.cancer.gov/brp/prgmStaffProfile.do?contactId=22444270&bioType=stf">Rachel Grana Mayne</a><br>
+                    240-276-5899<br>
+                    <a href="mailto:rachel.mayne@nih.gov">rachel.mayne@nih.gov</a><br>
+                    <br>
+                    For general FOA questions:<br>
+                    <a href="https://www.prevention.nih.gov/about-odp/staff-directory/dionne-godette-greer">Dionne Godette-Greer</a> <br>
+                    Office of Disease Prevention (ODP) <br>
+                    301-480-1161<br>
+                    <a href="mailto:dionne.godette@nih.gov">dionne.godette@nih.gov</a></td>
+                  <td>Tobacco Control Research</td>
+                  <td>Clinical Trials</td>
                 </tr>
                 <tr>
                   <th scope="row">U.S. Tobacco Control Policies to Reduce Health Disparities</th>
-                  <td><a href="https://grants.nih.gov/grants/guide/pa-files/PAR-18-675.html">PAR-18-675</a> (R01 Clinical Trial Optional)<br>
-                    <a href="https://grants.nih.gov/grants/guide/pa-files/PAR-18-674.html">PAR-18-674</a> (R21 Clinical Trial Optional)</td>
+                  <td><a href="https://grants.nih.gov/grants/guide/pa-files/PAR-18-675.html">PAR-18-675</a></td>
+                  <td>R01</td>
+                  <td>Clinical Trial Optional</td>
                   <td>June 16, 2020</td>
                   <td><a href="https://staffprofiles.cancer.gov/brp/prgmStaffProfile.do?contactId=1694&bioType=flw">Bob Vollinger</a><br>
                     240-276-6919<br>
@@ -1129,61 +1743,119 @@ height="0" width="0" style="display:none;visibility:hidden" title="Google Tag Ma
                     <a href="https://staffprofiles.cancer.gov/brp/prgmStaffProfile.do?contactId=1462212&bioType=flw">Annette Kaufman</a><br>
                     240-276-6706<br>
                     <a href="mailto:kaufmana@mail.nih.gov">kaufmana@mail.nih.gov</a></td>
+                  <td>Tobacco Control Research</td>
+                  <td>Clinical Trials</td>
+                </tr>
+                <tr>
+                  <th scope="row">U.S. Tobacco Control Policies to Reduce Health Disparities</th>
+                  <td><a href="https://grants.nih.gov/grants/guide/pa-files/PAR-18-674.html">PAR-18-674</a></td>
+                  <td>R21</td>
+                  <td>Clinical Trial Optional</td>
+                  <td>June 16, 2020</td>
+                  <td><a href="https://staffprofiles.cancer.gov/brp/prgmStaffProfile.do?contactId=1694&bioType=flw">Bob Vollinger</a><br>
+                    240-276-6919<br>
+                    <a href="mailto:Bob.Vollinger@nih.gov">Bob.Vollinger@nih.gov</a><br>
+                    <br>
+                    <a href="https://staffprofiles.cancer.gov/brp/prgmStaffProfile.do?contactId=1462212&bioType=flw">Annette Kaufman</a><br>
+                    240-276-6706<br>
+                    <a href="mailto:kaufmana@mail.nih.gov">kaufmana@mail.nih.gov</a></td>
+                  <td>Tobacco Control Research</td>
+                  <td>Clinical Trials</td>
                 </tr>
                 <tr>
                   <th scope="row">Tobacco Use and HIV in Low and Middle Income Countries</th>
-                  <td><a href="https://grants.nih.gov/grants/guide/pa-files/PAR-18-023.html">PAR-18-023</a> (R01 Clinical Trial Optional) <br>
-                    <a href="https://grants.nih.gov/grants/guide/pa-files/PAR-18-022.html">PAR-18-022</a> (R21 Clinical Trial Optional)</td>
+                  <td><a href="https://grants.nih.gov/grants/guide/pa-files/PAR-18-023.html">PAR-18-023</a></td>
+                  <td>R01</td>
+                  <td>Clinical Trial Optional</td>
                   <td>January 8, 2020</td>
                   <td><a href="https://staffprofiles.cancer.gov/brp/prgmStaffProfile.do?contactId=1626&amp;bioType=stf">Mark  Parascandola</a><br>
                     240-276-6871<br>
                     <a href="mailto:Mark.Parascandola@nih.gov">Mark.Parascandola@nih.gov</a></td>
+                  <td>Tobacco Control Research</td>
+                  <td>Clinical Trials</td>
+                </tr>
+                <tr>
+                  <th scope="row">Tobacco Use and HIV in Low and Middle Income Countries</th>
+                  <td><a href="https://grants.nih.gov/grants/guide/pa-files/PAR-18-022.html">PAR-18-022</a></td>
+                  <td>R21</td>
+                  <td>Clinical Trial Optional</td>
+                  <td>January 8, 2020</td>
+                  <td><a href="https://staffprofiles.cancer.gov/brp/prgmStaffProfile.do?contactId=1626&amp;bioType=stf">Mark  Parascandola</a><br>
+                    240-276-6871<br>
+                    <a href="mailto:Mark.Parascandola@nih.gov">Mark.Parascandola@nih.gov</a></td>
+                  <td>Tobacco Control Research</td>
+                  <td>Clinical Trials</td>
                 </tr>
                 <tr>
                   <th scope="row">Target Assessment, Engagement and Data Replicability to Improve Substance Use Disorders Treatment Outcomes</th>
-                  <td><a href="https://grants.nih.gov/grants/guide/pa-files/PAR-18-086.html">PAR-18-086</a> (R21/R33 Clinical Trial Optional) <br />
-                    <a href="https://grants.nih.gov/grants/guide/pa-files/PAR-18-085.html">PAR-18-085</a> (R33 Clinical Trial Optional) </td>
+                  <td><a href="https://grants.nih.gov/grants/guide/pa-files/PAR-18-086.html">PAR-18-086</a></td>
+                  <td>R21/R33</td>
+                  <td>Clinical Trial Optional</td>
                   <td>September 8, 2019</td>
                   <td><a href="https://staffprofiles.cancer.gov/brp/prgmStaffProfile.do?contactId=1458&name=Michele-Bloch&bioType=stf">Michele Bloch</a><br>
-                  240-276-6878<br>
-                  <a href="mailto:blochm@mail.nih.gov">blochm@mail.nih.gov</a></td>
+                    240-276-6878<br>
+                    <a href="mailto:blochm@mail.nih.gov">blochm@mail.nih.gov</a></td>
+                  <td>Tobacco Control Research</td>
+                  <td>Clinical Trials</td>
+                </tr>
+                <tr>
+                  <th scope="row">Target Assessment, Engagement and Data Replicability to Improve Substance Use Disorders Treatment Outcomes</th>
+                  <td><a href="https://grants.nih.gov/grants/guide/pa-files/PAR-18-085.html">PAR-18-085</a></td>
+                  <td>R33</td>
+                  <td>Clinical Trial Optional</td>
+                  <td>September 8, 2019</td>
+                  <td><a href="https://staffprofiles.cancer.gov/brp/prgmStaffProfile.do?contactId=1458&name=Michele-Bloch&bioType=stf">Michele Bloch</a><br>
+                    240-276-6878<br>
+                    <a href="mailto:blochm@mail.nih.gov">blochm@mail.nih.gov</a></td>
+                  <td>Tobacco Control Research</td>
+                  <td>Clinical Trials</td>
                 </tr>
                 <tr>
                   <th scope="row">Integrative Research on Polysubstance Abuse and Addiction</th>
-                  <td><a href="https://grants.nih.gov/grants/guide/pa-files/PAR-18-084.html">PAR-18-084</a> (R21/R33 Clinical Trial Optional) </td>
+                  <td><a href="https://grants.nih.gov/grants/guide/pa-files/PAR-18-084.html">PAR-18-084</a></td>
+                  <td>R21/R33</td>
+                  <td>Clinical Trial Optional</td>
                   <td>September 8, 2019</td>
                   <td><a href="https://staffprofiles.cancer.gov/brp/prgmStaffProfile.do?contactId=1458&name=Michele-Bloch&bioType=stf">Michele Bloch</a><br>
-                  240-276-6878<br>
-                  <a href="mailto:blochm@mail.nih.gov">blochm@mail.nih.gov</a></td>
-                </tr>
-                <tr>
-                  <th scope="row">Accelerating the Pace of Drug Abuse Research Using Existing Data</th>
-                  <td><a href="https://grants.nih.gov/grants/guide/pa-files/PAR-18-062.html">PAR-18-062</a> (R01 Clinical Trial Optional)</td>
-                  <td>May 8, 2019</td>
-                  <td><a href="https://staffprofiles.cancer.gov/brp/prgmStaffProfile.do?contactId=1462212&bioType=flw">Annette Kaufman</a><br>
-					  240-276-6706<br>
-					  <a href="mailto:kaufmana@mail.nih.gov">kaufmana@mail.nih.gov</a></td>
+                    240-276-6878<br>
+                    <a href="mailto:blochm@mail.nih.gov">blochm@mail.nih.gov</a></td>
+                  <td>Tobacco Control Research</td>
+                  <td>Clinical Trials</td>
                 </tr>
                 <tr>
                   <th scope="row">Improving  Smoking Cessation in Socioeconomically Disadvantaged Populations via Scalable  Interventions</th>
-                  <td><a href="https://grants.nih.gov/grants/guide/pa-files/PAR-18-251.html">PAR-18-251</a> (R01 Clinical Trial Optional) <a href="https://grants.nih.gov/grants/guide/pa-files/PAR-18-250.html"><br>
-                    PAR-18-250</a> (R21 Clinical Trial Optional)</td>
+                  <td><a href="https://grants.nih.gov/grants/guide/pa-files/PAR-18-251.html">PAR-18-251</a></td>
+                  <td>R01</td>
+                  <td>Clinical Trial Optional</td>
                   <td>June 14, 2019</td>
                   <td><a href="https://staffprofiles.cancer.gov/brp/prgmStaffProfile.do?contactId=1439530&amp;bioType=stf">Yvonne   Hunt<br>
                     </a>240-276-6975 <br>
                     <a href="mailto:huntym@mail.nih.gov">huntym@mail.nih.gov</a></td>
+                  <td>Tobacco Control Research</td>
+                  <td>Clinical Trials</td>
+                </tr>
+                <tr>
+                  <th scope="row">Improving  Smoking Cessation in Socioeconomically Disadvantaged Populations via Scalable  Interventions</th>
+                  <td><a href="https://grants.nih.gov/grants/guide/pa-files/PAR-18-250.html"> PAR-18-250</a></td>
+                  <td>R21</td>
+                  <td>Clinical Trial Optional</td>
+                  <td>June 14, 2019</td>
+                  <td><a href="https://staffprofiles.cancer.gov/brp/prgmStaffProfile.do?contactId=1439530&amp;bioType=stf">Yvonne   Hunt<br>
+                    </a>240-276-6975 <br>
+                    <a href="mailto:huntym@mail.nih.gov">huntym@mail.nih.gov</a></td>
+                  <td>Tobacco Control Research</td>
+                  <td>Clinical Trials</td>
                 </tr>
               </tbody>
             </table>
           </div>
-          <p>Go to the <a href="/funding_archive.html">Archive of Funding  Opportunities</a> for information on recent funding announcements. Visit the <a href="/current_research.html">Cancer Control  Research</a> section of this website for descriptive information on currently funded grants in this area.</p>
+          <p>&nbsp;</p>
+          <p> Go to the <a href="/funding_archive.html">Archive of Funding  Opportunities</a> for information on recent funding announcements. Visit the <a href="/current_research.html">Cancer Control  Research</a> section of this website for descriptive information on currently funded grants in this area.</p>
         </div>
-        <!-- InstanceEndEditable -->
-        </div> <!-- /.col-md-9 -->
-	</div> <!-- close /.row -->
-</div> <!-- close /.container -->
-<!-- InstanceBeginEditable name="Full-Row-Content" -->
-<div class="spacer-30"></div>
+      </div> <!-- /.col-md-9 -->
+    </div> <!-- /.row -->
+  </div> <!-- /.container -->
+</div>
 <!-- InstanceEndEditable -->
 </main>
 
@@ -1247,7 +1919,7 @@ height="0" width="0" style="display:none;visibility:hidden" title="Google Tag Ma
 			<div class="row">
 				<div class="col-lg-12">
 					<p class="tagline">NIH...Turning Discovery Into Health<sup>®</sup></p>
-					<p class="update"><span class="bold">Last Updated:</span> <!-- InstanceBeginEditable name="Last Updated" -->March 21, 2019<!-- InstanceEndEditable --></p>
+					<p class="update"><span class="bold">Last Updated:</span> <!-- InstanceBeginEditable name="Last Updated" -->May 9, 2019<!-- InstanceEndEditable --></p>
 				</div> <!-- /.col-lg-12 -->
 			</div> <!-- /.row -->
 		</div><!-- /.col-md-8 .col-md-offset-1 -->
@@ -1274,7 +1946,12 @@ height="0" width="0" style="display:none;visibility:hidden" title="Google Tag Ma
 <script src="js/scripts-min.js"></script>
 <!-- Web Analytics -->
 <script type="text/javascript" src="https://static.cancer.gov/webanalytics/WA_DCCPS_PageLoad.js"></script>
-<!-- InstanceBeginEditable name="Scripts" --><!-- InstanceEndEditable -->
+<!-- InstanceBeginEditable name="Scripts" -->
+    
+<script src="/js/datatables.min.js"></script>
+<script src="/js/funding.js"></script>
+    
+<!-- InstanceEndEditable -->
 <script type="text/javascript">_satellite.pageBottom();</script>
 </body>
 <!-- InstanceEnd --></html>

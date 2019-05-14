@@ -33,7 +33,7 @@
     <form id="frm_SubScribe" runat="server">
 								<div class="form-group">
 									<asp:Label ID="Label1" runat="server" AssociatedControlID="txtemailTerms" Text="E-mail Address" class="email-label"></asp:Label>
-                                    <asp:TextBox ID="txtemailTerms" runat="server" class="form-control"  size="28" type="text"></asp:TextBox>
+                                    <asp:TextBox ID="txtemailTerms" runat="server" class="form-control"  size="28" type="text" placeholder="example@email.com"></asp:TextBox>
 									<div class="form-type-radio radio">
 										<label for="RD_Sub" class="control-label">
 										<asp:RadioButton ID="RD_Sub" runat="server" GroupName="ISsubunsub" />

@@ -1,0 +1,150 @@
+#webinar-filters label {
+  font-size: 0.75em;
+  display: inline;
+}
+table#example th[scope='col'] {
+  font-size: 0.85em;
+}
+#example_info,
+#example_length {
+  font-size: 15px;
+}
+#example_filter {
+  float: left;
+  width: 40%;
+  margin: 15px 0px;
+}
+#example_filter label {
+  display: inline;
+}
+#example_filter input {
+  width: 100%;
+  margin-left: 0;
+}
+.dataTables_wrapper .dataTables_paginate {
+  text-align: center;
+  float: none;
+}
+.dataTables_wrapper .dataTables_length {
+  float: right;
+}
+.dataTables_wrapper .dataTables_length select {
+  height: 40px;
+}
+.dataTables_wrapper .dt-buttons {
+  font-size: 15px;
+}
+.dataTables_wrapper .dt-buttons .buttons-excel {
+  width: 165px;
+  margin-right: .5em;
+}
+.dataTables_wrapper .dt-buttons .buttons-email {
+  width: 150px;
+  margin-right: 5px;
+}
+.dataTables_wrapper .dt-buttons .buttons-print {
+  width: 145px;
+}
+.dataTables_wrapper .dt-buttons .excel-icon {
+  background: url(/images/icons-excel-email-print-2x.png) 0 0 no-repeat;
+  left: 0px;
+  width: 20px;
+  height: 20px;
+  display: inline-block;
+  background-size: 100% 300%;
+}
+.dataTables_wrapper .dt-buttons .email-icon {
+  background: url(/images/icons-excel-email-print-2x.png) 0 -20px no-repeat;
+  left: 0px;
+  width: 20px;
+  height: 20px;
+  display: inline-block;
+  background-size: 100% 300%;
+}
+.dataTables_wrapper .dt-buttons .print-icon {
+  background: url(/images/icons-excel-email-print-2x.png) 0 -40px no-repeat;
+  left: 0px;
+  width: 20px;
+  height: 20px;
+  display: inline-block;
+  background-size: 100% 300%;
+}
+.showhide-filters {
+  display: none;
+}
+.accordion-icon {
+  float: left;
+  padding-right: 1em;
+}
+.accordion-title {
+  float: left;
+}
+.question-icon {
+  position: relative;
+  float: right;
+  top: -38px;
+  right: 10px;
+  background: url(/images/icon-question.png) 0 0 no-repeat;
+  width: 20px;
+  height: 20px;
+  display: inline-block;
+}
+.question-icon:hover {
+  background: url(/images/icon-question.png) 0 -30px no-repeat;
+}
+#funding-heading,
+#activity-heading,
+#type-heading {
+  margin-top: -20px;
+}
+#example_paginate > span > a.current {
+  color: #FFFFFF;
+  background-color: #183a57;
+  border-color: transparent;
+  box-shadow: 1px 1px 5px rgba(0, 0, 0, 0.25);
+}
+@media screen and (-ms-high-contrast: active), (-ms-high-contrast: none) {
+  #btnCopy {
+    top: -18px;
+  }
+}
+@media screen and (max-width: 992px) {
+  #example_filter {
+    width: 100%;
+    float: none;
+  }
+  .dataTables_wrapper .dt-buttons {
+    width: 70%;
+  }
+  .showhide-filters {
+    display: inline-block;
+  }
+  .accordion-group {
+    display: none;
+  }
+  .accordion-group.toggle {
+    display: block;
+  }
+}
+@media screen and (max-width: 767px) {
+  #example_info {
+    float: left;
+  }
+  .dataTables_wrapper .dt-buttons {
+    width: 100%;
+  }
+  .dataTables_wrapper .dt-buttons .buttons-excel,
+  .dataTables_wrapper .dt-buttons .buttons-email,
+  .dataTables_wrapper .dt-buttons .buttons-print {
+    width: 100%;
+    text-align: center;
+    margin-right: 0;
+  }
+  .dataTables_wrapper .dt-buttons span > span {
+    float: right;
+  }
+  .mobile-table-wraper {
+    width: 100%;
+    overflow-x: scroll;
+  }
+}

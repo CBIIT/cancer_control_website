@@ -260,13 +260,12 @@ height="0" width="0" style="display:none;visibility:hidden" title="Google Tag Ma
         <div class="col-md-12">
             <hr>
             <h2 class="text-center">Archived Webinars</h2>
-        	</div> <!-- /.col-md-12 -->
+        </div> <!-- /.col-md-12 -->
     </div> <!-- /.row -->
 	<div class="row">
 		<div class="col-md-9 col-md-push-3">
             <div id="pager" class="clearfix"></div>
             <div id="dv_ArchiveWebinars"></div>
-        
 
         <script type="text/x-jquery-tmpl" id="contentTemplate">
             <div class='ArchiveDiv'>
@@ -302,7 +301,7 @@ height="0" width="0" style="display:none;visibility:hidden" title="Google Tag Ma
 						<asp:Repeater ID="RPTR_ListCategories" runat="server">
                         <ItemTemplate>
                             <div>
-                            <input onchange="CategoryClicked(<%# Eval("PK_Category")%>)" id="CKCategory_<%# Eval("PK_Category")%>" type="checkbox" />
+                            <input onchange="CategoryClicked(<%# Eval("PK_Category")%>)" id="CKCategory_<%# Eval("PK_Category")%>" value="<%# Eval("Category")%>" type="checkbox" name="category" />
                             <label for="CKCategory_<%# Eval("PK_Category")%>"><%# Eval("Category")%></label>
                             <br>
                             </div>
@@ -321,7 +320,7 @@ height="0" width="0" style="display:none;visibility:hidden" title="Google Tag Ma
 						<asp:Repeater ID="RPTR_Years" runat="server">
                         <ItemTemplate>
                             <div>
-                            <input onchange="YearClicked(<%# Eval("YearDisplay")%>)" id="CKCYear_<%# Eval("YearDisplay")%>" type="checkbox" />
+                            <input onchange="YearClicked(<%# Eval("YearDisplay")%>)" id="CKCYear_<%# Eval("YearDisplay")%>" value="<%# Eval("YearDisplay")%>" type="checkbox" name="year" />
                             <label for="CKCYear_<%# Eval("YearDisplay")%>"><%# Eval("YearDisplay")%></label>
                             <br>
                             </div>
@@ -340,7 +339,7 @@ height="0" width="0" style="display:none;visibility:hidden" title="Google Tag Ma
 						<asp:Repeater ID="RPTR_Presenters" runat="server">
                         <ItemTemplate>
                             <div>
-                            <input onchange="PresenterClicked(<%# Eval("PK_Presenter")%>)" id="CKPresenter_<%# Eval("PK_Presenter")%>" type="checkbox" />
+                            <input onchange="PresenterClicked(<%# Eval("PK_Presenter")%>)" id="CKPresenter_<%# Eval("PK_Presenter")%>" value="<%# Eval("PresenterName")%>" type="checkbox" name="presenter" />
                             <label for="CKPresenter_<%# Eval("PK_Presenter")%>"><%# Eval("PresenterName")%></label>
                             <br>
                             </div>
@@ -359,7 +358,7 @@ height="0" width="0" style="display:none;visibility:hidden" title="Google Tag Ma
 						<asp:Repeater ID="RPTR_Series" runat="server">
                         <ItemTemplate>
                             <div>
-                            <input onchange="SeriesClicked(<%# Eval("PK_Series")%>)" id="PKSeries_<%# Eval("PK_Series")%>" type="checkbox" />
+                            <input onchange="SeriesClicked(<%# Eval("PK_Series")%>)" id="PKSeries_<%# Eval("PK_Series")%>" value="<%# Eval("Series")%>" type="checkbox" name="series" />
                             <label for="PKSeries_<%# Eval("PK_Series")%>"><%# Eval("Series")%></label>
                             <br>
                             </div>
@@ -469,7 +468,7 @@ height="0" width="0" style="display:none;visibility:hidden" title="Google Tag Ma
 <script src="/IS/js/bootstrap-hover-dropdown.min.js"></script>
 <!-- Custom jQuery -->
 <script src="/IS/js/scripts-min.js"></script>
-<script src="/IS/js/IS-webinars.min.js"></script>
+<script src="/IS/js/IS-webinars.js"></script>
 <script src="/IS/js/simplePaging1.0.js"></script>
 <script src='https://ajax.microsoft.com/ajax/jquery.templates/beta1/jquery.tmpl.min.js'></script>
 

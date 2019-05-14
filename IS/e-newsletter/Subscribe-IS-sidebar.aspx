@@ -28,7 +28,7 @@
     <form id="frm_SubScribe" runat="server">
 								<div class="form-group">
 									<asp:Label ID="Label1" runat="server" AssociatedControlID="txtemailTerms" Text="Email Address" class="email-label"></asp:Label>
-                                    <asp:TextBox ID="txtemailTerms" runat="server" class="form-control"  size="28" type="text"></asp:TextBox>
+                                    <asp:TextBox ID="txtemailTerms" runat="server" class="form-control"  size="28" type="text" placeholder="example@email.com"></asp:TextBox>
                                     <asp:Button ID="btnSubmit" runat="server" Text="Submit" class="btn btn-default" type="button" />
 								<div class="email-validation-message">
 										<asp:RequiredFieldValidator ID="RequiredFieldValidator1" runat="server" ControlToValidate="txtemailTerms"

@@ -19,9 +19,6 @@ var GetAllFutureWebinars_url = "https://cyberseminar.cancercontrolplanet.org/app
 //var GetAllCurrentWebinars_url = "http://cyberseminar_local.com/application_WS/IS_Applications.asmx/JSON_ImplementationScience_list_CURRENT_webinars";
 //var GetAllFutureWebinars_url = "http://cyberseminar_local.com/application_WS/IS_Applications.asmx/JSON_ImplementationScience_list_FUTURE_webinars";
 
-//var GetAllArchivedWebinars_url = "https://cyberseminar-stage.icfwebservices.com/application_WS/IS_Applications.asmx/JSON_ImplementationScience_list_ALL_Archive_webinars";
-//var GetAllCurrentWebinars_url = "https://cyberseminar-stage.icfwebservices.com/application_WS/IS_Applications.asmx/JSON_ImplementationScience_list_CURRENT_webinars";
-//var GetAllFutureWebinars_url = "https://cyberseminar-stage.icfwebservices.com/application_WS/IS_Applications.asmx/JSON_ImplementationScience_list_FUTURE_webinars";
 
 
 //https://stackoverflow.com/questions/14221429/how-can-i-produce-jsonp-from-an-asp-net-web-service-for-cross-domain-calls
@@ -43,6 +40,27 @@ $(window).on("load", function (e) {
         selectedPresenters = '|';
         selectedSeries = '|';
         RunSearch();
+    });
+
+    var param = decodeURI(getUrlVars()["category"]);
+    jQuery.each(param.split("%2C"), function (i, val) {
+        $(":checkbox[name='category'][value='" + val + "']").prop("checked", true);
+        CategoryClicked(val);
+    });
+    param = decodeURI(getUrlVars()["year"]);
+    jQuery.each(param.split("%2C"), function (i, val) {
+        $(":checkbox[name='year'][value='" + val + "']").prop("checked", true);
+        YearClicked(val);
+    });
+    param = decodeURI(getUrlVars()["presenter"]);
+    jQuery.each(param.split("%2C"), function (i, val) {
+        $(":checkbox[name='presenter'][value='" + val + "']").prop("checked", true);
+        PresenterClicked(val);
+    });
+    param = decodeURI(getUrlVars()["series"]);
+    jQuery.each(param.split("%2C"), function (i, val) {
+        $(":checkbox[name='series'][value='" + val + "']").prop("checked", true);
+        SeriesClicked(val);
     });
 });
 
@@ -442,3 +460,13 @@ function RunSearch() {
 String.prototype.replaceAll = function (str1, str2, ignore) {
     return this.replace(new RegExp(str1.replace(/([\/\,\!\\\^\$\{\}\[\]\(\)\.\*\+\?\|\<\>\-\&])/g, "\\$&"), (ignore ? "gi" : "g")), (typeof (str2) == "string") ? str2.replace(/\$/g, "$$$$") : str2);
 }
+function getUrlVars() {
+    var vars = [], hash;
+    var hashes = window.location.href.slice(window.location.href.indexOf('?') + 1).split('&');
+    for (var i = 0; i < hashes.length; i++) {
+        hash = hashes[i].split('=');
+        vars.push(hash[0]);
+        vars[hash[0]] = hash[1];
+    }
+    return vars;
+};

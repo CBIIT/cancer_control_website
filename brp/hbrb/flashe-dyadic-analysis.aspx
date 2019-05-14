@@ -153,6 +153,7 @@
 							<li><a href="https://staffprofiles.cancer.gov/brp/prgmStaffHome.do">Staff</a></li>
 							<li><a href="/brp/career_training.html">Career and Training</a></li>
 							<li><a href="/brp/events.html">Events</a></li>
+							<li><a href="/funding-foa-applicants.html">Webinars</a></li>
 							<li><a href="/brp/e-newsletter/index.html">BRP Scientific News</a></li>
 						</ul>
 					</li>
