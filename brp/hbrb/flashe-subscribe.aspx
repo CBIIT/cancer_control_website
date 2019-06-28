@@ -134,7 +134,7 @@
 							<li><a href="/brp/priority-areas/big-data.html">Integrative Data Analysis and Big Data</a></li>
 						</ul>
 					</li>
-                    <li><a href="/brp/research/index.html">Data and Tools</a></li>
+                    <li><a href="/brp/research/index.html">Research Resources and Tools</a></li>
 					<li class="dropdown active">
 						<a class="dropdown-toggle" data-toggle="dropdown" data-hover="dropdown" tabindex="0">Program Branches <span class="sr-only">Open Dropdown</span><b class="caret"></b></a>
 						<ul class="dropdown-menu">
@@ -272,7 +272,7 @@
 				<li><a href="/brp/index.html">BRP Home</a></li>
 				<li><a href="/brp/funding/">Funding Opportunities</a></li>
 				<li><a href="/brp/priority-areas/">Priority Areas</a></li>
-				<li><a href="/brp/research/index.html">Data and Tools</a></li>
+				<li><a href="/brp/research/index.html">Research Resources and Tools</a></li>
 				<li><a href="/brp/program-branches.html">Program Branches</a></li>
 				<li><a href="/brp/about.html">About BRP</a></li>
 				<li><a href="/brp/archive/index.html">BRP Archive</a></li>
