@@ -76,9 +76,6 @@ table#example th[scope='col'] {
   float: left;
   padding-right: 1em;
 }
-.accordion-title {
-  float: left;
-}
 .question-icon {
   position: relative;
   float: right;
