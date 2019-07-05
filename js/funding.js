@@ -183,7 +183,7 @@ $('#btnCopy').click(function () {
 	stringvalues = stringvalues.replace(/\s/g,"+");
 	stringvalues = stringvalues.replace(/&/g,"%26");
 	
-    var url = "https://cancercontrol-redesign-stage.icfwebservices.com/funding_apply.html?" + stringvalues;
+    var url = "https://cancercontrol.cancer.gov/funding_apply.html?" + stringvalues;
     //var textbox = "";
     //textbox = $('#txtInputDisabled');
     //textbox.val(url);

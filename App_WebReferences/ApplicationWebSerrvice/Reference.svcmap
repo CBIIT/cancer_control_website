@@ -18,11 +18,11 @@
     <ServiceContractMappings />
   </ClientOptions>
   <MetadataSources>
-    <MetadataSource Address="https://cyberseminar.cancercontrolplanet.org/application_WS/IS_Applications.asmx" Protocol="http" SourceId="1" />
+    <MetadataSource Address="https://cyberseminar-stage.icfwebservices.com/application_WS/IS_Applications.asmx" Protocol="http" SourceId="1" />
   </MetadataSources>
   <Metadata>
-    <MetadataFile FileName="IS_Applications1.wsdl" MetadataType="Wsdl" ID="46266780-f5e4-4bd4-941b-2914e5b25fbe" SourceId="1" SourceUrl="https://cyberseminar.cancercontrolplanet.org/application_WS/IS_Applications.asmx?wsdl" />
-    <MetadataFile FileName="IS_Applications1.disco" MetadataType="Disco" ID="04f05209-2864-4fef-bac0-fda7e209ca3f" SourceId="1" SourceUrl="https://cyberseminar.cancercontrolplanet.org/application_WS/IS_Applications.asmx?disco" />
+    <MetadataFile FileName="IS_Applications1.disco" MetadataType="Disco" ID="04f05209-2864-4fef-bac0-fda7e209ca3f" SourceId="1" SourceUrl="https://cyberseminar-stage.icfwebservices.com/application_WS/IS_Applications.asmx?disco" />
+    <MetadataFile FileName="IS_Applications1.wsdl" MetadataType="Wsdl" ID="46266780-f5e4-4bd4-941b-2914e5b25fbe" SourceId="1" SourceUrl="https://cyberseminar-stage.icfwebservices.com/application_WS/IS_Applications.asmx?wsdl" />
   </Metadata>
   <Extensions>
     <ExtensionFile FileName="configuration91.svcinfo" Name="configuration91.svcinfo" />
