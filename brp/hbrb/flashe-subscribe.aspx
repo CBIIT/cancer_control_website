@@ -129,7 +129,7 @@
 							<li><a href="/brp/hbrb/sun-protection.html">Sun Protection</a></li>
 							<li><a href="/brp/priority-areas/health-behaviors/hpv-vaccination.html">HPV Vaccination</a></li>
 							<li><a href="/brp/bbpsb/affective_science.html">Affect and Emotion</a></li>
-							<li><a href="/brp/bbpsb/cognitive-changes.html">Cognition</a></li>
+							<li><a href="/brp/bbpsb/cognitive-changes/perception.html">Cognition</a></li>
 							<li><a href="/brp/hcirb/social-media.html">Social Media</a></li>
 							<li><a href="/brp/priority-areas/big-data.html">Integrative Data Analysis and Big Data</a></li>
 						</ul>
