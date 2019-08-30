@@ -587,7 +587,22 @@ height="0" width="0" style="display:none;visibility:hidden" title="Google Tag Ma
 <script src="../../js/bootstrap-hover-dropdown.min.js"></script>
 <!-- Custom jQuery -->
 <script src="../../js/scripts-min.js"></script>
-<!-- InstanceBeginEditable name="Scripts" --><!-- InstanceEndEditable -->
+<!-- InstanceBeginEditable name="Scripts" --><script type="text/javascript">
+function turnoff(obj) {
+	var el = document.getElementById(obj);
+	el.style.display = 'none';
+}
+/*  TOGGLE function, switches the span named in parentheses depending on its current status */
+function toggle(obj) {
+	var el = document.getElementById(obj);
+	if ( el.style.display != 'none' ) {
+		el.style.display = 'none';
+	}
+	else {
+		el.style.display = '';
+	}
+}
+</script><!-- InstanceEndEditable -->
 <!-- Web Analytics -->
 <script type="text/javascript" src="https://static.cancer.gov/webanalytics/WA_DCCPS_PageLoad.js"></script>
 <script type="text/javascript">_satellite.pageBottom();</script>
