@@ -467,6 +467,7 @@
                 <li><h2>Implementation Science</h2></li>
 				<li><a href="/IS/index.html">IS Home</a></li>
 				<li><a href="/IS/funding.html">Funding Opportunities</a></li>
+				<li><a href="/IS/initiatives/index.html">Initiatives</a></li>
 				<li><a href="/IS/training-education/index.html">Training &amp; Education</a></li>
 				<li><a href="/IS/tools/index.html">Research &amp; Practice Tools</a></li>
 				<li><a href="/IS/about.html">About IS</a></li>
