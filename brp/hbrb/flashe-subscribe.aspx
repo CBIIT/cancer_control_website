@@ -124,7 +124,7 @@
 						<a class="dropdown-toggle" data-toggle="dropdown" data-hover="dropdown" tabindex="0">Priority Areas <span class="sr-only">Open Dropdown</span><b class="caret"></b></a>
 						<ul class="dropdown-menu">
 							<li class="landing-page-link"><a href="/brp/priority-areas/">Priority Areas <span class="sr-only">Landing Page</span></a></li>
-							<li><a href="/brp/tcrb/">Tobacco</a></li>
+							<li><a href="/brp/tcrb/">Tobacco Control</a></li>
 							<li><a href="/brp/hbrb/dietary_behaviors.html">Diet, Weight and Physical Activity</a></li>
 							<li><a href="/brp/hbrb/sun-protection.html">Sun Protection</a></li>
 							<li><a href="/brp/priority-areas/health-behaviors/hpv-vaccination.html">HPV Vaccination</a></li>
