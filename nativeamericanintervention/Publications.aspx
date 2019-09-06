@@ -1,6 +1,6 @@
 ﻿<%@ Page Language="VB" AutoEventWireup="false" CodeFile="Publications.aspx.vb" Inherits="nativeamericanintervention_Publications" %>
 
-<html>
+<html lang="en">
 <!DOCTYPE html>
 <head>
     <meta http-equiv="content-type" content="text/html; charset=UTF-8">
