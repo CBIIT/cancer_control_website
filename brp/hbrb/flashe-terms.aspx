@@ -202,12 +202,12 @@
 			  <li>You will not present/publish data in which an individual can be identified.  Publication of small cell sizes should be avoided. </li>
 			  <li>You will neither attempt to link nor permit others to link the data with  individually identified records in another database. </li>
 			  <li>You will not attempt to learn the identity of any person whose data are contained  in the supplied file(s). </li>
-			  <li>If the identity of any person is discovered inadvertently, then the following  should be done; </li>
+			  <li>If the identity of any person is discovered inadvertently, then the following  should be done; 
 			  <ul>
 				<li>no use will be made of this knowledge, </li>
 				<li>the FLASHE program staff will be notified of the incident, </li>
 				<li>no one else will be informed of the discovered identity. </li>
-			  </ul>
+			  </ul></li>
 			  <li>You will neither release nor permit others to release the data in full or in part  to any person except with the written approval of the FLASHE program staff. </li>
 			  <li>If accessing the data from a centralized location on a time sharing computer  system or LAN, you will not share FLASHE data with any other individuals. You  will also not allow any other individuals to use your computer account after  you have downloaded FLASHE data. </li>
 			  <li>For all software provided by the  FLASHE program, you will not copy, distribute, reverse engineer, profit from  its sale or use, or incorporate it in any other software system.</li>
