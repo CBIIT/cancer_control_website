@@ -143,17 +143,12 @@ Partial Class IS_webinars
             strDetails.Append("** --I Will Call In-- option: Manually dial into a meeting using a WebEx-provided phone number. The numbers provided by WebEx will no longer include a toll-free option, so some call charges may apply. <br />")
             strDetails.Append("<br />")
 
-
-
             strDetails.Append("<br />Event is scheduled in Eastern Time. Please be sure to adjust the event time on your calendar, if necessary.")
             'strDetails.Append("<br /><br />Test Your PC/Browser")
             'strDetails.Append("<br />Join a test meeting [http://www.webex.com/test-meeting.html] to make sure WebEx is installed and functioning on your system. You will be  prompted to install the plug-in if it is not detected on your computer.")
 
-
         End If
         strDetails.Append("<br /><br />If you have questions, please contact NCIdccpsISteam@mail.nih.gov")
-
-
 
         Return strDetails.ToString
     End Function
@@ -164,9 +159,6 @@ Partial Class IS_webinars
         strDetails.Append("Topic: " & LBL_SeminarName & "<br/>")
         strDetails.Append("Date: " & LBL_Date & "<br/>")
         strDetails.Append("Time: " & LBL_Time & "<br/>")
-
-
-
 
         If LIT_FK_EventType = "1" Then
             strDetails.Append("Dial-In Number (toll free): " & LIT_DialIn & "<br />")
@@ -194,14 +186,11 @@ Partial Class IS_webinars
             'strDetails.Append("Call-in toll number (US/Canada): " & LIT_WebX_CallIn_Toll.Text & "<br />")
             'strDetails.Append("Access code: " & LIT_WebX_AccessCode.Text & "<br />")
 
-
             strDetails.Append("<ul>")
             strDetails.Append("<li>Recommended: <a href='https://video.nih.gov/webex/docs/call-me.pdf?utm_source=Email&amp;utm_campaign=WebEx&amp;utm_medium=Announcement&amp;utm_term=Call%20Me'>&quot;Call Me&quot; option</a>: Enter your number and WebEx will call and connect you to the meeting audio. Note that WebEx is unable to call numbers with extensions. </li>")
             strDetails.Append("<li><a href='https://video.nih.gov/webex/docs/call-using-computer.pdf?utm_source=Email&amp;utm_campaign=WebEx&amp;utm_medium=Announcement&amp;utm_term=call%20using%20computer'>&quot;Call Using Computer&quot; option</a>: Use your computer to call into a meeting. </li>")
             strDetails.Append("<li>&quot;I Will Call In&quot; option: Manually dial into a meeting using a WebEx-provided phone number. The numbers provided by WebEx will no longer include a toll-free option, so some call charges may apply. </li>")
             strDetails.Append("</ul>")
-
-
 
             strDetails.Append("<br /><br />Event is scheduled in Eastern Time. Please be sure to adjust the event time on your calendar, if necessary.")
             strDetails.Append("<br /><br /><b>Test Your PC/Browser</b>")
@@ -209,8 +198,6 @@ Partial Class IS_webinars
 
 
         End If
-
-
 
         strDetails.Append("<br /><br />If you have questions, please contact NCIdccpsISteam@mail.nih.gov")
         Return strDetails.ToString
@@ -223,12 +210,13 @@ Partial Class IS_webinars
         'to ensure break
         details = System.Web.HttpUtility.UrlEncode(details)
         details = details.Replace("%3cbr+%2f%3e", "%0D%0A")
-        title = "NCI Implementation Science Webinar   - " & title
+        title = "NCI Implementation Science Webinar - " & title
 
         Dim linkStr As String = ""
         linkStr &= "<a href='http://www.google.com/calendar/event?action=TEMPLATE"
 
         linkStr &= "&text=" & System.Web.HttpUtility.UrlEncode(title)
+        linkStr &= "&location=Webex" & System.Web.HttpUtility.UrlEncode(location)
         linkStr &= "&dates=" & str_start & "/" & str_end
         linkStr &= "&details=" & details
 
@@ -269,14 +257,15 @@ Partial Class IS_webinars
         donwloadStr &= "X-ALT-DESC;FMTTYPE=text/html:" & details & Environment.NewLine
 
         'donwloadStr &= "SUMMARY:P.L.A.N.E.T. Cyber-Seminar: " & title & Environment.NewLine
-        donwloadStr &= "SUMMARY:NCI Implementation Science Webinar   - " & title & Environment.NewLine
+        donwloadStr &= "SUMMARY:NCI Implementation Science Webinar - " & title & Environment.NewLine
+        donwloadStr &= "LOCATION:" & "WebEx" & Environment.NewLine
 
         donwloadStr &= "END:VEVENT" & Environment.NewLine
         donwloadStr &= "END:VCALENDAR"
 
         Response.Clear()
         Response.ContentType = "application/octet-stream"
-        Response.AddHeader("Content-Disposition", "attachment; filename=cyber_seminar.ics")
+        Response.AddHeader("Content-Disposition", "attachment; filename=IS_Webinar.ics")
         Response.Write(donwloadStr)
     End Sub
 

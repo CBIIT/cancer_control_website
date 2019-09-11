@@ -227,11 +227,6 @@
         <!-- /.page-breadcrumb -->
         <div class="container">
             <div class="row">
-                <div class="col-md-9">
-                    <asp:Image runat="server" ID="IMG_Series" />
-                </div>
-            </div>
-            <div class="row">
                 <div class="col-md-9">                 
                     <p class="first"><b>Date: <asp:Literal ID="WEBINAR_eventstartdate" runat="server"></asp:Literal></b>
                         <!-- - <asp:Literal ID="WEBINAR_eventenddate" runat="server"></asp:Literal> -->

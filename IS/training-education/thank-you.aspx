@@ -247,7 +247,7 @@
                     <p><asp:Button ID="BTN_AddtoOutlook" CausesValidation="false" runat="server" CssClass="addtoOutlookButton" Text="&nbsp;" /></p>
                     </form>
 
-                    <p>Return to the <a href="Webinars.aspx">Advanced Topics in Implementation Science Webinar Series</a>.</p>
+                    <p>Return to the <a href="Webinars.aspx">Implementation Science Webinars Series</a>.</p>
                 </div> <!-- /.col-md-12 -->
 	        </div> <!-- /.row -->
         </div> <!-- /.container -->
