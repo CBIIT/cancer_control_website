@@ -436,7 +436,7 @@
 				</div> <!-- /.navbar-header -->
 				<nav id="section-menu-responsive" class="navbar-collapse collapse" role="navigation" aria-expanded="false">
 					<ul class="nav">
-						<li><a href="index.html">Welcome to TIDIRC</a></li>
+						<li><a href="index.html">Institute Overview</a></li>
 						<li><a href="eligibility.html">Participant Eligibility Requirements &amp; Application Procedure</a></li>
                   		<li class="active"><a href="application.aspx">TIDIRC Application</a></li>
                   		<li><a href="faqs.html">FAQ</a></li>
