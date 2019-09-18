@@ -118,9 +118,10 @@
                             <li class="active dropdown">
                                 <a class="dropdown-toggle" data-toggle="dropdown" data-hover="dropdown" tabindex="0">Training &amp; Education<span class="sr-only">Open Dropdown</span><b class="caret"></b></a>
                                 <ul class="dropdown-menu">
-                                    <li class="disabled-landing-page-link"><a href="/IS/training-education/index.html">Training &amp; Education <span class="sr-only">Training &amp; Education</span></a></li>
-                                    <li><a href="/IS/training-education/Webinars.aspx">Webinars</a></li>
-                                </ul>
+							<li class="disabled-landing-page-link"><a href="/IS/training-education/index.html">Training &amp; Education <span class="sr-only">Training &amp; Education</span></a></li>
+							<li class="active"><a href="/IS/training-education/training.html">Training in Cancer</a></li>
+							<li><a href="/IS/training-education/Webinars.aspx">Webinars</a></li>
+						</ul>
                             </li>
                             <li class="dropdown">
                                 <a class="dropdown-toggle" data-toggle="dropdown" data-hover="dropdown" tabindex="0">Research &amp; Practice Tools <span class="sr-only">Open Dropdown</span><b class="caret"></b></a>
