@@ -15,7 +15,7 @@ $(document).ready(function () {
 		}
 	});
 // Random homepage hero image	
-	var images = ['heroimagebanner1.jpg', 'heroimagebanner2.jpg', 'heroimagebanner3.jpg'];
+	var images = ['heroimagebanner1.jpg', 'heroimagebanner2.jpg'];
  	$('#hero-image').css({'background-image': 'url(images/' + images[Math.floor(Math.random() * images.length)] + ')'});
 // Lightbox
 	$('.magnify').click(function() {
