@@ -1,0 +1,100 @@
+{
+    "events": [
+		{
+			"eventtitle":"Ethics of Ancestry Testing in Cancer Clinical Research",
+			"eventurl":"https://epi.grants.cancer.gov/events/enrich-forum/index.html#adeyemo",
+			"eventdatemonth":"October",
+			"eventdateday":"1",
+			"eventtype":"Webinar",
+            "fulldate":"2019-10-01T18:00:00.000Z"
+        },
+		{
+			"eventtitle":"Pre-Application Webinar for RFA-CA-19-033: Improving Outcomes for Pediatric, Adolescent and Young Adult Cancer Survivors",
+			"eventurl":"/funding-foa-applicants.html",
+			"eventdatemonth":"October",
+			"eventdateday":"3",
+			"eventtype":"Webinar",
+            "fulldate":"2019-10-03T18:00:00.000Z"
+        },
+		{
+			"eventtitle":"Building Infrastructure for Cancer and Aging Research",
+			"eventurl":"/funding-foa-applicants.html",
+			"eventdatemonth":"October",
+			"eventdateday":"7",
+			"eventtype":"Webinar",
+            "fulldate":"2019-10-07T18:00:00.000Z"
+        },
+		{
+			"eventtitle":"Emerging Methods of Exploring the Team Microenvironment in Cancer Care",
+			"eventurl":"/funding-foa-applicants.html",
+			"eventdatemonth":"October",
+			"eventdateday":"9",
+			"eventtype":"Webinar",
+            "fulldate":"2019-10-09T18:00:00.000Z"
+        },
+		{
+			"eventtitle":"Challenges of Regional Team-based Cancer Research: Does Low Power Always Mean Low Quality?",
+			"eventurl":"https://healthcaredelivery.cancer.gov/media/does-low-power-mean-low-quality.html",
+			"eventdatemonth":"October",
+			"eventdateday":"10",
+			"eventtype":"Webinar",
+            "fulldate":"2019-10-10T18:00:00.000Z"
+        },
+		{
+			"eventtitle":"Organizational Research in Healthcare Workshop",
+			"eventurl":"https://healthcaredelivery.cancer.gov/media/organizational-research-workshop.html",
+			"eventdatemonth":"October",
+			"eventdateday":"15",
+			"eventtype":"Conference",
+            "fulldate":"2019-10-15T18:00:00.000Z"
+        },
+		{
+			"eventtitle":"Practical Considerations for Genomic Sequencing Studies in a Low Resource Setting",
+			"eventurl":"https://epi.grants.cancer.gov/events/seqSPACE/index.html#rebbeck",
+			"eventdatemonth":"October",
+			"eventdateday":"22",
+			"eventtype":"Webinar",
+            "fulldate":"2019-10-22T18:00:00.000Z"
+        },
+		{
+			"eventtitle":"Lessons Learned Sequencing Precancerous Lesions",
+			"eventurl":"https://epi.grants.cancer.gov/events/seqSPACE/index.html#spira",
+			"eventdatemonth":"November",
+			"eventdateday":"12",
+			"eventtype":"Webinar",
+            "fulldate":"2019-11-12T18:00:00.000Z"
+        },
+		{
+			"eventtitle":"Research to Improve Interprofessional Teamwork and Coordination During Cancer Diagnosis and Treatment",
+			"eventurl":"https://cbiit.webex.com/cbiit/onstage/g.php?MTID=e8a989bbc511b82dc38ae0022a6e08da1",
+			"eventdatemonth":"November",
+			"eventdateday":"12",
+			"eventtype":"Webinar",
+            "fulldate":"2019-11-12T18:00:00.000Z"
+        },
+		{
+			"eventtitle":"Helicobacter Pylori and Colorectal Cancer: What Is the Association?",
+			"eventurl":"https://epi.grants.cancer.gov/events/infectious-agents/#epplein",
+			"eventdatemonth":"November",
+			"eventdateday":"12",
+			"eventtype":"Webinar",
+            "fulldate":"2019-11-12T18:00:00.000Z"
+        },
+		{
+			"eventtitle":"Strategies for Sequencing the Microbiome",
+			"eventurl":"https://epi.grants.cancer.gov/events/seqSPACE/index.html#chan",
+			"eventdatemonth":"December",
+			"eventdateday":"3",
+			"eventtype":"Webinar",
+            "fulldate":"2019-12-03T18:00:00.000Z"
+        },
+		{
+			"eventtitle":"Research Identifying Germline Predisposition Variants in Sequencing Studies",
+			"eventurl":"https://epi.grants.cancer.gov/events/seqSPACE/index.html#rodrigues",
+			"eventdatemonth":"February",
+			"eventdateday":"4",
+			"eventtype":"Webinar",
+            "fulldate":"2019-02-04T18:00:00.000Z"
+        }
+    ]
+}
