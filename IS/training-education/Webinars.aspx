@@ -279,7 +279,7 @@ height="0" width="0" style="display:none;visibility:hidden" title="Google Tag Ma
             <div class='ArchiveDiv'>
                 <div class="row">
 				    <div class="col-xs-3">
-                        <img alt="{1}" src="{5}" class="img-responsive" style="width:100%; height:auto">
+                        <img alt="{1}" src="{5}" class="img-responsive">
 				    </div>
 				    <div class="col-xs-9">
                         <h3><a href='Details.aspx?ID={0}'>{1}</a></h3>

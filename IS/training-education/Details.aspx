@@ -279,10 +279,10 @@
                     <ItemTemplate>
                             <div class="col-sm-2">
                                 <div runat="server" visible='<%# (Eval("ext").ToString() IsNot "") %>'>
-                                    <img alt="" src='<%# "https://cyberseminar.cancercontrolplanet.org/application_WS/ViewPresenterImage.aspx?ID=" & Eval("PK_Presenter") %>' style="width: 100%; height: auto">
+                                    <img alt="" src='<%# "https://cyberseminar.cancercontrolplanet.org/application_WS/ViewPresenterImage.aspx?ID=" & Eval("PK_Presenter") %>' class="img-responsive">
                                 </div>
                                 <div runat="server" visible='<%# (Eval("ext").ToString() Is "") %>'>
-                                    <img src="/IS/images/no-photo.jpg" alt="" style="width: 100%; height: auto">
+                                    <img src="/IS/images/no-photo.jpg" alt="" class="img-responsive">
                                 </div>
                                 <h3><%# Eval("PresenterName") %></h3>
                                 <div runat="server" visible='<%# (Eval("Organization").ToString() IsNot "") %>'>
