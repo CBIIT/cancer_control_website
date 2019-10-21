@@ -1,46 +1,6 @@
 {
     "events": [
 		{
-			"eventtitle":"Pre-Application Webinar for RFA-CA-19-033: Improving Outcomes for Pediatric, Adolescent and Young Adult Cancer Survivors",
-			"eventurl":"/funding-foa-applicants.html",
-			"eventdatemonth":"October",
-			"eventdateday":"3",
-			"eventtype":"Webinar",
-            "fulldate":"2019-10-03T18:00:00.000Z"
-        },
-		{
-			"eventtitle":"Building Infrastructure for Cancer and Aging Research",
-			"eventurl":"/funding-foa-applicants.html",
-			"eventdatemonth":"October",
-			"eventdateday":"7",
-			"eventtype":"Webinar",
-            "fulldate":"2019-10-07T18:00:00.000Z"
-        },
-		{
-			"eventtitle":"Emerging Methods of Exploring the Team Microenvironment in Cancer Care",
-			"eventurl":"/funding-foa-applicants.html",
-			"eventdatemonth":"October",
-			"eventdateday":"9",
-			"eventtype":"Webinar",
-            "fulldate":"2019-10-09T18:00:00.000Z"
-        },
-		{
-			"eventtitle":"Challenges of Regional Team-based Cancer Research: Does Low Power Always Mean Low Quality?",
-			"eventurl":"https://healthcaredelivery.cancer.gov/media/does-low-power-mean-low-quality.html",
-			"eventdatemonth":"October",
-			"eventdateday":"10",
-			"eventtype":"Webinar",
-            "fulldate":"2019-10-10T18:00:00.000Z"
-        },
-		{
-			"eventtitle":"Organizational Research in Healthcare Workshop",
-			"eventurl":"https://healthcaredelivery.cancer.gov/media/organizational-research-workshop.html",
-			"eventdatemonth":"October",
-			"eventdateday":"15",
-			"eventtype":"Conference",
-            "fulldate":"2019-10-15T18:00:00.000Z"
-        },
-		{
 			"eventtitle":"Practical Considerations for Genomic Sequencing Studies in a Low Resource Setting",
 			"eventurl":"https://epi.grants.cancer.gov/events/seqSPACE/index.html#rebbeck",
 			"eventdatemonth":"October",
