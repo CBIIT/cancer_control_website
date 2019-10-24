@@ -25,6 +25,14 @@
     width:100%;
 }
 
+
+#header-search input[type="image"] {
+	position: absolute;
+	height: 30px;
+	margin-left: -35px;
+	margin-top: 12px;
+}
+
 @media (max-width: 768px) {
 	
 #header-nci {
@@ -41,4 +49,7 @@
 	background-size:auto 100%;
 }
 
+	#header-search input[type="image"] {
+		margin-top: 5px;
+	}
 }

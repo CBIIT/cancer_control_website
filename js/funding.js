@@ -134,7 +134,7 @@ $('#btnCopy').click(function () {
     var type = [];
     var label = "";
 	
-	var search = $('#example_filter input').val();
+	search = $('#example_filter input').val();
 	
     $.each($("input[name='category']:checked"), function () {
         label = $("label[for='" + $(this).attr('id') + "']").html();
@@ -176,7 +176,7 @@ $('#btnCopy').click(function () {
 	{
     	stringvalues += "&type=" + type.join("%2C");
 	}
-	if(search != "")
+	if(search !== "")
 	{
     	stringvalues += "&search=" + search;
 	}
