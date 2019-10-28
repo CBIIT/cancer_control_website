@@ -1,14 +1,6 @@
 {
     "events": [
 		{
-			"eventtitle":"Practical Considerations for Genomic Sequencing Studies in a Low Resource Setting",
-			"eventurl":"https://epi.grants.cancer.gov/events/seqSPACE/index.html#rebbeck",
-			"eventdatemonth":"October",
-			"eventdateday":"22",
-			"eventtype":"Webinar",
-            "fulldate":"2019-10-22T18:00:00.000Z"
-        },
-		{
 			"eventtitle":"Lessons Learned Sequencing Precancerous Lesions",
 			"eventurl":"https://epi.grants.cancer.gov/events/seqSPACE/index.html#spira",
 			"eventdatemonth":"November",
@@ -46,7 +38,7 @@
 			"eventdatemonth":"February",
 			"eventdateday":"4",
 			"eventtype":"Webinar",
-            "fulldate":"2019-02-04T18:00:00.000Z"
+            "fulldate":"2020-02-04T18:00:00.000Z"
         }
     ]
 }
