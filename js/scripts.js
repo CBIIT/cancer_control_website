@@ -5,6 +5,17 @@ $(document).ready(function () {
 		$('body,html,document').animate({scrollTop:0}, 'slow');
 		return false;
 	});
+// sticky notransform
+	var distance = $('.navbar').offset().top,
+		$window = $(window);
+
+	$window.scroll(function() {
+		if ( $window.scrollTop() >= distance ) {
+			$("body").addClass("notransform");
+		} else {
+			$("body").removeClass("notransform");
+		}
+	});
 // Hamburger menu to X and Menu text change to Close
 	$('header .navbar-toggle').on('click', function () {
 		$(this).toggleClass('active');
