@@ -88,7 +88,7 @@
 	param = decodeURI(getUrlVars()["funding"]);
 	param = param.replace(/\+/g,' ').replace(/\,/g,'%2C');
 	jQuery.each(param.split("%2C"), function (i, val) {
-		$(":checkbox[name='funding'][value='" + val + "-']").prop("checked", true);
+		$(":checkbox[name='funding'][value='" + val + "']").prop("checked", true);
 		fundingClicked();
 	});
 	param = decodeURI(getUrlVars()["activity"]);
@@ -124,7 +124,7 @@ function getUrlVars() {
         vars[hash[0]] = hash[1];
     }
     return vars;
-};
+}
 
 $('#btnCopy').click(function () {
 	var search = "";
@@ -137,25 +137,25 @@ $('#btnCopy').click(function () {
 	search = $('#example_filter input').val();
 	
     $.each($("input[name='category']:checked"), function () {
-        label = $("label[for='" + $(this).attr('id') + "']").html();
+        label = ($(this).val());
         category.push(label);
     });
 
     label = "";
     $.each($("input[name='funding']:checked"), function () {
-        label = $("label[for='" + $(this).attr('id') + "']").html();
+        label = ($(this).val());
         funding.push(label);
     });
 
     label = "";
     $.each($("input[name='activity']:checked"), function () {
-        label = $("label[for='" + $(this).attr('id') + "']").html();
+        label = ($(this).val());
         activity.push(label);
     });
 
     label = "";
     $.each($("input[name='type']:checked"), function () {
-        label = $("label[for='" + $(this).attr('id') + "']").html();
+        label = ($(this).val());
         type.push(label);
     });
 
