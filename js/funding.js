@@ -58,7 +58,8 @@
 	var categorytypes = $('input:checkbox[name="category"]:checked').map(function() {
 		return '' + this.value + '';
 	  }).get().join('|');
-	table.fnFilter(categorytypes, 6, true, false, false, false);
+		console.log(categorytypes);
+		table.fnFilter(categorytypes, 6, true, true, false, false);
 	}
 	function fundingClicked() {
 		var fundingtypes = $('input:checkbox[name="funding"]:checked').map(function() {
