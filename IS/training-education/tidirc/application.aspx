@@ -26,13 +26,13 @@
 <meta name="apple-mobile-web-app-title" content="DCCPS">
 <link rel="apple-touch-icon" href="/images/touch/apple-touch-icon.png">
 <!-- Bootstrap -->
-<link href="../../../css/bootstrap.min.css" rel="stylesheet">
+<link href="/IS/css/bootstrap.min.css" rel="stylesheet">
 <!-- Google Fonts Source Sans & Merriweather -->
 <link href="https://fonts.googleapis.com/css?family=Merriweather:300,300i|Source+Sans+Pro:300,300i,400,400i,600,600i,700,700i" rel="stylesheet">
 <!-- Styles.css is compiled from LESS files -->
-<link href="../../css/styles-min.css" rel="stylesheet">
+<link href="/IS/css/styles-min.css" rel="stylesheet">
 <!--[if lte IE 9]>
-	<link href="../css/ie-styles-min.css" rel="stylesheet" type="text/css">
+	<link href="/IS/css/ie-styles-min.css" rel="stylesheet" type="text/css">
 <![endif]-->
 <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
 <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
@@ -177,43 +177,42 @@
 <!-- intro area -->	
 	<div class="row">
 		<div class="col-md-9 col-md-push-3">                 
-			<p class="intro">The  2019 application period is closed.  Applicants  will be notified of their acceptance status by February 8, 2019.</p>
-			<p class="intro">For questions concerning the training or application process, please review the <a href="/IS/training-education/tidirc/faqs.html">FAQ page</a> or contact the Implementation Science Team at <a href="mailto:NCIdccpsISteam@mail.nih.gov">NCIdccpsISteam@mail.nih.gov</a>.</p>
+			<!--<p class="intro">The  2019 application period is closed.  Applicants  will be notified of their acceptance status by February 8, 2019.</p>-->
 			<div id="thankyou" class="email-validation-message" runat="server"></div>
-			<!--<form id="form1" runat="server">
+			<form id="form1" runat="server">
 				<div class="row">
 					<div class="col-md-12 required-statement">
-						<p class="alert alert-danger">All Fields Are Required Unless Stated Otherwise.</p> 
-					</div> 
+						<p class="alert alert-danger">All applications must be submitted by January 15, 2020 at 12PM ET, late application materials will not be accepted.</p> 
+					</div>
 					<div class="col-md-6">
-						<asp:Label ID="Label1" runat="server" AssociatedControlID="TXT_FirstName" Text="First Name"></asp:Label>
+						<asp:Label ID="Label1" runat="server" AssociatedControlID="TXT_FirstName" Text="First Name*"></asp:Label>
 					  <asp:TextBox ID="TXT_FirstName" class="form-control" runat="server"></asp:TextBox> 
 						<asp:RequiredFieldValidator ID="RequiredFieldValidator1" runat="server" ControlToValidate="TXT_FirstName" Display="Dynamic" ErrorMessage="Please enter a first name." CssClass="alert alert-danger"></asp:RequiredFieldValidator>
 					</div> 
 					<div class="col-md-6">
-						<asp:Label ID="Label2" runat="server" AssociatedControlID="TXT_LastName" Text="Last Name"></asp:Label>
+						<asp:Label ID="Label2" runat="server" AssociatedControlID="TXT_LastName" Text="Last Name*"></asp:Label>
 					  <asp:TextBox ID="TXT_LastName" class="form-control" runat="server"></asp:TextBox>
 						<asp:RequiredFieldValidator ID="RequiredFieldValidator2" runat="server" ControlToValidate="TXT_LastName" Display="Dynamic" ErrorMessage="Please enter a last name." CssClass="alert alert-danger"></asp:RequiredFieldValidator>
 					</div> 
 					<div class="col-md-6">
-						<asp:Label ID="Label3" runat="server" AssociatedControlID="TXT_Title" Text="Title"></asp:Label>
+						<asp:Label ID="Label3" runat="server" AssociatedControlID="TXT_Title" Text="Title*"></asp:Label>
 					  <asp:TextBox ID="TXT_Title" class="form-control" runat="server"></asp:TextBox>
 						<asp:RequiredFieldValidator ID="RequiredFieldValidator3" runat="server" ControlToValidate="TXT_Title" Display="Dynamic" ErrorMessage="Please enter title." CssClass="alert alert-danger"></asp:RequiredFieldValidator>
 					</div> 
 					<div class="col-md-6">
-						<asp:Label ID="Label4" runat="server" AssociatedControlID="TXT_Organization" Text="Organization"></asp:Label>
+						<asp:Label ID="Label4" runat="server" AssociatedControlID="TXT_Organization" Text="Institution*"></asp:Label>
 					  <asp:TextBox ID="TXT_Organization" class="form-control" runat="server"></asp:TextBox>
-						<asp:RequiredFieldValidator ID="RequiredFieldValidator4" runat="server" ControlToValidate="TXT_Organization" Display="Dynamic" ErrorMessage="Please enter an organization" CssClass="alert alert-danger"></asp:RequiredFieldValidator>
+						<asp:RequiredFieldValidator ID="RequiredFieldValidator4" runat="server" ControlToValidate="TXT_Organization" Display="Dynamic" ErrorMessage="Please enter an institution" CssClass="alert alert-danger"></asp:RequiredFieldValidator>
 					</div> 
                 </div>
                 <div class="row">
                     <div class="col-md-6">
-						<asp:Label ID="Label27" runat="server" AssociatedControlID="TXT_DocLevelCredentials" Text="Please indicate doctoral level credentials or equivalent (e.g. Ph.D., Sc.D., M.D., Dr.P.H., D.O., D.V.M., D.N.Sc., etc., or terminal degrees in other clinical professions (e.g. MSGC) will be accepted)"></asp:Label>
+						<asp:Label ID="Label27" runat="server" AssociatedControlID="TXT_DocLevelCredentials" Text="Doctoral degrees (PhD, ScD, MD, DrPH, PharmD, MBBS, DNSc, etc.) and Master’s in Genetic Counseling (MGC) will be accepted*"></asp:Label>
 					  <asp:TextBox ID="TXT_DocLevelCredentials" class="form-control" runat="server"></asp:TextBox>
 						<asp:RequiredFieldValidator ID="RequiredFieldValidator21" runat="server" ControlToValidate="TXT_DocLevelCredentials" Display="Dynamic" ErrorMessage="Please indicate doctoral level credentials or equivalent." CssClass="alert alert-danger"></asp:RequiredFieldValidator>
 					</div> 
 					<div class="col-md-12">
-						<asp:Label ID="Label5" runat="server" AssociatedControlID="TXT_Address1" Text="Address"></asp:Label>
+						<asp:Label ID="Label5" runat="server" AssociatedControlID="TXT_Address1" Text="Address*"></asp:Label>
 					  <asp:TextBox ID="TXT_Address1" class="form-control" runat="server"></asp:TextBox>
 						<asp:RequiredFieldValidator ID="RequiredFieldValidator5" runat="server" ControlToValidate="TXT_Address1" Display="Dynamic" ErrorMessage="Please enter an address." CssClass="alert alert-danger"></asp:RequiredFieldValidator>
 						
@@ -221,33 +220,33 @@
 					  <asp:TextBox ID="TXT_Address2" class="form-control" runat="server"></asp:TextBox>
 					</div> 	
 					<div class="col-md-6">
-						<asp:Label ID="Label7" runat="server" AssociatedControlID="TXT_City" Text="City"></asp:Label>
+						<asp:Label ID="Label7" runat="server" AssociatedControlID="TXT_City" Text="City*"></asp:Label>
 					  <asp:TextBox ID="TXT_City" class="form-control" runat="server"></asp:TextBox>
 						<asp:RequiredFieldValidator ID="RequiredFieldValidator7" runat="server" ControlToValidate="TXT_City" Display="Dynamic" ErrorMessage="Please enter a city." CssClass="alert alert-danger"></asp:RequiredFieldValidator>
 					</div> 
 					<div class="col-md-3">	
-						<asp:Label ID="Label8" runat="server" AssociatedControlID="TXT_State" Text="State/Province/Region"></asp:Label>
+						<asp:Label ID="Label8" runat="server" AssociatedControlID="TXT_State" Text="State/Province/Region*"></asp:Label>
 					  <asp:TextBox ID="TXT_State" class="form-control" runat="server"></asp:TextBox>
 						<asp:RequiredFieldValidator ID="RequiredFieldValidator8" runat="server" ControlToValidate="TXT_State" Display="Dynamic" ErrorMessage="Please enter a state/province/region." CssClass="alert alert-danger"></asp:RequiredFieldValidator>
 					</div> 	
 					<div class="col-md-3">	
-						<asp:Label ID="Label9" runat="server" AssociatedControlID="TXT_Zip" Text="Zip/Postal Code"></asp:Label>
+						<asp:Label ID="Label9" runat="server" AssociatedControlID="TXT_Zip" Text="Zip/Postal Code*"></asp:Label>
 					  <asp:TextBox ID="TXT_Zip" class="form-control" runat="server"></asp:TextBox>
 						<asp:RequiredFieldValidator ID="RequiredFieldValidator9" runat="server" ControlToValidate="TXT_Zip" Display="Dynamic" ErrorMessage="Please enter a 5-digit zip code." CssClass="alert alert-danger"></asp:RequiredFieldValidator>
 						<asp:RegularExpressionValidator ID="RegularExpressionValidator2" runat="server" ControlToValidate="TXT_Zip" Display="Dynamic" ErrorMessage="Please enter a valid zip/postal code." CssClass="alert alert-danger" ValidationExpression="^\d{5}$"></asp:RegularExpressionValidator>
 					</div>
                     <div class="col-md-12">	
-						<asp:Label ID="Label26" runat="server" AssociatedControlID="TXT_Country" Text="Country"></asp:Label>
+						<asp:Label ID="Label26" runat="server" AssociatedControlID="TXT_Country" Text="Country*"></asp:Label>
 					  <asp:TextBox ID="TXT_Country" class="form-control" runat="server"></asp:TextBox>
 						<asp:RequiredFieldValidator ID="RequiredFieldValidator20" runat="server" ControlToValidate="TXT_Country" Display="Dynamic" ErrorMessage="Please enter a country." CssClass="alert alert-danger"></asp:RequiredFieldValidator>
 					</div>
 					<div class="col-md-6">
-						<asp:Label ID="Label10" runat="server" AssociatedControlID="TXT_Phone" Text="Phone"></asp:Label>
+						<asp:Label ID="Label10" runat="server" AssociatedControlID="TXT_Phone" Text="Phone*"></asp:Label>
 					  <asp:TextBox ID="TXT_Phone" class="form-control" runat="server"></asp:TextBox>
 						<asp:RequiredFieldValidator ID="RequiredFieldValidator10" runat="server" ControlToValidate="TXT_Phone" Display="Dynamic" ErrorMessage="Please enter a phone number." CssClass="alert alert-danger" ValidationExpression="^(\(?\s*\d{3}\s*[\)\-\.]?\s*)?[2-9]\d{2}\s*[\-\.]\s*\d{4}$"></asp:RequiredFieldValidator><br>
 					</div> 	
 					<div class="col-md-6">
-						<asp:Label ID="Label11" runat="server" AssociatedControlID="TXT_Email" Text="Email"></asp:Label>
+						<asp:Label ID="Label11" runat="server" AssociatedControlID="TXT_Email" Text="Email*"></asp:Label>
 					  <asp:TextBox ID="TXT_Email" class="form-control" runat="server"></asp:TextBox>
 						<asp:RequiredFieldValidator ID="RequiredFieldValidator11" runat="server" ControlToValidate="TXT_Email" Display="Dynamic" ErrorMessage="Please enter an email address." CssClass="alert alert-danger"></asp:RequiredFieldValidator> 
 						<asp:RegularExpressionValidator ID="RegularExpressionValidator1" runat="server" ControlToValidate="TXT_Email" Display="Dynamic" ErrorMessage="Please enter a valid email address." CssClass="alert alert-danger" ValidationExpression="\w+([-+.']\w+)*@\w+([-.]\w+)*\.\w+([-.]\w+)*"></asp:RegularExpressionValidator><br>
@@ -267,7 +266,6 @@
 						</asp:CheckBoxList>
 						<asp:Label ID="Label13" runat="server" AssociatedControlID="TXT_Race_other" Text="Race (other)"></asp:Label>
 					  <asp:TextBox ID="TXT_Race_other" class="form-control" runat="server"></asp:TextBox>
-						<asp:CustomValidator ID="RequiredFieldValidator19" ErrorMessage="Please select a race." Display="Dynamic" CssClass="alert alert-danger" ClientValidationFunction="ValidateRaceCheckBoxList" runat="server" />
 
 						<asp:Label ID="Label23" runat="server" AssociatedControlID="TXT_AreYouHispanic" Text="Are you Hispanic or Latino? (A person of Cuban, Mexican, Puerto Rican, South or Central American, or other Spanish culture or origin, regardless of race.)"></asp:Label> 
 					  <asp:DropDownList ID="TXT_AreYouHispanic" class="form-control" runat="server">
@@ -275,20 +273,20 @@
 							<asp:ListItem>No</asp:ListItem>
 							<asp:ListItem>Yes</asp:ListItem>
 						</asp:DropDownList>
-						<asp:RequiredFieldValidator ID="RequiredFieldValidator17" runat="server" ControlToValidate="TXT_AreYouHispanic" ErrorMessage="Please select an answer." Display="Dynamic" CssClass="alert alert-danger" InitialValue="-1"></asp:RequiredFieldValidator>
 						<asp:Label ID="Label22" runat="server" AssociatedControlID="TXT_Gender" Text="Gender"></asp:Label>
 					  <asp:DropDownList ID="TXT_Gender" class="form-control" runat="server">
 							<asp:ListItem disabled="disabled" selected="selected" hidden="hidden" Value="-1">- Select One -</asp:ListItem>
 							<asp:ListItem>Male</asp:ListItem>
 							<asp:ListItem>Female</asp:ListItem>
+							<asp:ListItem>Not Listed</asp:ListItem>
+							<asp:ListItem>Prefer not to answer</asp:ListItem>
 						</asp:DropDownList>
-						<asp:RequiredFieldValidator ID="RequiredFieldValidator13" runat="server" ControlToValidate="TXT_Gender" ErrorMessage="Please select an answer." Display="Dynamic" CssClass="alert alert-danger" InitialValue="-1"></asp:RequiredFieldValidator>
 					</div> 
 				</div> 
 				<hr>
 				<div class="row">
 					<div class="col-md-12">
-						<asp:Label ID="Label14" runat="server" AssociatedControlID="TXT_InvestigatorLevel" Text="Investigator Level"></asp:Label>
+						<asp:Label ID="Label14" runat="server" AssociatedControlID="TXT_InvestigatorLevel" Text="Investigator Level*"></asp:Label>
 					  <asp:DropDownList ID="TXT_InvestigatorLevel" class="form-control" runat="server">
 							<asp:ListItem disabled="disabled" selected="selected" hidden="hidden" Value="-1">- Select One -</asp:ListItem>
 							<asp:ListItem>Junior Investigator</asp:ListItem>
@@ -297,7 +295,7 @@
 						</asp:DropDownList>
 						<asp:RequiredFieldValidator ID="RequiredFieldValidator6" runat="server" ControlToValidate="TXT_InvestigatorLevel" ErrorMessage="Please select an answer." Display="Dynamic" CssClass="alert alert-danger" InitialValue="-1"></asp:RequiredFieldValidator>
 					
-						<asp:Label ID="Label15" runat="server" AssociatedControlID="TXT_FieldOfExpertise" Text="Field of Expertise (e.g. obesity, palliative care, cancer care delivery)"></asp:Label>
+						<asp:Label ID="Label15" runat="server" AssociatedControlID="TXT_FieldOfExpertise" Text="Field of Expertise (e.g. obesity, palliative care, cancer care delivery)*"></asp:Label>
 					  <asp:TextBox ID="TXT_FieldOfExpertise" class="form-control" runat="server"></asp:TextBox>
 						<asp:RequiredFieldValidator ID="RequiredFieldValidator14" runat="server" ControlToValidate="TXT_FieldOfExpertise" Display="Dynamic" ErrorMessage="Please enter a field of expertise." CssClass="alert alert-danger"></asp:RequiredFieldValidator>
 					
@@ -305,7 +303,7 @@
                 </div>
                 <div class="row">
                     <div class="col-md-12">
-                        <p><strong>Research Areas of Interest</strong></p>
+                        <p><b>Research Areas of Interest</b>*</p>
                         <p>All trainees are sorted into small groups based on their submitted research proposals. During the in-person meeting there may be additional opportunities for activity and interaction based more broadly on research area or interest. Please select two areas of interest from the below options: </p>
                     </div>
                 </div>
@@ -323,14 +321,11 @@
                         <asp:CustomValidator ID="CustomValidator5" runat="server" ErrorMessage="Select no more than two." Display="Dynamic" CssClass="alert alert-danger alert-inline"></asp:CustomValidator>
 	                </div>
                     <div class="col-md-5">	
-						<asp:Label ID="Label24" runat="server" AssociatedControlID="TXT_Sector" Text="Sector (select no more than two)"></asp:Label>
+						<asp:Label ID="Label24" runat="server" AssociatedControlID="TXT_Sector" Text="Setting (select no more than two)"></asp:Label>
 					  <asp:CheckBoxList ID="TXT_Sector" runat="server">
 							<asp:ListItem>Healthcare Delivery</asp:ListItem>
-							<asp:ListItem>Oncology</asp:ListItem>
 							<asp:ListItem>Primary Care</asp:ListItem>
 							<asp:ListItem>Workplace</asp:ListItem>
-							<asp:ListItem>Decision Making</asp:ListItem>
-							<asp:ListItem>Communication</asp:ListItem>
 							<asp:ListItem>Community (school, church, etc.)</asp:ListItem>
 							<asp:ListItem>Policy</asp:ListItem>
 						</asp:CheckBoxList>
@@ -341,21 +336,11 @@
 					<div class="col-md-7">
                         <asp:Label ID="Label17" runat="server" AssociatedControlID="TXT_Populations" Text="Population(s) (select no more than two)"></asp:Label>
 					    <asp:CheckBoxList ID="TXT_Populations" runat="server">
-							<asp:ListItem>Age (Include text field for specification e.g. children, etc)</asp:ListItem>
 							<asp:ListItem>Health Disparities/Underserved (include text field if desired)</asp:ListItem>
 							<asp:ListItem>Rural</asp:ListItem>
 							<asp:ListItem>Sexual Gender Minority</asp:ListItem>
 						</asp:CheckBoxList>
                         <asp:CustomValidator ID="CustomValidator7" runat="server" ErrorMessage="Select no more than two." Display="Dynamic" CssClass="alert alert-danger alert-inline"></asp:CustomValidator>                        
-                    </div>
-                    <div class="col-md-5">
-                      <asp:Label ID="Label25" runat="server" AssociatedControlID="TXT_Methods" Text="Methods (select no more than two)"></asp:Label>
-					  <asp:CheckBoxList ID="TXT_Methods" runat="server">
-							<asp:ListItem>Qualitative</asp:ListItem>
-							<asp:ListItem>Mixed</asp:ListItem>
-							<asp:ListItem>Hybrid</asp:ListItem>
-						</asp:CheckBoxList>
-                        <asp:CustomValidator ID="CustomValidator8" runat="server" ErrorMessage="Select no more than two." Display="Dynamic" CssClass="alert alert-danger alert-inline"></asp:CustomValidator>
                     </div>
 				</div>
 
@@ -364,27 +349,27 @@
 				<div class="row">
 					<div class="col-md-12">
 						<h3>Supporting Documents</h3>
-						<p>Please be sure to <i>name all your files</i> with your last name followed by an underscore and the type of document. All documents must be either MS Word or Adobe PDF files and should not exceed 1 MB in file size.</p>
+						<p>Please be sure to <i>name all your files</i> with your last name followed by an underscore and the type of document (e.g. <i>YourLastName_Statement, etc.)</i>. All documents must be either MS Word or Adobe PDF files and should not exceed 1 MB in file size. </p>
 						
-						<asp:Label ID="Label18" runat="server" AssociatedControlID="UP_PersonalStatement_File" Text="Personal Statement To Upload"></asp:Label>
+						<asp:Label ID="Label18" runat="server" AssociatedControlID="UP_PersonalStatement_File" Text="Personal Statement To Upload*"></asp:Label>
 						<asp:FileUpload ID="UP_PersonalStatement_File" class="form-control" runat="server" />
 						<asp:RequiredFieldValidator ID="RequiredFieldValidator12" runat="server" ControlToValidate="UP_PersonalStatement_File" Display="Dynamic" ErrorMessage="Please add an attachment." CssClass="alert alert-danger"></asp:RequiredFieldValidator> 
 						<asp:RegularExpressionValidator ID="RegularExpressionValidator3" ValidationExpression="([a-zA-Z0-9\s_\\.\-:])+(.doc|.docx|.pdf)$" ControlToValidate="UP_PersonalStatement_File" runat="server" ErrorMessage="Please select a valid Word or PDF File file." Display="Dynamic" CssClass="alert alert-danger" />
 						<asp:CustomValidator ID="CustomValidator1" runat="server" ControlToValidate="UP_PersonalStatement_File" Display="Dynamic" ErrorMessage="File size should not be greater than 1 MB." CssClass="alert alert-danger" OnServerValidate="CustomValidator1_ServerValidate"></asp:CustomValidator>
 						
-						<asp:Label ID="Label19" runat="server" AssociatedControlID="UP_LettersOfRec_File" Text="Letters of Recommendation To Upload"></asp:Label>
+						<asp:Label ID="Label19" runat="server" AssociatedControlID="UP_LettersOfRec_File" Text="Letters of Recommendation To Upload*"></asp:Label>
 						<asp:FileUpload ID="UP_LettersOfRec_File" class="form-control" runat="server" />
 						<asp:RequiredFieldValidator ID="RequiredFieldValidator15" runat="server" ControlToValidate="UP_LettersOfRec_File" Display="Dynamic" ErrorMessage="Please add an attachment." CssClass="alert alert-danger"></asp:RequiredFieldValidator> 
 						<asp:RegularExpressionValidator ID="RegularExpressionValidator4" ValidationExpression="([a-zA-Z0-9\s_\\.\-:])+(.doc|.docx|.pdf)$" ControlToValidate="UP_LettersOfRec_File" runat="server" ErrorMessage="Please select a valid Word or PDF File file." Display="Dynamic" CssClass="alert alert-danger" />
                         <asp:CustomValidator ID="CustomValidator2" runat="server" ControlToValidate="UP_LettersOfRec_File" Display="Dynamic" ErrorMessage="File size should not be greater than 1 MB." CssClass="alert alert-danger" OnServerValidate="CustomValidator2_ServerValidate"></asp:CustomValidator>
 						
-						<asp:Label ID="Label20" runat="server" AssociatedControlID="UP_Curriculum_File" Text="Curriculum Vitae To Upload"></asp:Label>
+						<asp:Label ID="Label20" runat="server" AssociatedControlID="UP_Curriculum_File" Text="Curriculum Vitae To Upload*"></asp:Label>
 						<asp:FileUpload ID="UP_Curriculum_File" class="form-control" runat="server" />
 						<asp:RequiredFieldValidator ID="RequiredFieldValidator16" runat="server" ControlToValidate="UP_Curriculum_File" Display="Dynamic" ErrorMessage="Please add an attachment." CssClass="alert alert-danger"></asp:RequiredFieldValidator> 
 						<asp:RegularExpressionValidator ID="RegularExpressionValidator5" ValidationExpression="([a-zA-Z0-9\s_\\.\-:])+(.doc|.docx|.pdf)$" ControlToValidate="UP_Curriculum_File" runat="server" ErrorMessage="Please select a valid Word or PDF File file." Display="Dynamic" CssClass="alert alert-danger" />
 						<asp:CustomValidator ID="CustomValidator3" runat="server" ControlToValidate="UP_Curriculum_File" Display="Dynamic" ErrorMessage="File size should not be greater than 1 MB." CssClass="alert alert-danger" OnServerValidate="CustomValidator3_ServerValidate"></asp:CustomValidator>
 						
-						<asp:Label ID="Label21" runat="server" AssociatedControlID="UP_ConceptPaper_File" Text="Concept Paper To Upload"></asp:Label>
+						<asp:Label ID="Label21" runat="server" AssociatedControlID="UP_ConceptPaper_File" Text="Concept Paper To Upload*"></asp:Label>
 						<asp:FileUpload ID="UP_ConceptPaper_File" class="form-control" runat="server" />
 						<asp:RequiredFieldValidator ID="RequiredFieldValidator18" runat="server" ControlToValidate="UP_ConceptPaper_File" Display="Dynamic" ErrorMessage="Please add an attachment." CssClass="alert alert-danger"></asp:RequiredFieldValidator> 
 						<asp:RegularExpressionValidator ID="RegularExpressionValidator6" ValidationExpression="([a-zA-Z0-9\s_\\.\-:])+(.doc|.docx|.pdf)$" ControlToValidate="UP_ConceptPaper_File" runat="server" ErrorMessage="Please select a valid Word or PDF File file." Display="Dynamic" CssClass="alert alert-danger" />
@@ -421,7 +406,6 @@
                     }
                 </script>
 			</form>
-			-->
 	  </div> <!-- /.col-md-9 -->
 		<div class="col-md-3 col-md-pull-9">
 			<div class="sidebar-nav">
@@ -438,9 +422,10 @@
 				<nav id="section-menu-responsive" class="navbar-collapse collapse" role="navigation" aria-expanded="false">
 					<ul class="nav">
 						<li><a href="index.html">Institute Overview</a></li>
-						<li><a href="eligibility.html">Participant Eligibility Requirements &amp; Application Procedure</a></li>
-                  		<li class="active"><a href="application.aspx">TIDIRC Application</a></li>
-                  		<li><a href="faqs.html">FAQ</a></li>
+						<li><a href="eligibility.html">Eligibility Requirements</a></li>
+						<li><a href="procedure.html">Application Procedure</a></li>
+						<li class="active"><a href="application.aspx">TIDIRC Application</a></li>
+						<li><a href="faqs.html">FAQ</a></li>
 					</ul>
 				</nav>
 			</div>
@@ -456,8 +441,9 @@
 <div class="container">
 	<div class="row">
 		<div class="col-lg-12">
-			<p class="update"><span class="bold">Last Updated:</span> January 16, 2019</p>
-		</div> <!-- /.col-lg-12 -->
+			<p class="update"><span class="bold">Last Updated:</span> November 18, 2019</p>
+		</div> 
+		<!-- /.col-lg-12 -->
 	</div> 
 </div> <!-- /.container -->
 </div> <!-- /.lightgray-row -->
