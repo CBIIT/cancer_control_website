@@ -1,22 +1,6 @@
 {
     "events": [
 		{
-			"eventtitle":"Research to Improve Interprofessional Teamwork and Coordination During Cancer Diagnosis and Treatment",
-			"eventurl":"https://cbiit.webex.com/cbiit/onstage/g.php?MTID=e8a989bbc511b82dc38ae0022a6e08da1",
-			"eventdatemonth":"November",
-			"eventdateday":"12",
-			"eventtype":"Webinar",
-            "fulldate":"2019-11-12T18:00:00.000Z"
-        },
-		{
-			"eventtitle":"Helicobacter Pylori and Colorectal Cancer: What Is the Association?",
-			"eventurl":"https://epi.grants.cancer.gov/events/infectious-agents/#epplein",
-			"eventdatemonth":"November",
-			"eventdateday":"12",
-			"eventtype":"Webinar",
-            "fulldate":"2019-11-12T18:00:00.000Z"
-        },
-		{
 			"eventtitle":"Strategies for Sequencing the Microbiome",
 			"eventurl":"https://epi.grants.cancer.gov/events/seqSPACE/index.html#chan",
 			"eventdatemonth":"December",
