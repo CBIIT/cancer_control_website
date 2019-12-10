@@ -526,7 +526,8 @@ height="0" width="0" style="display:none;visibility:hidden" title="Google Tag Ma
 											<a href="mailto:kelly.blake@nih.gov">kelly.blake@nih.gov</a></td>
 									</tr>
 									<tr>
-									  <th scope="row">Communication and Decision Making for Individuals with Inherited Cancer Syndromes (U01 Clinical Trial Optional)</th>
+									  <th scope="row">Communication and Decision Making for Individuals with Inherited Cancer Syndromes (U01 Clinical Trial Optional)<br><br>
+								      <a href="https://go.usa.gov/xpRcP" target="_blank">Register for the December 11 webinar</a> <a href="/exit_disclaimer.html"><img src="/images/Icon_External_Link.png" alt="Exit Disclaimer" width="12" height="12" /></a></th>
 										<td><a href="https://grants.nih.gov/grants/guide/rfa-files/RFA-CA-20-006.html" target="_blank">RFA-CA-20-006</a> (U01 Clinical Trial Optional)</td>
 										<td>January 22, 2022</td>
 										<td><a href="https://staffprofiles.cancer.gov/brp/prgmStaffProfile.do?contactId=1618&name=Wendy-Nelson&bioType=stf">Wendy Nelson</a><br>
@@ -915,7 +916,7 @@ height="0" width="0" style="display:none;visibility:hidden" title="Google Tag Ma
 <div class="container">
 	<div class="row">
 		<div class="col-lg-12">
-			<p class="update"><span class="bold">Last Updated:</span> <!-- InstanceBeginEditable name="Last Updated" -->November 7, 2019<!-- InstanceEndEditable --></p>
+			<p class="update"><span class="bold">Last Updated:</span> <!-- InstanceBeginEditable name="Last Updated" -->December 9, 2019<!-- InstanceEndEditable --></p>
 		</div> <!-- /.col-lg-12 -->
 	</div> <!-- /.row -->
 </div> <!-- /.container -->
@@ -1003,7 +1004,31 @@ height="0" width="0" style="display:none;visibility:hidden" title="Google Tag Ma
 <script src="../js/bootstrap-hover-dropdown.min.js"></script>
 <!-- Custom jQuery -->
 <script src="../js/scripts-min.js"></script>
-<!-- InstanceBeginEditable name="Scripts" --><!-- InstanceEndEditable -->
+<!-- InstanceBeginEditable name="Scripts" -->
+<script>
+	// Opening accordion based on URL
+	$(window).ready(function(){
+		var url = document.location.toString();
+		if ( url.match('#') ) {
+
+			$('#'+url.split('#')[1]).addClass('in');
+			$('[data-target="#'+url.split('#')[1]+'"]').removeClass('collapsed');
+			$('[data-target="#'+url.split('#')[1]+'"]').children('.accordion-icon').children().addClass('glyphicon-minus');	
+			smoothScrollTo($('#'+url.split('#')[1]));
+		}
+		
+		function smoothScrollTo(target) {
+			target = target.length ? target : $('[name=' + this.hash.slice(1) +']');
+
+			if (target.length) {
+			  $('html,body').animate({
+				scrollTop: target.offset().top
+			  }, 1000);
+			}
+		  }
+	})
+</script>
+<!-- InstanceEndEditable -->
 <!-- Web Analytics -->
 <script type="text/javascript" src="https://static.cancer.gov/webanalytics/WA_DCCPS_PageLoad.js"></script>
 <script type="text/javascript">_satellite.pageBottom();</script>
