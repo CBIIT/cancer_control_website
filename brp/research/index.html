@@ -237,6 +237,7 @@ height="0" width="0" style="display:none;visibility:hidden" title="Google Tag Ma
         <ul class="nav nav-tabs" role="tablist">
             <li role="presentation" class="active"><a href="#data" aria-controls="data" role="tab" data-toggle="tab">Data</a></li>
             <li role="presentation"><a href="#research" aria-controls="research" role="tab" data-toggle="tab">Research Tools</a></li>
+            <li role="presentation"><a href="#textbooks" aria-controls="textbooks" role="tab" data-toggle="tab">Textbooks and Selected Chapters</a></li>
             <li role="presentation"><a href="#measures" aria-controls="measures" role="tab" data-toggle="tab">Measures</a></li>
             <li role="presentation"><a href="#tobacco" aria-controls="tobacco" role="tab" data-toggle="tab">Tobacco Control Research Resources</a></li>
             <li role="presentation"><a href="#publications" aria-controls="publications" role="tab" data-toggle="tab">Selected Publications</a></li>
@@ -424,6 +425,21 @@ height="0" width="0" style="display:none;visibility:hidden" title="Google Tag Ma
                 </div> <!-- /.tab-wrapper -->
             </div> <!-- /#research -->
 <!-- ####################### -->
+            <div role="tabpanel" class="tab-pane fade" id="textbooks">
+                <div class="tab-wrapper">
+                    <div class="flex-child">
+                        <div class="card">
+                            <p>Hall KL, Vogel AL, Croyle RT. <em>Strategies for Team Science Success: Handbook of Evidence-Based Principles for Cross-Disciplinary Science and Practical Lessons Learned from Health Researchers</em>. Cham, Switzerland: Springer; 2019.</p>
+                        </div> <!-- /.card -->
+                    </div> <!-- /.flex-child -->
+                    <div class="flex-child">
+                        <div class="card">
+                            <p>Berrigan D, Berger N. <em>Geospatial Approaches to Energy Balance and Breast Cancer</em>. Cham, Switzerland: Springer; 2019. </p>
+                        </div> <!-- /.card -->
+                    </div> <!-- /.flex-child -->
+                </div> <!-- /.tab-wrapper -->
+            </div> <!-- /#measures -->
+<!-- ####################### -->
             <div role="tabpanel" class="tab-pane fade" id="measures">
                 <div class="tab-wrapper">
                     <div class="flex-child">
@@ -554,6 +570,7 @@ height="0" width="0" style="display:none;visibility:hidden" title="Google Tag Ma
                     <div class="col-md-6">
                         <ul class="nav nav-pills nav-stacked">
                             <li><a href="/brp/research/publications.html">Highlighted Journal Issues and Papers</a></li>
+                            <li><a href="#textbooks" data-toggle="tab">Textbooks and Selected Chapters</a></li>
                         </ul>
                     </div> <!-- /.col-md-6 -->
                     <div class="col-md-6">
@@ -580,7 +597,7 @@ height="0" width="0" style="display:none;visibility:hidden" title="Google Tag Ma
 <div class="container">
 	<div class="row">
 		<div class="col-lg-12">
-			<p class="update"><span class="bold">Last Updated:</span> <!-- InstanceBeginEditable name="Last Updated" -->October 7, 2019<!-- InstanceEndEditable --></p>
+			<p class="update"><span class="bold">Last Updated:</span> <!-- InstanceBeginEditable name="Last Updated" -->December 9, 2019<!-- InstanceEndEditable --></p>
 		</div> <!-- /.col-lg-12 -->
 	</div> <!-- /.row -->
 </div> <!-- /.container -->
@@ -691,7 +708,15 @@ $('body').on('click', 'a[data-toggle=\'tab\']', function (e) {
   localStorage.setItem('activeTab', tab_name)
 
   $(this).tab('show');
+	
+  $('.nav-pills li').removeClass("active");
   return false;
+});
+$(function () {
+    $('.nav-pills a').click(function (e) {
+        e.preventDefault();
+        $('a[href="' + $(this).attr('href') + '"]').tab('show');
+    })
 });
 </script>
 <!-- InstanceEndEditable -->
