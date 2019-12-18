@@ -254,7 +254,7 @@ Partial Class IS_training_education_tidirc_application
             Curriculum_Filename = AES_Encrypt(ClearXsideScriptingValue(Curriculum_Filename))
             ConceptPaper_Filename = AES_Encrypt(ClearXsideScriptingValue(ConceptPaper_Filename))
 
-            Dim str As String = WS.Insert_MLTI_Registration(FirstName, LastName, Title, Organization, DocLevelCredentials, Address1, Address2, City, State, Zip, Country, Phone, Email, Race, Race_other, AreYouHispanic, Gender, InvestigatorLevel, FieldOfExpertise, CancerControlContinuum, Setting, Populations, bytes_PersonalStatement_File, PersonalStatement_ContentType, PersonalStatement_Filename, bytes_LettersOfRec_File, LettersOfRec_ContentType, LettersOfRec_Filename, bytes_Curriculum_File, Curriculum_ContentType, Curriculum_Filename, bytes_ConceptPaper_File, ConceptPaper_ContentType, ConceptPaper_Filename)
+            Dim str As String = WS.Insert_MLTI_Registration(FirstName, LastName, Title, Organization, DocLevelCredentials, Address1, Address2, City, State, Zip, Country, Phone, Email, Race, Race_other, AreYouHispanic, Gender, InvestigatorLevel, FieldOfExpertise, CancerControlContinuum, Setting, Populations, bytes_PersonalStatement_File, PersonalStatement_ContentType, PersonalStatement_Filename, bytes_Curriculum_File, Curriculum_ContentType, Curriculum_Filename, bytes_ConceptPaper_File, ConceptPaper_ContentType, ConceptPaper_Filename, bytes_LettersOfRec_File, LettersOfRec_ContentType, LettersOfRec_Filename)
 
             'Response.Write("<h1>==" & str & "===added</h1>")
             Response.Redirect("~/events/mlti/thankyou.html")
