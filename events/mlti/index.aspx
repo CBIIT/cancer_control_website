@@ -138,7 +138,7 @@ height="0" width="0" style="display:none;visibility:hidden" title="Google Tag Ma
 						<asp:RequiredFieldValidator ID="RequiredFieldValidator4" runat="server" ControlToValidate="TXT_Organization" Display="Dynamic" ErrorMessage="Please enter an institution" CssClass="alert alert-danger"></asp:RequiredFieldValidator>
 					</div>
                     <div class="col-md-6">
-						<asp:Label ID="Label27" runat="server" AssociatedControlID="TXT_DocLevelCredentials" Text="Doctoral degrees (Ph.D., Sc.D., M.D., Dr.PH., Pharm.D., MBBS, D.N.Sc, etc.)"></asp:Label>
+						<asp:Label ID="Label27" runat="server" AssociatedControlID="TXT_DocLevelCredentials" Text="Doctoral degrees (Ph.D., Sc.D., M.D., Dr.PH., Pharm.D., MBBS, D.N.Sc, etc.)*"></asp:Label>
 					  <asp:TextBox ID="TXT_DocLevelCredentials" class="form-control" runat="server"></asp:TextBox>
 						<asp:RequiredFieldValidator ID="RequiredFieldValidator21" runat="server" ControlToValidate="TXT_DocLevelCredentials" Display="Dynamic" ErrorMessage="Please indicate doctoral level credentials or equivalent." CssClass="alert alert-danger"></asp:RequiredFieldValidator>
 					</div>
