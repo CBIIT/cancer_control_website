@@ -1,46 +1,6 @@
 {
     "events": [
 		{
-			"eventtitle":"Strategies for Sequencing the Microbiome",
-			"eventurl":"https://epi.grants.cancer.gov/events/seqSPACE/index.html#chan",
-			"eventdatemonth":"December",
-			"eventdateday":"3",
-			"eventtype":"Webinar",
-            "fulldate":"2019-12-03T18:00:00.000Z"
-        },
-		{
-			"eventtitle":"SEER-MHOS Data Resource Webinar: Highlighting Newly Available Medicare Part D Claims Data",
-			"eventurl":"https://cbiit.webex.com/cbiit/onstage/g.php?MTID=e628a1fbf4be4ec411b605271202686d6",
-			"eventdatemonth":"December",
-			"eventdateday":"4",
-			"eventtype":"Webinar",
-            "fulldate":"2019-12-04T18:00:00.000Z"
-        },
-		{
-			"eventtitle":"Challenges of Using Registries to Study Rare Cancers",
-			"eventurl":"https://epi.grants.cancer.gov/events/rare-cancer/index.html#finkelstein",
-			"eventdatemonth":"December",
-			"eventdateday":"10",
-			"eventtype":"Webinar",
-            "fulldate":"2019-12-10T18:00:00.000Z"
-        },
-		{
-			"eventtitle":"Communication and Decision Making for Individuals with Inherited Cancer Syndromes",
-			"eventurl":"https://cbiit.webex.com/mw3300/mywebex/default.do?nomenu=true&siteurl=cbiit&service=6&rnd=0.3369184786271363&main_url=https%3A%2F%2Fcbiit.webex.com%2Fec3300%2Feventcenter%2Fevent%2FeventAction.do%3FtheAction%3Ddetail%26%26%26EMK%3D4832534b000000044eed70e4aebc504c3d2675ddc01af458892e9cf469bdc3d7e131b571055c1964%26siteurl%3Dcbiit%26confViewID%3D144671753041354808%26encryptTicket%3DSDJTSwAAAAQZTiZ4M89ShcQx7bQacuF8ln8BAPCi2P1D_t4zKqyhPw2%26",
-			"eventdatemonth":"December",
-			"eventdateday":"11",
-			"eventtype":"Webinar",
-            "fulldate":"2019-12-10T18:00:00.000Z"
-        },
-		{
-			"eventtitle":"Lessons Learned Sequencing Precancerous Lesions",
-			"eventurl":"https://epi.grants.cancer.gov/events/seqSPACE/index.html#spira",
-			"eventdatemonth":"December",
-			"eventdateday":"17",
-			"eventtype":"Webinar",
-            "fulldate":"2019-12-17T18:00:00.000Z"
-        },
-		{
 			"eventtitle":"Ethical Dimensions of Physician Communications Regarding E-cigarettes",
 			"eventurl":"https://epi.grants.cancer.gov/events/enrich-forum/index.html#delnevo",
 			"eventdatemonth":"December",
