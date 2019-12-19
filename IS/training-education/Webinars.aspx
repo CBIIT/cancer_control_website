@@ -211,7 +211,7 @@ height="0" width="0" style="display:none;visibility:hidden" title="Google Tag Ma
                 <div class="col-md-6">
                     <img src="/IS/images/R2R_Thumbnail-small.jpg" class="img-responsive" alt="">
                     <h3>Research to Reality (R2R) Cyber Seminars</h3>
-                    <p><a href="https://researchtoreality.cancer.gov/">Research to Reality</a> (R2R) Cyber Seminars bring together cancer control practitioners and researchers to discuss moving evidence-based programs into practice.</p>
+                    <p>Research to Reality (R2R) Cyber Seminars bring together cancer control practitioners and researchers to discuss moving evidence-based programs into practice.</p>
                 </div>
             </div> <!-- /.row -->
             
