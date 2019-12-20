@@ -107,7 +107,10 @@ height="0" width="0" style="display:none;visibility:hidden" title="Google Tag Ma
     </div>
     <div class="row">
 		<div class="col-md-12 required-statement">
-			<p class="alert" style="color: #383d41; background-color: #e2e3e5; border-color: #d6d8db;" role="alert"><strong>All applications must be submitted by January 20, 2020 at 12PM ET, late application materials will not be accepted.</strong></p> 
+			<p class="alert" style="color: #383d41; background-color: #e2e3e5; border-color: #d6d8db;" role="alert"><strong>All applications must be submitted by January 20, 2020 at 12PM ET, late application materials will not be accepted.</strong></p>
+		</div>
+		<div class="col-md-12">
+			<p>For more about the Multilevel Intervention Training Institute (MLTI) including overview information, application eligibility requirements, and frequently asked questions, please visit <a href="https://healthcaredelivery.cancer.gov/mlti/">https://healthcaredelivery.cancer.gov/mlti/</a>.</p>
 		</div>
         <div class="col-md-12">
             <form id="form1" runat="server">
@@ -133,7 +136,7 @@ height="0" width="0" style="display:none;visibility:hidden" title="Google Tag Ma
 						<asp:RequiredFieldValidator ID="RequiredFieldValidator4" runat="server" ControlToValidate="TXT_Organization" Display="Dynamic" ErrorMessage="Please enter an institution" CssClass="alert alert-danger"></asp:RequiredFieldValidator>
 					</div>
                     <div class="col-md-6">
-						<asp:Label ID="Label27" runat="server" AssociatedControlID="TXT_DocLevelCredentials" Text="Doctoral degrees (Ph.D., Sc.D., M.D., Dr.PH., Pharm.D., MBBS, D.N.Sc, etc.)"></asp:Label>
+						<asp:Label ID="Label27" runat="server" AssociatedControlID="TXT_DocLevelCredentials" Text="Doctoral degrees (Ph.D., Sc.D., M.D., Dr.PH., Pharm.D., MBBS, D.N.Sc, etc.)*"></asp:Label>
 					  <asp:TextBox ID="TXT_DocLevelCredentials" class="form-control" runat="server"></asp:TextBox>
 						<asp:RequiredFieldValidator ID="RequiredFieldValidator21" runat="server" ControlToValidate="TXT_DocLevelCredentials" Display="Dynamic" ErrorMessage="Please indicate doctoral level credentials or equivalent." CssClass="alert alert-danger"></asp:RequiredFieldValidator>
 					</div>
@@ -191,8 +194,9 @@ height="0" width="0" style="display:none;visibility:hidden" title="Google Tag Ma
 							<asp:ListItem>Native Hawaiian or Other Pacific Islander</asp:ListItem>
 							<asp:ListItem>White</asp:ListItem>
 							<asp:ListItem>Prefer not to answer</asp:ListItem>
+							<asp:ListItem onclick="ShowHide(this,'TXT_Race_other');">Other</asp:ListItem>
 						</asp:CheckBoxList>
-						<asp:Label ID="Label13" runat="server" AssociatedControlID="TXT_Race_other" Text="Race (other)"></asp:Label>
+						<asp:Label ID="Label13" runat="server" AssociatedControlID="TXT_Race_other" Text="Race (other)" CssClass="sr-only"></asp:Label>
 					  <asp:TextBox ID="TXT_Race_other" class="form-control" runat="server"></asp:TextBox>
 
 						<asp:Label ID="Label23" runat="server" AssociatedControlID="TXT_AreYouHispanic" Text="Are you Hispanic or Latino? (A person of Cuban, Mexican, Puerto Rican, South or Central American, or other Spanish culture or origin, regardless of race.)"></asp:Label> 
@@ -251,8 +255,8 @@ height="0" width="0" style="display:none;visibility:hidden" title="Google Tag Ma
                     <div class="col-md-5">	
 						<asp:Label ID="Label24" runat="server" AssociatedControlID="TXT_Sector" Text="Setting (select no more than two)"></asp:Label>
 					  <asp:CheckBoxList ID="TXT_Sector" runat="server">
-							<asp:ListItem>Healthcare Delivery</asp:ListItem>
-							<asp:ListItem>Primary Care</asp:ListItem>
+							<asp:ListItem>Healthcare Setting (clinic, hospital)</asp:ListItem>
+							<asp:ListItem>Outpatient Care (primary, specialty, ambulatory care)</asp:ListItem>
 							<asp:ListItem>Workplace</asp:ListItem>
 							<asp:ListItem>Community (school, church, etc.)</asp:ListItem>
 							<asp:ListItem>Policy</asp:ListItem>
@@ -265,7 +269,7 @@ height="0" width="0" style="display:none;visibility:hidden" title="Google Tag Ma
 					<div class="col-md-7">
                         <asp:Label ID="Label17" runat="server" AssociatedControlID="TXT_Populations" Text="Population(s) (select no more than two)"></asp:Label>
 					    <asp:CheckBoxList ID="TXT_Populations" runat="server">
-							<asp:ListItem>Health Disparities/Underserved (include text field if desired)</asp:ListItem>
+							<asp:ListItem>Health Disparities/Underserved</asp:ListItem>
 							<asp:ListItem>Rural</asp:ListItem>
 							<asp:ListItem>Sexual Gender Minority</asp:ListItem>
 						</asp:CheckBoxList>
@@ -278,31 +282,13 @@ height="0" width="0" style="display:none;visibility:hidden" title="Google Tag Ma
 				<div class="row">
 					<div class="col-md-12">
 						<h3>Supporting Documents</h3>
-						<p>All items listed below must be combined into a single file (PDF format preferred) with a filename beginning with your last name followed by MLTI-application (e.g., “Smith-MLTI-application.pdf”).  All application components should be formatted with 1” margins on all sides and use a font size no smaller than 11-point. All documents must be either MS Word or Adobe PDF files and should not exceed 1 MB in file size.</p>
+						<p>All items listed below must be combined into a single file (PDF format preferred) with a filename beginning with your last name followed by MLTI-application (e.g., “Smith-MLTI-application.pdf”). All application components should be formatted with 1” margins on all sides and use a font size no smaller than 11-point. All documents must be either MS Word or Adobe PDF files and should not exceed 10 MB in file size.</p><ul><li>Personal Statement</li><li>Current NIH biosketch or Curriculum Vitae</li><li>Structured Abstract or Concept Paper</li><li>Letters of Recommendation</li></ul>
 						
-						<asp:Label ID="Label18" runat="server" AssociatedControlID="UP_PersonalStatement_File" Text="Personal Statement To Upload*"></asp:Label>
+						<asp:Label ID="Label18" runat="server" AssociatedControlID="UP_PersonalStatement_File" Text="Supporting Documents to Upload*"></asp:Label>
 						<asp:FileUpload ID="UP_PersonalStatement_File" class="form-control" runat="server" />
 						<asp:RequiredFieldValidator ID="RequiredFieldValidator12" runat="server" ControlToValidate="UP_PersonalStatement_File" Display="Dynamic" ErrorMessage="Please add an attachment." CssClass="alert alert-danger"></asp:RequiredFieldValidator> 
 						<asp:RegularExpressionValidator ID="RegularExpressionValidator3" ValidationExpression="([a-zA-Z0-9\s_\\.\-:])+(.doc|.docx|.pdf)$" ControlToValidate="UP_PersonalStatement_File" runat="server" ErrorMessage="Please select a valid Word or PDF File file." Display="Dynamic" CssClass="alert alert-danger" />
-						<asp:CustomValidator ID="CustomValidator1" runat="server" ControlToValidate="UP_PersonalStatement_File" Display="Dynamic" ErrorMessage="File size should not be greater than 1 MB." CssClass="alert alert-danger" OnServerValidate="CustomValidator1_ServerValidate"></asp:CustomValidator>
-						
-                        <asp:Label ID="Label20" runat="server" AssociatedControlID="UP_Curriculum_File" Text="Current NIH biosketch or Curriculum Vitae To Upload*"></asp:Label>
-						<asp:FileUpload ID="UP_Curriculum_File" class="form-control" runat="server" />
-						<asp:RequiredFieldValidator ID="RequiredFieldValidator16" runat="server" ControlToValidate="UP_Curriculum_File" Display="Dynamic" ErrorMessage="Please add an attachment." CssClass="alert alert-danger"></asp:RequiredFieldValidator> 
-						<asp:RegularExpressionValidator ID="RegularExpressionValidator5" ValidationExpression="([a-zA-Z0-9\s_\\.\-:])+(.doc|.docx|.pdf)$" ControlToValidate="UP_Curriculum_File" runat="server" ErrorMessage="Please select a valid Word or PDF File file." Display="Dynamic" CssClass="alert alert-danger" />
-						<asp:CustomValidator ID="CustomValidator3" runat="server" ControlToValidate="UP_Curriculum_File" Display="Dynamic" ErrorMessage="File size should not be greater than 1 MB." CssClass="alert alert-danger" OnServerValidate="CustomValidator3_ServerValidate"></asp:CustomValidator>
-						
-						<asp:Label ID="Label21" runat="server" AssociatedControlID="UP_ConceptPaper_File" Text="Structured Abstract or Concept Paper To Upload*"></asp:Label>
-						<asp:FileUpload ID="UP_ConceptPaper_File" class="form-control" runat="server" />
-						<asp:RequiredFieldValidator ID="RequiredFieldValidator18" runat="server" ControlToValidate="UP_ConceptPaper_File" Display="Dynamic" ErrorMessage="Please add an attachment." CssClass="alert alert-danger"></asp:RequiredFieldValidator> 
-						<asp:RegularExpressionValidator ID="RegularExpressionValidator6" ValidationExpression="([a-zA-Z0-9\s_\\.\-:])+(.doc|.docx|.pdf)$" ControlToValidate="UP_ConceptPaper_File" runat="server" ErrorMessage="Please select a valid Word or PDF File file." Display="Dynamic" CssClass="alert alert-danger" />
-						<asp:CustomValidator ID="CustomValidator4" runat="server" ControlToValidate="UP_ConceptPaper_File" Display="Dynamic" ErrorMessage="File size should not be greater than 1 MB." CssClass="alert alert-danger" OnServerValidate="CustomValidator4_ServerValidate"></asp:CustomValidator>
-						
-						<asp:Label ID="Label19" runat="server" AssociatedControlID="UP_LettersOfRec_File" Text="Letters of Recommendation To Upload*"></asp:Label>
-						<asp:FileUpload ID="UP_LettersOfRec_File" class="form-control" runat="server" />
-						<asp:RequiredFieldValidator ID="RequiredFieldValidator15" runat="server" ControlToValidate="UP_LettersOfRec_File" Display="Dynamic" ErrorMessage="Please add an attachment." CssClass="alert alert-danger"></asp:RequiredFieldValidator> 
-						<asp:RegularExpressionValidator ID="RegularExpressionValidator4" ValidationExpression="([a-zA-Z0-9\s_\\.\-:])+(.doc|.docx|.pdf)$" ControlToValidate="UP_LettersOfRec_File" runat="server" ErrorMessage="Please select a valid Word or PDF File file." Display="Dynamic" CssClass="alert alert-danger" />
-                        <asp:CustomValidator ID="CustomValidator2" runat="server" ControlToValidate="UP_LettersOfRec_File" Display="Dynamic" ErrorMessage="File size should not be greater than 1 MB." CssClass="alert alert-danger" OnServerValidate="CustomValidator2_ServerValidate"></asp:CustomValidator>
+						<asp:CustomValidator ID="CustomValidator1" runat="server" ControlToValidate="UP_PersonalStatement_File" Display="Dynamic" ErrorMessage="File size should not be greater than 5 MB." CssClass="alert alert-danger" OnServerValidate="CustomValidator1_ServerValidate"></asp:CustomValidator>
 						
 						<hr>
 						<asp:Button ID="BTN_UploadClicked" class="btn btn-default btn-inline" runat="server" Text="Submit Application" /> <br>
@@ -465,6 +451,22 @@ height="0" width="0" style="display:none;visibility:hidden" title="Google Tag Ma
             $('#LunchDay2Selection').css("display", "none");
         }
     });
+    ctrltxt = document.getElementById("TXT_Race_other");
+    ctrltxt.style.display = 'none';
+    function ShowHide(chk, txt) {
+        //Get the Textbox based on selected checkbox
+        console.log(txt)
+        ctrltxt = document.getElementById(txt);
+        //Check if checkbox is checked or not
+        if (chk.checked) {
+            //Show the Textbox
+            ctrltxt.style.display = 'block';
+        }
+        else {
+            //Hide the textbox
+            ctrltxt.style.display = 'none';
+        }
+    }
 </script>
 <!-- Web Analytics -->
 <script type="text/javascript" src="https://static.cancer.gov/webanalytics/WA_DCCPS_PageLoad.js"></script>
