@@ -408,11 +408,6 @@
   <priority>0.64</priority>
 </url>
 <url>
-  <loc>https://cancercontrol.cancer.gov/IS/career.html</loc>
-  <lastmod>2019-11-13T18:33:31+00:00</lastmod>
-  <priority>0.64</priority>
-</url>
-<url>
   <loc>https://cancercontrol.cancer.gov/IS/index.html</loc>
   <lastmod>2019-11-13T18:33:33+00:00</lastmod>
   <priority>0.64</priority>
@@ -2269,11 +2264,6 @@
 </url>
 <url>
   <loc>https://cancercontrol.cancer.gov/IS/blog/2018/06-trials-in-implementation-science.html</loc>
-  <lastmod>2019-11-13T18:33:31+00:00</lastmod>
-  <priority>0.51</priority>
-</url>
-<url>
-  <loc>https://cancercontrol.cancer.gov/IS/about/health-scientist.html</loc>
   <lastmod>2019-11-13T18:33:31+00:00</lastmod>
   <priority>0.51</priority>
 </url>
