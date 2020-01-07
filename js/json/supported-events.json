@@ -1,12 +1,12 @@
 {
     "events": [
 		{
-			"eventtitle":"Ethical Dimensions of Physician Communications Regarding E-cigarettes",
-			"eventurl":"https://epi.grants.cancer.gov/events/enrich-forum/index.html#delnevo",
-			"eventdatemonth":"December",
-			"eventdateday":"19",
+			"eventtitle":"Canaries in the Coal Mine: What We Can Learn about Aging from Survivors of Childhood Cancer",
+			"eventurl":"https://cancercontrol.cancer.gov/funding-foa-applicants.html#collapse-28",
+			"eventdatemonth":"January",
+			"eventdateday":"14",
 			"eventtype":"Webinar",
-            "fulldate":"2019-12-19T18:00:00.000Z"
+            "fulldate":"2020-01-14T18:00:00.000Z"
         },
 		{
 			"eventtitle":"Ethical Challenges in Rapid Tissue Autopsy Programs",
@@ -25,12 +25,36 @@
             "fulldate":"2020-02-04T18:00:00.000Z"
         },
 		{
+			"eventtitle":"Electronic Medical Record Search Engine (EMERSE) for Research on Rare Cancers",
+			"eventurl":"https://epi.grants.cancer.gov/events/rare-cancer/index.html#hanauer",
+			"eventdatemonth":"February",
+			"eventdateday":"18",
+			"eventtype":"Webinar",
+            "fulldate":"2020-02-18T18:00:00.000Z"
+        },
+		{
 			"eventtitle":"Expansion of an Oncology Care Coordination Nurse Model to Reduce Hospitalizations and Emergency Department Utilization",
 			"eventurl":"https://healthcaredelivery.cancer.gov/media/expansion.html",
 			"eventdatemonth":"February",
 			"eventdateday":"25",
 			"eventtype":"Webinar",
             "fulldate":"2020-02-25T18:00:00.000Z"
+        },
+		{
+			"eventtitle":"Methods of Functional Annotation of Genetic Variants",
+			"eventurl":"https://epi.grants.cancer.gov/events/seqSPACE/index.html#roth",
+			"eventdatemonth":"March",
+			"eventdateday":"24",
+			"eventtype":"Webinar",
+            "fulldate":"2020-03-24T18:00:00.000Z"
+        },
+		{
+			"eventtitle":"Sequencing in Diverse Populations",
+			"eventurl":"https://epi.grants.cancer.gov/events/seqSPACE/index.html#kenny",
+			"eventdatemonth":"May",
+			"eventdateday":"12",
+			"eventtype":"Webinar",
+            "fulldate":"2020-05-12T18:00:00.000Z"
         },
 		{
 			"eventtitle":"The Evolving Role of the Financial Counselor in an Oncology Care Model Pilot Program",
@@ -41,12 +65,28 @@
             "fulldate":"2020-05-26T18:00:00.000Z"
         },
 		{
+			"eventtitle":"Polygenic Risk Scores",
+			"eventurl":"https://epi.grants.cancer.gov/events/seqSPACE/index.html#chatterjee",
+			"eventdatemonth":"September",
+			"eventdateday":"15",
+			"eventtype":"Webinar",
+            "fulldate":"2020-09-15T18:00:00.000Z"
+        },
+		{
+			"eventtitle":"Leveraging Cross-Cancer Shared Heritability to Better Understand the Genetic Architecture of Cancer",
+			"eventurl":"https://epi.grants.cancer.gov/events/seqSPACE/index.html#lindstroem",
+			"eventdatemonth":"October",
+			"eventdateday":"13",
+			"eventtype":"Webinar",
+            "fulldate":"2020-10-13T18:00:00.000Z"
+        },
+		{
 			"eventtitle":"Current Approaches for Addressing Medical Financial Hardship in the Context of Cancer Care Delivery",
 			"eventurl":"https://healthcaredelivery.cancer.gov/media/approaches.html",
 			"eventdatemonth":"TBD",
 			"eventdateday":"",
 			"eventtype":"Webinar",
-            "fulldate":"2020-12-31T18:00:00.000Z"
+            "fulldate":"2021-12-31T18:00:00.000Z"
         }
     ]
 }
