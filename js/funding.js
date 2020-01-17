@@ -30,7 +30,8 @@
 			{ "bVisible": false },
 			{ "bVisible": false }
 		],
-		"autoWidth": true
+		"autoWidth": true,
+		"stateSave": true
 	} );	
 		
 	$(".dataTables_filter input").attr("placeholder", "Enter search terms here");
@@ -101,7 +102,7 @@
 	param = decodeURI(getUrlVars()["type"]);
 	param = param.replace(/\+/g,' ').replace(/\,/g,'%2C');
 	jQuery.each(param.split("%2C"), function (i, val) {
-		$(":checkbox[name='type'][value='" + val + "']").prop("checked", true);
+		$(":checkbox[name='type'][value='" + val + "']").prop("checked", true);	
 		typeClicked();
 	});
 	param = decodeURI(getUrlVars()["search"]);
@@ -114,6 +115,12 @@
 		$('#example_filter input').val("hey");
 		table.fnFilter(param);
 	}
+
+	table.on('page.dt', function() {
+	  $('html, body').animate({
+		scrollTop: $(".dataTables_wrapper").offset().top
+	   }, 'slow');
+	});
 });
 		
 function getUrlVars() {
