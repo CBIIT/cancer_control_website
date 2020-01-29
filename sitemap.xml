@@ -8,2473 +8,428 @@
 
 
 <url>
-  <loc>https://cancercontrol.cancer.gov/</loc>
-  <lastmod>2019-11-13T18:34:54+00:00</lastmod>
+  <loc>https://cancercontrol.cancer.gov/IS/</loc>
+  <lastmod>2020-01-25T11:35:05+00:00</lastmod>
   <priority>1.00</priority>
 </url>
 <url>
-  <loc>https://cancercontrol.cancer.gov/index.html</loc>
-  <lastmod>2019-11-13T18:34:54+00:00</lastmod>
-  <priority>0.80</priority>
-</url>
-<url>
-  <loc>https://cancercontrol.cancer.gov/program_areas.html</loc>
-  <lastmod>2019-11-13T18:35:05+00:00</lastmod>
-  <priority>0.80</priority>
-</url>
-<url>
-  <loc>https://cancercontrol.cancer.gov/brp/</loc>
-  <lastmod>2019-11-13T18:33:55+00:00</lastmod>
-  <priority>0.80</priority>
-</url>
-<url>
-  <loc>https://cancercontrol.cancer.gov/IS/</loc>
-  <lastmod>2019-11-13T18:33:33+00:00</lastmod>
-  <priority>0.80</priority>
-</url>
-<url>
-  <loc>https://cancercontrol.cancer.gov/ocs/</loc>
-  <lastmod>2019-11-13T18:35:00+00:00</lastmod>
-  <priority>0.80</priority>
-</url>
-<url>
-  <loc>https://cancercontrol.cancer.gov/current_research.html</loc>
-  <lastmod>2019-11-13T18:34:51+00:00</lastmod>
-  <priority>0.80</priority>
-</url>
-<url>
-  <loc>https://cancercontrol.cancer.gov/research_initiative.html</loc>
-  <lastmod>2019-11-13T18:35:05+00:00</lastmod>
-  <priority>0.80</priority>
-</url>
-<url>
-  <loc>https://cancercontrol.cancer.gov/funding.html</loc>
-  <lastmod>2019-11-13T18:34:53+00:00</lastmod>
-  <priority>0.80</priority>
-</url>
-<url>
-  <loc>https://cancercontrol.cancer.gov/funding_apply.html</loc>
-  <lastmod>2019-11-13T18:34:53+00:00</lastmod>
-  <priority>0.80</priority>
-</url>
-<url>
-  <loc>https://cancercontrol.cancer.gov/funding_career.html</loc>
-  <lastmod>2019-11-13T18:34:53+00:00</lastmod>
-  <priority>0.80</priority>
-</url>
-<url>
-  <loc>https://cancercontrol.cancer.gov/funding_info.html</loc>
-  <lastmod>2019-11-13T18:34:53+00:00</lastmod>
-  <priority>0.80</priority>
-</url>
-<url>
-  <loc>https://cancercontrol.cancer.gov/policy_info.html</loc>
-  <lastmod>2019-11-13T18:35:05+00:00</lastmod>
-  <priority>0.80</priority>
-</url>
-<url>
-  <loc>https://cancercontrol.cancer.gov/new_grantees/index.html</loc>
-  <lastmod>2019-11-13T18:34:56+00:00</lastmod>
-  <priority>0.80</priority>
-</url>
-<url>
-  <loc>https://cancercontrol.cancer.gov/funding_archive.html</loc>
-  <lastmod>2019-11-13T18:34:53+00:00</lastmod>
-  <priority>0.80</priority>
-</url>
-<url>
-  <loc>https://cancercontrol.cancer.gov/cancer_resources.html</loc>
-  <lastmod>2019-11-13T18:34:51+00:00</lastmod>
-  <priority>0.80</priority>
-</url>
-<url>
-  <loc>https://cancercontrol.cancer.gov/observational-data.html</loc>
-  <lastmod>2019-11-13T18:34:59+00:00</lastmod>
-  <priority>0.80</priority>
-</url>
-<url>
-  <loc>https://cancercontrol.cancer.gov/cr-tracking.html</loc>
-  <lastmod>2019-11-13T18:34:51+00:00</lastmod>
-  <priority>0.80</priority>
-</url>
-<url>
-  <loc>https://cancercontrol.cancer.gov/cr-reports.html</loc>
-  <lastmod>2019-11-13T18:34:51+00:00</lastmod>
-  <priority>0.80</priority>
-</url>
-<url>
-  <loc>https://cancercontrol.cancer.gov/cr-dataset.html</loc>
-  <lastmod>2019-11-13T18:34:51+00:00</lastmod>
-  <priority>0.80</priority>
-</url>
-<url>
-  <loc>https://cancercontrol.cancer.gov/cr-pub-funded-init.html</loc>
-  <lastmod>2019-11-13T18:34:51+00:00</lastmod>
-  <priority>0.80</priority>
-</url>
-<url>
-  <loc>https://cancercontrol.cancer.gov/cr-pub-funded-datasets.html</loc>
-  <lastmod>2019-11-13T18:34:51+00:00</lastmod>
-  <priority>0.80</priority>
-</url>
-<url>
-  <loc>https://cancercontrol.cancer.gov/cr-communication-videos.html</loc>
-  <lastmod>2019-11-13T18:34:51+00:00</lastmod>
-  <priority>0.80</priority>
-</url>
-<url>
-  <loc>https://cancercontrol.cancer.gov/infographics.html</loc>
-  <lastmod>2019-11-13T18:34:54+00:00</lastmod>
-  <priority>0.80</priority>
-</url>
-<url>
-  <loc>https://cancercontrol.cancer.gov/research-emphasis/index.html</loc>
-  <lastmod>2019-11-13T18:35:05+00:00</lastmod>
-  <priority>0.80</priority>
-</url>
-<url>
-  <loc>https://cancercontrol.cancer.gov/research-emphasis/health-disparities.html</loc>
-  <lastmod>2019-11-13T18:35:05+00:00</lastmod>
-  <priority>0.80</priority>
-</url>
-<url>
-  <loc>https://cancercontrol.cancer.gov/research-emphasis/rural.html</loc>
-  <lastmod>2019-11-13T18:35:05+00:00</lastmod>
-  <priority>0.80</priority>
-</url>
-<url>
-  <loc>https://cancercontrol.cancer.gov/research-emphasis/supplement.html</loc>
-  <lastmod>2019-11-13T18:35:05+00:00</lastmod>
-  <priority>0.80</priority>
-</url>
-<url>
-  <loc>https://cancercontrol.cancer.gov/research-emphasis/moonshot.html</loc>
-  <lastmod>2019-11-13T18:35:05+00:00</lastmod>
-  <priority>0.80</priority>
-</url>
-<url>
-  <loc>https://cancercontrol.cancer.gov/od/index.html</loc>
-  <lastmod>2019-11-13T18:35:00+00:00</lastmod>
-  <priority>0.80</priority>
-</url>
-<url>
-  <loc>https://cancercontrol.cancer.gov/od/aboutcc.html</loc>
-  <lastmod>2019-11-13T18:35:00+00:00</lastmod>
-  <priority>0.80</priority>
-</url>
-<url>
-  <loc>https://cancercontrol.cancer.gov/od/aboutdiv.html</loc>
-  <lastmod>2019-11-13T18:35:00+00:00</lastmod>
-  <priority>0.80</priority>
-</url>
-<url>
-  <loc>https://cancercontrol.cancer.gov/od/fellowship-opportunities.html</loc>
-  <lastmod>2019-11-13T18:35:00+00:00</lastmod>
-  <priority>0.80</priority>
-</url>
-<url>
-  <loc>https://cancercontrol.cancer.gov/od/supported-events.html</loc>
-  <lastmod>2019-11-13T18:35:00+00:00</lastmod>
-  <priority>0.80</priority>
-</url>
-<url>
-  <loc>https://cancercontrol.cancer.gov/od/history.html</loc>
-  <lastmod>2019-11-13T18:35:00+00:00</lastmod>
-  <priority>0.80</priority>
-</url>
-<url>
-  <loc>https://cancercontrol.cancer.gov/od/meet_staff.html</loc>
-  <lastmod>2019-11-13T18:35:00+00:00</lastmod>
-  <priority>0.80</priority>
-</url>
-<url>
-  <loc>https://cancercontrol.cancer.gov/brp/funding/</loc>
-  <lastmod>2019-11-13T18:33:51+00:00</lastmod>
-  <priority>0.64</priority>
-</url>
-<url>
-  <loc>https://cancercontrol.cancer.gov/brp/funding/funding-opportunities.html</loc>
-  <lastmod>2019-11-13T18:33:51+00:00</lastmod>
-  <priority>0.64</priority>
-</url>
-<url>
-  <loc>https://cancercontrol.cancer.gov/brp/funding/sample-application.html</loc>
-  <lastmod>2019-11-13T18:33:51+00:00</lastmod>
-  <priority>0.64</priority>
-</url>
-<url>
-  <loc>https://cancercontrol.cancer.gov/brp/priority-areas/</loc>
-  <lastmod>2019-11-13T18:34:08+00:00</lastmod>
-  <priority>0.64</priority>
-</url>
-<url>
-  <loc>https://cancercontrol.cancer.gov/brp/tcrb/</loc>
-  <lastmod>2019-11-13T18:34:12+00:00</lastmod>
-  <priority>0.64</priority>
-</url>
-<url>
-  <loc>https://cancercontrol.cancer.gov/brp/hbrb/dietary_behaviors.html</loc>
-  <lastmod>2019-11-13T18:33:51+00:00</lastmod>
-  <priority>0.64</priority>
-</url>
-<url>
-  <loc>https://cancercontrol.cancer.gov/brp/hbrb/sun-protection.html</loc>
-  <lastmod>2019-11-13T18:33:54+00:00</lastmod>
-  <priority>0.64</priority>
-</url>
-<url>
-  <loc>https://cancercontrol.cancer.gov/brp/bbpsb/affect-emotion-and-cognition.html</loc>
-  <lastmod>2019-11-13T18:33:44+00:00</lastmod>
-  <priority>0.64</priority>
-</url>
-<url>
-  <loc>https://cancercontrol.cancer.gov/brp/hcirb/social-media.html</loc>
-  <lastmod>2019-11-13T18:33:54+00:00</lastmod>
-  <priority>0.64</priority>
-</url>
-<url>
-  <loc>https://cancercontrol.cancer.gov/brp/priority-areas/big-data.html</loc>
-  <lastmod>2019-11-13T18:34:08+00:00</lastmod>
-  <priority>0.64</priority>
-</url>
-<url>
-  <loc>https://cancercontrol.cancer.gov/brp/bbpsb/aging-trajectories.html</loc>
-  <lastmod>2019-11-13T18:33:44+00:00</lastmod>
-  <priority>0.64</priority>
-</url>
-<url>
-  <loc>https://cancercontrol.cancer.gov/brp/bbpsb/cognitive-changes/perception.html</loc>
-  <lastmod>2019-11-13T18:33:44+00:00</lastmod>
-  <priority>0.64</priority>
-</url>
-<url>
-  <loc>https://cancercontrol.cancer.gov/brp/research/index.html</loc>
-  <lastmod>2019-11-13T18:34:09+00:00</lastmod>
-  <priority>0.64</priority>
-</url>
-<url>
-  <loc>https://cancercontrol.cancer.gov/brp/program-branches.html</loc>
-  <lastmod>2019-11-13T18:34:08+00:00</lastmod>
-  <priority>0.64</priority>
-</url>
-<url>
-  <loc>https://cancercontrol.cancer.gov/brp/bbpsb/index.html</loc>
-  <lastmod>2019-11-13T18:33:48+00:00</lastmod>
-  <priority>0.64</priority>
-</url>
-<url>
-  <loc>https://cancercontrol.cancer.gov/brp/hbrb/index.html</loc>
-  <lastmod>2019-11-13T18:33:54+00:00</lastmod>
-  <priority>0.64</priority>
-</url>
-<url>
-  <loc>https://cancercontrol.cancer.gov/brp/hcirb/index.html</loc>
-  <lastmod>2019-11-13T18:33:54+00:00</lastmod>
-  <priority>0.64</priority>
-</url>
-<url>
-  <loc>https://cancercontrol.cancer.gov/brp/tcrb/index.html</loc>
-  <lastmod>2019-11-13T18:34:12+00:00</lastmod>
-  <priority>0.64</priority>
-</url>
-<url>
-  <loc>https://cancercontrol.cancer.gov/brp/about.html</loc>
-  <lastmod>2019-11-13T18:33:42+00:00</lastmod>
-  <priority>0.64</priority>
-</url>
-<url>
-  <loc>https://cancercontrol.cancer.gov/brp/career_training.html</loc>
-  <lastmod>2019-11-13T18:33:48+00:00</lastmod>
-  <priority>0.64</priority>
-</url>
-<url>
-  <loc>https://cancercontrol.cancer.gov/brp/events.html</loc>
-  <lastmod>2019-11-13T18:33:51+00:00</lastmod>
-  <priority>0.64</priority>
-</url>
-<url>
-  <loc>https://cancercontrol.cancer.gov/funding-foa-applicants.html</loc>
-  <lastmod>2019-11-13T18:34:53+00:00</lastmod>
-  <priority>0.64</priority>
-</url>
-<url>
-  <loc>https://cancercontrol.cancer.gov/brp/e-newsletter/index.html</loc>
-  <lastmod>2019-11-13T18:33:51+00:00</lastmod>
-  <priority>0.64</priority>
-</url>
-<url>
-  <loc>https://cancercontrol.cancer.gov/brp/funding/index.html</loc>
-  <lastmod>2019-11-13T18:33:51+00:00</lastmod>
-  <priority>0.64</priority>
-</url>
-<url>
-  <loc>https://cancercontrol.cancer.gov/brp/tcrb/tus-cps/questionnaires.html</loc>
-  <lastmod>2019-11-13T18:34:31+00:00</lastmod>
-  <priority>0.64</priority>
-</url>
-<url>
-  <loc>https://cancercontrol.cancer.gov/brp/e-newsletter/2019-spring.html</loc>
-  <lastmod>2019-11-13T18:33:50+00:00</lastmod>
-  <priority>0.64</priority>
-</url>
-<url>
-  <loc>https://cancercontrol.cancer.gov/brp/index.html</loc>
-  <lastmod>2019-11-13T18:33:55+00:00</lastmod>
-  <priority>0.64</priority>
-</url>
-<url>
-  <loc>https://cancercontrol.cancer.gov/brp/archive/index.html</loc>
-  <lastmod>2019-11-13T18:33:43+00:00</lastmod>
-  <priority>0.64</priority>
-</url>
-<url>
   <loc>https://cancercontrol.cancer.gov/IS/funding.html</loc>
-  <lastmod>2019-11-13T18:33:33+00:00</lastmod>
-  <priority>0.64</priority>
+  <lastmod>2020-01-25T11:35:04+00:00</lastmod>
+  <priority>0.80</priority>
 </url>
 <url>
   <loc>https://cancercontrol.cancer.gov/IS/sample-grant-applications.html</loc>
-  <lastmod>2019-11-13T18:33:37+00:00</lastmod>
-  <priority>0.64</priority>
+  <lastmod>2020-01-25T11:35:11+00:00</lastmod>
+  <priority>0.80</priority>
 </url>
 <url>
   <loc>https://cancercontrol.cancer.gov/IS/funding-webinars.html</loc>
-  <lastmod>2019-11-13T18:33:33+00:00</lastmod>
-  <priority>0.64</priority>
+  <lastmod>2020-01-25T11:35:04+00:00</lastmod>
+  <priority>0.80</priority>
 </url>
 <url>
   <loc>https://cancercontrol.cancer.gov/IS/initiatives/index.html</loc>
-  <lastmod>2019-11-13T18:33:33+00:00</lastmod>
-  <priority>0.64</priority>
+  <lastmod>2020-01-25T11:35:05+00:00</lastmod>
+  <priority>0.80</priority>
 </url>
 <url>
   <loc>https://cancercontrol.cancer.gov/IS/initiatives/iscc.html</loc>
-  <lastmod>2019-11-13T18:33:33+00:00</lastmod>
-  <priority>0.64</priority>
+  <lastmod>2020-01-25T11:35:05+00:00</lastmod>
+  <priority>0.80</priority>
 </url>
 <url>
   <loc>https://cancercontrol.cancer.gov/IS/initiatives/ISC3.html</loc>
-  <lastmod>2019-11-13T18:33:33+00:00</lastmod>
-  <priority>0.64</priority>
+  <lastmod>2020-01-25T11:35:05+00:00</lastmod>
+  <priority>0.80</priority>
 </url>
 <url>
   <loc>https://cancercontrol.cancer.gov/IS/training-education/index.html</loc>
-  <lastmod>2019-11-13T18:33:37+00:00</lastmod>
-  <priority>0.64</priority>
+  <lastmod>2020-01-25T11:35:11+00:00</lastmod>
+  <priority>0.80</priority>
 </url>
 <url>
   <loc>https://cancercontrol.cancer.gov/IS/training-education/training.html</loc>
-  <lastmod>2019-11-13T18:33:37+00:00</lastmod>
-  <priority>0.64</priority>
+  <lastmod>2020-01-25T11:35:11+00:00</lastmod>
+  <priority>0.80</priority>
 </url>
 <url>
   <loc>https://cancercontrol.cancer.gov/IS/training-education/Webinars.aspx</loc>
-  <lastmod>2019-11-13T18:52:22+00:00</lastmod>
-  <priority>0.64</priority>
+  <lastmod>2020-01-28T23:21:30+00:00</lastmod>
+  <priority>0.80</priority>
 </url>
 <url>
   <loc>https://cancercontrol.cancer.gov/IS/tools/index.html</loc>
-  <lastmod>2019-11-13T18:33:37+00:00</lastmod>
-  <priority>0.64</priority>
+  <lastmod>2020-01-25T11:35:11+00:00</lastmod>
+  <priority>0.80</priority>
 </url>
 <url>
   <loc>https://cancercontrol.cancer.gov/IS/tools/research.html</loc>
-  <lastmod>2019-11-13T18:33:37+00:00</lastmod>
-  <priority>0.64</priority>
+  <lastmod>2020-01-25T11:35:11+00:00</lastmod>
+  <priority>0.80</priority>
 </url>
 <url>
   <loc>https://cancercontrol.cancer.gov/IS/tools/practice.html</loc>
-  <lastmod>2019-11-13T18:33:37+00:00</lastmod>
-  <priority>0.64</priority>
+  <lastmod>2020-01-25T11:35:11+00:00</lastmod>
+  <priority>0.80</priority>
 </url>
 <url>
   <loc>https://cancercontrol.cancer.gov/IS/tools/partnerships.html</loc>
-  <lastmod>2019-11-13T18:33:37+00:00</lastmod>
-  <priority>0.64</priority>
+  <lastmod>2020-01-25T11:35:11+00:00</lastmod>
+  <priority>0.80</priority>
 </url>
 <url>
   <loc>https://cancercontrol.cancer.gov/IS/about.html</loc>
-  <lastmod>2019-11-13T18:33:31+00:00</lastmod>
-  <priority>0.64</priority>
+  <lastmod>2020-01-25T11:35:01+00:00</lastmod>
+  <priority>0.80</priority>
 </url>
 <url>
   <loc>https://cancercontrol.cancer.gov/IS/staff.html</loc>
-  <lastmod>2019-11-13T18:33:37+00:00</lastmod>
-  <priority>0.64</priority>
+  <lastmod>2020-01-25T11:35:11+00:00</lastmod>
+  <priority>0.80</priority>
 </url>
 <url>
   <loc>https://cancercontrol.cancer.gov/IS/blog/index.html</loc>
-  <lastmod>2019-11-13T18:33:31+00:00</lastmod>
-  <priority>0.64</priority>
+  <lastmod>2020-01-25T11:35:01+00:00</lastmod>
+  <priority>0.80</priority>
 </url>
 <url>
   <loc>https://cancercontrol.cancer.gov/IS/index.html</loc>
-  <lastmod>2019-11-13T18:33:33+00:00</lastmod>
-  <priority>0.64</priority>
+  <lastmod>2020-01-25T11:35:05+00:00</lastmod>
+  <priority>0.80</priority>
 </url>
 <url>
-  <loc>https://cancercontrol.cancer.gov/ocs/statistics/index.html</loc>
-  <lastmod>2019-11-13T18:35:00+00:00</lastmod>
-  <priority>0.64</priority>
-</url>
-<url>
-  <loc>https://cancercontrol.cancer.gov/ocs/resources/index.html</loc>
-  <lastmod>2019-11-13T18:35:00+00:00</lastmod>
-  <priority>0.64</priority>
-</url>
-<url>
-  <loc>https://cancercontrol.cancer.gov/ocs/resources/survivors.html</loc>
-  <lastmod>2019-11-13T18:35:00+00:00</lastmod>
-  <priority>0.64</priority>
-</url>
-<url>
-  <loc>https://cancercontrol.cancer.gov/ocs/resources/researchers.html</loc>
-  <lastmod>2019-11-13T18:35:00+00:00</lastmod>
-  <priority>0.64</priority>
-</url>
-<url>
-  <loc>https://cancercontrol.cancer.gov/ocs/resources/healthcare.html</loc>
-  <lastmod>2019-11-13T18:35:00+00:00</lastmod>
-  <priority>0.64</priority>
-</url>
-<url>
-  <loc>https://cancercontrol.cancer.gov/ocs/resources/advocates.html</loc>
-  <lastmod>2019-11-13T18:35:00+00:00</lastmod>
-  <priority>0.64</priority>
-</url>
-<url>
-  <loc>https://cancercontrol.cancer.gov/ocs/resources/survivor-stories/index.html</loc>
-  <lastmod>2019-11-13T18:35:00+00:00</lastmod>
-  <priority>0.64</priority>
-</url>
-<url>
-  <loc>https://cancercontrol.cancer.gov/ocs/funding/index.html</loc>
-  <lastmod>2019-11-13T18:34:59+00:00</lastmod>
-  <priority>0.64</priority>
-</url>
-<url>
-  <loc>https://cancercontrol.cancer.gov/funding_apply.html?category=Cancer+Survivorship</loc>
-  <lastmod>2019-11-13T18:34:53+00:00</lastmod>
-  <priority>0.64</priority>
-</url>
-<url>
-  <loc>https://cancercontrol.cancer.gov/ocs/about/index.html</loc>
-  <lastmod>2019-11-13T18:34:59+00:00</lastmod>
-  <priority>0.64</priority>
-</url>
-<url>
-  <loc>https://cancercontrol.cancer.gov/ocs/about/director-page.html</loc>
-  <lastmod>2019-11-13T18:34:59+00:00</lastmod>
-  <priority>0.64</priority>
-</url>
-<url>
-  <loc>https://cancercontrol.cancer.gov/ocs/about/staff.html</loc>
-  <lastmod>2019-11-13T18:34:59+00:00</lastmod>
-  <priority>0.64</priority>
-</url>
-<url>
-  <loc>https://cancercontrol.cancer.gov/ocs/resources/news.html</loc>
-  <lastmod>2019-11-13T18:35:00+00:00</lastmod>
-  <priority>0.64</priority>
-</url>
-<url>
-  <loc>https://cancercontrol.cancer.gov/ocs/resources/ffseries.html</loc>
-  <lastmod>2019-11-13T18:35:00+00:00</lastmod>
-  <priority>0.64</priority>
-</url>
-<url>
-  <loc>https://cancercontrol.cancer.gov/ocs/index.html</loc>
-  <lastmod>2019-11-13T18:35:00+00:00</lastmod>
-  <priority>0.64</priority>
-</url>
-<url>
-  <loc>https://cancercontrol.cancer.gov/od/srinivasan.html</loc>
-  <lastmod>2019-11-13T18:35:00+00:00</lastmod>
+  <loc>https://cancercontrol.cancer.gov/IS/docs/DCCPS-DI-PAR-Factsheet.pdf</loc>
+  <lastmod>2020-01-25T11:35:02+00:00</lastmod>
   <priority>0.64</priority>
 </url>
 <url>
   <loc>https://cancercontrol.cancer.gov/IS/staff/Neta.html</loc>
-  <lastmod>2019-11-13T18:33:37+00:00</lastmod>
+  <lastmod>2020-01-25T11:35:11+00:00</lastmod>
   <priority>0.64</priority>
-</url>
-<url>
-  <loc>https://cancercontrol.cancer.gov/docs/acknowledgementFAQs.pdf</loc>
-  <lastmod>2019-11-13T18:34:52+00:00</lastmod>
-  <priority>0.64</priority>
-</url>
-<url>
-  <loc>https://cancercontrol.cancer.gov/docs/acknowledgementLettertograntees.pdf</loc>
-  <lastmod>2019-11-13T18:34:52+00:00</lastmod>
-  <priority>0.64</priority>
-</url>
-<url>
-  <loc>https://cancercontrol.cancer.gov/new_grantees/workshop-2017.html</loc>
-  <lastmod>2019-11-13T18:34:59+00:00</lastmod>
-  <priority>0.64</priority>
-</url>
-<url>
-  <loc>https://cancercontrol.cancer.gov/new_grantees/workshop.html</loc>
-  <lastmod>2019-11-13T18:34:59+00:00</lastmod>
-  <priority>0.64</priority>
-</url>
-<url>
-  <loc>https://cancercontrol.cancer.gov/docs/Method_Measure_Behavior_Social_Sciences_1007.pdf</loc>
-  <lastmod>2019-11-13T18:34:52+00:00</lastmod>
-  <priority>0.64</priority>
-</url>
-<url>
-  <loc>https://cancercontrol.cancer.gov/brp/archive/ceccr/</loc>
-  <lastmod>2019-11-13T18:33:43+00:00</lastmod>
-  <priority>0.64</priority>
-</url>
-<url>
-  <loc>https://cancercontrol.cancer.gov/IS/pdfs/DIPAROrientWebPosting082806.pdf</loc>
-  <lastmod>2019-11-13T18:33:34+00:00</lastmod>
-  <priority>0.64</priority>
-</url>
-<url>
-  <loc>https://cancercontrol.cancer.gov/funding_dd_qnanot.html</loc>
-  <lastmod>2019-11-13T18:34:53+00:00</lastmod>
-  <priority>0.64</priority>
-</url>
-<url>
-  <loc>https://cancercontrol.cancer.gov/IS/pdfs/DDSurveillanceSupplementOrientation.pdf</loc>
-  <lastmod>2019-11-13T18:33:34+00:00</lastmod>
-  <priority>0.64</priority>
-</url>
-<url>
-  <loc>https://cancercontrol.cancer.gov/funding_dd_qnanot004.html</loc>
-  <lastmod>2019-11-13T18:34:53+00:00</lastmod>
-  <priority>0.64</priority>
-</url>
-<url>
-  <loc>https://cancercontrol.cancer.gov/IS/pdfs/Instructions_DCCPS_Admin_Suppls_3-2-06.pdf</loc>
-  <lastmod>2019-11-13T18:33:34+00:00</lastmod>
-  <priority>0.64</priority>
-</url>
-<url>
-  <loc>https://cancercontrol.cancer.gov/DI-PAR-Orientation-Web-Posting-082806.pdf</loc>
-  <lastmod>2019-11-13T18:33:31+00:00</lastmod>
-  <priority>0.64</priority>
-</url>
-<url>
-  <loc>https://cancercontrol.cancer.gov/funding_06-019_qna.html</loc>
-  <lastmod>2019-11-13T18:34:53+00:00</lastmod>
-  <priority>0.64</priority>
-</url>
-<url>
-  <loc>https://cancercontrol.cancer.gov/funding_dd_qna.html</loc>
-  <lastmod>2019-11-13T18:34:53+00:00</lastmod>
-  <priority>0.64</priority>
-</url>
-<url>
-  <loc>https://cancercontrol.cancer.gov/funding_gei.html</loc>
-  <lastmod>2019-11-13T18:34:53+00:00</lastmod>
-  <priority>0.64</priority>
-</url>
-<url>
-  <loc>https://cancercontrol.cancer.gov/seer-statistics.html</loc>
-  <lastmod>2019-11-13T18:35:05+00:00</lastmod>
-  <priority>0.64</priority>
-</url>
-<url>
-  <loc>https://cancercontrol.cancer.gov/epidemiology.html</loc>
-  <lastmod>2019-11-13T18:34:52+00:00</lastmod>
-  <priority>0.64</priority>
-</url>
-<url>
-  <loc>https://cancercontrol.cancer.gov/health-surveys.html</loc>
-  <lastmod>2019-11-13T18:34:53+00:00</lastmod>
-  <priority>0.64</priority>
-</url>
-<url>
-  <loc>https://cancercontrol.cancer.gov/health-services.html</loc>
-  <lastmod>2019-11-13T18:34:53+00:00</lastmod>
-  <priority>0.64</priority>
-</url>
-<url>
-  <loc>https://cancercontrol.cancer.gov/monitoringcc.html</loc>
-  <lastmod>2019-11-13T18:34:56+00:00</lastmod>
-  <priority>0.64</priority>
-</url>
-<url>
-  <loc>https://cancercontrol.cancer.gov/research-tools.html</loc>
-  <lastmod>2019-11-13T18:35:05+00:00</lastmod>
-  <priority>0.64</priority>
-</url>
-<url>
-  <loc>https://cancercontrol.cancer.gov/brp/tcrb/international/</loc>
-  <lastmod>2019-11-13T18:34:12+00:00</lastmod>
-  <priority>0.64</priority>
-</url>
-<url>
-  <loc>https://cancercontrol.cancer.gov/brp/tcrb/tus-cps/publications.html</loc>
-  <lastmod>2019-11-13T18:34:31+00:00</lastmod>
-  <priority>0.64</priority>
-</url>
-<url>
-  <loc>https://cancercontrol.cancer.gov/pdf/Observational-Data-Midyear-Report.pdf</loc>
-  <lastmod>2019-11-13T18:35:05+00:00</lastmod>
-  <priority>0.64</priority>
-</url>
-<url>
-  <loc>https://cancercontrol.cancer.gov/bb/index.html</loc>
-  <lastmod>2019-11-13T18:33:42+00:00</lastmod>
-  <priority>0.64</priority>
-</url>
-<url>
-  <loc>https://cancercontrol.cancer.gov/docs/DCCPS_Policy_Booklet_acc.pdf</loc>
-  <lastmod>2019-11-13T18:34:52+00:00</lastmod>
-  <priority>0.64</priority>
-</url>
-<url>
-  <loc>https://cancercontrol.cancer.gov/ocs/docs/DCCPS_20th_Anniversary_brochure.pdf</loc>
-  <lastmod>2019-11-13T18:34:59+00:00</lastmod>
-  <priority>0.64</priority>
-</url>
-<url>
-  <loc>https://cancercontrol.cancer.gov/pdf/DCCPS-by-the-Numbers-FY-14-Progress-Report.pdf</loc>
-  <lastmod>2019-11-13T18:35:01+00:00</lastmod>
-  <priority>0.64</priority>
-</url>
-<url>
-  <loc>https://cancercontrol.cancer.gov/pdf/NCI_DCCPS_50_Ways.pdf</loc>
-  <lastmod>2019-11-13T18:35:04+00:00</lastmod>
-  <priority>0.64</priority>
-</url>
-<url>
-  <loc>https://cancercontrol.cancer.gov/exit_disclaimer.html</loc>
-  <lastmod>2019-11-13T18:34:53+00:00</lastmod>
-  <priority>0.64</priority>
-</url>
-<url>
-  <loc>https://cancercontrol.cancer.gov/brp/tcrb/monographs/22/</loc>
-  <lastmod>2019-11-13T18:34:23+00:00</lastmod>
-  <priority>0.64</priority>
-</url>
-<url>
-  <loc>https://cancercontrol.cancer.gov/nativeamericanintervention/</loc>
-  <lastmod>2019-11-13T18:34:56+00:00</lastmod>
-  <priority>0.64</priority>
-</url>
-<url>
-  <loc>https://cancercontrol.cancer.gov/research-emphasis/hd-contacts.html</loc>
-  <lastmod>2019-11-13T18:35:05+00:00</lastmod>
-  <priority>0.64</priority>
-</url>
-<url>
-  <loc>https://cancercontrol.cancer.gov/brp/tcrb/monographs/22/index.html</loc>
-  <lastmod>2019-11-13T18:34:23+00:00</lastmod>
-  <priority>0.64</priority>
-</url>
-<url>
-  <loc>https://cancercontrol.cancer.gov/od/continuum.html</loc>
-  <lastmod>2019-11-13T18:35:00+00:00</lastmod>
-  <priority>0.64</priority>
-</url>
-<url>
-  <loc>https://cancercontrol.cancer.gov/pdf/FY-19-rural-abstracts-Year2-Aug-20.pdf</loc>
-  <lastmod>2019-11-13T18:35:02+00:00</lastmod>
-  <priority>0.64</priority>
-</url>
-<url>
-  <loc>https://cancercontrol.cancer.gov/research-emphasis/RFA-CA-8-026.html</loc>
-  <lastmod>2019-11-13T18:35:05+00:00</lastmod>
-  <priority>0.64</priority>
-</url>
-<url>
-  <loc>https://cancercontrol.cancer.gov/pdf/Rural-Abstract-Sep-2018-003.pdf</loc>
-  <lastmod>2019-11-13T18:35:05+00:00</lastmod>
-  <priority>0.64</priority>
-</url>
-<url>
-  <loc>https://cancercontrol.cancer.gov/brp/research/launch.html</loc>
-  <lastmod>2019-11-13T18:34:09+00:00</lastmod>
-  <priority>0.64</priority>
-</url>
-<url>
-  <loc>https://cancercontrol.cancer.gov/research-emphasis/meetings/arcc-meeting.html</loc>
-  <lastmod>2019-11-13T18:35:05+00:00</lastmod>
-  <priority>0.64</priority>
-</url>
-<url>
-  <loc>https://cancercontrol.cancer.gov/brp/hcirb/catchment-areas.html</loc>
-  <lastmod>2019-11-13T18:33:54+00:00</lastmod>
-  <priority>0.64</priority>
-</url>
-<url>
-  <loc>https://cancercontrol.cancer.gov/brp/tcrb/cessation-initiative.html</loc>
-  <lastmod>2019-11-13T18:34:09+00:00</lastmod>
-  <priority>0.64</priority>
-</url>
-<url>
-  <loc>https://cancercontrol.cancer.gov/od/timeline.html</loc>
-  <lastmod>2019-11-13T18:35:00+00:00</lastmod>
-  <priority>0.64</priority>
-</url>
-<url>
-  <loc>https://cancercontrol.cancer.gov/od/org.html</loc>
-  <lastmod>2019-11-13T18:35:00+00:00</lastmod>
-  <priority>0.64</priority>
-</url>
-<url>
-  <loc>https://cancercontrol.cancer.gov/od/director_rc.html</loc>
-  <lastmod>2019-11-13T18:35:00+00:00</lastmod>
-  <priority>0.64</priority>
-</url>
-<url>
-  <loc>https://cancercontrol.cancer.gov/od/about.html</loc>
-  <lastmod>2019-11-13T18:35:00+00:00</lastmod>
-  <priority>0.64</priority>
-</url>
-<url>
-  <loc>https://cancercontrol.cancer.gov/od/key_collab.html</loc>
-  <lastmod>2019-11-13T18:35:00+00:00</lastmod>
-  <priority>0.64</priority>
-</url>
-<url>
-  <loc>https://cancercontrol.cancer.gov/od/support_pis.html</loc>
-  <lastmod>2019-11-13T18:35:00+00:00</lastmod>
-  <priority>0.64</priority>
-</url>
-<url>
-  <loc>https://cancercontrol.cancer.gov/bb/leadership.html</loc>
-  <lastmod>2019-11-13T18:33:42+00:00</lastmod>
-  <priority>0.64</priority>
-</url>
-<url>
-  <loc>https://cancercontrol.cancer.gov/od/vision.html</loc>
-  <lastmod>2019-11-13T18:35:00+00:00</lastmod>
-  <priority>0.64</priority>
-</url>
-<url>
-  <loc>https://cancercontrol.cancer.gov/pdf/DCCPS-Training-fact-sheet.pdf</loc>
-  <lastmod>2019-11-13T18:35:01+00:00</lastmod>
-  <priority>0.64</priority>
-</url>
-<url>
-  <loc>https://cancercontrol.cancer.gov/od/ODstaff.html</loc>
-  <lastmod>2019-11-13T18:35:00+00:00</lastmod>
-  <priority>0.64</priority>
-</url>
-<url>
-  <loc>https://cancercontrol.cancer.gov/od/crta.html</loc>
-  <lastmod>2019-11-13T18:35:00+00:00</lastmod>
-  <priority>0.64</priority>
-</url>
-<url>
-  <loc>https://cancercontrol.cancer.gov/brp/funding/investigators.html</loc>
-  <lastmod>2019-11-13T18:33:51+00:00</lastmod>
-  <priority>0.51</priority>
-</url>
-<url>
-  <loc>https://cancercontrol.cancer.gov/brp/funding/preparing-grant.html</loc>
-  <lastmod>2019-11-13T18:33:51+00:00</lastmod>
-  <priority>0.51</priority>
-</url>
-<url>
-  <loc>https://cancercontrol.cancer.gov/brp/docs/Human-Subjects-Considerations-for-Social-Media-Research.pdf</loc>
-  <lastmod>2019-11-13T18:33:49+00:00</lastmod>
-  <priority>0.51</priority>
-</url>
-<url>
-  <loc>https://cancercontrol.cancer.gov/brp/tcrb/documents/NCI-FOA-Flyer.pdf</loc>
-  <lastmod>2019-11-13T18:34:10+00:00</lastmod>
-  <priority>0.51</priority>
-</url>
-<url>
-  <loc>https://cancercontrol.cancer.gov/brp/funding/archives.html</loc>
-  <lastmod>2019-11-13T18:33:51+00:00</lastmod>
-  <priority>0.51</priority>
-</url>
-<url>
-  <loc>https://cancercontrol.cancer.gov/brp/docs/SGA_8704096.pdf</loc>
-  <lastmod>2019-11-13T18:33:50+00:00</lastmod>
-  <priority>0.51</priority>
-</url>
-<url>
-  <loc>https://cancercontrol.cancer.gov/brp/docs/SGA_8619527.pdf</loc>
-  <lastmod>2019-11-13T18:33:50+00:00</lastmod>
-  <priority>0.51</priority>
-</url>
-<url>
-  <loc>https://cancercontrol.cancer.gov/brp/docs/SGA_8562335.pdf</loc>
-  <lastmod>2019-11-13T18:33:50+00:00</lastmod>
-  <priority>0.51</priority>
-</url>
-<url>
-  <loc>https://cancercontrol.cancer.gov/brp/docs/SGA_8568274.pdf</loc>
-  <lastmod>2019-11-13T18:33:50+00:00</lastmod>
-  <priority>0.51</priority>
-</url>
-<url>
-  <loc>https://cancercontrol.cancer.gov/brp/docs/SGA_8574995.pdf</loc>
-  <lastmod>2019-11-13T18:33:50+00:00</lastmod>
-  <priority>0.51</priority>
-</url>
-<url>
-  <loc>https://cancercontrol.cancer.gov/brp/docs/SGA_8576040.pdf</loc>
-  <lastmod>2019-11-13T18:33:50+00:00</lastmod>
-  <priority>0.51</priority>
-</url>
-<url>
-  <loc>https://cancercontrol.cancer.gov/brp/bbpsb/ncintwk-biopthwys.html</loc>
-  <lastmod>2019-11-13T18:33:48+00:00</lastmod>
-  <priority>0.51</priority>
-</url>
-<url>
-  <loc>https://cancercontrol.cancer.gov/brp/tcrb/scale-collaboration.html</loc>
-  <lastmod>2019-11-13T18:34:29+00:00</lastmod>
-  <priority>0.51</priority>
-</url>
-<url>
-  <loc>https://cancercontrol.cancer.gov/brp/archive/decision-making.html</loc>
-  <lastmod>2019-11-13T18:33:43+00:00</lastmod>
-  <priority>0.51</priority>
-</url>
-<url>
-  <loc>https://cancercontrol.cancer.gov/brp/casphr/</loc>
-  <lastmod>2019-11-13T18:33:48+00:00</lastmod>
-  <priority>0.51</priority>
-</url>
-<url>
-  <loc>https://cancercontrol.cancer.gov/brp/research/gem.html</loc>
-  <lastmod>2019-11-13T18:34:09+00:00</lastmod>
-  <priority>0.51</priority>
-</url>
-<url>
-  <loc>https://cancercontrol.cancer.gov/brp/tcrb/documents/NCI-Tobacco-Control-Research-Priorities-Report.pdf</loc>
-  <lastmod>2019-11-13T18:34:10+00:00</lastmod>
-  <priority>0.51</priority>
-</url>
-<url>
-  <loc>https://cancercontrol.cancer.gov/brp/docs/TCRB-PD.pdf</loc>
-  <lastmod>2019-11-13T18:33:50+00:00</lastmod>
-  <priority>0.51</priority>
-</url>
-<url>
-  <loc>https://cancercontrol.cancer.gov/brp/tcrb/cessation.html</loc>
-  <lastmod>2019-11-13T18:34:09+00:00</lastmod>
-  <priority>0.51</priority>
-</url>
-<url>
-  <loc>https://cancercontrol.cancer.gov/brp/tcrb/collaborative-research.html</loc>
-  <lastmod>2019-11-13T18:34:09+00:00</lastmod>
-  <priority>0.51</priority>
-</url>
-<url>
-  <loc>https://cancercontrol.cancer.gov/brp/tcrb/health-disparities.html</loc>
-  <lastmod>2019-11-13T18:34:12+00:00</lastmod>
-  <priority>0.51</priority>
-</url>
-<url>
-  <loc>https://cancercontrol.cancer.gov/brp/tcrb/international/index.html</loc>
-  <lastmod>2019-11-13T18:34:12+00:00</lastmod>
-  <priority>0.51</priority>
-</url>
-<url>
-  <loc>https://cancercontrol.cancer.gov/brp/tcrb/tobacco-second-hand.html</loc>
-  <lastmod>2019-11-13T18:34:29+00:00</lastmod>
-  <priority>0.51</priority>
-</url>
-<url>
-  <loc>https://cancercontrol.cancer.gov/brp/tcrb/special-popluations.html</loc>
-  <lastmod>2019-11-13T18:34:29+00:00</lastmod>
-  <priority>0.51</priority>
-</url>
-<url>
-  <loc>https://cancercontrol.cancer.gov/brp/tcrb/tob-regulatory-science.html</loc>
-  <lastmod>2019-11-13T18:34:29+00:00</lastmod>
-  <priority>0.51</priority>
-</url>
-<url>
-  <loc>https://cancercontrol.cancer.gov/brp/tcrb/tobacco-after-cancer-diagnosis.html</loc>
-  <lastmod>2019-11-13T18:34:29+00:00</lastmod>
-  <priority>0.51</priority>
-</url>
-<url>
-  <loc>https://cancercontrol.cancer.gov/brp/tcrb/tus-cps/</loc>
-  <lastmod>2019-11-13T18:34:31+00:00</lastmod>
-  <priority>0.51</priority>
-</url>
-<url>
-  <loc>https://cancercontrol.cancer.gov/brp/tcrb/monographs/index.html</loc>
-  <lastmod>2019-11-13T18:34:29+00:00</lastmod>
-  <priority>0.51</priority>
-</url>
-<url>
-  <loc>https://cancercontrol.cancer.gov/brp/research/publications.html</loc>
-  <lastmod>2019-11-13T18:34:09+00:00</lastmod>
-  <priority>0.51</priority>
-</url>
-<url>
-  <loc>https://cancercontrol.cancer.gov/brp/tcrb/documents/TCRB_Factsheet.pdf</loc>
-  <lastmod>2019-11-13T18:34:10+00:00</lastmod>
-  <priority>0.51</priority>
-</url>
-<url>
-  <loc>https://cancercontrol.cancer.gov/brp/tcrb/documents/TCIR_Factsheet.pdf</loc>
-  <lastmod>2019-11-13T18:34:10+00:00</lastmod>
-  <priority>0.51</priority>
-</url>
-<url>
-  <loc>https://cancercontrol.cancer.gov/brp/hbrb/key-initiatives.html</loc>
-  <lastmod>2019-11-13T18:33:54+00:00</lastmod>
-  <priority>0.51</priority>
-</url>
-<url>
-  <loc>https://cancercontrol.cancer.gov/brp/hbrb/fab/index.html</loc>
-  <lastmod>2019-11-13T18:33:53+00:00</lastmod>
-  <priority>0.51</priority>
-</url>
-<url>
-  <loc>https://cancercontrol.cancer.gov/brp/hbrb/diet_comm_int_frmwrk.html</loc>
-  <lastmod>2019-11-13T18:33:51+00:00</lastmod>
-  <priority>0.51</priority>
-</url>
-<url>
-  <loc>https://cancercontrol.cancer.gov/brp/hbrb/behavior_genetic.html</loc>
-  <lastmod>2019-11-13T18:33:51+00:00</lastmod>
-  <priority>0.51</priority>
-</url>
-<url>
-  <loc>https://cancercontrol.cancer.gov/brp/hbrb/trec/index.html</loc>
-  <lastmod>2019-11-13T18:33:54+00:00</lastmod>
-  <priority>0.51</priority>
-</url>
-<url>
-  <loc>https://cancercontrol.cancer.gov/brp/bbpsb/key-initiatives.html</loc>
-  <lastmod>2019-11-13T18:33:48+00:00</lastmod>
-  <priority>0.51</priority>
-</url>
-<url>
-  <loc>https://cancercontrol.cancer.gov/brp/hcirb/key-initiatives.html</loc>
-  <lastmod>2019-11-13T18:33:54+00:00</lastmod>
-  <priority>0.51</priority>
-</url>
-<url>
-  <loc>https://cancercontrol.cancer.gov/brp/priority-areas/index.html</loc>
-  <lastmod>2019-11-13T18:34:08+00:00</lastmod>
-  <priority>0.51</priority>
-</url>
-<url>
-  <loc>https://cancercontrol.cancer.gov/brp/priority-areas/docs/Executive-Summary_BigDATA.pdf</loc>
-  <lastmod>2019-11-13T18:34:08+00:00</lastmod>
-  <priority>0.51</priority>
-</url>
-<url>
-  <loc>https://cancercontrol.cancer.gov/brp/priority-areas/docs/NCI-Big-Data_Rothman.pdf</loc>
-  <lastmod>2019-11-13T18:34:08+00:00</lastmod>
-  <priority>0.51</priority>
-</url>
-<url>
-  <loc>https://cancercontrol.cancer.gov/brp/priority-areas/docs/NCI-Big-Data_Tiro.pdf</loc>
-  <lastmod>2019-11-13T18:34:08+00:00</lastmod>
-  <priority>0.51</priority>
-</url>
-<url>
-  <loc>https://cancercontrol.cancer.gov/brp/priority-areas/docs/NCI-Big-Data_Rivera_Dynamical_Systems_Modeling.pdf</loc>
-  <lastmod>2019-11-13T18:34:08+00:00</lastmod>
-  <priority>0.51</priority>
-</url>
-<url>
-  <loc>https://cancercontrol.cancer.gov/brp/priority-areas/docs/NCI-Big-Data_Dunton-Rivera_EMA_Dyn_Sys_Modeling.pdf</loc>
-  <lastmod>2019-11-13T18:34:08+00:00</lastmod>
-  <priority>0.51</priority>
-</url>
-<url>
-  <loc>https://cancercontrol.cancer.gov/brp/priority-areas/docs/NCI-Big-Data_Cobb.pdf</loc>
-  <lastmod>2019-11-13T18:34:08+00:00</lastmod>
-  <priority>0.51</priority>
-</url>
-<url>
-  <loc>https://cancercontrol.cancer.gov/brp/priority-areas/docs/NCI-Big-Data_Curran.pdf</loc>
-  <lastmod>2019-11-13T18:34:08+00:00</lastmod>
-  <priority>0.51</priority>
-</url>
-<url>
-  <loc>https://cancercontrol.cancer.gov/brp/priority-areas/docs/NCI-Big-Data_Coffmann.pdf</loc>
-  <lastmod>2019-11-13T18:34:08+00:00</lastmod>
-  <priority>0.51</priority>
-</url>
-<url>
-  <loc>https://cancercontrol.cancer.gov/brp/priority-areas/docs/NCI-Big-Data_Collins.pdf</loc>
-  <lastmod>2019-11-13T18:34:08+00:00</lastmod>
-  <priority>0.51</priority>
-</url>
-<url>
-  <loc>https://cancercontrol.cancer.gov/brp/priority-areas/docs/NCI-Big-Data_Spring-Dynamic-Interventions-to-NCI.pdf</loc>
-  <lastmod>2019-11-13T18:34:08+00:00</lastmod>
-  <priority>0.51</priority>
-</url>
-<url>
-  <loc>https://cancercontrol.cancer.gov/brp/bbpsb/affective_science.html</loc>
-  <lastmod>2019-11-13T18:33:44+00:00</lastmod>
-  <priority>0.51</priority>
-</url>
-<url>
-  <loc>https://cancercontrol.cancer.gov/brp/bbpsb/docs/Cancer-And-Aging-Fact-Sheet.pdf</loc>
-  <lastmod>2019-11-13T18:33:47+00:00</lastmod>
-  <priority>0.51</priority>
-</url>
-<url>
-  <loc>https://cancercontrol.cancer.gov/events/acceleratedaging/docs/CancerAndAging_Agenda.pdf</loc>
-  <lastmod>2019-11-13T18:34:52+00:00</lastmod>
-  <priority>0.51</priority>
-</url>
-<url>
-  <loc>https://cancercontrol.cancer.gov/events/acceleratedaging/docs/SSCandSpeakerBios.pdf</loc>
-  <lastmod>2019-11-13T18:34:53+00:00</lastmod>
-  <priority>0.51</priority>
-</url>
-<url>
-  <loc>https://cancercontrol.cancer.gov/brp/bbpsb/docs/ThinkTank1_Report_Measuring-Aging-and-Identifying-Aging-Phenotypes-in-Cancer-Survivors.pdf</loc>
-  <lastmod>2019-11-13T18:33:48+00:00</lastmod>
-  <priority>0.51</priority>
-</url>
-<url>
-  <loc>https://cancercontrol.cancer.gov/brp/bbpsb/docs/Cancer-And-Aging-Think-Tank-Agenda.pdf</loc>
-  <lastmod>2019-11-13T18:33:47+00:00</lastmod>
-  <priority>0.51</priority>
-</url>
-<url>
-  <loc>https://cancercontrol.cancer.gov/brp/bbpsb/docs/SSCandSpeakerBios.pdf</loc>
-  <lastmod>2019-11-13T18:33:48+00:00</lastmod>
-  <priority>0.51</priority>
-</url>
-<url>
-  <loc>https://cancercontrol.cancer.gov/docs/Webinar-on-Perception-and-Cognition.pdf</loc>
-  <lastmod>2019-11-13T18:34:52+00:00</lastmod>
-  <priority>0.51</priority>
-</url>
-<url>
-  <loc>https://cancercontrol.cancer.gov/docs/Q-and-A-Perception-and-Cognition-Research.pdf</loc>
-  <lastmod>2019-11-13T18:34:52+00:00</lastmod>
-  <priority>0.51</priority>
-</url>
-<url>
-  <loc>https://cancercontrol.cancer.gov/brp/bbpsb/rsna-perception-laboratory.html</loc>
-  <lastmod>2019-11-13T18:33:48+00:00</lastmod>
-  <priority>0.51</priority>
-</url>
-<url>
-  <loc>https://cancercontrol.cancer.gov/brp/events/think-tank.html</loc>
-  <lastmod>2019-11-13T18:33:51+00:00</lastmod>
-  <priority>0.51</priority>
-</url>
-<url>
-  <loc>https://cancercontrol.cancer.gov/brp/bbpsb/cognitive-changes/perception-attention.html</loc>
-  <lastmod>2019-11-13T18:33:44+00:00</lastmod>
-  <priority>0.51</priority>
-</url>
-<url>
-  <loc>https://cancercontrol.cancer.gov/brp/hbrb/flashe.html</loc>
-  <lastmod>2019-11-13T18:33:53+00:00</lastmod>
-  <priority>0.51</priority>
-</url>
-<url>
-  <loc>https://cancercontrol.cancer.gov/brp/hbrb/fab/</loc>
-  <lastmod>2019-11-13T18:33:53+00:00</lastmod>
-  <priority>0.51</priority>
-</url>
-<url>
-  <loc>https://cancercontrol.cancer.gov/brp/research/theories_project/index.html</loc>
-  <lastmod>2019-11-13T18:34:09+00:00</lastmod>
-  <priority>0.51</priority>
-</url>
-<url>
-  <loc>https://cancercontrol.cancer.gov/brp/research/constructs/index.html</loc>
-  <lastmod>2019-11-13T18:34:09+00:00</lastmod>
-  <priority>0.51</priority>
-</url>
-<url>
-  <loc>https://cancercontrol.cancer.gov/brp/tcrb/guide-measures/index.html</loc>
-  <lastmod>2019-11-13T18:34:12+00:00</lastmod>
-  <priority>0.51</priority>
-</url>
-<url>
-  <loc>https://cancercontrol.cancer.gov/brp/bbpsb/oral-anticancer-agents.html</loc>
-  <lastmod>2019-11-13T18:33:48+00:00</lastmod>
-  <priority>0.51</priority>
-</url>
-<url>
-  <loc>https://cancercontrol.cancer.gov/brp/bbpsb/complex.html</loc>
-  <lastmod>2019-11-13T18:33:44+00:00</lastmod>
-  <priority>0.51</priority>
-</url>
-<url>
-  <loc>https://cancercontrol.cancer.gov/brp/bbpsb/docs/BBSPB_factsheet_acc.pdf</loc>
-  <lastmod>2019-11-13T18:33:47+00:00</lastmod>
-  <priority>0.51</priority>
-</url>
-<url>
-  <loc>https://cancercontrol.cancer.gov/brp/hbrb/strategy.html</loc>
-  <lastmod>2019-11-13T18:33:54+00:00</lastmod>
-  <priority>0.51</priority>
-</url>
-<url>
-  <loc>https://cancercontrol.cancer.gov/brp/hbrb/policies.html</loc>
-  <lastmod>2019-11-13T18:33:54+00:00</lastmod>
-  <priority>0.51</priority>
-</url>
-<url>
-  <loc>https://cancercontrol.cancer.gov/brp/hbrb/relational_dynamics.html</loc>
-  <lastmod>2019-11-13T18:33:54+00:00</lastmod>
-  <priority>0.51</priority>
-</url>
-<url>
-  <loc>https://cancercontrol.cancer.gov/brp/hbrb/translational-research.html</loc>
-  <lastmod>2019-11-13T18:33:54+00:00</lastmod>
-  <priority>0.51</priority>
-</url>
-<url>
-  <loc>https://cancercontrol.cancer.gov/brp/hbrb/sandpit.html</loc>
-  <lastmod>2019-11-13T18:33:54+00:00</lastmod>
-  <priority>0.51</priority>
-</url>
-<url>
-  <loc>https://cancercontrol.cancer.gov/brp/hbrb/docs/HBRBFactsheet.pdf</loc>
-  <lastmod>2019-11-13T18:33:52+00:00</lastmod>
-  <priority>0.51</priority>
-</url>
-<url>
-  <loc>https://cancercontrol.cancer.gov/brp/docs/HCIRB-PD.pdf</loc>
-  <lastmod>2019-11-13T18:33:49+00:00</lastmod>
-  <priority>0.51</priority>
-</url>
-<url>
-  <loc>https://cancercontrol.cancer.gov/brp/e-newsletter/2019-hcirb-chief.html</loc>
-  <lastmod>2019-11-13T18:33:50+00:00</lastmod>
-  <priority>0.51</priority>
-</url>
-<url>
-  <loc>https://cancercontrol.cancer.gov/brp/hcirb/behavioral_informatics.html</loc>
-  <lastmod>2019-11-13T18:33:54+00:00</lastmod>
-  <priority>0.51</priority>
-</url>
-<url>
-  <loc>https://cancercontrol.cancer.gov/brp/hcirb/health_literacy.html</loc>
-  <lastmod>2019-11-13T18:33:54+00:00</lastmod>
-  <priority>0.51</priority>
-</url>
-<url>
-  <loc>https://cancercontrol.cancer.gov/brp/hcirb/hpv_vaccination.html</loc>
-  <lastmod>2019-11-13T18:33:54+00:00</lastmod>
-  <priority>0.51</priority>
-</url>
-<url>
-  <loc>https://cancercontrol.cancer.gov/brp/hcirb/rapid-response.html</loc>
-  <lastmod>2019-11-13T18:33:54+00:00</lastmod>
-  <priority>0.51</priority>
-</url>
-<url>
-  <loc>https://cancercontrol.cancer.gov/brp/hcirb/smart-and-connected.html</loc>
-  <lastmod>2019-11-13T18:33:54+00:00</lastmod>
-  <priority>0.51</priority>
-</url>
-<url>
-  <loc>https://cancercontrol.cancer.gov/brp/hcirb/misinformation.html</loc>
-  <lastmod>2019-11-13T18:33:54+00:00</lastmod>
-  <priority>0.51</priority>
-</url>
-<url>
-  <loc>https://cancercontrol.cancer.gov/brp/docs/HCIRBFactSheet.pdf</loc>
-  <lastmod>2019-11-13T18:33:49+00:00</lastmod>
-  <priority>0.51</priority>
-</url>
-<url>
-  <loc>https://cancercontrol.cancer.gov/brp/docs/BRP_Fact_Sheet-acc.pdf</loc>
-  <lastmod>2019-11-13T18:33:49+00:00</lastmod>
-  <priority>0.51</priority>
-</url>
-<url>
-  <loc>https://cancercontrol.cancer.gov/brp/casphr/index.html</loc>
-  <lastmod>2019-11-13T18:33:48+00:00</lastmod>
-  <priority>0.51</priority>
-</url>
-<url>
-  <loc>https://cancercontrol.cancer.gov/brp/research/health-communities.html</loc>
-  <lastmod>2019-11-13T18:34:09+00:00</lastmod>
-  <priority>0.51</priority>
-</url>
-<url>
-  <loc>https://cancercontrol.cancer.gov/brp/docs/OAD-Senior-Scientist-2019.pdf</loc>
-  <lastmod>2019-11-13T18:33:49+00:00</lastmod>
-  <priority>0.51</priority>
-</url>
-<url>
-  <loc>https://cancercontrol.cancer.gov/brp/docs/BRP-survivorship-PD.pdf</loc>
-  <lastmod>2019-11-13T18:33:49+00:00</lastmod>
-  <priority>0.51</priority>
-</url>
-<url>
-  <loc>https://cancercontrol.cancer.gov/brp/docs/Training-sheet.pdf</loc>
-  <lastmod>2019-11-13T18:33:50+00:00</lastmod>
-  <priority>0.51</priority>
-</url>
-<url>
-  <loc>https://cancercontrol.cancer.gov/brp/research/stipend.html</loc>
-  <lastmod>2019-11-13T18:34:09+00:00</lastmod>
-  <priority>0.51</priority>
-</url>
-<url>
-  <loc>https://cancercontrol.cancer.gov/brp/events/professional-development.html</loc>
-  <lastmod>2019-11-13T18:33:51+00:00</lastmod>
-  <priority>0.51</priority>
-</url>
-<url>
-  <loc>https://cancercontrol.cancer.gov/IS/chambers.html</loc>
-  <lastmod>2019-11-13T18:33:31+00:00</lastmod>
-  <priority>0.51</priority>
-</url>
-<url>
-  <loc>https://cancercontrol.cancer.gov/pdf/NCIWebinar-2019-100919.pdf</loc>
-  <lastmod>2019-11-13T18:35:04+00:00</lastmod>
-  <priority>0.51</priority>
-</url>
-<url>
-  <loc>https://cancercontrol.cancer.gov/brp/presentations/Building-Infrastructure.pdf</loc>
-  <lastmod>2019-11-13T18:33:55+00:00</lastmod>
-  <priority>0.51</priority>
-</url>
-<url>
-  <loc>https://cancercontrol.cancer.gov/pdf/FLASHE-Webinar-Sept2019.pdf</loc>
-  <lastmod>2019-11-13T18:35:02+00:00</lastmod>
-  <priority>0.51</priority>
-</url>
-<url>
-  <loc>https://cancercontrol.cancer.gov/brp/hbrb/flashe-webinar.html</loc>
-  <lastmod>2019-11-13T18:33:53+00:00</lastmod>
-  <priority>0.51</priority>
-</url>
-<url>
-  <loc>https://cancercontrol.cancer.gov/pdf/KONDO-NIH-Webinar-050719-finaldeck.pdf</loc>
-  <lastmod>2019-11-13T18:35:04+00:00</lastmod>
-  <priority>0.51</priority>
-</url>
-<url>
-  <loc>https://cancercontrol.cancer.gov/pdf/FLASHEUpdatesWebinar-FinalMHLD.pdf</loc>
-  <lastmod>2019-11-13T18:35:02+00:00</lastmod>
-  <priority>0.51</priority>
-</url>
-<url>
-  <loc>https://cancercontrol.cancer.gov/pdf/Alcohol_and_Cancer_in_the_United_States_LoConte_NCIWebinar.pdf</loc>
-  <lastmod>2019-11-13T18:35:00+00:00</lastmod>
-  <priority>0.51</priority>
-</url>
-<url>
-  <loc>https://cancercontrol.cancer.gov/pdf/ModularR01_091218.pdf</loc>
-  <lastmod>2019-11-13T18:35:04+00:00</lastmod>
-  <priority>0.51</priority>
-</url>
-<url>
-  <loc>https://cancercontrol.cancer.gov/pdf/FAQModularR01s-1218.pdf</loc>
-  <lastmod>2019-11-13T18:35:01+00:00</lastmod>
-  <priority>0.51</priority>
-</url>
-<url>
-  <loc>https://cancercontrol.cancer.gov/pdf/Tob-Ctrl-Pol-to-Red-H-Disp-webinar.pdf</loc>
-  <lastmod>2019-11-13T18:35:05+00:00</lastmod>
-  <priority>0.51</priority>
-</url>
-<url>
-  <loc>https://cancercontrol.cancer.gov/pdf/FAQ-Tobacco-Policies-and-Health-Disparities.pdf</loc>
-  <lastmod>2019-11-13T18:35:01+00:00</lastmod>
-  <priority>0.51</priority>
-</url>
-<url>
-  <loc>https://cancercontrol.cancer.gov/pdf/FLASHE-webinar.pdf</loc>
-  <lastmod>2019-11-13T18:35:02+00:00</lastmod>
-  <priority>0.51</priority>
-</url>
-<url>
-  <loc>https://cancercontrol.cancer.gov/pdf/FLASHE-FAQ.pdf</loc>
-  <lastmod>2019-11-13T18:35:01+00:00</lastmod>
-  <priority>0.51</priority>
-</url>
-<url>
-  <loc>https://cancercontrol.cancer.gov/pdf/Webinar-OAC-PA.pdf</loc>
-  <lastmod>2019-11-13T18:35:05+00:00</lastmod>
-  <priority>0.51</priority>
-</url>
-<url>
-  <loc>https://cancercontrol.cancer.gov/pdf/QandA-Oral-Anticancer-Agents.pdf</loc>
-  <lastmod>2019-11-13T18:35:05+00:00</lastmod>
-  <priority>0.51</priority>
-</url>
-<url>
-  <loc>https://cancercontrol.cancer.gov/docs/Tob-HIV-LMICS-FOA-Webinar_2.3.2017.pdf</loc>
-  <lastmod>2019-11-13T18:34:52+00:00</lastmod>
-  <priority>0.51</priority>
-</url>
-<url>
-  <loc>https://cancercontrol.cancer.gov/pdf/FAQs-Tobacco-and-HIV-in-LMICs.pdf</loc>
-  <lastmod>2019-11-13T18:35:01+00:00</lastmod>
-  <priority>0.51</priority>
-</url>
-<url>
-  <loc>https://cancercontrol.cancer.gov/pdf/FOA-webinar.pdf</loc>
-  <lastmod>2019-11-13T18:35:02+00:00</lastmod>
-  <priority>0.51</priority>
-</url>
-<url>
-  <loc>https://cancercontrol.cancer.gov/pdf/QandA-Six-New-Funding-Opps-in-Behavioral-Research.pdf</loc>
-  <lastmod>2019-11-13T18:35:05+00:00</lastmod>
-  <priority>0.51</priority>
-</url>
-<url>
-  <loc>https://cancercontrol.cancer.gov/pdf/FLASHE-Webinar-2.5.2016.pdf</loc>
-  <lastmod>2019-11-13T18:35:01+00:00</lastmod>
-  <priority>0.51</priority>
-</url>
-<url>
-  <loc>https://cancercontrol.cancer.gov/pdf/QandA-FLASHE.pdf</loc>
-  <lastmod>2019-11-13T18:35:05+00:00</lastmod>
-  <priority>0.51</priority>
-</url>
-<url>
-  <loc>https://cancercontrol.cancer.gov/brp/hbrb/flashe-terms.aspx</loc>
-  <lastmod>2019-11-13T18:52:22+00:00</lastmod>
-  <priority>0.51</priority>
-</url>
-<url>
-  <loc>https://cancercontrol.cancer.gov/pdf/Smoking-Cessation-PLWH-webinar-PowerPoint.pdf</loc>
-  <lastmod>2019-11-13T18:35:05+00:00</lastmod>
-  <priority>0.51</priority>
-</url>
-<url>
-  <loc>https://cancercontrol.cancer.gov/pdf/QandA-improving-smoking-cessation-interventions-among-people-living-with-hiv.pdf</loc>
-  <lastmod>2019-11-13T18:35:05+00:00</lastmod>
-  <priority>0.51</priority>
-</url>
-<url>
-  <loc>https://cancercontrol.cancer.gov/pdf/Hereditary-cancer-RFA-webinar-2018.pdf</loc>
-  <lastmod>2019-11-13T18:35:03+00:00</lastmod>
-  <priority>0.51</priority>
-</url>
-<url>
-  <loc>https://cancercontrol.cancer.gov/pdf/FAQs-for-Moonshot-webinar.pdf</loc>
-  <lastmod>2019-11-13T18:35:01+00:00</lastmod>
-  <priority>0.51</priority>
-</url>
-<url>
-  <loc>https://cancercontrol.cancer.gov/docs/webinar-on-integrating-existing-data.pdf</loc>
-  <lastmod>2019-11-13T18:34:52+00:00</lastmod>
-  <priority>0.51</priority>
-</url>
-<url>
-  <loc>https://cancercontrol.cancer.gov/pdf/QandA-Integrating-Existing-Data.pdf</loc>
-  <lastmod>2019-11-13T18:35:05+00:00</lastmod>
-  <priority>0.51</priority>
-</url>
-<url>
-  <loc>https://cancercontrol.cancer.gov/pdf/Cognitive_Neuroscience_webinar_transcript.pdf</loc>
-  <lastmod>2019-11-13T18:35:01+00:00</lastmod>
-  <priority>0.51</priority>
-</url>
-<url>
-  <loc>https://cancercontrol.cancer.gov/pdf/Cognitive_Neuroscience_FOA.pdf</loc>
-  <lastmod>2019-11-13T18:35:01+00:00</lastmod>
-  <priority>0.51</priority>
-</url>
-<url>
-  <loc>https://cancercontrol.cancer.gov/pdf/Cognitive_Neuroscience_FAQs.pdf</loc>
-  <lastmod>2019-11-13T18:35:01+00:00</lastmod>
-  <priority>0.51</priority>
-</url>
-<url>
-  <loc>https://cancercontrol.cancer.gov/pdf/RFA_Webinar_Transcript.pdf</loc>
-  <lastmod>2019-11-13T18:35:05+00:00</lastmod>
-  <priority>0.51</priority>
-</url>
-<url>
-  <loc>https://cancercontrol.cancer.gov/pdf/RFAWebX.pdf</loc>
-  <lastmod>2019-11-13T18:35:05+00:00</lastmod>
-  <priority>0.51</priority>
-</url>
-<url>
-  <loc>https://cancercontrol.cancer.gov/pdf/FAQs-Smoking-Cessation-within-the-Context.pdf</loc>
-  <lastmod>2019-11-13T18:35:01+00:00</lastmod>
-  <priority>0.51</priority>
-</url>
-<url>
-  <loc>https://cancercontrol.cancer.gov/brp/e-newsletter/2019-fall.html</loc>
-  <lastmod>2019-11-13T18:33:50+00:00</lastmod>
-  <priority>0.51</priority>
-</url>
-<url>
-  <loc>https://cancercontrol.cancer.gov/brp/e-newsletter/2019-submit-input.html</loc>
-  <lastmod>2019-11-13T18:33:50+00:00</lastmod>
-  <priority>0.51</priority>
-</url>
-<url>
-  <loc>https://cancercontrol.cancer.gov/brp/e-newsletter/notes-july-2019-call-for-proposals.html</loc>
-  <lastmod>2019-11-13T18:33:51+00:00</lastmod>
-  <priority>0.51</priority>
-</url>
-<url>
-  <loc>https://cancercontrol.cancer.gov/brp/e-newsletter/2019-winter.html</loc>
-  <lastmod>2019-11-13T18:33:50+00:00</lastmod>
-  <priority>0.51</priority>
-</url>
-<url>
-  <loc>https://cancercontrol.cancer.gov/brp/e-newsletter/fall-2018.html</loc>
-  <lastmod>2019-11-13T18:33:50+00:00</lastmod>
-  <priority>0.51</priority>
-</url>
-<url>
-  <loc>https://cancercontrol.cancer.gov/brp/e-newsletter/october-2018.html</loc>
-  <lastmod>2019-11-13T18:33:51+00:00</lastmod>
-  <priority>0.51</priority>
-</url>
-<url>
-  <loc>https://cancercontrol.cancer.gov/brp/e-newsletter/july-2018.html</loc>
-  <lastmod>2019-11-13T18:33:51+00:00</lastmod>
-  <priority>0.51</priority>
-</url>
-<url>
-  <loc>https://cancercontrol.cancer.gov/brp/e-newsletter/notes-july-2018-priority-funding.html</loc>
-  <lastmod>2019-11-13T18:33:51+00:00</lastmod>
-  <priority>0.51</priority>
-</url>
-<url>
-  <loc>https://cancercontrol.cancer.gov/brp/e-newsletter/notes-june-2018-sandpit.html</loc>
-  <lastmod>2019-11-13T18:33:51+00:00</lastmod>
-  <priority>0.51</priority>
-</url>
-<url>
-  <loc>https://cancercontrol.cancer.gov/brp/e-newsletter/spring-2018.html</loc>
-  <lastmod>2019-11-13T18:33:51+00:00</lastmod>
-  <priority>0.51</priority>
-</url>
-<url>
-  <loc>https://cancercontrol.cancer.gov/brp/e-newsletter/notes-feb-2018-branch-chief.html</loc>
-  <lastmod>2019-11-13T18:33:51+00:00</lastmod>
-  <priority>0.51</priority>
-</url>
-<url>
-  <loc>https://cancercontrol.cancer.gov/brp/e-newsletter/notes-feb-2018-hints.html</loc>
-  <lastmod>2019-11-13T18:33:31+00:00</lastmod>
-  <priority>0.51</priority>
-</url>
-<url>
-  <loc>https://cancercontrol.cancer.gov/brp/e-newsletter/notes-dec-2017-position.html</loc>
-  <lastmod>2019-11-13T18:33:31+00:00</lastmod>
-  <priority>0.51</priority>
-</url>
-<url>
-  <loc>https://cancercontrol.cancer.gov/brp/e-newsletter/fall-2017.html</loc>
-  <lastmod>2019-11-13T18:33:50+00:00</lastmod>
-  <priority>0.51</priority>
-</url>
-<url>
-  <loc>https://cancercontrol.cancer.gov/brp/e-newsletter/notes-sept-2017-monograph-22.html</loc>
-  <lastmod>2019-11-13T18:33:51+00:00</lastmod>
-  <priority>0.51</priority>
-</url>
-<url>
-  <loc>https://cancercontrol.cancer.gov/brp/e-newsletter/summer-2017.html</loc>
-  <lastmod>2019-11-13T18:33:51+00:00</lastmod>
-  <priority>0.51</priority>
-</url>
-<url>
-  <loc>https://cancercontrol.cancer.gov/brp/e-newsletter/notes-june-2017-fellowship-position.html</loc>
-  <lastmod>2019-11-13T18:33:51+00:00</lastmod>
-  <priority>0.51</priority>
-</url>
-<url>
-  <loc>https://cancercontrol.cancer.gov/brp/e-newsletter/notes-april-2017-webinar-oral-anticancer-agents.html</loc>
-  <lastmod>2019-11-13T18:33:31+00:00</lastmod>
-  <priority>0.51</priority>
-</url>
-<url>
-  <loc>https://cancercontrol.cancer.gov/brp/e-newsletter/notes-april-2017-webinar.html</loc>
-  <lastmod>2019-11-13T18:33:31+00:00</lastmod>
-  <priority>0.51</priority>
-</url>
-<url>
-  <loc>https://cancercontrol.cancer.gov/brp/e-newsletter/notes-april-2017-health-behaviors.html</loc>
-  <lastmod>2019-11-13T18:33:31+00:00</lastmod>
-  <priority>0.51</priority>
-</url>
-<url>
-  <loc>https://cancercontrol.cancer.gov/brp/e-newsletter/spring-2017.html</loc>
-  <lastmod>2019-11-13T18:33:51+00:00</lastmod>
-  <priority>0.51</priority>
-</url>
-<url>
-  <loc>https://cancercontrol.cancer.gov/brp/e-newsletter/notes-feb-2017-webinar-perception-cognition.html</loc>
-  <lastmod>2019-11-13T18:33:31+00:00</lastmod>
-  <priority>0.51</priority>
-</url>
-<url>
-  <loc>https://cancercontrol.cancer.gov/brp/e-newsletter/notes-jan-2017-tobacco-control.html</loc>
-  <lastmod>2019-11-13T18:33:51+00:00</lastmod>
-  <priority>0.51</priority>
-</url>
-<url>
-  <loc>https://cancercontrol.cancer.gov/brp/e-newsletter/nov-2016.html</loc>
-  <lastmod>2019-11-13T18:33:51+00:00</lastmod>
-  <priority>0.51</priority>
-</url>
-<url>
-  <loc>https://cancercontrol.cancer.gov/brp/e-newsletter/notes-sept-2016-smoking-cessation.html</loc>
-  <lastmod>2019-11-13T18:33:51+00:00</lastmod>
-  <priority>0.51</priority>
-</url>
-<url>
-  <loc>https://cancercontrol.cancer.gov/brp/e-newsletter/notes-august-2016-webinar.html</loc>
-  <lastmod>2019-11-13T18:33:31+00:00</lastmod>
-  <priority>0.51</priority>
-</url>
-<url>
-  <loc>https://cancercontrol.cancer.gov/brp/e-newsletter/notes-august-2016-more-spots-open.html</loc>
-  <lastmod>2019-11-13T18:33:31+00:00</lastmod>
-  <priority>0.51</priority>
-</url>
-<url>
-  <loc>https://cancercontrol.cancer.gov/brp/e-newsletter/july-2016.html</loc>
-  <lastmod>2019-11-13T18:33:51+00:00</lastmod>
-  <priority>0.51</priority>
-</url>
-<url>
-  <loc>https://cancercontrol.cancer.gov/brp/e-newsletter/june-2016-flashe.html</loc>
-  <lastmod>2019-11-13T18:33:31+00:00</lastmod>
-  <priority>0.51</priority>
-</url>
-<url>
-  <loc>https://cancercontrol.cancer.gov/brp/e-newsletter/notes-april-2016-funding-opportunities.html</loc>
-  <lastmod>2019-11-13T18:33:31+00:00</lastmod>
-  <priority>0.51</priority>
-</url>
-<url>
-  <loc>https://cancercontrol.cancer.gov/brp/e-newsletter/notes-april-2016.html</loc>
-  <lastmod>2019-11-13T18:33:31+00:00</lastmod>
-  <priority>0.51</priority>
-</url>
-<url>
-  <loc>https://cancercontrol.cancer.gov/brp/e-newsletter/notes-feb-2016-expertise.html</loc>
-  <lastmod>2019-11-13T18:33:31+00:00</lastmod>
-  <priority>0.51</priority>
-</url>
-<url>
-  <loc>https://cancercontrol.cancer.gov/brp/e-newsletter/notes-feb-2016-sandpit.html</loc>
-  <lastmod>2019-11-13T18:33:31+00:00</lastmod>
-  <priority>0.51</priority>
-</url>
-<url>
-  <loc>https://cancercontrol.cancer.gov/brp/e-newsletter/notes-feb-2016-interviews.html</loc>
-  <lastmod>2019-11-13T18:33:31+00:00</lastmod>
-  <priority>0.51</priority>
-</url>
-<url>
-  <loc>https://cancercontrol.cancer.gov/brp/e-newsletter/notes-feb-2016.html</loc>
-  <lastmod>2019-11-13T18:33:31+00:00</lastmod>
-  <priority>0.51</priority>
-</url>
-<url>
-  <loc>https://cancercontrol.cancer.gov/brp/e-newsletter/oct-2015.html</loc>
-  <lastmod>2019-11-13T18:33:51+00:00</lastmod>
-  <priority>0.51</priority>
-</url>
-<url>
-  <loc>https://cancercontrol.cancer.gov/brp/e-newsletter/notes-oct-2015.html</loc>
-  <lastmod>2019-11-13T18:33:51+00:00</lastmod>
-  <priority>0.51</priority>
-</url>
-<url>
-  <loc>https://cancercontrol.cancer.gov/brp/e-newsletter/sept-2014.html</loc>
-  <lastmod>2019-11-13T18:33:51+00:00</lastmod>
-  <priority>0.51</priority>
-</url>
-<url>
-  <loc>https://cancercontrol.cancer.gov/brp/e-newsletter/may-2014.html</loc>
-  <lastmod>2019-11-13T18:33:51+00:00</lastmod>
-  <priority>0.51</priority>
-</url>
-<url>
-  <loc>https://cancercontrol.cancer.gov/brp/tcrb/tus-cps/index.html</loc>
-  <lastmod>2019-11-13T18:34:31+00:00</lastmod>
-  <priority>0.51</priority>
-</url>
-<url>
-  <loc>https://cancercontrol.cancer.gov/brp/tcrb/tus-cps/surveytopics.html</loc>
-  <lastmod>2019-11-13T18:34:50+00:00</lastmod>
-  <priority>0.51</priority>
-</url>
-<url>
-  <loc>https://cancercontrol.cancer.gov/brp/tcrb/tus-cps/results/data1819/2018-19-TUS-Questionnaire.pdf</loc>
-  <lastmod>2019-11-13T18:34:44+00:00</lastmod>
-  <priority>0.51</priority>
-</url>
-<url>
-  <loc>https://cancercontrol.cancer.gov/brp/tcrb/tus-cps/results/data1819/2018-19-TUS-Questionnaire.docx</loc>
-  <lastmod>2019-11-13T18:34:44+00:00</lastmod>
-  <priority>0.51</priority>
-</url>
-<url>
-  <loc>https://cancercontrol.cancer.gov/brp/tcrb/tus-cps/results/data1819/cpsjul18-DataBrief.pdf</loc>
-  <lastmod>2019-11-13T18:34:44+00:00</lastmod>
-  <priority>0.51</priority>
-</url>
-<url>
-  <loc>https://cancercontrol.cancer.gov/brp/tcrb/tus-cps/results/data1819/cpsjul18-TechnicalDocumentation.pdf</loc>
-  <lastmod>2019-11-13T18:34:44+00:00</lastmod>
-  <priority>0.51</priority>
-</url>
-<url>
-  <loc>https://cancercontrol.cancer.gov/brp/tcrb/tus-cps/harmonzd-tus-cps-1992-through-2015-vers-0-9-beta-data-dictionary.pdf</loc>
-  <lastmod>2019-11-13T18:34:30+00:00</lastmod>
-  <priority>0.51</priority>
-</url>
-<url>
-  <loc>https://cancercontrol.cancer.gov/brp/tcrb/tus-cps/docs/TUS-Harmonization-1992-2015-Technical-Documentation.pdf</loc>
-  <lastmod>2019-11-13T18:34:30+00:00</lastmod>
-  <priority>0.51</priority>
-</url>
-<url>
-  <loc>https://cancercontrol.cancer.gov/brp/tcrb/tus-cps/docs/TUS-Contents-List.pdf</loc>
-  <lastmod>2019-11-13T18:34:30+00:00</lastmod>
-  <priority>0.51</priority>
-</url>
-<url>
-  <loc>https://cancercontrol.cancer.gov/brp/tcrb/tus-cps/docs/TUS-Descriptive-Tables.pdf</loc>
-  <lastmod>2019-11-13T18:34:30+00:00</lastmod>
-  <priority>0.51</priority>
-</url>
-<url>
-  <loc>https://cancercontrol.cancer.gov/brp/tcrb/tus-cps/results/data1819/cpsjul18.txt</loc>
-  <lastmod>2019-11-13T18:34:44+00:00</lastmod>
-  <priority>0.51</priority>
-</url>
-<url>
-  <loc>https://cancercontrol.cancer.gov/brp/tcrb/tus-cps/surveys/A1_TUS-CPS-Questionnaire.pdf</loc>
-  <lastmod>2019-11-13T18:34:50+00:00</lastmod>
-  <priority>0.51</priority>
-</url>
-<url>
-  <loc>https://cancercontrol.cancer.gov/brp/tcrb/tus-cps/surveys/A1_TUS-CPS-Questionnaire.docx</loc>
-  <lastmod>2019-11-13T18:34:50+00:00</lastmod>
-  <priority>0.51</priority>
-</url>
-<url>
-  <loc>https://cancercontrol.cancer.gov/brp/tcrb/tus-cps/results/data1415/cpsjul14.pdf</loc>
-  <lastmod>2019-11-13T18:34:43+00:00</lastmod>
-  <priority>0.51</priority>
-</url>
-<url>
-  <loc>https://cancercontrol.cancer.gov/brp/tcrb/tus-cps/results/data1415/cpsjan15.pdf</loc>
-  <lastmod>2019-11-13T18:34:43+00:00</lastmod>
-  <priority>0.51</priority>
-</url>
-<url>
-  <loc>https://cancercontrol.cancer.gov/brp/tcrb/tus-cps/results/data1415/cpsmay15.pdf</loc>
-  <lastmod>2019-11-13T18:34:43+00:00</lastmod>
-  <priority>0.51</priority>
-</url>
-<url>
-  <loc>https://cancercontrol.cancer.gov/brp/tcrb/tus-cps/cps1415.txt</loc>
-  <lastmod>2019-11-13T18:34:30+00:00</lastmod>
-  <priority>0.51</priority>
-</url>
-<url>
-  <loc>https://cancercontrol.cancer.gov/brp/tcrb/tus-cps/TUS-CPS_2014-15_SummaryDocument.pdf</loc>
-  <lastmod>2019-11-13T18:34:29+00:00</lastmod>
-  <priority>0.51</priority>
-</url>
-<url>
-  <loc>https://cancercontrol.cancer.gov/brp/tcrb/tus-cps/results/data1415/</loc>
-  <lastmod>2019-11-13T18:34:43+00:00</lastmod>
-  <priority>0.51</priority>
-</url>
-<url>
-  <loc>https://cancercontrol.cancer.gov/brp/tcrb/tus-cps/surveys/TUS-CPS_may2011_follow-up.pdf</loc>
-  <lastmod>2019-11-13T18:34:50+00:00</lastmod>
-  <priority>0.51</priority>
-</url>
-<url>
-  <loc>https://cancercontrol.cancer.gov/brp/tcrb/tus-cps/surveys/TUS-CPS_may2011_follow-up.docx</loc>
-  <lastmod>2019-11-13T18:34:50+00:00</lastmod>
-  <priority>0.51</priority>
-</url>
-<url>
-  <loc>https://cancercontrol.cancer.gov/brp/tcrb/tus-cps/surveys/TUSCPS_english_2010.pdf</loc>
-  <lastmod>2019-11-13T18:34:50+00:00</lastmod>
-  <priority>0.51</priority>
-</url>
-<url>
-  <loc>https://cancercontrol.cancer.gov/brp/tcrb/tus-cps/surveys/TUSCPS_english_2010.docx</loc>
-  <lastmod>2019-11-13T18:34:50+00:00</lastmod>
-  <priority>0.51</priority>
-</url>
-<url>
-  <loc>https://cancercontrol.cancer.gov/brp/tcrb/tus-cps/results/data1011/cpsmay10.pdf</loc>
-  <lastmod>2019-11-13T18:34:41+00:00</lastmod>
-  <priority>0.51</priority>
-</url>
-<url>
-  <loc>https://cancercontrol.cancer.gov/brp/tcrb/tus-cps/results/data1011/cpsaug10.pdf</loc>
-  <lastmod>2019-11-13T18:34:41+00:00</lastmod>
-  <priority>0.51</priority>
-</url>
-<url>
-  <loc>https://cancercontrol.cancer.gov/brp/tcrb/tus-cps/results/data1011/cpsjan11.pdf</loc>
-  <lastmod>2019-11-13T18:34:41+00:00</lastmod>
-  <priority>0.51</priority>
-</url>
-<url>
-  <loc>https://cancercontrol.cancer.gov/brp/tcrb/tus-cps/cps1011.txt</loc>
-  <lastmod>2019-11-13T18:34:30+00:00</lastmod>
-  <priority>0.51</priority>
-</url>
-<url>
-  <loc>https://cancercontrol.cancer.gov/brp/tcrb/tus-cps/results/data1011/</loc>
-  <lastmod>2019-11-13T18:34:41+00:00</lastmod>
-  <priority>0.51</priority>
-</url>
-<url>
-  <loc>https://cancercontrol.cancer.gov/brp/tcrb/tus-cps/archive/TUSCPS_english_2006.pdf</loc>
-  <lastmod>2019-11-13T18:34:29+00:00</lastmod>
-  <priority>0.51</priority>
-</url>
-<url>
-  <loc>https://cancercontrol.cancer.gov/brp/tcrb/tus-cps/archive/TUSCPS_english_2006.docx</loc>
-  <lastmod>2019-11-13T18:34:29+00:00</lastmod>
-  <priority>0.51</priority>
-</url>
-<url>
-  <loc>https://cancercontrol.cancer.gov/brp/tcrb/tus-cps/results/data0607/cpsmay06.pdf</loc>
-  <lastmod>2019-11-13T18:34:38+00:00</lastmod>
-  <priority>0.51</priority>
-</url>
-<url>
-  <loc>https://cancercontrol.cancer.gov/brp/tcrb/tus-cps/results/data0607/cpsaug06.pdf</loc>
-  <lastmod>2019-11-13T18:34:38+00:00</lastmod>
-  <priority>0.51</priority>
-</url>
-<url>
-  <loc>https://cancercontrol.cancer.gov/brp/tcrb/tus-cps/results/data0607/cpsjan07.pdf</loc>
-  <lastmod>2019-11-13T18:34:38+00:00</lastmod>
-  <priority>0.51</priority>
-</url>
-<url>
-  <loc>https://cancercontrol.cancer.gov/brp/tcrb/tus-cps/cpsmayaug06_final.txt</loc>
-  <lastmod>2019-11-13T18:34:30+00:00</lastmod>
-  <priority>0.51</priority>
-</url>
-<url>
-  <loc>https://cancercontrol.cancer.gov/brp/tcrb/tus-cps/cpsjan07_final.txt</loc>
-  <lastmod>2019-11-13T18:34:30+00:00</lastmod>
-  <priority>0.51</priority>
-</url>
-<url>
-  <loc>https://cancercontrol.cancer.gov/brp/tcrb/tus-cps/results/data0607/</loc>
-  <lastmod>2019-11-13T18:34:38+00:00</lastmod>
-  <priority>0.51</priority>
-</url>
-<url>
-  <loc>https://cancercontrol.cancer.gov/brp/tcrb/tus-cps/race_bridging_071307.pdf</loc>
-  <lastmod>2019-11-13T18:34:31+00:00</lastmod>
-  <priority>0.51</priority>
-</url>
-<url>
-  <loc>https://cancercontrol.cancer.gov/brp/tcrb/tus-cps/archive/TUSCPS_english_2003.pdf</loc>
-  <lastmod>2019-11-13T18:34:29+00:00</lastmod>
-  <priority>0.51</priority>
-</url>
-<url>
-  <loc>https://cancercontrol.cancer.gov/brp/tcrb/tus-cps/archive/TUSCPS_english_2003.docx</loc>
-  <lastmod>2019-11-13T18:34:29+00:00</lastmod>
-  <priority>0.51</priority>
-</url>
-<url>
-  <loc>https://cancercontrol.cancer.gov/brp/tcrb/tus-cps/results/data03/CPS-FebJunNov-2003.pdf</loc>
-  <lastmod>2019-11-13T18:34:35+00:00</lastmod>
-  <priority>0.51</priority>
-</url>
-<url>
-  <loc>https://cancercontrol.cancer.gov/brp/tcrb/tus-cps/cps03_final.txt</loc>
-  <lastmod>2019-11-13T18:34:30+00:00</lastmod>
-  <priority>0.51</priority>
-</url>
-<url>
-  <loc>https://cancercontrol.cancer.gov/brp/tcrb/tus-cps/results/data03/</loc>
-  <lastmod>2019-11-13T18:34:37+00:00</lastmod>
-  <priority>0.51</priority>
-</url>
-<url>
-  <loc>https://cancercontrol.cancer.gov/brp/tcrb/tus-cps/TUS-CPS_overlap.pdf</loc>
-  <lastmod>2019-11-13T18:34:29+00:00</lastmod>
-  <priority>0.51</priority>
-</url>
-<url>
-  <loc>https://cancercontrol.cancer.gov/brp/tcrb/tus-cps/archive/cps_results.pdf</loc>
-  <lastmod>2019-11-13T18:34:29+00:00</lastmod>
-  <priority>0.51</priority>
-</url>
-<url>
-  <loc>https://cancercontrol.cancer.gov/brp/tcrb/tus-cps/archive/TUSCPS_english_2001-02.pdf</loc>
-  <lastmod>2019-11-13T18:34:29+00:00</lastmod>
-  <priority>0.51</priority>
-</url>
-<url>
-  <loc>https://cancercontrol.cancer.gov/brp/tcrb/tus-cps/archive/TUSCPS_english_2001-02.doc</loc>
-  <lastmod>2019-11-13T18:34:29+00:00</lastmod>
-  <priority>0.51</priority>
-</url>
-<url>
-  <loc>https://cancercontrol.cancer.gov/brp/tcrb/tus-cps/results/data0102/CPSJun01Nov01Feb02.pdf</loc>
-  <lastmod>2019-11-13T18:34:33+00:00</lastmod>
-  <priority>0.51</priority>
-</url>
-<url>
-  <loc>https://cancercontrol.cancer.gov/brp/tcrb/tus-cps/results/data0102/</loc>
-  <lastmod>2019-11-13T18:34:35+00:00</lastmod>
-  <priority>0.51</priority>
-</url>
-<url>
-  <loc>https://cancercontrol.cancer.gov/brp/tcrb/tus-cps/results/data0102/cps_results0102.pdf</loc>
-  <lastmod>2019-11-13T18:34:35+00:00</lastmod>
-  <priority>0.51</priority>
-</url>
-<url>
-  <loc>https://cancercontrol.cancer.gov/brp/tcrb/tus-cps/results/data00/CPSJanMay00.pdf</loc>
-  <lastmod>2019-11-13T18:34:32+00:00</lastmod>
-  <priority>0.51</priority>
-</url>
-<url>
-  <loc>https://cancercontrol.cancer.gov/brp/tcrb/tus-cps/results/data9899/CPSJan99.pdf</loc>
-  <lastmod>2019-11-13T18:34:48+00:00</lastmod>
-  <priority>0.51</priority>
-</url>
-<url>
-  <loc>https://cancercontrol.cancer.gov/brp/tcrb/tus-cps/results/data9899/CPSMay99.pdf</loc>
-  <lastmod>2019-11-13T18:34:48+00:00</lastmod>
-  <priority>0.51</priority>
-</url>
-<url>
-  <loc>https://cancercontrol.cancer.gov/brp/tcrb/tus-cps/results/data9899/CPSSep98.pdf</loc>
-  <lastmod>2019-11-13T18:34:48+00:00</lastmod>
-  <priority>0.51</priority>
-</url>
-<url>
-  <loc>https://cancercontrol.cancer.gov/brp/tcrb/tus-cps/results/data9899/</loc>
-  <lastmod>2019-11-13T18:34:50+00:00</lastmod>
-  <priority>0.51</priority>
-</url>
-<url>
-  <loc>https://cancercontrol.cancer.gov/brp/tcrb/tus-cps/results/data9596/CPSJan96.pdf</loc>
-  <lastmod>2019-11-13T18:34:46+00:00</lastmod>
-  <priority>0.51</priority>
-</url>
-<url>
-  <loc>https://cancercontrol.cancer.gov/brp/tcrb/tus-cps/results/data9596/CPSMay96.pdf</loc>
-  <lastmod>2019-11-13T18:34:46+00:00</lastmod>
-  <priority>0.51</priority>
-</url>
-<url>
-  <loc>https://cancercontrol.cancer.gov/brp/tcrb/tus-cps/results/data9596/CPSSep95.pdf</loc>
-  <lastmod>2019-11-13T18:34:46+00:00</lastmod>
-  <priority>0.51</priority>
-</url>
-<url>
-  <loc>https://cancercontrol.cancer.gov/brp/tcrb/tus-cps/translation/index.html</loc>
-  <lastmod>2019-11-13T18:34:50+00:00</lastmod>
-  <priority>0.51</priority>
-</url>
-<url>
-  <loc>https://cancercontrol.cancer.gov/brp/tcrb/tus-cps/translation/TUS_CAI_Chinese.pdf</loc>
-  <lastmod>2019-11-13T18:34:50+00:00</lastmod>
-  <priority>0.51</priority>
-</url>
-<url>
-  <loc>https://cancercontrol.cancer.gov/brp/tcrb/tus-cps/translation/TUS_PAPI_Chinese.pdf</loc>
-  <lastmod>2019-11-13T18:34:50+00:00</lastmod>
-  <priority>0.51</priority>
-</url>
-<url>
-  <loc>https://cancercontrol.cancer.gov/brp/tcrb/tus-cps/translation/TUS_PAPI_Khmer.pdf</loc>
-  <lastmod>2019-11-13T18:34:50+00:00</lastmod>
-  <priority>0.51</priority>
-</url>
-<url>
-  <loc>https://cancercontrol.cancer.gov/brp/tcrb/tus-cps/translation/TUS_CAI_Korean.pdf</loc>
-  <lastmod>2019-11-13T18:34:50+00:00</lastmod>
-  <priority>0.51</priority>
-</url>
-<url>
-  <loc>https://cancercontrol.cancer.gov/brp/tcrb/tus-cps/translation/TUS_PAPI_Korean.pdf</loc>
-  <lastmod>2019-11-13T18:34:50+00:00</lastmod>
-  <priority>0.51</priority>
-</url>
-<url>
-  <loc>https://cancercontrol.cancer.gov/brp/tcrb/tus-cps/translation/TUS_CAI_Spanish-TRANS.pdf</loc>
-  <lastmod>2019-11-13T18:34:50+00:00</lastmod>
-  <priority>0.51</priority>
-</url>
-<url>
-  <loc>https://cancercontrol.cancer.gov/brp/tcrb/tus-cps/translation/TUS_PAPI_Spanish-TRANS.pdf</loc>
-  <lastmod>2019-11-13T18:34:50+00:00</lastmod>
-  <priority>0.51</priority>
-</url>
-<url>
-  <loc>https://cancercontrol.cancer.gov/brp/tcrb/tus-cps/translation/TUS_CAI_Vietnamese.pdf</loc>
-  <lastmod>2019-11-13T18:34:50+00:00</lastmod>
-  <priority>0.51</priority>
-</url>
-<url>
-  <loc>https://cancercontrol.cancer.gov/brp/tcrb/tus-cps/translation/TUS_PAPI_Vietnamese.pdf</loc>
-  <lastmod>2019-11-13T18:34:50+00:00</lastmod>
-  <priority>0.51</priority>
-</url>
-<url>
-  <loc>https://cancercontrol.cancer.gov/brp/tcrb/key-initiatives.html</loc>
-  <lastmod>2019-11-13T18:34:12+00:00</lastmod>
-  <priority>0.51</priority>
-</url>
-<url>
-  <loc>https://cancercontrol.cancer.gov/brp/tcrb/tus-cps/linkages.html</loc>
-  <lastmod>2019-11-13T18:34:31+00:00</lastmod>
-  <priority>0.51</priority>
-</url>
-<url>
-  <loc>https://cancercontrol.cancer.gov/brp/tcrb/tus-cps/faq.html</loc>
-  <lastmod>2019-11-13T18:34:30+00:00</lastmod>
-  <priority>0.51</priority>
-</url>
-<url>
-  <loc>https://cancercontrol.cancer.gov/brp/tcrb/tus-cps/docs/DataHarmonizationFactsheet.pdf</loc>
-  <lastmod>2019-11-13T18:34:30+00:00</lastmod>
-  <priority>0.51</priority>
-</url>
-<url>
-  <loc>https://cancercontrol.cancer.gov/brp/tcrb/tus-cps/workshops/index.html</loc>
-  <lastmod>2019-11-13T18:34:51+00:00</lastmod>
-  <priority>0.51</priority>
-</url>
-<url>
-  <loc>https://cancercontrol.cancer.gov/brp/tcrb/tus-cps/Liu-TUSCPS-TCRB2018.pptx</loc>
-  <lastmod>2019-11-13T18:34:29+00:00</lastmod>
-  <priority>0.51</priority>
-</url>
-<url>
-  <loc>https://cancercontrol.cancer.gov/brp/hcirb/catchment-areas-cebp.html</loc>
-  <lastmod>2019-11-13T18:33:54+00:00</lastmod>
-  <priority>0.51</priority>
-</url>
-<url>
-  <loc>https://cancercontrol.cancer.gov/brp/hcirb/catchment-areas-special.html</loc>
-  <lastmod>2019-11-13T18:33:54+00:00</lastmod>
-  <priority>0.51</priority>
-</url>
-<url>
-  <loc>https://cancercontrol.cancer.gov/bb/</loc>
-  <lastmod>2019-11-13T18:33:42+00:00</lastmod>
-  <priority>0.51</priority>
-</url>
-<url>
-  <loc>https://cancercontrol.cancer.gov/brp/archive/about.html</loc>
-  <lastmod>2019-11-13T18:33:42+00:00</lastmod>
-  <priority>0.51</priority>
-</url>
-<url>
-  <loc>https://cancercontrol.cancer.gov/brp/archive/ceccr/index.html</loc>
-  <lastmod>2019-11-13T18:33:43+00:00</lastmod>
-  <priority>0.51</priority>
-</url>
-<url>
-  <loc>https://cancercontrol.cancer.gov/brp/archive/scienceteam/index.html</loc>
-  <lastmod>2019-11-13T18:33:43+00:00</lastmod>
-  <priority>0.51</priority>
-</url>
-<url>
-  <loc>https://cancercontrol.cancer.gov/brp/archive/trend/index.html</loc>
-  <lastmod>2019-11-13T18:33:44+00:00</lastmod>
-  <priority>0.51</priority>
-</url>
-<url>
-  <loc>https://cancercontrol.cancer.gov/brp/archive/tturc/index.html</loc>
-  <lastmod>2019-11-13T18:33:44+00:00</lastmod>
-  <priority>0.51</priority>
-</url>
-<url>
-  <loc>https://cancercontrol.cancer.gov/brp/archive/funding-conf.html</loc>
-  <lastmod>2019-11-13T18:33:43+00:00</lastmod>
-  <priority>0.51</priority>
-</url>
-<url>
-  <loc>https://cancercontrol.cancer.gov/brp/archive/publications.html</loc>
-  <lastmod>2019-11-13T18:33:43+00:00</lastmod>
-  <priority>0.51</priority>
-</url>
-<url>
-  <loc>https://cancercontrol.cancer.gov/brp/archive/smokefreemeetings/index.html</loc>
-  <lastmod>2019-11-13T18:33:43+00:00</lastmod>
-  <priority>0.51</priority>
-</url>
-<url>
-  <loc>https://cancercontrol.cancer.gov/brp/archive/health-behaviors/hpv-vaccination.html</loc>
-  <lastmod>2019-11-13T18:33:43+00:00</lastmod>
-  <priority>0.51</priority>
-</url>
-<url>
-  <loc>https://cancercontrol.cancer.gov/brp/archive/emotion.html</loc>
-  <lastmod>2019-11-13T18:33:43+00:00</lastmod>
-  <priority>0.51</priority>
-</url>
-<url>
-  <loc>https://cancercontrol.cancer.gov/IS/docs/DCCPS-DI-PAR-Factsheet.pdf</loc>
-  <lastmod>2019-11-13T18:33:31+00:00</lastmod>
-  <priority>0.51</priority>
 </url>
 <url>
   <loc>https://cancercontrol.cancer.gov/IS/docs/GI_1R01CA211723-01A1.pdf</loc>
-  <lastmod>2019-11-13T18:33:31+00:00</lastmod>
-  <priority>0.51</priority>
+  <lastmod>2020-01-25T11:35:02+00:00</lastmod>
+  <priority>0.64</priority>
 </url>
 <url>
   <loc>https://cancercontrol.cancer.gov/IS/docs/GI_1R37CA222885-01.pdf</loc>
-  <lastmod>2019-11-13T18:33:31+00:00</lastmod>
-  <priority>0.51</priority>
+  <lastmod>2020-01-25T11:35:02+00:00</lastmod>
+  <priority>0.64</priority>
 </url>
 <url>
   <loc>https://cancercontrol.cancer.gov/IS/docs/GI_1R01CA210259-01A1.pdf</loc>
-  <lastmod>2019-11-13T18:33:31+00:00</lastmod>
-  <priority>0.51</priority>
+  <lastmod>2020-01-25T11:35:02+00:00</lastmod>
+  <priority>0.64</priority>
 </url>
 <url>
   <loc>https://cancercontrol.cancer.gov/IS/docs/GI_1R01CA193396-01A1.pdf</loc>
-  <lastmod>2019-11-13T18:33:31+00:00</lastmod>
-  <priority>0.51</priority>
+  <lastmod>2020-01-25T11:35:02+00:00</lastmod>
+  <priority>0.64</priority>
 </url>
 <url>
   <loc>https://cancercontrol.cancer.gov/IS/docs/GI_1R21CA201567-01A1.pdf</loc>
-  <lastmod>2019-11-13T18:33:31+00:00</lastmod>
-  <priority>0.51</priority>
+  <lastmod>2020-01-25T11:35:02+00:00</lastmod>
+  <priority>0.64</priority>
 </url>
 <url>
   <loc>https://cancercontrol.cancer.gov/IS/docs/GI_1R01CA203844-01A1.pdf</loc>
-  <lastmod>2019-11-13T18:33:31+00:00</lastmod>
-  <priority>0.51</priority>
+  <lastmod>2020-01-25T11:35:02+00:00</lastmod>
+  <priority>0.64</priority>
 </url>
 <url>
   <loc>https://cancercontrol.cancer.gov/IS/docs/GI_1R01CA175329-01A1.pdf</loc>
-  <lastmod>2019-11-13T18:33:31+00:00</lastmod>
-  <priority>0.51</priority>
+  <lastmod>2020-01-25T11:35:02+00:00</lastmod>
+  <priority>0.64</priority>
 </url>
 <url>
   <loc>https://cancercontrol.cancer.gov/IS/docs/GI_1R01CA160327-01A1.pdf</loc>
-  <lastmod>2019-11-13T18:33:31+00:00</lastmod>
-  <priority>0.51</priority>
+  <lastmod>2020-01-25T11:35:02+00:00</lastmod>
+  <priority>0.64</priority>
 </url>
 <url>
   <loc>https://cancercontrol.cancer.gov/IS/docs/GI_1R01CA160217-01A1.pdf</loc>
-  <lastmod>2019-11-13T18:33:31+00:00</lastmod>
-  <priority>0.51</priority>
+  <lastmod>2020-01-25T11:35:02+00:00</lastmod>
+  <priority>0.64</priority>
 </url>
 <url>
   <loc>https://cancercontrol.cancer.gov/IS/docs/GI_1R21CA161657-01.pdf</loc>
-  <lastmod>2019-11-13T18:33:31+00:00</lastmod>
-  <priority>0.51</priority>
+  <lastmod>2020-01-25T11:35:02+00:00</lastmod>
+  <priority>0.64</priority>
 </url>
 <url>
   <loc>https://cancercontrol.cancer.gov/IS/docs/Meeting-Agenda.pdf</loc>
-  <lastmod>2019-11-13T18:33:31+00:00</lastmod>
-  <priority>0.51</priority>
+  <lastmod>2020-01-25T11:35:02+00:00</lastmod>
+  <priority>0.64</priority>
 </url>
 <url>
   <loc>https://cancercontrol.cancer.gov/IS/docs/Participant-Directory.pdf</loc>
-  <lastmod>2019-11-13T18:33:32+00:00</lastmod>
-  <priority>0.51</priority>
+  <lastmod>2020-01-25T11:35:03+00:00</lastmod>
+  <priority>0.64</priority>
 </url>
 <url>
   <loc>https://cancercontrol.cancer.gov/IS/docs/Breakout-Group-Topic-Descriptions.pdf</loc>
-  <lastmod>2019-11-13T18:33:31+00:00</lastmod>
-  <priority>0.51</priority>
+  <lastmod>2020-01-25T11:35:02+00:00</lastmod>
+  <priority>0.64</priority>
 </url>
 <url>
   <loc>https://cancercontrol.cancer.gov/IS/initiatives/iscc-videos.html</loc>
-  <lastmod>2019-11-13T18:33:33+00:00</lastmod>
-  <priority>0.51</priority>
+  <lastmod>2020-01-25T11:35:05+00:00</lastmod>
+  <priority>0.64</priority>
 </url>
 <url>
   <loc>https://cancercontrol.cancer.gov/IS/staff/Vinson.html</loc>
-  <lastmod>2019-11-13T18:33:37+00:00</lastmod>
-  <priority>0.51</priority>
+  <lastmod>2020-01-25T11:35:11+00:00</lastmod>
+  <priority>0.64</priority>
 </url>
 <url>
   <loc>https://cancercontrol.cancer.gov/IS/staff/Clyne.html</loc>
-  <lastmod>2019-11-13T18:33:37+00:00</lastmod>
-  <priority>0.51</priority>
+  <lastmod>2020-01-25T11:35:11+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://cancercontrol.cancer.gov/IS/chambers.html</loc>
+  <lastmod>2020-01-25T11:35:01+00:00</lastmod>
+  <priority>0.64</priority>
 </url>
 <url>
   <loc>https://cancercontrol.cancer.gov/IS/training-education/orientation.html</loc>
-  <lastmod>2019-11-13T18:33:37+00:00</lastmod>
-  <priority>0.51</priority>
+  <lastmod>2020-01-25T11:35:11+00:00</lastmod>
+  <priority>0.64</priority>
 </url>
 <url>
   <loc>https://cancercontrol.cancer.gov/IS/training-education/tidirc/index.html</loc>
-  <lastmod>2019-11-13T18:33:37+00:00</lastmod>
-  <priority>0.51</priority>
+  <lastmod>2020-01-25T11:35:11+00:00</lastmod>
+  <priority>0.64</priority>
 </url>
 <url>
   <loc>https://cancercontrol.cancer.gov/IS/training-education/tidirc/openaccess.html</loc>
-  <lastmod>2019-11-13T18:33:37+00:00</lastmod>
-  <priority>0.51</priority>
+  <lastmod>2020-01-25T11:35:11+00:00</lastmod>
+  <priority>0.64</priority>
 </url>
 <url>
   <loc>https://cancercontrol.cancer.gov/IS/training-education/Details.aspx?ID=31</loc>
-  <lastmod>2019-11-13T18:52:22+00:00</lastmod>
-  <priority>0.51</priority>
+  <lastmod>2020-01-28T23:21:30+00:00</lastmod>
+  <priority>0.64</priority>
 </url>
 <url>
   <loc>https://cancercontrol.cancer.gov/IS/training-education/Webinars.aspx?category=Study%20Designs</loc>
-  <lastmod>2019-11-13T18:52:22+00:00</lastmod>
-  <priority>0.51</priority>
+  <lastmod>2020-01-28T23:21:30+00:00</lastmod>
+  <priority>0.64</priority>
 </url>
 <url>
   <loc>https://cancercontrol.cancer.gov/IS/docs/NCI-DCCPS-ImplementationScience-WhitePaper.pdf</loc>
-  <lastmod>2019-11-13T18:33:31+00:00</lastmod>
-  <priority>0.51</priority>
+  <lastmod>2020-01-25T11:35:02+00:00</lastmod>
+  <priority>0.64</priority>
 </url>
 <url>
   <loc>https://cancercontrol.cancer.gov/IS/docs/NCI-ISaaG-Workbook.pdf</loc>
-  <lastmod>2019-11-13T18:33:32+00:00</lastmod>
-  <priority>0.51</priority>
+  <lastmod>2020-01-25T11:35:03+00:00</lastmod>
+  <priority>0.64</priority>
 </url>
 <url>
   <loc>https://cancercontrol.cancer.gov/IS/docs/NCI-ISaaG-Workbook.epub</loc>
-  <lastmod>2019-11-13T18:33:31+00:00</lastmod>
-  <priority>0.51</priority>
+  <lastmod>2020-01-25T11:35:01+00:00</lastmod>
+  <priority>0.64</priority>
 </url>
 <url>
   <loc>https://cancercontrol.cancer.gov/IS/docs/NCI-ISaaG-Workbook.mobi</loc>
-  <lastmod>2019-11-13T18:33:31+00:00</lastmod>
-  <priority>0.51</priority>
+  <lastmod>2020-01-25T11:35:01+00:00</lastmod>
+  <priority>0.64</priority>
 </url>
 <url>
-  <loc>https://cancercontrol.cancer.gov/IS/docs/19034_NCI_DCCPS_IS_FactsheetUpdate_RELEASE_508.pdf</loc>
-  <lastmod>2019-11-13T18:33:31+00:00</lastmod>
-  <priority>0.51</priority>
+  <loc>https://cancercontrol.cancer.gov/IS/docs/DCCPS-IS-Factsheet.pdf</loc>
+  <lastmod>2020-01-25T11:35:02+00:00</lastmod>
+  <priority>0.64</priority>
 </url>
 <url>
   <loc>https://cancercontrol.cancer.gov/IS/staff/Abazeed.html</loc>
-  <lastmod>2019-11-13T18:33:37+00:00</lastmod>
-  <priority>0.51</priority>
+  <lastmod>2020-01-25T11:35:11+00:00</lastmod>
+  <priority>0.64</priority>
 </url>
 <url>
   <loc>https://cancercontrol.cancer.gov/IS/staff/Bernal.html</loc>
-  <lastmod>2019-11-13T18:33:37+00:00</lastmod>
-  <priority>0.51</priority>
+  <lastmod>2020-01-25T11:35:11+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://cancercontrol.cancer.gov/IS/staff/Emmons.html</loc>
+  <lastmod>2020-01-25T11:35:11+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://cancercontrol.cancer.gov/IS/staff/DelNero.html</loc>
+  <lastmod>2020-01-25T11:35:11+00:00</lastmod>
+  <priority>0.64</priority>
 </url>
 <url>
   <loc>https://cancercontrol.cancer.gov/IS/staff/Farrell.html</loc>
-  <lastmod>2019-11-13T18:33:37+00:00</lastmod>
-  <priority>0.51</priority>
+  <lastmod>2020-01-25T11:35:11+00:00</lastmod>
+  <priority>0.64</priority>
 </url>
 <url>
   <loc>https://cancercontrol.cancer.gov/IS/staff/Hursting.html</loc>
-  <lastmod>2019-11-13T18:33:37+00:00</lastmod>
-  <priority>0.51</priority>
+  <lastmod>2020-01-25T11:35:11+00:00</lastmod>
+  <priority>0.64</priority>
 </url>
 <url>
   <loc>https://cancercontrol.cancer.gov/IS/staff/Norton.html</loc>
-  <lastmod>2019-11-13T18:33:37+00:00</lastmod>
-  <priority>0.51</priority>
+  <lastmod>2020-01-25T11:35:11+00:00</lastmod>
+  <priority>0.64</priority>
 </url>
 <url>
   <loc>https://cancercontrol.cancer.gov/IS/staff/Percy-Laurry.html</loc>
-  <lastmod>2019-11-13T18:33:37+00:00</lastmod>
-  <priority>0.51</priority>
+  <lastmod>2020-01-25T11:35:11+00:00</lastmod>
+  <priority>0.64</priority>
 </url>
 <url>
   <loc>https://cancercontrol.cancer.gov/IS/staff/Uy.html</loc>
-  <lastmod>2019-11-13T18:33:37+00:00</lastmod>
-  <priority>0.51</priority>
+  <lastmod>2020-01-25T11:35:11+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://cancercontrol.cancer.gov/IS/blog/2020/01-reflections-on-di-measurement-challenges-progress-next-steps.html</loc>
+  <lastmod>2020-01-25T11:35:01+00:00</lastmod>
+  <priority>0.64</priority>
 </url>
 <url>
   <loc>https://cancercontrol.cancer.gov/IS/blog/2019/11-implementation-science-genomic-medicine-in-action-case-study.html</loc>
-  <lastmod>2019-11-13T18:33:31+00:00</lastmod>
-  <priority>0.51</priority>
+  <lastmod>2020-01-25T11:35:01+00:00</lastmod>
+  <priority>0.64</priority>
 </url>
 <url>
   <loc>https://cancercontrol.cancer.gov/IS/blog/2019/10-implementation-science-centers-cancer-control-opportunities-contribute-research-agenda.html</loc>
-  <lastmod>2019-11-13T18:33:31+00:00</lastmod>
-  <priority>0.51</priority>
+  <lastmod>2020-01-25T11:35:01+00:00</lastmod>
+  <priority>0.64</priority>
 </url>
 <url>
   <loc>https://cancercontrol.cancer.gov/IS/blog/2019/09-increasing-the-usage-of-the-research-tested-intervention-programs-rtips-website.html</loc>
-  <lastmod>2019-11-13T18:33:31+00:00</lastmod>
-  <priority>0.51</priority>
+  <lastmod>2020-01-25T11:35:01+00:00</lastmod>
+  <priority>0.64</priority>
 </url>
 <url>
   <loc>https://cancercontrol.cancer.gov/IS/blog/2019/08-reflections-on-my-fellowship-with-the-implementation-science-team-at-nci.html</loc>
-  <lastmod>2019-11-13T18:33:31+00:00</lastmod>
-  <priority>0.51</priority>
+  <lastmod>2020-01-25T11:35:01+00:00</lastmod>
+  <priority>0.64</priority>
 </url>
 <url>
   <loc>https://cancercontrol.cancer.gov/IS/blog/2019/07-reflections-training-opportunities-implementation-science.html</loc>
-  <lastmod>2019-11-13T18:33:31+00:00</lastmod>
-  <priority>0.51</priority>
+  <lastmod>2020-01-25T11:35:01+00:00</lastmod>
+  <priority>0.64</priority>
 </url>
 <url>
   <loc>https://cancercontrol.cancer.gov/IS/blog/2019/05-understanding-and-addressing-clinical-workflow-to-facilitate-implementation.html</loc>
-  <lastmod>2019-11-13T18:33:31+00:00</lastmod>
-  <priority>0.51</priority>
+  <lastmod>2020-01-25T11:35:01+00:00</lastmod>
+  <priority>0.64</priority>
 </url>
 <url>
   <loc>https://cancercontrol.cancer.gov/IS/blog/2019/04-sustainability-of-cancer-control-coalitions-as-a-new-box.html</loc>
-  <lastmod>2019-11-13T18:33:31+00:00</lastmod>
-  <priority>0.51</priority>
+  <lastmod>2020-01-25T11:35:01+00:00</lastmod>
+  <priority>0.64</priority>
 </url>
 <url>
   <loc>https://cancercontrol.cancer.gov/IS/blog/2019/03-amplifying-practitioner-perspectives-to-strengthen-implementation-science.html</loc>
-  <lastmod>2019-11-13T18:33:31+00:00</lastmod>
-  <priority>0.51</priority>
+  <lastmod>2020-01-25T11:35:01+00:00</lastmod>
+  <priority>0.64</priority>
 </url>
 <url>
   <loc>https://cancercontrol.cancer.gov/IS/blog/2019/02-implementation-science-to-advance-clean-cooking.html</loc>
-  <lastmod>2019-11-13T18:33:31+00:00</lastmod>
-  <priority>0.51</priority>
+  <lastmod>2020-01-25T11:35:01+00:00</lastmod>
+  <priority>0.64</priority>
 </url>
 <url>
   <loc>https://cancercontrol.cancer.gov/IS/blog/2018/11-sun-safety-in-the-physical-activity-context-opportunities-and-challenges.html</loc>
-  <lastmod>2019-11-13T18:33:31+00:00</lastmod>
-  <priority>0.51</priority>
+  <lastmod>2020-01-25T11:35:01+00:00</lastmod>
+  <priority>0.64</priority>
 </url>
 <url>
   <loc>https://cancercontrol.cancer.gov/IS/blog/2018/10-collaboration-between-rtips-and-pew-macarthur-results-first-initiative-clearinghouse-database.html</loc>
-  <lastmod>2019-11-13T18:33:31+00:00</lastmod>
-  <priority>0.51</priority>
+  <lastmod>2020-01-25T11:35:01+00:00</lastmod>
+  <priority>0.64</priority>
 </url>
 <url>
   <loc>https://cancercontrol.cancer.gov/IS/blog/2018/09-design-thinking-and-community-based-participatory-research-for-implementation-science.html</loc>
-  <lastmod>2019-11-13T18:33:31+00:00</lastmod>
-  <priority>0.51</priority>
+  <lastmod>2020-01-25T11:35:01+00:00</lastmod>
+  <priority>0.64</priority>
 </url>
 <url>
   <loc>https://cancercontrol.cancer.gov/IS/blog/2018/08-comprehensive-cancer-control-national-partnership.html</loc>
-  <lastmod>2019-11-13T18:33:31+00:00</lastmod>
-  <priority>0.51</priority>
+  <lastmod>2020-01-25T11:35:01+00:00</lastmod>
+  <priority>0.64</priority>
 </url>
 <url>
   <loc>https://cancercontrol.cancer.gov/IS/blog/2018/07-where-have-we-been-and-where-should-we-go.html</loc>
-  <lastmod>2019-11-13T18:33:31+00:00</lastmod>
-  <priority>0.51</priority>
+  <lastmod>2020-01-25T11:35:01+00:00</lastmod>
+  <priority>0.64</priority>
 </url>
 <url>
   <loc>https://cancercontrol.cancer.gov/IS/blog/2018/06-trials-in-implementation-science.html</loc>
-  <lastmod>2019-11-13T18:33:31+00:00</lastmod>
+  <lastmod>2020-01-25T11:35:01+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://cancercontrol.cancer.gov/IS/docs/DAChambers-CV.pdf</loc>
+  <lastmod>2020-01-25T11:35:02+00:00</lastmod>
   <priority>0.51</priority>
 </url>
 <url>
-  <loc>https://cancercontrol.cancer.gov/ocs/resources/late-effects.html</loc>
-  <lastmod>2019-11-13T18:35:00+00:00</lastmod>
+  <loc>https://cancercontrol.cancer.gov/IS/docs/Orientation-to-DI-Research-in-Health-Resource-Guide.pdf</loc>
+  <lastmod>2020-01-25T11:35:03+00:00</lastmod>
   <priority>0.51</priority>
 </url>
 <url>
-  <loc>https://cancercontrol.cancer.gov/ocs/resources/health-after-cancer.html</loc>
-  <lastmod>2019-11-13T18:35:00+00:00</lastmod>
+  <loc>https://cancercontrol.cancer.gov/IS/training-education/tidirc/faqs.html</loc>
+  <lastmod>2020-01-25T11:35:11+00:00</lastmod>
   <priority>0.51</priority>
 </url>
 <url>
-  <loc>https://cancercontrol.cancer.gov/ocs/resources/support-groups.html</loc>
-  <lastmod>2019-11-13T18:35:00+00:00</lastmod>
+  <loc>https://cancercontrol.cancer.gov/IS/training-education/tidirc/eligibility.html</loc>
+  <lastmod>2020-01-25T11:35:11+00:00</lastmod>
   <priority>0.51</priority>
 </url>
 <url>
-  <loc>https://cancercontrol.cancer.gov/ocs/resources/follow-up-care.html</loc>
-  <lastmod>2019-11-13T18:35:00+00:00</lastmod>
+  <loc>https://cancercontrol.cancer.gov/IS/training-education/tidirc/procedure.html</loc>
+  <lastmod>2020-01-25T11:35:11+00:00</lastmod>
   <priority>0.51</priority>
 </url>
 <url>
-  <loc>https://cancercontrol.cancer.gov/pdf/ASCO-Survivorship-Care-Plan.pdf</loc>
-  <lastmod>2019-11-13T18:35:00+00:00</lastmod>
+  <loc>https://cancercontrol.cancer.gov/IS/training-education/tidirc/application.aspx</loc>
+  <lastmod>2020-01-28T23:21:30+00:00</lastmod>
   <priority>0.51</priority>
 </url>
 <url>
-  <loc>https://cancercontrol.cancer.gov/ocs/resources/embracing-future/agenda.html</loc>
-  <lastmod>2019-11-13T18:35:00+00:00</lastmod>
+  <loc>https://cancercontrol.cancer.gov/IS/training-education/tidirc/openaccess-module1.html</loc>
+  <lastmod>2020-01-25T11:35:11+00:00</lastmod>
   <priority>0.51</priority>
 </url>
 <url>
-  <loc>https://cancercontrol.cancer.gov/ocs/resources/pathways/agenda.html</loc>
-  <lastmod>2019-11-13T18:35:00+00:00</lastmod>
+  <loc>https://cancercontrol.cancer.gov/IS/training-education/tidirc/openaccess-module2.html</loc>
+  <lastmod>2020-01-25T11:35:11+00:00</lastmod>
   <priority>0.51</priority>
 </url>
 <url>
-  <loc>https://cancercontrol.cancer.gov/ocs/resources/teleconference12.html</loc>
-  <lastmod>2019-11-13T18:35:00+00:00</lastmod>
+  <loc>https://cancercontrol.cancer.gov/IS/training-education/tidirc/openaccess-module3.html</loc>
+  <lastmod>2020-01-25T11:35:11+00:00</lastmod>
   <priority>0.51</priority>
 </url>
 <url>
-  <loc>https://cancercontrol.cancer.gov/ocs/resources/teleconference11.html</loc>
-  <lastmod>2019-11-13T18:35:00+00:00</lastmod>
+  <loc>https://cancercontrol.cancer.gov/IS/training-education/tidirc/openaccess-module4.html</loc>
+  <lastmod>2020-01-25T11:35:11+00:00</lastmod>
   <priority>0.51</priority>
 </url>
 <url>
-  <loc>https://cancercontrol.cancer.gov/ocs/resources/teleconference10.html</loc>
-  <lastmod>2019-11-13T18:35:00+00:00</lastmod>
+  <loc>https://cancercontrol.cancer.gov/IS/training-education/tidirc/openaccess-module5.html</loc>
+  <lastmod>2020-01-25T11:35:11+00:00</lastmod>
   <priority>0.51</priority>
 </url>
 <url>
-  <loc>https://cancercontrol.cancer.gov/ocs/resources/teleconference09.html</loc>
-  <lastmod>2019-11-13T18:35:00+00:00</lastmod>
+  <loc>https://cancercontrol.cancer.gov/IS/training-education/tidirc/openaccess-module6.html</loc>
+  <lastmod>2020-01-25T11:35:11+00:00</lastmod>
   <priority>0.51</priority>
 </url>
 <url>
-  <loc>https://cancercontrol.cancer.gov/ocs/resources/teleconference08.html</loc>
-  <lastmod>2019-11-13T18:35:00+00:00</lastmod>
-  <priority>0.51</priority>
-</url>
-<url>
-  <loc>https://cancercontrol.cancer.gov/ocs/resources/teleconference07.html</loc>
-  <lastmod>2019-11-13T18:35:00+00:00</lastmod>
-  <priority>0.51</priority>
-</url>
-<url>
-  <loc>https://cancercontrol.cancer.gov/ocs/resources/teleconference06.html</loc>
-  <lastmod>2019-11-13T18:35:00+00:00</lastmod>
-  <priority>0.51</priority>
-</url>
-<url>
-  <loc>https://cancercontrol.cancer.gov/ocs/resources/teleconference05.html</loc>
-  <lastmod>2019-11-13T18:35:00+00:00</lastmod>
-  <priority>0.51</priority>
-</url>
-<url>
-  <loc>https://cancercontrol.cancer.gov/ocs/resources/focus.html</loc>
-  <lastmod>2019-11-13T18:35:00+00:00</lastmod>
-  <priority>0.51</priority>
-</url>
-<url>
-  <loc>https://cancercontrol.cancer.gov/ocs/resources/survivor-stories/gary-johnson.html</loc>
-  <lastmod>2019-11-13T18:35:00+00:00</lastmod>
-  <priority>0.51</priority>
-</url>
-<url>
-  <loc>https://cancercontrol.cancer.gov/ocs/resources/survivor-stories/kelly-turner.html</loc>
-  <lastmod>2019-11-13T18:35:00+00:00</lastmod>
-  <priority>0.51</priority>
-</url>
-<url>
-  <loc>https://cancercontrol.cancer.gov/ocs/resources/survivor-stories/mark-ciccarelli.html</loc>
-  <lastmod>2019-11-13T18:35:00+00:00</lastmod>
-  <priority>0.51</priority>
-</url>
-<url>
-  <loc>https://cancercontrol.cancer.gov/ocs/resources/survivor-stories/byron-dudley.html</loc>
-  <lastmod>2019-11-13T18:35:00+00:00</lastmod>
-  <priority>0.51</priority>
-</url>
-<url>
-  <loc>https://cancercontrol.cancer.gov/ocs/resources/survivor-stories/minnie-hines-chen.html</loc>
-  <lastmod>2019-11-13T18:35:00+00:00</lastmod>
-  <priority>0.51</priority>
-</url>
-<url>
-  <loc>https://cancercontrol.cancer.gov/ocs/resources/survivor-stories/staci-wright.html</loc>
-  <lastmod>2019-11-13T18:35:00+00:00</lastmod>
-  <priority>0.51</priority>
-</url>
-<url>
-  <loc>https://cancercontrol.cancer.gov/ocs/resources/survivor-stories/gary-bonacker.html</loc>
-  <lastmod>2019-11-13T18:35:00+00:00</lastmod>
-  <priority>0.51</priority>
-</url>
-<url>
-  <loc>https://cancercontrol.cancer.gov/ocs/resources/survivor-stories/katie-strumpf.html</loc>
-  <lastmod>2019-11-13T18:35:00+00:00</lastmod>
-  <priority>0.51</priority>
-</url>
-<url>
-  <loc>https://cancercontrol.cancer.gov/ocs/resources/survivor-stories/ben-moon.html</loc>
-  <lastmod>2019-11-13T18:35:00+00:00</lastmod>
-  <priority>0.51</priority>
-</url>
-<url>
-  <loc>https://cancercontrol.cancer.gov/ocs/resources/survivor-stories/tamika-felder.html</loc>
-  <lastmod>2019-11-13T18:35:00+00:00</lastmod>
-  <priority>0.51</priority>
-</url>
-<url>
-  <loc>https://cancercontrol.cancer.gov/ocs/resources/survivor-stories/matthew-zachary.html</loc>
-  <lastmod>2019-11-13T18:35:00+00:00</lastmod>
-  <priority>0.51</priority>
-</url>
-<url>
-  <loc>https://cancercontrol.cancer.gov/events/survivorship-investigators-webinar/</loc>
-  <lastmod>2019-11-13T18:34:53+00:00</lastmod>
-  <priority>0.51</priority>
-</url>
-<url>
-  <loc>https://cancercontrol.cancer.gov/funding_apply.html?category=Healthcare+Delivery+Research</loc>
-  <lastmod>2019-11-13T18:34:53+00:00</lastmod>
-  <priority>0.51</priority>
-</url>
-<url>
-  <loc>https://cancercontrol.cancer.gov/ocs/resources/icc-meeting.html</loc>
-  <lastmod>2019-11-13T18:35:00+00:00</lastmod>
-  <priority>0.51</priority>
-</url>
-<url>
-  <loc>https://cancercontrol.cancer.gov/od/srinivasan-cv.pdf</loc>
-  <lastmod>2019-11-13T18:35:00+00:00</lastmod>
-  <priority>0.51</priority>
-</url>
-<url>
-  <loc>https://cancercontrol.cancer.gov/new_grantees/presentations/New-Investigator-Workshop-2017-Agenda.pdf</loc>
-  <lastmod>2019-11-13T18:34:57+00:00</lastmod>
-  <priority>0.51</priority>
-</url>
-<url>
-  <loc>https://cancercontrol.cancer.gov/new_grantees/presentations/Robert-Croyle-DCCPS-Director-Keynote-Address.pdf</loc>
-  <lastmod>2019-11-13T18:34:58+00:00</lastmod>
-  <priority>0.51</priority>
-</url>
-<url>
-  <loc>https://cancercontrol.cancer.gov/new_grantees/presentations/Role-of-the-Program-Director-and-Grants-Specialist.pdf</loc>
-  <lastmod>2019-11-13T18:34:58+00:00</lastmod>
-  <priority>0.51</priority>
-</url>
-<url>
-  <loc>https://cancercontrol.cancer.gov/new_grantees/presentations/Laura-Siminoff-Successfully-Managing-your-R01.pdf</loc>
-  <lastmod>2019-11-13T18:34:57+00:00</lastmod>
-  <priority>0.51</priority>
-</url>
-<url>
-  <loc>https://cancercontrol.cancer.gov/new_grantees/presentations/Ming-Lei_Alison-Lin-Fellowship-and-Training-Grants.pdf</loc>
-  <lastmod>2019-11-13T18:34:57+00:00</lastmod>
-  <priority>0.51</priority>
-</url>
-<url>
-  <loc>https://cancercontrol.cancer.gov/new_grantees/presentations/Paul-Jacobsen-Perspective-from-an-Experience-Investigator.pdf</loc>
-  <lastmod>2019-11-13T18:34:58+00:00</lastmod>
-  <priority>0.51</priority>
-</url>
-<url>
-  <loc>https://cancercontrol.cancer.gov/new_grantees/presentations/David-Chambers-Disemination-and-Implementation.pdf</loc>
-  <lastmod>2019-11-13T18:34:57+00:00</lastmod>
-  <priority>0.51</priority>
-</url>
-<url>
-  <loc>https://cancercontrol.cancer.gov/new_grantees/presentations/Charlisse-Caga-anan-Data-Sharing.pdf</loc>
-  <lastmod>2019-11-13T18:34:56+00:00</lastmod>
-  <priority>0.51</priority>
-</url>
-<url>
-  <loc>https://cancercontrol.cancer.gov/new_grantees/presentations/Patricia-Valdez-Rigor-and-Reproducibility.pdf</loc>
-  <lastmod>2019-11-13T18:34:58+00:00</lastmod>
-  <priority>0.51</priority>
-</url>
-<url>
-  <loc>https://cancercontrol.cancer.gov/new_grantees/presentations/DCCPSNGWAgenda_acc.pdf</loc>
-  <lastmod>2019-11-13T18:34:57+00:00</lastmod>
-  <priority>0.51</priority>
-</url>
-<url>
-  <loc>https://cancercontrol.cancer.gov/new_grantees/presentations/Croyle_DCCPS-Directors-Keynote-Address.pdf</loc>
-  <lastmod>2019-11-13T18:34:56+00:00</lastmod>
+  <loc>https://cancercontrol.cancer.gov/IS/docs/WE-Norton-CV.pdf</loc>
+  <lastmod>2020-01-25T11:35:03+00:00</lastmod>
   <priority>0.51</priority>
 </url>
 
