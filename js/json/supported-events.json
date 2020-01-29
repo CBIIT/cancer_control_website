@@ -1,28 +1,20 @@
 {
     "events": [
 		{
-			"eventtitle":"Canaries in the Coal Mine: What We Can Learn about Aging from Survivors of Childhood Cancer",
-			"eventurl":"https://cancercontrol.cancer.gov/funding-foa-applicants.html#collapse-28",
-			"eventdatemonth":"January",
-			"eventdateday":"14",
-			"eventtype":"Webinar",
-            "fulldate":"2020-01-14T18:00:00.000Z"
-        },
-		{
-			"eventtitle":"Ethical Challenges in Rapid Tissue Autopsy Programs",
-			"eventurl":"https://epi.grants.cancer.gov/events/enrich-forum/index.html#pentz",
-			"eventdatemonth":"January",
-			"eventdateday":"21",
-			"eventtype":"Webinar",
-            "fulldate":"2020-01-21T18:00:00.000Z"
-        },
-		{
 			"eventtitle":"Research Identifying Germline Predisposition Variants in Sequencing Studies",
 			"eventurl":"https://epi.grants.cancer.gov/events/seqSPACE/index.html#rodrigues",
 			"eventdatemonth":"February",
 			"eventdateday":"4",
 			"eventtype":"Webinar",
             "fulldate":"2020-02-04T18:00:00.000Z"
+        },
+		{
+			"eventtitle":"Standards-Based Informatics Infrastructure to Identify and Manage Patients Eligible for Genetic Evaluation of Familial Cancer Risk",
+			"eventurl":"https://cbiit.webex.com/mw3300/mywebex/default.do?nomenu=true&siteurl=cbiit&service=6&rnd=0.9203112240469893&main_url=https%3A%2F%2Fcbiit.webex.com%2Fec3300%2Feventcenter%2Fevent%2FeventAction.do%3FtheAction%3Ddetail%26%26%26EMK%3D4832534b00000004bbb7942061e45ed38a084ada615908e833bc1c90a5ed8cba9dc1a08c8dde57bb%26siteurl%3Dcbiit%26confViewID%3D149825236344251085%26encryptTicket%3DSDJTSwAAAAQwmoNg5V1ZAf7NjSvnGFEvRZiHZ3XFWzVZo7fujtwnDA2%26",
+			"eventdatemonth":"February",
+			"eventdateday":"13",
+			"eventtype":"Webinar",
+            "fulldate":"2020-02-13T18:00:00.000Z"
         },
 		{
 			"eventtitle":"Electronic Medical Record Search Engine (EMERSE) for Research on Rare Cancers",
@@ -63,6 +55,14 @@
 			"eventdateday":"26",
 			"eventtype":"Webinar",
             "fulldate":"2020-05-26T18:00:00.000Z"
+        },
+		{
+			"eventtitle":"Cancer Epidemiology in Hispanic Populations Workshop",
+			"eventurl":"https://epi.grants.cancer.gov/events/cancer-epid-hispanic-pop/",
+			"eventdatemonth":"May",
+			"eventdateday":"27-28",
+			"eventtype":"In-Person Workshop",
+            "fulldate":"2020-05-28T18:00:00.000Z"
         },
 		{
 			"eventtitle":"Polygenic Risk Scores",
