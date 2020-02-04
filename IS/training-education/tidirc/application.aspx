@@ -180,7 +180,7 @@
 			<div id="thankyou" class="email-validation-message" runat="server"></div>
 			<div class="row">
 					<div class="col-md-12 required-statement">
-						<p class="alert alert-danger">The 2020 application period is closed.   For questions concerning the training or application process, please review  the <a href="https://cancercontrol.cancer.gov/IS/training-education/tidirc/faqs.html">FAQ page</a> or contact the Implementation  Science Team at <a href="mailto:NCIdccpsISteam@mail.nih.gov">NCIdccpsISteam@mail.nih.gov</a>.</p>
+						<p class="alert alert-danger">The 2020 application period is closed.   For questions concerning the training or application process, please review  the <a href="/IS/training-education/tidirc/faqs.html">FAQ page</a> or contact the Implementation  Science Team at <a href="mailto:NCIdccpsISteam@mail.nih.gov">NCIdccpsISteam@mail.nih.gov</a>.</p>
 					</div>
 			</div>
 			<!--<form id="form1" runat="server">
