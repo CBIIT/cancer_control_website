@@ -59,8 +59,7 @@
 	var categorytypes = $('input:checkbox[name="category"]:checked').map(function() {
 		return '' + this.value + '';
 	  }).get().join('|');
-		console.log(categorytypes);
-		table.fnFilter(categorytypes, 6, true, true, false, false);
+	table.fnFilter(categorytypes, 6, true, false, false, false);
 	}
 	function fundingClicked() {
 		var fundingtypes = $('input:checkbox[name="funding"]:checked').map(function() {
@@ -81,39 +80,44 @@
 		table.fnFilter(typetypes, 7, true, false, false, false);
 	}
 		
-	var param = decodeURI(getUrlVars()["category"]);
-	param = param.replace(/\+/g,' ').replace(/\,/g,'%2C');
-	jQuery.each(param.split("%2C"), function (i, val) {
-		$(":checkbox[name='category'][value='" + val + "']").prop("checked", true);
-		categoryClicked();
-	});
-	param = decodeURI(getUrlVars()["funding"]);
-	param = param.replace(/\+/g,' ').replace(/\,/g,'%2C');
-	jQuery.each(param.split("%2C"), function (i, val) {
-		$(":checkbox[name='funding'][value='" + val + "']").prop("checked", true);
-		fundingClicked();
-	});
-	param = decodeURI(getUrlVars()["activity"]);
-	param = param.replace(/\+/g,' ').replace(/\,/g,'%2C');
-	jQuery.each(param.split("%2C"), function (i, val) {
-		$(":checkbox[name='activity'][value='" + val + "']").prop("checked", true);
-		activityClicked();
-	});
-	param = decodeURI(getUrlVars()["type"]);
-	param = param.replace(/\+/g,' ').replace(/\,/g,'%2C');
-	jQuery.each(param.split("%2C"), function (i, val) {
-		$(":checkbox[name='type'][value='" + val + "']").prop("checked", true);	
-		typeClicked();
-	});
-	param = decodeURI(getUrlVars()["search"]);
-	
-	if(param === 'undefined') {
-	
-	}
-	else{
+	if (window.location.href.indexOf("?") >= 0) {
+		var param = decodeURI(getUrlVars()["category"]);
 		param = param.replace(/\+/g,' ').replace(/\,/g,'%2C');
-		$('#example_filter input').val("hey");
-		table.fnFilter(param);
+		jQuery.each(param.split("%2C"), function (i, val) {
+			$(":checkbox[name='category'][value='" + val + "']").prop("checked", true);
+			categoryClicked();
+		});
+		param = decodeURI(getUrlVars()["funding"]);
+		param = param.replace(/\+/g,' ').replace(/\,/g,'%2C');
+		jQuery.each(param.split("%2C"), function (i, val) {
+			$(":checkbox[name='funding'][value='" + val + "']").prop("checked", true);
+			fundingClicked();
+		});
+		param = decodeURI(getUrlVars()["activity"]);
+		param = param.replace(/\+/g,' ').replace(/\,/g,'%2C');
+		jQuery.each(param.split("%2C"), function (i, val) {
+			$(":checkbox[name='activity'][value='" + val + "']").prop("checked", true);
+			activityClicked();
+		});
+		param = decodeURI(getUrlVars()["type"]);
+		param = param.replace(/\+/g,' ').replace(/\,/g,'%2C');
+		jQuery.each(param.split("%2C"), function (i, val) {
+			$(":checkbox[name='type'][value='" + val + "']").prop("checked", true);	
+			typeClicked();
+		});
+		param = decodeURI(getUrlVars()["search"]);
+	
+		if(param === 'undefined') {
+	
+		}
+		else{
+			param = param.replace(/\+/g,' ').replace(/\,/g,'%2C');
+			$('#example_filter input').val("hey");
+			table.fnFilter(param);
+		}
+		
+		window.history.pushState("object or string", "Title", "/"+window.location.href.substring(window.location.href.lastIndexOf('/') + 1).split("?")[0]);
+
 	}
 
 	table.on('page.dt', function() {
