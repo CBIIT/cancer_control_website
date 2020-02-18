@@ -2,7 +2,7 @@
 			
 	$.fn.dataTable.ext.classes.sPageButton = 'btn';
 
-	var table = $('#example').dataTable( {
+	var table1 = $('#fundingopps').dataTable( {
 		"oLanguage": {
 			"sSearch": "<span class='sr-only'>Search Terms: </span>",
 			"sLengthMenu": "Results per page: _MENU_ ",
@@ -32,8 +32,44 @@
 		],
 		"autoWidth": true,
 		"stateSave": true
-	} );	
+	} );
 		
+		var table2 = $('#fundingarchive').dataTable( {
+		"oLanguage": {
+			"sSearch": "<span class='sr-only'>Search Terms: </span>",
+			"sLengthMenu": "Results per page: _MENU_ ",
+			"sInfo": "<b>Showing</b> _START_-_END_ of _TOTAL_",
+			"sInfoEmpty": '<b>Showing</b> _START_-_END_ of _TOTAL_',
+			"searchPlaceholder": "Search..."                        
+		},
+		"sDom": 'f<"top"Bil><"mobile-table-wraper"t><"bottom"p><"clear">',
+		buttons: [
+        	{ extend: 'excel', text: 'Export to Excel <span class="excel-icon"></span>', className: 'btn btn-default btn-inline', exportOptions: {
+                    columns: [ 0, 1, 2, 3, 4, 6]
+                } },
+			{ extend: 'print', text: 'Print Search <span class="print-icon"></span>', className: 'btn btn-default btn-inline', exportOptions: {
+                    columns: [ 0, 1, 2, 3, 4, 6 ]
+                } }
+    	],
+		"order": [[ 4, "des" ]],
+		"iDisplayLength": 10,
+		"perPage": 10,
+        "pageLengths": [10, 25, 50, 100],
+		"pagingType": "numbers",
+		"aoColumns": [
+			{ "sWidth": "35%" },
+			{ "sWidth": "15%","type": "html" },
+			{ "sWidth": "12%" },
+			{ "sWidth": "15%" },
+			{ "sWidth": "18%","type": "date" },
+			{ "bVisible": false },
+			{ "bVisible": false },
+			{ "bVisible": false }
+		],
+		"autoWidth": true,
+		"stateSave": true
+	} );
+	
 	$(".dataTables_filter input").attr("placeholder", "Enter search terms here");
 	$('.dt-buttons > *').removeClass('dt-button');
 		
@@ -59,25 +95,29 @@
 	var categorytypes = $('input:checkbox[name="category"]:checked').map(function() {
 		return '' + this.value + '';
 	  }).get().join('|');
-	table.fnFilter(categorytypes, 6, true, false, false, false);
+	table1.fnFilter(categorytypes, 6, true, false, false, false);
+	table2.fnFilter(categorytypes, 6, true, false, false, false);
 	}
 	function fundingClicked() {
 		var fundingtypes = $('input:checkbox[name="funding"]:checked').map(function() {
 			return '' + this.value + '';
 		  }).get().join('|');
-		table.fnFilter(fundingtypes, 1, true, false, false, false);
+		table1.fnFilter(fundingtypes, 1, true, false, false, false);
+		table2.fnFilter(fundingtypes, 1, true, false, false, false);
 	}
 	function activityClicked() {
 		var activitytypes = $('input:checkbox[name="activity"]:checked').map(function() {
 			return '' + this.value + '';
 		  }).get().join('|');
-		table.fnFilter(activitytypes, 2, true, false, false, false);
+		table1.fnFilter(activitytypes, 2, true, false, false, false);
+		table2.fnFilter(activitytypes, 2, true, false, false, false);
 	}
 	function typeClicked() {
 		var typetypes = $('input:checkbox[name="type"]:checked').map(function() {
 			return '^' + this.value + '$';
 		  }).get().join('|');
-		table.fnFilter(typetypes, 7, true, false, false, false);
+		table1.fnFilter(typetypes, 7, true, false, false, false);
+		table2.fnFilter(typetypes, 7, true, false, false, false);
 	}
 		
 	if (window.location.href.indexOf("?") >= 0) {
@@ -112,15 +152,22 @@
 		}
 		else{
 			param = param.replace(/\+/g,' ').replace(/\,/g,'%2C');
-			$('#example_filter input').val("hey");
-			table.fnFilter(param);
+			$('.dataTables_filter input').val("hey");
+			table1.fnFilter(param);
+			table2.fnFilter(param);
 		}
 		
 		window.history.pushState("object or string", "Title", "/"+window.location.href.substring(window.location.href.lastIndexOf('/') + 1).split("?")[0]);
 
 	}
 
-	table.on('page.dt', function() {
+	table1.on('page.dt', function() {
+	  $('html, body').animate({
+		scrollTop: $(".dataTables_wrapper").offset().top
+	   }, 'slow');
+	});
+		
+		table2.on('page.dt', function() {
 	  $('html, body').animate({
 		scrollTop: $(".dataTables_wrapper").offset().top
 	   }, 'slow');
@@ -146,7 +193,7 @@ $('#btnCopy').click(function () {
     var type = [];
     var label = "";
 	
-	search = $('#example_filter input').val();
+	search = $('.dataTables_filter input').val();
 	
     $.each($("input[name='category']:checked"), function () {
         label = ($(this).val());
@@ -173,37 +220,25 @@ $('#btnCopy').click(function () {
 
     var stringvalues = "";
 	if(category.length > 0)
-	{
     	stringvalues = "&category=" + category.join("%2C");
-	}	
 	if(funding.length > 0)
-	{
     	stringvalues += "&funding=" + funding.join("%2C");
-	}
 	if(activity.length > 0)
-	{
     	stringvalues += "&activity=" + activity.join("%2C");
-	}
 	if(type.length > 0)
-	{
     	stringvalues += "&type=" + type.join("%2C");
-	}
 	if(search !== "")
-	{
     	stringvalues += "&search=" + search;
-	}
+
 	stringvalues = stringvalues.replace(/\s/g,"+");
 	stringvalues = stringvalues.replace(/&/g,"%26");
 	
-    var url = "https://cancercontrol.cancer.gov/funding_apply.html?" + stringvalues;
-    //var textbox = "";
-    //textbox = $('#txtInputDisabled');
-    //textbox.val(url);
-
-    //$('#txtInputDisabled').removeAttr('disabled');
-    //$('#txtInputDisabled').select();
-    //document.execCommand("copy");
-    //$('#txtInputDisabled').attr('disabled', 'disabled');
+	var url = "";
+	
+	if(stringvalues == "")
+		url = window.location.href;
+	else
+		url = window.location.href + "?" + stringvalues;
 	
 	var email = '';
     var subject = 'Apply for Cancer Control Grants';

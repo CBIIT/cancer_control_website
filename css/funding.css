@@ -2,22 +2,22 @@
   font-size: 0.75em;
   display: inline;
 }
-table#example th[scope='col'] {
+table#fundingopps th[scope='col'], table#fundingarchive th[scope='col'] {
   font-size: 0.85em;
 }
-#example_info,
-#example_length {
+.dataTables_info,
+.dataTables_length {
   font-size: 15px;
 }
-#example_filter {
+.dataTables_filter {
   float: left;
   width: 40%;
   margin: 15px 0px;
 }
-#example_filter label {
+.dataTables_filter label {
   display: inline;
 }
-#example_filter input {
+.dataTables_filter input {
   width: 100%;
   margin-left: 0;
 }
@@ -94,7 +94,7 @@ table#example th[scope='col'] {
 #type-heading {
   margin-top: -20px;
 }
-#example_paginate > span > a.current {
+.dataTables_paginate > span > a.current {
   color: #FFFFFF;
   background-color: #183a57;
   border-color: transparent;
@@ -106,7 +106,7 @@ table#example th[scope='col'] {
   }
 }
 @media screen and (max-width: 992px) {
-  #example_filter {
+  .dataTables_filter {
     width: 100%;
     float: none;
   }
@@ -124,7 +124,7 @@ table#example th[scope='col'] {
   }
 }
 @media screen and (max-width: 767px) {
-  #example_info {
+  .dataTables_info {
     float: left;
   }
   .dataTables_wrapper .dt-buttons {
