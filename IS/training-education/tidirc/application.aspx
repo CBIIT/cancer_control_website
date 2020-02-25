@@ -111,8 +111,8 @@
                                 <a class="dropdown-toggle" data-toggle="dropdown" data-hover="dropdown" tabindex="0">Funding Opportunities <span class="sr-only">Open Dropdown</span><b class="caret"></b></a>
                                 <ul class="dropdown-menu">
                                     <li class="disabled-landing-page-link"><a href="/IS/funding.html">Funding Opportunities <span class="sr-only">Landing Page</span></a></li>
-                                    <li><a href="/IS/sample-grant-applications.html">Examples of Funded Grants</a></li>
-									<li><a href="/IS/funding-webinars.html">Funding Webinars</a></li>
+                                    <li><a href="/IS/sample-grant-applications.html">Sample Grant Applications</a></li>
+									<li><a href="/IS/funding-webinar.html">Funding Webinar</a></li>
                                 </ul>
                             </li>
                             <li class="active dropdown">
@@ -183,7 +183,8 @@
 						<p class="alert alert-danger">The 2020 application period is closed.   For questions concerning the training or application process, please review  the <a href="/IS/training-education/tidirc/faqs.html">FAQ page</a> or contact the Implementation  Science Team at <a href="mailto:NCIdccpsISteam@mail.nih.gov">NCIdccpsISteam@mail.nih.gov</a>.</p>
 					</div>
 			</div>
-			<!--<form id="form1" runat="server">
+			<!--
+			<form id="form1" runat="server">
 				<div class="row">
 					<div class="col-md-6">
 						<asp:Label ID="Label1" runat="server" AssociatedControlID="TXT_FirstName" Text="First Name*"></asp:Label>
@@ -255,8 +256,9 @@
 				</div> 
 				<hr>
 				<div class="row">
-					<div class="col-md-12">
-						<asp:Label ID="Label12" runat="server" AssociatedControlID="TXT_Race" Text="Race (check as many as apply)"></asp:Label>
+				  <div class="col-md-12 box">
+						<p><em><b>Demographic data is not required and is not considered in the selection process. Any selection helps to inform the TIDIRC Program to encourage diversity in biomedical research, consistent with NIH’s Notice of Interest and Diversity (<a href="https://grants.nih.gov/grants/guide/notice-files/NOT-OD-20-031.html" target="_blank">NOT-OD-18-210</a>). NCI encourages individuals from underrepresented populations to apply.</b></em></p><hr>
+					<asp:Label ID="Label12" runat="server" AssociatedControlID="TXT_Race" Text="Race (check as many as apply)"></asp:Label>
 					  <asp:CheckBoxList ID="TXT_Race" runat="server">
 							<asp:ListItem>American Indian or Alaska Native</asp:ListItem>
 							<asp:ListItem>Asian</asp:ListItem>
@@ -296,7 +298,7 @@
 						</asp:DropDownList>
 						<asp:RequiredFieldValidator ID="RequiredFieldValidator6" runat="server" ControlToValidate="TXT_InvestigatorLevel" ErrorMessage="Please select an answer." Display="Dynamic" CssClass="alert alert-danger" InitialValue="-1"></asp:RequiredFieldValidator>
 					
-						<asp:Label ID="Label15" runat="server" AssociatedControlID="TXT_FieldOfExpertise" Text="Field of Expertise (e.g. obesity, palliative care, cancer care delivery)*"></asp:Label>
+						<asp:Label ID="Label15" runat="server" AssociatedControlID="TXT_FieldOfExpertise" Text="Field of Expertise (e.g., obesity, palliative care, cancer care delivery)*"></asp:Label>
 					  <asp:TextBox ID="TXT_FieldOfExpertise" class="form-control" runat="server"></asp:TextBox>
 						<asp:RequiredFieldValidator ID="RequiredFieldValidator14" runat="server" ControlToValidate="TXT_FieldOfExpertise" Display="Dynamic" ErrorMessage="Please enter a field of expertise." CssClass="alert alert-danger"></asp:RequiredFieldValidator>
 					
@@ -337,7 +339,7 @@
 					<div class="col-md-7">
                         <asp:Label ID="Label17" runat="server" AssociatedControlID="TXT_Populations" Text="Population(s) (select no more than two)"></asp:Label>
 					    <asp:CheckBoxList ID="TXT_Populations" runat="server">
-							<asp:ListItem>Health Disparities/Underserved (include text field if desired)</asp:ListItem>
+							<asp:ListItem>Health Disparities/Underserved</asp:ListItem>
 							<asp:ListItem>Rural</asp:ListItem>
 							<asp:ListItem>Sexual Gender Minority</asp:ListItem>
 						</asp:CheckBoxList>
@@ -350,37 +352,36 @@
 				<div class="row">
 					<div class="col-md-12">
 						<h3>Supporting Documents</h3>
-						<p>Please be sure to <i>name all your files</i> with your last name followed by an underscore and the type of document (e.g. <i>YourLastName_Statement, etc.)</i>. All documents must be either MS Word or Adobe PDF files and should not exceed 1 MB in file size. </p>
-						
-						<asp:Label ID="Label18" runat="server" AssociatedControlID="UP_PersonalStatement_File" Text="Personal Statement To Upload*"></asp:Label>
+						<p>Please  be sure to <em>name all your files</em> with your last name followed by  an underscore and the type of document (e.g., <em>YourLastName_Statement,  etc.)</em>. All documents must be either MS Word or Adobe PDF files and should not exceed 1 MB in file size. </p>
+						<asp:Label ID="Label18" runat="server" AssociatedControlID="UP_PersonalStatement_File" Text="Personal Statement for Upload*"></asp:Label>
 						<asp:FileUpload ID="UP_PersonalStatement_File" class="form-control" runat="server" />
 						<asp:RequiredFieldValidator ID="RequiredFieldValidator12" runat="server" ControlToValidate="UP_PersonalStatement_File" Display="Dynamic" ErrorMessage="Please add an attachment." CssClass="alert alert-danger"></asp:RequiredFieldValidator> 
 						<asp:RegularExpressionValidator ID="RegularExpressionValidator3" ValidationExpression="([a-zA-Z0-9\s_\\.\-:])+(.doc|.docx|.pdf)$" ControlToValidate="UP_PersonalStatement_File" runat="server" ErrorMessage="Please select a valid Word or PDF File file." Display="Dynamic" CssClass="alert alert-danger" />
 						<asp:CustomValidator ID="CustomValidator1" runat="server" ControlToValidate="UP_PersonalStatement_File" Display="Dynamic" ErrorMessage="File size should not be greater than 1 MB." CssClass="alert alert-danger" OnServerValidate="CustomValidator1_ServerValidate"></asp:CustomValidator>
 						
-						<asp:Label ID="Label19" runat="server" AssociatedControlID="UP_LettersOfRec_File" Text="Letters of Recommendation To Upload*"></asp:Label>
+					  <asp:Label ID="Label19" runat="server" AssociatedControlID="UP_LettersOfRec_File" Text="Letters of Recommendation for Upload*"></asp:Label>
 						<asp:FileUpload ID="UP_LettersOfRec_File" class="form-control" runat="server" />
 						<asp:RequiredFieldValidator ID="RequiredFieldValidator15" runat="server" ControlToValidate="UP_LettersOfRec_File" Display="Dynamic" ErrorMessage="Please add an attachment." CssClass="alert alert-danger"></asp:RequiredFieldValidator> 
 						<asp:RegularExpressionValidator ID="RegularExpressionValidator4" ValidationExpression="([a-zA-Z0-9\s_\\.\-:])+(.doc|.docx|.pdf)$" ControlToValidate="UP_LettersOfRec_File" runat="server" ErrorMessage="Please select a valid Word or PDF File file." Display="Dynamic" CssClass="alert alert-danger" />
                         <asp:CustomValidator ID="CustomValidator2" runat="server" ControlToValidate="UP_LettersOfRec_File" Display="Dynamic" ErrorMessage="File size should not be greater than 1 MB." CssClass="alert alert-danger" OnServerValidate="CustomValidator2_ServerValidate"></asp:CustomValidator>
 						
-						<asp:Label ID="Label20" runat="server" AssociatedControlID="UP_Curriculum_File" Text="Curriculum Vitae To Upload*"></asp:Label>
+					  <asp:Label ID="Label20" runat="server" AssociatedControlID="UP_Curriculum_File" Text="Curriculum Vitae for Upload*"></asp:Label>
 						<asp:FileUpload ID="UP_Curriculum_File" class="form-control" runat="server" />
 						<asp:RequiredFieldValidator ID="RequiredFieldValidator16" runat="server" ControlToValidate="UP_Curriculum_File" Display="Dynamic" ErrorMessage="Please add an attachment." CssClass="alert alert-danger"></asp:RequiredFieldValidator> 
 						<asp:RegularExpressionValidator ID="RegularExpressionValidator5" ValidationExpression="([a-zA-Z0-9\s_\\.\-:])+(.doc|.docx|.pdf)$" ControlToValidate="UP_Curriculum_File" runat="server" ErrorMessage="Please select a valid Word or PDF File file." Display="Dynamic" CssClass="alert alert-danger" />
 						<asp:CustomValidator ID="CustomValidator3" runat="server" ControlToValidate="UP_Curriculum_File" Display="Dynamic" ErrorMessage="File size should not be greater than 1 MB." CssClass="alert alert-danger" OnServerValidate="CustomValidator3_ServerValidate"></asp:CustomValidator>
 						
-						<asp:Label ID="Label21" runat="server" AssociatedControlID="UP_ConceptPaper_File" Text="Concept Paper To Upload*"></asp:Label>
+					  <asp:Label ID="Label21" runat="server" AssociatedControlID="UP_ConceptPaper_File" Text="Concept Paper for Upload*"></asp:Label>
 						<asp:FileUpload ID="UP_ConceptPaper_File" class="form-control" runat="server" />
 						<asp:RequiredFieldValidator ID="RequiredFieldValidator18" runat="server" ControlToValidate="UP_ConceptPaper_File" Display="Dynamic" ErrorMessage="Please add an attachment." CssClass="alert alert-danger"></asp:RequiredFieldValidator> 
 						<asp:RegularExpressionValidator ID="RegularExpressionValidator6" ValidationExpression="([a-zA-Z0-9\s_\\.\-:])+(.doc|.docx|.pdf)$" ControlToValidate="UP_ConceptPaper_File" runat="server" ErrorMessage="Please select a valid Word or PDF File file." Display="Dynamic" CssClass="alert alert-danger" />
 						<asp:CustomValidator ID="CustomValidator4" runat="server" ControlToValidate="UP_ConceptPaper_File" Display="Dynamic" ErrorMessage="File size should not be greater than 1 MB." CssClass="alert alert-danger" OnServerValidate="CustomValidator4_ServerValidate"></asp:CustomValidator>
 						
 						<hr>
-						<asp:Button ID="BTN_UploadClicked" class="btn btn-default btn-inline" runat="server" Text="Submit Application" /> <br>
-                        <asp:Button ID="BTN_Cancel" CssClass="btn btn-default btn-inline" CausesValidation="false" runat="server" Text="Cancel" /> <br>
+					  <asp:Button ID="BTN_UploadClicked" class="btn btn-default btn-inline" runat="server" Text="Submit Application" /> <br>
+                      <asp:Button ID="BTN_Cancel" CssClass="btn btn-default btn-inline" CausesValidation="false" runat="server" Text="Cancel" /> <br>
 						<div class="spacer-20"></div>
-					</div> 
+				  </div> 
 				</div>
 
                 <script type="text/javascript">
@@ -406,7 +407,8 @@
                         args.IsValid = isValid;
                     }
                 </script>
-			</form>-->
+			</form>
+			-->
 	  </div> <!-- /.col-md-9 -->
 		<div class="col-md-3 col-md-pull-9">
 			<div class="sidebar-nav">

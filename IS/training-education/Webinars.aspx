@@ -124,8 +124,8 @@ height="0" width="0" style="display:none;visibility:hidden" title="Google Tag Ma
                                 <a class="dropdown-toggle" data-toggle="dropdown" data-hover="dropdown" tabindex="0">Funding Opportunities <span class="sr-only">Open Dropdown</span><b class="caret"></b></a>
                                 <ul class="dropdown-menu">
                                     <li class="disabled-landing-page-link"><a href="/IS/funding.html">Funding Opportunities <span class="sr-only">Landing Page</span></a></li>
-                                    <li><a href="/IS/sample-grant-applications.html">Examples of Funded Grants</a></li>
-									<li><a href="/IS/funding-webinars.html">Funding Webinars</a></li>
+                                    <li><a href="/IS/sample-grant-applications.html">Sample Grant Applications</a></li>
+									<li><a href="/IS/funding-webinar.html">Funding Webinar</a></li>
                                 </ul>
                             </li>
 							<li class="dropdown">
@@ -202,12 +202,12 @@ height="0" width="0" style="display:none;visibility:hidden" title="Google Tag Ma
 		<div class="col-md-8">
             <p class="intro">Register for upcoming webinars and view archived sessions from the Implementation Science Webinars series and Research to Reality.</p>
             <div class="row">
-                <div class="col-md-6">
-                    <img src="/IS/images/is-webinar-text-left-bold.png" class="img-responsive" alt="">
+                <div class="col-sm-6">
+                    <img src="/IS/images/is-webinar-text-left-bold.png" style="max-width:315px;" class="img-responsive" alt="">
                     <h3>Implementation Science Webinars</h3>
                     <p>Listen in as leaders in the field discuss advanced dissemination and implementation research topics and answer questions from the community.</p>
                 </div>
-                <div class="col-md-6">
+                <div class="col-sm-6">
                     <img src="/IS/images/R2R_Thumbnail-small.jpg" class="img-responsive" alt="">
                     <h3>Research to Reality (R2R) Cyber Seminars</h3>
                     <p>Research to Reality (R2R) Cyber Seminars bring together cancer control practitioners and researchers to discuss moving evidence-based programs into practice.</p>

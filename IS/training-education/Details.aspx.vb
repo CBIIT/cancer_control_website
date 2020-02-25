@@ -33,6 +33,7 @@ Partial Class IS_webinars
             'Dim DS As DataSet = WS.ImplementationScience_GetEvent("48")
 
             'For Each Row As DataRow In DS.Tables(0).Rows
+            'Response.Write("<p><b style='color:red;'>DisplayOnSite---" & Row("DisplayOnSite").ToString() & " ----</b>")
             'Response.Write("<p><b style='color:red;'>PK_webinar---" & Row("PK_webinar").ToString() & "----</b>")
             'Response.Write("<br/><b style='color:red;'>topic---" & Row("topic").ToString() & "----</b>")
             'Response.Write("<br/><b style='color:red;'>topicdisplay---" & Row("topicdisplay").ToString() & "----</b></p>")
@@ -64,6 +65,13 @@ Partial Class IS_webinars
             'WEBINAR_topic.Text = DS.Tables(0).Rows("topic").ToString()
 
             For Each Row As DataRow In DS.Tables(0).Rows
+
+                If Row("DisplayOnSite").ToString() = "False" Then
+                    Response.Redirect("~/IS/training-education/Webinars.aspx")
+                Else
+
+                End If
+
                 'If Row("FK_Series").ToString() = "1" Then
                 'IMG_Series.ImageUrl = "/IS/images/is-webinar-text-bottom-regular.png"
                 'IMG_Series.AlternateText = "Implementation Science Webinars"
