@@ -199,12 +199,12 @@ height="0" width="0" style="display:none;visibility:hidden" title="Google Tag Ma
         <div class="col-md-12">
             <form id="form1" runat="server" class="form-caa">
 			<!--<asp:Literal ID="LIT_FK_Event" Text="2" runat="server"></asp:Literal>-->
-			<!--<div class="row">
+			<div class="row">
 				<div class="col-sm-9">
-					<p><strong>Thank you for your interest in the Population Health Assessment in Cancer Center Catchment Areas Meeting think tank meeting. Registration for this event has closed.</strong> </p>
+					<p>The registration period has closed. If you have any questions please <a href="mailto:anna.gaysynsky@nih.gov">email us</a>.</p>
 				</div>
-            </div>-->
-				
+            </div>
+				<!--
             <div class="row">
 				<div class="col-sm-12">
 					<p class="pull-right small">OMB No.: 0925-0740<br>
@@ -349,7 +349,7 @@ height="0" width="0" style="display:none;visibility:hidden" title="Google Tag Ma
                         <asp:Button ID="BTN_Cancel" CssClass="btn btn-default btn-inline" CausesValidation="false" runat="server" Text="Cancel" />
                     </div>
                 </div>
-                <div class="spacer-20"></div>
+                <div class="spacer-20"></div>-->
     </form>
         </div> <!-- /.col-md-9 -->
 	</div> <!-- close /.row -->
@@ -362,7 +362,7 @@ height="0" width="0" style="display:none;visibility:hidden" title="Google Tag Ma
 <div class="container">
 	<div class="row">
 		<div class="col-lg-12">
-			<p class="update"><span class="bold">Last Updated:</span>October 16, 2019</p>
+			<p class="update"><span class="bold">Last Updated:</span>March 2, 2020</p>
 		</div> <!-- /.col-lg-12 -->
 	</div> <!-- /.row -->
 </div> <!-- /.container -->
