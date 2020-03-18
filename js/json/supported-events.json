@@ -9,6 +9,22 @@
             "fulldate":"2020-03-24T18:00:00.000Z"
         },
 		{
+			"eventtitle":"Orientation to 2020 Version of NCI's Automated Self-Administered 24-Hour (ASA24) Dietary Assessment Tool",
+			"eventurl":"https://cbiit.webex.com/mw3300/mywebex/default.do?nomenu=true&siteurl=cbiit&service=6&rnd=0.4741887308662165&main_url=https%3A%2F%2Fcbiit.webex.com%2Fec3300%2Feventcenter%2Fevent%2FeventAction.do%3FtheAction%3Ddetail%26%26%26EMK%3D4832534b00000004303b37110ffe3020710003544cf0717b791658a5f39ff0bc29383d897b30d53d%26siteurl%3Dcbiit%26confViewID%3D152459532874818237%26encryptTicket%3DSDJTSwAAAASoVklo2soEJ_2XXd8ze5PggrKO4DR8k9R2YBUjEAChaQ2%26",
+			"eventdatemonth":"March",
+			"eventdateday":"31",
+			"eventtype":"Webinar",
+            "fulldate":"2020-03-31T18:00:00.000Z"
+        },
+		{
+			"eventtitle":"Neglected Ethical Issues in Biobanking",
+			"eventurl":"https://epi.grants.cancer.gov/events/enrich-forum/index.html#cadigan",
+			"eventdatemonth":"April",
+			"eventdateday":"28",
+			"eventtype":"Webinar",
+            "fulldate":"2020-04-28T18:00:00.000Z"
+        },
+		{
 			"eventtitle":"Sequencing in Diverse Populations",
 			"eventurl":"https://epi.grants.cancer.gov/events/seqSPACE/index.html#kenny",
 			"eventdatemonth":"May",
@@ -29,7 +45,7 @@
 			"eventurl":"https://epi.grants.cancer.gov/events/cancer-epid-hispanic-pop/",
 			"eventdatemonth":"May",
 			"eventdateday":"27-28",
-			"eventtype":"In-Person Workshop",
+			"eventtype":"In-Person Workshop <em>(Also available via WebEx)</em>",
             "fulldate":"2020-05-28T18:00:00.000Z"
         },
 		{
@@ -41,12 +57,28 @@
             "fulldate":"2020-09-15T18:00:00.000Z"
         },
 		{
+			"eventtitle":"SAVE THE DATE: Early Onset Colorectal Cancer Think Tank Meeting",
+			"eventurl":"",
+			"eventdatemonth":"September",
+			"eventdateday":"25",
+			"eventtype":"In-Person Workshop",
+            "fulldate":"2020-09-25T18:00:00.000Z"
+        },
+		{
 			"eventtitle":"Leveraging Cross-Cancer Shared Heritability to Better Understand the Genetic Architecture of Cancer",
 			"eventurl":"https://epi.grants.cancer.gov/events/seqSPACE/index.html#lindstroem",
 			"eventdatemonth":"October",
 			"eventdateday":"13",
 			"eventtype":"Webinar",
             "fulldate":"2020-10-13T18:00:00.000Z"
+        },
+		{
+			"eventtitle":"Next Generation Sequencing and Tumor Initiation and Progression",
+			"eventurl":"https://epi.grants.cancer.gov/events/seqSPACE/index.html#curtis",
+			"eventdatemonth":"November",
+			"eventdateday":"3",
+			"eventtype":"Webinar",
+            "fulldate":"2020-10-03T18:00:00.000Z"
         },
 		{
 			"eventtitle":"Current Approaches for Addressing Medical Financial Hardship in the Context of Cancer Care Delivery",
