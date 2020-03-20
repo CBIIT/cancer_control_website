@@ -924,3 +924,100 @@ div#skipmenu a.skippy:active, div#skipmenu a.skippy:focus, div#skipmenu a.skippy
 	.content-greybox a {
       color: #A90101;
 	}
+
+/* Global Alert Banner */
+  /* Fonts and other items are targeting mobile first */
+  .notification-banner > div > div {
+    padding: 0;
+    margin: 0;
+  }
+  .alert-drawer-wrapper {
+    background: #fada87;
+    padding: .5em 1.25em;
+    margin-bottom: 1px;
+  }
+  
+  .alert-drawer__body {
+    display: none;
+  }
+  .alert-drawer__body.active {
+    display: block;
+  }
+  .alert-drawer__body.active + .alert-drawer__toggle button::after {
+    content: '';
+    display: none;
+  }
+  .alert-drawer__toggle {
+    display: block;
+    text-align: center;
+  }
+  .alert-drawer__toggle button {
+    -webkit-appearance: none;
+       -moz-appearance: none;
+            appearance: none;
+    background: none;
+    border: none;
+    cursor: pointer;
+    margin: 0 auto;
+  }
+  .alert-drawer__toggle button::after {
+    content: 'Expand for resources';
+    display: block;
+    font: 12px/19px "Montserrat", Arial, sans-serif;
+    color: #626262;
+    text-align: center;
+  }
+  .alert-drawer .alert-drawer-title {
+    font: bold 16px/19px "Montserrat", Arial, sans-serif;    
+    color: #444444;
+  }
+  .alert-drawer a {
+    text-decoration: underline;
+    color: #626262;
+  }
+  .alert-drawer p {
+    font: 14px/19px "Montserrat", Arial, sans-serif;    
+    color: #626262;
+    margin: .5em 0 !important;
+  }
+  .ellipse {
+    display: none;
+  }
+  .ellipse::before {
+    content: "\2026";
+  }
+
+  /* Desktop and up overrides */
+  @media only screen and (min-width: 1025px) {
+
+    .alert-drawer {
+      margin: 0 auto;
+      max-width: 62.5em;
+      padding-left: 10px;
+    }    
+
+    .alert-drawer .alert-drawer-title {
+      font: bold 20px/24px "Montserrat", Arial, sans-serif;
+    }
+
+    .alert-drawer p {
+      font: 16px/24px "Montserrat", Arial, sans-serif;    
+    }
+
+    .alert-drawer__toggle {
+      display: none;
+    }
+    .alert-drawer__body {
+      display: block;
+    }
+    .alert-drawer__body.active {
+      display: block;
+    }
+  }
+
+  @media only screen and (min-width: 1441px) {
+    .alert-drawer {
+      max-width: 1200px;
+      padding-left: 20px;
+    }
+  }
