@@ -964,7 +964,7 @@ div#skipmenu a.skippy:active, div#skipmenu a.skippy:focus, div#skipmenu a.skippy
     content: 'Expand for resources';
     display: block;
     font: 12px/19px "Montserrat", Arial, sans-serif;
-    color: #626262;
+    color: #606060;
     text-align: center;
   }
   .alert-drawer .alert-drawer-title {
@@ -973,11 +973,11 @@ div#skipmenu a.skippy:active, div#skipmenu a.skippy:focus, div#skipmenu a.skippy
   }
   .alert-drawer a {
     text-decoration: underline;
-    color: #626262;
+    color: #606060;
   }
   .alert-drawer p {
     font: 14px/19px "Montserrat", Arial, sans-serif;    
-    color: #626262;
+    color: #606060;
     margin: .5em 0 !important;
   }
   .ellipse {
