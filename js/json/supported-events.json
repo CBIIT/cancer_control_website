@@ -1,28 +1,12 @@
 {
     "events": [
 		{
-			"eventtitle":"Methods of Functional Annotation of Genetic Variants",
-			"eventurl":"https://epi.grants.cancer.gov/events/seqSPACE/index.html#roth",
-			"eventdatemonth":"March",
-			"eventdateday":"24",
-			"eventtype":"Webinar",
-            "fulldate":"2020-03-24T18:00:00.000Z"
-        },
-		{
 			"eventtitle":"Health Information National Trends Survey (HINTS) 5 Cycle 3 Data: A How-To Guide for Using the New Data in your Research",
 			"eventurl":"https://cancercontrol.cancer.gov/funding-foa-applicants.html#collapse-30",
 			"eventdatemonth":"March",
 			"eventdateday":"26",
 			"eventtype":"Webinar",
             "fulldate":"2020-03-26T18:00:00.000Z"
-        },
-		{
-			"eventtitle":"Orientation to 2020 Version of NCI's Automated Self-Administered 24-Hour (ASA24) Dietary Assessment Tool",
-			"eventurl":"https://cbiit.webex.com/mw3300/mywebex/default.do?nomenu=true&siteurl=cbiit&service=6&rnd=0.4741887308662165&main_url=https%3A%2F%2Fcbiit.webex.com%2Fec3300%2Feventcenter%2Fevent%2FeventAction.do%3FtheAction%3Ddetail%26%26%26EMK%3D4832534b00000004303b37110ffe3020710003544cf0717b791658a5f39ff0bc29383d897b30d53d%26siteurl%3Dcbiit%26confViewID%3D152459532874818237%26encryptTicket%3DSDJTSwAAAASoVklo2soEJ_2XXd8ze5PggrKO4DR8k9R2YBUjEAChaQ2%26",
-			"eventdatemonth":"March",
-			"eventdateday":"31",
-			"eventtype":"Webinar",
-            "fulldate":"2020-03-31T18:00:00.000Z"
         },
 		{
 			"eventtitle":"Informational Webinar Discussing the Availability of Administrative Supplements for Research in Geographically Underserved Areas",
