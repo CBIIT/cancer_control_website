@@ -130,7 +130,7 @@
 							<li><a href="/brp/bbpsb/affective_science.html">Affect and Emotion</a></li>
 							<li><a href="/brp/bbpsb/cognitive-changes/perception.html">Cognition</a></li>
 							<li><a href="/brp/hcirb/social-media.html">Social Media</a></li>
-							<li><a href="/brp/priority-areas/big-data.html">Integrative Data Analysis and Big Data</a></li>
+							<li><a href="/brp/priority-areas/big-data.html">Integrative Data Analysis</a></li>
 							<li><a href="/brp/bbpsb/aging-trajectories.html">Aging Trajectories in Cancer Survivors</a></li>
 							<li><a href="/brp/bbpsb/cognitive-changes/perception.html">Perception, Attention, and Cognition</a></li>
 						</ul>
