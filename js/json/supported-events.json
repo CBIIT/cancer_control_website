@@ -1,30 +1,6 @@
 {
     "events": [
 		{
-			"eventtitle":"Health Information National Trends Survey (HINTS) 5 Cycle 3 Data: A How-To Guide for Using the New Data in your Research",
-			"eventurl":"https://cancercontrol.cancer.gov/funding-foa-applicants.html#collapse-30",
-			"eventdatemonth":"March",
-			"eventdateday":"26",
-			"eventtype":"Webinar",
-            "fulldate":"2020-03-26T18:00:00.000Z"
-        },
-		{
-			"eventtitle":"Informational Webinar Discussing the Availability of Administrative Supplements for Research in Geographically Underserved Areas",
-			"eventurl":"https://cbiit.webex.com/cbiit/onstage/g.php?MTID=e6c5a438ec3ff67bf088db9ba12a528c3",
-			"eventdatemonth":"March",
-			"eventdateday":"31",
-			"eventtype":"Webinar",
-            "fulldate":"2020-03-31T18:00:00.000Z"
-        },
-		{
-			"eventtitle":"Cancer and Aging: Biological and Phenotypic Measures of Aging",
-			"eventurl":"https://cancercontrol.cancer.gov/funding-foa-applicants.html#collapse-31",
-			"eventdatemonth":"April",
-			"eventdateday":"9",
-			"eventtype":"Webinar",
-            "fulldate":"2020-04-09T18:00:00.000Z"
-        },
-		{
 			"eventtitle":"Neglected Ethical Issues in Biobanking",
 			"eventurl":"https://epi.grants.cancer.gov/events/enrich-forum/index.html#cadigan",
 			"eventdatemonth":"April",
@@ -49,7 +25,7 @@
             "fulldate":"2020-05-26T18:00:00.000Z"
         },
 		{
-			"eventtitle":"Cancer Epidemiology in Hispanic Populations Workshop",
+			"eventtitle":"<span style='text-decoration: line-through;'>Cancer Epidemiology in Hispanic Populations Workshop</span><br> <strong>This will be rescheduled in 2021.</strong>",
 			"eventurl":"https://epi.grants.cancer.gov/events/cancer-epid-hispanic-pop/",
 			"eventdatemonth":"May",
 			"eventdateday":"27-28",
