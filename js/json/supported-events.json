@@ -9,8 +9,24 @@
             "fulldate":"2020-04-28T18:00:00.000Z"
         },
 		{
+			"eventtitle":"Implementation Science: Economics &amp; Costs in Cancer Research",
+			"eventurl":"https://cancercontrol.cancer.gov/IS/training-education/details.aspx?ID=74",
+			"eventdatemonth":"April",
+			"eventdateday":"29",
+			"eventtype":"Webinar",
+            "fulldate":"2020-04-29T18:00:00.000Z"
+        },
+		{
 			"eventtitle":"Sequencing in Diverse Populations",
 			"eventurl":"https://epi.grants.cancer.gov/events/seqSPACE/index.html#kenny",
+			"eventdatemonth":"May",
+			"eventdateday":"12",
+			"eventtype":"Webinar",
+            "fulldate":"2020-05-12T18:00:00.000Z"
+        },
+		{
+			"eventtitle":"Pre-Application Webinar for RFA-CA-20-027 and RFA-CA-20-028",
+			"eventurl":"https://grants.nih.gov/grants/guide/notice-files/NOT-CA-20-050.html",
 			"eventdatemonth":"May",
 			"eventdateday":"12",
 			"eventtype":"Webinar",
