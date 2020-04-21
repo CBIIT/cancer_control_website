@@ -223,7 +223,7 @@ height="0" width="0" style="display:none;visibility:hidden" title="Google Tag Ma
                         <h3 class="first"><a href='details.aspx?ID=${PK_webinar}'>${topic}</a></h3>
                         <!-- {0} is PK_webinar, {1} is topic -->
                         <p>
-                            <b>${MonthDisplay} ${YearDisplay} </b><br>
+                            <b>${MonthDisplay} ${DayDisplay}, ${YearDisplay} </b><br>
                             ${splitwords_BriefDesc}...
                             <!-- year Month -->
                         </p>
