@@ -49,6 +49,14 @@
             "fulldate":"2020-05-28T18:00:00.000Z"
         },
 		{
+			"eventtitle":"Current Approaches for Addressing Medical Financial Hardship in the Context of Cancer Care Delivery",
+			"eventurl":"https://healthcaredelivery.cancer.gov/media/approaches.html",
+			"eventdatemonth":"August",
+			"eventdateday":"27",
+			"eventtype":"Webinar",
+            "fulldate":"2020-08-27T18:00:00.000Z"
+        },
+		{
 			"eventtitle":"Polygenic Risk Scores",
 			"eventurl":"https://epi.grants.cancer.gov/events/seqSPACE/index.html#chatterjee",
 			"eventdatemonth":"September",
@@ -79,14 +87,6 @@
 			"eventdateday":"3",
 			"eventtype":"Webinar",
             "fulldate":"2020-10-03T18:00:00.000Z"
-        },
-		{
-			"eventtitle":"Current Approaches for Addressing Medical Financial Hardship in the Context of Cancer Care Delivery",
-			"eventurl":"https://healthcaredelivery.cancer.gov/media/approaches.html",
-			"eventdatemonth":"TBD",
-			"eventdateday":"",
-			"eventtype":"Webinar",
-            "fulldate":"2021-12-31T18:00:00.000Z"
         }
     ]
 }
