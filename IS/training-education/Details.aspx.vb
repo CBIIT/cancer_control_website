@@ -90,6 +90,8 @@ Partial Class IS_webinars
                 Dim eventstartdate As DateTime = Convert.ToDateTime(Row("datetime_start").ToString())
                 'Dim eventenddate As DateTime = Convert.ToDateTime(Row("datetime_end").ToString())
 
+                WEBINAR_time.Text = Row("time_display").ToString()
+
                 WEBINAR_eventstartdate.Text = eventstartdate.ToString("dddd, MMMM dd, yyyy")
                 'WEBINAR_eventenddate.Text = eventstartdate.ToString("dddd, MMMM dd, yyyy")
 

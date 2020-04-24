@@ -230,6 +230,8 @@
                 <div class="col-md-9">                 
                     <p class="first"><b>Date: <asp:Literal ID="WEBINAR_eventstartdate" runat="server"></asp:Literal></b>
                         <!-- - <asp:Literal ID="WEBINAR_eventenddate" runat="server"></asp:Literal> -->
+                    <br>
+                        <b>Time: <asp:Literal ID="WEBINAR_time" runat="server"></asp:Literal></b>
                     </p>
 
                     <asp:PlaceHolder ID="PLC_Category" runat="server" Visible="False">
