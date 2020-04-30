@@ -1,20 +1,12 @@
 {
     "events": [
 		{
-			"eventtitle":"Neglected Ethical Issues in Biobanking",
-			"eventurl":"https://epi.grants.cancer.gov/events/enrich-forum/index.html#cadigan",
-			"eventdatemonth":"April",
-			"eventdateday":"28",
+			"eventtitle":"Pre-Application Webinar for RFA-CA-20-030, Utilizing Cohort Studies to Address Health Outcomes in Cancer Survivors (UG3/UH3 Clinical Trial Not Allowed)",
+			"eventurl":"https://cbiit.webex.com/cbiit/onstage/g.php?MTID=e10b31a1cf38a2319333057fcc383a571",
+			"eventdatemonth":"May",
+			"eventdateday":"8",
 			"eventtype":"Webinar",
-            "fulldate":"2020-04-28T18:00:00.000Z"
-        },
-		{
-			"eventtitle":"Implementation Science: Economics &amp; Costs in Cancer Research",
-			"eventurl":"https://cancercontrol.cancer.gov/IS/training-education/details.aspx?ID=74",
-			"eventdatemonth":"April",
-			"eventdateday":"29",
-			"eventtype":"Webinar",
-            "fulldate":"2020-04-29T18:00:00.000Z"
+            "fulldate":"2020-05-08T18:00:00.000Z"
         },
 		{
 			"eventtitle":"Sequencing in Diverse Populations",
@@ -25,7 +17,7 @@
             "fulldate":"2020-05-12T18:00:00.000Z"
         },
 		{
-			"eventtitle":"Pre-Application Webinar for RFA-CA-20-027 and RFA-CA-20-028",
+			"eventtitle":"Pre-Application Webinar for RFA-CA-20-027 and RFA-CA-20-028, Research to Reduce Morbidity and Improve Care for Pediatric, and Adolescent and Young Adult (AYA) Cancer Survivors (R01/R21 Clinical Trial Optional)",
 			"eventurl":"https://grants.nih.gov/grants/guide/notice-files/NOT-CA-20-050.html",
 			"eventdatemonth":"May",
 			"eventdateday":"12",
@@ -39,14 +31,6 @@
 			"eventdateday":"26",
 			"eventtype":"Webinar",
             "fulldate":"2020-05-26T18:00:00.000Z"
-        },
-		{
-			"eventtitle":"<span style='text-decoration: line-through;'>Cancer Epidemiology in Hispanic Populations Workshop</span><br> <strong>This will be rescheduled in 2021.</strong>",
-			"eventurl":"https://epi.grants.cancer.gov/events/cancer-epid-hispanic-pop/",
-			"eventdatemonth":"May",
-			"eventdateday":"27-28",
-			"eventtype":"In-Person Workshop <em>(Also available via WebEx)</em>",
-            "fulldate":"2020-05-28T18:00:00.000Z"
         },
 		{
 			"eventtitle":"Current Approaches for Addressing Medical Financial Hardship in the Context of Cancer Care Delivery",
@@ -87,6 +71,14 @@
 			"eventdateday":"3",
 			"eventtype":"Webinar",
             "fulldate":"2020-10-03T18:00:00.000Z"
+        },
+		{
+			"eventtitle":"<span>Cancer Epidemiology in Hispanic Populations Workshop</span><br> <em>Rescheduled from May 2020.</em>",
+			"eventurl":"https://epi.grants.cancer.gov/events/cancer-epid-hispanic-pop/",
+			"eventdatemonth":"January",
+			"eventdateday":"27-28",
+			"eventtype":"In-Person Workshop <em>(Also available via WebEx)</em>",
+            "fulldate":"2021-01-28T18:00:00.000Z"
         }
     ]
 }
