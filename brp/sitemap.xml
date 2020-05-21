@@ -143,11 +143,6 @@
   <priority>0.80</priority>
 </url>
 <url>
-  <loc>https://cancercontrol.cancer.gov/brp/archive/index.html</loc>
-  <lastmod>2020-05-19T14:52:30+00:00</lastmod>
-  <priority>0.80</priority>
-</url>
-<url>
   <loc>https://cancercontrol.cancer.gov/brp/e-newsletter/subscribe-BRP.aspx</loc>
   <lastmod>2020-05-19T15:24:38+00:00</lastmod>
   <priority>0.80</priority>
@@ -976,11 +971,6 @@
   <loc>https://cancercontrol.cancer.gov/brp/tcrb/tus-cps/Liu-TUSCPS-TCRB2018.pptx</loc>
   <lastmod>2020-05-19T14:53:19+00:00</lastmod>
   <priority>0.64</priority>
-</url>
-<url>
-  <loc>https://cancercontrol.cancer.gov/brp/archive/funding-conf.html</loc>
-  <lastmod>2020-05-19T14:52:30+00:00</lastmod>
-  <priority>0.51</priority>
 </url>
 <url>
   <loc>https://cancercontrol.cancer.gov/brp/funding/journal-supplement.html</loc>
@@ -1828,16 +1818,6 @@
   <priority>0.51</priority>
 </url>
 <url>
-  <loc>https://cancercontrol.cancer.gov/brp/archive/ceccr/overview.html</loc>
-  <lastmod>2020-05-19T14:52:30+00:00</lastmod>
-  <priority>0.51</priority>
-</url>
-<url>
-  <loc>https://cancercontrol.cancer.gov/brp/archive/launch.html</loc>
-  <lastmod>2020-05-19T14:52:30+00:00</lastmod>
-  <priority>0.51</priority>
-</url>
-<url>
   <loc>https://cancercontrol.cancer.gov/brp/hcirb/</loc>
   <lastmod>2020-05-19T14:52:49+00:00</lastmod>
   <priority>0.51</priority>
@@ -1850,11 +1830,6 @@
 <url>
   <loc>https://cancercontrol.cancer.gov/brp/hbrb/</loc>
   <lastmod>2020-05-19T14:52:48+00:00</lastmod>
-  <priority>0.51</priority>
-</url>
-<url>
-  <loc>https://cancercontrol.cancer.gov/brp/archive/ceccr/ceccrII_wisconsin.html</loc>
-  <lastmod>2020-05-19T14:52:30+00:00</lastmod>
   <priority>0.51</priority>
 </url>
 <url>
