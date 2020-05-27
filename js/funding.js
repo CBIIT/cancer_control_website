@@ -30,7 +30,7 @@
 			{ "bVisible": false },
 			{ "bVisible": false }
 		],
-		"autoWidth": true,
+		"autoWidth": "100%",
 		"stateSave": true
 	} );
 		

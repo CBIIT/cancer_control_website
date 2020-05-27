@@ -12,14 +12,14 @@ table#fundingopps th[scope='col'], table#fundingarchive th[scope='col'] {
 .dataTables_filter {
   float: left;
   width: 40%;
-  margin: 15px 0px;
+  margin: 5px 0px;
 }
 .dataTables_filter label {
   display: inline;
 }
 .dataTables_filter input {
   width: 100%;
-  margin-left: 0;
+  margin-left: 0 !important;
 }
 .dataTables_wrapper .dataTables_paginate {
   text-align: center;
@@ -27,9 +27,10 @@ table#fundingopps th[scope='col'], table#fundingarchive th[scope='col'] {
 }
 .dataTables_wrapper .dataTables_length {
   float: right;
+  margin: 5px 0px;
 }
 .dataTables_wrapper .dataTables_length select {
-  height: 40px;
+  height: 31px;
 }
 .dataTables_wrapper .dt-buttons {
   font-size: 15px;
