@@ -1,8 +1,8 @@
 {
     "events": [
 		{
-			"eventtitle":" Event Information: COronavirus Pandemic Epidemiology (COPE) Consortium: An Update",
-			"eventurl":"https://cbiit.webex.com/mw3300/mywebex/default.do?nomenu=true&siteurl=cbiit&service=6&rnd=0.6061926728256157&main_url=https%3A%2F%2Fcbiit.webex.com%2Fec3300%2Feventcenter%2Fevent%2FeventAction.do%3FtheAction%3Ddetail%26%26%26EMK%3D4832534b00000004752a146ccf236fdd4d8922b23c034a438904f01c3a02c1e924a4966da6d43db3%26siteurl%3Dcbiit%26confViewID%3D163039373419356609%26encryptTicket%3DSDJTSwAAAARNFuOU-HAsb2JfkHuYihSjHhDRXaqOU-UuE-Omm5gmcw2%26",
+			"eventtitle":"COronavirus Pandemic Epidemiology (COPE) Consortium: An Update",
+			"eventurl":"https://cbiit.webex.com/mw3300/mywebex/default.do?nomenu=true&siteurl=cbiit&service=6&rnd=0.6204822355124052&main_url=https%3A%2F%2Fcbiit.webex.com%2Fec3300%2Feventcenter%2Fevent%2FeventAction.do%3FtheAction%3Ddetail%26%26%26EMK%3D4832534b00000004752a146ccf236fdd4d8922b23c034a438904f01c3a02c1e924a4966da6d43db3%26siteurl%3Dcbiit%26confViewID%3D163039373419356609%26encryptTicket%3DSDJTSwAAAARNFuOU-HAsb2JfkHuYihSjHhDRXaqOU-UuE-Omm5gmcw2%26",
 			"eventdatemonth":"June",
 			"eventdateday":"29",
 			"eventtype":"Webinar",
@@ -23,6 +23,14 @@
 			"eventdateday":"27",
 			"eventtype":"Webinar",
             "fulldate":"2020-08-27T18:00:00.000Z"
+        },
+		{
+			"eventtitle":"A New Paradigm for Genetic Testing The Magenta Study: Making Genetic Testing More Accessible",
+			"eventurl":"https://epi.grants.cancer.gov/events/enrich-forum/index.html#lu",
+			"eventdatemonth":"September",
+			"eventdateday":"1",
+			"eventtype":"Webinar",
+            "fulldate":"2020-09-01T18:00:00.000Z"
         },
 		{
 			"eventtitle":"Save the Date: Cancer and Aging Webinar",
