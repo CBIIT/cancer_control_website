@@ -12,7 +12,10 @@
 		},
 		"sDom": 'f<"top"Bil><"mobile-table-wraper"t><"bottom"p><"clear">',
 		buttons: [
-        	{ extend: 'excel', text: 'Export to Excel <span class="excel-icon"></span>', className: 'btn btn-default btn-inline' },
+        	{ extend: 'excelHtml5', text: 'Export to Excel <span class="excel-icon"></span>', className: 'btn btn-default btn-inline',
+            exportOptions: {
+              stripHtml: false
+            } },
 			{ extend: 'print', text: 'Print Search <span class="print-icon"></span>', className: 'btn btn-default btn-inline' }
     	],
 		"order": [[ 4, "asc" ]],
@@ -44,8 +47,9 @@
 		},
 		"sDom": 'f<"top"Bil><"mobile-table-wraper"t><"bottom"p><"clear">',
 		buttons: [
-        	{ extend: 'excel', text: 'Export to Excel <span class="excel-icon"></span>', className: 'btn btn-default btn-inline', exportOptions: {
-                    columns: [ 0, 1, 2, 3, 4, 6]
+        	{ extend: 'excelHtml5', text: 'Export to Excel <span class="excel-icon"></span>', className: 'btn btn-default btn-inline', exportOptions: {
+                    columns: [ 0, 1, 2, 3, 4, 6],
+                    stripHtml: false
                 } },
 			{ extend: 'print', text: 'Print Search <span class="print-icon"></span>', className: 'btn btn-default btn-inline', exportOptions: {
                     columns: [ 0, 1, 2, 3, 4, 6 ]
