@@ -1,20 +1,20 @@
 {
     "events": [
 		{
-			"eventtitle":"COronavirus Pandemic Epidemiology (COPE) Consortium: An Update",
-			"eventurl":"https://cbiit.webex.com/mw3300/mywebex/default.do?nomenu=true&siteurl=cbiit&service=6&rnd=0.6204822355124052&main_url=https%3A%2F%2Fcbiit.webex.com%2Fec3300%2Feventcenter%2Fevent%2FeventAction.do%3FtheAction%3Ddetail%26%26%26EMK%3D4832534b00000004752a146ccf236fdd4d8922b23c034a438904f01c3a02c1e924a4966da6d43db3%26siteurl%3Dcbiit%26confViewID%3D163039373419356609%26encryptTicket%3DSDJTSwAAAARNFuOU-HAsb2JfkHuYihSjHhDRXaqOU-UuE-Omm5gmcw2%26",
-			"eventdatemonth":"June",
-			"eventdateday":"29",
-			"eventtype":"Webinar",
-            "fulldate":"2020-06-29T18:00:00.000Z"
-        },		
-		{
 			"eventtitle":"Re-Purposing Research Samples During a Pandemic: Bridging Public Health Ethics and Research Ethics Frameworks",
 			"eventurl":"https://epi.grants.cancer.gov/events/enrich-forum/index.html#chandros",
 			"eventdatemonth":"July",
 			"eventdateday":"21",
 			"eventtype":"Webinar",
             "fulldate":"2020-07-21T18:00:00.000Z"
+        },
+		{
+			"eventtitle":"Strategies to Identify Care for Individuals with Inherited Cancer Syndromes",
+			"eventurl":"https://healthcaredelivery.cancer.gov/media/strategies.html",
+			"eventdatemonth":"July",
+			"eventdateday":"30",
+			"eventtype":"Webinar",
+            "fulldate":"2020-07-30T18:00:00.000Z"
         },
 		{
 			"eventtitle":"Current Approaches for Addressing Medical Financial Hardship in the Context of Cancer Care Delivery",
@@ -33,14 +33,6 @@
             "fulldate":"2020-09-01T18:00:00.000Z"
         },
 		{
-			"eventtitle":"Save the Date: Cancer and Aging Webinar",
-			"eventurl":"https://cancercontrol.cancer.gov/funding-foa-applicants.html#collapse-32",
-			"eventdatemonth":"September",
-			"eventdateday":"28",
-			"eventtype":"Webinar",
-            "fulldate":"2020-09-28T18:00:00.000Z"
-        },
-		{
 			"eventtitle":"Polygenic Risk Scores",
 			"eventurl":"https://epi.grants.cancer.gov/events/seqSPACE/index.html#chatterjee",
 			"eventdatemonth":"September",
@@ -55,6 +47,22 @@
 			"eventdateday":"24-25",
 			"eventtype":"In-Person Workshop",
             "fulldate":"2020-09-25T18:00:00.000Z"
+        },
+		{
+			"eventtitle":"SAVE THE DATE: Cancer and Aging Webinar",
+			"eventurl":"https://cancercontrol.cancer.gov/funding-foa-applicants.html#collapse-32",
+			"eventdatemonth":"September",
+			"eventdateday":"28",
+			"eventtype":"Webinar",
+            "fulldate":"2020-09-28T18:00:00.000Z"
+        },
+		{
+			"eventtitle":"SAVE THE DATE: Perspectives on Cancer and Aging: Arti Hurria Memorial Webinar",
+			"eventurl":"",
+			"eventdatemonth":"September",
+			"eventdateday":"28",
+			"eventtype":"Webinar",
+            "fulldate":"2020-09-28T18:00:00.000Z"
         },
 		{
 			"eventtitle":"Leveraging Cross-Cancer Shared Heritability to Better Understand the Genetic Architecture of Cancer",
