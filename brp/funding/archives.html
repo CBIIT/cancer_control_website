@@ -1,5 +1,5 @@
 ﻿<!doctype html>
-<html lang="en"><!-- InstanceBegin template="/templates/BRP-funding.dwt" codeOutsideHTMLIsLocked="false" -->
+<html lang="en"><!-- InstanceBegin template="/Templates/BRP-landingpage.dwt" codeOutsideHTMLIsLocked="false" -->
 <head>
 <script src="//assets.adobedtm.com/f1bfa9f7170c81b1a9a9ecdcc6c5215ee0b03c84/satelliteLib-339f9157d73ce92dfb58c341869b41fef294030a.js"></script>
 <meta charset="UTF-8">
@@ -18,7 +18,7 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
 	<!-- InstanceEndEditable -->
 <meta name="author" content="National Cancer Institute, Division of Cancer Control and Population Science">
 <!-- InstanceBeginEditable name="doctitle" -->
-    <title>Archived Funding Opportunities | BRP | DCCPS/NCI/NIH</title>
+    <title>Past Funding Opportunity Announcements (FOAs) | BRP | DCCPS/NCI/NIH</title>
     <!-- InstanceEndEditable -->
 <!-- Disable tap highlight on IE -->
 <meta name="msapplication-tap-highlight" content="no">
@@ -50,6 +50,8 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
 <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
 <![endif]-->
 <!-- InstanceBeginEditable name="head" -->
+	<link href="/css/datatables.min.css" rel="stylesheet">
+	<link href="/css/funding.css" rel="stylesheet">	
   <!-- InstanceEndEditable -->
 </head>
 
@@ -120,26 +122,26 @@ height="0" width="0" style="display:none;visibility:hidden" title="Google Tag Ma
 						<input type="image" src="/images/magnifying_glass_2x.png" class="go-button" name="btnG" id="btnG" alt="Search">
                     </form>
 				</div> <!-- /.form-group -->
-				<ul class="nav navbar-nav">
+				<!-- InstanceBeginEditable name="navigation" -->
+                <ul class="nav navbar-nav">
 					<li><a href="/brp/">BRP Home</a></li>
-                    <!-- InstanceBeginEditable name="navigation" -->
-					<li class="active dropdown">
+					<li class="dropdown">
 						<a class="dropdown-toggle" data-toggle="dropdown" data-hover="dropdown" tabindex="0">Funding Opportunities <span class="sr-only">Open Dropdown</span><b class="caret"></b></a>
 						<ul class="dropdown-menu">
 							<li class="landing-page-link"><a href="/brp/funding/">Funding Opportunities <span class="sr-only">Landing Page</span></a></li>
-							<li><a href="/brp/funding/funding-opportunities.html">Apply for Behavioral Grants</a></li>
-							<li><a href="/brp/funding/sample-application.html">Sample Grant Applications</a></li>
-							<li><a href="https://staffprofiles.cancer.gov/brp/granteeList.do">Featured Grantees</a></li>
+							<li><a href="/brp/funding/funding-opportunities.html">Find Funding Opportunities</a></li>
+							<li><a href="/brp/funding/apply.html">How to Apply</a></li>
 						</ul>
 					</li>
-                    <!-- InstanceEndEditable -->
 					<li class="dropdown">
 						<a class="dropdown-toggle" data-toggle="dropdown" data-hover="dropdown" tabindex="0">Priority Areas <span class="sr-only">Open Dropdown</span><b class="caret"></b></a>
 						<ul class="dropdown-menu">
 							<li class="landing-page-link"><a href="/brp/priority-areas/">Priority Areas <span class="sr-only">Landing Page</span></a></li>
 							<li><a href="/brp/tcrb/">Tobacco Control</a></li>
-							<li><a href="/brp/hbrb/dietary_behaviors.html">Diet, Weight, and Physical Activity</a></li>
-							<li><a href="/brp/hbrb/sun-protection.html">Sun Protection</a></li>
+							<li><a href="/brp/hbrb/research-areas/dietary_behaviors.html">Dietary Behaviors</a></li>
+							<li><a href="/brp/hbrb/research-areas/energy-balance.html">Energy Balance</a></li>
+							<li><a href="/brp/hbrb/research-areas/physical-activity.html">Physical Activity</a></li>
+							<li><a href="/brp/hbrb/research-areas/sun-protection.html">Sun Protection</a></li>
 							<li><a href="/brp/bbpsb/affect-emotion-and-cognition.html">Decision-Making, Affect, and Emotion</a></li>
 							<li><a href="/brp/hcirb/social-media.html">Social Media</a></li>
 							<li><a href="/brp/priority-areas/big-data.html">Integrative Data Analysis</a></li>
@@ -170,6 +172,7 @@ height="0" width="0" style="display:none;visibility:hidden" title="Google Tag Ma
 						</ul>
 					</li>
 				</ul>
+                    <!-- InstanceEndEditable -->
 			</nav>	
 		</div> <!-- close /.col-lg-12 -->
 		</div> <!-- close /.row -->
@@ -183,13 +186,12 @@ height="0" width="0" style="display:none;visibility:hidden" title="Google Tag Ma
 		<div class="row">
 			<div class="col-lg-12">
             	<!-- InstanceBeginEditable name="Header" -->
-  <h1>Archived Funding Opportunities</h1>
+  <h1>Past Funding Opportunity Announcements (FOAs)</h1>
            	  <!-- InstanceEndEditable -->
 			</div> <!-- /.col-lg-12 -->
 		</div> <!-- /.row -->
 	</div> <!-- /.container -->
 </div> <!-- /.page-title -->
-<!-- InstanceBeginEditable name="Top Banner" --><!-- InstanceEndEditable -->
 <div class="page-breadcrumb">
 <div class="container">
 	<div class="row">
@@ -198,643 +200,1872 @@ height="0" width="0" style="display:none;visibility:hidden" title="Google Tag Ma
                 <ol class="breadcrumb">
 			  	  	<li><a href="/brp/index.html">Home</a></li>
 			  	  	<li><a href="/brp/funding/index.html">Funding Opportunities</a></li>
-			  	  	<li><a href="/brp/funding/funding-opportunities.html">Apply for Behavioral Research Grants</a></li>
-			  		<li>Archived Funding Opportunities</li>
+			  	  	<li><a href="/brp/funding/funding-opportunities.html">Find Funding Opportunities</a></li>
+			  		<li>Past Funding Opportunity Announcements</li>
                 </ol>    
                 <!-- InstanceEndEditable -->
 		</div> <!-- /.col-lg-12 -->
 	</div> <!-- /.row -->
 </div> <!-- /.container -->
 </div> <!-- /.page-breadcrumb -->
-<div class="container">
-<!-- intro area -->	
+<!-- InstanceBeginEditable name="Main Content" -->
+	<div class="container">
 	<div class="row">
-		<div class="col-md-9 col-md-push-3">
-        <!-- InstanceBeginEditable name="Main Content" -->
-			<p class="intro">The archived opportunities below are a partial listing only. For more information, please see:
+      <div class="col-md-3">
+        <div class="btn btn-default btn-inline showhide-filters"><span class="sr-only">Show/Hide </span>Filters</div>
+        <div id="webinar-filters" class="accordion-group">
+          <div class="accordion-heading" id="category-heading"> <a class="btn btn-accordion accordion-toggle" data-toggle="collapse" data-target="#category" tabindex="0" aria-controls="collapse" aria-expanded="true">
+            <div class="accordion-icon"><span class="glyphicon glyphicon-plus glyphicon-minus"></span></div>
+            <div class="accordion-title">Research Categories</div>
+            </a> <a class="infographic-area magnify">
+              <div class="question-icon"></div>
+              </a> <!-- /.infographic-area -->
+            <div class="modal"> <span class="close cursor">&times;</span>
+              <div class="modal-content">
+                <p>DCCPS has the lead responsibility at NCI for supporting research in surveillance, epidemiology, healthcare delivery, behavioral science, and cancer survivorship. Use this filter to search for funding announcements by research topic.</p>
+              </div> <!-- /.modal-content -->
+            </div> <!-- /.modal -->
+          </div> <!-- /.accordion-heading -->
+          <div id="category" class="accordion-body collapse in" aria-expanded="true">
+            <div class="accordion-inner">
+              <div>
+                <input id="CKCategory_6" value="Basic Biobehavioral and Psychological Sciences" type="checkbox" name="category" />
+                <label for="CKCategory_6">Basic Biobehavioral and Psychological Sciences</label>
+              </div>
+              <div>
+                <input id="CKCategory_1" value="Cancer Survivorship" type="checkbox" name="category" />
+                <label for="CKCategory_1">Cancer Survivorship</label>
+              </div>
+              <div>
+                <input id="CKCategory_8" value="Health Behaviors Research" type="checkbox" name="category" />
+                <label for="CKCategory_8">Health Behaviors</label>
+              </div>
+              <div>
+                <input id="CKCategory_9" value="Health Communication and Informatics Research" type="checkbox" name="category" />
+                <label for="CKCategory_9">Health Communication and Informatics</label>
+              </div>
+              <div>
+                <input id="CKCategory_4" value="Health Disparities" type="checkbox" name="category" />
+                <label for="CKCategory_4">Health Disparities</label>
+              </div>
+              <div>
+                <input id="CKCategory_7" value="Implementation Science" type="checkbox" name="category" />
+                <label for="CKCategory_7">Implementation Science</label>
+              </div>
+              <div>
+                <input id="CKCategory_11" value="Parent and Omnibus Funding Announcements" type="checkbox" name="category" />
+                <label for="CKCategory_11">Parent and Omnibus Funding Announcements</label>
+              </div>
+              <div>
+                <input id="CKCategory_10" value="Tobacco Control Research" type="checkbox" name="category" />
+                <label for="CKCategory_10">Tobacco Control Research</label>
+              </div>
+            </div> <!-- /.accordion-inner -->
+          </div> <!-- /.accordion-body -->
+          <div class="accordion-heading" id="funding-heading"> <a class="btn btn-accordion accordion-toggle" data-toggle="collapse" data-target="#funding" tabindex="0" aria-controls="collapse" aria-expanded="true">
+            <div class="accordion-icon"><span class="glyphicon glyphicon-plus glyphicon-minus"></span></div>
+            <div class="accordion-title">Type of Funding Announcement</div>
+            </a> <a class="infographic-area magnify">
+              <div class="question-icon"></div>
+              </a> <!-- /.infographic-area -->
+            <div class="modal"> <span class="close cursor">&times;</span>
+              <div class="modal-content">
+                <p>The DCCPS portfolio of grants and contracts includes a variety of funding opportunity types. See below for a description of each announcement type. </p>
+                <ul class="inline-links">
+                  <li>Program Announcement (PA): Identifies areas of increased priority and/or emphasis on particular funding mechanisms for a specific area of science</li>
+                  <li>PAR: A PA with special receipt, referral and/or review considerations, as described in the PAR announcement</li>
+                  <li>PAS: A PA that includes specific set-aside funds as described in the PAS announcement</li>
+                  <li>Request for Application (RFA): Identifies a more narrowly defined area for which one or more NIH institutes have set aside funds for awarding grants</li>
+                  <li>Parent Announcements: Broad funding opportunity announcements allowing applicants to submit investigator-initiated applications for specific <a href="https://grants.nih.gov/grants/funding/funding_program.htm">activity codes</a>. They are open for up to 3 years and use <a href="https://grants.nih.gov/grants/how-to-apply-application-guide/due-dates-and-submission-policies/due-dates.htm">standard due dates</a>.</li>
+                </ul>
+              </div> <!-- /.modal-content -->
+            </div> <!-- /.modal -->
+          </div> <!-- /.accordion-heading -->
+          <div id="funding" class="accordion-body collapse in" aria-expanded="true">
+            <div class="accordion-inner">
+              <div>
+                <input id="CKCtype_Parent_Announcements" value="Parent Announcement" type="checkbox" name="funding" />
+                <label for="CKCtype_Parent_Announcements">Parent Announcements</label>
+              </div>
+              <div>
+                <input id="CKCtype_PA" value="Program Announcements" type="checkbox" name="funding" />
+                <label for="CKCtype_PA">Program Announcements (PA, PAR, PAS)</label>
+              </div>
+              <div>
+                <input id="CKCtype_RFA" value="RFA" type="checkbox" name="funding" />
+                <label for="CKCtype_RFA">Requests for Applications (RFA)</label>
+              </div>
+              <div>
+                <input id="CKCtype_NOT" value="Notice" type="checkbox" name="funding" />
+                <label for="CKCtype_NOT">Notice - including Notices of Special Interest (NOSIs)</label>
+              </div>
+            </div> <!-- /.accordion-inner -->
+          </div> <!-- /.accordion-body -->
+          <div class="accordion-heading" id="activity-heading"> <a class="btn btn-accordion accordion-toggle" data-toggle="collapse" data-target="#activity" tabindex="0" aria-controls="collapse" aria-expanded="true">
+            <div class="accordion-icon"><span class="glyphicon glyphicon-plus glyphicon-minus"></span></div>
+            <div class="accordion-title">Activity Code</div>
+            </a> <a class="infographic-area magnify">
+              <div class="question-icon"></div>
+              </a> <!-- /.infographic-area -->
+            <div class="modal"> <span class="close cursor">&times;</span>
+              <div class="modal-content">
+                <p>DCCPS uses activity codes (e.g., R01, R21, etc.) to differentiate the research-related programs we support. NIH provides a <a href="https://grants.nih.gov/grants/funding/funding_program.htm">full list of activity codes</a> and descriptions.</p>
+              </div> <!-- /.modal-content -->
+            </div> <!-- /.modal -->
+          </div> <!-- /.accordion-heading -->
+          <div id="activity" class="accordion-body collapse in" aria-expanded="true">
+            <div class="accordion-inner">
+              <div>
+                <input id="CKactivity_1" value="Research Project" type="checkbox" name="activity" />
+                <label for="CKactivity_1">Research Project (R01 &amp; R37)</label>
+              </div>
+              <div>
+                <input id="CKactivity_7" value="Small Grant" type="checkbox" name="activity" />
+                <label for="CKactivity_7">Small Grant (R03)</label>
+              </div>
+              <div>
+                <input id="CKactivity_2" value="Support for Conferences &amp; Meetings" type="checkbox" name="activity" />
+                <label for="CKactivity_2">Support for Conferences &amp; Meetings (R13 &amp; U13)</label>
+              </div>
+              <div>
+                <input id="CKactivity_3" value="Academic Research Enhancement Award" type="checkbox" name="activity" />
+                <label for="CKactivity_3">Academic Research Enhancement Award (R15)</label>
+              </div>
+              <div>
+                <input id="CKactivity_4" value="Exploratory/Developmental" type="checkbox" name="activity" />
+                <label for="CKactivity_4">Exploratory/Developmental (R21)</label>
+              </div>
+              <div>
+                <input id="CKactivity_5" value="Small Business" type="checkbox" name="activity" />
+                <label for="CKactivity_5">Small Business (R41/R42 &amp; R43/R44)</label>
+              </div>
+              <div>
+                <input id="CKactivity_6" value="Program Project/Center Grants" type="checkbox" name="activity" />
+                <label for="CKactivity_6">Program Project/Center Grants (P series)</label>
+              </div>
+              <div>
+                <input id="CKactivity_8" value="Cooperative Agreement" type="checkbox" name="activity" />
+                <label for="CKactivity_8">Cooperative Agreement (U01, UG3, UH3, and U54)</label>
+              </div>
+            </div> <!-- /.accordion-inner -->
+          </div> <!-- /.accordion-body -->
+          <div class="accordion-heading" id="type-heading"> <a class="btn btn-accordion accordion-toggle" data-toggle="collapse" data-target="#type" tabindex="0" aria-controls="collapse" aria-expanded="true">
+            <div class="accordion-icon"><span class="glyphicon glyphicon-plus glyphicon-minus"></span></div>
+            <div class="accordion-title">Type of Research</div>
+            </a> <a class="infographic-area magnify">
+              <div class="question-icon"></div>
+              </a> <!-- /.infographic-area -->
+            <div class="modal"> <span class="close cursor">&times;</span>
+              <div class="modal-content">
+                <p>Relevant Funding Opportunity Announcements (FOAs) supported by DCCPS indicate whether clinical trials are Required, Optional or Not Allowed. Applications involving one or more clinical trials must be submitted through a FOA that explicitly states one of the following in the title and in Section II: Clinical Trial Required or Clinical Trial Optional. Learn more about <a href="https://grants.nih.gov/policy/clinical-trials.htm">NIH clinical trial requirements for grants</a>.</p>
+              </div> <!-- /.modal-content -->
+            </div> <!-- /.modal -->
+          </div>
+          <div id="type" class="accordion-body collapse in" aria-expanded="true">
+            <div class="accordion-inner">
+              <div>
+                <input id="PKtype_1" value="Clinical Trials" type="checkbox" name="type" />
+                <label for="PKtype_1">Clinical Trials</label>
+              </div>
+              <div>
+                <input id="PKtype_2" value="Not Clinical Trials" type="checkbox" name="type" />
+                <label for="PKtype_2">Not Clinical Trials</label>
+              </div>
+            </div>
+          </div> <!-- /.accordion-body -->
+        </div>		  
+		</div>
+		<div class="col-md-9">
+		<p class="intro">The archived opportunities below are a partial listing only.</p>
+		<p class="intro">For more information, please see:</p>
 		<ul class="nav nav-pills nav-stacked">
-					<li><a href="https://maps.cancer.gov/overview/index.jsp">BRP Grant Funding Trends</a></li>
-					<li><a href="https://maps.cancer.gov/overview/map/initiative/index.jsp">Previously Funded Request of Applications (RFAs)</a></li>
-					<li><a href="https://maps.cancer.gov/overview/map/initiative/paindex.jsp">Previously Funded Program Announcements (PA/PARs)</a></li>
-		</ul>
-			</p>
-			<div class="spacer-20"></div>
-			<div class="table-responsive">
-			  <table class="table table-striped table-bordered table-condensed" summary="Archived Funding Opportunities">
-			    <thead>
-			      <tr>
-			        <th style="width:35%">Title</th>
-			        <th style="width:20%">Announcement #</th>
-			        <th style="width:25%">Expiration Date</th>
-			        <th style="width:20%">Contact</th>
-		          </tr>
-		        </thead>
-			    <tbody>
-					<tr>
-						<th scope="row">Nutrition and Alcohol-Related Health Outcomes </th>
-						<td><a href="https://grants.nih.gov/grants/guide/pa-files/pa-17-211.html">PA-17-211</a> (R01)<br>      <a href="https://grants.nih.gov/grants/guide/notice-files/NOT-CA-19-012.html">NOT-CA-19-012</a></td>
-						<td>May 8, 2020</td>
-						<td><a href="https://staffprofiles.cancer.gov/brp/prgmStaffProfile.do?contactId=1478&bioType=stf">Tanya Agurs-Collins</a><br>
-						  240-276-6956<br>      <a href="mailto:collinsta@mail.nih.gov">collinsta@mail.nih.gov</a></td>
-					</tr>
-					<tr>
-						<th scope="row">Integrative Research on Polysubstance Abuse and Addiction</th>
-						<td><a href="https://grants.nih.gov/grants/guide/pa-files/PAR-18-084.html" target="_blank">PAR-18-084</a> (R21/R33 Clinical Trial Optional)</td>
-						<td>January 8, 2020</td>
-						<td><a href="https://staffprofiles.cancer.gov/brp/prgmStaffProfile.do?contactId=1458&name=Michele-Bloch&bioType=stf">Michele Bloch</a><br>
-						  240-276-6878<br>
-						  <a href="mailto:blochm@mail.nih.gov">blochm@mail.nih.gov</a></td>
-					</tr>
-					<tr>
-						<th scope="row">Methods and Measurement in Research with Sexual and Gender Minority (SGM) Populations</th>
-						<td><a href="https://grants.nih.gov/grants/guide/rfa-files/RFA-MD-20-005.html" target="_blank">RFA-MD-20-005</a> (R21- Clinical Trials Not Allowed)</td>
-						<td>March 14, 2020</td>
-						<td><a href="https://staffprofiles.cancer.gov/brp/prgmStaffProfile.do?contactId=1608&name=Richard-Moser&bioType=stf">Richard  Moser</a><br>
-							240-276-6915<br>
-							<a href="mailto:moserr@mail.nih.gov">moserr@mail.nih.gov</a></td>
-					</tr>
-					<tr>
-					  <th scope="row">Notice of Special Interest: Alzheimer’s-focused Administrative Supplements for NIH/NCI Grants that are not focused on Alzheimer’s Disease</th>
-					  <td><a href="https://grants.nih.gov/grants/guide/notice-files/NOT-CA-20-019.html">NOT-AG-20-019</a></td>
-					  <td>March 7, 2020</td>
-					  <td><a href="https://staffprofiles.cancer.gov/brp/prgmStaffProfile.do?contactId=8579&bioType=stf">Paige Green</a><br>
-						  240-276-6899<br>
-						  <a href="mailto:paige.green@nih.gov">paige.green@nih.gov</a></td>
-					</tr>
-					<tr>
-					  <th scope="row">Availability of Administrative and Revision Supplements to Expand Vaping Research and Understand EVALI (Notice of Special Interest) </th>
-					  <td><a href="https://grants.nih.gov/grants/guide/notice-files/NOT-HL-19-724.html">NOT-HL-19-724</a></td>
-					  <td>February 28, 2020</td>
-					  <td><a href="https://staffprofiles.cancer.gov/brp/prgmStaffProfile.do?contactId=22444270&name=Rachel-Grana%20Mayne&bioType=stf">Rachel Grana Mayne</a><br>
-					   240-276-5899<br>   <a href="mailto:rachel.mayne@nih.gov">rachel.mayne@nih.gov</a></td>
-					</tr>
-					<tr>
-					  <th scope="row">Communication and Decision Making for Individuals with Inherited Cancer Syndromes</th>
-						<td><a href="https://grants.nih.gov/grants/guide/rfa-files/RFA-CA-20-006.html" target="_blank">RFA-CA-20-006</a> (U01 Clinical Trial Optional)</td>
-						<td>January 22, 2020</td>
-						<td><a href="https://staffprofiles.cancer.gov/brp/prgmStaffProfile.do?contactId=1618&name=Wendy-Nelson&bioType=stf">Wendy Nelson</a><br>
-							240-276-6971<br>
-							<a href="mailto:wendy.nelson@nih.gov">wendy.nelson@nih.gov</a></td>
-					</tr>
-					<tr>
-						<th scope="row">Oral Anticancer Agents: Utilization, Adherence, and  Health Care Delivery<br>
-							<br>
-							<a href="/funding-foa-applicants.html#collapse-8">Helpful Resources</a></th>
-						<td><a href="https://grants.nih.gov/grants/guide/pa-files/PA-18-004.html" target="_blank">PA-18-004</a> (R01 Clinical Trial Optional)<br>
-							<a href="https://grants.nih.gov/grants/guide/pa-files/PA-18-014.html" target="_blank">PA-18-014</a> (R21 Clinical Trial Optional)</td>
-						<td>January 8, 2020</td>
-						<td><a href="https://staffprofiles.cancer.gov/brp/prgmStaffProfile.do?contactId=1618">Wendy Nelson</a><br>
-							240-276-6971<br>
-							<a href="mailto:nelsonw@mail.nih.gov">nelsonw@mail.nih.gov</a></td>
-					</tr>
-					<tr>
-                        <th scope="row">Neural Regulation of Cancer</th>
-                        <td><a href="https://grants.nih.gov/grants/guide/pa-files/PAR-16-245.html">PAR-16-245</a> (R01) and <a href="https://grants.nih.gov/grants/guide/pa-files/PAR-16-246.html">PAR-16-246</a> (R21)</td>
-						<td>June 28, 2019</td>
-						<td><a href="https://staffprofiles.cancer.gov/brp/prgmStaffProfile.do?contactId=8579&bioType=stf">Paige Green</a> <br>
-						  240-276-6899<br>
-						<a href="mailto:paige.green@nih.gov">paige.green@nih.gov</a></td>
-					</tr>
-					<tr>
-						<th scope="row">Cancer-related Behavioral Research through Integrating Existing Data</th>
-                      <td><a href="https://grants.nih.gov/grants/guide/pa-files/PAR-16-256.html">PAR-16-256</a> (R01) and <a href="https://grants.nih.gov/grants/guide/pa-files/PAR-16-255.html">PAR-16-255</a> (R21)</td>
-						<td>June 8, 2019</td>
-						<td><a href="https://staffprofiles.cancer.gov/brp/prgmStaffProfile.do?contactId=1608&bioType=stf">Richard Moser</a><br>
-							240-276-6915<br>
-							<a href="mailto:moserr@mail.nih.gov">moserr@mail.nih.gov</a></td>
-					</tr>
-					<tr>
-						<th scope="row">Accelerating the Pace of Drug Abuse Research Using Existing Data</th>
-						<td><a href="https://grants.nih.gov/grants/guide/pa-files/PAR-18-062.html">PAR-18-062</a> (R01 Clinical Trial Optional)</td>
-						<td>May 8, 2019</td>
-						<td><a href="https://staffprofiles.cancer.gov/brp/prgmStaffProfile.do?contactId=1540&bioType=stf">Anne Hartman</a> <br>
-						  240-276-6702<br>
-						<a href="mailto:hartmana@mail.nih.gov">hartmana@mail.nih.gov</a></td>
-					</tr>
-					<tr>
-					  <th scope="row">Stimulating Innovations in Behavioral Intervention Research for Cancer Prevention and Control<br>
-							<br>
-						  <a href="/funding-foa-applicants.html#collapse-3">Helpful Resources<br>
-						  <br>
-						  </a><a href="https://maps.cancer.gov/overview/DCCPSGrants/grantlist.jsp?method=dynamic&program=brp&status=active&rfaNums=PAR16-278,PAR18-018">View Active BRP Grants</a></th>
-						<td><a href="https://grants.nih.gov/grants/guide/pa-files/PAR-18-018.html">PAR-18-018</a> (R21 Clinical Trial Optional)</td>
-						<td>May 8, 2019</td>
-						<td><a href="https://staffprofiles.cancer.gov/brp/prgmStaffProfile.do?contactId=1478&amp;bioType=stf">Tanya Agurs-Collins</a><br>
-							240-276-6956<br>
-							<a href="mailto:collinsta@mail.nih.gov">collinsta@mail.nih.gov</a></td>
-					</tr>
-					<tr>
-						<th scope="row">Obesity Policy Evaluation Research</th>
-						<td><a href="https://grants.nih.gov/grants/guide/pa-files/PA-16-165.html">PA-16-165</a> (R01)</td>
-						<td>May 8, 2019</td>
-						<td><a href="https://staffprofiles.cancer.gov/brp/prgmStaffProfile.do?contactId=1456&amp;bioType=stf">David Berrigan</a><br>
-							240-276-6752<br>
-							<a href="mailto:berrigad@mail.nih.gov">berrigad@mail.nih.gov</a></td>
-					</tr>
-					<tr>
-						<th scope="row">Population Health Interventions: Integrating Individual and Group Level Evidence</th>
-						<td><a href="https://grants.nih.gov/grants/guide/pa-files/PA-18-385.html">PA-18-385</a> (R01 Clinical Trial Optional)<br>
-							<a href="https://grants.nih.gov/grants/guide/pa-files/PA-18-407.html">PA-18-407</a> (R21 Clinical Trials Optional)<br>
-							<a href="https://grants.nih.gov/grants/guide/pa-files/PA-18-356.html">PA-18-356</a> (R01 Clinical Trials Not Allowed) <br>
-							<a href="https://grants.nih.gov/grants/guide/pa-files/PA-18-406.html">PA-18-406</a> (R21 Clinical Trials Not Allowed)</td>
-						<td>May 8, 2019</td>
-						<td><a href="https://staffprofiles.cancer.gov/brp/prgmStaffProfile.do?contactId=1456&amp;bioType=stf">David Berrigan</a><br>
-							240-276-6752 <a href="mailto:berrigad@mail.nih.gov">berrigad@mail.nih.gov</a></td>
-					</tr>
-					<tr>
-					  <th scope="row">Predicting Behavioral Responses to Population-Level Cancer Control Strategies <br>
-							<br>
-						  <a href="/funding-foa-applicants.html#collapse-3">Helpful Resources</a><br>
-						  <br>
-						  <a href="https://maps.cancer.gov/overview/DCCPSGrants/grantlist.jsp?method=dynamic&program=brp&status=active&rfaNums=PAR16-257,PAR18-024">View Active BRP Grants</a></th>
-						<td><a href="https://grants.nih.gov/grants/guide/pa-files/PAR-18-024.html">PAR-18-024</a> (R21 Clinical Trial Optional)</td>
-						<td>April 12, 2019</td>
-						<td><a href="https://staffprofiles.cancer.gov/brp/prgmStaffProfile.do?contactId=1439021&amp;bioType=stf">Rebecca Ferrer</a><br>
-							301-852-1167 <br>
-							<a href="mailto:rebecca.ferrer@nih.gov">rebecca.ferrer@nih.gov</a></td>
-					</tr>
-					<tr>
-					  <th scope="row">Leveraging Cognitive Neuroscience Research to Improve Assessment of Cancer Treatment Related Cognitive Impairment<br>
-							<br>
-						  <a href="/funding-foa-applicants.html#collapse-4">Helpful Resources</a><br>
-						  <br>
-						  <a href="https://maps.cancer.gov/overview/DCCPSGrants/grantlist.jsp?method=dynamic&program=brp&status=active&rfaNums=PAR16-212,PAR16-213,PAR18-605,PAR18-606">View Active BRP Grants</a></th>
-						<td><a href="https://grants.nih.gov/grants/guide/pa-files/PAR-18-605.html">PAR-18-605</a> (R01 Clinical Trial Optional)<br>
-							<a href="https://grants.nih.gov/grants/guide/pa-files/PAR-18-606.html">PAR-18-606</a> (R21 Clinical Trial Optional)</td>
-						<td>April 12, 2019</td>
-						<td>Jerry Suls<br>
-							240-276-6811<br>
-							<a href="mailto:jerry.suls@nih.gov">jerry.suls@nih.gov</a></td>
-					</tr>
-			      <tr>
-			        <th scope="row">Tobacco Regulatory Science<br>
-			          <br>
-			          <br>
-			          Tobacco Regulatory Science Small Grant Program for New Investigators</th>
-			        <td><a href="https://grants.nih.gov/grants/guide/rfa-files/RFA-OD-18-002.html">RFA-OD-18-002</a> (R01 Clinical Trial Optional)<br>
-			          <a href="https://grants.nih.gov/grants/guide/rfa-files/RFA-OD-18-003.html">RFA-OD-18-003</a> (R21 Clinical Trial Optional)<br>
-			          <a href="https://grants.nih.gov/grants/guide/rfa-files/RFA-OD-18-001.html">RFA-OD-18-001</a> (R03 Clinical Trial Optional)</td>
-			        <td>February 14, 2019</td>
-			        <td><a href="https://staffprofiles.cancer.gov/brp/prgmStaffProfile.do?contactId=22444270&amp;bioType=stf">Rachel Grana Mayne</a><br>
-			          240-276-5899<br>
-			          <a href="mailto:rachel.mayne@nih.gov">rachel.mayne@nih.gov</a></td>
-		          </tr>
-			      <tr>
-			        <th scope="row">Time-Sensitive Research on Health Risk and Resilience after Hurricanes Irma and Maria in Puerto Rico and the US Virgin Islands</th>
-			        <td><a href="https://grants.nih.gov/grants/guide/rfa-files/RFA-MD-18-006.html">RFA-MD-18-006</a> (R21 Clinical Trial Not Allowed)</td>
-			        <td>April 17, 2018</td>
-			        <td><a href="https://staffprofiles.cancer.gov/brp/prgmStaffProfile.do?contactId=8579&amp;bioType=stf">Paige Green</a><br />
-			          240-276-6899<br />
-			          <a href="mailto:paige.green@nih.gov">paige.green@nih.gov</a></td>
-		          </tr>
-			      <tr>
-			        <th scope="row">Advancing Interventions to Improve Medication Adherence</th>
-		            <td><a href="https://grants.nih.gov/grants/guide/pa-files/PA-14-334.html">PA-14-334</a> (R01)<br>
-			            <a href="https://grants.nih.gov/grants/guide/pa-files/PA-14-335.html">PA-14-335</a> (R21)</td>
-			        <td>January 8, 2018</td>
-			        <td><a href="https://staffprofiles.cancer.gov/brp/prgmStaffProfile.do?contactId=1618&amp;bioType=stf">Wendy  Nelson</a><br>
-			          240-276-6971 <a href="mailto:nelsonw@mail.nih.gov">nelsonw@mail.nih.gov</a>   <br></td>
-		          </tr>
-			      <tr>
-			        <th scope="row">Research Aimed at Novel Behavioral Targets to Improve Adolescent Substance Abuse Treatment and Prevention Interventions</th>
-		            <td><a href="https://grants.nih.gov/grants/guide/pa-files/PA-15-035.html">PA-15-035</a> (R34)</td>
-			        <td>January 8, 2018</td>
-			        <td><a href="https://staffprofiles.cancer.gov/brp/prgmStaffProfile.do?contactId=1462212&amp;bioType=stf">Annette Kaufman<br>
-			          </a>240-276-6706<br>
-			          <a href="mailto:kaufmana@mail.nih.gov">kaufmana@mail.nih.gov</a></td>
-		          </tr>
-			      <tr>
-			        <th scope="row">Systems Science and Health in the Behavioral and Social Sciences</th>
-		            <td><a href="https://grants.nih.gov/grants/guide/pa-files/PAR-15-048.html">PAR-15-048</a> (R01)<br>
-			            <a href="https://grants.nih.gov/grants/guide/pa-files/PAR-15-047.html">PAR-15-047</a> (R21)</td>
-			        <td>January 8, 2018</td>
-			        <td><a href="https://staffprofiles.cancer.gov/brp/prgmStaffProfile.do?contactId=8581">Kara Hall</a><br>
-			          240-276-6831<br>
-			          <a href="mailto:hallka@mail.nih.gov">hallka@mail.nih.gov </a></td>
-		          </tr>
-			      <tr>
-			        <th scope="row">Intensive Longitudinal Analysis of Health Behaviors: Leveraging New Technologies to Understand Health Behaviors</th>
-			        <td><a href="https://grants.nih.gov/grants/guide/rfa-files/RFA-OD-17-004.html">RFA-OD-17-004</a> (U01)<br>
-			          <a href="https://grants.nih.gov/grants/guide/rfa-files/RFA-OD-17-005.html">RFA-OD-17-005</a> (U24)</td>
-			        <td>January 8, 2018</td>
-			        <td>For cancer-related FOA questions: <br>
-			          <br>
-			          <a href="https://staffprofiles.cancer.gov/brp/prgmStaffProfile.do?contactId=1608&bioType=stf">Richard Moser</a><br>
-			          240-276-6915 <br>
-			          <a href="mailto:moserr@mail.nih.gov">moserr@mail.nih.gov<br>
-			            <br>
-		              </a>For general FOA questions: <br>
-			          <br>
-			          Dana Wolff-Hughes<br>
-			          Office of Behavioral and Social Sciences Research (OBSSR)<br>
-			          301-496-0979<br>
-			          <a href="mailto:dana.wolff@nih.gov">dana.wolff@nih.gov</a></td>
-		          </tr>
-			      <tr>
-			        <th scope="row">Science of Behavior Change: Revision Applications for Use-inspired Research to Optimize Adherence, Behavior Change Interventions, and Outcomes</th>
-			        <td><p><a href="https://grants.nih.gov/grants/guide/rfa-files/RFA-RM-17-022.html">RFA-RM-17-022</a> (R01)</p>
-			          <p><a href="https://grants.nih.gov/grants/guide/rfa-files/RFA-RM-17-023.html">RFA-RM-17-023</a> (U01)</p>
-			          <p><a href="https://grants.nih.gov/grants/guide/rfa-files/RFA-RM-17-024.html">RFA-RM-17-024</a> (R34)</p>
-			          <a href="https://grants.nih.gov/grants/guide/rfa-files/RFA-RM-17-028.html">RFA-RM-17-028</a> (R21)</td>
-			        <td>December 6, 2017</td>
-			        <td>For cancer-related FOA questions: <br>
-			          <br>
-			          <a href="https://staffprofiles.cancer.gov/brp/prgmStaffProfile.do?contactId=8579&amp;bioType=stf">Paige  Green</a><br />
-			          240-276-6899<br />
-			          <a href="mailto:paige.green@nih.gov">paige.green@nih.gov</a><br>
-			          <br>
-			          <br>
-			          For general FOA questions:&nbsp;<br>
-			          <br>
-			          Will M. Aklin<br>
-			          National Institute on Drug Abuse (NIDA)<br>
-			          301-827-5909<br>
-			          <a href="mailto:will.aklin@nih.gov">will.aklin@nih.gov</a></td>
-		          </tr>
-			      <tr>
-			        <th scope="row">Interventions for Health-Enhancing Physical Activity</th>
-			        <td><a href="https://grants.nih.gov/grants/guide/pa-files/PAR-14-321.html">PAR-14-321</a> (R21/R33) <br>
-			          <a href="https://grants.nih.gov/grants/guide/pa-files/PAR-14-315.html">PAR-14-315</a> (R01)</td>
-			        <td>September 8, 2017</td>
-			        <td><a href="https://staffprofiles.cancer.gov/brp/prgmStaffProfile.do?contactId=51678&amp;bioType=stf">Frank Perna</a><br>
-			          240-276-6782<br>
-			          <a href="mailto:pernafm@mail.nih.gov">pernafm@mail.nih.gov</a></td>
-		          </tr>
-			      <tr>
-			        <th scope="row"> Tobacco Centers of Regulatory Science for Research Relevant to the Family Smoking Prevention and Tobacco Control Act</th>
-		            <td><a href="https://grants.nih.gov/grants/guide/rfa-files/RFA-OD-17-006.html">RFA-OD-17-006</a> (U54)</td>
-			        <td>July 20, 2017</td>
-			        <td><a href="https://staffprofiles.cancer.gov/brp/prgmStaffProfile.do?contactId=22444270&amp;bioType=stf">Rachel Grana Mayne</a><br />
-			          240-276-5899<br />
-			          <a href="mailto:rachel.mayne@nih.gov">rachel.mayne@nih.gov</a></td>
-		          </tr>
-			      <tr>
-			        <th scope="row">Behavioral Interventions to Address Multiple Chronic Health Conditions in Primary Care</th>
-			        <td><a href="https://grants.nih.gov/grants/guide/pa-files/PA-14-114.html">PA-14-114</a> (R01)</td>
-			        <td>May 8, 2017</td>
-			        <td><a href="https://healthcaredelivery.cancer.gov/about/staff/bios/chollette.html">Veronica Chollette</a><br>
-			          240-276-6969<br>
-			          <a href="mailto:cholletv@mail.nih.gov">cholletv@mail.nih.gov</a></td>
-		          </tr>
-			      <tr>
-			        <th scope="row">Exploratory Studies of Smoking Cessation Interventions for People with Schizophrenia </th>
-			        <td><a href="https://grants.nih.gov/grants/guide/pa-files/PAR-14-230.html">PAR-14-230</a> (R21)<br>
-			          <a href="https://grants.nih.gov/grants/guide/pa-files/PAR-14-231.html">PAR-14-231</a> (R33)</td>
-			        <td>April 18, 2017</td>
-			        <td><a href="https://staffprofiles.cancer.gov/brp/prgmStaffProfile.do?contactId=1439530&amp;bioType=stf">Yvonne Prutzman</a><br>
-			          240-276-6975<br>
-			          <a href="mailto:huntym@mail.nih.gov">huntym@mail.nih.gov</a></td>
-		          </tr>
-			      <tr>
-			        <th scope="row">Tobacco Regulatory Science Small Grant Program for New Investigators</th>
-			        <td><a href="https://grants.nih.gov/grants/guide/rfa-files/RFA-OD-15-004.html">RFA-OD-15-004</a>  (R03)</td>
-			        <td>February 24, 2017</td>
-			        <td><a href="https://staffprofiles.cancer.gov/brp/prgmStaffProfile.do?contactId=22444270&amp;bioType=stf">Rachel Grana Mayne</a><br>
-			          240-276-5899 <br>
-			          <a href="mailto:granar@mail.nih.gov">granar@mail.nih.gov </a></td>
-		          </tr>
-			      <tr>
-			        <th scope="row">Modeling Social Behavior</th>
-			        <td><a href="https://grants.nih.gov/grants/guide/pa-files/PAR-13-374.html">PAR-13-374</a> (R01)</td>
-			        <td>January 8, 2017</td>
-			        <td><a href="https://staffprofiles.cancer.gov/brp/prgmStaffProfile.do?contactId=1608&amp;bioType=stf">Richard Moser</a><br>
-			          240-276-6915<br>
-			          <a href="mailto:moserr@mail.nih.gov">moserr@mail.nih.gov</a></td>
-		          </tr>
-			      <tr>
-			        <th scope="row">Basic Biopsychosocial Mechanisms and Processes in the Management of Chronic Conditions </th>
-			        <td><a href="https://grants.nih.gov/grants/guide/pa-files/PAR-16-095.html">PAR-16-095</a> (R21)</td>
-			        <td>December 7, 2016</td>
-			        <td><a href="https://staffprofiles.cancer.gov/brp/prgmStaffProfile.do?contactId=1618&amp;bioType=stf">Wendy Nelson</a><br>
-			          240-276-6971<br>
-			          <a href="mailto:nelsonw@mail.nih.gov">nelsonw@mail.nih.gov</a></td>
-		          </tr>
-			      <tr>
-			        <th scope="row">Advancing Basic Behavioral and Social Research on Resilience: An Integrative Science Approach</th>
-			        <td><a href="https://grants.nih.gov/grants/guide/pa-files/PAR-16-326.html">PAR -16-326</a> (UG3/UH3)</td>
-			        <td>December 2, 2016</td>
-			        <td><a href="https://staffprofiles.cancer.gov/brp/prgmStaffProfile.do?contactId=1439021&amp;bioType=stf">Rebecca Ferrer</a><br>
-			          301-852-1167<br>
-			          <a href="mailto:rebecca.ferrer@nih.gov">rebecca.ferrer@nih.gov</a></td>
-		          </tr>
-			      <tr>
-			        <th scope="row">Science of Behavior Change: Use-inspired Basic Research to Optimize Behavior Change Interventions and Outcomes </th>
-			        <td><a href="https://grants.nih.gov/grants/guide/pa-files/PA-16-334.html">PA-16-334</a> (Admin Supp)</td>
-			        <td>November 2016</td>
-			        <td><a href="https://staffprofiles.cancer.gov/brp/prgmStaffProfile.do?contactId=8579&amp;bioType=stf">Paige Green</a><br>
-			          240-276-6899<br>
-			          <a href="mailto:paige.green@nih.gov">paige.green@nih.gov</a></td>
-		          </tr>
-			      <tr>
-			        <th scope="row">Research Answers to NCI&rsquo;s Provocative Questions</th>
-			        <td><a href="https://grants.nih.gov/grants/guide/rfa-files/RFA-CA-15-009.html">CA-15-009</a> (R21)</td>
-			        <td>October 29, 2016 </td>
-			        <td>For more information, see: <a href="https://provocativequestions.cancer.gov/">Provocative Questions</a></td>
-		          </tr>
-			      <tr>
-			        <th scope="row">Research to Characterize and Reduce Stigma to Improve Health</th>
-			        <td><a href="https://grants.nih.gov/grants/guide/pa-files/PA-13-246.html">PA-13-246</a> (R21)<br>
-			          <a href="https://grants.nih.gov/grants/guide/pa-files/PA-13-247.html">PA-13-247</a> (R03)<br>
-			          <a href="https://grants.nih.gov/grants/guide/pa-files/PA-13-248.html">PA-13-248</a> (R01) </td>
-			        <td>September 8, 2016</td>
-			        <td><a href="https://healthcaredelivery.cancer.gov/about/staff/bios/chollette.html">Veronica Chollette</a><br>
-			          240-276-6969<br>
-			          <a href="mailto:cholletv@mail.nih.gov">cholletv@mail.nih.gov</a></td>
-		          </tr>
-			      <tr>
-			        <th scope="row">Behavioral and Social Science Research on Understanding and Reducing Health Disparities</th>
-			        <td><a href="https://grants.nih.gov/grants/guide/pa-files/PA-13-292.html">PA-13-292</a> (R01)<br>
-			          <a href="https://grants.nih.gov/grants/guide/pa-files/PA-13-288.html">PA-13-288</a> (R21)</td>
-			        <td>September 8, 2016 </td>
-			        <td><a href="/od/srinivasan.html">Shobha Srinivasan</a><br>
-			          240-276-6938<br>
-			          <a href="mailto:sriniva2@mail.nih.gov">sriniva2@mail.nih.gov</a></td>
-		          </tr>
-			      <tr>
-			        <th scope="row">School Nutrition and Physical Activity Policies, Obesogenic Behaviors and Weight Outcomes</th>
-			        <td><a href="https://grants.nih.gov/grants/guide/pa-files/PA-13-100.html">PA-13-100</a> (R01)<br>
-			          <a href="https://grants.nih.gov/grants/guide/pa-files/PA-13-099.html">PA-13-099</a> (R03)<br>
-			          <a href="https://grants.nih.gov/grants/guide/pa-files/PA-13-098.html">PA-13-098</a> (R21)</td>
-			        <td>May 8, 2016</td>
-			        <td><a href="https://staffprofiles.cancer.gov/brp/prgmStaffProfile.do?contactId=1478&amp;bioType=stf">Tanya Agurs-Collins</a><br>
-			          240-276-6956<br>
-			          <a href="mailto:collinsta@mail.nih.gov">collinsta@mail.nih.gov</a>  </td>
-		          </tr>
-			      <tr>
-			        <th scope="row">Accelerating the Pace of Drug Abuse Research Using Existing Data</th>
-			        <td><a href="https://grants.nih.gov/grants/guide/pa-files/PAR-13-080.html">PAR-13-080</a> (R01)</td>
-			        <td>May 8, 2016</td>
-			        <td><a href="https://researchtoreality.cancer.gov/presenter/erik-augustson-phd-mph">Erik Augustson</a><br>
-			          240-276-6774 <a href="mailto:augustse@mail.nih.gov">augustse@mail.nih.gov</a></td>
-		          </tr>
-			      <tr>
-			        <th scope="row">Innovative Research Methods: Prevention and Management of Symptoms in Chronic Illness</th>
-			        <td><a href="https://grants.nih.gov/grants/guide/pa-files/PA-13-165.html">PA-13-165</a> (R01)<br>
-			          <a href="https://grants.nih.gov/grants/guide/pa-files/PA-13-166.html">PA-13-166</a> (R15)<br>
-			          <a href="https://grants.nih.gov/grants/guide/pa-files/PA-13-167.html">PA-13-167</a> (R21)</td>
-			        <td>May 8, 2016</td>
-			        <td><a href="https://staffprofiles.cancer.gov/brp/prgmStaffProfile.do?contactId=8581&amp;bioType=stf">Kara Hall</a><br>
-			          240-276-6831 <br>
-			          <a href="mailto:hallka@mail.nih.gov">hallka@mail.nih.gov</a></td>
-		          </tr>
-			      <tr>
-			        <th scope="row">Understanding and Promoting Health Literacy</th>
-			        <td><a href="https://grants.nih.gov/grants/guide/pa-files/PAR-13-130.html">PAR-13-130</a> (R01) <br>
-			          <a href="https://grants.nih.gov/grants/guide/pa-files/PAR-13-131.html">PAR-13-131</a> (R03)<br>
-			          <a href="https://grants.nih.gov/grants/guide/pa-files/PAR-13-132.html">PAR-13-132</a> (R21)</td>
-			        <td>May 8, 2016</td>
-			        <td><a href="https://staffprofiles.cancer.gov/brp/prgmStaffProfile.do?contactId=993308&amp;bioType=stf">Wen-ying Sylvia Chou</a><br>
-			          240-276-6954<br>
-			          <a href="mailto:chouws@mail.nih.gov">chouws@mail.nih.gov</a></td>
-		          </tr>
-			      <tr>
-			        <th scope="row">Examination of Survivorship Care Planning Efficacy and Impact</th>
-			        <td><a href="https://grants.nih.gov/grants/guide/pa-files/PA-12-274.html">PA-12-274</a> (R21)<br>
-			          <a href="https://grants.nih.gov/grants/guide/pa-files/PA-12-275.html">PA-12-275</a> (R01)</td>
-			        <td>January 8, 2016</td>
-			        <td>Stephen Taplin<br>
-			          240-276-6947<br>
-			          <a href="mailto:taplins@mail.nih.gov">taplins@mail.nih.gov</a></td>
-		          </tr>
-			      <tr>
-			        <th scope="row">Abuse Liability Associated with Reduced Nicotine Content Tobacco Products </th>
-			        <td><a href="https://grants.nih.gov/grants/guide/rfa-files/RFA-OD-15-006.html">RFA-OD-15-006</a> (R01)</td>
-			        <td>December 12, 2015</td>
-			        <td><a href="https://staffprofiles.cancer.gov/brp/prgmStaffProfile.do?contactId=22444270&amp;bioType=stf">Rachel Grana Mayne</a><br>
-			          240-276-5899<br>
-			          <a href="mailto:granar@mail.nih.gov">granar@mail.nih.gov </a></td>
-		          </tr>
-			      <tr>
-			        <th scope="row">Chemistry, Toxicology, and Addiction Research on Waterpipe Tobacco (R01) </th>
-			        <td><a href="https://grants.nih.gov/grants/guide/rfa-files/RFA-OD-15-005.html">RFA-OD-15-005</a> (R01)</td>
-			        <td>November 21, 2015</td>
-			        <td><a href="https://staffprofiles.cancer.gov/brp/prgmStaffProfile.do?contactId=22444270&amp;bioType=stf">Rachel Grana Mayne</a><br>
-			          240-276-5899<br>
-			          <a href="mailto:granar@mail.nih.gov">granar@mail.nih.gov </a></td>
-		          </tr>
-			      <tr>
-			        <th scope="row">NCI Exploratory/Developmental Research Grant Program (NCI Omnibus)</th>
-			        <td><a href="https://grants.nih.gov/grants/guide/pa-files/PAR-15-340.html">PAR-15-340</a> (R21)</td>
-			        <td>November 11, 2015</td>
-			        <td><a href="https://staffprofiles.cancer.gov/brp/prgmStaffProfile.do?contactId=1674&amp;bioType=stf">Gina Tesauro</a> <br>
-			          240-276-6786 <br>
-			          <a href="mailto:gina.tesauro@nih.gov">gina.tesauro@nih.gov</a></td>
-		          </tr>
-			      <tr>
-			        <th scope="row">An Electronic Platform for Cognitive Assessment in Cancer Patients</th>
-			        <td>SBIR contract funding opportunity:<br>
-			          <a href="https://sbir.cancer.gov/funding/contracts/nihnci343">NIH/NCI 343</a></td>
-			        <td>Deadline for receipt of all FY2016 contract topic proposals is <strong>October 16, 2015</strong> by 5:00 PM ET</td>
-			        <td><a href="https://staffprofiles.cancer.gov/brp/prgmStaffProfile.do?contactId=2550070&amp;bioType=stf">Todd Horowitz</a> <br>
-			          240-276-6963<br>
-			          <a href="mailto:horowitzts@mail.nih.gov">horowitzts@mail.nih.gov</a></td>
-		          </tr>
-			      <tr>
-			        <th scope="row">Smoking Cessation within the Context of Lung Cancer Screening<br>
-			          <br>
-			          <a href="/funding-foa-applicants.html#collapse-archive-1">Helpful Resources</a></th>
-			        <td><a href="https://grants.nih.gov/grants/guide/rfa-files/RFA-CA-15-011.html">RFA-CA-15-011</a> (R01)</td>
-			        <td>October 9, 2015</td>
-			        <td><a href="https://staffprofiles.cancer.gov/brp/prgmStaffProfile.do?contactId=1663667&amp;bioType=stf">Stephanie Land</a><br>
-			          240-276-6946<br>
-			          <a href="mailto:stephanie.land@nih.gov">stephanie.land@nih.gov</a></td>
-		          </tr>
-			      <tr>
-			        <th scope="row">Physical activity and weight control interventions among cancer survivors: Effects on biomarkers of prognosis and survival</th>
-			        <td><a href="https://grants.nih.gov/grants/guide/pa-files/PAR-12-228.html">PAR-12-228</a> (R01) <br>
-			          <a href="https://grants.nih.gov/grants/guide/pa-files/PAR-12-229.html">PAR-12-229</a> (R21)</td>
-			        <td>September 8, 2015 </td>
-			        <td><a href="https://staffprofiles.cancer.gov/brp/prgmStaffProfile.do?contactId=51678&amp;bioType=stf">Frank Perna</a><br>
-			          240-276-6782<br>
-			          <a href="mailto:pernafm@mail.nih.gov">pernafm@mail.nih.gov</a></td>
-		          </tr>
-			      <tr>
-			        <th scope="row">Revisions for Early-Stage Development of Informatics Technology</th>
-			        <td><a href="https://grants.nih.gov/grants/guide/pa-files/PAR-13-330.html">PAR-13-330</a> (P01)<br>
-			          <a href="https://grants.nih.gov/grants/guide/pa-files/PAR-12-286.html">PAR-12-286</a> (R01)<br>
-			          <a href="https://grants.nih.gov/grants/guide/pa-files/PAR-12-289.html">PAR-12-289</a> (U01)</td>
-			        <td>June 19, 2015</td>
-			        <td><a href="https://staffprofiles.cancer.gov/brp/prgmStaffProfile.do?contactId=1608&amp;bioType=stf">Richard Moser</a><br>
-			          240-276-6915<br>
-			          <a href="mailto:moserr@mail.nih.gov">moserr@mail.nih.gov</a></td>
-		          </tr>
-			      <tr>
-			        <th scope="row">Tobacco Control Regulatory Research</th>
-			        <td><a href="https://grants.nih.gov/grants/guide/rfa-files/RFA-OD-13-011.html">RFA-OD-13-011</a> (R01)<br>
-			          <a href="https://grants.nih.gov/grants/guide/rfa-files/RFA-OD-13-012.html">RFA-OD-13-012</a> (R03)<br>
-			          <a href="https://grants.nih.gov/grants/guide/rfa-files/RFA-OD-13-010.html">RFA-OD-13-010</a> (R21)</td>
-			        <td>January 17, 2015</td>
-			        <td><a href="https://staffprofiles.cancer.gov/brp/prgmStaffProfile.do?contactId=1663667&amp;bioType=stf">Stephanie Land</a><br>
-			          240-276-6946<br>
-			          <a href="mailto:stephanie.land@nih.gov">stephanie.land@nih.gov</a></td>
-		          </tr>
-			      <tr>
-			        <th scope="row">Innovative Health Information Technology for Broad Adoption by Healthcare Systems and Consumers (SBIR)<br>
-			          <br>
-			          BRP Archived Product Directory: <a href="https://sbir.cancer.gov/">Small Business Innovation Research (SBIR) Program</a></th>
-			        <td><a href="https://grants.nih.gov/grants/guide/pa-files/PA-12-196.html">PA-12-196 </a>(R44)</td>
-			        <td>January 8, 2015</td>
-			        <td>Bradford Hesse<br>
-			          240-276-6721 <br>
-			          <a href="mailto:hesseb@mail.nih.gov">hesseb@mail.nih.gov</a></td>
-		          </tr>
-			      <tr>
-			        <th scope="row">Mobile Health: Technology and Outcomes in Low and Middle Income Countries</th>
-			        <td><a href="https://grants.nih.gov/grants/guide/pa-files/PAR-14-028.html">PAR-14-028</a> (R21)</td>
-			        <td>February 20, 2015</td>
-			        <td>Bradford Hesse<br>
-			          240-276-6721 <br>
-			          <a href="mailto:hesseb@mail.nih.gov">hesseb@mail.nih.gov</a></td>
-		          </tr>
-			      <tr>
-			        <th scope="row">Administrative Supplements for Tobacco Regulatory Research on the Role and Impact of Flavors in Cigarettes, Cigars, E-Cigarettes and Smokeless Tobacco </th>
-			        <td><a href="https://grants.nih.gov/grants/guide/pa-files/PA-14-320.html">PA-14-320</a> (Admin Supp)</td>
-			        <td>September 30, 2014</td>
-			        <td>Mirjana Djordjevic<br>
-			          240-276-6886 <br>
-			          <a href="mailto:djordjev@mail.nih.gov">djordjev@mail.nih.gov</a></td>
-		          </tr>
-			      <tr>
-			        <th scope="row">Systems Science and Health in the Behavioral and Social Sciences</th>
-			        <td><a href="https://grants.nih.gov/grants/guide/pa-files/PAR-11-314.html">PAR-11-314</a> (R01)</td>
-			        <td>September 8, 2014</td>
-			        <td><a href="https://staffprofiles.cancer.gov/brp/prgmStaffProfile.do?contactId=8581&amp;bioType=stf">Kara Hall</a><br>
-			          240-276-6831 <br>
-			          <a href="mailto:hallka@mail.nih.gov">hallka@mail.nih.gov</a></td>
-		          </tr>
-			      <tr>
-			        <th scope="row">Systematic Reviews to Inform Research and Treatment of Multi-Morbidities</th>
-			        <td>RFP No. S14-199 Full RFP details are available at: <a href="https://ncioa.cancer.gov/oa-internet/sbo/rqmt/alllist?execution=e1s1"> https://ncioa.cancer.gov/oa-internet/sbo/rqmt/alllist?execution=e1s1</a>, under &ldquo;Current Solicitations&rdquo; </td>
-			        <td>Proposals shall be submitted by 2:00 pm EST on Wednesday, June 11, 2014 </td>
-			        <td>Jerry Suls<br>
-			          <a href="mailto:jerry.suls@nih.gov">jerry.suls@nih.gov</a> <br>
-			          For inquiries about the proposal submission process, contact: <br>
-			          Alex Konev, Leidos Biomedical Research, Inc. <br>
-			          301-228-4323<br>
-			          <a href="mailto:paige.green@nih.gov">alex.konev@nih.gov</a></td>
-		          </tr>
-			      <tr>
-			        <th scope="row">The Effect of Racial and Ethnic Discrimination/Bias on Health Care Delivery<br>
-			          <br>
-			          <a href="/brp/funding/journal-supplement.html">Journal Supplement on Racial/Ethnic Discrimination &amp; Health</a></th>
-			        <td><a href="https://grants.nih.gov/grants/guide/pa-files/PA-11-162.html">PA-11-162</a> (R01)<br>
-			          <a href="https://grants.nih.gov/grants/guide/pa-files/PA-11-163.html">PA-11-163</a> (R21)<br>
-			          <a href="https://grants.nih.gov/grants/guide/pa-files/PA-11-164.html">PA-11-164</a> (R03)</td>
-			        <td>May 8, 2014</td>
-			        <td><a href="https://healthcaredelivery.cancer.gov/about/staff/bios/chollette.html">Veronica Chollette</a><br>
-			          240-276-6969<br>
-			          <a href="mailto:cholletv@mail.nih.gov">cholletv@mail.nih.gov</a></td>
-		          </tr>
-			      <tr>
-			        <th scope="row">Seeking novel small scale pilot projects to advance the mission of the <a href="/brp/bbpsb/ncintwk-biopthwys.html">National Cancer Institute Network on Biobehavioral Pathways in Cancer</a></th>
-			        <td>RFP# <a href="/brp/bbpsb/docs/Leidos_Biomedical_Research_Inc_RFP_No_S14_075.pdf" target="_blank">S14-075</a> (PDF)</td>
-			        <td>April 02, 2014</td>
-			        <td><a href="https://staffprofiles.cancer.gov/brp/prgmStaffProfile.do?contactId=8579">Paige Green</a><br>
-			          240-276-6899 <a href="mailto:paige.green@nih.gov">paige.green@nih.gov</a> <br>
-			          <br>
-			          For inquiries about the proposal submission process, contact: <br>
-			          Alex Konev, Leidos Biomedical Research, Inc. <br>
-			          301-228-4323<br>
-			          <a href="mailto:alex.konev@nih.gov">alex.konev@nih.gov</a></td>
-		          </tr>
-			      <tr>
-			        <th scope="row">Using Social Media to Understand and Address Substance Use and Addiction</th>
-			        <td><a href="https://grants.nih.gov/grants/guide/rfa-files/RFA-CA-14-008.html">RFA-CA-14-008</a> (R01)<br>
-			          <a href="https://grants.nih.gov/grants/guide/rfa-files/RFA-CA-14-009.html">RFA-CA-14-009</a> (R21)</td>
-			        <td>March 26, 2014</td>
-			        <td><a href="https://staffprofiles.cancer.gov/brp/prgmStaffProfile.do?contactId=993308&amp;bioType=stf">Wen-ying Sylvia Chou</a><br>
-			          240-276-6954<br>
-			          <a href="mailto:chouws@mail.nih.gov">chouws@mail.nih.gov</a></td>
-		          </tr>
-			      <tr>
-			        <th scope="row">Translating Basic Behavioral and Social Science Discoveries into Interventions to Improve Health-Related Behaviors – Trans-NIH PA</th>
-			        <td><a href="https://grants.nih.gov/grants/guide/pa-files/PA-11-063.html">PA-11-063</a> (R01)</td>
-			        <td>January 8, 2014</td>
-			        <td><a href="https://staffprofiles.cancer.gov/brp/prgmStaffProfile.do?contactId=51678&amp;bioType=stf">Frank Perna</a><br>
-			          240-276-6782<br>
-			          <a href="mailto:pernafm@mail.nih.gov">pernafm@mail.nih.gov</a></td>
-		          </tr>
-			      <tr>
-			        <th scope="row">Behavioral Interventions to Address Multiple Chronic Health Conditions in Primary Care</th>
-			        <td><a href="https://grants.nih.gov/grants/guide/pa-files/PA-12-024.html">PA-12-024</a> (R01)</td>
-			        <td>January 8, 2014</td>
-			        <td><a href="https://healthcaredelivery.cancer.gov/about/staff/bios/chollette.html">Veronica Chollette</a><br>
-			          240-276-6969<br>
-			          <a href="mailto:cholletv@mail.nih.gov">cholletv@mail.nih.gov</a></td>
-		          </tr>
-			      <tr>
-			        <th scope="row">Center for Evaluation and Coordination of Training and Research in Tobacco Regulatory Science</th>
-			        <td><a href="https://grants.nih.gov/grants/guide/rfa-files/RFA-OD-13-117.html">RFA-OD-13-117</a> (U54) </td>
-			        <td>December 11, 2013</td>
-			        <td>Glen Morgan<br>
-			          240-276-6787 <br>
-			          <a href="mailto:gmorgan@nih.gov">gmorgan@nih.gov</a></td>
-		          </tr>
-			      <tr>
-			        <th scope="row">NIH Health Care Systems Research Collaboratory - Demonstration Projects for Pragmatic Clinical Trials Focusing on Multiple Chronic Conditions<br>
-			          <a href="https://grants.nih.gov/grants/guide/notice-files/NOT-RM-13-024.html">Technical Assistance Videocast</a></th>
-			        <td><a href="https://grants.nih.gov/grants/guide/rfa-files/RFA-RM-13-012.html">RFA-RM-13-012</a> (UH2/UH3)</td>
-			        <td>December 3, 2013</td>
-			        <td>Stephen Taplin<br>
-			          240-276-6947<br>
-			          <a href="mailto:taplins@mail.nih.gov">taplins@mail.nih.gov</a></td>
-		          </tr>
-			      <tr>
-			        <th scope="row">NCI Small Grants Program for Cancer Research (NCI Omnibus)<br>
-			          <br>
-			          <a href="/brp/funding/docs/2012_Evaluation-acc.pdf" target="_blank">Small Grants Program for Behavioral Research in Cancer Control Evaluation (2011)</a> (PDF)<br>
-			          <a href="/brp/funding/docs/2005_Evaluation-acc.pdf" target="_blank">Small Grants Program for Behavioral Research in Cancer Control Evaluation (2005)</a> (PDF)</th>
-		            <td><a href="https://grants.nih.gov/grants/guide/pa-files/PAR-12-144.html">PAR-12-144</a> (R03) </td>
-			        <td>November 19, 2013 </td>
-			        <td><a href="https://staffprofiles.cancer.gov/brp/prgmStaffProfile.do?contactId=1674&amp;bioType=stf">Gina Tesauro</a> <br>
-			          240-276-6786 <br>
-			          <a href="mailto:gina.tesauro@nih.gov">gina.tesauro@nih.gov</a></td>
-		          </tr>
-			      <tr>
-			        <th scope="row">Research on the Role of Epigenetics in Social, Behavioral, Environmental and Biological Relationships, throughout the Life-Span and across Generations </th>
-			        <td><a href="https://grants.nih.gov/grants/guide/rfa-files/RFA-TW-13-002.html">RFA-TW-13-002</a> (R21)</td>
-			        <td>November 14, 2013</td>
-			        <td><a href="https://staffprofiles.cancer.gov/brp/prgmStaffProfile.do?contactId=1478&amp;bioType=stf">Tanya Agurs-Collins</a><br>
-			          240-276-6956<br>
-			          <a href="mailto:collinsta@mail.nih.gov">collinsta@mail.nih.gov</a></td>
-		          </tr>
-		        </tbody>
-		      </table>
+			<li><a href="https://maps.cancer.gov/overview/index.jsp">BRP Grant Funding Trends</a></li>
+			<li><a href="https://maps.cancer.gov/overview/map/initiative/index.jsp">Previously Funded Request of Applications (RFAs)</a></li>
+			<li><a href="https://maps.cancer.gov/overview/map/initiative/paindex.jsp">Previously Funded Program Announcements (PA/PARs)</a></li>
+  		</ul>	
+		<hr> <!-- add HR tag when there is another section above it -->
+			
+            <button tabindex="0" id="btnCopy" class="buttons-email buttons-html5 btn btn-default btn-inline" type="button"><span>Email Results <span class="email-icon"></span></span></button>
+            <label for="txtInputDisabled" class="sr-only">URL that can copied be shared</label>
+            <input type="text" id="txtInputDisabled" disabled="disabled" value="URL that can copied be shared" class="sr-only" />
+			<div class="row">
+				<div class="col-sm-8">
+					<h2 class="first">Past Funding Opportunities</h2>
+				</div>
+			  <div class="col-sm-4">
+					<p><a href="/brp/funding/funding-opportunities.html">View current opportunities</a></p>
+				</div>
 			</div>
-		<!-- InstanceEndEditable -->
-		</div> <!-- /.col-md-9 -->
-		<div class="col-md-3 col-md-pull-9">
-			<div class="sidebar-nav">
-				<h2 class="hidden-xs hidden-sm">Section Menu</h2>
-				<div class="navbar-header">
-					<button class="navbar-toggle collapsed" type="button" data-toggle="collapse" data-target="#section-menu-responsive" aria-controls="section-menu-responsive" aria-expanded="false">
-						<div class="nav-hamburger">
-							<span class="sr-only">Toggle Section Menu</span>
-							<span class="glyphicon glyphicon-th"></span>
-						</div> <!-- /.nav-hamburger -->
-						<div class="nav-menu-title">Section Menu</div>
-					</button>
-				</div> <!-- /.navbar-header -->
-				<nav id="section-menu-responsive" class="navbar-collapse collapse" role="navigation" aria-expanded="false">
-					<ul class="nav">
-                    <!-- InstanceBeginEditable name="Sidebar" -->
-						<li><a href="/brp/funding/funding-opportunities.html">Apply for Behavioral Grants</a></li>
-						<li><a href="/brp/funding/sample-application.html">Sample Grant Applications</a></li>
-						<li><a href="https://staffprofiles.cancer.gov/brp/granteeList.do">Featured Grantees</a></li>
-						<li><a href="/funding-foa-applicants.html">Webinars</a></li>
-                        <!-- InstanceEndEditable -->
-					</ul>
-				</nav>
-			</div>
-            <div class="spacer-20"></div>
-			<!-- InstanceBeginEditable name="SpecialLeftHandBox" -->
-                <!-- InstanceEndEditable --> <!-- /.sidebar -->
-		</div> <!-- /.col-md-3 -->
-	</div> <!-- /.row -->
-</div> <!-- /.container -->
-<!-- end intro area -->		
+			
+			<table id="fundingopps" class="table table-striped table-bordered table-condensed blue-header" summary="Funding Opportunities">
+			  <thead>
+			    <tr>
+			      <th scope="col">Title</th>
+			      <th scope="col">Announcement&nbsp;# / Mechanism(s)</th>
+			      <th scope="col">Activity Code</th>
+			      <th scope="col">Clinical Research</th>
+			      <th scope="col">Expiration Date</th>
+			      <th scope="col">Program Contact</th>
+			      <th scope="col">Funding Type</th>
+			      <th scope="col">Activity Type</th>
+			      <th scope="col">Research Categories</th>
+			      <th scope="col">Type of Research</th>
+		        </tr>
+		      </thead>
+			  <tbody>
+			    <tr>
+			      <th scope="row">U.S. Tobacco Control Policies to Reduce Health Disparities<br>
+		          <br>
+		          <a href="/funding-foa-applicants.html#collapse-10">Helpful Resources</a></th>
+			      <td><a href="https://grants.nih.gov/grants/guide/pa-files/PAR-18-675.html">PAR-18-675</a></td>
+			      <td>R01</td>
+			      <td>Clinical Trial Optional</td>
+			      <td>June 16, 2020</td>
+			      <td><a href="https://staffprofiles.cancer.gov/brp/prgmStaffProfile.do?contactId=1694&bioType=flw">Bob Vollinger</a><br>
+			        240-276-6919<br>
+			        <a href="mailto:Bob.Vollinger@nih.gov">Bob.Vollinger@nih.gov</a><br>
+			        <br>
+			        <a href="https://staffprofiles.cancer.gov/brp/prgmStaffProfile.do?contactId=1462212&bioType=flw">Annette Kaufman</a><br>
+			        240-276-6706<br>
+			        <a href="mailto:kaufmana@mail.nih.gov">kaufmana@mail.nih.gov</a></td>
+			      <td>Program Announcements</td>
+			      <td>Research Project</td>
+			      <td>Tobacco Control Research, Implementation Science</td>
+			      <td>Clinical Trials</td>
+		        </tr>
+			    <tr>
+			      <th scope="row">U.S. Tobacco Control Policies to Reduce Health Disparities</th>
+			      <td><a href="https://grants.nih.gov/grants/guide/pa-files/PAR-18-674.html">PAR-18-674</a></td>
+			      <td>R21</td>
+			      <td>Clinical Trial Optional</td>
+			      <td>June 16, 2020</td>
+			      <td><a href="https://staffprofiles.cancer.gov/brp/prgmStaffProfile.do?contactId=1694&bioType=flw">Bob Vollinger</a><br>
+			        240-276-6919<br>
+			        <a href="mailto:Bob.Vollinger@nih.gov">Bob.Vollinger@nih.gov</a><br>
+			        <br>
+			        <a href="https://staffprofiles.cancer.gov/brp/prgmStaffProfile.do?contactId=1462212&bioType=flw">Annette Kaufman</a><br>
+			        240-276-6706<br>
+			        <a href="mailto:kaufmana@mail.nih.gov">kaufmana@mail.nih.gov</a></td>
+			      <td>Program Announcements</td>
+			      <td>Exploratory/Developmental</td>
+			      <td>Tobacco Control Research, Implementation Science</td>
+			      <td>Clinical Trials</td>
+		        </tr>
+				  <tr>
+					<th scope="row">Tobacco Use and HIV in Low and Middle Income Countries<br>
+					  <br>
+					  <a href="/funding-foa-applicants.html#collapse-5">Helpful Resources</a></th>
+					<td><a href="https://grants.nih.gov/grants/guide/pa-files/PAR-18-023.html" target="_blank">PAR-18-023</a></td>
+					<td>R01</td>
+					<td>Clinical Trial Optional</td>
+					<td>January 8, 2020</td>
+					<td><a href="https://staffprofiles.cancer.gov/brp/prgmStaffProfile.do?contactId=1626&bioType=stf">Mark Parascandola</a><br>
+					  240-276-6871<br>
+					  <a href="mailto:paramark@mail.nih.gov">paramark@mail.nih.gov</a></td>
+					<td>Program Announcements</td>
+					<td>Research Project</td>
+					<td>Tobacco Control Research</td>
+					<td>Clinical Trials</td>
+				  </tr>
+				  <tr>
+					<th scope="row">Tobacco Use and HIV in Low and Middle Income Countries<br>
+					  <br>
+					  <a href="/funding-foa-applicants.html#collapse-5">Helpful Resources</a></th>
+					<td><a href="https://grants.nih.gov/grants/guide/pa-files/PAR-18-022.html" target="_blank">PAR-18-022</a></td>
+					<td>R21</td>
+					<td>Clinical Trial Optional</td>
+					<td>January 8, 2020</td>
+					<td><a href="https://staffprofiles.cancer.gov/brp/prgmStaffProfile.do?contactId=1626&bioType=stf">Mark Parascandola</a><br>
+					  240-276-6871<br>
+					  <a href="mailto:paramark@mail.nih.gov">paramark@mail.nih.gov</a></td>
+					<td>Program Announcements</td>
+					<td>Exploratory/Developmental</td>
+					<td>Tobacco Control Research</td>
+					<td>Clinical Trials</td>
+				  </tr>
+			    <tr>
+			      <th scope="row">Notice of Special Interest (NOSI): Intersection of Tobacco and Alcohol Use Behaviors for Cancer Control</th>
+			      <td><a href="https://grants.nih.gov/grants/guide/notice-files/NOT-CA-20-039.html">NOT-CA-20-039</a></td>
+			      <td></td>
+			      <td></td>
+			      <td>May 16, 2020</td>
+			      <td><a href="https://staffprofiles.cancer.gov/brp/prgmStaffProfile.do?contactId=27023842&amp;bioType=stf">Carolyn Reyes-Guzman</a><br>
+			        240-276-7244<br>
+			        <a href="mailto:carolyn.reyes-guzman@nih.gov">carolyn.reyes-guzman@nih.gov</a></td>
+			      <td>Notice</td>
+			      <td></td>
+			      <td>Health Behaviors Research, Tobacco Control Research</td>
+			      <td></td>
+		        </tr>
+			    <tr>
+			      <th scope="row">Notice of Special Interest (NOSI): Existing Body Composition Data to Understand Treatment-Related Outcomes in Clinical Trials and Observational Studies</th>
+			      <td><a href="https://grants.nih.gov/grants/guide/notice-files/NOT-CA-20-036.html">NOT-CA-20-036</a></td>
+			      <td></td>
+			      <td></td>
+			      <td>May 16, 2020</td>
+			      <td><a href="https://epi.grants.cancer.gov/staff/watters.html">Joanne Elena</a><br>
+			        240-276-6818<br>
+			        <a href="mailto:joanne.elena@nih.gov">joanne.elena@nih.gov</a></td>
+			      <td>Notice</td>
+			      <td></td>
+			      <td>Cancer Survivorship</td>
+			      <td></td>
+		        </tr>
+			    <tr>
+			      <th scope="row">Notice of Special Interest (NOSI): Administrative Supplements for Understanding Aging Trajectories Among Cancer Survivors</th>
+			      <td><a href="https://grants.nih.gov/grants/guide/notice-files/NOT-CA-20-037.html">NOT-CA-20-037</a></td>
+			      <td></td>
+			      <td></td>
+			      <td>May 16, 2020</td>
+			      <td><a href="https://staffprofiles.cancer.gov/brp/prgmStaffProfile.do?contactId=8579&amp;bioType=stf">Paige Green</a><br>
+			        240-276-6899<br>
+			        <a href="mailto:paige.green@nih.gov">paige.green@nih.gov</a> <br>
+			        <br>
+			        <a href="https://epi.grants.cancer.gov/staff/gallicchio.html">Lisa Gallicchio</a><br>
+			        240-276-5741<br>
+			        <a href="mailto:Lisa.gallicchio@nih.gov">Lisa.gallicchio@nih.gov</a></td>
+			      <td>Notice</td>
+			      <td></td>
+			      <td>Cancer Survivorship, Basic Biobehavioral and Psychological Sciences</td>
+			      <td></td>
+		        </tr>
+			    <tr>
+			      <th scope="row">Notice of Special Interest (NOSI): Administrative Supplements for Development of Risk-Stratified Cancer Survivorship Care Algorithms </th>
+			      <td><a href="https://grants.nih.gov/grants/guide/notice-files/NOT-CA-20-038.html">NOT-CA-20-038</a></td>
+			      <td></td>
+			      <td></td>
+			      <td>May 16, 2020</td>
+			      <td><a href="https://healthcaredelivery.cancer.gov/about/staff/bios/mollica.html">Michelle Mollica</a><br>
+			        240-276-7621<br>
+			        <a href="mailto:michelle.mollica@nih.gov">michelle.mollica@nih.gov</a><br>
+			        <br>
+			        <a href="https://epi.grants.cancer.gov/staff/gallicchio.html">Lisa  Gallicchio</a><br>
+			        240-276-5741<br>
+			        <a href="mailto:Lisa.gallicchio@nih.gov">Lisa.gallicchio@nih.gov</a></td>
+			      <td>Notice</td>
+			      <td></td>
+			      <td>Cancer Survivorship</td>
+			      <td></td>
+		        </tr>
+			    <tr>
+			      <th scope="row">Notice of Special Interest (NOSI): Availability of Administrative Supplements for Research in Geographically Underserved Areas</th>
+			      <td><a href="https://grants.nih.gov/grants/guide/notice-files/NOT-CA-20-035.html">NOT-CA-20-035</a></td>
+			      <td></td>
+			      <td></td>
+			      <td>May 16, 2020</td>
+			      <td>Amy Kennedy<br>
+			        240-781-3335<br>
+			        <a href="mailto:amy.kennedy@nih.gov">amy.kennedy@nih.gov</a></td>
+			      <td>Notice</td>
+			      <td></td>
+			      <td>Health Disparities</td>
+			      <td></td>
+		        </tr>
+			    <tr>
+			      <th scope="row">Notice of Special Interest (NOSI): Administrative Supplement Opportunity to Stimulate or Strengthen Global Cancer Health Disparities Research </th>
+			      <td><a href="https://grants.nih.gov/grants/guide/notice-files/NOT-CA-20-032.html">NOT-CA-20-032</a></td>
+			      <td></td>
+			      <td></td>
+			      <td>May 16, 2020</td>
+			      <td>James R. Alaro<br>
+			        240-276-6429<br>
+			        <a href="mailto:james.alaro@nih.gov">james.alaro@nih.gov</a></td>
+			      <td>Notice</td>
+			      <td></td>
+			      <td>Health Disparities</td>
+			      <td></td>
+		        </tr>
+			    <tr>
+			      <th scope="row">Nutrition and Alcohol-Related Health Outcomes</th>
+			      <td><a href="https://grants.nih.gov/grants/guide/pa-files/pa-17-211.html">PA-17-211</a></td>
+			      <td>R01</td>
+			      <td></td>
+			      <td>May 8, 2020</td>
+			      <td><a href="https://staffprofiles.cancer.gov/brp/prgmStaffProfile.do?contactId=1478&bioType=stf">Tanya  Agurs-Collins</a><br>
+			        240-276-6956<br>
+			        <a href="mailto:collinsta@mail.nih.gov">collinsta@mail.nih.gov</a></td>
+			      <td>Program Announcements</td>
+			      <td>Research Project</td>
+			      <td>Health Behaviors Research</td>
+			      <td></td>
+		        </tr>
+			    <tr>
+			      <th scope="row">Notice of Special Interest (NOSI): Nutrition and Alcohol-Related Health Outcomes</th>
+			      <td><a href="https://grants.nih.gov/grants/guide/notice-files/NOT-CA-19-012.html">NOT-CA-19-012</a></td>
+			      <td></td>
+			      <td></td>
+			      <td>May 8, 2020</td>
+			      <td><a href="https://staffprofiles.cancer.gov/brp/prgmStaffProfile.do?contactId=1478&bioType=stf">Tanya  Agurs-Collins</a><br>
+			        240-276-6956<br>
+			        <a href="mailto:collinsta@mail.nih.gov">collinsta@mail.nih.gov</a></td>
+			      <td>Notice</td>
+			      <td></td>
+			      <td>Health Behaviors Research</td>
+			      <td></td>
+		        </tr>
+			    <tr>
+			      <th scope="row">Nutrition and Alcohol-Related Health Outcomes </th>
+			      <td><a href="https://grants.nih.gov/grants/guide/pa-files/pa-17-211.html">PA-17-211</a></td>
+			      <td>R01</td>
+			      <td></td>
+			      <td>May 8, 2020</td>
+			      <td><a href="https://staffprofiles.cancer.gov/brp/prgmStaffProfile.do?contactId=1478&bioType=stf">Tanya Agurs-Collins</a><br>
+			        240-276-6956<br>
+			        <a href="mailto:collinsta@mail.nih.gov">collinsta@mail.nih.gov</a></td>
+			      <td>Program Announcements</td>
+			      <td>Research Project</td>
+			      <td></td>
+			      <td></td>
+		        </tr>
+			    <tr>
+			      <th scope="row">Integrative Research on Polysubstance Abuse and Addiction</th>
+			      <td><a href="https://grants.nih.gov/grants/guide/pa-files/PAR-18-084.html" target="_blank">PAR-18-084</a></td>
+			      <td>R21/R33</td>
+			      <td>Clinical Trial Optional</td>
+			      <td>January 8, 2020</td>
+			      <td><a href="https://staffprofiles.cancer.gov/brp/prgmStaffProfile.do?contactId=1458&name=Michele-Bloch&bioType=stf">Michele Bloch</a><br>
+			        240-276-6878<br>
+			        <a href="mailto:blochm@mail.nih.gov">blochm@mail.nih.gov</a></td>
+			      <td>Program Announcements</td>
+			      <td>Exploratory/Developmental/R33</td>
+			      <td></td>
+			      <td>Clinical Trials</td>
+		        </tr>
+			    <tr>
+			      <th scope="row">Methods and Measurement in Research with Sexual and Gender Minority (SGM) Populations</th>
+			      <td><a href="https://grants.nih.gov/grants/guide/rfa-files/RFA-MD-20-005.html" target="_blank">RFA-MD-20-005</a></td>
+			      <td>R21</td>
+			      <td>Clinical Trials Not Allowed</td>
+			      <td>March 14, 2020</td>
+			      <td><a href="https://staffprofiles.cancer.gov/brp/prgmStaffProfile.do?contactId=1608&name=Richard-Moser&bioType=stf">Richard  Moser</a><br>
+			        240-276-6915<br>
+			        <a href="mailto:moserr@mail.nih.gov">moserr@mail.nih.gov</a></td>
+			      <td>RFA</td>
+			      <td>Exploratory/Developmental</td>
+			      <td></td>
+			      <td>Not Clinical Trials</td>
+		        </tr>
+			    <tr>
+			      <th scope="row">Notice of Special Interest: Alzheimer’s-focused Administrative Supplements for NIH/NCI Grants that are not focused on Alzheimer’s Disease</th>
+			      <td><a href="https://grants.nih.gov/grants/guide/notice-files/NOT-CA-20-019.html">NOT-AG-20-019</a></td>
+			      <td></td>
+			      <td></td>
+			      <td>March 7, 2020</td>
+			      <td><a href="https://staffprofiles.cancer.gov/brp/prgmStaffProfile.do?contactId=8579&bioType=stf">Paige Green</a><br>
+			        240-276-6899<br>
+			        <a href="mailto:paige.green@nih.gov">paige.green@nih.gov</a></td>
+			      <td>Notice</td>
+			      <td></td>
+			      <td></td>
+			      <td></td>
+		        </tr>
+			    <tr>
+			      <th scope="row">Availability of Administrative and Revision Supplements to Expand Vaping Research and Understand EVALI (Notice of Special Interest) </th>
+			      <td><a href="https://grants.nih.gov/grants/guide/notice-files/NOT-HL-19-724.html">NOT-HL-19-724</a></td>
+			      <td></td>
+			      <td></td>
+			      <td>February 28, 2020</td>
+			      <td><a href="https://staffprofiles.cancer.gov/brp/prgmStaffProfile.do?contactId=22444270&name=Rachel-Grana%20Mayne&bioType=stf">Rachel Grana Mayne</a><br>
+			        240-276-5899<br>
+			        <a href="mailto:rachel.mayne@nih.gov">rachel.mayne@nih.gov</a></td>
+			      <td>Notice</td>
+			      <td></td>
+			      <td></td>
+			      <td></td>
+		        </tr>
+			    <tr>
+			      <th scope="row">Communication and Decision Making for Individuals with Inherited Cancer Syndromes</th>
+			      <td><a href="https://grants.nih.gov/grants/guide/rfa-files/RFA-CA-20-006.html" target="_blank">RFA-CA-20-006</a></td>
+			      <td>U01</td>
+			      <td>Clinical Trial Optional</td>
+			      <td>January 22, 2020</td>
+			      <td><a href="https://staffprofiles.cancer.gov/brp/prgmStaffProfile.do?contactId=1618&name=Wendy-Nelson&bioType=stf">Wendy Nelson</a><br>
+			        240-276-6971<br>
+			        <a href="mailto:wendy.nelson@nih.gov">wendy.nelson@nih.gov</a></td>
+			      <td>RFA</td>
+			      <td>Cooperative Agreement</td>
+			      <td></td>
+			      <td>Clinical Trials</td>
+		        </tr>
+			    <tr>
+			      <th scope="row">Oral Anticancer Agents: Utilization, Adherence, and  Health Care Delivery<br>
+			        <br>
+			        <a href="/funding-foa-applicants.html#collapse-8">Helpful Resources</a></th>
+			      <td><a href="https://grants.nih.gov/grants/guide/pa-files/PA-18-004.html" target="_blank">PA-18-004</a></td>
+			      <td>R01</td>
+			      <td>Clinical Trial Optional</td>
+			      <td>January 8, 2020</td>
+			      <td><a href="https://staffprofiles.cancer.gov/brp/prgmStaffProfile.do?contactId=1618">Wendy Nelson</a><br>
+			        240-276-6971<br>
+			        <a href="mailto:nelsonw@mail.nih.gov">nelsonw@mail.nih.gov</a></td>
+			      <td>Program Announcements</td>
+			      <td>Research Project</td>
+			      <td></td>
+			      <td>Clinical Trials</td>
+		        </tr>
+			    <tr>
+			      <th scope="row">Oral Anticancer Agents: Utilization, Adherence, and  Health Care Delivery<br>
+			        <br>
+			        <a href="/funding-foa-applicants.html#collapse-8">Helpful Resources</a></th>
+			      <td><a href="https://grants.nih.gov/grants/guide/pa-files/PA-18-014.html" target="_blank">PA-18-014</a></td>
+			      <td>R21</td>
+			      <td>Clinical Trial Optional</td>
+			      <td>January 8, 2020</td>
+			      <td><a href="https://staffprofiles.cancer.gov/brp/prgmStaffProfile.do?contactId=1618">Wendy Nelson</a><br>
+			        240-276-6971<br>
+			        <a href="mailto:nelsonw@mail.nih.gov">nelsonw@mail.nih.gov</a></td>
+			      <td>Program Announcements</td>
+			      <td>Exploratory/Developmental</td>
+			      <td></td>
+			      <td>Clinical Trials</td>
+		        </tr>
+			    <tr>
+			      <th scope="row">Neural Regulation of Cancer</th>
+			      <td><a href="https://grants.nih.gov/grants/guide/pa-files/PAR-16-245.html">PAR-16-245</a></td>
+			      <td>R01</td>
+			      <td></td>
+			      <td>June 28, 2019</td>
+			      <td><a href="https://staffprofiles.cancer.gov/brp/prgmStaffProfile.do?contactId=8579&bioType=stf">Paige Green</a> <br>
+			        240-276-6899<br>
+			        <a href="mailto:paige.green@nih.gov">paige.green@nih.gov</a></td>
+			      <td>Program Announcements</td>
+			      <td>Research Project</td>
+			      <td>Basic Biobehavioral and Psychological Sciences</td>
+			      <td></td>
+		        </tr>
+			    <tr>
+			      <th scope="row">Neural Regulation of Cancer</th>
+			      <td><a href="https://grants.nih.gov/grants/guide/pa-files/PAR-16-246.html">PAR-16-246</a></td>
+			      <td>R21</td>
+			      <td></td>
+			      <td>June 28, 2019</td>
+			      <td><a href="https://staffprofiles.cancer.gov/brp/prgmStaffProfile.do?contactId=8579&bioType=stf">Paige Green</a> <br>
+			        240-276-6899<br>
+			        <a href="mailto:paige.green@nih.gov">paige.green@nih.gov</a></td>
+			      <td>Program Announcements</td>
+			      <td>Exploratory/Developmental</td>
+			      <td>Basic Biobehavioral and Psychological Sciences</td>
+			      <td></td>
+		        </tr>
+			    <tr>
+			      <th scope="row">Cancer-related Behavioral Research through Integrating Existing Data</th>
+			      <td><a href="https://grants.nih.gov/grants/guide/pa-files/PAR-16-256.html">PAR-16-256</a></td>
+			      <td>R01</td>
+			      <td></td>
+			      <td>June 8, 2019</td>
+			      <td><a href="https://staffprofiles.cancer.gov/brp/prgmStaffProfile.do?contactId=1608&bioType=stf">Richard Moser</a><br>
+			        240-276-6915<br>
+			        <a href="mailto:moserr@mail.nih.gov">moserr@mail.nih.gov</a></td>
+			      <td>Program Announcements</td>
+			      <td>Research Project</td>
+			      <td>Science of Research and Technology</td>
+			      <td></td>
+		        </tr>
+			    <tr>
+			      <th scope="row">Cancer-related Behavioral Research through Integrating Existing Data</th>
+			      <td><a href="http://grants.nih.gov/grants/guide/pa-files/PAR-16-255.html">PAR-16-255</a></td>
+			      <td>R21</td>
+			      <td></td>
+			      <td>June 8, 2019</td>
+			      <td><a href="https://staffprofiles.cancer.gov/brp/prgmStaffProfile.do?contactId=1608&bioType=stf">Richard Moser</a><br>
+			        240-276-6915<br>
+			        <a href="mailto:moserr@mail.nih.gov">moserr@mail.nih.gov</a></td>
+			      <td>Program Announcements</td>
+			      <td>Exploratory/Developmental</td>
+			      <td>Science of Research and Technology</td>
+			      <td></td>
+		        </tr>
+			    <tr>
+			      <th scope="row">Accelerating the Pace of Drug Abuse Research Using Existing Data</th>
+			      <td><a href="https://grants.nih.gov/grants/guide/pa-files/PAR-18-062.html">PAR-18-062</a></td>
+			      <td>R01</td>
+			      <td>Clinical Trial Optional</td>
+			      <td>May 8, 2019</td>
+			      <td><a href="https://staffprofiles.cancer.gov/brp/prgmStaffProfile.do?contactId=1540&bioType=stf">Anne Hartman</a> <br>
+			        240-276-6702<br>
+			        <a href="mailto:hartmana@mail.nih.gov">hartmana@mail.nih.gov</a></td>
+			      <td>Program Announcements</td>
+			      <td>Research Project</td>
+			      <td></td>
+			      <td>Clinical Trials</td>
+		        </tr>
+			    <tr>
+			      <th scope="row">Stimulating Innovations in Behavioral Intervention Research for Cancer Prevention and Control<br>
+			        <br>
+			        <a href="/funding-foa-applicants.html#collapse-3">Helpful Resources<br>
+			          <br>
+		            </a><a href="https://maps.cancer.gov/overview/DCCPSGrants/grantlist.jsp?method=dynamic&program=brp&status=active&rfaNums=PAR16-278,PAR18-018">View Active BRP Grants</a></th>
+			      <td><a href="https://grants.nih.gov/grants/guide/pa-files/PAR-18-018.html">PAR-18-018</a></td>
+			      <td>R21</td>
+			      <td>Clinical Trial Optional</td>
+			      <td>May 8, 2019</td>
+			      <td><a href="https://staffprofiles.cancer.gov/brp/prgmStaffProfile.do?contactId=1478&amp;bioType=stf">Tanya Agurs-Collins</a><br>
+			        240-276-6956<br>
+			        <a href="mailto:collinsta@mail.nih.gov">collinsta@mail.nih.gov</a></td>
+			      <td>Program Announcements</td>
+			      <td>Exploratory/Developmental</td>
+			      <td></td>
+			      <td>Clinical Trials</td>
+		        </tr>
+			    <tr>
+			      <th scope="row">Obesity Policy Evaluation Research</th>
+			      <td><a href="https://grants.nih.gov/grants/guide/pa-files/PA-16-165.html">PA-16-165</a></td>
+			      <td>R01</td>
+			      <td></td>
+			      <td>May 8, 2019</td>
+			      <td><a href="https://staffprofiles.cancer.gov/brp/prgmStaffProfile.do?contactId=1456&amp;bioType=stf">David Berrigan</a><br>
+			        240-276-6752<br>
+			        <a href="mailto:berrigad@mail.nih.gov">berrigad@mail.nih.gov</a></td>
+			      <td>Program Announcements</td>
+			      <td>Research Project</td>
+			      <td>Health Behaviors Research</td>
+			      <td></td>
+		        </tr>
+			    <tr>
+			      <th scope="row">Population Health Interventions: Integrating Individual and Group Level Evidence</th>
+			      <td><a href="https://grants.nih.gov/grants/guide/pa-files/PA-18-385.html">PA-18-385</a></td>
+			      <td>R01</td>
+			      <td>Clinical Trial Optional</td>
+			      <td>May 8, 2019</td>
+			      <td><a href="https://staffprofiles.cancer.gov/brp/prgmStaffProfile.do?contactId=1456&amp;bioType=stf">David Berrigan</a><br>
+			        240-276-6752 <a href="mailto:berrigad@mail.nih.gov">berrigad@mail.nih.gov</a></td>
+			      <td>Program Announcements</td>
+			      <td>Research Project</td>
+			      <td></td>
+			      <td>Clinical Trials</td>
+		        </tr>
+			    <tr>
+			      <th scope="row">Population Health Interventions: Integrating Individual and Group Level Evidence</th>
+			      <td><a href="https://grants.nih.gov/grants/guide/pa-files/PA-18-407.html">PA-18-407</a></td>
+			      <td>R21</td>
+			      <td>Clinical Trial Optional</td>
+			      <td>May 8, 2019</td>
+			      <td><a href="https://staffprofiles.cancer.gov/brp/prgmStaffProfile.do?contactId=1456&amp;bioType=stf">David Berrigan</a><br>
+			        240-276-6752 <a href="mailto:berrigad@mail.nih.gov">berrigad@mail.nih.gov</a></td>
+			      <td>Program Announcements</td>
+			      <td>Exploratory/Developmental</td>
+			      <td></td>
+			      <td>Clinical Trials</td>
+		        </tr>
+			    <tr>
+			      <th scope="row">Population Health Interventions: Integrating Individual and Group Level Evidence</th>
+			      <td><a href="https://grants.nih.gov/grants/guide/pa-files/PA-18-356.html">PA-18-356</a></td>
+			      <td>R01</td>
+			      <td>Clinical Trials Not Allowed</td>
+			      <td>May 8, 2019</td>
+			      <td><a href="https://staffprofiles.cancer.gov/brp/prgmStaffProfile.do?contactId=1456&amp;bioType=stf">David Berrigan</a><br>
+			        240-276-6752 <a href="mailto:berrigad@mail.nih.gov">berrigad@mail.nih.gov</a></td>
+			      <td>Program Announcements</td>
+			      <td>Research Project</td>
+			      <td></td>
+			      <td>Not Clinical Trials</td>
+		        </tr>
+			    <tr>
+			      <th scope="row">Population Health Interventions: Integrating Individual and Group Level Evidence</th>
+			      <td><a href="https://grants.nih.gov/grants/guide/pa-files/PA-18-406.html">PA-18-406</a></td>
+			      <td>R21</td>
+			      <td>Clinical Trials Not Allowed</td>
+			      <td>May 8, 2019</td>
+			      <td><a href="https://staffprofiles.cancer.gov/brp/prgmStaffProfile.do?contactId=1456&amp;bioType=stf">David Berrigan</a><br>
+			        240-276-6752 <a href="mailto:berrigad@mail.nih.gov">berrigad@mail.nih.gov</a></td>
+			      <td>Program Announcements</td>
+			      <td>Exploratory/Developmental</td>
+			      <td></td>
+			      <td>Not Clinical Trials</td>
+		        </tr>
+			    <tr>
+			      <th scope="row">Predicting Behavioral Responses to Population-Level Cancer Control Strategies <br>
+			        <br>
+			        <a href="/funding-foa-applicants.html#collapse-3">Helpful Resources</a><br>
+			        <br>
+			        <a href="https://maps.cancer.gov/overview/DCCPSGrants/grantlist.jsp?method=dynamic&program=brp&status=active&rfaNums=PAR16-257,PAR18-024">View Active BRP Grants</a></th>
+			      <td><a href="https://grants.nih.gov/grants/guide/pa-files/PAR-18-024.html">PAR-18-024</a></td>
+			      <td>R21</td>
+			      <td>Clinical Trial Optional</td>
+			      <td>April 12, 2019</td>
+			      <td><a href="https://staffprofiles.cancer.gov/brp/prgmStaffProfile.do?contactId=1439021&amp;bioType=stf">Rebecca Ferrer</a><br>
+			        301-852-1167 <br>
+			        <a href="mailto:rebecca.ferrer@nih.gov">rebecca.ferrer@nih.gov</a></td>
+			      <td>Program Announcements</td>
+			      <td>Exploratory/Developmental</td>
+			      <td></td>
+			      <td>Clinical Trials</td>
+		        </tr>
+			    <tr>
+			      <th scope="row">Leveraging Cognitive Neuroscience Research to Improve Assessment of Cancer Treatment Related Cognitive Impairment<br>
+			        <br>
+			        <a href="/funding-foa-applicants.html#collapse-4">Helpful Resources</a><br>
+			        <br>
+			        <a href="https://maps.cancer.gov/overview/DCCPSGrants/grantlist.jsp?method=dynamic&program=brp&status=active&rfaNums=PAR16-212,PAR16-213,PAR18-605,PAR18-606">View Active BRP Grants</a></th>
+			      <td><a href="https://grants.nih.gov/grants/guide/pa-files/PAR-18-605.html">PAR-18-605</a></td>
+			      <td>R01</td>
+			      <td>Clinical Trial Optional</td>
+			      <td>April 12, 2019</td>
+			      <td>Jerry Suls<br>
+			        240-276-6811<br>
+			        <a href="mailto:jerry.suls@nih.gov">jerry.suls@nih.gov</a></td>
+			      <td>Program Announcements</td>
+			      <td>Research Project</td>
+			      <td></td>
+			      <td>Clinical Trials</td>
+		        </tr>
+			    <tr>
+			      <th scope="row">Leveraging Cognitive Neuroscience Research to Improve Assessment of Cancer Treatment Related Cognitive Impairment<br>
+			        <br>
+			        <a href="/funding-foa-applicants.html#collapse-4">Helpful Resources</a><br>
+			        <br>
+			        <a href="https://maps.cancer.gov/overview/DCCPSGrants/grantlist.jsp?method=dynamic&program=brp&status=active&rfaNums=PAR16-212,PAR16-213,PAR18-605,PAR18-606">View Active BRP Grants</a></th>
+			      <td><a href="https://grants.nih.gov/grants/guide/pa-files/PAR-18-606.html">PAR-18-606</a></td>
+			      <td>R21</td>
+			      <td>Clinical Trial Optional</td>
+			      <td>April 12, 2019</td>
+			      <td>Jerry Suls<br>
+			        240-276-6811<br>
+			        <a href="mailto:jerry.suls@nih.gov">jerry.suls@nih.gov</a></td>
+			      <td>Program Announcements</td>
+			      <td>Exploratory/Developmental</td>
+			      <td></td>
+			      <td>Clinical Trials</td>
+		        </tr>
+			    <tr>
+			      <th scope="row">Tobacco Regulatory Science<br>
+			        <br>
+			        <br>
+			        Tobacco Regulatory Science Small Grant Program for New Investigators</th>
+			      <td><a href="https://grants.nih.gov/grants/guide/rfa-files/RFA-OD-18-002.html">RFA-OD-18-002</a></td>
+			      <td>R01</td>
+			      <td>Clinical Trial Optional</td>
+			      <td>February 14, 2019</td>
+			      <td><a href="https://staffprofiles.cancer.gov/brp/prgmStaffProfile.do?contactId=22444270&amp;bioType=stf">Rachel Grana Mayne</a><br>
+			        240-276-5899<br>
+			        <a href="mailto:rachel.mayne@nih.gov">rachel.mayne@nih.gov</a></td>
+			      <td>RFA</td>
+			      <td>Research Project</td>
+			      <td></td>
+			      <td>Clinical Trials</td>
+		        </tr>
+			    <tr>
+			      <th scope="row">Tobacco Regulatory Science<br>
+			        <br>
+			        <br>
+			        Tobacco Regulatory Science Small Grant Program for New Investigators</th>
+			      <td><a href="https://grants.nih.gov/grants/guide/rfa-files/RFA-OD-18-003.html">RFA-OD-18-003</a></td>
+			      <td>R21</td>
+			      <td>Clinical Trial Optional</td>
+			      <td>February 14, 2019</td>
+			      <td><a href="https://staffprofiles.cancer.gov/brp/prgmStaffProfile.do?contactId=22444270&amp;bioType=stf">Rachel Grana Mayne</a><br>
+			        240-276-5899<br>
+			        <a href="mailto:rachel.mayne@nih.gov">rachel.mayne@nih.gov</a></td>
+			      <td>RFA</td>
+			      <td>Exploratory/Developmental</td>
+			      <td></td>
+			      <td>Clinical Trials</td>
+		        </tr>
+			    <tr>
+			      <th scope="row">Tobacco Regulatory Science<br>
+			        <br>
+			        <br>
+			        Tobacco Regulatory Science Small Grant Program for New Investigators</th>
+			      <td><a href="https://grants.nih.gov/grants/guide/rfa-files/RFA-OD-18-001.html">RFA-OD-18-001</a></td>
+			      <td>R03</td>
+			      <td>Clinical Trial Optional</td>
+			      <td>February 14, 2019</td>
+			      <td><a href="https://staffprofiles.cancer.gov/brp/prgmStaffProfile.do?contactId=22444270&amp;bioType=stf">Rachel Grana Mayne</a><br>
+			        240-276-5899<br>
+			        <a href="mailto:rachel.mayne@nih.gov">rachel.mayne@nih.gov</a></td>
+			      <td>RFA</td>
+			      <td>Small Grant</td>
+			      <td></td>
+			      <td>Clinical Trials</td>
+		        </tr>
+			    <tr>
+			      <th scope="row">Time-Sensitive Research on Health Risk and Resilience after Hurricanes Irma and Maria in Puerto Rico and the US Virgin Islands</th>
+			      <td><a href="https://grants.nih.gov/grants/guide/rfa-files/RFA-MD-18-006.html">RFA-MD-18-006</a></td>
+			      <td>R21</td>
+			      <td>Clinical Trial Not Allowed</td>
+			      <td>April 17, 2018</td>
+			      <td><a href="https://staffprofiles.cancer.gov/brp/prgmStaffProfile.do?contactId=8579&amp;bioType=stf">Paige Green</a><br />
+			        240-276-6899<br />
+			        <a href="mailto:paige.green@nih.gov">paige.green@nih.gov</a></td>
+			      <td>RFA</td>
+			      <td>Exploratory/Developmental</td>
+			      <td></td>
+			      <td>Not Clinical Trials</td>
+		        </tr>
+			    <tr>
+			      <th scope="row">Advancing Interventions to Improve Medication Adherence</th>
+			      <td><a href="https://grants.nih.gov/grants/guide/pa-files/PA-14-334.html">PA-14-334</a></td>
+			      <td>R01</td>
+			      <td></td>
+			      <td>January 8, 2018</td>
+			      <td><a href="https://staffprofiles.cancer.gov/brp/prgmStaffProfile.do?contactId=1618&amp;bioType=stf">Wendy  Nelson</a><br>
+			        240-276-6971 <a href="mailto:nelsonw@mail.nih.gov">nelsonw@mail.nih.gov</a>   <br></td>
+			      <td>Program Announcements</td>
+			      <td>Research Project</td>
+			      <td>Basic Biobehavioral and Psychological Sciences</td>
+			      <td></td>
+		        </tr>
+			    <tr>
+			      <th scope="row">Advancing Interventions to Improve Medication Adherence</th>
+			      <td><a href="https://grants.nih.gov/grants/guide/pa-files/PA-14-335.html">PA-14-335</a></td>
+			      <td>R21</td>
+			      <td></td>
+			      <td>January 8, 2018</td>
+			      <td><a href="https://staffprofiles.cancer.gov/brp/prgmStaffProfile.do?contactId=1618&amp;bioType=stf">Wendy  Nelson</a><br>
+			        240-276-6971 <a href="mailto:nelsonw@mail.nih.gov">nelsonw@mail.nih.gov</a>   <br></td>
+			      <td>Program Announcements</td>
+			      <td>Exploratory/Developmental</td>
+			      <td>Basic Biobehavioral and Psychological Sciences</td>
+			      <td></td>
+		        </tr>
+			    <tr>
+			      <th scope="row">Research Aimed at Novel Behavioral Targets to Improve Adolescent Substance Abuse Treatment and Prevention Interventions</th>
+			      <td><a href="https://grants.nih.gov/grants/guide/pa-files/PA-15-035.html">PA-15-035</a></td>
+			      <td>R34</td>
+			      <td></td>
+			      <td>January 8, 2018</td>
+			      <td><a href="https://staffprofiles.cancer.gov/brp/prgmStaffProfile.do?contactId=1462212&amp;bioType=stf">Annette Kaufman<br>
+			        </a>240-276-6706<br>
+			        <a href="mailto:kaufmana@mail.nih.gov">kaufmana@mail.nih.gov</a></td>
+			      <td>Program Announcements</td>
+			      <td>R34</td>
+			      <td>Tobacco Control Research</td>
+			      <td></td>
+		        </tr>
+			    <tr>
+			      <th scope="row">Systems Science and Health in the Behavioral and Social Sciences</th>
+			      <td><a href="https://grants.nih.gov/grants/guide/pa-files/PAR-15-048.html">PAR-15-048</a></td>
+			      <td>R01</td>
+			      <td></td>
+			      <td>January 8, 2018</td>
+			      <td><a href="https://staffprofiles.cancer.gov/brp/prgmStaffProfile.do?contactId=8581">Kara Hall</a><br>
+			        240-276-6831<br>
+			        <a href="mailto:hallka@mail.nih.gov">hallka@mail.nih.gov </a></td>
+			      <td>Program Announcements</td>
+			      <td>Research Project</td>
+			      <td>Science of Research and Technology</td>
+			      <td></td>
+		        </tr>
+			    <tr>
+			      <th scope="row">Systems Science and Health in the Behavioral and Social Sciences</th>
+			      <td><a href="https://grants.nih.gov/grants/guide/pa-files/PAR-15-047.html">PAR-15-047</a></td>
+			      <td>R21</td>
+			      <td></td>
+			      <td>January 8, 2018</td>
+			      <td><a href="https://staffprofiles.cancer.gov/brp/prgmStaffProfile.do?contactId=8581">Kara Hall</a><br>
+			        240-276-6831<br>
+			        <a href="mailto:hallka@mail.nih.gov">hallka@mail.nih.gov </a></td>
+			      <td>Program Announcements</td>
+			      <td>Exploratory/Developmental</td>
+			      <td>Science of Research and Technology</td>
+			      <td></td>
+		        </tr>
+			    <tr>
+			      <th scope="row">Intensive Longitudinal Analysis of Health Behaviors: Leveraging New Technologies to Understand Health Behaviors</th>
+			      <td><a href="https://grants.nih.gov/grants/guide/rfa-files/RFA-OD-17-005.html">RFA-OD-17-005</a></td>
+			      <td>U24</td>
+			      <td></td>
+			      <td>January 8, 2018</td>
+			      <td>For cancer-related FOA questions: <br>
+			        <br>
+			        <a href="https://staffprofiles.cancer.gov/brp/prgmStaffProfile.do?contactId=1608&bioType=stf">Richard Moser</a><br>
+			        240-276-6915 <br>
+			        <a href="mailto:moserr@mail.nih.gov">moserr@mail.nih.gov<br>
+			          <br>
+		            </a>For general FOA questions: <br>
+			        <br>
+			        Dana Wolff-Hughes<br>
+			        Office of Behavioral and Social Sciences Research (OBSSR)<br>
+			        301-496-0979<br>
+			        <a href="mailto:dana.wolff@nih.gov">dana.wolff@nih.gov</a></td>
+			      <td>RFA</td>
+			      <td>U24</td>
+			      <td></td>
+			      <td></td>
+		        </tr>
+			    <tr>
+			      <th scope="row">Intensive Longitudinal Analysis of Health Behaviors: Leveraging New Technologies to Understand Health Behaviors</th>
+			      <td><a href="https://grants.nih.gov/grants/guide/rfa-files/RFA-OD-17-004.html">RFA-OD-17-004</a></td>
+			      <td>U01</td>
+			      <td></td>
+			      <td>January 8, 2018</td>
+			      <td>For cancer-related FOA questions: <br>
+			        <br>
+			        <a href="https://staffprofiles.cancer.gov/brp/prgmStaffProfile.do?contactId=1608&bioType=stf">Richard Moser</a><br>
+			        240-276-6915 <br>
+			        <a href="mailto:moserr@mail.nih.gov">moserr@mail.nih.gov<br>
+			          <br>
+		            </a>For general FOA questions: <br>
+			        <br>
+			        Dana Wolff-Hughes<br>
+			        Office of Behavioral and Social Sciences Research (OBSSR)<br>
+			        301-496-0979<br>
+			        <a href="mailto:dana.wolff@nih.gov">dana.wolff@nih.gov</a></td>
+			      <td>RFA</td>
+			      <td>Cooperative Agreement</td>
+			      <td></td>
+			      <td></td>
+		        </tr>
+			    <tr>
+			      <th scope="row">Science of Behavior Change: Revision Applications for Use-inspired Research to Optimize Adherence, Behavior Change Interventions, and Outcomes</th>
+			      <td><p><a href="https://grants.nih.gov/grants/guide/rfa-files/RFA-RM-17-022.html">RFA-RM-17-022</a></p></td>
+			      <td>R01</td>
+			      <td></td>
+			      <td>December 6, 2017</td>
+			      <td>For cancer-related FOA questions: <br>
+			        <br>
+			        <a href="https://staffprofiles.cancer.gov/brp/prgmStaffProfile.do?contactId=8579&amp;bioType=stf">Paige  Green</a><br />
+			        240-276-6899<br />
+			        <a href="mailto:paige.green@nih.gov">paige.green@nih.gov</a><br>
+			        <br>
+			        <br>
+			        For general FOA questions: <br>
+			        <br>
+			        Will M. Aklin<br>
+			        National Institute on Drug Abuse (NIDA)<br>
+			        301-827-5909<br>
+			        <a href="mailto:will.aklin@nih.gov">will.aklin@nih.gov</a></td>
+			      <td>RFA</td>
+			      <td>Research Project</td>
+			      <td></td>
+			      <td></td>
+		        </tr>
+			    <tr>
+			      <th scope="row">Science of Behavior Change: Revision Applications for Use-inspired Research to Optimize Adherence, Behavior Change Interventions, and Outcomes</th>
+			      <td><p><a href="https://grants.nih.gov/grants/guide/rfa-files/RFA-RM-17-023.html">RFA-RM-17-023</a></p></td>
+			      <td>U01</td>
+			      <td></td>
+			      <td>December 6, 2017</td>
+			      <td>For cancer-related FOA questions: <br>
+			        <br>
+			        <a href="https://staffprofiles.cancer.gov/brp/prgmStaffProfile.do?contactId=8579&amp;bioType=stf">Paige  Green</a><br />
+			        240-276-6899<br />
+			        <a href="mailto:paige.green@nih.gov">paige.green@nih.gov</a><br>
+			        <br>
+			        <br>
+			        For general FOA questions:<br>
+			        <br>
+			        Will M. Aklin<br>
+			        National Institute on Drug Abuse (NIDA)<br>
+			        301-827-5909<br>
+			        <a href="mailto:will.aklin@nih.gov">will.aklin@nih.gov</a></td>
+			      <td>RFA</td>
+			      <td>Cooperative Agreement</td>
+			      <td></td>
+			      <td></td>
+		        </tr>
+			    <tr>
+			      <th scope="row">Science of Behavior Change: Revision Applications for Use-inspired Research to Optimize Adherence, Behavior Change Interventions, and Outcomes</th>
+			      <td><p><a href="https://grants.nih.gov/grants/guide/rfa-files/RFA-RM-17-024.html">RFA-RM-17-024</a></p></td>
+			      <td>R34</td>
+			      <td></td>
+			      <td>December 6, 2017</td>
+			      <td>For cancer-related FOA questions: <br>
+			        <br>
+			        <a href="https://staffprofiles.cancer.gov/brp/prgmStaffProfile.do?contactId=8579&amp;bioType=stf">Paige  Green</a><br />
+			        240-276-6899<br />
+			        <a href="mailto:paige.green@nih.gov">paige.green@nih.gov</a><br>
+			        <br>
+			        <br>
+			        For general FOA questions:<br>
+			        <br>
+			        Will M. Aklin<br>
+			        National Institute on Drug Abuse (NIDA)<br>
+			        301-827-5909<br>
+			        <a href="mailto:will.aklin@nih.gov">will.aklin@nih.gov</a></td>
+			      <td>RFA</td>
+			      <td>R34</td>
+			      <td></td>
+			      <td></td>
+		        </tr>
+			    <tr>
+			      <th scope="row">Science of Behavior Change: Revision Applications for Use-inspired Research to Optimize Adherence, Behavior Change Interventions, and Outcomes</th>
+			      <td><p><a href="https://grants.nih.gov/grants/guide/rfa-files/RFA-RM-17-028.html">RFA-RM-17-028</a></p></td>
+			      <td>R21</td>
+			      <td></td>
+			      <td>December 6, 2017</td>
+			      <td>For cancer-related FOA questions: <br>
+			        <br>
+			        <a href="https://staffprofiles.cancer.gov/brp/prgmStaffProfile.do?contactId=8579&amp;bioType=stf">Paige  Green</a><br />
+			        240-276-6899<br />
+			        <a href="mailto:paige.green@nih.gov">paige.green@nih.gov</a><br>
+			        <br>
+			        <br>
+			        For general FOA questions:<br>
+			        <br>
+			        Will M. Aklin<br>
+			        National Institute on Drug Abuse (NIDA)<br>
+			        301-827-5909<br>
+			        <a href="mailto:will.aklin@nih.gov">will.aklin@nih.gov</a></td>
+			      <td>RFA</td>
+			      <td>Exploratory/Developmental</td>
+			      <td></td>
+			      <td></td>
+		        </tr>
+			    <tr>
+			      <th scope="row">Interventions for Health-Enhancing Physical Activity</th>
+			      <td><a href="https://grants.nih.gov/grants/guide/pa-files/PAR-14-321.html">PAR-14-321</a></td>
+			      <td>R21/R33</td>
+			      <td></td>
+			      <td>September 8, 2017</td>
+			      <td><a href="https://staffprofiles.cancer.gov/brp/prgmStaffProfile.do?contactId=51678&amp;bioType=stf">Frank Perna</a><br>
+			        240-276-6782<br>
+			        <a href="mailto:pernafm@mail.nih.gov">pernafm@mail.nih.gov</a></td>
+			      <td>Program Announcements</td>
+			      <td>Exploratory/Developmental/R33</td>
+			      <td>Health Behaviors Research</td>
+			      <td></td>
+		        </tr>
+			    <tr>
+			      <th scope="row">Interventions for Health-Enhancing Physical Activity</th>
+			      <td><a href="http://grants.nih.gov/grants/guide/pa-files/PAR-14-315.html">PAR-14-315</a></td>
+			      <td>R01</td>
+			      <td></td>
+			      <td>September 8, 2017</td>
+			      <td><a href="https://staffprofiles.cancer.gov/brp/prgmStaffProfile.do?contactId=51678&amp;bioType=stf">Frank Perna</a><br>
+			        240-276-6782<br>
+			        <a href="mailto:pernafm@mail.nih.gov">pernafm@mail.nih.gov</a></td>
+			      <td>Program Announcements</td>
+			      <td>Research Project</td>
+			      <td>Health Behaviors Research</td>
+			      <td></td>
+		        </tr>
+			    <tr>
+			      <th scope="row"> Tobacco Centers of Regulatory Science for Research Relevant to the Family Smoking Prevention and Tobacco Control Act</th>
+			      <td><a href="https://grants.nih.gov/grants/guide/rfa-files/RFA-OD-17-006.html">RFA-OD-17-006</a></td>
+			      <td>U54</td>
+			      <td></td>
+			      <td>July 20, 2017</td>
+			      <td><a href="https://staffprofiles.cancer.gov/brp/prgmStaffProfile.do?contactId=22444270&amp;bioType=stf">Rachel Grana Mayne</a><br />
+			        240-276-5899<br />
+			        <a href="mailto:rachel.mayne@nih.gov">rachel.mayne@nih.gov</a></td>
+			      <td>RFA</td>
+			      <td>Cooperative Agreement</td>
+			      <td></td>
+			      <td></td>
+		        </tr>
+			    <tr>
+			      <th scope="row">Behavioral Interventions to Address Multiple Chronic Health Conditions in Primary Care</th>
+			      <td><a href="https://grants.nih.gov/grants/guide/pa-files/PA-14-114.html">PA-14-114</a></td>
+			      <td>R01</td>
+			      <td></td>
+			      <td>May 8, 2017</td>
+			      <td><a href="https://healthcaredelivery.cancer.gov/about/staff/bios/chollette.html">Veronica Chollette</a><br>
+			        240-276-6969<br>
+			        <a href="mailto:cholletv@mail.nih.gov">cholletv@mail.nih.gov</a></td>
+			      <td>Program Announcements</td>
+			      <td>Research Project</td>
+			      <td>Process of Care Research</td>
+			      <td></td>
+		        </tr>
+			    <tr>
+			      <th scope="row">Exploratory Studies of Smoking Cessation Interventions for People with Schizophrenia </th>
+			      <td><a href="https://grants.nih.gov/grants/guide/pa-files/PAR-14-230.html">PAR-14-230</a></td>
+			      <td>R21</td>
+			      <td></td>
+			      <td>April 18, 2017</td>
+			      <td><a href="https://staffprofiles.cancer.gov/brp/prgmStaffProfile.do?contactId=1439530&amp;bioType=stf">Yvonne Prutzman</a><br>
+			        240-276-6975<br>
+			        <a href="mailto:huntym@mail.nih.gov">huntym@mail.nih.gov</a></td>
+			      <td>Program Announcements</td>
+			      <td>Exploratory/Developmental</td>
+			      <td></td>
+			      <td></td>
+		        </tr>
+			    <tr>
+			      <th scope="row">Exploratory Studies of Smoking Cessation Interventions for People with Schizophrenia </th>
+			      <td><a href="https://grants.nih.gov/grants/guide/pa-files/PAR-14-231.html">PAR-14-231</a></td>
+			      <td>R33</td>
+			      <td></td>
+			      <td>April 18, 2017</td>
+			      <td><a href="https://staffprofiles.cancer.gov/brp/prgmStaffProfile.do?contactId=1439530&amp;bioType=stf">Yvonne Prutzman</a><br>
+			        240-276-6975<br>
+			        <a href="mailto:huntym@mail.nih.gov">huntym@mail.nih.gov</a></td>
+			      <td>Program Announcements</td>
+			      <td>R33</td>
+			      <td></td>
+			      <td></td>
+		        </tr>
+			    <tr>
+			      <th scope="row">Tobacco Regulatory Science Small Grant Program for New Investigators</th>
+			      <td><a href="https://grants.nih.gov/grants/guide/rfa-files/RFA-OD-15-004.html">RFA-OD-15-004</a></td>
+			      <td>R03</td>
+			      <td></td>
+			      <td>February 24, 2017</td>
+			      <td><a href="https://staffprofiles.cancer.gov/brp/prgmStaffProfile.do?contactId=22444270&amp;bioType=stf">Rachel Grana Mayne</a><br>
+			        240-276-5899 <br>
+			        <a href="mailto:granar@mail.nih.gov">granar@mail.nih.gov </a></td>
+			      <td>RFA</td>
+			      <td>Small Grant</td>
+			      <td>Tobacco Control Research</td>
+			      <td></td>
+		        </tr>
+			    <tr>
+			      <th scope="row">Modeling Social Behavior</th>
+			      <td><a href="https://grants.nih.gov/grants/guide/pa-files/PAR-13-374.html">PAR-13-374</a></td>
+			      <td>R01</td>
+			      <td></td>
+			      <td>January 8, 2017</td>
+			      <td><a href="https://staffprofiles.cancer.gov/brp/prgmStaffProfile.do?contactId=1608&amp;bioType=stf">Richard Moser</a><br>
+			        240-276-6915<br>
+			        <a href="mailto:moserr@mail.nih.gov">moserr@mail.nih.gov</a></td>
+			      <td>Program Announcements</td>
+			      <td>Research Project</td>
+			      <td>Science of Research and Technology</td>
+			      <td></td>
+		        </tr>
+			    <tr>
+			      <th scope="row">Basic Biopsychosocial Mechanisms and Processes in the Management of Chronic Conditions </th>
+			      <td><a href="https://grants.nih.gov/grants/guide/pa-files/PAR-16-095.html">PAR-16-095</a></td>
+			      <td>R21</td>
+			      <td></td>
+			      <td>December 7, 2016</td>
+			      <td><a href="https://staffprofiles.cancer.gov/brp/prgmStaffProfile.do?contactId=1618&amp;bioType=stf">Wendy Nelson</a><br>
+			        240-276-6971<br>
+			        <a href="mailto:nelsonw@mail.nih.gov">nelsonw@mail.nih.gov</a></td>
+			      <td>Program Announcements</td>
+			      <td>Exploratory/Developmental</td>
+			      <td>Basic Biobehavioral and Psychological Sciences</td>
+			      <td></td>
+		        </tr>
+			    <tr>
+			      <th scope="row">Advancing Basic Behavioral and Social Research on Resilience: An Integrative Science Approach</th>
+			      <td><a href="https://grants.nih.gov/grants/guide/pa-files/PAR-16-326.html">PAR -16-326</a></td>
+			      <td>UG3/UH3</td>
+			      <td></td>
+			      <td>December 2, 2016</td>
+			      <td><a href="https://staffprofiles.cancer.gov/brp/prgmStaffProfile.do?contactId=1439021&amp;bioType=stf">Rebecca Ferrer</a><br>
+			        301-852-1167<br>
+			        <a href="mailto:rebecca.ferrer@nih.gov">rebecca.ferrer@nih.gov</a></td>
+			      <td>Program Announcements</td>
+			      <td>Cooperative Agreement</td>
+			      <td>Basic Biobehavioral and Psychological Sciences</td>
+			      <td></td>
+		        </tr>
+			    <tr>
+			      <th scope="row">Science of Behavior Change: Use-inspired Basic Research to Optimize Behavior Change Interventions and Outcomes </th>
+			      <td><a href="https://grants.nih.gov/grants/guide/pa-files/PA-16-334.html">PA-16-334</a> (Admin Supp)</td>
+			      <td></td>
+			      <td></td>
+			      <td>November 11, 2016</td>
+			      <td><a href="https://staffprofiles.cancer.gov/brp/prgmStaffProfile.do?contactId=8579&amp;bioType=stf">Paige Green</a><br>
+			        240-276-6899<br>
+			        <a href="mailto:paige.green@nih.gov">paige.green@nih.gov</a></td>
+			      <td>Program Announcements</td>
+			      <td></td>
+			      <td></td>
+			      <td></td>
+		        </tr>
+			    <tr>
+			      <th scope="row">Research Answers to NCI&rsquo;s Provocative Questions</th>
+			      <td><a href="https://grants.nih.gov/grants/guide/rfa-files/RFA-CA-15-009.html">CA-15-009</a></td>
+			      <td>R21</td>
+			      <td></td>
+			      <td>October 29, 2016 </td>
+			      <td>For more information, see: <a href="https://provocativequestions.cancer.gov/">Provocative Questions</a></td>
+			      <td>RFA</td>
+			      <td>Exploratory/Developmental</td>
+			      <td></td>
+			      <td></td>
+		        </tr>
+			    <tr>
+			      <th scope="row">Research to Characterize and Reduce Stigma to Improve Health</th>
+			      <td><a href="https://grants.nih.gov/grants/guide/pa-files/PA-13-246.html">PA-13-246</a></td>
+			      <td>R21</td>
+			      <td></td>
+			      <td>September 8, 2016</td>
+			      <td><a href="https://healthcaredelivery.cancer.gov/about/staff/bios/chollette.html">Veronica Chollette</a><br>
+			        240-276-6969<br>
+			        <a href="mailto:cholletv@mail.nih.gov">cholletv@mail.nih.gov</a></td>
+			      <td>Program Announcements</td>
+			      <td>Exploratory/Developmental</td>
+			      <td></td>
+			      <td></td>
+		        </tr>
+			    <tr>
+			      <th scope="row">Research to Characterize and Reduce Stigma to Improve Health</th>
+			      <td><a href="https://grants.nih.gov/grants/guide/pa-files/PA-13-247.html">PA-13-247</a></td>
+			      <td>R03</td>
+			      <td></td>
+			      <td>September 8, 2016</td>
+			      <td><a href="https://healthcaredelivery.cancer.gov/about/staff/bios/chollette.html">Veronica Chollette</a><br>
+			        240-276-6969<br>
+			        <a href="mailto:cholletv@mail.nih.gov">cholletv@mail.nih.gov</a></td>
+			      <td>Program Announcements</td>
+			      <td>Small Grant</td>
+			      <td></td>
+			      <td></td>
+		        </tr>
+			    <tr>
+			      <th scope="row">Research to Characterize and Reduce Stigma to Improve Health</th>
+			      <td><a href="https://grants.nih.gov/grants/guide/pa-files/PA-13-248.html">PA-13-248</a></td>
+			      <td>R01</td>
+			      <td></td>
+			      <td>September 8, 2016</td>
+			      <td><a href="https://healthcaredelivery.cancer.gov/about/staff/bios/chollette.html">Veronica Chollette</a><br>
+			        240-276-6969<br>
+			        <a href="mailto:cholletv@mail.nih.gov">cholletv@mail.nih.gov</a></td>
+			      <td>Program Announcements</td>
+			      <td>Research Project</td>
+			      <td></td>
+			      <td></td>
+		        </tr>
+			    <tr>
+			      <th scope="row">Behavioral and Social Science Research on Understanding and Reducing Health Disparities</th>
+			      <td><a href="https://grants.nih.gov/grants/guide/pa-files/PA-13-292.html">PA-13-292</a></td>
+			      <td>R01</td>
+			      <td></td>
+			      <td>September 8, 2016 </td>
+			      <td><a href="/od/srinivasan.html">Shobha Srinivasan</a><br>
+			        240-276-6938<br>
+			        <a href="mailto:sriniva2@mail.nih.gov">sriniva2@mail.nih.gov</a></td>
+			      <td>Program Announcements</td>
+			      <td>Research Project</td>
+			      <td></td>
+			      <td></td>
+		        </tr>
+			    <tr>
+			      <th scope="row">Behavioral and Social Science Research on Understanding and Reducing Health Disparities</th>
+			      <td><a href="https://grants.nih.gov/grants/guide/pa-files/PA-13-288.html">PA-13-288</a></td>
+			      <td>R21</td>
+			      <td></td>
+			      <td>September 8, 2016 </td>
+			      <td><a href="/od/srinivasan.html">Shobha Srinivasan</a><br>
+			        240-276-6938<br>
+			        <a href="mailto:sriniva2@mail.nih.gov">sriniva2@mail.nih.gov</a></td>
+			      <td>Program Announcements</td>
+			      <td>Exploratory/Developmental</td>
+			      <td></td>
+			      <td></td>
+		        </tr>
+			    <tr>
+			      <th scope="row">School Nutrition and Physical Activity Policies, Obesogenic Behaviors and Weight Outcomes</th>
+			      <td><a href="https://grants.nih.gov/grants/guide/pa-files/PA-13-100.html">PA-13-100</a></td>
+			      <td>R01</td>
+			      <td></td>
+			      <td>May 8, 2016</td>
+			      <td><a href="https://staffprofiles.cancer.gov/brp/prgmStaffProfile.do?contactId=1478&amp;bioType=stf">Tanya Agurs-Collins</a><br>
+			        240-276-6956<br>
+			        <a href="mailto:collinsta@mail.nih.gov">collinsta@mail.nih.gov</a>  </td>
+			      <td>Program Announcements</td>
+			      <td>Research Project</td>
+			      <td></td>
+			      <td></td>
+		        </tr>
+			    <tr>
+			      <th scope="row">School Nutrition and Physical Activity Policies, Obesogenic Behaviors and Weight Outcomes</th>
+			      <td><a href="https://grants.nih.gov/grants/guide/pa-files/PA-13-099.html">PA-13-099</a></td>
+			      <td>R03</td>
+			      <td></td>
+			      <td>May 8, 2016</td>
+			      <td><a href="https://staffprofiles.cancer.gov/brp/prgmStaffProfile.do?contactId=1478&amp;bioType=stf">Tanya Agurs-Collins</a><br>
+			        240-276-6956<br>
+			        <a href="mailto:collinsta@mail.nih.gov">collinsta@mail.nih.gov</a>  </td>
+			      <td>Program Announcements</td>
+			      <td>Small Grant</td>
+			      <td></td>
+			      <td></td>
+		        </tr>
+			    <tr>
+			      <th scope="row">School Nutrition and Physical Activity Policies, Obesogenic Behaviors and Weight Outcomes</th>
+			      <td><a href="https://grants.nih.gov/grants/guide/pa-files/PA-13-098.html">PA-13-098</a></td>
+			      <td>R21</td>
+			      <td></td>
+			      <td>May 8, 2016</td>
+			      <td><a href="https://staffprofiles.cancer.gov/brp/prgmStaffProfile.do?contactId=1478&amp;bioType=stf">Tanya Agurs-Collins</a><br>
+			        240-276-6956<br>
+			        <a href="mailto:collinsta@mail.nih.gov">collinsta@mail.nih.gov</a>  </td>
+			      <td>Program Announcements</td>
+			      <td>Exploratory/Developmental</td>
+			      <td></td>
+			      <td></td>
+		        </tr>
+			    <tr>
+			      <th scope="row">Accelerating the Pace of Drug Abuse Research Using Existing Data</th>
+			      <td><a href="https://grants.nih.gov/grants/guide/pa-files/PAR-13-080.html">PAR-13-080</a></td>
+			      <td>R01</td>
+			      <td></td>
+			      <td>May 8, 2016</td>
+			      <td><a href="https://researchtoreality.cancer.gov/presenter/erik-augustson-phd-mph">Erik Augustson</a><br>
+			        240-276-6774 <a href="mailto:augustse@mail.nih.gov">augustse@mail.nih.gov</a></td>
+			      <td>Program Announcements</td>
+			      <td>Research Project</td>
+			      <td></td>
+			      <td></td>
+		        </tr>
+			    <tr>
+			      <th scope="row">Innovative Research Methods: Prevention and Management of Symptoms in Chronic Illness</th>
+			      <td><a href="https://grants.nih.gov/grants/guide/pa-files/PA-13-165.html">PA-13-165</a></td>
+			      <td>R01</td>
+			      <td></td>
+			      <td>May 8, 2016</td>
+			      <td><a href="https://staffprofiles.cancer.gov/brp/prgmStaffProfile.do?contactId=8581&amp;bioType=stf">Kara Hall</a><br>
+			        240-276-6831 <br>
+			        <a href="mailto:hallka@mail.nih.gov">hallka@mail.nih.gov</a></td>
+			      <td>Program Announcements</td>
+			      <td>Research Project</td>
+			      <td></td>
+			      <td></td>
+		        </tr>
+			    <tr>
+			      <th scope="row">Innovative Research Methods: Prevention and Management of Symptoms in Chronic Illness</th>
+			      <td><a href="https://grants.nih.gov/grants/guide/pa-files/PA-13-166.html">PA-13-166</a></td>
+			      <td>R15</td>
+			      <td></td>
+			      <td>May 8, 2016</td>
+			      <td><a href="https://staffprofiles.cancer.gov/brp/prgmStaffProfile.do?contactId=8581&amp;bioType=stf">Kara Hall</a><br>
+			        240-276-6831 <br>
+			        <a href="mailto:hallka@mail.nih.gov">hallka@mail.nih.gov</a></td>
+			      <td>Program Announcements</td>
+			      <td>Academic Research Enhancement Award</td>
+			      <td></td>
+			      <td></td>
+		        </tr>
+			    <tr>
+			      <th scope="row">Innovative Research Methods: Prevention and Management of Symptoms in Chronic Illness</th>
+			      <td><a href="https://grants.nih.gov/grants/guide/pa-files/PA-13-167.html">PA-13-167</a></td>
+			      <td>R21</td>
+			      <td></td>
+			      <td>May 8, 2016</td>
+			      <td><a href="https://staffprofiles.cancer.gov/brp/prgmStaffProfile.do?contactId=8581&amp;bioType=stf">Kara Hall</a><br>
+			        240-276-6831 <br>
+			        <a href="mailto:hallka@mail.nih.gov">hallka@mail.nih.gov</a></td>
+			      <td>Program Announcements</td>
+			      <td>Exploratory/Developmental</td>
+			      <td></td>
+			      <td></td>
+		        </tr>
+			    <tr>
+			      <th scope="row">Understanding and Promoting Health Literacy</th>
+			      <td><a href="https://grants.nih.gov/grants/guide/pa-files/PAR-13-130.html">PAR-13-130</a></td>
+			      <td>R01</td>
+			      <td></td>
+			      <td>May 8, 2016</td>
+			      <td><a href="https://staffprofiles.cancer.gov/brp/prgmStaffProfile.do?contactId=993308&amp;bioType=stf">Wen-ying Sylvia Chou</a><br>
+			        240-276-6954<br>
+			        <a href="mailto:chouws@mail.nih.gov">chouws@mail.nih.gov</a></td>
+			      <td>Program Announcements</td>
+			      <td>Research Project</td>
+			      <td></td>
+			      <td></td>
+		        </tr>
+			    <tr>
+			      <th scope="row">Understanding and Promoting Health Literacy</th>
+			      <td><a href="https://grants.nih.gov/grants/guide/pa-files/PAR-13-131.html">PAR-13-131</a></td>
+			      <td>R03</td>
+			      <td></td>
+			      <td>May 8, 2016</td>
+			      <td><a href="https://staffprofiles.cancer.gov/brp/prgmStaffProfile.do?contactId=993308&amp;bioType=stf">Wen-ying Sylvia Chou</a><br>
+			        240-276-6954<br>
+			        <a href="mailto:chouws@mail.nih.gov">chouws@mail.nih.gov</a></td>
+			      <td>Program Announcements</td>
+			      <td>Small Grant</td>
+			      <td></td>
+			      <td></td>
+		        </tr>
+			    <tr>
+			      <th scope="row">Understanding and Promoting Health Literacy</th>
+			      <td><a href="https://grants.nih.gov/grants/guide/pa-files/PAR-13-132.html">PAR-13-132</a></td>
+			      <td>R21</td>
+			      <td></td>
+			      <td>May 8, 2016</td>
+			      <td><a href="https://staffprofiles.cancer.gov/brp/prgmStaffProfile.do?contactId=993308&amp;bioType=stf">Wen-ying Sylvia Chou</a><br>
+			        240-276-6954<br>
+			        <a href="mailto:chouws@mail.nih.gov">chouws@mail.nih.gov</a></td>
+			      <td>Program Announcements</td>
+			      <td>Exploratory/Developmental</td>
+			      <td></td>
+			      <td></td>
+		        </tr>
+			    <tr>
+			      <th scope="row">Examination of Survivorship Care Planning Efficacy and Impact</th>
+			      <td><a href="https://grants.nih.gov/grants/guide/pa-files/PA-12-274.html">PA-12-274</a></td>
+			      <td>R21</td>
+			      <td></td>
+			      <td>January 8, 2016</td>
+			      <td>Stephen Taplin<br>
+			        240-276-6947<br>
+			        <a href="mailto:taplins@mail.nih.gov">taplins@mail.nih.gov</a></td>
+			      <td>Program Announcements</td>
+			      <td>Exploratory/Developmental</td>
+			      <td></td>
+			      <td></td>
+		        </tr>
+			    <tr>
+			      <th scope="row">Examination of Survivorship Care Planning Efficacy and Impact</th>
+			      <td><a href="https://grants.nih.gov/grants/guide/pa-files/PA-12-275.html">PA-12-275</a></td>
+			      <td>R01</td>
+			      <td></td>
+			      <td>January 8, 2016</td>
+			      <td>Stephen Taplin<br>
+			        240-276-6947<br>
+			        <a href="mailto:taplins@mail.nih.gov">taplins@mail.nih.gov</a></td>
+			      <td>Program Announcements</td>
+			      <td>Research Project</td>
+			      <td></td>
+			      <td></td>
+		        </tr>
+			    <tr>
+			      <th scope="row">Abuse Liability Associated with Reduced Nicotine Content Tobacco Products </th>
+			      <td><a href="https://grants.nih.gov/grants/guide/rfa-files/RFA-OD-15-006.html">RFA-OD-15-006</a></td>
+			      <td>R01</td>
+			      <td></td>
+			      <td>December 12, 2015</td>
+			      <td><a href="https://staffprofiles.cancer.gov/brp/prgmStaffProfile.do?contactId=22444270&amp;bioType=stf">Rachel Grana Mayne</a><br>
+			        240-276-5899<br>
+			        <a href="mailto:granar@mail.nih.gov">granar@mail.nih.gov </a></td>
+			      <td>RFA</td>
+			      <td>Research Project</td>
+			      <td></td>
+			      <td></td>
+		        </tr>
+			    <tr>
+			      <th scope="row">Chemistry, Toxicology, and Addiction Research on Waterpipe Tobacco (R01) </th>
+			      <td><a href="https://grants.nih.gov/grants/guide/rfa-files/RFA-OD-15-005.html">RFA-OD-15-005</a></td>
+			      <td>R01</td>
+			      <td></td>
+			      <td>November 21, 2015</td>
+			      <td><a href="https://staffprofiles.cancer.gov/brp/prgmStaffProfile.do?contactId=22444270&amp;bioType=stf">Rachel Grana Mayne</a><br>
+			        240-276-5899<br>
+			        <a href="mailto:granar@mail.nih.gov">granar@mail.nih.gov </a></td>
+			      <td>RFA</td>
+			      <td>Research Project</td>
+			      <td></td>
+			      <td></td>
+		        </tr>
+			    <tr>
+			      <th scope="row">NCI Exploratory/Developmental Research Grant Program (NCI Omnibus)</th>
+			      <td><a href="https://grants.nih.gov/grants/guide/pa-files/PAR-15-340.html">PAR-15-340</a></td>
+			      <td>R21</td>
+			      <td></td>
+			      <td>November 11, 2015</td>
+			      <td><a href="https://staffprofiles.cancer.gov/brp/prgmStaffProfile.do?contactId=1674&amp;bioType=stf">Gina Tesauro</a> <br>
+			        240-276-6786 <br>
+			        <a href="mailto:gina.tesauro@nih.gov">gina.tesauro@nih.gov</a></td>
+			      <td>Program Announcements</td>
+			      <td>Exploratory/Developmental</td>
+			      <td></td>
+			      <td></td>
+		        </tr>
+			    <tr>
+			      <th scope="row">An Electronic Platform for Cognitive Assessment in Cancer Patients</th>
+			      <td>SBIR contract funding opportunity:<br>
+			        <a href="https://sbir.cancer.gov/funding/contracts/nihnci343">NIH/NCI 343</a></td>
+			      <td></td>
+			      <td></td>
+			      <td>October 16, 2015</td>
+			      <td><a href="https://staffprofiles.cancer.gov/brp/prgmStaffProfile.do?contactId=2550070&amp;bioType=stf">Todd Horowitz</a> <br>
+			        240-276-6963<br>
+			        <a href="mailto:horowitzts@mail.nih.gov">horowitzts@mail.nih.gov</a></td>
+			      <td></td>
+			      <td></td>
+			      <td></td>
+			      <td></td>
+		        </tr>
+			    <tr>
+			      <th scope="row">Smoking Cessation within the Context of Lung Cancer Screening<br>
+			        <br>
+			        <a href="/funding-foa-applicants.html#collapse-archive-1">Helpful Resources</a></th>
+			      <td><a href="https://grants.nih.gov/grants/guide/rfa-files/RFA-CA-15-011.html">RFA-CA-15-011</a></td>
+			      <td>R01</td>
+			      <td></td>
+			      <td>October 9, 2015</td>
+			      <td><a href="https://staffprofiles.cancer.gov/brp/prgmStaffProfile.do?contactId=1663667&amp;bioType=stf">Stephanie Land</a><br>
+			        240-276-6946<br>
+			        <a href="mailto:stephanie.land@nih.gov">stephanie.land@nih.gov</a></td>
+			      <td>RFA</td>
+			      <td>Research Project</td>
+			      <td></td>
+			      <td></td>
+		        </tr>
+			    <tr>
+			      <th scope="row">Physical activity and weight control interventions among cancer survivors: Effects on biomarkers of prognosis and survival</th>
+			      <td><a href="https://grants.nih.gov/grants/guide/pa-files/PAR-12-228.html">PAR-12-228</a></td>
+			      <td>R01</td>
+			      <td></td>
+			      <td>September 8, 2015 </td>
+			      <td><a href="https://staffprofiles.cancer.gov/brp/prgmStaffProfile.do?contactId=51678&amp;bioType=stf">Frank Perna</a><br>
+			        240-276-6782<br>
+			        <a href="mailto:pernafm@mail.nih.gov">pernafm@mail.nih.gov</a></td>
+			      <td>Program Announcements</td>
+			      <td>Research Project</td>
+			      <td></td>
+			      <td></td>
+		        </tr>
+			    <tr>
+			      <th scope="row">Physical activity and weight control interventions among cancer survivors: Effects on biomarkers of prognosis and survival</th>
+			      <td><a href="https://grants.nih.gov/grants/guide/pa-files/PAR-12-229.html">PAR-12-229</a></td>
+			      <td>R21</td>
+			      <td></td>
+			      <td>September 8, 2015 </td>
+			      <td><a href="https://staffprofiles.cancer.gov/brp/prgmStaffProfile.do?contactId=51678&amp;bioType=stf">Frank Perna</a><br>
+			        240-276-6782<br>
+			        <a href="mailto:pernafm@mail.nih.gov">pernafm@mail.nih.gov</a></td>
+			      <td>Program Announcements</td>
+			      <td>Exploratory/Developmental</td>
+			      <td></td>
+			      <td></td>
+		        </tr>
+			    <tr>
+			      <th scope="row">Revisions for Early-Stage Development of Informatics Technology</th>
+			      <td><a href="https://grants.nih.gov/grants/guide/pa-files/PAR-13-330.html">PAR-13-330</a></td>
+			      <td>P01</td>
+			      <td></td>
+			      <td>June 19, 2015</td>
+			      <td><a href="https://staffprofiles.cancer.gov/brp/prgmStaffProfile.do?contactId=1608&amp;bioType=stf">Richard Moser</a><br>
+			        240-276-6915<br>
+			        <a href="mailto:moserr@mail.nih.gov">moserr@mail.nih.gov</a></td>
+			      <td>Program Announcements</td>
+			      <td>P01</td>
+			      <td></td>
+			      <td></td>
+		        </tr>
+			    <tr>
+			      <th scope="row">Revisions for Early-Stage Development of Informatics Technology</th>
+			      <td><a href="https://grants.nih.gov/grants/guide/pa-files/PAR-12-286.html">PAR-12-286</a></td>
+			      <td>R01</td>
+			      <td></td>
+			      <td>June 19, 2015</td>
+			      <td><a href="https://staffprofiles.cancer.gov/brp/prgmStaffProfile.do?contactId=1608&amp;bioType=stf">Richard Moser</a><br>
+			        240-276-6915<br>
+			        <a href="mailto:moserr@mail.nih.gov">moserr@mail.nih.gov</a></td>
+			      <td>Program Announcements</td>
+			      <td>Research Project</td>
+			      <td></td>
+			      <td></td>
+		        </tr>
+			    <tr>
+			      <th scope="row">Revisions for Early-Stage Development of Informatics Technology</th>
+			      <td><a href="https://grants.nih.gov/grants/guide/pa-files/PAR-12-289.html">PAR-12-289</a></td>
+			      <td>U01</td>
+			      <td></td>
+			      <td>June 19, 2015</td>
+			      <td><a href="https://staffprofiles.cancer.gov/brp/prgmStaffProfile.do?contactId=1608&amp;bioType=stf">Richard Moser</a><br>
+			        240-276-6915<br>
+			        <a href="mailto:moserr@mail.nih.gov">moserr@mail.nih.gov</a></td>
+			      <td>Program Announcements</td>
+			      <td>Cooperative Agreement</td>
+			      <td></td>
+			      <td></td>
+		        </tr>
+			    <tr>
+			      <th scope="row">Tobacco Control Regulatory Research</th>
+			      <td><a href="https://grants.nih.gov/grants/guide/rfa-files/RFA-OD-13-011.html">RFA-OD-13-011</a></td>
+			      <td>R01</td>
+			      <td></td>
+			      <td>January 17, 2015</td>
+			      <td><a href="https://staffprofiles.cancer.gov/brp/prgmStaffProfile.do?contactId=1663667&amp;bioType=stf">Stephanie Land</a><br>
+			        240-276-6946<br>
+			        <a href="mailto:stephanie.land@nih.gov">stephanie.land@nih.gov</a></td>
+			      <td>RFA</td>
+			      <td>Research Project</td>
+			      <td></td>
+			      <td></td>
+		        </tr>
+			    <tr>
+			      <th scope="row">Tobacco Control Regulatory Research</th>
+			      <td><a href="https://grants.nih.gov/grants/guide/rfa-files/RFA-OD-13-012.html">RFA-OD-13-012</a></td>
+			      <td>R03</td>
+			      <td></td>
+			      <td>January 17, 2015</td>
+			      <td><a href="https://staffprofiles.cancer.gov/brp/prgmStaffProfile.do?contactId=1663667&amp;bioType=stf">Stephanie Land</a><br>
+			        240-276-6946<br>
+			        <a href="mailto:stephanie.land@nih.gov">stephanie.land@nih.gov</a></td>
+			      <td>RFA</td>
+			      <td>Small Grant</td>
+			      <td></td>
+			      <td></td>
+		        </tr>
+			    <tr>
+			      <th scope="row">Tobacco Control Regulatory Research</th>
+			      <td><a href="https://grants.nih.gov/grants/guide/rfa-files/RFA-OD-13-010.html">RFA-OD-13-010</a></td>
+			      <td>R21</td>
+			      <td></td>
+			      <td>January 17, 2015</td>
+			      <td><a href="https://staffprofiles.cancer.gov/brp/prgmStaffProfile.do?contactId=1663667&amp;bioType=stf">Stephanie Land</a><br>
+			        240-276-6946<br>
+			        <a href="mailto:stephanie.land@nih.gov">stephanie.land@nih.gov</a></td>
+			      <td>RFA</td>
+			      <td>Exploratory/Developmental</td>
+			      <td></td>
+			      <td></td>
+		        </tr>
+			    <tr>
+			      <th scope="row">Innovative Health Information Technology for Broad Adoption by Healthcare Systems and Consumers (SBIR)<br>
+			        <br>
+			        BRP Archived Product Directory: <a href="https://sbir.cancer.gov/">Small Business Innovation Research (SBIR) Program</a></th>
+			      <td><a href="https://grants.nih.gov/grants/guide/pa-files/PA-12-196.html">PA-12-196</a></td>
+			      <td>R44</td>
+			      <td></td>
+			      <td>January 8, 2015</td>
+			      <td>Bradford Hesse<br>
+			        240-276-6721 <br>
+			        <a href="mailto:hesseb@mail.nih.gov">hesseb@mail.nih.gov</a></td>
+			      <td>Program Announcements</td>
+			      <td>Small Business</td>
+			      <td></td>
+			      <td></td>
+		        </tr>
+			    <tr>
+			      <th scope="row">Mobile Health: Technology and Outcomes in Low and Middle Income Countries</th>
+			      <td><a href="https://grants.nih.gov/grants/guide/pa-files/PAR-14-028.html">PAR-14-028</a></td>
+			      <td>R21</td>
+			      <td></td>
+			      <td>February 20, 2015</td>
+			      <td>Bradford Hesse<br>
+			        240-276-6721 <br>
+			        <a href="mailto:hesseb@mail.nih.gov">hesseb@mail.nih.gov</a></td>
+			      <td>Program Announcements</td>
+			      <td>Exploratory/Developmental</td>
+			      <td></td>
+			      <td></td>
+		        </tr>
+			    <tr>
+			      <th scope="row">Administrative Supplements for Tobacco Regulatory Research on the Role and Impact of Flavors in Cigarettes, Cigars, E-Cigarettes and Smokeless Tobacco </th>
+			      <td><a href="https://grants.nih.gov/grants/guide/pa-files/PA-14-320.html">PA-14-320</a> (Admin Supp)</td>
+			      <td></td>
+			      <td></td>
+			      <td>September 30, 2014</td>
+			      <td>Mirjana Djordjevic<br>
+			        240-276-6886 <br>
+			        <a href="mailto:djordjev@mail.nih.gov">djordjev@mail.nih.gov</a></td>
+			      <td>Program Announcements</td>
+			      <td></td>
+			      <td></td>
+			      <td></td>
+		        </tr>
+			    <tr>
+			      <th scope="row">Systems Science and Health in the Behavioral and Social Sciences</th>
+			      <td><a href="https://grants.nih.gov/grants/guide/pa-files/PAR-11-314.html">PAR-11-314</a></td>
+			      <td>R01</td>
+			      <td></td>
+			      <td>September 8, 2014</td>
+			      <td><a href="https://staffprofiles.cancer.gov/brp/prgmStaffProfile.do?contactId=8581&amp;bioType=stf">Kara Hall</a><br>
+			        240-276-6831 <br>
+			        <a href="mailto:hallka@mail.nih.gov">hallka@mail.nih.gov</a></td>
+			      <td>Program Announcements</td>
+			      <td>Research Project</td>
+			      <td></td>
+			      <td></td>
+		        </tr>
+			    <tr>
+			      <th scope="row">Systematic Reviews to Inform Research and Treatment of Multi-Morbidities</th>
+			      <td>RFP No. S14-199 Full RFP details are available at: <a href="https://ncioa.cancer.gov/oa-internet/sbo/rqmt/alllist?execution=e1s1"> https://ncioa.cancer.gov/oa-internet/sbo/rqmt/alllist?execution=e1s1</a>, under &ldquo;Current Solicitations&rdquo; </td>
+			      <td></td>
+			      <td></td>
+			      <td>June 11, 2014</td>
+			      <td>Jerry Suls<br>
+			        <a href="mailto:jerry.suls@nih.gov">jerry.suls@nih.gov</a> <br>
+			        For inquiries about the proposal submission process, contact: <br>
+			        Alex Konev, Leidos Biomedical Research, Inc. <br>
+			        301-228-4323<br>
+			        <a href="mailto:paige.green@nih.gov">alex.konev@nih.gov</a></td>
+			      <td>&nbsp;</td>
+			      <td></td>
+			      <td></td>
+			      <td></td>
+		        </tr>
+			    <tr>
+			      <th scope="row">The Effect of Racial and Ethnic Discrimination/Bias on Health Care Delivery<br>
+			        <br>
+			        <a href="/brp/funding/journal-supplement.html">Journal Supplement on Racial/Ethnic Discrimination &amp; Health</a></th>
+			      <td><a href="https://grants.nih.gov/grants/guide/pa-files/PA-11-162.html">PA-11-162</a></td>
+			      <td>R01</td>
+			      <td></td>
+			      <td>May 8, 2014</td>
+			      <td><a href="https://healthcaredelivery.cancer.gov/about/staff/bios/chollette.html">Veronica Chollette</a><br>
+			        240-276-6969<br>
+			        <a href="mailto:cholletv@mail.nih.gov">cholletv@mail.nih.gov</a></td>
+			      <td>Program Announcements</td>
+			      <td>Research Project</td>
+			      <td></td>
+			      <td></td>
+		        </tr>
+			    <tr>
+			      <th scope="row">The Effect of Racial and Ethnic Discrimination/Bias on Health Care Delivery<br>
+			        <br>
+			        <a href="/brp/funding/journal-supplement.html">Journal Supplement on Racial/Ethnic Discrimination &amp; Health</a></th>
+			      <td><a href="https://grants.nih.gov/grants/guide/pa-files/PA-11-163.html">PA-11-163</a></td>
+			      <td>R21</td>
+			      <td></td>
+			      <td>May 8, 2014</td>
+			      <td><a href="https://healthcaredelivery.cancer.gov/about/staff/bios/chollette.html">Veronica Chollette</a><br>
+			        240-276-6969<br>
+			        <a href="mailto:cholletv@mail.nih.gov">cholletv@mail.nih.gov</a></td>
+			      <td>Program Announcements</td>
+			      <td>Exploratory/Developmental</td>
+			      <td></td>
+			      <td></td>
+		        </tr>
+			    <tr>
+			      <th scope="row">The Effect of Racial and Ethnic Discrimination/Bias on Health Care Delivery<br>
+			        <br>
+			        <a href="/brp/funding/journal-supplement.html">Journal Supplement on Racial/Ethnic Discrimination &amp; Health</a></th>
+			      <td><a href="https://grants.nih.gov/grants/guide/pa-files/PA-11-164.html">PA-11-164</a></td>
+			      <td>R03</td>
+			      <td></td>
+			      <td>May 8, 2014</td>
+			      <td><a href="https://healthcaredelivery.cancer.gov/about/staff/bios/chollette.html">Veronica Chollette</a><br>
+			        240-276-6969<br>
+			        <a href="mailto:cholletv@mail.nih.gov">cholletv@mail.nih.gov</a></td>
+			      <td>Program Announcements</td>
+			      <td>Small Grant</td>
+			      <td></td>
+			      <td></td>
+		        </tr>
+			    <tr>
+			      <th scope="row">Seeking novel small scale pilot projects to advance the mission of the <a href="/brp/bbpsb/ncintwk-biopthwys.html">National Cancer Institute Network on Biobehavioral Pathways in Cancer</a></th>
+			      <td>RFP# <a href="/brp/bbpsb/docs/Leidos_Biomedical_Research_Inc_RFP_No_S14_075.pdf" target="_blank">S14-075</a> (PDF)</td>
+			      <td></td>
+			      <td></td>
+			      <td>April 02, 2014</td>
+			      <td><a href="https://staffprofiles.cancer.gov/brp/prgmStaffProfile.do?contactId=8579">Paige Green</a><br>
+			        240-276-6899 <a href="mailto:paige.green@nih.gov">paige.green@nih.gov</a> <br>
+			        <br>
+			        For inquiries about the proposal submission process, contact: <br>
+			        Alex Konev, Leidos Biomedical Research, Inc. <br>
+			        301-228-4323<br>
+			        <a href="mailto:alex.konev@nih.gov">alex.konev@nih.gov</a></td>
+			      <td>&nbsp;</td>
+			      <td></td>
+			      <td></td>
+			      <td></td>
+		        </tr>
+			    <tr>
+			      <th scope="row">Using Social Media to Understand and Address Substance Use and Addiction</th>
+			      <td><a href="https://grants.nih.gov/grants/guide/rfa-files/RFA-CA-14-008.html">RFA-CA-14-008</a></td>
+			      <td>R01</td>
+			      <td></td>
+			      <td>March 26, 2014</td>
+			      <td><a href="https://staffprofiles.cancer.gov/brp/prgmStaffProfile.do?contactId=993308&amp;bioType=stf">Wen-ying Sylvia Chou</a><br>
+			        240-276-6954<br>
+			        <a href="mailto:chouws@mail.nih.gov">chouws@mail.nih.gov</a></td>
+			      <td>RFA</td>
+			      <td>Research Project</td>
+			      <td></td>
+			      <td></td>
+		        </tr>
+			    <tr>
+			      <th scope="row">Using Social Media to Understand and Address Substance Use and Addiction</th>
+			      <td><a href="https://grants.nih.gov/grants/guide/rfa-files/RFA-CA-14-009.html">RFA-CA-14-009</a></td>
+			      <td>R21</td>
+			      <td></td>
+			      <td>March 26, 2014</td>
+			      <td><a href="https://staffprofiles.cancer.gov/brp/prgmStaffProfile.do?contactId=993308&amp;bioType=stf">Wen-ying Sylvia Chou</a><br>
+			        240-276-6954<br>
+			        <a href="mailto:chouws@mail.nih.gov">chouws@mail.nih.gov</a></td>
+			      <td>RFA</td>
+			      <td>Exploratory/Developmental</td>
+			      <td></td>
+			      <td></td>
+		        </tr>
+			    <tr>
+			      <th scope="row">Translating Basic Behavioral and Social Science Discoveries into Interventions to Improve Health-Related Behaviors – Trans-NIH PA</th>
+			      <td><a href="https://grants.nih.gov/grants/guide/pa-files/PA-11-063.html">PA-11-063</a></td>
+			      <td>R01</td>
+			      <td></td>
+			      <td>January 8, 2014</td>
+			      <td><a href="https://staffprofiles.cancer.gov/brp/prgmStaffProfile.do?contactId=51678&amp;bioType=stf">Frank Perna</a><br>
+			        240-276-6782<br>
+			        <a href="mailto:pernafm@mail.nih.gov">pernafm@mail.nih.gov</a></td>
+			      <td>Program Announcements</td>
+			      <td>Research Project</td>
+			      <td></td>
+			      <td></td>
+		        </tr>
+			    <tr>
+			      <th scope="row">Behavioral Interventions to Address Multiple Chronic Health Conditions in Primary Care</th>
+			      <td><a href="https://grants.nih.gov/grants/guide/pa-files/PA-12-024.html">PA-12-024</a></td>
+			      <td>R01</td>
+			      <td></td>
+			      <td>January 8, 2014</td>
+			      <td><a href="https://healthcaredelivery.cancer.gov/about/staff/bios/chollette.html">Veronica Chollette</a><br>
+			        240-276-6969<br>
+			        <a href="mailto:cholletv@mail.nih.gov">cholletv@mail.nih.gov</a></td>
+			      <td>Program Announcements</td>
+			      <td>Research Project</td>
+			      <td></td>
+			      <td></td>
+		        </tr>
+			    <tr>
+			      <th scope="row">Center for Evaluation and Coordination of Training and Research in Tobacco Regulatory Science</th>
+			      <td><a href="https://grants.nih.gov/grants/guide/rfa-files/RFA-OD-13-117.html">RFA-OD-13-117</a></td>
+			      <td>U54</td>
+			      <td></td>
+			      <td>December 11, 2013</td>
+			      <td>Glen Morgan<br>
+			        240-276-6787 <br>
+			        <a href="mailto:gmorgan@nih.gov">gmorgan@nih.gov</a></td>
+			      <td>RFA</td>
+			      <td>Cooperative Agreement</td>
+			      <td></td>
+			      <td></td>
+		        </tr>
+			    <tr>
+			      <th scope="row">NIH Health Care Systems Research Collaboratory - Demonstration Projects for Pragmatic Clinical Trials Focusing on Multiple Chronic Conditions<br>
+			        <a href="https://grants.nih.gov/grants/guide/notice-files/NOT-RM-13-024.html">Technical Assistance Videocast</a></th>
+			      <td><a href="https://grants.nih.gov/grants/guide/rfa-files/RFA-RM-13-012.html">RFA-RM-13-012</a></td>
+			      <td>UH2/UH3</td>
+			      <td></td>
+			      <td>December 3, 2013</td>
+			      <td>Stephen Taplin<br>
+			        240-276-6947<br>
+			        <a href="mailto:taplins@mail.nih.gov">taplins@mail.nih.gov</a></td>
+			      <td>RFA</td>
+			      <td>Cooperative Agreement</td>
+			      <td></td>
+			      <td></td>
+		        </tr>
+			    <tr>
+			      <th scope="row">NCI Small Grants Program for Cancer Research (NCI Omnibus)<br>
+			        <br>
+			        <a href="/brp/funding/docs/2012_Evaluation-acc.pdf" target="_blank">Small Grants Program for Behavioral Research in Cancer Control Evaluation (2011)</a> (PDF)<br>
+			        <a href="/brp/funding/docs/2005_Evaluation-acc.pdf" target="_blank">Small Grants Program for Behavioral Research in Cancer Control Evaluation (2005)</a> (PDF)</th>
+			      <td><a href="https://grants.nih.gov/grants/guide/pa-files/PAR-12-144.html">PAR-12-144</a></td>
+			      <td>R03</td>
+			      <td></td>
+			      <td>November 19, 2013 </td>
+			      <td><a href="https://staffprofiles.cancer.gov/brp/prgmStaffProfile.do?contactId=1674&amp;bioType=stf">Gina Tesauro</a> <br>
+			        240-276-6786 <br>
+			        <a href="mailto:gina.tesauro@nih.gov">gina.tesauro@nih.gov</a></td>
+			      <td>Program Announcements</td>
+			      <td>Small Grant</td>
+			      <td></td>
+			      <td></td>
+		        </tr>
+			    <tr>
+			      <th scope="row">Research on the Role of Epigenetics in Social, Behavioral, Environmental and Biological Relationships, throughout the Life-Span and across Generations </th>
+			      <td><a href="https://grants.nih.gov/grants/guide/rfa-files/RFA-TW-13-002.html">RFA-TW-13-002</a></td>
+			      <td>R21</td>
+			      <td></td>
+			      <td>November 14, 2013</td>
+			      <td><a href="https://staffprofiles.cancer.gov/brp/prgmStaffProfile.do?contactId=1478&amp;bioType=stf">Tanya Agurs-Collins</a><br>
+			        240-276-6956<br>
+			        <a href="mailto:collinsta@mail.nih.gov">collinsta@mail.nih.gov</a></td>
+			      <td>RFA</td>
+			      <td>Exploratory/Developmental</td>
+			      <td></td>
+			      <td></td>
+		        </tr>
+		      </tbody>
+		  </table>
+			
+			<div class="row">
+			  <div class="col-xs-4 col-xs-push-8">
+					<p><a href="/brp/funding/funding-opportunities.html">View current opportunities</a></p>
+			  </div>
+		  </div>
+		</div>
+	</div>		
+</div>
+	
+	
 
-<!-- InstanceBeginEditable name="Sub Section" --><!-- InstanceEndEditable -->
+		
+  <!-- InstanceEndEditable -->
+
+<!-- InstanceBeginEditable name="Sub Section" -->
+	<!-- InstanceEndEditable -->
 
 <!-- InstanceBeginEditable name="Related Content" -->
 
@@ -850,7 +2081,7 @@ height="0" width="0" style="display:none;visibility:hidden" title="Google Tag Ma
 <div class="container">
 	<div class="row">
 		<div class="col-lg-12">
-			<p class="update"><span class="bold">Last Updated:</span> <!-- InstanceBeginEditable name="Last Updated" -->May 15, 2020<!-- InstanceEndEditable --></p>
+			<p class="update"><span class="bold">Last Updated:</span> <!-- InstanceBeginEditable name="Last Updated" -->June 19, 2020<!-- InstanceEndEditable --></p>
 		</div> <!-- /.col-lg-12 -->
 	</div> <!-- /.row -->
 </div> <!-- /.container -->
@@ -866,7 +2097,6 @@ height="0" width="0" style="display:none;visibility:hidden" title="Google Tag Ma
 				<li><a href="/brp/research/index.html">Research Resources and Tools</a></li>
 				<li><a href="/brp/program-branches.html">Program Branches</a></li>
 				<li><a href="/brp/about.html">About BRP</a></li>
-
 			</ul>
 		</div> <!-- /.col-md-3 -->
 		<div class="col-md-3">
@@ -938,7 +2168,32 @@ height="0" width="0" style="display:none;visibility:hidden" title="Google Tag Ma
 <script src="../js/bootstrap-hover-dropdown.min.js"></script>
 <!-- Custom jQuery -->
 <script src="../js/scripts-min.js"></script>
-<!-- InstanceBeginEditable name="Scripts" --><!-- InstanceEndEditable -->
+<!-- InstanceBeginEditable name="Scripts" -->
+<script src="/js/datatables.min.js"></script>
+<script src="/brp/js/brp-funding.js"></script>
+<script>
+	// Opening accordion based on URL
+	$(window).ready(function(){
+		var url = document.location.toString();
+		if ( url.match('#') ) {
+
+			$('#'+url.split('#')[1]).addClass('in');
+			$('[data-target="#'+url.split('#')[1]+'"]').removeClass('collapsed');
+			$('[data-target="#'+url.split('#')[1]+'"]').children('.accordion-icon').children().addClass('glyphicon-minus');	
+			smoothScrollTo($('#'+url.split('#')[1]));
+		}
+		
+		function smoothScrollTo(target) {
+			target = target.length ? target : $('[name=' + this.hash.slice(1) +']');
+
+			if (target.length) {
+			  $('html,body').animate({
+				scrollTop: target.offset().top
+			  }, 1000);
+			}
+		  }
+	})
+</script><!-- InstanceEndEditable -->
 <!-- Web Analytics -->
 <script type="text/javascript" src="https://static.cancer.gov/webanalytics/WA_DCCPS_PageLoad.js"></script>
 <script type="text/javascript">_satellite.pageBottom();</script>
