@@ -124,6 +124,8 @@ height="0" width="0" style="display:none;visibility:hidden" title="Google Tag Ma
 							<li class="landing-page-link"><a href="/brp/funding/">Funding Opportunities <span class="sr-only">Landing Page</span></a></li>
 							<li><a href="/brp/funding/funding-opportunities.html">Find Funding Opportunities</a></li>
 							<li><a href="/brp/funding/apply.html">How to Apply</a></li>
+							<li><a href="/brp/funding/sample-application.html">Sample Grant Applications</a></li>
+							<li><a href="https://staffprofiles.cancer.gov/brp/granteeList.do">Featured Grantees</a></li>
 						</ul>
 					</li>
 					<li class="dropdown">
