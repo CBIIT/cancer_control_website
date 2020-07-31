@@ -2402,8 +2402,11 @@ body .homepage .transparent-box .standard-intro {
   width: 55%;
 }
 body .homepage .transparent-box .new-announcement {
-  width: 30%;
+  width: 40%;
   position: relative;
+  background-color: rgba(0, 0, 0, 0.6);
+  border-radius: 40px;
+  padding: 20px 0px 20px 100px;
 }
 body .homepage .transparent-box .dashed-line {
   padding: 20px;
@@ -2424,13 +2427,14 @@ body .homepage .transparent-box a:hover {
   color: #FFFFFF;
 }
 body .homepage .transparent-box .headshot img {
-  width: 70px;
-  height: 70px;
+  width: 100px;
+  height: 100px;
   border-radius: 50%;
   border: 4px solid #FFFFFF;
   box-shadow: 0 0 8px rgba(0, 0, 0, 0.2);
   position: absolute;
-  left: -90px;
+  top: 5px;
+  left: -20px;
 }
 @media (max-width: 1200px) {
   body .homepage .transparent-box {
@@ -2440,6 +2444,16 @@ body .homepage .transparent-box .headshot img {
   body .homepage .transparent-box p {
     font-size: 18px;
     line-height: 24px;
+  }
+  body .homepage .transparent-box .new-announcement {
+    padding: 15px 0px 15px 90px;
+  }
+  body .homepage .transparent-box .headshot img {
+    top: 5px;
+    left: -10px;
+    width: 80px;
+    height: 80px;
+    border: 3px solid #FFFFFF;
   }
 }
 @media (max-width: 992px) {
@@ -2462,12 +2476,12 @@ body .homepage .transparent-box .headshot img {
   }
   body .homepage .transparent-box .new-announcement {
     width: 100%;
-    padding-left: 60px;
   }
   body .homepage .transparent-box .headshot img {
     left: 0px;
-    width: 50px;
-    height: 50px;
+    top: 5px;
+    width: 70px;
+    height: 70px;
     border: 3px solid #FFFFFF;
   }
 }
@@ -2477,7 +2491,7 @@ body .homepage .transparent-box .headshot img {
     width: 100%;
   }
   body .homepage .transparent-box {
-    top: 50px;
+    top: 20px;
     left: 0px;
     width: 100%;
   }
