@@ -142,6 +142,58 @@
           </s:sequence>
         </s:complexType>
       </s:element>
+      <s:element name="CohortConsortium_Registration">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="FirstName" type="s:string" />
+            <s:element minOccurs="0" maxOccurs="1" name="MiddleInit" type="s:string" />
+            <s:element minOccurs="0" maxOccurs="1" name="LastName" type="s:string" />
+            <s:element minOccurs="0" maxOccurs="1" name="Title" type="s:string" />
+            <s:element minOccurs="0" maxOccurs="1" name="Degree" type="s:string" />
+            <s:element minOccurs="0" maxOccurs="1" name="Institution" type="s:string" />
+            <s:element minOccurs="0" maxOccurs="1" name="Institution_Other" type="s:string" />
+            <s:element minOccurs="0" maxOccurs="1" name="Email" type="s:string" />
+            <s:element minOccurs="0" maxOccurs="1" name="Phone" type="s:string" />
+            <s:element minOccurs="0" maxOccurs="1" name="CohortAffiliation" type="s:string" />
+            <s:element minOccurs="0" maxOccurs="1" name="NCIAffiliate" type="s:string" />
+            <s:element minOccurs="0" maxOccurs="1" name="EarlyStageInvestigator" type="s:string" />
+            <s:element minOccurs="0" maxOccurs="1" name="LightningTalk" type="s:string" />
+            <s:element minOccurs="0" maxOccurs="1" name="WorkingGroupMeetings" type="s:string" />
+            <s:element minOccurs="0" maxOccurs="1" name="PitchNewIdeas" type="s:string" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="CohortConsortium_RegistrationResponse">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="CohortConsortium_RegistrationResult" type="s:string" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="NCORP_Registration">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="FirstName" type="s:string" />
+            <s:element minOccurs="0" maxOccurs="1" name="LastName" type="s:string" />
+            <s:element minOccurs="0" maxOccurs="1" name="Title" type="s:string" />
+            <s:element minOccurs="0" maxOccurs="1" name="Title_Other" type="s:string" />
+            <s:element minOccurs="0" maxOccurs="1" name="Email" type="s:string" />
+            <s:element minOccurs="0" maxOccurs="1" name="Program" type="s:string" />
+            <s:element minOccurs="0" maxOccurs="1" name="Program_Other" type="s:string" />
+            <s:element minOccurs="0" maxOccurs="1" name="Role" type="s:string" />
+            <s:element minOccurs="0" maxOccurs="1" name="Role_Other" type="s:string" />
+            <s:element minOccurs="0" maxOccurs="1" name="Affiliate" type="s:string" />
+            <s:element minOccurs="0" maxOccurs="1" name="MeetingParticipation" type="s:string" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="NCORP_RegistrationResponse">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="NCORP_RegistrationResult" type="s:string" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
       <s:element name="CatchmentAreasMeeting_InsertPoster">
         <s:complexType>
           <s:sequence>
@@ -258,6 +310,58 @@
         <s:complexType>
           <s:sequence>
             <s:element minOccurs="0" maxOccurs="1" name="Insert_MLTI_RegistrationResult" type="s:string" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="FutureofCancerHealth_Registration">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="FirstName" type="s:string" />
+            <s:element minOccurs="0" maxOccurs="1" name="LastName" type="s:string" />
+            <s:element minOccurs="0" maxOccurs="1" name="Title" type="s:string" />
+            <s:element minOccurs="0" maxOccurs="1" name="Organization" type="s:string" />
+            <s:element minOccurs="0" maxOccurs="1" name="DocDegree" type="s:string" />
+            <s:element minOccurs="0" maxOccurs="1" name="Address1" type="s:string" />
+            <s:element minOccurs="0" maxOccurs="1" name="Address2" type="s:string" />
+            <s:element minOccurs="0" maxOccurs="1" name="City" type="s:string" />
+            <s:element minOccurs="0" maxOccurs="1" name="State" type="s:string" />
+            <s:element minOccurs="0" maxOccurs="1" name="Zip" type="s:string" />
+            <s:element minOccurs="0" maxOccurs="1" name="Country" type="s:string" />
+            <s:element minOccurs="0" maxOccurs="1" name="Phone" type="s:string" />
+            <s:element minOccurs="0" maxOccurs="1" name="Email" type="s:string" />
+            <s:element minOccurs="0" maxOccurs="1" name="Race" type="s:string" />
+            <s:element minOccurs="0" maxOccurs="1" name="Race_Other" type="s:string" />
+            <s:element minOccurs="0" maxOccurs="1" name="AreYouHispanic" type="s:string" />
+            <s:element minOccurs="0" maxOccurs="1" name="Gender" type="s:string" />
+            <s:element minOccurs="0" maxOccurs="1" name="InvestigatorLevel" type="s:string" />
+            <s:element minOccurs="0" maxOccurs="1" name="FieldOfExpertise" type="s:string" />
+            <s:element minOccurs="0" maxOccurs="1" name="CancerControlContinuum" type="s:string" />
+            <s:element minOccurs="0" maxOccurs="1" name="Setting" type="s:string" />
+            <s:element minOccurs="0" maxOccurs="1" name="Populations" type="s:string" />
+            <s:element minOccurs="0" maxOccurs="1" name="bytes_PersonalStatement_File" type="s:base64Binary" />
+            <s:element minOccurs="0" maxOccurs="1" name="PersonalStatement_ContentType" type="s:string" />
+            <s:element minOccurs="0" maxOccurs="1" name="PersonalStatement_Filename" type="s:string" />
+            <s:element minOccurs="0" maxOccurs="1" name="bytes_Curriculum_File" type="s:base64Binary" />
+            <s:element minOccurs="0" maxOccurs="1" name="Curriculum_ContentType" type="s:string" />
+            <s:element minOccurs="0" maxOccurs="1" name="Curriculum_Filename" type="s:string" />
+            <s:element minOccurs="0" maxOccurs="1" name="bytes_ConceptPaper_File" type="s:base64Binary" />
+            <s:element minOccurs="0" maxOccurs="1" name="ConceptPaper_ContentType" type="s:string" />
+            <s:element minOccurs="0" maxOccurs="1" name="ConceptPaper_Filename" type="s:string" />
+            <s:element minOccurs="0" maxOccurs="1" name="bytes_LettersOfRec_File" type="s:base64Binary" />
+            <s:element minOccurs="0" maxOccurs="1" name="LettersOfRec_ContentType" type="s:string" />
+            <s:element minOccurs="0" maxOccurs="1" name="LettersOfRec_Filename" type="s:string" />
+            <s:element minOccurs="0" maxOccurs="1" name="FieldOfExpertise_other" type="s:string" />
+            <s:element minOccurs="0" maxOccurs="1" name="TypeOrganization" type="s:string" />
+            <s:element minOccurs="0" maxOccurs="1" name="TypeOrganization_other" type="s:string" />
+            <s:element minOccurs="0" maxOccurs="1" name="EngagedCancerCare" type="s:string" />
+            <s:element minOccurs="0" maxOccurs="1" name="EngagedCancerEconomics" type="s:string" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="FutureofCancerHealth_RegistrationResponse">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="FutureofCancerHealth_RegistrationResult" type="s:string" />
           </s:sequence>
         </s:complexType>
       </s:element>
@@ -469,6 +573,27 @@
           </s:sequence>
         </s:complexType>
       </s:element>
+      <s:element name="ImplementationScience_Register_Plain">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="PK_Webinar" type="s:string" />
+            <s:element minOccurs="0" maxOccurs="1" name="FirstName" type="s:string" />
+            <s:element minOccurs="0" maxOccurs="1" name="LastName" type="s:string" />
+            <s:element minOccurs="0" maxOccurs="1" name="EmailAddy" type="s:string" />
+            <s:element minOccurs="0" maxOccurs="1" name="Organization" type="s:string" />
+            <s:element minOccurs="0" maxOccurs="1" name="howdidyouhear" type="s:string" />
+            <s:element minOccurs="0" maxOccurs="1" name="Numberparticipants" type="s:string" />
+            <s:element minOccurs="1" maxOccurs="1" name="WantsToSubscribe" type="s:boolean" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="ImplementationScience_Register_PlainResponse">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="ImplementationScience_Register_PlainResult" type="s:string" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
       <s:element name="JSON_ImplementationScience_List_IS_Categories">
         <s:complexType>
           <s:sequence>
@@ -585,6 +710,18 @@
   <wsdl:message name="CatchmentAreasMeeting_RegistrationSoapOut">
     <wsdl:part name="parameters" element="tns:CatchmentAreasMeeting_RegistrationResponse" />
   </wsdl:message>
+  <wsdl:message name="CohortConsortium_RegistrationSoapIn">
+    <wsdl:part name="parameters" element="tns:CohortConsortium_Registration" />
+  </wsdl:message>
+  <wsdl:message name="CohortConsortium_RegistrationSoapOut">
+    <wsdl:part name="parameters" element="tns:CohortConsortium_RegistrationResponse" />
+  </wsdl:message>
+  <wsdl:message name="NCORP_RegistrationSoapIn">
+    <wsdl:part name="parameters" element="tns:NCORP_Registration" />
+  </wsdl:message>
+  <wsdl:message name="NCORP_RegistrationSoapOut">
+    <wsdl:part name="parameters" element="tns:NCORP_RegistrationResponse" />
+  </wsdl:message>
   <wsdl:message name="CatchmentAreasMeeting_InsertPosterSoapIn">
     <wsdl:part name="parameters" element="tns:CatchmentAreasMeeting_InsertPoster" />
   </wsdl:message>
@@ -602,6 +739,12 @@
   </wsdl:message>
   <wsdl:message name="Insert_MLTI_RegistrationSoapOut">
     <wsdl:part name="parameters" element="tns:Insert_MLTI_RegistrationResponse" />
+  </wsdl:message>
+  <wsdl:message name="FutureofCancerHealth_RegistrationSoapIn">
+    <wsdl:part name="parameters" element="tns:FutureofCancerHealth_Registration" />
+  </wsdl:message>
+  <wsdl:message name="FutureofCancerHealth_RegistrationSoapOut">
+    <wsdl:part name="parameters" element="tns:FutureofCancerHealth_RegistrationResponse" />
   </wsdl:message>
   <wsdl:message name="ImplementationScience_List_IS_CategoriesSoapIn">
     <wsdl:part name="parameters" element="tns:ImplementationScience_List_IS_Categories" />
@@ -668,6 +811,12 @@
   </wsdl:message>
   <wsdl:message name="ImplementationScience_RegisterSoapOut">
     <wsdl:part name="parameters" element="tns:ImplementationScience_RegisterResponse" />
+  </wsdl:message>
+  <wsdl:message name="ImplementationScience_Register_PlainSoapIn">
+    <wsdl:part name="parameters" element="tns:ImplementationScience_Register_Plain" />
+  </wsdl:message>
+  <wsdl:message name="ImplementationScience_Register_PlainSoapOut">
+    <wsdl:part name="parameters" element="tns:ImplementationScience_Register_PlainResponse" />
   </wsdl:message>
   <wsdl:message name="JSON_ImplementationScience_List_IS_CategoriesSoapIn">
     <wsdl:part name="parameters" element="tns:JSON_ImplementationScience_List_IS_Categories" />
@@ -807,6 +956,42 @@
   <wsdl:message name="CatchmentAreasMeeting_RegistrationHttpGetOut">
     <wsdl:part name="Body" element="tns:string" />
   </wsdl:message>
+  <wsdl:message name="CohortConsortium_RegistrationHttpGetIn">
+    <wsdl:part name="FirstName" type="s:string" />
+    <wsdl:part name="MiddleInit" type="s:string" />
+    <wsdl:part name="LastName" type="s:string" />
+    <wsdl:part name="Title" type="s:string" />
+    <wsdl:part name="Degree" type="s:string" />
+    <wsdl:part name="Institution" type="s:string" />
+    <wsdl:part name="Institution_Other" type="s:string" />
+    <wsdl:part name="Email" type="s:string" />
+    <wsdl:part name="Phone" type="s:string" />
+    <wsdl:part name="CohortAffiliation" type="s:string" />
+    <wsdl:part name="NCIAffiliate" type="s:string" />
+    <wsdl:part name="EarlyStageInvestigator" type="s:string" />
+    <wsdl:part name="LightningTalk" type="s:string" />
+    <wsdl:part name="WorkingGroupMeetings" type="s:string" />
+    <wsdl:part name="PitchNewIdeas" type="s:string" />
+  </wsdl:message>
+  <wsdl:message name="CohortConsortium_RegistrationHttpGetOut">
+    <wsdl:part name="Body" element="tns:string" />
+  </wsdl:message>
+  <wsdl:message name="NCORP_RegistrationHttpGetIn">
+    <wsdl:part name="FirstName" type="s:string" />
+    <wsdl:part name="LastName" type="s:string" />
+    <wsdl:part name="Title" type="s:string" />
+    <wsdl:part name="Title_Other" type="s:string" />
+    <wsdl:part name="Email" type="s:string" />
+    <wsdl:part name="Program" type="s:string" />
+    <wsdl:part name="Program_Other" type="s:string" />
+    <wsdl:part name="Role" type="s:string" />
+    <wsdl:part name="Role_Other" type="s:string" />
+    <wsdl:part name="Affiliate" type="s:string" />
+    <wsdl:part name="MeetingParticipation" type="s:string" />
+  </wsdl:message>
+  <wsdl:message name="NCORP_RegistrationHttpGetOut">
+    <wsdl:part name="Body" element="tns:string" />
+  </wsdl:message>
   <wsdl:message name="CatchmentAreasMeeting_InsertPosterHttpGetIn">
     <wsdl:part name="PosterTitle" type="s:string" />
     <wsdl:part name="AuthorList" type="s:string" />
@@ -902,6 +1087,50 @@
   <wsdl:message name="Insert_MLTI_RegistrationHttpGetOut">
     <wsdl:part name="Body" element="tns:string" />
   </wsdl:message>
+  <wsdl:message name="FutureofCancerHealth_RegistrationHttpGetIn">
+    <wsdl:part name="FirstName" type="s:string" />
+    <wsdl:part name="LastName" type="s:string" />
+    <wsdl:part name="Title" type="s:string" />
+    <wsdl:part name="Organization" type="s:string" />
+    <wsdl:part name="DocDegree" type="s:string" />
+    <wsdl:part name="Address1" type="s:string" />
+    <wsdl:part name="Address2" type="s:string" />
+    <wsdl:part name="City" type="s:string" />
+    <wsdl:part name="State" type="s:string" />
+    <wsdl:part name="Zip" type="s:string" />
+    <wsdl:part name="Country" type="s:string" />
+    <wsdl:part name="Phone" type="s:string" />
+    <wsdl:part name="Email" type="s:string" />
+    <wsdl:part name="Race" type="s:string" />
+    <wsdl:part name="Race_Other" type="s:string" />
+    <wsdl:part name="AreYouHispanic" type="s:string" />
+    <wsdl:part name="Gender" type="s:string" />
+    <wsdl:part name="InvestigatorLevel" type="s:string" />
+    <wsdl:part name="FieldOfExpertise" type="s:string" />
+    <wsdl:part name="CancerControlContinuum" type="s:string" />
+    <wsdl:part name="Setting" type="s:string" />
+    <wsdl:part name="Populations" type="s:string" />
+    <wsdl:part name="bytes_PersonalStatement_File" type="s1:StringArray" />
+    <wsdl:part name="PersonalStatement_ContentType" type="s:string" />
+    <wsdl:part name="PersonalStatement_Filename" type="s:string" />
+    <wsdl:part name="bytes_Curriculum_File" type="s1:StringArray" />
+    <wsdl:part name="Curriculum_ContentType" type="s:string" />
+    <wsdl:part name="Curriculum_Filename" type="s:string" />
+    <wsdl:part name="bytes_ConceptPaper_File" type="s1:StringArray" />
+    <wsdl:part name="ConceptPaper_ContentType" type="s:string" />
+    <wsdl:part name="ConceptPaper_Filename" type="s:string" />
+    <wsdl:part name="bytes_LettersOfRec_File" type="s1:StringArray" />
+    <wsdl:part name="LettersOfRec_ContentType" type="s:string" />
+    <wsdl:part name="LettersOfRec_Filename" type="s:string" />
+    <wsdl:part name="FieldOfExpertise_other" type="s:string" />
+    <wsdl:part name="TypeOrganization" type="s:string" />
+    <wsdl:part name="TypeOrganization_other" type="s:string" />
+    <wsdl:part name="EngagedCancerCare" type="s:string" />
+    <wsdl:part name="EngagedCancerEconomics" type="s:string" />
+  </wsdl:message>
+  <wsdl:message name="FutureofCancerHealth_RegistrationHttpGetOut">
+    <wsdl:part name="Body" element="tns:string" />
+  </wsdl:message>
   <wsdl:message name="ImplementationScience_List_IS_CategoriesHttpGetIn" />
   <wsdl:message name="ImplementationScience_List_IS_CategoriesHttpGetOut">
     <wsdl:part name="Body" element="tns:DataSet" />
@@ -965,6 +1194,19 @@
     <wsdl:part name="WantsToSubscribe" type="s:string" />
   </wsdl:message>
   <wsdl:message name="ImplementationScience_RegisterHttpGetOut">
+    <wsdl:part name="Body" element="tns:string" />
+  </wsdl:message>
+  <wsdl:message name="ImplementationScience_Register_PlainHttpGetIn">
+    <wsdl:part name="PK_Webinar" type="s:string" />
+    <wsdl:part name="FirstName" type="s:string" />
+    <wsdl:part name="LastName" type="s:string" />
+    <wsdl:part name="EmailAddy" type="s:string" />
+    <wsdl:part name="Organization" type="s:string" />
+    <wsdl:part name="howdidyouhear" type="s:string" />
+    <wsdl:part name="Numberparticipants" type="s:string" />
+    <wsdl:part name="WantsToSubscribe" type="s:string" />
+  </wsdl:message>
+  <wsdl:message name="ImplementationScience_Register_PlainHttpGetOut">
     <wsdl:part name="Body" element="tns:string" />
   </wsdl:message>
   <wsdl:message name="JSON_ImplementationScience_List_IS_CategoriesHttpGetIn">
@@ -1097,6 +1339,42 @@
   <wsdl:message name="CatchmentAreasMeeting_RegistrationHttpPostOut">
     <wsdl:part name="Body" element="tns:string" />
   </wsdl:message>
+  <wsdl:message name="CohortConsortium_RegistrationHttpPostIn">
+    <wsdl:part name="FirstName" type="s:string" />
+    <wsdl:part name="MiddleInit" type="s:string" />
+    <wsdl:part name="LastName" type="s:string" />
+    <wsdl:part name="Title" type="s:string" />
+    <wsdl:part name="Degree" type="s:string" />
+    <wsdl:part name="Institution" type="s:string" />
+    <wsdl:part name="Institution_Other" type="s:string" />
+    <wsdl:part name="Email" type="s:string" />
+    <wsdl:part name="Phone" type="s:string" />
+    <wsdl:part name="CohortAffiliation" type="s:string" />
+    <wsdl:part name="NCIAffiliate" type="s:string" />
+    <wsdl:part name="EarlyStageInvestigator" type="s:string" />
+    <wsdl:part name="LightningTalk" type="s:string" />
+    <wsdl:part name="WorkingGroupMeetings" type="s:string" />
+    <wsdl:part name="PitchNewIdeas" type="s:string" />
+  </wsdl:message>
+  <wsdl:message name="CohortConsortium_RegistrationHttpPostOut">
+    <wsdl:part name="Body" element="tns:string" />
+  </wsdl:message>
+  <wsdl:message name="NCORP_RegistrationHttpPostIn">
+    <wsdl:part name="FirstName" type="s:string" />
+    <wsdl:part name="LastName" type="s:string" />
+    <wsdl:part name="Title" type="s:string" />
+    <wsdl:part name="Title_Other" type="s:string" />
+    <wsdl:part name="Email" type="s:string" />
+    <wsdl:part name="Program" type="s:string" />
+    <wsdl:part name="Program_Other" type="s:string" />
+    <wsdl:part name="Role" type="s:string" />
+    <wsdl:part name="Role_Other" type="s:string" />
+    <wsdl:part name="Affiliate" type="s:string" />
+    <wsdl:part name="MeetingParticipation" type="s:string" />
+  </wsdl:message>
+  <wsdl:message name="NCORP_RegistrationHttpPostOut">
+    <wsdl:part name="Body" element="tns:string" />
+  </wsdl:message>
   <wsdl:message name="CatchmentAreasMeeting_InsertPosterHttpPostIn">
     <wsdl:part name="PosterTitle" type="s:string" />
     <wsdl:part name="AuthorList" type="s:string" />
@@ -1192,6 +1470,50 @@
   <wsdl:message name="Insert_MLTI_RegistrationHttpPostOut">
     <wsdl:part name="Body" element="tns:string" />
   </wsdl:message>
+  <wsdl:message name="FutureofCancerHealth_RegistrationHttpPostIn">
+    <wsdl:part name="FirstName" type="s:string" />
+    <wsdl:part name="LastName" type="s:string" />
+    <wsdl:part name="Title" type="s:string" />
+    <wsdl:part name="Organization" type="s:string" />
+    <wsdl:part name="DocDegree" type="s:string" />
+    <wsdl:part name="Address1" type="s:string" />
+    <wsdl:part name="Address2" type="s:string" />
+    <wsdl:part name="City" type="s:string" />
+    <wsdl:part name="State" type="s:string" />
+    <wsdl:part name="Zip" type="s:string" />
+    <wsdl:part name="Country" type="s:string" />
+    <wsdl:part name="Phone" type="s:string" />
+    <wsdl:part name="Email" type="s:string" />
+    <wsdl:part name="Race" type="s:string" />
+    <wsdl:part name="Race_Other" type="s:string" />
+    <wsdl:part name="AreYouHispanic" type="s:string" />
+    <wsdl:part name="Gender" type="s:string" />
+    <wsdl:part name="InvestigatorLevel" type="s:string" />
+    <wsdl:part name="FieldOfExpertise" type="s:string" />
+    <wsdl:part name="CancerControlContinuum" type="s:string" />
+    <wsdl:part name="Setting" type="s:string" />
+    <wsdl:part name="Populations" type="s:string" />
+    <wsdl:part name="bytes_PersonalStatement_File" type="s1:StringArray" />
+    <wsdl:part name="PersonalStatement_ContentType" type="s:string" />
+    <wsdl:part name="PersonalStatement_Filename" type="s:string" />
+    <wsdl:part name="bytes_Curriculum_File" type="s1:StringArray" />
+    <wsdl:part name="Curriculum_ContentType" type="s:string" />
+    <wsdl:part name="Curriculum_Filename" type="s:string" />
+    <wsdl:part name="bytes_ConceptPaper_File" type="s1:StringArray" />
+    <wsdl:part name="ConceptPaper_ContentType" type="s:string" />
+    <wsdl:part name="ConceptPaper_Filename" type="s:string" />
+    <wsdl:part name="bytes_LettersOfRec_File" type="s1:StringArray" />
+    <wsdl:part name="LettersOfRec_ContentType" type="s:string" />
+    <wsdl:part name="LettersOfRec_Filename" type="s:string" />
+    <wsdl:part name="FieldOfExpertise_other" type="s:string" />
+    <wsdl:part name="TypeOrganization" type="s:string" />
+    <wsdl:part name="TypeOrganization_other" type="s:string" />
+    <wsdl:part name="EngagedCancerCare" type="s:string" />
+    <wsdl:part name="EngagedCancerEconomics" type="s:string" />
+  </wsdl:message>
+  <wsdl:message name="FutureofCancerHealth_RegistrationHttpPostOut">
+    <wsdl:part name="Body" element="tns:string" />
+  </wsdl:message>
   <wsdl:message name="ImplementationScience_List_IS_CategoriesHttpPostIn" />
   <wsdl:message name="ImplementationScience_List_IS_CategoriesHttpPostOut">
     <wsdl:part name="Body" element="tns:DataSet" />
@@ -1257,6 +1579,19 @@
   <wsdl:message name="ImplementationScience_RegisterHttpPostOut">
     <wsdl:part name="Body" element="tns:string" />
   </wsdl:message>
+  <wsdl:message name="ImplementationScience_Register_PlainHttpPostIn">
+    <wsdl:part name="PK_Webinar" type="s:string" />
+    <wsdl:part name="FirstName" type="s:string" />
+    <wsdl:part name="LastName" type="s:string" />
+    <wsdl:part name="EmailAddy" type="s:string" />
+    <wsdl:part name="Organization" type="s:string" />
+    <wsdl:part name="howdidyouhear" type="s:string" />
+    <wsdl:part name="Numberparticipants" type="s:string" />
+    <wsdl:part name="WantsToSubscribe" type="s:string" />
+  </wsdl:message>
+  <wsdl:message name="ImplementationScience_Register_PlainHttpPostOut">
+    <wsdl:part name="Body" element="tns:string" />
+  </wsdl:message>
   <wsdl:message name="JSON_ImplementationScience_List_IS_CategoriesHttpPostIn">
     <wsdl:part name="str_CallBack" type="s:string" />
   </wsdl:message>
@@ -1296,6 +1631,14 @@
       <wsdl:input message="tns:CatchmentAreasMeeting_RegistrationSoapIn" />
       <wsdl:output message="tns:CatchmentAreasMeeting_RegistrationSoapOut" />
     </wsdl:operation>
+    <wsdl:operation name="CohortConsortium_Registration">
+      <wsdl:input message="tns:CohortConsortium_RegistrationSoapIn" />
+      <wsdl:output message="tns:CohortConsortium_RegistrationSoapOut" />
+    </wsdl:operation>
+    <wsdl:operation name="NCORP_Registration">
+      <wsdl:input message="tns:NCORP_RegistrationSoapIn" />
+      <wsdl:output message="tns:NCORP_RegistrationSoapOut" />
+    </wsdl:operation>
     <wsdl:operation name="CatchmentAreasMeeting_InsertPoster">
       <wsdl:input message="tns:CatchmentAreasMeeting_InsertPosterSoapIn" />
       <wsdl:output message="tns:CatchmentAreasMeeting_InsertPosterSoapOut" />
@@ -1307,6 +1650,10 @@
     <wsdl:operation name="Insert_MLTI_Registration">
       <wsdl:input message="tns:Insert_MLTI_RegistrationSoapIn" />
       <wsdl:output message="tns:Insert_MLTI_RegistrationSoapOut" />
+    </wsdl:operation>
+    <wsdl:operation name="FutureofCancerHealth_Registration">
+      <wsdl:input message="tns:FutureofCancerHealth_RegistrationSoapIn" />
+      <wsdl:output message="tns:FutureofCancerHealth_RegistrationSoapOut" />
     </wsdl:operation>
     <wsdl:operation name="ImplementationScience_List_IS_Categories">
       <wsdl:input message="tns:ImplementationScience_List_IS_CategoriesSoapIn" />
@@ -1352,6 +1699,10 @@
       <wsdl:input message="tns:ImplementationScience_RegisterSoapIn" />
       <wsdl:output message="tns:ImplementationScience_RegisterSoapOut" />
     </wsdl:operation>
+    <wsdl:operation name="ImplementationScience_Register_Plain">
+      <wsdl:input message="tns:ImplementationScience_Register_PlainSoapIn" />
+      <wsdl:output message="tns:ImplementationScience_Register_PlainSoapOut" />
+    </wsdl:operation>
     <wsdl:operation name="JSON_ImplementationScience_List_IS_Categories">
       <wsdl:input message="tns:JSON_ImplementationScience_List_IS_CategoriesSoapIn" />
       <wsdl:output message="tns:JSON_ImplementationScience_List_IS_CategoriesSoapOut" />
@@ -1390,6 +1741,14 @@
       <wsdl:input message="tns:CatchmentAreasMeeting_RegistrationHttpGetIn" />
       <wsdl:output message="tns:CatchmentAreasMeeting_RegistrationHttpGetOut" />
     </wsdl:operation>
+    <wsdl:operation name="CohortConsortium_Registration">
+      <wsdl:input message="tns:CohortConsortium_RegistrationHttpGetIn" />
+      <wsdl:output message="tns:CohortConsortium_RegistrationHttpGetOut" />
+    </wsdl:operation>
+    <wsdl:operation name="NCORP_Registration">
+      <wsdl:input message="tns:NCORP_RegistrationHttpGetIn" />
+      <wsdl:output message="tns:NCORP_RegistrationHttpGetOut" />
+    </wsdl:operation>
     <wsdl:operation name="CatchmentAreasMeeting_InsertPoster">
       <wsdl:input message="tns:CatchmentAreasMeeting_InsertPosterHttpGetIn" />
       <wsdl:output message="tns:CatchmentAreasMeeting_InsertPosterHttpGetOut" />
@@ -1401,6 +1760,10 @@
     <wsdl:operation name="Insert_MLTI_Registration">
       <wsdl:input message="tns:Insert_MLTI_RegistrationHttpGetIn" />
       <wsdl:output message="tns:Insert_MLTI_RegistrationHttpGetOut" />
+    </wsdl:operation>
+    <wsdl:operation name="FutureofCancerHealth_Registration">
+      <wsdl:input message="tns:FutureofCancerHealth_RegistrationHttpGetIn" />
+      <wsdl:output message="tns:FutureofCancerHealth_RegistrationHttpGetOut" />
     </wsdl:operation>
     <wsdl:operation name="ImplementationScience_List_IS_Categories">
       <wsdl:input message="tns:ImplementationScience_List_IS_CategoriesHttpGetIn" />
@@ -1446,6 +1809,10 @@
       <wsdl:input message="tns:ImplementationScience_RegisterHttpGetIn" />
       <wsdl:output message="tns:ImplementationScience_RegisterHttpGetOut" />
     </wsdl:operation>
+    <wsdl:operation name="ImplementationScience_Register_Plain">
+      <wsdl:input message="tns:ImplementationScience_Register_PlainHttpGetIn" />
+      <wsdl:output message="tns:ImplementationScience_Register_PlainHttpGetOut" />
+    </wsdl:operation>
     <wsdl:operation name="JSON_ImplementationScience_List_IS_Categories">
       <wsdl:input message="tns:JSON_ImplementationScience_List_IS_CategoriesHttpGetIn" />
       <wsdl:output message="tns:JSON_ImplementationScience_List_IS_CategoriesHttpGetOut" />
@@ -1484,6 +1851,14 @@
       <wsdl:input message="tns:CatchmentAreasMeeting_RegistrationHttpPostIn" />
       <wsdl:output message="tns:CatchmentAreasMeeting_RegistrationHttpPostOut" />
     </wsdl:operation>
+    <wsdl:operation name="CohortConsortium_Registration">
+      <wsdl:input message="tns:CohortConsortium_RegistrationHttpPostIn" />
+      <wsdl:output message="tns:CohortConsortium_RegistrationHttpPostOut" />
+    </wsdl:operation>
+    <wsdl:operation name="NCORP_Registration">
+      <wsdl:input message="tns:NCORP_RegistrationHttpPostIn" />
+      <wsdl:output message="tns:NCORP_RegistrationHttpPostOut" />
+    </wsdl:operation>
     <wsdl:operation name="CatchmentAreasMeeting_InsertPoster">
       <wsdl:input message="tns:CatchmentAreasMeeting_InsertPosterHttpPostIn" />
       <wsdl:output message="tns:CatchmentAreasMeeting_InsertPosterHttpPostOut" />
@@ -1495,6 +1870,10 @@
     <wsdl:operation name="Insert_MLTI_Registration">
       <wsdl:input message="tns:Insert_MLTI_RegistrationHttpPostIn" />
       <wsdl:output message="tns:Insert_MLTI_RegistrationHttpPostOut" />
+    </wsdl:operation>
+    <wsdl:operation name="FutureofCancerHealth_Registration">
+      <wsdl:input message="tns:FutureofCancerHealth_RegistrationHttpPostIn" />
+      <wsdl:output message="tns:FutureofCancerHealth_RegistrationHttpPostOut" />
     </wsdl:operation>
     <wsdl:operation name="ImplementationScience_List_IS_Categories">
       <wsdl:input message="tns:ImplementationScience_List_IS_CategoriesHttpPostIn" />
@@ -1539,6 +1918,10 @@
     <wsdl:operation name="ImplementationScience_Register">
       <wsdl:input message="tns:ImplementationScience_RegisterHttpPostIn" />
       <wsdl:output message="tns:ImplementationScience_RegisterHttpPostOut" />
+    </wsdl:operation>
+    <wsdl:operation name="ImplementationScience_Register_Plain">
+      <wsdl:input message="tns:ImplementationScience_Register_PlainHttpPostIn" />
+      <wsdl:output message="tns:ImplementationScience_Register_PlainHttpPostOut" />
     </wsdl:operation>
     <wsdl:operation name="JSON_ImplementationScience_List_IS_Categories">
       <wsdl:input message="tns:JSON_ImplementationScience_List_IS_CategoriesHttpPostIn" />
@@ -1599,6 +1982,24 @@
         <soap:body use="literal" />
       </wsdl:output>
     </wsdl:operation>
+    <wsdl:operation name="CohortConsortium_Registration">
+      <soap:operation soapAction="http://tempuri.org/CohortConsortium_Registration" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="NCORP_Registration">
+      <soap:operation soapAction="http://tempuri.org/NCORP_Registration" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
     <wsdl:operation name="CatchmentAreasMeeting_InsertPoster">
       <soap:operation soapAction="http://tempuri.org/CatchmentAreasMeeting_InsertPoster" style="document" />
       <wsdl:input>
@@ -1619,6 +2020,15 @@
     </wsdl:operation>
     <wsdl:operation name="Insert_MLTI_Registration">
       <soap:operation soapAction="http://tempuri.org/Insert_MLTI_Registration" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="FutureofCancerHealth_Registration">
+      <soap:operation soapAction="http://tempuri.org/FutureofCancerHealth_Registration" style="document" />
       <wsdl:input>
         <soap:body use="literal" />
       </wsdl:input>
@@ -1725,6 +2135,15 @@
         <soap:body use="literal" />
       </wsdl:output>
     </wsdl:operation>
+    <wsdl:operation name="ImplementationScience_Register_Plain">
+      <soap:operation soapAction="http://tempuri.org/ImplementationScience_Register_Plain" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
     <wsdl:operation name="JSON_ImplementationScience_List_IS_Categories">
       <soap:operation soapAction="http://tempuri.org/JSON_ImplementationScience_List_IS_Categories" style="document" />
       <wsdl:input>
@@ -1809,6 +2228,24 @@
         <soap12:body use="literal" />
       </wsdl:output>
     </wsdl:operation>
+    <wsdl:operation name="CohortConsortium_Registration">
+      <soap12:operation soapAction="http://tempuri.org/CohortConsortium_Registration" style="document" />
+      <wsdl:input>
+        <soap12:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="NCORP_Registration">
+      <soap12:operation soapAction="http://tempuri.org/NCORP_Registration" style="document" />
+      <wsdl:input>
+        <soap12:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
     <wsdl:operation name="CatchmentAreasMeeting_InsertPoster">
       <soap12:operation soapAction="http://tempuri.org/CatchmentAreasMeeting_InsertPoster" style="document" />
       <wsdl:input>
@@ -1829,6 +2266,15 @@
     </wsdl:operation>
     <wsdl:operation name="Insert_MLTI_Registration">
       <soap12:operation soapAction="http://tempuri.org/Insert_MLTI_Registration" style="document" />
+      <wsdl:input>
+        <soap12:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="FutureofCancerHealth_Registration">
+      <soap12:operation soapAction="http://tempuri.org/FutureofCancerHealth_Registration" style="document" />
       <wsdl:input>
         <soap12:body use="literal" />
       </wsdl:input>
@@ -1935,6 +2381,15 @@
         <soap12:body use="literal" />
       </wsdl:output>
     </wsdl:operation>
+    <wsdl:operation name="ImplementationScience_Register_Plain">
+      <soap12:operation soapAction="http://tempuri.org/ImplementationScience_Register_Plain" style="document" />
+      <wsdl:input>
+        <soap12:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
     <wsdl:operation name="JSON_ImplementationScience_List_IS_Categories">
       <soap12:operation soapAction="http://tempuri.org/JSON_ImplementationScience_List_IS_Categories" style="document" />
       <wsdl:input>
@@ -2019,6 +2474,24 @@
         <mime:mimeXml part="Body" />
       </wsdl:output>
     </wsdl:operation>
+    <wsdl:operation name="CohortConsortium_Registration">
+      <http:operation location="/CohortConsortium_Registration" />
+      <wsdl:input>
+        <http:urlEncoded />
+      </wsdl:input>
+      <wsdl:output>
+        <mime:mimeXml part="Body" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="NCORP_Registration">
+      <http:operation location="/NCORP_Registration" />
+      <wsdl:input>
+        <http:urlEncoded />
+      </wsdl:input>
+      <wsdl:output>
+        <mime:mimeXml part="Body" />
+      </wsdl:output>
+    </wsdl:operation>
     <wsdl:operation name="CatchmentAreasMeeting_InsertPoster">
       <http:operation location="/CatchmentAreasMeeting_InsertPoster" />
       <wsdl:input>
@@ -2039,6 +2512,15 @@
     </wsdl:operation>
     <wsdl:operation name="Insert_MLTI_Registration">
       <http:operation location="/Insert_MLTI_Registration" />
+      <wsdl:input>
+        <http:urlEncoded />
+      </wsdl:input>
+      <wsdl:output>
+        <mime:mimeXml part="Body" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="FutureofCancerHealth_Registration">
+      <http:operation location="/FutureofCancerHealth_Registration" />
       <wsdl:input>
         <http:urlEncoded />
       </wsdl:input>
@@ -2138,6 +2620,15 @@
     </wsdl:operation>
     <wsdl:operation name="ImplementationScience_Register">
       <http:operation location="/ImplementationScience_Register" />
+      <wsdl:input>
+        <http:urlEncoded />
+      </wsdl:input>
+      <wsdl:output>
+        <mime:mimeXml part="Body" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="ImplementationScience_Register_Plain">
+      <http:operation location="/ImplementationScience_Register_Plain" />
       <wsdl:input>
         <http:urlEncoded />
       </wsdl:input>
@@ -2221,6 +2712,24 @@
         <mime:mimeXml part="Body" />
       </wsdl:output>
     </wsdl:operation>
+    <wsdl:operation name="CohortConsortium_Registration">
+      <http:operation location="/CohortConsortium_Registration" />
+      <wsdl:input>
+        <mime:content type="application/x-www-form-urlencoded" />
+      </wsdl:input>
+      <wsdl:output>
+        <mime:mimeXml part="Body" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="NCORP_Registration">
+      <http:operation location="/NCORP_Registration" />
+      <wsdl:input>
+        <mime:content type="application/x-www-form-urlencoded" />
+      </wsdl:input>
+      <wsdl:output>
+        <mime:mimeXml part="Body" />
+      </wsdl:output>
+    </wsdl:operation>
     <wsdl:operation name="CatchmentAreasMeeting_InsertPoster">
       <http:operation location="/CatchmentAreasMeeting_InsertPoster" />
       <wsdl:input>
@@ -2241,6 +2750,15 @@
     </wsdl:operation>
     <wsdl:operation name="Insert_MLTI_Registration">
       <http:operation location="/Insert_MLTI_Registration" />
+      <wsdl:input>
+        <mime:content type="application/x-www-form-urlencoded" />
+      </wsdl:input>
+      <wsdl:output>
+        <mime:mimeXml part="Body" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="FutureofCancerHealth_Registration">
+      <http:operation location="/FutureofCancerHealth_Registration" />
       <wsdl:input>
         <mime:content type="application/x-www-form-urlencoded" />
       </wsdl:input>
@@ -2340,6 +2858,15 @@
     </wsdl:operation>
     <wsdl:operation name="ImplementationScience_Register">
       <http:operation location="/ImplementationScience_Register" />
+      <wsdl:input>
+        <mime:content type="application/x-www-form-urlencoded" />
+      </wsdl:input>
+      <wsdl:output>
+        <mime:mimeXml part="Body" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="ImplementationScience_Register_Plain">
+      <http:operation location="/ImplementationScience_Register_Plain" />
       <wsdl:input>
         <mime:content type="application/x-www-form-urlencoded" />
       </wsdl:input>
