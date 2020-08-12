@@ -268,27 +268,33 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
 		    <div class="row">
 					<div class="col-md-6">
 						<asp:Label ID="Label6" runat="server" AssociatedControlID="TXT_Title" Text="Degree(s) *"></asp:Label>
-					  <asp:ListBox ID="TXT_Title" runat="server" Width="100%" SelectionMode="Multiple" Rows="4">
+					  <asp:ListBox ID="TXT_Title" runat="server" Width="100%" SelectionMode="Multiple" Rows="5">
+                            <asp:ListItem Text="A.A." Value="A.A." />
+                            <asp:ListItem Text="B.A." Value="B.A." />
+                            <asp:ListItem Text="B.S." Value="B.S." />
+                            <asp:ListItem Text="B.S.N." Value="B.S.N." />
+                            <asp:ListItem Text="D.D.S." Value="D.D.S." />
+                            <asp:ListItem Text="D.O." Value="D.O." />
+                            <asp:ListItem Text="D.Sc." Value="D.Sc." />
+                            <asp:ListItem Text="D.V.M." Value="D.V.M." />
+                            <asp:ListItem Text="Dr.Ed." Value="Dr.Ed." />
+                            <asp:ListItem Text="Dr.P.H." Value="Dr.P.H." />
+                            <asp:ListItem Text="J.D." Value="J.D." />
+                            <asp:ListItem Text="M.A." Value="M.A." />
+                            <asp:ListItem Text="M.B.A." Value="M.B.A." />
+                            <asp:ListItem Text="M.D." Value="M.D." />
+                            <asp:ListItem Text="M.Ed." Value="M.Ed." />
+                            <asp:ListItem Text="M.H.A." Value="M.H.A." />
+                            <asp:ListItem Text="M.H.S." Value="M.H.S." />
                             <asp:ListItem Text="M.P.A." Value="M.P.A." />
                             <asp:ListItem Text="M.P.H." Value="M.P.H." />
                             <asp:ListItem Text="M.P.P." Value="M.P.P." />
-                            <asp:ListItem Text="M.H.S." Value="M.H.S." />
                             <asp:ListItem Text="M.S." Value="M.S." />
                             <asp:ListItem Text="M.S.N." Value="M.S.N." />
                             <asp:ListItem Text="M.S.P.H." Value="M.S.P.H." />
-                            <asp:ListItem Text="M.H.A." Value="M.H.A." />
-                            <asp:ListItem Text="M.Ed." Value="M.Ed." />
-                            <asp:ListItem Text="M.D." Value="M.D." />
-                            <asp:ListItem Text="D.O." Value="D.O." />
-                            <asp:ListItem Text="M.B.A." Value="M.B.A." />
-                            <asp:ListItem Text="M.A." Value="M.A." />
-                            <asp:ListItem Text="J.D." Value="J.D." />
-                            <asp:ListItem Text="D.V.M." Value="D.V.M." />
-                            <asp:ListItem Text="D.Sc." Value="D.Sc." />
-                            <asp:ListItem Text="B.S.N." Value="B.S.N." />
-                            <asp:ListItem Text="B.S." Value="B.S." />
-                            <asp:ListItem Text="B.A." Value="B.A." />
-                            <asp:ListItem Text="A.A." Value="A.A." />
+                            <asp:ListItem Text="Ph.D." Value="Ph.D." />
+                            <asp:ListItem Text="Pharm.D." Value="Pharm.D." />
+                            <asp:ListItem Text="R.N" Value="R.N" />
                             <asp:ListItem Text="Other" Value="Other" />
                       </asp:ListBox>
                         </div>
