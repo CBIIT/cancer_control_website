@@ -1,6 +1,22 @@
 {
     "events": [
 		{
+			"eventtitle":"Implementation Science in Deploying and Evaluating Symptom Assessment and Management",
+			"eventurl":"https://cancercontrol.cancer.gov/IS/training-education/details.aspx?ID=79",
+			"eventdatemonth":"August",
+			"eventdateday":"16",
+			"eventtype":"Webinar",
+            "fulldate":"2020-08-16T18:00:00.000Z"
+        },
+		{
+			"eventtitle":"Electronic Nicotine Delivery Systems Use Among Adolescents Funding Opportunity",
+			"eventurl":"https://cancercontrol.cancer.gov/funding-foa-applicants.html#collapse-36",
+			"eventdatemonth":"August",
+			"eventdateday":"17",
+			"eventtype":"Webinar",
+            "fulldate":"2020-08-17T18:00:00.000Z"
+        },
+		{
 			"eventtitle":"Current Approaches for Addressing Medical Financial Hardship in the Context of Cancer Care Delivery",
 			"eventurl":"https://healthcaredelivery.cancer.gov/media/approaches.html",
 			"eventdatemonth":"August",
@@ -15,6 +31,22 @@
 			"eventdateday":"1",
 			"eventtype":"Webinar",
             "fulldate":"2020-09-01T18:00:00.000Z"
+        },
+		{
+			"eventtitle":"Multimorbidity Funding Opportunity Announcements Technical Assistance",
+			"eventurl":"https://healthcaredelivery.cancer.gov/media/multimorbidity.html",
+			"eventdatemonth":"September",
+			"eventdateday":"1",
+			"eventtype":"Webinar",
+            "fulldate":"2020-09-01T18:00:00.000Z"
+        },
+		{
+			"eventtitle":"Beyond Statistical Significance: Finding Meaningful Effects Virtual Meeting",
+			"eventurl":"https://apps1.seiservices.com/meaningfuleffects/",
+			"eventdatemonth":"September",
+			"eventdateday":"2",
+			"eventtype":"Webinar",
+            "fulldate":"2020-09-02T18:00:00.000Z"
         },
 		{
 			"eventtitle":"Polygenic Risk Scores",
@@ -49,6 +81,14 @@
             "fulldate":"2020-09-28T18:00:00.000Z"
         },
 		{
+			"eventtitle":"Hindsight is 2020: Lessons learned from cancer and aging researchers on submitting a NIH grant",
+			"eventurl":"https://cancercontrol.cancer.gov/funding-foa-applicants.html#collapse-35",
+			"eventdatemonth":"October",
+			"eventdateday":"10",
+			"eventtype":"Webinar",
+            "fulldate":"2020-10-10T18:00:00.000Z"
+        },
+		{
 			"eventtitle":"Leveraging Cross-Cancer Shared Heritability to Better Understand the Genetic Architecture of Cancer",
 			"eventurl":"https://epi.grants.cancer.gov/events/seqSPACE/index.html#lindstroem",
 			"eventdatemonth":"October",
@@ -63,6 +103,14 @@
 			"eventdateday":"3",
 			"eventtype":"Webinar",
             "fulldate":"2020-10-03T18:00:00.000Z"
+        },
+		{
+			"eventtitle":"SAVE THE DATE: NCI Cohort Consortium Annual Meeting",
+			"eventurl":"",
+			"eventdatemonth":"November",
+			"eventdateday":"16-17",
+			"eventtype":"Webinar",
+            "fulldate":"2020-10-17T18:00:00.000Z"
         },
 		{
 			"eventtitle":"<span>Cancer Epidemiology in Hispanic Populations Workshop</span><br> <em>Rescheduled from May 2020.</em>",
