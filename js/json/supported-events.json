@@ -1,52 +1,20 @@
 {
     "events": [
 		{
-			"eventtitle":"Implementation Science in Deploying and Evaluating Symptom Assessment and Management",
-			"eventurl":"https://cancercontrol.cancer.gov/IS/training-education/details.aspx?ID=79",
-			"eventdatemonth":"August",
-			"eventdateday":"16",
-			"eventtype":"Webinar",
-            "fulldate":"2020-08-16T18:00:00.000Z"
-        },
-		{
-			"eventtitle":"Electronic Nicotine Delivery Systems Use Among Adolescents Funding Opportunity",
-			"eventurl":"https://cancercontrol.cancer.gov/funding-foa-applicants.html#collapse-36",
-			"eventdatemonth":"August",
-			"eventdateday":"17",
-			"eventtype":"Webinar",
-            "fulldate":"2020-08-17T18:00:00.000Z"
-        },
-		{
-			"eventtitle":"Current Approaches for Addressing Medical Financial Hardship in the Context of Cancer Care Delivery",
-			"eventurl":"https://healthcaredelivery.cancer.gov/media/approaches.html",
-			"eventdatemonth":"August",
-			"eventdateday":"27",
-			"eventtype":"Webinar",
-            "fulldate":"2020-08-27T18:00:00.000Z"
-        },
-		{
-			"eventtitle":"A New Paradigm for Genetic Testing The Magenta Study: Making Genetic Testing More Accessible",
-			"eventurl":"https://epi.grants.cancer.gov/events/enrich-forum/index.html#lu",
-			"eventdatemonth":"September",
-			"eventdateday":"1",
-			"eventtype":"Webinar",
-            "fulldate":"2020-09-01T18:00:00.000Z"
-        },
-		{
-			"eventtitle":"Multimorbidity Funding Opportunity Announcements Technical Assistance",
-			"eventurl":"https://healthcaredelivery.cancer.gov/media/multimorbidity.html",
-			"eventdatemonth":"September",
-			"eventdateday":"1",
-			"eventtype":"Webinar",
-            "fulldate":"2020-09-01T18:00:00.000Z"
-        },
-		{
 			"eventtitle":"Beyond Statistical Significance: Finding Meaningful Effects Virtual Meeting",
 			"eventurl":"https://apps1.seiservices.com/meaningfuleffects/",
 			"eventdatemonth":"September",
 			"eventdateday":"2",
 			"eventtype":"Webinar",
-            "fulldate":"2020-09-02T18:00:00.000Z"
+            "fulldate":"2020-09-02T23:00:00.000Z"
+        },
+		{
+			"eventtitle":"ASA24 Dietary Assessment Tool: Recent Updates and Future Enhancements",
+			"eventurl":"https://cbiit.webex.com/mw3300/mywebex/default.do?nomenu=true&siteurl=cbiit&service=6&rnd=0.6495175043315439&main_url=https%3A%2F%2Fcbiit.webex.com%2Fec3300%2Feventcenter%2Fevent%2FeventAction.do%3FtheAction%3Ddetail%26%26%26EMK%3D4832534b00000004b7444afa9e165acce42f67a4cc05bbd690b62b549b134a515dc3724396bd29ad%26siteurl%3Dcbiit%26confViewID%3D170012566055035082%26encryptTicket%3DSDJTSwAAAATWQZDGtxifwI4vvQ3BAznS-Yep_XCsM7O63I8fXaRUYA2%26",
+			"eventdatemonth":"September",
+			"eventdateday":"14",
+			"eventtype":"Webinar",
+            "fulldate":"2020-09-14T23:00:00.000Z"
         },
 		{
 			"eventtitle":"Polygenic Risk Scores",
@@ -54,39 +22,31 @@
 			"eventdatemonth":"September",
 			"eventdateday":"15",
 			"eventtype":"Webinar",
-            "fulldate":"2020-09-15T18:00:00.000Z"
+            "fulldate":"2020-09-15T23:00:00.000Z"
         },
 		{
-			"eventtitle":"SAVE THE DATE: Early Onset Colorectal Cancer Think Tank Meeting",
-			"eventurl":"",
+			"eventtitle":"NIH Early-Onset Colorectal Cancer Think Tank Meeting",
+			"eventurl":"https://events.cancer.gov/crs/eocrc",
 			"eventdatemonth":"September",
 			"eventdateday":"24-25",
-			"eventtype":"In-Person Workshop",
-            "fulldate":"2020-09-25T18:00:00.000Z"
+			"eventtype":"Webinar",
+            "fulldate":"2020-09-25T23:00:00.000Z"
         },
 		{
-			"eventtitle":"SAVE THE DATE: Cancer and Aging Webinar",
+			"eventtitle":"Geriatric Assessment in Oncology: Yesterday, Today, & Tomorrow",
 			"eventurl":"https://cancercontrol.cancer.gov/funding-foa-applicants.html#collapse-32",
 			"eventdatemonth":"September",
 			"eventdateday":"28",
 			"eventtype":"Webinar",
-            "fulldate":"2020-09-28T18:00:00.000Z"
-        },
-		{
-			"eventtitle":"SAVE THE DATE: Perspectives on Cancer and Aging: Arti Hurria Memorial Webinar",
-			"eventurl":"",
-			"eventdatemonth":"September",
-			"eventdateday":"28",
-			"eventtype":"Webinar",
-            "fulldate":"2020-09-28T18:00:00.000Z"
+            "fulldate":"2020-09-28T23:00:00.000Z"
         },
 		{
 			"eventtitle":"Hindsight is 2020: Lessons learned from cancer and aging researchers on submitting a NIH grant",
 			"eventurl":"https://cancercontrol.cancer.gov/funding-foa-applicants.html#collapse-35",
 			"eventdatemonth":"October",
-			"eventdateday":"10",
+			"eventdateday":"5",
 			"eventtype":"Webinar",
-            "fulldate":"2020-10-10T18:00:00.000Z"
+            "fulldate":"2020-10-05T23:00:00.000Z"
         },
 		{
 			"eventtitle":"Leveraging Cross-Cancer Shared Heritability to Better Understand the Genetic Architecture of Cancer",
@@ -94,7 +54,15 @@
 			"eventdatemonth":"October",
 			"eventdateday":"13",
 			"eventtype":"Webinar",
-            "fulldate":"2020-10-13T18:00:00.000Z"
+            "fulldate":"2020-10-13T23:00:00.000Z"
+        },
+		{
+			"eventtitle":"The Claims of Biospecimen Donors to Credit and Compensation",
+			"eventurl":"https://epi.grants.cancer.gov/events/enrich-forum/index.html#wendler",
+			"eventdatemonth":"October",
+			"eventdateday":"20",
+			"eventtype":"Webinar",
+            "fulldate":"2020-10-13T23:00:00.000Z"
         },
 		{
 			"eventtitle":"Next Generation Sequencing and Tumor Initiation and Progression",
@@ -102,7 +70,7 @@
 			"eventdatemonth":"November",
 			"eventdateday":"3",
 			"eventtype":"Webinar",
-            "fulldate":"2020-10-03T18:00:00.000Z"
+            "fulldate":"2020-10-03T23:00:00.000Z"
         },
 		{
 			"eventtitle":"SAVE THE DATE: NCI Cohort Consortium Annual Meeting",
@@ -110,7 +78,7 @@
 			"eventdatemonth":"November",
 			"eventdateday":"16-17",
 			"eventtype":"Webinar",
-            "fulldate":"2020-10-17T18:00:00.000Z"
+            "fulldate":"2020-10-17T23:00:00.000Z"
         },
 		{
 			"eventtitle":"<span>Cancer Epidemiology in Hispanic Populations Workshop</span><br> <em>Rescheduled from May 2020.</em>",
@@ -118,7 +86,7 @@
 			"eventdatemonth":"January",
 			"eventdateday":"27-28",
 			"eventtype":"In-Person Workshop <em>(Also available via WebEx)</em>",
-            "fulldate":"2021-01-28T18:00:00.000Z"
+            "fulldate":"2021-01-28T23:00:00.000Z"
         }
     ]
 }
