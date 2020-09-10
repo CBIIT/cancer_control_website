@@ -124,14 +124,23 @@ height="0" width="0" style="display:none;visibility:hidden" title="Google Tag Ma
                                 <a class="dropdown-toggle" data-toggle="dropdown" data-hover="dropdown" tabindex="0">Funding Opportunities <span class="sr-only">Open Dropdown</span><b class="caret"></b></a>
                                 <ul class="dropdown-menu">
                                     <li class="disabled-landing-page-link"><a href="/IS/funding.html">Funding Opportunities <span class="sr-only">Landing Page</span></a></li>
-                                    <li><a href="/IS/sample-grant-applications.html">Examples of Funded Grants</a></li>
-									<li><a href="/IS/funding-webinars.html">Funding Webinars</a></li>
+                                    <li><a href="/IS/sample-grant-applications.html">Sample Grant Applications</a></li>
+									<li><a href="/IS/funding-webinar.html">Funding Webinar</a></li>
                                 </ul>
                             </li>
-                            <li class="dropdown">
+							<li class="dropdown">
+                                <a class="dropdown-toggle" data-toggle="dropdown" data-hover="dropdown" tabindex="0">Initiatives <span class="sr-only">Open Dropdown</span><b class="caret"></b></a>
+                                <ul class="dropdown-menu">
+                                    <li class="disabled-landing-page-link"><a href="/IS/initiatives/index.html">Initiatives <span class="sr-only">Landing Page</span></a></li>
+                                    <li><a href="/IS/initiatives/iscc.html">Implementation Science Consortium in Cancer</a></li>
+									<li><a href="/IS/initiatives/ISC3.html">Implementation Science Centers in Cancer Control (ISC3)</a></li>
+                                </ul>
+                            </li>
+                            <li class="dropdown active">
                                 <a class="dropdown-toggle" data-toggle="dropdown" data-hover="dropdown" tabindex="0">Training &amp; Education<span class="sr-only">Open Dropdown</span><b class="caret"></b></a>
                                 <ul class="dropdown-menu">
-                                    <li class="disabled-landing-page-link active"><a href="/IS/training-education/index.html">Training &amp; Education <span class="sr-only">Training &amp; Education</span></a></li>
+                                    <li class="disabled-landing-page-link"><a href="/IS/training-education/index.html">Training &amp; Education <span class="sr-only">Training &amp; Education</span></a></li>
+                                    <li><a href="/IS/training-education/training.html">Training in Cancer</a></li>
                                     <li class="active"><a href="/IS/training-education/Webinars.aspx">Webinars</a></li>
                                 </ul>
                             </li>
@@ -149,9 +158,9 @@ height="0" width="0" style="display:none;visibility:hidden" title="Google Tag Ma
                                 <ul class="dropdown-menu">
                                     <li class="disabled-landing-page-link"><a href="/IS/about.html">About IS<span class="sr-only">Landing Page</span></a></li>
                                     <li><a href="/IS/staff.html">Staff</a></li>
-                                    <li><a href="/IS/blog/index.html">Blog</a></li>
-									<li><a href="/IS/career.html">Careers</a></li>
-                                </ul>
+							<li><a href="/IS/blog/index.html">Blog</a></li>
+							<li><a href="/IS/career.html">Careers</a></li>
+						</ul>
                             </li>
                         </ul>
                            
@@ -330,7 +339,7 @@ height="0" width="0" style="display:none;visibility:hidden" title="Google Tag Ma
             </tr>
                 <tr>
                 <td class="cells center" colspan="3">
-                    <asp:CheckBox ID="CK_Sub" Checked="false" Text=" I’d like to receive future webinar invitations and monthly newsletters from the Implementation Science Team." runat="server" />
+                    <asp:CheckBox ID="CK_Sub" Checked="false" Text=" I&rsquo;d like to receive future webinar invitations and monthly newsletters from the Implementation Science Team." runat="server" />
                 </td>
 
                 </tr>
@@ -375,6 +384,7 @@ height="0" width="0" style="display:none;visibility:hidden" title="Google Tag Ma
                 <li><h2>Implementation Science</h2></li>
 				<li><a href="/IS/index.html">IS Home</a></li>
 				<li><a href="/IS/funding.html">Funding Opportunities</a></li>
+				<li><a href="/IS/initiatives/index.html">Initiatives</a></li>
 				<li><a href="/IS/training-education/index.html">Training &amp; Education</a></li>
 				<li><a href="/IS/tools/index.html">Research &amp; Practice Tools</a></li>
 				<li><a href="/IS/about.html">About IS</a></li>

@@ -111,17 +111,14 @@ height="0" width="0" style="display:none;visibility:hidden" title="Google Tag Ma
           <div id="sidebar" class="span3">
               <div class="well sidebar-nav">
                 <ul class="nav nav-list">
-                  <li class="nav-header"><a href="/nativeamericanintervention/funded.html">Currently Funded Projects</a></li>
+                  <li class="nav-header"><a href="/nativeamericanintervention/funded.html">Funded Projects</a></li>
                   <li class="nav-header"><a href="/nativeamericanintervention/funding-opportunities.html">Funding Opportunities</a></li>
                   <li class="nav-header"><a href="/nativeamericanintervention/contacts.html">Agency Contacts</a></li>
                   <li class="nav-header"><a href="/nativeamericanintervention/objectives.html">Specific Research Objectives and Scope by Institute</a></li>
                   <li class="nav-header"><a href="/nativeamericanintervention/publications.aspx">Literature Database</a></li>
                   <li class="nav-header"><a href="/nativeamericanintervention/resources.html">Grant Preparation Resources</a></li>
                   <li class="nav-header"><a href="/nativeamericanintervention/other-resources.html">Other Resources</a></li>
-                  <li class="nav-header cover"><a href="/pdf/IRINAH-Spring-2016-newsletter.pdf" target="_blank"><img src="/images/nativeamericanintervention-cover.jpg" alt="IRINAH Spring 2016 projects update logo"><br>IRINAH Spring 2016 projects update (PDF)</a></li>
-                  
-                  <li class="nav-header cover"><a href="/nativeamericanintervention/2017-meeting.html"><img src="/images/irinah-may-2017.jpg" alt="IRINAH May 2017 Annual Meeting"><br>May 2017 Annual Meeting</a></li>
-                  
+                  <li class="nav-header cover"><a href="/pdf/IRINAH-Spring-2020-newsletter.pdf" target="_blank"><img src="/images/IRINAH-Spring-2020-newsletter.jpg" alt="IRINAH Spring 2020 projects update logo"><br>IRINAH Spring 2020 projects update (PDF)</a></li>
                 </ul>
               </div>
               <!--/.well -->
@@ -174,10 +171,10 @@ Colorado School of Public Health</li>
                     </div>
                         <div class="span6">
                         <ul>
-                          <li><a href="/pdf/Jernigan-FRESH.pdf" target="_blank">Food Resource Equity and Sustainability for Health “FRESH” Study (PDF)</a><br>
+                          <li><a href="/pdf/Jernigan-FRESH.pdf" target="_blank">Food Resource Equity and Sustainability for Health &ldquo;FRESH&rdquo; Study (PDF)</a><br>
                     Valarie Blue Bird Jernigan, DrPH, MPH<br>
                     University of Oklahoma Health Sciences Center </li>
-                    <li><a href="/pdf/Jernigan.THRIVE.pdf">Tribal Tribal Health and Resilience in Vulnerable Environments “THRIVE” Study (PDF)</a><br>
+                    <li><a href="/pdf/Jernigan.THRIVE.pdf">Tribal Tribal Health and Resilience in Vulnerable Environments &ldquo;THRIVE&rdquo; Study (PDF)</a><br>
                             Valarie Blue Bird Jernigan, DrPH, MPH<br>
                             University of Oklahoma Health Sciences Center                          </li>
                           <li><a href="/pdf/George-SHWS-Study-Overview-2.pdf" target="_blank">Strong Heart Water Study Participatory Interventions to Reduce Arsenic Exposure among Private Well Users in American Indian Communities (PDF)</a><br>
@@ -187,7 +184,7 @@ Colorado School of Public Health</li>
                     Shiraz I. Mishra, PhD – UNM & Kevin English, DrPH<br>
                   Albuquerque Area Southwest Tribal Epidemiology Center</li>
                   <li><a href="/pdf/Dickerson-MICUNAY-NIH-2017.pdf" target="_blank">Motivational Interviewing and Culture for Urban Native American Youth (PDF)</a><br>
-                    Daniel Dickerson, D.O., M.P.H. and Elizabeth D’Amico<br>
+                    Daniel Dickerson, D.O., M.P.H. and Elizabeth D&rsquo;Amico<br>
                   UCLA, Integrated Substance Abuse Programs (ISAP) and RAND Corporation, Co‐Principal Investigator</li>
                         </ul>
                         </div>
@@ -216,7 +213,7 @@ Colorado School of Public Health</li>
              	<p class="footer-header"><a href="/nativeamericanintervention/index.html">Home</a></p>
              </div><!--/span-->
              <div class="span3">
-             <p class="footer-header"><a href="/nativeamericanintervention/funded.html">Currently Funded Projects</a></p>
+             <p class="footer-header"><a href="/nativeamericanintervention/funded.html">Funded Projects</a></p>
              </div><!--/span-->
              <div class="span3">
              <p class="footer-header"><a href="/nativeamericanintervention/funding-opportunities.html">Funding Opportunities</a></p>
@@ -332,7 +329,26 @@ $(document).ready(function(){
 <script type="text/javascript" src="https://static.cancer.gov/webanalytics/WA_DCCPS_PageLoad.js"></script>
 
         
-    <!-- InstanceBeginEditable name="Scripts" --><!-- InstanceEndEditable -->
+    <!-- InstanceBeginEditable name="Scripts" --> <script>$("#skipmenu").after('<div class="alert-drawer-wrapper" role="alertdialog"><div class="alert-drawer"><div class="alert-drawer__heading"><p><span class="alert-drawer-title">COVID-19 is an emerging, rapidly evolving situation.</span></p></div><div class="alert-drawer__body" tabindex="0"><p>What people with cancer should know: <a href="https://www.cancer.gov/coronavirus">https://www.cancer.gov/coronavirus</a></p><p>Guidance for cancer researchers: <a href="https://www.cancer.gov/coronavirus-researchers">https://www.cancer.gov/coronavirus-researchers</a></p><p>Get the latest public health information from CDC: <a href="https://www.coronavirus.gov">https://www.coronavirus.gov</a></p><p>Get the latest research information from NIH: <a href="https://www.nih.gov/coronavirus">https://www.nih.gov/coronavirus</a></p></div><div class="alert-drawer__toggle"><button type="button" id="alert-toggle-btn"><img id="alert-toggle-img" src="https://www.cancer.gov/sites/g/files/xnrzdm211/files/cgov_contextual_image/2020-03/white-down-arrow.png" alt="" aria-hidden="true" /></button></div></div></div>')
+
+document
+    .getElementById("alert-toggle-btn")
+    .addEventListener("click", function() {
+      var alertBody = document.querySelector(".alert-drawer__body");
+      var alertImg = "";
+      alertBody.classList.toggle("active");
+      if (alertBody.className.match("active")) {
+        alertBody.focus();
+        alertImg =
+          "https://www.cancer.gov/sites/g/files/xnrzdm211/files/cgov_contextual_image/2020-03/white-x.png";
+      } else {
+        alertImg =
+          "https://www.cancer.gov/sites/g/files/xnrzdm211/files/cgov_contextual_image/2020-03/white-down-arrow.png";
+      }
+      document.getElementById("alert-toggle-img").setAttribute("src", alertImg);
+    });
+
+</script> <!-- InstanceEndEditable -->
   <script type="text/javascript">_satellite.pageBottom();</script>
 </body>
 <!-- InstanceEnd --></html>

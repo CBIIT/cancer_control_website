@@ -1,6 +1,6 @@
 ﻿<%@ Page Language="VB" AutoEventWireup="false" CodeFile="Publications.aspx.vb" Inherits="nativeamericanintervention_Publications" %>
 
-<html>
+<html lang="en">
 <!DOCTYPE html>
 <head>
     <meta http-equiv="content-type" content="text/html; charset=UTF-8">
@@ -249,7 +249,7 @@ height="0" width="0" style="display:none;visibility:hidden" title="Google Tag Ma
 
                                     <p>The Literature Database: Cancer  Interventions is a searchable database of citations since 1994 for cancer control  intervention research with American Indian, Alaska Native, and Native Hawaiian (United States) and First Nations (Canada) populations. </p>
                                     <p>Please use the search bar and  filters to identify relevant literature. At this time, eight &ldquo;Cancer Sites&rdquo; are  listed because the literature currently included only addresses those cancer sites. Over time the list will grow. </p>
-                                    <p>If you have any comments or questions,  please contact Shobha Srinivasan at <a href="mailto:ss688k@nih.gov">ss688k@nih.gov</a>. </p>
+                                    <p>If you have any comments or questions,  please contact Shobha Srinivasan at <a href="mailto:sriniva2@mail.nih.gov">sriniva2@mail.nih.gov</a>. </p>
 
 
                                 </div>

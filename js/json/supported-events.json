@@ -1,0 +1,92 @@
+{
+    "events": [
+		{
+			"eventtitle":"Beyond Statistical Significance: Finding Meaningful Effects Virtual Meeting",
+			"eventurl":"https://apps1.seiservices.com/meaningfuleffects/",
+			"eventdatemonth":"September",
+			"eventdateday":"2",
+			"eventtype":"Webinar",
+            "fulldate":"2020-09-02T23:00:00.000Z"
+        },
+		{
+			"eventtitle":"ASA24 Dietary Assessment Tool: Recent Updates and Future Enhancements",
+			"eventurl":"https://cbiit.webex.com/mw3300/mywebex/default.do?nomenu=true&siteurl=cbiit&service=6&rnd=0.6495175043315439&main_url=https%3A%2F%2Fcbiit.webex.com%2Fec3300%2Feventcenter%2Fevent%2FeventAction.do%3FtheAction%3Ddetail%26%26%26EMK%3D4832534b00000004b7444afa9e165acce42f67a4cc05bbd690b62b549b134a515dc3724396bd29ad%26siteurl%3Dcbiit%26confViewID%3D170012566055035082%26encryptTicket%3DSDJTSwAAAATWQZDGtxifwI4vvQ3BAznS-Yep_XCsM7O63I8fXaRUYA2%26",
+			"eventdatemonth":"September",
+			"eventdateday":"14",
+			"eventtype":"Webinar",
+            "fulldate":"2020-09-14T23:00:00.000Z"
+        },
+		{
+			"eventtitle":"Polygenic Risk Scores",
+			"eventurl":"https://epi.grants.cancer.gov/events/seqSPACE/index.html#chatterjee",
+			"eventdatemonth":"September",
+			"eventdateday":"15",
+			"eventtype":"Webinar",
+            "fulldate":"2020-09-15T23:00:00.000Z"
+        },
+		{
+			"eventtitle":"NIH Early-Onset Colorectal Cancer Think Tank Meeting",
+			"eventurl":"https://events.cancer.gov/crs/eocrc",
+			"eventdatemonth":"September",
+			"eventdateday":"24-25",
+			"eventtype":"Webinar",
+            "fulldate":"2020-09-25T23:00:00.000Z"
+        },
+		{
+			"eventtitle":"Geriatric Assessment in Oncology: Yesterday, Today, & Tomorrow",
+			"eventurl":"https://cancercontrol.cancer.gov/funding-foa-applicants.html#collapse-32",
+			"eventdatemonth":"September",
+			"eventdateday":"28",
+			"eventtype":"Webinar",
+            "fulldate":"2020-09-28T23:00:00.000Z"
+        },
+		{
+			"eventtitle":"Hindsight is 2020: Lessons learned from cancer and aging researchers on submitting a NIH grant",
+			"eventurl":"https://cancercontrol.cancer.gov/funding-foa-applicants.html#collapse-35",
+			"eventdatemonth":"October",
+			"eventdateday":"5",
+			"eventtype":"Webinar",
+            "fulldate":"2020-10-05T23:00:00.000Z"
+        },
+		{
+			"eventtitle":"Leveraging Cross-Cancer Shared Heritability to Better Understand the Genetic Architecture of Cancer",
+			"eventurl":"https://epi.grants.cancer.gov/events/seqSPACE/index.html#lindstroem",
+			"eventdatemonth":"October",
+			"eventdateday":"13",
+			"eventtype":"Webinar",
+            "fulldate":"2020-10-13T23:00:00.000Z"
+        },
+		{
+			"eventtitle":"The Claims of Biospecimen Donors to Credit and Compensation",
+			"eventurl":"https://epi.grants.cancer.gov/events/enrich-forum/index.html#wendler",
+			"eventdatemonth":"October",
+			"eventdateday":"20",
+			"eventtype":"Webinar",
+            "fulldate":"2020-10-13T23:00:00.000Z"
+        },
+		{
+			"eventtitle":"Next Generation Sequencing and Tumor Initiation and Progression",
+			"eventurl":"https://epi.grants.cancer.gov/events/seqSPACE/index.html#curtis",
+			"eventdatemonth":"November",
+			"eventdateday":"3",
+			"eventtype":"Webinar",
+            "fulldate":"2020-10-03T23:00:00.000Z"
+        },
+		{
+			"eventtitle":"SAVE THE DATE: NCI Cohort Consortium Annual Meeting",
+			"eventurl":"",
+			"eventdatemonth":"November",
+			"eventdateday":"16-17",
+			"eventtype":"Webinar",
+            "fulldate":"2020-10-17T23:00:00.000Z"
+        },
+		{
+			"eventtitle":"<span>Cancer Epidemiology in Hispanic Populations Workshop</span><br> <em>Rescheduled from May 2020.</em>",
+			"eventurl":"https://epi.grants.cancer.gov/events/cancer-epid-hispanic-pop/",
+			"eventdatemonth":"January",
+			"eventdateday":"27-28",
+			"eventtype":"In-Person Workshop <em>(Also available via WebEx)</em>",
+            "fulldate":"2021-01-28T23:00:00.000Z"
+        }
+    ]
+}

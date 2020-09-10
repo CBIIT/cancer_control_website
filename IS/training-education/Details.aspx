@@ -143,10 +143,18 @@
                                     <a class="dropdown-toggle" data-toggle="dropdown" data-hover="dropdown" tabindex="0">Funding Opportunities <span class="sr-only">Open Dropdown</span><b class="caret"></b></a>
                                     <ul class="dropdown-menu">
                                         <li class="disabled-landing-page-link"><a href="/IS/funding.html">Funding Opportunities <span class="sr-only">Landing Page</span></a></li>
-                                        <li><a href="/IS/sample-grant-applications.html">Examples of Funded Grants</a></li>
-                                        <li><a href="/IS/funding-webinars.html">Funding Webinars</a></li>
+                                        <li><a href="/IS/sample-grant-applications.html">Sample Grant Applications</a></li>
+                                        <li><a href="/IS/funding-webinar.html">Funding Webinar</a></li>
                                     </ul>
                                 </li>
+								<li class="dropdown">
+                                <a class="dropdown-toggle" data-toggle="dropdown" data-hover="dropdown" tabindex="0">Initiatives <span class="sr-only">Open Dropdown</span><b class="caret"></b></a>
+                                <ul class="dropdown-menu">
+                                    <li class="disabled-landing-page-link"><a href="/IS/initiatives/index.html">Initiatives <span class="sr-only">Landing Page</span></a></li>
+                                    <li><a href="/IS/initiatives/iscc.html">Implementation Science Consortium in Cancer</a></li>
+									<li><a href="/IS/initiatives/ISC3.html">Implementation Science Centers in Cancer Control (ISC3)</a></li>
+                                </ul>
+                            </li>
                                 <li class="dropdown active">
                                     <a class="dropdown-toggle" data-toggle="dropdown" data-hover="dropdown" tabindex="0">Training &amp; Education<span class="sr-only">Open Dropdown</span><b class="caret"></b></a>
                                     <ul class="dropdown-menu">
@@ -168,9 +176,9 @@
                                     <ul class="dropdown-menu">
                                         <li class="disabled-landing-page-link"><a href="/IS/about.html">About IS<span class="sr-only">Landing Page</span></a></li>
                                         <li><a href="/IS/staff.html">Staff</a></li>
-										<li><a href="/IS/blog/index.html">Blog</a></li>
-										<li><a href="/IS/career.html">Careers</a></li>
-                                    </ul>
+							<li><a href="/IS/blog/index.html">Blog</a></li>
+							<li><a href="/IS/career.html">Careers</a></li>
+						</ul>
                                 </li>
                             </ul>
 
@@ -220,14 +228,11 @@
         <!-- /.page-breadcrumb -->
         <div class="container">
             <div class="row">
-                <div class="col-md-9">
-                    <asp:Image runat="server" ID="IMG_Series" />
-                </div>
-            </div>
-            <div class="row">
                 <div class="col-md-9">                 
                     <p class="first"><b>Date: <asp:Literal ID="WEBINAR_eventstartdate" runat="server"></asp:Literal></b>
                         <!-- - <asp:Literal ID="WEBINAR_eventenddate" runat="server"></asp:Literal> -->
+                    <br>
+                        <b>Time: <asp:Literal ID="WEBINAR_time" runat="server"></asp:Literal></b>
                     </p>
 
                     <asp:PlaceHolder ID="PLC_Category" runat="server" Visible="False">
@@ -276,10 +281,10 @@
                     <ItemTemplate>
                             <div class="col-sm-2">
                                 <div runat="server" visible='<%# (Eval("ext").ToString() IsNot "") %>'>
-                                    <img alt="" src='<%# "https://cyberseminar.cancercontrolplanet.org/application_WS/ViewPresenterImage.aspx?ID=" & Eval("PK_Presenter") %>' style="width: 100%; height: auto">
+                                    <img alt="" src='<%# "https://cyberseminar.cancercontrolplanet.org/application_WS/ViewPresenterImage.aspx?ID=" & Eval("PK_Presenter") %>' class="img-responsive">
                                 </div>
                                 <div runat="server" visible='<%# (Eval("ext").ToString() Is "") %>'>
-                                    <img src="/IS/images/no-photo.jpg" alt="" style="width: 100%; height: auto">
+                                    <img src="/IS/images/no-photo.jpg" alt="" class="img-responsive">
                                 </div>
                                 <h3><%# Eval("PresenterName") %></h3>
                                 <div runat="server" visible='<%# (Eval("Organization").ToString() IsNot "") %>'>

@@ -2,7 +2,7 @@
 
 <!DOCTYPE html>
 
-<html xmlns="http://www.w3.org/1999/xhtml">
+<html lang="en">
 <head runat="server">
     <meta http-equiv="X-UA-Compatible" content="IE=9,10,11" />
     <meta name="viewport" content="width=device-width, initial-scale=1" />

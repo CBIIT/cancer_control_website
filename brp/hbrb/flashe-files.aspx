@@ -114,23 +114,23 @@
 						<a class="dropdown-toggle" data-toggle="dropdown" data-hover="dropdown" tabindex="0">Funding Opportunities <span class="sr-only">Open Dropdown</span><b class="caret"></b></a>
 						<ul class="dropdown-menu">
 							<li class="landing-page-link"><a href="/brp/funding/">Funding Opportunities <span class="sr-only">Landing Page</span></a></li>
-							<li><a href="/brp/funding/funding-opportunities.html">Apply for Behavioral Grants</a></li>
+							<li><a href="/brp/funding/funding-opportunities.html">Find Funding Opportunities</a></li>
+							<li><a href="/brp/funding/apply.html">How to Apply</a></li>
 							<li><a href="/brp/funding/sample-application.html">Sample Grant Applications</a></li>
-							<a href="/brp/archive/funding-conf.html">Conference: The Science of Research on Discrimination and Health</a></li>
-							<li><a href="/brp/archive/publications.html">Highlighted Publications</a></li>
+							<li><a href="https://staffprofiles.cancer.gov/brp/granteeList.do">Featured Grantees</a></li>
 						</ul>
 					</li>
 					<li class="dropdown">
 						<a class="dropdown-toggle" data-toggle="dropdown" data-hover="dropdown" tabindex="0">Priority Areas <span class="sr-only">Open Dropdown</span><b class="caret"></b></a>
 						<ul class="dropdown-menu">
 							<li class="landing-page-link"><a href="/brp/priority-areas/">Priority Areas <span class="sr-only">Landing Page</span></a></li>
-							<li><a href="/brp/tcrb/">Tobacco</a></li>
+							<li><a href="/brp/tcrb/">Tobacco Control</a></li>
 							<li><a href="/brp/hbrb/dietary_behaviors.html">Diet, Weight, and Physical Activity</a></li>
 							<li><a href="/brp/hbrb/sun-protection.html">Sun Protection</a></li>
 							<li><a href="/brp/bbpsb/affective_science.html">Affect and Emotion</a></li>
-							<li><a href="/brp/bbpsb/cognitive-changes.html">Cognition</a></li>
+							<li><a href="/brp/bbpsb/cognitive-changes/perception.html">Cognition</a></li>
 							<li><a href="/brp/hcirb/social-media.html">Social Media</a></li>
-							<li><a href="/brp/priority-areas/big-data.html">Integrative Data Analysis and Big Data</a></li>
+							<li><a href="/brp/priority-areas/big-data.html">Integrative Data Analysis</a></li>
 							<li><a href="/brp/bbpsb/aging-trajectories.html">Aging Trajectories in Cancer Survivors</a></li>
 							<li><a href="/brp/bbpsb/cognitive-changes/perception.html">Perception, Attention, and Cognition</a></li>
 						</ul>
@@ -202,7 +202,6 @@
 				<li>Download adolescent demographic data (<a href="/brp/hbrb/docs/Teen-Demographic-SAS.zip">SAS</a>, <a href="/brp/hbrb/docs/Teen-Demographic-SPSS.zip">SPSS</a>)</li>
 				<li>Download adolescent diet data (<a href="/brp/hbrb/docs/Teen-Diet-SAS.zip">SAS</a>, <a href="/brp/hbrb/docs/Teen-Diet-SPSS.zip">SPSS</a>) &ndash; Updated October 2017</li>
 				<li>Download adolescent physical activity data (<a href="/brp/hbrb/docs/Teen-PA-SAS.zip">SAS</a>, <a href="/brp/hbrb/docs/Teen-PA-SPSS.zip">SPSS</a>) &ndash; Added October 2017</li>
-				<li>Download adolescent physical activity monitor data (coming soon!)</li>
 			</ul>
 			<p>Parents of adolescents were surveyed about diet, physical activity, and demographics. The results are saved in separate data sets that can be linked across files using participant or dyad identification numbers.</p>
 			<ul class="inline-links">
@@ -344,7 +343,6 @@
 				<li><a href="/brp/research/index.html">Research Resources and Tools</a></li>
 				<li><a href="/brp/program-branches.html">Program Branches</a></li>
 				<li><a href="/brp/about.html">About BRP</a></li>
-				<li><a href="/brp/archive/index.html">BRP Archive</a></li>
 			</ul>
 		</div> <!-- /.col-md-3 -->
 		<div class="col-md-3">

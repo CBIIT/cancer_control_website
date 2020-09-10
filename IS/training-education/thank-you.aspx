@@ -155,14 +155,23 @@
                                     <a class="dropdown-toggle" data-toggle="dropdown" data-hover="dropdown" tabindex="0">Funding Opportunities <span class="sr-only">Open Dropdown</span><b class="caret"></b></a>
                                     <ul class="dropdown-menu">
                                         <li class="disabled-landing-page-link"><a href="/IS/funding.html">Funding Opportunities <span class="sr-only">Landing Page</span></a></li>
-                                        <li><a href="/IS/sample-grant-applications.html">Examples of Funded Grants</a></li>
-                                        <li><a href="/IS/funding-webinars.html">Funding Webinars</a></li>
+                                        <li><a href="/IS/sample-grant-applications.html">Sample Grant Applications</a></li>
+                                        <li><a href="/IS/funding-webinar.html">Funding Webinar</a></li>
                                     </ul>
                                 </li>
+								<li class="dropdown">
+                                <a class="dropdown-toggle" data-toggle="dropdown" data-hover="dropdown" tabindex="0">Initiatives <span class="sr-only">Open Dropdown</span><b class="caret"></b></a>
+                                <ul class="dropdown-menu">
+                                    <li class="disabled-landing-page-link"><a href="/IS/initiatives/index.html">Initiatives <span class="sr-only">Landing Page</span></a></li>
+                                    <li><a href="/IS/initiatives/iscc.html">Implementation Science Consortium in Cancer</a></li>
+									<li><a href="/IS/initiatives/ISC3.html">Implementation Science Centers in Cancer Control (ISC3)</a></li>
+                                </ul>
+                            </li>
                                 <li class="dropdown active">
                                     <a class="dropdown-toggle" data-toggle="dropdown" data-hover="dropdown" tabindex="0">Training &amp; Education<span class="sr-only">Open Dropdown</span><b class="caret"></b></a>
                                     <ul class="dropdown-menu">
                                         <li class="disabled-landing-page-link"><a href="/IS/training-education/index.html">Training &amp; Education <span class="sr-only">Training &amp; Education</span></a></li>
+                                        <li><a href="/IS/training-education/training.html">Training in Cancer</a></li>
                                         <li class="active"><a href="/IS/training-education/Webinars.aspx">Webinars</a></li>
                                     </ul>
                                 </li>
@@ -180,9 +189,9 @@
                                     <ul class="dropdown-menu">
                                         <li class="disabled-landing-page-link"><a href="/IS/about.html">About IS<span class="sr-only">Landing Page</span></a></li>
                                         <li><a href="/IS/staff.html">Staff</a></li>
-										<li><a href="/IS/blog/index.html">Blog</a></li>
-										<li><a href="/IS/career.html">Careers</a></li>
-                                    </ul>
+							<li><a href="/IS/blog/index.html">Blog</a></li>
+							<li><a href="/IS/career.html">Careers</a></li>
+						</ul>
                                 </li>
                             </ul>
 
@@ -240,7 +249,7 @@
                     <p><asp:Button ID="BTN_AddtoOutlook" CausesValidation="false" runat="server" CssClass="addtoOutlookButton" Text="&nbsp;" /></p>
                     </form>
 
-                    <p>Return to the <a href="Webinars.aspx">Advanced Topics in Implementation Science Webinar Series</a>.</p>
+                    <p>Return to the <a href="Webinars.aspx">Implementation Science Webinars Series</a>.</p>
                 </div> <!-- /.col-md-12 -->
 	        </div> <!-- /.row -->
         </div> <!-- /.container -->

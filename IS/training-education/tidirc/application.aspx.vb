@@ -94,22 +94,6 @@ Partial Class IS_training_education_tidirc_application
         End If
     End Sub
 
-    Protected Sub CustomValidator8_ServerValidate(source As Object, args As ServerValidateEventArgs) Handles CustomValidator8.ServerValidate
-        Dim intCount As Integer = 0
-
-        For Each AnItem In TXT_Methods.Items
-            If AnItem.Selected Then
-                intCount += 1
-            End If
-        Next
-
-        If intCount > 2 Then
-            args.IsValid = False
-        Else
-            args.IsValid = True
-        End If
-    End Sub
-
     Protected Sub BTN_UploadClicked_Click(sender As Object, e As EventArgs) Handles BTN_UploadClicked.Click
 
         System.Net.ServicePointManager.SecurityProtocol = SecurityProtocolType.Tls12
@@ -159,7 +143,7 @@ Partial Class IS_training_education_tidirc_application
             Dim WS As New ApplicationWebSerrvice.S_ApplicationsSoapClient
 
             'FK_Event is to indicate what year this is for, 2=2019, 3=2020, etc.
-            Dim FK_Event As String = "2"
+            Dim FK_Event As String = "3"
 
             Dim FirstName As String = AES_Encrypt(ClearXsideScriptingValue(TXT_FirstName.Text))
             Dim LastName As String = AES_Encrypt(ClearXsideScriptingValue(TXT_LastName.Text))
@@ -255,23 +239,6 @@ Partial Class IS_training_education_tidirc_application
 
             If TempString1 <> "" Then
                 TempString &= " --SECTOR-- " & TempString1
-            End If
-
-            TempString1 = ""
-            BLNFirst = True
-            For Each AnItem In TXT_Methods.Items
-                If AnItem.Selected Then
-                    If BLNFirst = True Then
-                        TempString1 = AnItem.Text
-                        BLNFirst = False
-                    Else
-                        TempString1 = TempString1 & ", " & AnItem.Text
-                    End If
-                End If
-            Next
-
-            If TempString1 <> "" Then
-                TempString &= " --METHODS-- " & TempString1
             End If
 
             FOE = AES_Encrypt(ClearXsideScriptingValue(TempString))

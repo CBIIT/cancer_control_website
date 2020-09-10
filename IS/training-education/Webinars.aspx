@@ -15,7 +15,7 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
 })(window,document,'script','dataLayer','GTM-P5PMZ88');</script>
 <!-- End Google Tag Manager -->
 <!-- SEO -->
-<meta name="description" content="Register for upcoming webinars and view archived sessions from the Advanced Topics in Implementation Science webinar series and Research to Reality.">
+<meta name="description" content="Register for upcoming webinars and view archived sessions from the Implementation Science Webinars webinar series and Research to Reality.">
 <meta name="keywords" content="">
 <meta name="author" content="National Cancer Institute, Division of Cancer Control and Population Science">
 <title>Webinars | IS | DCCPS/NCI/NIH</title>
@@ -124,14 +124,23 @@ height="0" width="0" style="display:none;visibility:hidden" title="Google Tag Ma
                                 <a class="dropdown-toggle" data-toggle="dropdown" data-hover="dropdown" tabindex="0">Funding Opportunities <span class="sr-only">Open Dropdown</span><b class="caret"></b></a>
                                 <ul class="dropdown-menu">
                                     <li class="disabled-landing-page-link"><a href="/IS/funding.html">Funding Opportunities <span class="sr-only">Landing Page</span></a></li>
-                                    <li><a href="/IS/sample-grant-applications.html">Examples of Funded Grants</a></li>
-									<li><a href="/IS/funding-webinars.html">Funding Webinars</a></li>
+                                    <li><a href="/IS/sample-grant-applications.html">Sample Grant Applications</a></li>
+									<li><a href="/IS/funding-webinar.html">Funding Webinar</a></li>
+                                </ul>
+                            </li>
+							<li class="dropdown">
+                                <a class="dropdown-toggle" data-toggle="dropdown" data-hover="dropdown" tabindex="0">Initiatives <span class="sr-only">Open Dropdown</span><b class="caret"></b></a>
+                                <ul class="dropdown-menu">
+                                    <li class="disabled-landing-page-link"><a href="/IS/initiatives/index.html">Initiatives <span class="sr-only">Landing Page</span></a></li>
+                                    <li><a href="/IS/initiatives/iscc.html">Implementation Science Consortium in Cancer</a></li>
+									<li><a href="/IS/initiatives/ISC3.html">Implementation Science Centers in Cancer Control (ISC3)</a></li>
                                 </ul>
                             </li>
                             <li class="dropdown active">
                                 <a class="dropdown-toggle" data-toggle="dropdown" data-hover="dropdown" tabindex="0">Training &amp; Education<span class="sr-only">Open Dropdown</span><b class="caret"></b></a>
                                 <ul class="dropdown-menu">
                                     <li class="disabled-landing-page-link"><a href="/IS/training-education/index.html">Training &amp; Education <span class="sr-only">Training &amp; Education</span></a></li>
+                                    <li><a href="/IS/training-education/training.html">Training in Cancer</a></li>
                                     <li class="active"><a href="/IS/training-education/Webinars.aspx">Webinars</a></li>
                                 </ul>
                             </li>
@@ -149,9 +158,9 @@ height="0" width="0" style="display:none;visibility:hidden" title="Google Tag Ma
                                 <ul class="dropdown-menu">
                                     <li class="disabled-landing-page-link"><a href="/IS/about.html">About IS<span class="sr-only">Landing Page</span></a></li>
                                     <li><a href="/IS/staff.html">Staff</a></li>
-									<li><a href="/IS/blog/index.html">Blog</a></li>
-									<li><a href="/IS/career.html">Careers</a></li>
-                                </ul>
+							<li><a href="/IS/blog/index.html">Blog</a></li>
+							<li><a href="/IS/career.html">Careers</a></li>
+						</ul>
                             </li>
                         </ul>
                            
@@ -193,17 +202,17 @@ height="0" width="0" style="display:none;visibility:hidden" title="Google Tag Ma
 <div class="container">
 	<div class="row">
 		<div class="col-md-8">
-            <p class="intro">Register for upcoming webinars and view archived sessions from the Advanced Topics in Implementation Science series and Research to Reality.</p>
+            <p class="intro">Register for upcoming webinars and view archived sessions from the Implementation Science Webinars series and Research to Reality.</p>
             <div class="row">
-                <div class="col-md-6">
-                    <img src="/IS/images/AdvancedTopics_thumbnail.jpg" class="img-responsive" alt="Advanced Topics logo">
-                    <h3>Advanced Topics in Implementation Science Webinars</h3>
+                <div class="col-sm-6">
+                    <img src="/IS/images/is-webinar-text-left-bold.png" style="max-width:315px;" class="img-responsive" alt="">
+                    <h3>Implementation Science Webinars</h3>
                     <p>Listen in as leaders in the field discuss advanced dissemination and implementation research topics and answer questions from the community.</p>
                 </div>
-                <div class="col-md-6">
-                    <img src="/IS/images/R2R_thumbnail.jpg" class="img-responsive" alt="R2R logo">
+                <div class="col-sm-6">
+                    <img src="/IS/images/R2R_Thumbnail-small.jpg" class="img-responsive" alt="">
                     <h3>Research to Reality (R2R) Cyber Seminars</h3>
-                    <p><a href="https://researchtoreality.cancer.gov/">Research to Reality</a> (R2R) Cyber Seminars bring together cancer control practitioners and researchers to discuss moving evidence-based programs into practice.</p>
+                    <p>Research to Reality (R2R) Cyber Seminars bring together cancer control practitioners and researchers to discuss moving evidence-based programs into practice.</p>
                 </div>
             </div> <!-- /.row -->
             
@@ -216,7 +225,8 @@ height="0" width="0" style="display:none;visibility:hidden" title="Google Tag Ma
                         <h3 class="first"><a href='details.aspx?ID=${PK_webinar}'>${topic}</a></h3>
                         <!-- {0} is PK_webinar, {1} is topic -->
                         <p>
-                            <b>${MonthDisplay} ${YearDisplay} </b><br>
+                            <b>${MonthDisplay} ${DayDisplay}, ${YearDisplay} <br>
+                            ${time_display}</b><br><br>
                             ${splitwords_BriefDesc}...
                             <!-- year Month -->
                         </p>
@@ -271,7 +281,7 @@ height="0" width="0" style="display:none;visibility:hidden" title="Google Tag Ma
             <div class='ArchiveDiv'>
                 <div class="row">
 				    <div class="col-xs-3">
-                        <img alt="{1}" src="{5}" class="img-responsive" style="width:100%; height:auto">
+                        <img alt="{1}" src="{5}" class="img-responsive">
 				    </div>
 				    <div class="col-xs-9">
                         <h3><a href='Details.aspx?ID={0}'>{1}</a></h3>
@@ -394,6 +404,7 @@ height="0" width="0" style="display:none;visibility:hidden" title="Google Tag Ma
                 <li><h2>Implementation Science</h2></li>
 				<li><a href="/IS/index.html">IS Home</a></li>
 				<li><a href="/IS/funding.html">Funding Opportunities</a></li>
+				<li><a href="/IS/initiatives/index.html">Initiatives</a></li>
 				<li><a href="/IS/training-education/index.html">Training &amp; Education</a></li>
 				<li><a href="/IS/tools/index.html">Research &amp; Practice Tools</a></li>
 				<li><a href="/IS/about.html">About IS</a></li>

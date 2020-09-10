@@ -32,7 +32,7 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
 <meta name="apple-mobile-web-app-capable" content="yes">
 <meta name="apple-mobile-web-app-status-bar-style" content="default">
 <meta name="apple-mobile-web-app-title" content="DCCPS">
-<link rel="apple-touch-icon" href="images/touch/apple-touch-icon.png">
+<link rel="apple-touch-icon" href="/images/touch/apple-touch-icon.png">
 <!-- Bootstrap -->
 <link href="/css/bootstrap.min.css" rel="stylesheet">
 <!-- Google Fonts Source Sans & Merriweather -->

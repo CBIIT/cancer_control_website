@@ -114,23 +114,23 @@
 						<a class="dropdown-toggle" data-toggle="dropdown" data-hover="dropdown" tabindex="0">Funding Opportunities <span class="sr-only">Open Dropdown</span><b class="caret"></b></a>
 						<ul class="dropdown-menu">
 							<li class="landing-page-link"><a href="/brp/funding/">Funding Opportunities <span class="sr-only">Landing Page</span></a></li>
-							<li><a href="/brp/funding/funding-opportunities.html">Apply for Behavioral Grants</a></li>
+							<li><a href="/brp/funding/funding-opportunities.html">Find Funding Opportunities</a></li>
+							<li><a href="/brp/funding/apply.html">How to Apply</a></li>
 							<li><a href="/brp/funding/sample-application.html">Sample Grant Applications</a></li>
-							<a href="/brp/archive/funding-conf.html">Conference: The Science of Research on Discrimination and Health</a></li>
-							<li><a href="/brp/archive/publications.html">Highlighted Publications</a></li>
+							<li><a href="https://staffprofiles.cancer.gov/brp/granteeList.do">Featured Grantees</a></li>
 						</ul>
 					</li>
 					<li class="dropdown">
 						<a class="dropdown-toggle" data-toggle="dropdown" data-hover="dropdown" tabindex="0">Priority Areas <span class="sr-only">Open Dropdown</span><b class="caret"></b></a>
 						<ul class="dropdown-menu">
 							<li class="landing-page-link"><a href="/brp/priority-areas/">Priority Areas <span class="sr-only">Landing Page</span></a></li>
-							<li><a href="/brp/tcrb/">Tobacco</a></li>
+							<li><a href="/brp/tcrb/">Tobacco Control</a></li>
 							<li><a href="/brp/hbrb/dietary_behaviors.html">Diet, Weight, and Physical Activity</a></li>
 							<li><a href="/brp/hbrb/sun-protection.html">Sun Protection</a></li>
 							<li><a href="/brp/bbpsb/affective_science.html">Affect and Emotion</a></li>
-							<li><a href="/brp/bbpsb/cognitive-changes.html">Cognition</a></li>
+							<li><a href="/brp/bbpsb/cognitive-changes/perception.html">Cognition</a></li>
 							<li><a href="/brp/hcirb/social-media.html">Social Media</a></li>
-							<li><a href="/brp/priority-areas/big-data.html">Integrative Data Analysis and Big Data</a></li>
+							<li><a href="/brp/priority-areas/big-data.html">Integrative Data Analysis</a></li>
 							<li><a href="/brp/bbpsb/aging-trajectories.html">Aging Trajectories in Cancer Survivors</a></li>
 							<li><a href="/brp/bbpsb/cognitive-changes/perception.html">Perception, Attention, and Cognition</a></li>
 						</ul>
@@ -202,12 +202,12 @@
 			  <li>You will not present/publish data in which an individual can be identified.  Publication of small cell sizes should be avoided. </li>
 			  <li>You will neither attempt to link nor permit others to link the data with  individually identified records in another database. </li>
 			  <li>You will not attempt to learn the identity of any person whose data are contained  in the supplied file(s). </li>
-			  <li>If the identity of any person is discovered inadvertently, then the following  should be done; </li>
+			  <li>If the identity of any person is discovered inadvertently, then the following  should be done; 
 			  <ul>
 				<li>no use will be made of this knowledge, </li>
 				<li>the FLASHE program staff will be notified of the incident, </li>
 				<li>no one else will be informed of the discovered identity. </li>
-			  </ul>
+			  </ul></li>
 			  <li>You will neither release nor permit others to release the data in full or in part  to any person except with the written approval of the FLASHE program staff. </li>
 			  <li>If accessing the data from a centralized location on a time sharing computer  system or LAN, you will not share FLASHE data with any other individuals. You  will also not allow any other individuals to use your computer account after  you have downloaded FLASHE data. </li>
 			  <li>For all software provided by the  FLASHE program, you will not copy, distribute, reverse engineer, profit from  its sale or use, or incorporate it in any other software system.</li>
@@ -215,7 +215,7 @@
 			  <li>Analyses  of large FLASHE domains usually produce reliable estimates, but analyses of  small domains may yield unreliable estimates, as indicated by their large  variances. The analyst should pay particular attention to the standard error  and coefficient of variation (relative standard error) for estimates of means,  proportions, and totals, and the analyst should report these when writing up  results. It is important that the analyst realizes that small sample sizes for  particular analyses will tend to result in unstable estimates. </li>
 			  <li>You may receive periodic email updates from the FLASHE administrators.    </li>
 			</ul>
-			<p>Other related FLASHE documentation including survey, survey sources, codebook and  data user guide can be found at: <a href="/brp/hbrb/flashe.html">https://cancercontrol.cancer.gov/brp/hbrb/flashe.html </a></p>
+			<p>Other related FLASHE documentation including survey, survey sources, codebook and  data user guide can be found at: <a href="/brp/hbrb/flashe.html" class="urlbreak">https://cancercontrol.cancer.gov/brp/hbrb/flashe.html </a></p>
 			<form id="frm_SubScribe" runat="server">
 				<p>
 				<asp:CheckBox ID="chkAcceptTerm" runat="server" />
@@ -289,7 +289,6 @@
 				<li><a href="/brp/research/index.html">Research Resources and Tools</a></li>
 				<li><a href="/brp/program-branches.html">Program Branches</a></li>
 				<li><a href="/brp/about.html">About BRP</a></li>
-				<li><a href="/brp/archive/index.html">BRP Archive</a></li>
 			</ul>
 		</div> <!-- /.col-md-3 -->
 		<div class="col-md-3">

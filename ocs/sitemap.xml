@@ -9,853 +9,223 @@
 
 <url>
   <loc>https://cancercontrol.cancer.gov/ocs/</loc>
-  <lastmod>2019-04-05T17:56:40+00:00</lastmod>
+  <lastmod>2020-03-25T18:28:00+00:00</lastmod>
   <priority>1.00</priority>
 </url>
 <url>
-  <loc>https://cancercontrol.cancer.gov/ocs/index.html</loc>
-  <lastmod>2019-04-05T17:56:40+00:00</lastmod>
-  <priority>0.80</priority>
-</url>
-<url>
-  <loc>https://cancercontrol.cancer.gov/ocs/about/index.html</loc>
-  <lastmod>2019-04-05T17:56:40+00:00</lastmod>
-  <priority>0.80</priority>
-</url>
-<url>
-  <loc>https://cancercontrol.cancer.gov/ocs/about/mission.html</loc>
-  <lastmod>2019-04-05T17:56:40+00:00</lastmod>
-  <priority>0.80</priority>
-</url>
-<url>
-  <loc>https://cancercontrol.cancer.gov/ocs/about/director-page.html</loc>
-  <lastmod>2019-04-05T17:56:40+00:00</lastmod>
-  <priority>0.80</priority>
-</url>
-<url>
-  <loc>https://cancercontrol.cancer.gov/ocs/about/staff.html</loc>
-  <lastmod>2019-04-05T17:56:40+00:00</lastmod>
-  <priority>0.80</priority>
-</url>
-<url>
-  <loc>https://cancercontrol.cancer.gov/ocs/docs/DCCPS_20th_Anniversary_brochure.pdf</loc>
-  <lastmod>2019-04-05T17:56:40+00:00</lastmod>
-  <priority>0.80</priority>
-</url>
-<url>
-  <loc>https://cancercontrol.cancer.gov/ocs/about/contact.html</loc>
-  <lastmod>2019-04-05T17:56:40+00:00</lastmod>
+  <loc>https://cancercontrol.cancer.gov/ocs/statistics/index.html</loc>
+  <lastmod>2020-03-25T18:28:01+00:00</lastmod>
   <priority>0.80</priority>
 </url>
 <url>
   <loc>https://cancercontrol.cancer.gov/ocs/resources/index.html</loc>
-  <lastmod>2019-04-05T17:56:42+00:00</lastmod>
+  <lastmod>2020-03-25T18:28:00+00:00</lastmod>
   <priority>0.80</priority>
 </url>
 <url>
   <loc>https://cancercontrol.cancer.gov/ocs/resources/survivors.html</loc>
-  <lastmod>2019-04-05T17:56:42+00:00</lastmod>
+  <lastmod>2020-03-25T18:28:01+00:00</lastmod>
   <priority>0.80</priority>
 </url>
 <url>
   <loc>https://cancercontrol.cancer.gov/ocs/resources/researchers.html</loc>
-  <lastmod>2019-04-05T17:56:42+00:00</lastmod>
+  <lastmod>2020-03-25T18:28:01+00:00</lastmod>
   <priority>0.80</priority>
 </url>
 <url>
   <loc>https://cancercontrol.cancer.gov/ocs/resources/healthcare.html</loc>
-  <lastmod>2019-04-05T17:56:42+00:00</lastmod>
+  <lastmod>2020-03-25T18:28:00+00:00</lastmod>
   <priority>0.80</priority>
 </url>
 <url>
   <loc>https://cancercontrol.cancer.gov/ocs/resources/advocates.html</loc>
-  <lastmod>2019-04-05T17:56:40+00:00</lastmod>
+  <lastmod>2020-03-25T18:28:00+00:00</lastmod>
   <priority>0.80</priority>
 </url>
 <url>
-  <loc>https://cancercontrol.cancer.gov/ocs/statistics/index.html</loc>
-  <lastmod>2019-04-05T17:56:42+00:00</lastmod>
-  <priority>0.80</priority>
-</url>
-<url>
-  <loc>https://cancercontrol.cancer.gov/ocs/statistics/definitions.html</loc>
-  <lastmod>2019-04-05T17:56:42+00:00</lastmod>
-  <priority>0.80</priority>
-</url>
-<url>
-  <loc>https://cancercontrol.cancer.gov/ocs/statistics/statistics.html</loc>
-  <lastmod>2019-04-05T17:56:42+00:00</lastmod>
-  <priority>0.80</priority>
-</url>
-<url>
-  <loc>https://cancercontrol.cancer.gov/ocs/statistics/graphs.html</loc>
-  <lastmod>2019-04-05T17:56:42+00:00</lastmod>
+  <loc>https://cancercontrol.cancer.gov/ocs/resources/survivor-stories/index.html</loc>
+  <lastmod>2020-03-25T18:28:01+00:00</lastmod>
   <priority>0.80</priority>
 </url>
 <url>
   <loc>https://cancercontrol.cancer.gov/ocs/funding/index.html</loc>
-  <lastmod>2019-04-05T17:56:40+00:00</lastmod>
+  <lastmod>2020-03-25T18:28:00+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://cancercontrol.cancer.gov/ocs/about/index.html</loc>
+  <lastmod>2020-03-25T18:28:00+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://cancercontrol.cancer.gov/ocs/about/director-page.html</loc>
+  <lastmod>2020-03-25T18:28:00+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://cancercontrol.cancer.gov/ocs/about/staff.html</loc>
+  <lastmod>2020-03-25T18:28:00+00:00</lastmod>
   <priority>0.80</priority>
 </url>
 <url>
   <loc>https://cancercontrol.cancer.gov/ocs/resources/news.html</loc>
-  <lastmod>2019-04-05T17:56:42+00:00</lastmod>
+  <lastmod>2020-03-25T18:28:00+00:00</lastmod>
   <priority>0.80</priority>
 </url>
 <url>
   <loc>https://cancercontrol.cancer.gov/ocs/resources/ffseries.html</loc>
-  <lastmod>2019-04-05T17:56:41+00:00</lastmod>
+  <lastmod>2020-03-25T18:28:00+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://cancercontrol.cancer.gov/ocs/index.html</loc>
+  <lastmod>2020-03-25T18:28:00+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://cancercontrol.cancer.gov/ocs/resources/late-effects.html</loc>
+  <lastmod>2020-03-25T18:28:00+00:00</lastmod>
   <priority>0.64</priority>
 </url>
 <url>
   <loc>https://cancercontrol.cancer.gov/ocs/resources/health-after-cancer.html</loc>
-  <lastmod>2019-04-05T17:56:42+00:00</lastmod>
+  <lastmod>2020-03-25T18:28:00+00:00</lastmod>
   <priority>0.64</priority>
 </url>
 <url>
   <loc>https://cancercontrol.cancer.gov/ocs/resources/support-groups.html</loc>
-  <lastmod>2019-04-05T17:56:42+00:00</lastmod>
+  <lastmod>2020-03-25T18:28:01+00:00</lastmod>
   <priority>0.64</priority>
 </url>
 <url>
   <loc>https://cancercontrol.cancer.gov/ocs/resources/follow-up-care.html</loc>
-  <lastmod>2019-04-05T17:56:42+00:00</lastmod>
+  <lastmod>2020-03-25T18:28:00+00:00</lastmod>
   <priority>0.64</priority>
 </url>
 <url>
-  <loc>https://cancercontrol.cancer.gov/ocs/resources/late-effects.html</loc>
-  <lastmod>2019-04-05T17:56:42+00:00</lastmod>
+  <loc>https://cancercontrol.cancer.gov/ocs/resources/embracing-future/agenda.html</loc>
+  <lastmod>2020-03-25T18:28:00+00:00</lastmod>
   <priority>0.64</priority>
 </url>
 <url>
-  <loc>https://cancercontrol.cancer.gov/ocs/resources/getting-involved.html</loc>
-  <lastmod>2019-04-05T17:56:42+00:00</lastmod>
-  <priority>0.64</priority>
-</url>
-<url>
-  <loc>https://cancercontrol.cancer.gov/ocs/resources/survivor-stories/index.html</loc>
-  <lastmod>2019-04-05T17:56:42+00:00</lastmod>
+  <loc>https://cancercontrol.cancer.gov/ocs/resources/pathways/agenda.html</loc>
+  <lastmod>2020-03-25T18:28:01+00:00</lastmod>
   <priority>0.64</priority>
 </url>
 <url>
   <loc>https://cancercontrol.cancer.gov/ocs/resources/teleconference12.html</loc>
-  <lastmod>2019-04-05T17:56:42+00:00</lastmod>
+  <lastmod>2020-03-25T18:28:01+00:00</lastmod>
   <priority>0.64</priority>
 </url>
 <url>
   <loc>https://cancercontrol.cancer.gov/ocs/resources/teleconference11.html</loc>
-  <lastmod>2019-04-05T17:56:42+00:00</lastmod>
+  <lastmod>2020-03-25T18:28:01+00:00</lastmod>
   <priority>0.64</priority>
 </url>
 <url>
   <loc>https://cancercontrol.cancer.gov/ocs/resources/teleconference10.html</loc>
-  <lastmod>2019-04-05T17:56:42+00:00</lastmod>
+  <lastmod>2020-03-25T18:28:01+00:00</lastmod>
   <priority>0.64</priority>
 </url>
 <url>
   <loc>https://cancercontrol.cancer.gov/ocs/resources/teleconference09.html</loc>
-  <lastmod>2019-04-05T17:56:42+00:00</lastmod>
+  <lastmod>2020-03-25T18:28:01+00:00</lastmod>
   <priority>0.64</priority>
 </url>
 <url>
   <loc>https://cancercontrol.cancer.gov/ocs/resources/teleconference08.html</loc>
-  <lastmod>2019-04-05T17:56:42+00:00</lastmod>
+  <lastmod>2020-03-25T18:28:01+00:00</lastmod>
   <priority>0.64</priority>
 </url>
 <url>
   <loc>https://cancercontrol.cancer.gov/ocs/resources/teleconference07.html</loc>
-  <lastmod>2019-04-05T17:56:42+00:00</lastmod>
+  <lastmod>2020-03-25T18:28:01+00:00</lastmod>
   <priority>0.64</priority>
 </url>
 <url>
   <loc>https://cancercontrol.cancer.gov/ocs/resources/teleconference06.html</loc>
-  <lastmod>2019-04-05T17:56:42+00:00</lastmod>
+  <lastmod>2020-03-25T18:28:01+00:00</lastmod>
   <priority>0.64</priority>
 </url>
 <url>
   <loc>https://cancercontrol.cancer.gov/ocs/resources/teleconference05.html</loc>
-  <lastmod>2019-04-05T17:56:42+00:00</lastmod>
-  <priority>0.64</priority>
-</url>
-<url>
-  <loc>https://cancercontrol.cancer.gov/ocs/resources/embracing-future/index.html</loc>
-  <lastmod>2019-04-05T17:56:40+00:00</lastmod>
-  <priority>0.64</priority>
-</url>
-<url>
-  <loc>https://cancercontrol.cancer.gov/ocs/resources/pathways/index.html</loc>
-  <lastmod>2019-04-05T17:56:42+00:00</lastmod>
+  <lastmod>2020-03-25T18:28:01+00:00</lastmod>
   <priority>0.64</priority>
 </url>
 <url>
   <loc>https://cancercontrol.cancer.gov/ocs/resources/focus.html</loc>
-  <lastmod>2019-04-05T17:56:41+00:00</lastmod>
+  <lastmod>2020-03-25T18:28:00+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://cancercontrol.cancer.gov/ocs/resources/survivor-stories/gary-johnson.html</loc>
+  <lastmod>2020-03-25T18:28:01+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://cancercontrol.cancer.gov/ocs/resources/survivor-stories/kelly-turner.html</loc>
+  <lastmod>2020-03-25T18:28:01+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://cancercontrol.cancer.gov/ocs/resources/survivor-stories/mark-ciccarelli.html</loc>
+  <lastmod>2020-03-25T18:28:01+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://cancercontrol.cancer.gov/ocs/resources/survivor-stories/byron-dudley.html</loc>
+  <lastmod>2020-03-25T18:28:01+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://cancercontrol.cancer.gov/ocs/resources/survivor-stories/minnie-hines-chen.html</loc>
+  <lastmod>2020-03-25T18:28:01+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://cancercontrol.cancer.gov/ocs/resources/survivor-stories/staci-wright.html</loc>
+  <lastmod>2020-03-25T18:28:01+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://cancercontrol.cancer.gov/ocs/resources/survivor-stories/gary-bonacker.html</loc>
+  <lastmod>2020-03-25T18:28:01+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://cancercontrol.cancer.gov/ocs/resources/survivor-stories/katie-strumpf.html</loc>
+  <lastmod>2020-03-25T18:28:01+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://cancercontrol.cancer.gov/ocs/resources/survivor-stories/ben-moon.html</loc>
+  <lastmod>2020-03-25T18:28:01+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://cancercontrol.cancer.gov/ocs/resources/survivor-stories/tamika-felder.html</loc>
+  <lastmod>2020-03-25T18:28:01+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://cancercontrol.cancer.gov/ocs/resources/survivor-stories/matthew-zachary.html</loc>
+  <lastmod>2020-03-25T18:28:01+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://cancercontrol.cancer.gov/ocs/docs/DCCPS_20th_Anniversary_brochure.pdf</loc>
+  <lastmod>2020-03-25T18:28:00+00:00</lastmod>
   <priority>0.64</priority>
 </url>
 <url>
   <loc>https://cancercontrol.cancer.gov/ocs/resources/icc-meeting.html</loc>
-  <lastmod>2019-04-05T17:56:42+00:00</lastmod>
+  <lastmod>2020-03-25T18:28:00+00:00</lastmod>
   <priority>0.64</priority>
 </url>
 <url>
-  <loc>https://cancercontrol.cancer.gov/ocs/resources/reports.html</loc>
-  <lastmod>2019-04-05T17:56:42+00:00</lastmod>
-  <priority>0.64</priority>
-</url>
-<url>
-  <loc>https://cancercontrol.cancer.gov/ocs/resources/dietgd.pdf</loc>
-  <lastmod>2019-04-05T17:56:40+00:00</lastmod>
+  <loc>https://cancercontrol.cancer.gov/ocs/docs/FOCUS-survey.pdf</loc>
+  <lastmod>2020-03-25T18:28:00+00:00</lastmod>
   <priority>0.51</priority>
-</url>
-<url>
-  <loc>https://cancercontrol.cancer.gov/ocs/resources/survivor-stories/gary-johnson.html</loc>
-  <lastmod>2019-04-05T17:56:42+00:00</lastmod>
-  <priority>0.51</priority>
-</url>
-<url>
-  <loc>https://cancercontrol.cancer.gov/ocs/resources/survivor-stories/kelly-turner.html</loc>
-  <lastmod>2019-04-05T17:56:42+00:00</lastmod>
-  <priority>0.51</priority>
-</url>
-<url>
-  <loc>https://cancercontrol.cancer.gov/ocs/resources/survivor-stories/mark-ciccarelli.html</loc>
-  <lastmod>2019-04-05T17:56:42+00:00</lastmod>
-  <priority>0.51</priority>
-</url>
-<url>
-  <loc>https://cancercontrol.cancer.gov/ocs/resources/survivor-stories/byron-dudley.html</loc>
-  <lastmod>2019-04-05T17:56:42+00:00</lastmod>
-  <priority>0.51</priority>
-</url>
-<url>
-  <loc>https://cancercontrol.cancer.gov/ocs/resources/survivor-stories/minnie-hines-chen.html</loc>
-  <lastmod>2019-04-05T17:56:42+00:00</lastmod>
-  <priority>0.51</priority>
-</url>
-<url>
-  <loc>https://cancercontrol.cancer.gov/ocs/resources/survivor-stories/staci-wright.html</loc>
-  <lastmod>2019-04-05T17:56:42+00:00</lastmod>
-  <priority>0.51</priority>
-</url>
-<url>
-  <loc>https://cancercontrol.cancer.gov/ocs/resources/survivor-stories/gary-bonacker.html</loc>
-  <lastmod>2019-04-05T17:56:42+00:00</lastmod>
-  <priority>0.51</priority>
-</url>
-<url>
-  <loc>https://cancercontrol.cancer.gov/ocs/resources/survivor-stories/katie-strumpf.html</loc>
-  <lastmod>2019-04-05T17:56:42+00:00</lastmod>
-  <priority>0.51</priority>
-</url>
-<url>
-  <loc>https://cancercontrol.cancer.gov/ocs/resources/survivor-stories/ben-moon.html</loc>
-  <lastmod>2019-04-05T17:56:42+00:00</lastmod>
-  <priority>0.51</priority>
-</url>
-<url>
-  <loc>https://cancercontrol.cancer.gov/ocs/resources/survivor-stories/tamika-felder.html</loc>
-  <lastmod>2019-04-05T17:56:42+00:00</lastmod>
-  <priority>0.51</priority>
-</url>
-<url>
-  <loc>https://cancercontrol.cancer.gov/ocs/resources/survivor-stories/matthew-zachary.html</loc>
-  <lastmod>2019-04-05T17:56:42+00:00</lastmod>
-  <priority>0.51</priority>
-</url>
-<url>
-  <loc>https://cancercontrol.cancer.gov/ocs/resources/embracing-future/presentations/FullProgramBook.pdf</loc>
-  <lastmod>2019-04-05T17:56:41+00:00</lastmod>
-  <priority>0.51</priority>
-</url>
-<url>
-  <loc>https://cancercontrol.cancer.gov/ocs/resources/embracing-future/overview.html</loc>
-  <lastmod>2019-04-05T17:56:40+00:00</lastmod>
-  <priority>0.51</priority>
-</url>
-<url>
-  <loc>https://cancercontrol.cancer.gov/ocs/resources/embracing-future/agenda.html</loc>
-  <lastmod>2019-04-05T17:56:40+00:00</lastmod>
-  <priority>0.51</priority>
-</url>
-<url>
-  <loc>https://cancercontrol.cancer.gov/ocs/resources/embracing-future/summary_warning.html</loc>
-  <lastmod>2019-04-05T17:56:41+00:00</lastmod>
-  <priority>0.51</priority>
-</url>
-<url>
-  <loc>https://cancercontrol.cancer.gov/ocs/resources/pathways/overview.html</loc>
-  <lastmod>2019-04-05T17:56:42+00:00</lastmod>
-  <priority>0.51</priority>
-</url>
-<url>
-  <loc>https://cancercontrol.cancer.gov/ocs/resources/pathways/agenda.html</loc>
-  <lastmod>2019-04-05T17:56:42+00:00</lastmod>
-  <priority>0.51</priority>
-</url>
-<url>
-  <loc>https://cancercontrol.cancer.gov/ocs/resources/pathways/summary_warning.html</loc>
-  <lastmod>2019-04-05T17:56:42+00:00</lastmod>
-  <priority>0.51</priority>
-</url>
-<url>
-  <loc>https://cancercontrol.cancer.gov/ocs/resources/pathways/mentor.html</loc>
-  <lastmod>2019-04-05T17:56:42+00:00</lastmod>
-  <priority>0.51</priority>
-</url>
-<url>
-  <loc>https://cancercontrol.cancer.gov/ocs/resources/pathways/mentor_hot-topics.html</loc>
-  <lastmod>2019-04-05T17:56:42+00:00</lastmod>
-  <priority>0.51</priority>
-</url>
-<url>
-  <loc>https://cancercontrol.cancer.gov/ocs/resources/pathways/evaluation.html</loc>
-  <lastmod>2019-04-05T17:56:42+00:00</lastmod>
-  <priority>0.51</priority>
-</url>
-<url>
-  <loc>https://cancercontrol.cancer.gov/ocs/resources/embracing-future/highlights.html</loc>
-  <lastmod>2019-04-05T17:56:40+00:00</lastmod>
-  <priority>0.41</priority>
-</url>
-<url>
-  <loc>https://cancercontrol.cancer.gov/ocs/resources/pathways/summary.html</loc>
-  <lastmod>2019-04-05T17:56:42+00:00</lastmod>
-  <priority>0.41</priority>
-</url>
-<url>
-  <loc>https://cancercontrol.cancer.gov/ocs/resources/pathways/mentor_hot-topics_intro.html</loc>
-  <lastmod>2019-04-05T17:56:42+00:00</lastmod>
-  <priority>0.41</priority>
-</url>
-<url>
-  <loc>https://cancercontrol.cancer.gov/ocs/resources/pathways/mentor_hot-topics_bank.html</loc>
-  <lastmod>2019-04-05T17:56:42+00:00</lastmod>
-  <priority>0.41</priority>
-</url>
-<url>
-  <loc>https://cancercontrol.cancer.gov/ocs/resources/pathways/mentor_hot-topics_bontempo.html</loc>
-  <lastmod>2019-04-05T17:56:42+00:00</lastmod>
-  <priority>0.41</priority>
-</url>
-<url>
-  <loc>https://cancercontrol.cancer.gov/ocs/resources/pathways/mentor_hot-topics_lipkau.html</loc>
-  <lastmod>2019-04-05T17:56:42+00:00</lastmod>
-  <priority>0.41</priority>
-</url>
-<url>
-  <loc>https://cancercontrol.cancer.gov/ocs/resources/pathways/mentor_hot-topics_hodges.html</loc>
-  <lastmod>2019-04-05T17:56:42+00:00</lastmod>
-  <priority>0.41</priority>
-</url>
-<url>
-  <loc>https://cancercontrol.cancer.gov/ocs/resources/pathways/mentor_hot-topics_lofaso.html</loc>
-  <lastmod>2019-04-05T17:56:42+00:00</lastmod>
-  <priority>0.41</priority>
-</url>
-<url>
-  <loc>https://cancercontrol.cancer.gov/ocs/resources/pathways/mentor_hot-topics_mackinlay.html</loc>
-  <lastmod>2019-04-05T17:56:42+00:00</lastmod>
-  <priority>0.41</priority>
-</url>
-<url>
-  <loc>https://cancercontrol.cancer.gov/ocs/resources/pathways/mentor_hot-topics_marcus.html</loc>
-  <lastmod>2019-04-05T17:56:42+00:00</lastmod>
-  <priority>0.41</priority>
-</url>
-<url>
-  <loc>https://cancercontrol.cancer.gov/ocs/resources/pathways/mentor_hot-topics_murphy.html</loc>
-  <lastmod>2019-04-05T17:56:42+00:00</lastmod>
-  <priority>0.41</priority>
-</url>
-<url>
-  <loc>https://cancercontrol.cancer.gov/ocs/resources/pathways/mentor_hot-topics_simmons.html</loc>
-  <lastmod>2019-04-05T17:56:42+00:00</lastmod>
-  <priority>0.41</priority>
-</url>
-<url>
-  <loc>https://cancercontrol.cancer.gov/ocs/resources/pathways/mentor_hot-topics_brewer.html</loc>
-  <lastmod>2019-04-05T17:56:42+00:00</lastmod>
-  <priority>0.41</priority>
-</url>
-<url>
-  <loc>https://cancercontrol.cancer.gov/ocs/resources/pathways/mentor_hot-topics_cimbala.html</loc>
-  <lastmod>2019-04-05T17:56:42+00:00</lastmod>
-  <priority>0.41</priority>
-</url>
-<url>
-  <loc>https://cancercontrol.cancer.gov/ocs/resources/pathways/mentor_hot-topics_brown.html</loc>
-  <lastmod>2019-04-05T17:56:42+00:00</lastmod>
-  <priority>0.41</priority>
-</url>
-<url>
-  <loc>https://cancercontrol.cancer.gov/ocs/resources/pathways/mentor_hot-topics_rudolph.html</loc>
-  <lastmod>2019-04-05T17:56:42+00:00</lastmod>
-  <priority>0.41</priority>
-</url>
-<url>
-  <loc>https://cancercontrol.cancer.gov/ocs/resources/pathways/mentor_hot-topics_batte.html</loc>
-  <lastmod>2019-04-05T17:56:42+00:00</lastmod>
-  <priority>0.41</priority>
-</url>
-<url>
-  <loc>https://cancercontrol.cancer.gov/ocs/resources/pathways/mentor_hot-topics_lin.html</loc>
-  <lastmod>2019-04-05T17:56:42+00:00</lastmod>
-  <priority>0.41</priority>
-</url>
-<url>
-  <loc>https://cancercontrol.cancer.gov/ocs/resources/pathways/mentor_hot-topics_morris.html</loc>
-  <lastmod>2019-04-05T17:56:42+00:00</lastmod>
-  <priority>0.41</priority>
-</url>
-<url>
-  <loc>https://cancercontrol.cancer.gov/ocs/resources/pathways/mentor_hot-topics_smith.html</loc>
-  <lastmod>2019-04-05T17:56:42+00:00</lastmod>
-  <priority>0.41</priority>
-</url>
-<url>
-  <loc>https://cancercontrol.cancer.gov/ocs/resources/pathways/mentor_hot-topics_zapor.html</loc>
-  <lastmod>2019-04-05T17:56:42+00:00</lastmod>
-  <priority>0.41</priority>
-</url>
-<url>
-  <loc>https://cancercontrol.cancer.gov/ocs/resources/pathways/highlights_priorities_1.html</loc>
-  <lastmod>2019-04-05T17:56:42+00:00</lastmod>
-  <priority>0.41</priority>
-</url>
-<url>
-  <loc>https://cancercontrol.cancer.gov/ocs/resources/pathways/highlights_post_1.html</loc>
-  <lastmod>2019-04-05T17:56:42+00:00</lastmod>
-  <priority>0.41</priority>
-</url>
-<url>
-  <loc>https://cancercontrol.cancer.gov/ocs/resources/pathways/highlights_interventions_4.html</loc>
-  <lastmod>2019-04-05T17:56:42+00:00</lastmod>
-  <priority>0.41</priority>
-</url>
-<url>
-  <loc>https://cancercontrol.cancer.gov/ocs/resources/embracing-future/groupdinner-awards.html</loc>
-  <lastmod>2019-04-05T17:56:40+00:00</lastmod>
-  <priority>0.33</priority>
-</url>
-<url>
-  <loc>https://cancercontrol.cancer.gov/ocs/resources/embracing-future/highlight-rowland.html</loc>
-  <lastmod>2019-04-05T17:56:40+00:00</lastmod>
-  <priority>0.33</priority>
-</url>
-<url>
-  <loc>https://cancercontrol.cancer.gov/ocs/resources/embracing-future/presentations/rowland-welcome.pdf</loc>
-  <lastmod>2019-04-05T17:56:41+00:00</lastmod>
-  <priority>0.33</priority>
-</url>
-<url>
-  <loc>https://cancercontrol.cancer.gov/ocs/resources/embracing-future/highlight-stovall.html</loc>
-  <lastmod>2019-04-05T17:56:40+00:00</lastmod>
-  <priority>0.33</priority>
-</url>
-<url>
-  <loc>https://cancercontrol.cancer.gov/ocs/resources/embracing-future/plenary-comm-ehealth.html</loc>
-  <lastmod>2019-04-05T17:56:40+00:00</lastmod>
-  <priority>0.33</priority>
-</url>
-<url>
-  <loc>https://cancercontrol.cancer.gov/ocs/resources/embracing-future/highlight-hesse.html</loc>
-  <lastmod>2019-04-05T17:56:40+00:00</lastmod>
-  <priority>0.33</priority>
-</url>
-<url>
-  <loc>https://cancercontrol.cancer.gov/ocs/resources/embracing-future/presentations/hesse.pdf</loc>
-  <lastmod>2019-04-05T17:56:41+00:00</lastmod>
-  <priority>0.33</priority>
-</url>
-<url>
-  <loc>https://cancercontrol.cancer.gov/ocs/resources/embracing-future/highlight-poplack.html</loc>
-  <lastmod>2019-04-05T17:56:40+00:00</lastmod>
-  <priority>0.33</priority>
-</url>
-<url>
-  <loc>https://cancercontrol.cancer.gov/ocs/resources/embracing-future/abstracts/poplack.pdf</loc>
-  <lastmod>2019-04-05T17:56:40+00:00</lastmod>
-  <priority>0.33</priority>
-</url>
-<url>
-  <loc>https://cancercontrol.cancer.gov/ocs/resources/embracing-future/highlight-arora.html</loc>
-  <lastmod>2019-04-05T17:56:40+00:00</lastmod>
-  <priority>0.33</priority>
-</url>
-<url>
-  <loc>https://cancercontrol.cancer.gov/ocs/resources/embracing-future/presentations/arora.pdf</loc>
-  <lastmod>2019-04-05T17:56:41+00:00</lastmod>
-  <priority>0.33</priority>
-</url>
-<url>
-  <loc>https://cancercontrol.cancer.gov/ocs/resources/embracing-future/abstracts/gustafson.pdf</loc>
-  <lastmod>2019-04-05T17:56:40+00:00</lastmod>
-  <priority>0.33</priority>
-</url>
-<url>
-  <loc>https://cancercontrol.cancer.gov/ocs/resources/embracing-future/highlight-panelI.html</loc>
-  <lastmod>2019-04-05T17:56:40+00:00</lastmod>
-  <priority>0.33</priority>
-</url>
-<url>
-  <loc>https://cancercontrol.cancer.gov/ocs/resources/embracing-future/plenary-posttreatmencare.html</loc>
-  <lastmod>2019-04-05T17:56:40+00:00</lastmod>
-  <priority>0.33</priority>
-</url>
-<url>
-  <loc>https://cancercontrol.cancer.gov/ocs/resources/embracing-future/highlight-aziz.html</loc>
-  <lastmod>2019-04-05T17:56:40+00:00</lastmod>
-  <priority>0.33</priority>
-</url>
-<url>
-  <loc>https://cancercontrol.cancer.gov/ocs/resources/embracing-future/presentations/aziz.pdf</loc>
-  <lastmod>2019-04-05T17:56:41+00:00</lastmod>
-  <priority>0.33</priority>
-</url>
-<url>
-  <loc>https://cancercontrol.cancer.gov/ocs/resources/embracing-future/highlight-oeffinger.html</loc>
-  <lastmod>2019-04-05T17:56:40+00:00</lastmod>
-  <priority>0.33</priority>
-</url>
-<url>
-  <loc>https://cancercontrol.cancer.gov/ocs/resources/embracing-future/presentations/oeffinger.pdf</loc>
-  <lastmod>2019-04-05T17:56:41+00:00</lastmod>
-  <priority>0.33</priority>
-</url>
-<url>
-  <loc>https://cancercontrol.cancer.gov/ocs/resources/embracing-future/highlight-vaughn.html</loc>
-  <lastmod>2019-04-05T17:56:40+00:00</lastmod>
-  <priority>0.33</priority>
-</url>
-<url>
-  <loc>https://cancercontrol.cancer.gov/ocs/resources/embracing-future/presentations/vaughn.pdf</loc>
-  <lastmod>2019-04-05T17:56:41+00:00</lastmod>
-  <priority>0.33</priority>
-</url>
-<url>
-  <loc>https://cancercontrol.cancer.gov/ocs/resources/embracing-future/highlight-jacobs.html</loc>
-  <lastmod>2019-04-05T17:56:40+00:00</lastmod>
-  <priority>0.33</priority>
-</url>
-<url>
-  <loc>https://cancercontrol.cancer.gov/ocs/resources/embracing-future/abstracts/jacobs.pdf</loc>
-  <lastmod>2019-04-05T17:56:40+00:00</lastmod>
-  <priority>0.33</priority>
-</url>
-<url>
-  <loc>https://cancercontrol.cancer.gov/ocs/resources/embracing-future/highlight-ganz.html</loc>
-  <lastmod>2019-04-05T17:56:40+00:00</lastmod>
-  <priority>0.33</priority>
-</url>
-<url>
-  <loc>https://cancercontrol.cancer.gov/ocs/resources/embracing-future/abstracts/ganz.pdf</loc>
-  <lastmod>2019-04-05T17:56:40+00:00</lastmod>
-  <priority>0.33</priority>
-</url>
-<url>
-  <loc>https://cancercontrol.cancer.gov/ocs/resources/embracing-future/plenary-cancer-survive-up.html</loc>
-  <lastmod>2019-04-05T17:56:40+00:00</lastmod>
-  <priority>0.33</priority>
-</url>
-<url>
-  <loc>https://cancercontrol.cancer.gov/ocs/resources/embracing-future/highlight-freeman.html</loc>
-  <lastmod>2019-04-05T17:56:40+00:00</lastmod>
-  <priority>0.33</priority>
-</url>
-<url>
-  <loc>https://cancercontrol.cancer.gov/ocs/resources/embracing-future/presentations/freeman.pdf</loc>
-  <lastmod>2019-04-05T17:56:41+00:00</lastmod>
-  <priority>0.33</priority>
-</url>
-<url>
-  <loc>https://cancercontrol.cancer.gov/ocs/resources/embracing-future/highlight-mishel.html</loc>
-  <lastmod>2019-04-05T17:56:40+00:00</lastmod>
-  <priority>0.33</priority>
-</url>
-<url>
-  <loc>https://cancercontrol.cancer.gov/ocs/resources/embracing-future/presentations/mishel.pdf</loc>
-  <lastmod>2019-04-05T17:56:41+00:00</lastmod>
-  <priority>0.33</priority>
-</url>
-<url>
-  <loc>https://cancercontrol.cancer.gov/ocs/resources/embracing-future/highlight-kagawa.html</loc>
-  <lastmod>2019-04-05T17:56:40+00:00</lastmod>
-  <priority>0.33</priority>
-</url>
-<url>
-  <loc>https://cancercontrol.cancer.gov/ocs/resources/embracing-future/presentations/kagawa.pdf</loc>
-  <lastmod>2019-04-05T17:56:41+00:00</lastmod>
-  <priority>0.33</priority>
-</url>
-<url>
-  <loc>https://cancercontrol.cancer.gov/ocs/resources/embracing-future/highlight-baquet.html</loc>
-  <lastmod>2019-04-05T17:56:40+00:00</lastmod>
-  <priority>0.33</priority>
-</url>
-<url>
-  <loc>https://cancercontrol.cancer.gov/ocs/resources/embracing-future/presentations/baquet.pdf</loc>
-  <lastmod>2019-04-05T17:56:41+00:00</lastmod>
-  <priority>0.33</priority>
-</url>
-<url>
-  <loc>https://cancercontrol.cancer.gov/ocs/resources/embracing-future/plenary-family-caregiving.html</loc>
-  <lastmod>2019-04-05T17:56:40+00:00</lastmod>
-  <priority>0.33</priority>
-</url>
-<url>
-  <loc>https://cancercontrol.cancer.gov/ocs/resources/embracing-future/highlight-given.html</loc>
-  <lastmod>2019-04-05T17:56:40+00:00</lastmod>
-  <priority>0.33</priority>
-</url>
-<url>
-  <loc>https://cancercontrol.cancer.gov/ocs/resources/embracing-future/presentations/given.pdf</loc>
-  <lastmod>2019-04-05T17:56:41+00:00</lastmod>
-  <priority>0.33</priority>
-</url>
-<url>
-  <loc>https://cancercontrol.cancer.gov/ocs/resources/embracing-future/highlight-hunt.html</loc>
-  <lastmod>2019-04-05T17:56:40+00:00</lastmod>
-  <priority>0.33</priority>
-</url>
-<url>
-  <loc>https://cancercontrol.cancer.gov/ocs/resources/embracing-future/presentations/hunt.pdf</loc>
-  <lastmod>2019-04-05T17:56:41+00:00</lastmod>
-  <priority>0.33</priority>
-</url>
-<url>
-  <loc>https://cancercontrol.cancer.gov/ocs/resources/embracing-future/highlight-raveis.html</loc>
-  <lastmod>2019-04-05T17:56:40+00:00</lastmod>
-  <priority>0.33</priority>
-</url>
-<url>
-  <loc>https://cancercontrol.cancer.gov/ocs/resources/embracing-future/presentations/raveis.pdf</loc>
-  <lastmod>2019-04-05T17:56:41+00:00</lastmod>
-  <priority>0.33</priority>
-</url>
-<url>
-  <loc>https://cancercontrol.cancer.gov/ocs/resources/embracing-future/highlight-manne.html</loc>
-  <lastmod>2019-04-05T17:56:40+00:00</lastmod>
-  <priority>0.33</priority>
-</url>
-<url>
-  <loc>https://cancercontrol.cancer.gov/ocs/resources/embracing-future/abstracts/manne.pdf</loc>
-  <lastmod>2019-04-05T17:56:40+00:00</lastmod>
-  <priority>0.33</priority>
-</url>
-<url>
-  <loc>https://cancercontrol.cancer.gov/ocs/resources/embracing-future/highlight-schulz.html</loc>
-  <lastmod>2019-04-05T17:56:40+00:00</lastmod>
-  <priority>0.33</priority>
-</url>
-<url>
-  <loc>https://cancercontrol.cancer.gov/ocs/resources/embracing-future/presentations/schulz.pdf</loc>
-  <lastmod>2019-04-05T17:56:41+00:00</lastmod>
-  <priority>0.33</priority>
-</url>
-<url>
-  <loc>https://cancercontrol.cancer.gov/ocs/resources/embracing-future/breakout-emotion.html</loc>
-  <lastmod>2019-04-05T17:56:40+00:00</lastmod>
-  <priority>0.33</priority>
-</url>
-<url>
-  <loc>https://cancercontrol.cancer.gov/ocs/resources/embracing-future/highlight-andrykowski.html</loc>
-  <lastmod>2019-04-05T17:56:40+00:00</lastmod>
-  <priority>0.33</priority>
-</url>
-<url>
-  <loc>https://cancercontrol.cancer.gov/ocs/resources/embracing-future/abstracts/anydrykowski.pdf</loc>
-  <lastmod>2019-04-05T17:56:40+00:00</lastmod>
-  <priority>0.33</priority>
-</url>
-<url>
-  <loc>https://cancercontrol.cancer.gov/ocs/resources/embracing-future/highlight-syrjala.html</loc>
-  <lastmod>2019-04-05T17:56:40+00:00</lastmod>
-  <priority>0.33</priority>
-</url>
-<url>
-  <loc>https://cancercontrol.cancer.gov/ocs/resources/embracing-future/presentations/syrjala.pdf</loc>
-  <lastmod>2019-04-05T17:56:41+00:00</lastmod>
-  <priority>0.33</priority>
-</url>
-<url>
-  <loc>https://cancercontrol.cancer.gov/ocs/resources/embracing-future/highlight-lustig.html</loc>
-  <lastmod>2019-04-05T17:56:40+00:00</lastmod>
-  <priority>0.33</priority>
-</url>
-<url>
-  <loc>https://cancercontrol.cancer.gov/ocs/resources/embracing-future/breakout-lifestylechange.html</loc>
-  <lastmod>2019-04-05T17:56:40+00:00</lastmod>
-  <priority>0.33</priority>
-</url>
-<url>
-  <loc>https://cancercontrol.cancer.gov/ocs/resources/embracing-future/highlight-pinto.html</loc>
-  <lastmod>2019-04-05T17:56:40+00:00</lastmod>
-  <priority>0.33</priority>
-</url>
-<url>
-  <loc>https://cancercontrol.cancer.gov/ocs/resources/embracing-future/abstracts/pinto.pdf</loc>
-  <lastmod>2019-04-05T17:56:40+00:00</lastmod>
-  <priority>0.33</priority>
-</url>
-<url>
-  <loc>https://cancercontrol.cancer.gov/ocs/resources/embracing-future/highlight-irwin.html</loc>
-  <lastmod>2019-04-05T17:56:40+00:00</lastmod>
-  <priority>0.33</priority>
-</url>
-<url>
-  <loc>https://cancercontrol.cancer.gov/ocs/resources/embracing-future/presentations/irwin.pdf</loc>
-  <lastmod>2019-04-05T17:56:41+00:00</lastmod>
-  <priority>0.33</priority>
-</url>
-<url>
-  <loc>https://cancercontrol.cancer.gov/ocs/resources/embracing-future/highlight-hughes-halbert.html</loc>
-  <lastmod>2019-04-05T17:56:40+00:00</lastmod>
-  <priority>0.33</priority>
-</url>
-<url>
-  <loc>https://cancercontrol.cancer.gov/ocs/resources/embracing-future/presentations/hughes-halbert.pdf</loc>
-  <lastmod>2019-04-05T17:56:41+00:00</lastmod>
-  <priority>0.33</priority>
-</url>
-<url>
-  <loc>https://cancercontrol.cancer.gov/ocs/resources/embracing-future/highlight-schwartz.html</loc>
-  <lastmod>2019-04-05T17:56:40+00:00</lastmod>
-  <priority>0.33</priority>
-</url>
-<url>
-  <loc>https://cancercontrol.cancer.gov/ocs/resources/embracing-future/abstracts/schwartz.pdf</loc>
-  <lastmod>2019-04-05T17:56:40+00:00</lastmod>
-  <priority>0.33</priority>
-</url>
-<url>
-  <loc>https://cancercontrol.cancer.gov/ocs/resources/pathways/highlights.html</loc>
-  <lastmod>2019-04-05T17:56:42+00:00</lastmod>
-  <priority>0.33</priority>
-</url>
-<url>
-  <loc>https://cancercontrol.cancer.gov/ocs/resources/pathways/ganz.pdf</loc>
-  <lastmod>2019-04-05T17:56:42+00:00</lastmod>
-  <priority>0.33</priority>
-</url>
-<url>
-  <loc>https://cancercontrol.cancer.gov/ocs/resources/pathways/highlights_post_2.html</loc>
-  <lastmod>2019-04-05T17:56:42+00:00</lastmod>
-  <priority>0.33</priority>
-</url>
-<url>
-  <loc>https://cancercontrol.cancer.gov/ocs/resources/pathways/sklar.pdf</loc>
-  <lastmod>2019-04-05T17:56:42+00:00</lastmod>
-  <priority>0.33</priority>
-</url>
-<url>
-  <loc>https://cancercontrol.cancer.gov/ocs/resources/pathways/highlights_post_3.html</loc>
-  <lastmod>2019-04-05T17:56:42+00:00</lastmod>
-  <priority>0.33</priority>
-</url>
-<url>
-  <loc>https://cancercontrol.cancer.gov/ocs/resources/pathways/presentation_chen.html</loc>
-  <lastmod>2019-04-05T17:56:42+00:00</lastmod>
-  <priority>0.33</priority>
-</url>
-<url>
-  <loc>https://cancercontrol.cancer.gov/ocs/resources/pathways/highlights_post_4.html</loc>
-  <lastmod>2019-04-05T17:56:42+00:00</lastmod>
-  <priority>0.33</priority>
-</url>
-<url>
-  <loc>https://cancercontrol.cancer.gov/ocs/resources/pathways/ahles.pdf</loc>
-  <lastmod>2019-04-05T17:56:42+00:00</lastmod>
-  <priority>0.33</priority>
-</url>
-<url>
-  <loc>https://cancercontrol.cancer.gov/ocs/resources/pathways/highlights_interventions_1.html</loc>
-  <lastmod>2019-04-05T17:56:42+00:00</lastmod>
-  <priority>0.33</priority>
-</url>
-<url>
-  <loc>https://cancercontrol.cancer.gov/ocs/resources/pathways/jacobsen.pdf</loc>
-  <lastmod>2019-04-05T17:56:42+00:00</lastmod>
-  <priority>0.33</priority>
-</url>
-<url>
-  <loc>https://cancercontrol.cancer.gov/ocs/resources/pathways/highlights_interventions_2.html</loc>
-  <lastmod>2019-04-05T17:56:42+00:00</lastmod>
-  <priority>0.33</priority>
-</url>
-<url>
-  <loc>https://cancercontrol.cancer.gov/ocs/resources/pathways/courneya.pdf</loc>
-  <lastmod>2019-04-05T17:56:42+00:00</lastmod>
-  <priority>0.33</priority>
-</url>
-<url>
-  <loc>https://cancercontrol.cancer.gov/ocs/resources/pathways/highlights_interventions_3.html</loc>
-  <lastmod>2019-04-05T17:56:42+00:00</lastmod>
-  <priority>0.33</priority>
-</url>
-<url>
-  <loc>https://cancercontrol.cancer.gov/ocs/resources/pathways/demark.pdf</loc>
-  <lastmod>2019-04-05T17:56:42+00:00</lastmod>
-  <priority>0.33</priority>
-</url>
-<url>
-  <loc>https://cancercontrol.cancer.gov/ocs/resources/pathways/emmons.pdf</loc>
-  <lastmod>2019-04-05T17:56:42+00:00</lastmod>
-  <priority>0.33</priority>
-</url>
-<url>
-  <loc>https://cancercontrol.cancer.gov/ocs/resources/pathways/leffall.pdf</loc>
-  <lastmod>2019-04-05T17:56:42+00:00</lastmod>
-  <priority>0.33</priority>
-</url>
-<url>
-  <loc>https://cancercontrol.cancer.gov/ocs/resources/pathways/highlights_priorities_2.html</loc>
-  <lastmod>2019-04-05T17:56:42+00:00</lastmod>
-  <priority>0.33</priority>
-</url>
-<url>
-  <loc>https://cancercontrol.cancer.gov/ocs/resources/pathways/weiner.pdf</loc>
-  <lastmod>2019-04-05T17:56:42+00:00</lastmod>
-  <priority>0.33</priority>
-</url>
-<url>
-  <loc>https://cancercontrol.cancer.gov/ocs/resources/pathways/highlights_priorities_3.html</loc>
-  <lastmod>2019-04-05T17:56:42+00:00</lastmod>
-  <priority>0.33</priority>
-</url>
-<url>
-  <loc>https://cancercontrol.cancer.gov/ocs/resources/pathways/true.pdf</loc>
-  <lastmod>2019-04-05T17:56:42+00:00</lastmod>
-  <priority>0.33</priority>
-</url>
-<url>
-  <loc>https://cancercontrol.cancer.gov/ocs/resources/pathways/highlights_burden_1.html</loc>
-  <lastmod>2019-04-05T17:56:42+00:00</lastmod>
-  <priority>0.33</priority>
-</url>
-<url>
-  <loc>https://cancercontrol.cancer.gov/ocs/resources/pathways/bradley.pdf</loc>
-  <lastmod>2019-04-05T17:56:42+00:00</lastmod>
-  <priority>0.33</priority>
-</url>
-<url>
-  <loc>https://cancercontrol.cancer.gov/ocs/resources/pathways/highlights_burden_2.html</loc>
-  <lastmod>2019-04-05T17:56:42+00:00</lastmod>
-  <priority>0.33</priority>
-</url>
-<url>
-  <loc>https://cancercontrol.cancer.gov/ocs/resources/pathways/brown.pdf</loc>
-  <lastmod>2019-04-05T17:56:42+00:00</lastmod>
-  <priority>0.33</priority>
-</url>
-<url>
-  <loc>https://cancercontrol.cancer.gov/ocs/resources/pathways/highlights_burden_3.html</loc>
-  <lastmod>2019-04-05T17:56:42+00:00</lastmod>
-  <priority>0.33</priority>
-</url>
-<url>
-  <loc>https://cancercontrol.cancer.gov/ocs/resources/pathways/presentation_yancik.html</loc>
-  <lastmod>2019-04-05T17:56:42+00:00</lastmod>
-  <priority>0.33</priority>
 </url>
 
 
