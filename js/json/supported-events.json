@@ -1,28 +1,31 @@
 {
     "events": [
 		{
-			"eventtitle":"Beyond Statistical Significance: Finding Meaningful Effects Virtual Meeting",
-			"eventurl":"https://apps1.seiservices.com/meaningfuleffects/",
-			"eventdatemonth":"September",
-			"eventdateday":"2",
-			"eventtype":"Webinar",
-            "fulldate":"2020-09-02T23:00:00.000Z"
-        },
-		{
 			"eventtitle":"ASA24 Dietary Assessment Tool: Recent Updates and Future Enhancements",
 			"eventurl":"https://cbiit.webex.com/mw3300/mywebex/default.do?nomenu=true&siteurl=cbiit&service=6&rnd=0.6495175043315439&main_url=https%3A%2F%2Fcbiit.webex.com%2Fec3300%2Feventcenter%2Fevent%2FeventAction.do%3FtheAction%3Ddetail%26%26%26EMK%3D4832534b00000004b7444afa9e165acce42f67a4cc05bbd690b62b549b134a515dc3724396bd29ad%26siteurl%3Dcbiit%26confViewID%3D170012566055035082%26encryptTicket%3DSDJTSwAAAATWQZDGtxifwI4vvQ3BAznS-Yep_XCsM7O63I8fXaRUYA2%26",
 			"eventdatemonth":"September",
 			"eventdateday":"14",
 			"eventtype":"Webinar",
-            "fulldate":"2020-09-14T23:00:00.000Z"
+            "fulldate":"2020-09-14T23:00:00.000Z",
+			"researchcategory":""
         },
 		{
-			"eventtitle":"Polygenic Risk Scores",
+			"eventtitle":"Polygenic Risk Scores: Development, Validation and Applications",
 			"eventurl":"https://epi.grants.cancer.gov/events/seqSPACE/index.html#chatterjee",
 			"eventdatemonth":"September",
 			"eventdateday":"15",
 			"eventtype":"Webinar",
-            "fulldate":"2020-09-15T23:00:00.000Z"
+            "fulldate":"2020-09-15T23:00:00.000Z",
+			"researchcategory":"EGRP"
+        },
+		{
+			"eventtitle":"Implementation Science in Deploying and Evaluating Symptom Assessment and Management",
+			"eventurl":"https://cancercontrol.cancer.gov/IS/training-education/details.aspx?ID=79",
+			"eventdatemonth":"September",
+			"eventdateday":"16",
+			"eventtype":"Webinar",
+            "fulldate":"2020-09-16T23:00:00.000Z",
+			"researchcategory":"IS"
         },
 		{
 			"eventtitle":"NIH Early-Onset Colorectal Cancer Think Tank Meeting",
@@ -30,7 +33,8 @@
 			"eventdatemonth":"September",
 			"eventdateday":"24-25",
 			"eventtype":"Webinar",
-            "fulldate":"2020-09-25T23:00:00.000Z"
+            "fulldate":"2020-09-25T23:00:00.000Z",
+			"researchcategory":""
         },
 		{
 			"eventtitle":"Geriatric Assessment in Oncology: Yesterday, Today, & Tomorrow",
@@ -38,7 +42,8 @@
 			"eventdatemonth":"September",
 			"eventdateday":"28",
 			"eventtype":"Webinar",
-            "fulldate":"2020-09-28T23:00:00.000Z"
+            "fulldate":"2020-09-28T23:00:00.000Z",
+			"researchcategory":""
         },
 		{
 			"eventtitle":"Hindsight is 2020: Lessons learned from cancer and aging researchers on submitting a NIH grant",
@@ -46,7 +51,8 @@
 			"eventdatemonth":"October",
 			"eventdateday":"5",
 			"eventtype":"Webinar",
-            "fulldate":"2020-10-05T23:00:00.000Z"
+            "fulldate":"2020-10-05T23:00:00.000Z",
+			"researchcategory":""
         },
 		{
 			"eventtitle":"Leveraging Cross-Cancer Shared Heritability to Better Understand the Genetic Architecture of Cancer",
@@ -54,15 +60,26 @@
 			"eventdatemonth":"October",
 			"eventdateday":"13",
 			"eventtype":"Webinar",
-            "fulldate":"2020-10-13T23:00:00.000Z"
+            "fulldate":"2020-10-13T23:00:00.000Z",
+			"researchcategory":""
         },
 		{
 			"eventtitle":"The Claims of Biospecimen Donors to Credit and Compensation",
 			"eventurl":"https://epi.grants.cancer.gov/events/enrich-forum/index.html#wendler",
 			"eventdatemonth":"October",
-			"eventdateday":"20",
+			"eventdateday":"26",
 			"eventtype":"Webinar",
-            "fulldate":"2020-10-13T23:00:00.000Z"
+            "fulldate":"2020-10-26T23:00:00.000Z",
+			"researchcategory":"EGRP"
+        },
+		{
+			"eventtitle":"COVID19 Pandemic: Natural Experiment in Rural Cancer Care Telemedicine Capacity Building",
+			"eventurl":"https://healthcaredelivery.cancer.gov/cyberseminars/telehealth.html",
+			"eventdatemonth":"October",
+			"eventdateday":"TBD",
+			"eventtype":"Webinar",
+            "fulldate":"2020-10-31T23:00:00.000Z",
+			"researchcategory":"HDRP"
         },
 		{
 			"eventtitle":"Next Generation Sequencing and Tumor Initiation and Progression",
@@ -70,7 +87,8 @@
 			"eventdatemonth":"November",
 			"eventdateday":"3",
 			"eventtype":"Webinar",
-            "fulldate":"2020-10-03T23:00:00.000Z"
+            "fulldate":"2020-10-03T23:00:00.000Z",
+			"researchcategory":""
         },
 		{
 			"eventtitle":"SAVE THE DATE: NCI Cohort Consortium Annual Meeting",
@@ -78,7 +96,8 @@
 			"eventdatemonth":"November",
 			"eventdateday":"16-17",
 			"eventtype":"Webinar",
-            "fulldate":"2020-10-17T23:00:00.000Z"
+            "fulldate":"2020-10-17T23:00:00.000Z",
+			"researchcategory":""
         },
 		{
 			"eventtitle":"<span>Cancer Epidemiology in Hispanic Populations Workshop</span><br> <em>Rescheduled from May 2020.</em>",
@@ -86,7 +105,35 @@
 			"eventdatemonth":"January",
 			"eventdateday":"27-28",
 			"eventtype":"In-Person Workshop <em>(Also available via WebEx)</em>",
-            "fulldate":"2021-01-28T23:00:00.000Z"
+            "fulldate":"2021-01-28T23:00:00.000Z",
+			"researchcategory":""
+        },
+		{
+			"eventtitle":"Self-Management to Optimize Survivorship Care and Outcomes in Lung and Colorectal Cancer",
+			"eventurl":"https://healthcaredelivery.cancer.gov/cyberseminars/telehealth.html",
+			"eventdatemonth":"February",
+			"eventdateday":"4",
+			"eventtype":"Webinar",
+            "fulldate":"2021-02-04T23:00:00.000Z",
+			"researchcategory":"HDRP"
+        },
+		{
+			"eventtitle":"Enhancing Cancer Care of Rural Dwellers Through Telehealth and Engagement",
+			"eventurl":"https://healthcaredelivery.cancer.gov/cyberseminars/telehealth.html",
+			"eventdatemonth":"June",
+			"eventdateday":"11",
+			"eventtype":"Webinar",
+            "fulldate":"2021-06-11T23:00:00.000Z",
+			"researchcategory":"HDRP"
+        },
+		{
+			"eventtitle":"Optimizing Telehealth Across the Cancer Care Continuum During the COVID 19 National Emergency",
+			"eventurl":"https://healthcaredelivery.cancer.gov/cyberseminars/telehealth.html",
+			"eventdatemonth":"October",
+			"eventdateday":"12",
+			"eventtype":"Webinar",
+            "fulldate":"2021-10-12T23:00:00.000Z",
+			"researchcategory":"HDRP"
         }
     ]
 }
